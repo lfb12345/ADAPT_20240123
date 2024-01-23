@@ -1,0 +1,610 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/dmsp-f13_ssj_precipitating-electrons-ions_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     dmsp-f13_ssj_precipitating-electrons-ions_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     28
+NumAttrs:     62 (28 global, 34 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (28 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"DMSP"
+Source_name (1 entry):
+	0 (CDF_CHAR/8): 	"dmsp-f13"
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+	1 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/28): 	"precipitating-electrons-ions"
+Descriptor (1 entry):
+	0 (CDF_CHAR/3): 	"ssj"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/5): 	"Staff"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/14): 	"AFRL, NGDC, CU"
+TEXT (1 entry):
+	0 (CDF_CHAR/440): 	"Precipitating electrons and ions observed at nominally 850km altitude and over a range of energies from 30 eV to 30 keV using the Special Sensor J (SSJ) instrument.  Please contact Rob.Redmon@noaa.gov with questions and comments. Many individuals made important contributions including: D. Hardy, E. Holeman, F. Rich, D. Ober, G. Wilson, J. Machuzak, K. Kadinsky-Cade, J. McGarity, W.F. Denig, K. Martin, R. Redmon, D. Knipp, L. Kilcommons."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"DMSP"
+Logical_source (1 entry):
+	0 (CDF_CHAR/41): 	"dmsp-f13_ssj_precipitating-electrons-ions"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/61): 	"Precipitating electrons and ions observed at nominally 850km."
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"1 second"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/72): 	"Please acknowledge providers.  If you find problems, please report them."
+Generated_by (1 entry):
+	0 (CDF_CHAR/15): 	"Liam Kilcommons"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/70): 	"Data access provided by NGDC in coordination with AFRL and CU Boulder."
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/56): 	"NGDC Solar & Terrestrial Physics Satellite Data Services"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/32): 	"NGDC STP Satellite Data Services"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/59): 	"http://www.ngdc.noaa.gov/stp/satellite/satdataservices.html"
+DWELL_TIME (1 entry):
+	0 (CDF_CHAR/1): 	" "
+VERSION (1 entry):
+	0 (CDF_CHAR/6): 	" 1.1.1"
+spase_DatasetResourceID (0 entry):
+
+Variable Attributes (34 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+
+Variable Information (0 rVariable, 28 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+SC_ECI                CDF_DOUBLE/1	1:[3]	T/T
+SC_ECI_LABEL          CDF_CHAR/5	1:[3]	F/T
+SC_GEOCENTRIC_LAT     CDF_DOUBLE/1	0:[]	T/  
+SC_GEOCENTRIC_LON     CDF_DOUBLE/1	0:[]	T/  
+SC_GEOCENTRIC_R       CDF_DOUBLE/1	0:[]	T/  
+SC_AACGM_LAT          CDF_DOUBLE/1	0:[]	T/  
+SC_AACGM_LON          CDF_DOUBLE/1	0:[]	T/  
+SC_AACGM_LTIME        CDF_DOUBLE/1	0:[]	T/  
+CHANNEL_ENERGIES      CDF_FLOAT/1	1:[19]	F/T
+ELE_COUNTS_OBS        CDF_FLOAT/1	1:[19]	T/T
+ELE_COUNTS_BKG        CDF_FLOAT/1	1:[19]	T/T
+ELE_GEOMETRIC         CDF_DOUBLE/1	1:[19]	F/T
+ELE_DIFF_ENERGY_FLUX  CDF_FLOAT/1	1:[19]	T/T
+ELE_DIFF_ENERGY_FLUX_STD CDF_FLOAT/1	1:[19]	T/T
+ELE_TOTAL_ENERGY_FLUX CDF_FLOAT/1	0:[]	T/  
+ELE_TOTAL_ENERGY_FLUX_STD CDF_FLOAT/1	0:[]	T/  
+ELE_AVG_ENERGY        CDF_FLOAT/1	0:[]	T/  
+ELE_AVG_ENERGY_STD    CDF_FLOAT/1	0:[]	T/  
+ION_COUNTS_OBS        CDF_FLOAT/1	1:[19]	T/T
+ION_COUNTS_BKG        CDF_FLOAT/1	1:[19]	T/T
+ION_GEOMETRIC         CDF_DOUBLE/1	1:[19]	F/T
+ION_DIFF_ENERGY_FLUX  CDF_FLOAT/1	1:[19]	T/T
+ION_DIFF_ENERGY_FLUX_STD CDF_FLOAT/1	1:[19]	T/T
+ION_TOTAL_ENERGY_FLUX CDF_FLOAT/1	0:[]	T/  
+ION_TOTAL_ENERGY_FLUX_STD CDF_FLOAT/1	0:[]	T/  
+ION_AVG_ENERGY        CDF_FLOAT/1	0:[]	T/  
+ION_AVG_ENERGY_STD    CDF_FLOAT/1	0:[]	T/  
+
+
+Variable (28 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Default time"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+SC_ECI (No: 1) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Earth Centered Inertial (ECI) spacecraft location (x,y,z) in km."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "SC_ECI"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "SC_ECI"
+     LABL_PTR_1      (CDF_CHAR/12): "SC_ECI_LABEL"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_DOUBLE/3): -7500.0, -7500.0, -7500.0
+     VALIDMAX        (CDF_DOUBLE/3): 7500.0, 7500.0, 7500.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/309): "Epoch is True of Date (TOD). These ECI coordinates are calculated from an SPDF SSC Locator 1-minute ephemeris using an 8 order interpolation (Burden, R. L. and Faires, J. D., Numerical Analysis, 5th Ed., PWS Publishing Company, Boston, 1993). Using SPDF methods, expected accuracy is on the order of a few km."
+
+SC_ECI_LABEL (No: 2) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "SC_ECI_LABEL"
+     FIELDNAM        (CDF_CHAR/12): "SC_ECI_LABEL"
+     FORMAT          (CDF_CHAR/2): "A5"
+     LABLAXIS        (CDF_CHAR/12): "SC_ECI_LABEL"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+SC_GEOCENTRIC_LAT (No: 3) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Geocentric latitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "SC_GEOCENTRIC_LAT"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/17): "SC_GEOCENTRIC_LAT"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/54): "Calculated using IDL Astro Library function eci2geo()."
+
+SC_GEOCENTRIC_LON (No: 4) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Geocentric Longitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "SC_GEOCENTRIC_LON"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/17): "SC_GEOCENTRIC_LON"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/54): "Calculated using IDL Astro Library function eci2geo()."
+
+SC_GEOCENTRIC_R (No: 5) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "Distance from center of Earth in km."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/20): "SC_GEOCENTRIC_RADIUS"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/15): "SC_GEOCENTRIC_R"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_DOUBLE/1): 6380.0
+     VALIDMAX        (CDF_DOUBLE/1): 7500.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SC_AACGM_LAT (No: 6) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Altitude Adjusted Corrected Geomagnetic  Latitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "SC_AACGM_LAT"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/12): "SC_AACGM_LAT"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/132): "Calculated using SuperDARN AACGM IDL library. Values are the result of linearly interpolating between 2 nearest AACGM 5-year epochs."
+
+SC_AACGM_LON (No: 7) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "Altitude Adjusted Corrected Geomagnetic  Longitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "SC_AACGM_LON"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/12): "SC_AACGM_LON"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/132): "Calculated using SuperDARN AACGM IDL library. Values are the result of linearly interpolating between 2 nearest AACGM 5-year epochs."
+
+SC_AACGM_LTIME (No: 8) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "Altitude Adjusted Corrected Geomagnetic Local Time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "SC_AACGM_LTIME"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "SC_AACGM_LTIME"
+     UNITS           (CDF_CHAR/2): "hr"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 24.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/132): "Calculated using SuperDARN AACGM IDL library. Values are the result of linearly interpolating between 2 nearest AACGM 5-year epochs."
+
+CHANNEL_ENERGIES (No: 9) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Channel center energies (eV)."
+     FIELDNAM        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_FLOAT/1): 30.0
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+ELE_COUNTS_OBS (No: 10) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Electron counts as observed; no corrections."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/14): "ELE_COUNTS_OBS"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "ELE_COUNTS_OBS"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.06e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+ELE_COUNTS_BKG (No: 11) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "Background electron count estimate."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/14): "ELE_COUNTS_BKG"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "ELE_COUNTS_BKG"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): -2.06e+06
+     VALIDMAX        (CDF_FLOAT/1): 2.06e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/229): "This instrument doesn't have a dedicated background channel. An estimate is arrived at by running the AFRL technique forward and backward in time and choosing the largest of these two estimates for each second and energy channel."
+
+ELE_GEOMETRIC (No: 12) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Electron Channel Geometric factors (cm2-eV-ster-sec)."
+     FIELDNAM        (CDF_CHAR/13): "ELE_GEOMETRIC"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/13): "ELE_GEOMETRIC"
+     UNITS           (CDF_CHAR/15): "cm2-eV-ster-sec"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+ELE_DIFF_ENERGY_FLUX (No: 13) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "Electron differential energy flux (ev/cm2/delta-eV/ster/s)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/20): "ELE_DIFF_ENERGY_FLUX"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/20): "ELE_DIFF_ENERGY_FLUX"
+     UNITS           (CDF_CHAR/22): "eV/cm2/delta-eV/ster/s"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/60): "Uncertainty represented in variable ELE_DIFF_ENERGY_FLUX_STD"
+
+ELE_DIFF_ENERGY_FLUX_STD (No: 14) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/81): "Estimated relative uncertainty in electron differential energy flux (fractional)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/24): "ELE_DIFF_ENERGY_FLUX_STD"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/24): "ELE_DIFF_ENERGY_FLUX_STD"
+     UNITS           (CDF_CHAR/10): "fractional"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+ELE_TOTAL_ENERGY_FLUX (No: 15) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "Electron total energy flux integrated over energy (eV/cm2/ster/s)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "ELE_TOTAL_ENERGY_FLUX"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/21): "ELE_TOTAL_ENERGY_FLUX"
+     UNITS           (CDF_CHAR/13): "eV/cm2/ster/s"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/61): "Uncertainty represented in variable ELE_TOTAL_ENERGY_FLUX_STD"
+
+ELE_TOTAL_ENERGY_FLUX_STD (No: 16) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/97): "Estimated relative uncertainty in electron total energy flux integrated over energy (fractional)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/25): "ELE_TOTAL_ENERGY_FLUX_STD"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/25): "ELE_TOTAL_ENERGY_FLUX_STD"
+     UNITS           (CDF_CHAR/10): "fractional"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+ELE_AVG_ENERGY (No: 17) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Average electron energy (eV)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "ELE_AVG_ENERGY"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "ELE_AVG_ENERGY"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/106): "Computed as: Total Energy Flux / Total Number Flux. Uncertainty represented in variable ELE_AVG_ENERGY_STD"
+
+ELE_AVG_ENERGY_STD (No: 18) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "Estimated relative uncertainty in average electron energy (fractional)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "ELE_AVG_ENERGY_STD"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "ELE_AVG_ENERGY_STD"
+     UNITS           (CDF_CHAR/10): "fractional"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+ION_COUNTS_OBS (No: 19) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "Ion counts as observed; no corrections."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/14): "ION_COUNTS_OBS"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "ION_COUNTS_OBS"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.06e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+ION_COUNTS_BKG (No: 20) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "Background ion count estimate."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/14): "ION_COUNTS_BKG"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "ION_COUNTS_BKG"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): -2.06e+06
+     VALIDMAX        (CDF_FLOAT/1): 2.06e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/229): "This instrument doesn't have a dedicated background channel. An estimate is arrived at by running the AFRL technique forward and backward in time and choosing the largest of these two estimates for each second and energy channel."
+
+ION_GEOMETRIC (No: 21) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "Ion Channel Geometric factors (cm2-eV-ster-sec)."
+     FIELDNAM        (CDF_CHAR/13): "ION_GEOMETRIC"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/13): "ION_GEOMETRIC"
+     UNITS           (CDF_CHAR/15): "cm2-eV-ster-sec"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+ION_DIFF_ENERGY_FLUX (No: 22) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Ion differential energy flux (ev/cm2/delta-eV/ster/s)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/20): "ION_DIFF_ENERGY_FLUX"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/20): "ION_DIFF_ENERGY_FLUX"
+     UNITS           (CDF_CHAR/22): "ev/cm2/delta-eV/ster/s"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/60): "Uncertainty represented in variable ION_DIFF_ENERGY_FLUX_STD"
+
+ION_DIFF_ENERGY_FLUX_STD (No: 23) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "Estimated relative uncertainty in ion differential energy flux (fractional)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "CHANNEL_ENERGIES"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/24): "ELE_DIFF_ENERGY_FLUX_STD"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/24): "ION_DIFF_ENERGY_FLUX_STD"
+     UNITS           (CDF_CHAR/10): "fractional"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+ION_TOTAL_ENERGY_FLUX (No: 24) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Ion total energy flux integrated over energy (eV/cm2/ster/s)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "ION_TOTAL_ENERGY_FLUX"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/21): "ION_TOTAL_ENERGY_FLUX"
+     UNITS           (CDF_CHAR/13): "eV/cm2/ster/s"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/61): "Uncertainty represented in variable ION_TOTAL_ENERGY_FLUX_STD"
+
+ION_TOTAL_ENERGY_FLUX_STD (No: 25) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/92): "Estimated relative uncertainty in ion total energy flux integrated over energy (fractional)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/25): "ION_TOTAL_ENERGY_FLUX_STD"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/25): "ION_TOTAL_ENERGY_FLUX_STD"
+     UNITS           (CDF_CHAR/10): "fractional"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+ION_AVG_ENERGY (No: 26) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Average ion energy (eV)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "ION_AVG_ENERGY"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "ION_AVG_ENERGY"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/106): "Computed as: Total Energy Flux / Total Number Flux. Uncertainty represented in variable ION_AVG_ENERGY_STD"
+
+ION_AVG_ENERGY_STD (No: 27) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "Estimated relative uncertainty in ion average energy (fractional)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "ION_AVG_ENERGY_STD"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "ION_AVG_ENERGY_STD"
+     UNITS           (CDF_CHAR/10): "fractional"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+

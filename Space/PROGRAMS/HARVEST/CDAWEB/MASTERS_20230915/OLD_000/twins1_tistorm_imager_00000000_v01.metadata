@@ -1,0 +1,877 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/twins1_tistorm_imager_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     twins1_tistorm_imager_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     40
+NumAttrs:     40 (19 global, 21 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/55): 	"TWINS>Two Wide-angle Imaging Neutral-atom Spectrometers"
+Source_name (1 entry):
+	0 (CDF_CHAR/58): 	"TWINS1>Two Wide-angle Imaging Neutral-atom Spectrometers 1"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"TiStorm>TiStorm"
+Descriptor (1 entry):
+	0 (CDF_CHAR/17): 	"IMAGER>image data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"Amy Keesee"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/24): 	"West Virginia University"
+TEXT (5 entries):
+	0 (CDF_CHAR/260): 	"TWINS (Two Wide-angle Imaging Neutral-atom Spectrometers) is a Mission of Opportunity under NASA's Small Explorer (SMEX) program. TWINS-1 and TWINS-2 are the designations for NASA-sponsored instruments flying on unspecified non-NASA U.S. government spacecraft."
+	1 (CDF_CHAR/368): 	"The TWINS-1 instrument high voltages were turned on in April 2007 and the TWINS-2 high voltages in May 2008; the exact launchdates are not available. The data (including both science data and spacecraft ephemeris/attitude information) from the two NASA-funded science instruments are publicly available to the scientific research community.  See http://twins.swri.edu/"
+	2 (CDF_CHAR/697): 	"TWINS is a stereo mission whose overall scientific objective is to establish the global connectivities and causal relationships between processes in different regions of the Earth.s magnetosphere. To meet this goal, TWINS-1 and TWINS-2 provide stereoscopic neutral atom imaging of the magnetosphere from two widely spaced, high-altitude, high-inclination spacecraft. TWINS instrumentation includes an energetic neutral atom (ENA) imager to capture charge-exchange-produced neutral atoms over a broad energy range (approximately 1-100 keV) and a Lyman-alpha detector to measure the density of the neutral hydrogen geocorona needed for extraction of magnetospheric ion fluxes from neutral atom data."
+	3 (CDF_CHAR/681): 	"The TWINS-1 and TWINS-2 instruments are identical. Each spacecraft carrying TWINS instruments is in a Molniya orbit (63.4 deg, 7.2 Re apogee, 1000 km perigee; period 12 h), and is three-axis stabilized and approximately nadir-pointing. Each acquires image data with time resolution of 60 s. The time required to change actuator direction between scans (no data collection) was 25 seconds from June 2008 to July 2009, and 12 seconds at all other times.  This gives an effective cadence of 72 or 85 seconds.  The nominal design lifetime for each instrument is four years. TWINS operates  only during the apogee portion of each orbit, when the spacecraft is above the radiation belts."
+	4 (CDF_CHAR/84): 	"More detailed information is available at the TWINS home page http://twins.swri.edu/"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/48): 	"Imaging and Remote Sensing (Magnetosphere/Earth)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"TWINS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/21): 	"twins1_TiStorm_Imager"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/34): 	"twins1_TiStorm_Imager_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/85): 	"Images of plasma sheet ion temperature during storms calculated from ENA measurements"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Link_text (2 entries):
+	0 (CDF_CHAR/21): 	"Initial CDAWeb TWINS "
+	1 (CDF_CHAR/48): 	"Release notes and other information available at"
+Link_title (2 entries):
+	0 (CDF_CHAR/32): 	"list of events and sample plots."
+	1 (CDF_CHAR/47): 	"the TWINS Southwest Research Institute web site"
+HTTP_link (2 entries):
+	0 (CDF_CHAR/44): 	"https://cdaweb.gsfc.nasa.gov/TWINS_info.html"
+	1 (CDF_CHAR/21): 	"http://twins.swri.edu"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/51): 	"spase://NASA/NumericalData/TWINS1/ENA/TISTORM/PT72S"
+
+Variable Attributes (21 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+VAR_NOTES
+SCALETYP
+VIRTUAL
+FUNCTION
+COMPONENT_0
+ALLOW_BIN
+
+Variable Information (0 rVariable, 40 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+starttime             CDF_DOUBLE/1	0:[]	T/  
+stoptime              CDF_DOUBLE/1	0:[]	T/  
+sweepsMin             CDF_INT2/1	0:[]	T/  
+sweepsMax             CDF_INT2/1	0:[]	T/  
+satellite             CDF_INT2/1	0:[]	T/  
+fluxarrays            CDF_FLOAT/1	3:[19,160,160]	T/TTT
+flux2                 CDF_FLOAT/1	2:[160,160]	T/TT
+flux8                 CDF_FLOAT/1	2:[160,160]	T/TT
+flux14                CDF_FLOAT/1	2:[160,160]	T/TT
+flux20                CDF_FLOAT/1	2:[160,160]	T/TT
+flux24                CDF_FLOAT/1	2:[160,160]	T/TT
+flux32                CDF_FLOAT/1	2:[160,160]	T/TT
+flux45                CDF_FLOAT/1	2:[160,160]	T/TT
+flux_x20              CDF_FLOAT/1	2:[160,19]	T/TT
+flux_x10              CDF_FLOAT/1	2:[160,19]	T/TT
+flux_yneg5            CDF_FLOAT/1	2:[160,19]	T/TT
+flux_y5               CDF_FLOAT/1	2:[160,19]	T/TT
+flux2M                CDF_FLOAT/1	2:[160,160]	T/TT
+flux8M                CDF_FLOAT/1	2:[160,160]	T/TT
+flux14M               CDF_FLOAT/1	2:[160,160]	T/TT
+flux20M               CDF_FLOAT/1	2:[160,160]	T/TT
+flux24M               CDF_FLOAT/1	2:[160,160]	T/TT
+flux32M               CDF_FLOAT/1	2:[160,160]	T/TT
+flux45M               CDF_FLOAT/1	2:[160,160]	T/TT
+flux_x20M             CDF_FLOAT/1	2:[160,19]	T/TT
+flux_x10M             CDF_FLOAT/1	2:[160,19]	T/TT
+flux_yneg5M           CDF_FLOAT/1	2:[160,19]	T/TT
+flux_y5M              CDF_FLOAT/1	2:[160,19]	T/TT
+countarrays           CDF_FLOAT/1	3:[19,160,160]	T/TTT
+temparrays            CDF_FLOAT/1	2:[160,160]	T/TT
+temparraysM           CDF_FLOAT/1	2:[160,160]	T/TT
+tot_time1             CDF_DOUBLE/1	0:[]	T/  
+tot_sweeps1           CDF_INT4/1	0:[]	T/  
+errorarrays           CDF_FLOAT/1	3:[19,160,160]	T/TTT
+counterrors           CDF_FLOAT/1	3:[19,160,160]	T/TTT
+delta_deg             CDF_DOUBLE/1	0:[]	T/  
+energys               CDF_INT2/1	1:[19]	F/T
+xvals                 CDF_FLOAT/1	1:[160]	F/T
+yvals                 CDF_FLOAT/1	1:[160]	F/T
+
+
+Variable (40 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-9999 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+starttime (No: 1) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "start time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/10): "start time"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/10): "start time"
+     UNITS           (CDF_CHAR/3): "mjd"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+10
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+
+stoptime (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "stop time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/9): "stop time"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/9): "stop time"
+     UNITS           (CDF_CHAR/3): "mjd"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+10
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+
+sweepsMin (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "Number of TWINS sweeps used - minimun"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "Sweeps min"
+     FILLVAL         (CDF_DOUBLE/1): -1.0
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/10): "sweeps min"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+sweepsMax (No: 4) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "Number of TWINS sweeps used - maximum"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "Sweeps max"
+     FILLVAL         (CDF_DOUBLE/1): -1.0
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/10): "sweeps max"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+satellite (No: 5) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "Satellite ID number (1=twins1 or 2:twins2)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "satellite"
+     FILLVAL         (CDF_DOUBLE/1): -1.0
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/9): "satellite"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 2.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+fluxarrays (No: 6) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/112): "[NO PLOT] Average ENA flux images for different energies projected along the LOS to the bins in the GSM xy plane"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "energys"
+     DEPEND_2        (CDF_CHAR/5): "xvals"
+     DEPEND_3        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/4): "flux"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/7): "ENAflux"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux2 (No: 7) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "ENA flux image in GSM at 2keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>THUMBSIZE>166>x=xvals,y=yvals,z=flux2"
+     FIELDNAM        (CDF_CHAR/13): "ENA flux 2keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/9): "Flux 2keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux8 (No: 8) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "------------> 8keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>THUMBSIZE>166>x=xvals,y=yvals,z=flux8"
+     FIELDNAM        (CDF_CHAR/13): "ENA flux 8keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/9): "Flux 8keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux14 (No: 9) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "------------> 14keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/49): "plasmagram>THUMBSIZE>166>x=xvals,y=yvals,z=flux14"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 14keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 14keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux20 (No: 10) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "------------> 20keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/49): "plasmagram>THUMBSIZE>166>x=xvals,y=yvals,z=flux20"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 20keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 20keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux24 (No: 11) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "------------> 24keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/49): "plasmagram>THUMBSIZE>166>x=xvals,y=yvals,z=flux24"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 24keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 24keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux32 (No: 12) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "------------> 32keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/49): "plasmagram>THUMBSIZE>166>x=xvals,y=yvals,z=flux32"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 32keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 32keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux45 (No: 13) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "------------> 45keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/49): "plasmagram>THUMBSIZE>166>x=xvals,y=yvals,z=flux45"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 45keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 45keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux_x20 (No: 14) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "ENA flux vs energy along GSM-y at GSM-x=20Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "yvals"
+     DEPEND_2        (CDF_CHAR/7): "energys"
+     DISPLAY_TYPE    (CDF_CHAR/53): "plasmagram>THUMBSIZE>166>x=yvals,y=energys,z=flux_x20"
+     FIELDNAM        (CDF_CHAR/16): "ENA flux GSMx=20"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "Flux at GSMx=20"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux_x10 (No: 15) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "----------> along GSM-y at GSM-x=10 Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "yvals"
+     DEPEND_2        (CDF_CHAR/7): "energys"
+     DISPLAY_TYPE    (CDF_CHAR/53): "plasmagram>THUMBSIZE>166>x=yvals,y=energys,z=flux_x10"
+     FIELDNAM        (CDF_CHAR/19): "ENA flux at GSMx=10"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "Flux at GSMx=10"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux_yneg5 (No: 16) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "----------> along GSM-x at GSM-y=-5 Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/7): "energys"
+     DISPLAY_TYPE    (CDF_CHAR/55): "plasmagram>THUMBSIZE>166>x=xvals,y=energys,z=flux_yneg5"
+     FIELDNAM        (CDF_CHAR/19): "ENA flux at GSMy=-5"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "Flux at GSMy=-5"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux_y5 (No: 17) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "----------> along GSM-x at GSM-y=5 Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/7): "energys"
+     DISPLAY_TYPE    (CDF_CHAR/52): "plasmagram>THUMBSIZE>166>x=xvals,y=energys,z=flux_y5"
+     FIELDNAM        (CDF_CHAR/18): "ENA flux at GSMy=5"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/14): "Flux at GSMy=5"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux2M (No: 18) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "ENA flux Movie image in GSM at 2keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/36): "plasma_movie>x=xvals,y=yvals,z=flux2"
+     FIELDNAM        (CDF_CHAR/13): "ENA flux 2keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/9): "Flux 2keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/5): "flux2"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux8M (No: 19) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "------------> Movie at 8keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/36): "plasma_movie>x=xvals,y=yvals,z=flux8"
+     FIELDNAM        (CDF_CHAR/13): "ENA flux 8keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/9): "Flux 8keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/5): "flux8"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux14M (No: 20) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "------------> Movie at 14keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/37): "plasma_movie>x=xvals,y=yvals,z=flux14"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 14keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 14keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "flux14"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux20M (No: 21) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "------------> Movie at 20keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/37): "plasma_movie>x=xvals,y=yvals,z=flux20"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 20keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 20keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "flux20"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux24M (No: 22) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "------------> Movie at 24keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/37): "plasma_movie>x=xvals,y=yvals,z=flux24"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 24keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 24keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "flux24"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux32M (No: 23) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "------------> Movie at 32keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/37): "plasma_movie>x=xvals,y=yvals,z=flux32"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 32keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 32keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "flux32"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux45M (No: 24) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "------------> Movie at 45keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/37): "plasma_movie>x=xvals,y=yvals,z=flux45"
+     FIELDNAM        (CDF_CHAR/14): "ENA flux 45keV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux 45keV"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "flux45"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux_x20M (No: 25) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "ENA flux vs energy movie along GSM-y at GSM-x=20Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "yvals"
+     DEPEND_2        (CDF_CHAR/7): "energys"
+     DISPLAY_TYPE    (CDF_CHAR/41): "plasma_movie>x=yvals,y=energys,z=flux_x20"
+     FIELDNAM        (CDF_CHAR/16): "ENA flux GSMx=20"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "Flux at GSMx=20"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/8): "flux_x20"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux_x10M (No: 26) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "----------> Movie along GSM-y at GSM-x=10 Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "yvals"
+     DEPEND_2        (CDF_CHAR/7): "energys"
+     DISPLAY_TYPE    (CDF_CHAR/41): "plasma_movie>x=yvals,y=energys,z=flux_x10"
+     FIELDNAM        (CDF_CHAR/19): "ENA flux at GSMx=10"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "Flux at GSMx=10"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/8): "flux_x10"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux_yneg5M (No: 27) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "----------> Movie along GSM-x at GSM-y=-5 Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "yvals"
+     DEPEND_2        (CDF_CHAR/7): "energys"
+     DISPLAY_TYPE    (CDF_CHAR/43): "plasma_movie>x=yvals,y=energys,z=flux_yneg5"
+     FIELDNAM        (CDF_CHAR/19): "ENA flux at GSMy=-5"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "Flux at GSMy=-5"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "flux_yneg5"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+flux_y5M (No: 28) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "----------> Movie along GSM-x at GSM-y=5 Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/7): "energys"
+     DISPLAY_TYPE    (CDF_CHAR/40): "plasma_movie>x=xvals,y=energys,z=flux_y5"
+     FIELDNAM        (CDF_CHAR/18): "ENA flux at GSMy=5"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/14): "Flux at GSMy=5"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/7): "flux_y5"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+countarrays (No: 29) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "[NO PLOT] countarrays: Number of flux values in each energy-spatial bin"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "energys"
+     DEPEND_2        (CDF_CHAR/5): "xvals"
+     DEPEND_3        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/5): "count"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/6): "counts"
+     UNITS           (CDF_CHAR/2): "Re"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+temparrays (No: 30) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "Ion temperature images calculated from ENA fluxes in each GSM spatial bin"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/53): "plasmagram>THUMBSIZE>166>x=xvals,y=yvals,z=temparrays"
+     FIELDNAM        (CDF_CHAR/2): "Ti"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "Ion Temperature"
+     UNITS           (CDF_CHAR/3): "keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 20.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+temparraysM (No: 31) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/86): "--> Movie of Ion temperature images calculated from ENA fluxes in each GSM spatial bin"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "xvals"
+     DEPEND_2        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/41): "plasma_movie>x=xvals,y=yvals,z=temparrays"
+     FIELDNAM        (CDF_CHAR/2): "Ti"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "Ion Temperature"
+     UNITS           (CDF_CHAR/3): "keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 20.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "temparrays"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+tot_time1 (No: 32) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "Time interval used for Ti calculation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/13): "time interval"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/8): "interval"
+     UNITS           (CDF_CHAR/3): "mjd"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+tot_sweeps1 (No: 33) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "total number of TWINS actuator sweeps in the interval"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "tot_sweeps"
+     FILLVAL         (CDF_DOUBLE/1): -1.0
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/10): "tot_sweeps"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 100000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+errorarrays (No: 34) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/132): "[NO PLOT] Error in each energy-space bin based on the error given by the algorithm that calculates the flux from the raw TWINS data."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "energys"
+     DEPEND_2        (CDF_CHAR/5): "xvals"
+     DEPEND_3        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/15): "Error algorithm"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/10): "Flux-Error"
+     UNITS           (CDF_CHAR/15): "(eV cm2 sr s)-1"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+counterrors (No: 35) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "[NO PLOT] Another error value determined as 1/sqrt(countarrays)."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "energys"
+     DEPEND_2        (CDF_CHAR/5): "xvals"
+     DEPEND_3        (CDF_CHAR/5): "yvals"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/11): "Count error"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/11): "Count Error"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+delta_deg (No: 36) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/92): "Uncertainty in the angle that gives the direction in which the TWINS instrument is pointing."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/16): "Pointing Err/deg"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Pointing Err"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+energys (No: 37) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/7): "energys"
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_UCHAR/7): "energys"
+     VALIDMIN        (CDF_INT2/1): 2
+     VALIDMAX        (CDF_INT2/1): 60
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/19): "Depend_1 for arrays"
+
+xvals (No: 38) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/5): "GSM-x"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     LABLAXIS        (CDF_UCHAR/5): "GSM-x"
+     UNITS           (CDF_CHAR/2): "Re"
+     VALIDMIN        (CDF_FLOAT/1): -60.0
+     VALIDMAX        (CDF_FLOAT/1): 20.0
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/66): "Geocentric Solar Magnetospheric (GSM) x-axis is the Earth-Sun line"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+yvals (No: 39) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/5): "GSM-y"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     LABLAXIS        (CDF_UCHAR/5): "GSM-y"
+     UNITS           (CDF_CHAR/2): "Re"
+     VALIDMIN        (CDF_FLOAT/1): -40.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/97): "Geocentric Solar Magnetospheric (GSM) y-axis is perpendicular to the Earth's magnetic dipole axis"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

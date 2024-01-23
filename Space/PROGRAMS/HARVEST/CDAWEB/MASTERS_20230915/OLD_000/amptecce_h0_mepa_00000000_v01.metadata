@@ -1,0 +1,2812 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/amptecce_h0_mepa_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     amptecce_h0_mepa_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     143
+NumAttrs:     48 (23 global, 25 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/55): 	"AMPTE CCE MEPA High Time Resolution Energetic Particles"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Descriptor (1 entry):
+	0 (CDF_CHAR/23): 	"EPI>Energetic Particles"
+Logical_source (1 entry):
+	0 (CDF_CHAR/17): 	"AMPTE-CCE_H0_MEPA"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/29): 	"amptecce_h0_mepa_00000000_v01"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"JHU/APL"
+Source_name (1 entry):
+	0 (CDF_CHAR/85): 	"AMPTE-CCE>Active Magnetospheric Particle Tracer Explorers Charge Composition Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"AMPTE"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/43): 	"JHU/APL AMPTE/CCE Science Data Center (SDC)"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"AMPTE"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"H0>High Resolution data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/1660): 	"This dataset contains high time resolution MEPA rate channel data. MEPA is a particle telescope with an ION head and a TOF head. The TOF head can measure species and energy, while the ION head only measures the energy of the ions, which are mostly protons. In fact, the counts in the ION head are all assumed to be protons up to 1830 keV. The ION head has 10 energy channels, and so the first 8 channels (that are all below 1830 keV) are assumed to be all protons, and the 2 channels above this are assumed to be all alphas. The TOF head has 9 energy channels that are generic (ions of any species are counted) and some species specific channels for protons, helium, oxygen, and iron. The AMPTE data was divided into records, with each record holding data from 4 spins. In any record, all the TOF species channels are always present, but only one of either a) the 10 ION head channels or b) 9 TOF generic channels are present. The majority of records have the ION head channels. The AMPTE spacecraft had a spin period of about 6 seconds. The exact spin period varies slightly and is included in the data. MEPA data is sectored into 32 directions per spin. Nearly all channels are reported as sectored values, but to conserve telemetry, many channels are only read out every other spin, or every fourth spin. In this data, all values are summed so that they are reported every fourth spin. Note that in the original AMPTE datesets, there was a timing problem which required that 19.75 seconds (one Major Frame of telemetry) be added to time values extracted from the processing system. This correction has already been made in the particle data in this dataset."
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"D. McEntire"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/30): 	"http://sd-www.jhuapl.edu/AMPTE"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/38): 	"MEPA information and data available at"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"0.1875 sec"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/79): 	"JHUAPL is acknowledged for its role in restoring and providing AMPTE/MEPA data."
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Instrument (1 entry):
+	0 (CDF_CHAR/36): 	"MPEA>Medium Engery Particle Analyzer"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/51): 	"spase://NASA/NumericalData/AMPTE-CCE/MEPA/PT0.1875S"
+
+Variable Attributes (25 attributes)
+=========================================
+MONOTON
+UNITS
+DISPLAY_TYPE
+LABLAXIS
+VALIDMIN
+CATDESC
+FULL_CATDESC
+VALIDMAX
+SCALEMAX
+SCALEMIN
+VAR_TYPE
+FIELDNAM
+FILLVAL
+DEPEND_0
+SCALETYP
+FORMAT
+LABL_PTR_1
+DEPEND_1
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+VAR_NOTES
+
+Variable Information (0 rVariable, 143 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+SpinPeriod            CDF_REAL4/1	0:[]	T/  
+Sector                CDF_REAL4/1	0:[]	T/  
+Gain                  CDF_REAL4/1	0:[]	T/  
+ION_protons_COUNTS    CDF_REAL4/1	1:[8]	T/T
+ION_protons_CPS       CDF_REAL4/1	1:[8]	T/T
+ION_protons_INTEN     CDF_REAL4/1	1:[8]	T/T
+ION_protons_COUNTS_stack CDF_REAL4/1	1:[8]	T/T
+ION_protons_CPS_stack CDF_REAL4/1	1:[8]	T/T
+ION_protons_INTEN_stack CDF_REAL4/1	1:[8]	T/T
+ION_protons_COUNTS_names CDF_CHAR/14	1:[8]	F/T
+ION_protons_E         CDF_REAL4/1	1:[8]	F/T
+ION_protons_E_dlo     CDF_REAL4/1	1:[8]	F/T
+ION_protons_E_dhi     CDF_REAL4/1	1:[8]	F/T
+ION_protons_CPS_names CDF_CHAR/11	1:[8]	F/T
+ION_protons_INTEN_names CDF_CHAR/13	1:[8]	F/T
+ION_protons_Edrift    CDF_REAL4/1	1:[8]	T/T
+ION_protons_channel_no CDF_INT2/1	1:[8]	F/T
+ION_protons_Edrift_dlo CDF_REAL4/1	1:[8]	T/T
+ION_protons_Edrift_dhi CDF_REAL4/1	1:[8]	T/T
+ION_helium_COUNTS     CDF_REAL4/1	1:[2]	T/T
+ION_helium_CPS        CDF_REAL4/1	1:[2]	T/T
+ION_helium_INTEN      CDF_REAL4/1	1:[2]	T/T
+ION_helium_COUNTS_stack CDF_REAL4/1	1:[2]	T/T
+ION_helium_CPS_stack  CDF_REAL4/1	1:[2]	T/T
+ION_helium_INTEN_stack CDF_REAL4/1	1:[2]	T/T
+ION_helium_COUNTS_names CDF_CHAR/15	1:[2]	F/T
+ION_helium_E          CDF_REAL4/1	1:[2]	F/T
+ION_helium_E_dlo      CDF_REAL4/1	1:[2]	F/T
+ION_helium_E_dhi      CDF_REAL4/1	1:[2]	F/T
+ION_helium_CPS_names  CDF_CHAR/12	1:[2]	F/T
+ION_helium_INTEN_names CDF_CHAR/14	1:[2]	F/T
+ION_helium_Edrift     CDF_REAL4/1	1:[2]	T/T
+ION_helium_Edrift_dlo CDF_REAL4/1	1:[2]	T/T
+ION_helium_Edrift_dhi CDF_REAL4/1	1:[2]	T/T
+Epoch_1               CDF_TT2000/1	0:[]	T/  
+SpinPeriod_1          CDF_REAL4/1	0:[]	T/  
+Sector_1              CDF_REAL4/1	0:[]	T/  
+Gain_1                CDF_REAL4/1	0:[]	T/  
+MCP1                  CDF_REAL4/1	0:[]	T/  
+MCP2                  CDF_REAL4/1	0:[]	T/  
+MCP3                  CDF_REAL4/1	0:[]	T/  
+SSD                   CDF_REAL4/1	0:[]	T/  
+TOF_protons_COUNTS    CDF_REAL4/1	1:[3]	T/T
+TOF_protons_CPS       CDF_REAL4/1	1:[3]	T/T
+TOF_protons_INTEN     CDF_REAL4/1	1:[3]	T/T
+TOF_protons_COUNTS_stack CDF_REAL4/1	1:[3]	T/T
+TOF_protons_CPS_stack CDF_REAL4/1	1:[3]	T/T
+TOF_protons_INTEN_stack CDF_REAL4/1	1:[3]	T/T
+TOF_protons_COUNTS_names CDF_CHAR/14	1:[3]	F/T
+TOF_protons_E         CDF_REAL4/1	1:[3]	F/T
+TOF_protons_E_dlo     CDF_REAL4/1	1:[3]	F/T
+TOF_protons_E_dhi     CDF_REAL4/1	1:[3]	F/T
+TOF_protons_CPS_names CDF_CHAR/11	1:[3]	F/T
+TOF_protons_INTEN_names CDF_CHAR/13	1:[3]	F/T
+TOF_protons_Edrift    CDF_REAL4/1	1:[3]	T/T
+TOF_protons_Edrift_dlo CDF_REAL4/1	1:[3]	T/T
+TOF_protons_Edrift_dhi CDF_REAL4/1	1:[3]	T/T
+TOF_helium_COUNTS     CDF_REAL4/1	1:[4]	T/T
+TOF_helium_CPS        CDF_REAL4/1	1:[4]	T/T
+TOF_helium_INTEN      CDF_REAL4/1	1:[4]	T/T
+TOF_helium_COUNTS_stack CDF_REAL4/1	1:[4]	T/T
+TOF_helium_CPS_stack  CDF_REAL4/1	1:[4]	T/T
+TOF_helium_INTEN_stack CDF_REAL4/1	1:[4]	T/T
+TOF_helium_COUNTS_names CDF_CHAR/15	1:[4]	F/T
+TOF_helium_E          CDF_REAL4/1	1:[4]	F/T
+TOF_helium_E_dlo      CDF_REAL4/1	1:[4]	F/T
+TOF_helium_E_dhi      CDF_REAL4/1	1:[4]	F/T
+TOF_helium_CPS_names  CDF_CHAR/12	1:[4]	F/T
+TOF_helium_INTEN_names CDF_CHAR/14	1:[4]	F/T
+TOF_helium_Edrift     CDF_REAL4/1	1:[4]	T/T
+TOF_helium_Edrift_dlo CDF_REAL4/1	1:[4]	T/T
+TOF_helium_Edrift_dhi CDF_REAL4/1	1:[4]	T/T
+TOF_oxygen_COUNTS     CDF_REAL4/1	1:[4]	T/T
+TOF_oxygen_CPS        CDF_REAL4/1	1:[4]	T/T
+TOF_oxygen_INTEN      CDF_REAL4/1	1:[4]	T/T
+TOF_oxygen_COUNTS_stack CDF_REAL4/1	1:[4]	T/T
+TOF_oxygen_CPS_stack  CDF_REAL4/1	1:[4]	T/T
+TOF_oxygen_INTEN_stack CDF_REAL4/1	1:[4]	T/T
+TOF_oxygen_COUNTS_names CDF_CHAR/15	1:[4]	F/T
+TOF_oxygen_E          CDF_REAL4/1	1:[4]	F/T
+TOF_oxygen_E_dlo      CDF_REAL4/1	1:[4]	F/T
+TOF_oxygen_E_dhi      CDF_REAL4/1	1:[4]	F/T
+TOF_oxygen_CPS_names  CDF_CHAR/12	1:[4]	F/T
+TOF_oxygen_INTEN_names CDF_CHAR/14	1:[4]	F/T
+TOF_oxygen_Edrift     CDF_REAL4/1	1:[4]	T/T
+TOF_oxygen_Edrift_dlo CDF_REAL4/1	1:[4]	T/T
+TOF_oxygen_Edrift_dhi CDF_REAL4/1	1:[4]	T/T
+TOF_iron_COUNTS       CDF_REAL4/1	1:[2]	T/T
+TOF_iron_CPS          CDF_REAL4/1	1:[2]	T/T
+TOF_iron_INTEN        CDF_REAL4/1	1:[2]	T/T
+TOF_iron_COUNTS_stack CDF_REAL4/1	1:[2]	T/T
+TOF_iron_CPS_stack    CDF_REAL4/1	1:[2]	T/T
+TOF_iron_INTEN_stack  CDF_REAL4/1	1:[2]	T/T
+TOF_iron_COUNTS_names CDF_CHAR/15	1:[2]	F/T
+TOF_iron_E            CDF_REAL4/1	1:[2]	F/T
+TOF_iron_E_dlo        CDF_REAL4/1	1:[2]	F/T
+TOF_iron_E_dhi        CDF_REAL4/1	1:[2]	F/T
+TOF_iron_CPS_names    CDF_CHAR/12	1:[2]	F/T
+TOF_iron_INTEN_names  CDF_CHAR/14	1:[2]	F/T
+TOF_iron_Edrift       CDF_REAL4/1	1:[2]	T/T
+TOF_iron_Edrift_dlo   CDF_REAL4/1	1:[2]	T/T
+TOF_iron_Edrift_dhi   CDF_REAL4/1	1:[2]	T/T
+Epoch_2               CDF_TT2000/1	0:[]	T/  
+SpinPeriod_2          CDF_REAL4/1	0:[]	T/  
+Sector_2              CDF_REAL4/1	0:[]	T/  
+Gain_2                CDF_REAL4/1	0:[]	T/  
+TOF_all_ions_COUNTS   CDF_REAL4/1	1:[9]	T/T
+TOF_all_ions_CPS      CDF_REAL4/1	1:[9]	T/T
+TOF_all_ions_INTEN    CDF_REAL4/1	1:[9]	T/T
+TOF_all_ions_COUNTS_stack CDF_REAL4/1	1:[9]	T/T
+TOF_all_ions_CPS_stack CDF_REAL4/1	1:[9]	T/T
+TOF_all_ions_INTEN_stack CDF_REAL4/1	1:[9]	T/T
+TOF_all_ions_COUNTS_names CDF_CHAR/12	1:[9]	F/T
+TOF_all_ions_T        CDF_REAL4/1	1:[9]	F/T
+TOF_all_ions_T_dlo    CDF_REAL4/1	1:[9]	F/T
+TOF_all_ions_T_dhi    CDF_REAL4/1	1:[9]	F/T
+TOF_all_ions_CPS_names CDF_CHAR/9	1:[9]	F/T
+TOF_all_ions_INTEN_names CDF_CHAR/11	1:[9]	F/T
+Epoch_3               CDF_TT2000/1	0:[]	T/  
+SpinPeriod_3          CDF_REAL4/1	0:[]	T/  
+Sector_3              CDF_REAL4/1	0:[]	T/  
+Gain_3                CDF_REAL4/1	0:[]	T/  
+HIRES_ION_protons_COUNTS CDF_REAL4/1	1:[2]	T/T
+HIRES_ION_protons_CPS CDF_REAL4/1	1:[2]	T/T
+HIRES_ION_protons_INTEN CDF_REAL4/1	1:[2]	T/T
+HIRES_ION_protons_COUNTS_stack CDF_REAL4/1	1:[2]	T/T
+HIRES_ION_protons_CPS_stack CDF_REAL4/1	1:[2]	T/T
+HIRES_ION_protons_INTEN_stack CDF_REAL4/1	1:[2]	T/T
+HIRES_ION_protons_COUNTS_names CDF_CHAR/20	1:[2]	F/T
+HIRES_ION_protons_E   CDF_REAL4/1	1:[2]	F/T
+HIRES_ION_protons_E_dlo CDF_REAL4/1	1:[2]	F/T
+HIRES_ION_protons_E_dhi CDF_REAL4/1	1:[2]	F/T
+HIRES_ION_protons_CPS_names CDF_CHAR/17	1:[2]	F/T
+HIRES_ION_protons_INTEN_names CDF_CHAR/19	1:[2]	F/T
+HIRES_ION_protons_Edrift CDF_REAL4/1	1:[2]	T/T
+HIRES_ION_protons_Edrift_dlo CDF_REAL4/1	1:[2]	T/T
+HIRES_ION_protons_Edrift_dhi CDF_REAL4/1	1:[2]	T/T
+Epoch_4               CDF_TT2000/1	0:[]	T/  
+spin_axis_dirn_in_GSE CDF_REAL4/1	1:[3]	T/T
+spin_axis_dirn_labl   CDF_CHAR/14	1:[3]	F/T
+MAG                   CDF_REAL4/1	1:[3]	T/T
+MAG_labl              CDF_CHAR/5	1:[3]	F/T
+
+
+Variable (143 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/23): "nanoseconds since J2000"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/4): "time"
+     VALIDMIN        (CDF_TT2000/1): 1989-01-10T19:01:24.225827515
+     CATDESC         (CDF_CHAR/5): "Epoch"
+     VALIDMAX        (CDF_TT2000/1): 1989-01-11T00:00:09.045221507
+     SCALEMAX        (CDF_TT2000/1): 1989-01-11T00:00:09.045221507
+     SCALEMIN        (CDF_TT2000/1): 1989-01-10T19:01:24.225827515
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 2000-01-01T00:00:00.000000000
+
+SpinPeriod (No: 1) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     UNITS           (CDF_CHAR/7): "seconds"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/10): "SpinPeriod"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/10): "SpinPeriod"
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/10): "SpinPeriod"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+Sector (No: 2) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "sector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/6): "Sector"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/6): "SECTOR"
+     VALIDMAX        (CDF_REAL4/1): 31.0
+     SCALEMAX        (CDF_REAL4/1): 31.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/6): "Sector"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+Gain (No: 3) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     UNITS           (CDF_CHAR/8): "unitless"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/4): "Gain"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/4): "Gain"
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/4): "Gain"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+ION_protons_COUNTS (No: 4) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/11): "ION_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/168): "ION_protons: counts per sector (spectrogram) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/168): "ION_protons: counts per sector (spectrogram) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "ION_protons_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/24): "ION_protons_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/13): "ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "ION_protons_E_dhi"
+
+ION_protons_CPS (No: 5) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/11): "ION_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/60): "---> ION_protons: counts per second per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/179): "ION_protons: counts per second per sector (spectrogram) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/15): "ION_protons_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/21): "ION_protons_CPS_names"
+     DEPEND_1        (CDF_CHAR/13): "ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "ION_protons_E_dhi"
+
+ION_protons_INTEN (No: 6) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/19): "ION_protons_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/65): "---> ION_protons: differential intensity per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/184): "ION_protons: differential intensity per sector (spectrogram) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/19): "ION_protons_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "ION_protons_INTEN_names"
+     DEPEND_1        (CDF_CHAR/13): "ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "ION_protons_E_dhi"
+
+ION_protons_COUNTS_stack (No: 7) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/11): "ION_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/167): "ION_protons: counts per sector (stack_plot) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/167): "ION_protons: counts per sector (stack_plot) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "ION_protons_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/24): "ION_protons_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/13): "ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "ION_protons_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/18): "ION_protons_COUNTS"
+
+ION_protons_CPS_stack (No: 8) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/11): "ION_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/59): "---> ION_protons: counts per second per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/178): "ION_protons: counts per second per sector (stack_plot) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/15): "ION_protons_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/21): "ION_protons_CPS_names"
+     DEPEND_1        (CDF_CHAR/13): "ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "ION_protons_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "ION_protons_CPS"
+
+ION_protons_INTEN_stack (No: 9) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/19): "ION_protons_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/64): "---> ION_protons: differential intensity per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/183): "ION_protons: differential intensity per sector (stack_plot) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/19): "ION_protons_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "ION_protons_INTEN_names"
+     DEPEND_1        (CDF_CHAR/13): "ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "ION_protons_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/17): "ION_protons_INTEN"
+
+ION_protons_COUNTS_names (No: 10) (Recs: 1)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "names of the ION_protons_COUNTS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/24): "ION_protons_COUNTS_names"
+     FORMAT          (CDF_CHAR/3): "a14"
+
+ION_protons_E (No: 11) (Recs: 1)
+-------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_REAL4/1): 25.0
+     CATDESC         (CDF_CHAR/13): "channel names"
+     VALIDMAX        (CDF_REAL4/1): 1350.0
+     SCALEMAX        (CDF_REAL4/1): 1350.0
+     SCALEMIN        (CDF_REAL4/1): 25.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/13): "ION_protons_E"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+ION_protons_E_dlo (No: 12) (Recs: 1)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/17): "ION_protons_E_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/35): "energy (low) for ION_protons_COUNTS"
+     VALIDMAX        (CDF_REAL4/1): 1350.0
+     SCALEMAX        (CDF_REAL4/1): 1350.0
+     SCALEMIN        (CDF_REAL4/1): 25.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/17): "ION_protons_E_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+ION_protons_E_dhi (No: 13) (Recs: 1)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/17): "ION_protons_E_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/36): "energy (high) for ION_protons_COUNTS"
+     VALIDMAX        (CDF_REAL4/1): 1350.0
+     SCALEMAX        (CDF_REAL4/1): 1350.0
+     SCALEMIN        (CDF_REAL4/1): 25.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/17): "ION_protons_E_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+ION_protons_CPS_names (No: 14) (Recs: 1)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "names of the ION_protons_CPS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/21): "ION_protons_CPS_names"
+     FORMAT          (CDF_CHAR/3): "a11"
+
+ION_protons_INTEN_names (No: 15) (Recs: 1)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "names of the ION_protons_INTEN channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/23): "ION_protons_INTEN_names"
+     FORMAT          (CDF_CHAR/3): "a13"
+
+ION_protons_Edrift (No: 16) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/18): "ION_protons_Edrift"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/70): "Actual ION_protons channel midpoint energies at the middle of this day"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "ION_protons_Edrift"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     DEPEND_1        (CDF_CHAR/22): "ION_protons_channel_no"
+
+ION_protons_channel_no (No: 17) (Recs: 1)
+----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/2): "No"
+     VALIDMIN        (CDF_INT2/1): 1
+     CATDESC         (CDF_CHAR/22): "ION_protons_channel_no"
+     VALIDMAX        (CDF_INT2/1): 8
+     SCALEMAX        (CDF_INT2/1): 8
+     SCALEMIN        (CDF_INT2/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/22): "ION_protons_channel_no"
+     FILLVAL         (CDF_INT2/1): -32768
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "i2"
+
+ION_protons_Edrift_dlo (No: 18) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/22): "ION_protons_Edrift_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from lower to mid energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/22): "ION_protons_Edrift_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+ION_protons_Edrift_dhi (No: 19) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/22): "ION_protons_Edrift_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from mid to upper energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/22): "ION_protons_Edrift_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+ION_helium_COUNTS (No: 20) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/10): "ION_helium"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/168): "ION_helium:  counts per sector (spectrogram) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/168): "ION_helium:  counts per sector (spectrogram) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/17): "ION_helium_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "ION_helium_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/12): "ION_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "ION_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "ION_helium_E_dhi"
+
+ION_helium_CPS (No: 21) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/10): "ION_helium"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/59): "---> ION_helium: counts per second per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/178): "ION_helium: counts per second per sector (spectrogram) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/14): "ION_helium_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/20): "ION_helium_CPS_names"
+     DEPEND_1        (CDF_CHAR/12): "ION_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "ION_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "ION_helium_E_dhi"
+
+ION_helium_INTEN (No: 22) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/18): "ION_helium_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/64): "---> ION_helium: differential intensity per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/183): "ION_helium: differential intensity per sector (spectrogram) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/18): "ION_helium_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/22): "ION_helium_INTEN_names"
+     DEPEND_1        (CDF_CHAR/12): "ION_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "ION_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "ION_helium_E_dhi"
+
+ION_helium_COUNTS_stack (No: 23) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/10): "ION_helium"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/167): "ION_helium:  counts per sector (stack_plot) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/167): "ION_helium:  counts per sector (stack_plot) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "ION_helium_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "ION_helium_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/12): "ION_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "ION_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "ION_helium_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/17): "ION_helium_COUNTS"
+
+ION_helium_CPS_stack (No: 24) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/10): "ION_helium"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/58): "---> ION_helium: counts per second per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/177): "ION_helium: counts per second per sector (stack_plot) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/14): "ION_helium_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/20): "ION_helium_CPS_names"
+     DEPEND_1        (CDF_CHAR/12): "ION_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "ION_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "ION_helium_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "ION_helium_CPS"
+
+ION_helium_INTEN_stack (No: 25) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/18): "ION_helium_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/63): "---> ION_helium: differential intensity per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/182): "ION_helium: differential intensity per sector (stack_plot) with each sector being a sum from 4 spins; ION records only; the time given is the SECTOR midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "ION_helium_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/22): "ION_helium_INTEN_names"
+     DEPEND_1        (CDF_CHAR/12): "ION_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "ION_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "ION_helium_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/16): "ION_helium_INTEN"
+
+ION_helium_COUNTS_names (No: 26) (Recs: 1)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "names of the ION_helium_COUNTS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/23): "ION_helium_COUNTS_names"
+     FORMAT          (CDF_CHAR/3): "a15"
+
+ION_helium_E (No: 27) (Recs: 1)
+------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_REAL4/1): 1790.0
+     CATDESC         (CDF_CHAR/13): "channel names"
+     VALIDMAX        (CDF_REAL4/1): 6050.0
+     SCALEMAX        (CDF_REAL4/1): 6050.0
+     SCALEMIN        (CDF_REAL4/1): 1790.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/12): "ION_helium_E"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+ION_helium_E_dlo (No: 28) (Recs: 1)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/16): "ION_helium_E_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/34): "energy (low) for ION_helium_COUNTS"
+     VALIDMAX        (CDF_REAL4/1): 6050.0
+     SCALEMAX        (CDF_REAL4/1): 6050.0
+     SCALEMIN        (CDF_REAL4/1): 1790.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/16): "ION_helium_E_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+ION_helium_E_dhi (No: 29) (Recs: 1)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/16): "ION_helium_E_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/35): "energy (high) for ION_helium_COUNTS"
+     VALIDMAX        (CDF_REAL4/1): 6050.0
+     SCALEMAX        (CDF_REAL4/1): 6050.0
+     SCALEMIN        (CDF_REAL4/1): 1790.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/16): "ION_helium_E_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+ION_helium_CPS_names (No: 30) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "names of the ION_helium_CPS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/20): "ION_helium_CPS_names"
+     FORMAT          (CDF_CHAR/3): "a12"
+
+ION_helium_INTEN_names (No: 31) (Recs: 1)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "names of the ION_helium_INTEN channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/22): "ION_helium_INTEN_names"
+     FORMAT          (CDF_CHAR/3): "a14"
+
+ION_helium_Edrift (No: 32) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/17): "ION_helium_Edrift"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/69): "Actual ION_helium channel midpoint energies at the middle of this day"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "ION_helium_Edrift"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+ION_helium_Edrift_dlo (No: 33) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/21): "ION_helium_Edrift_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from lower to mid energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/21): "ION_helium_Edrift_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+ION_helium_Edrift_dhi (No: 34) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/21): "ION_helium_Edrift_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from mid to upper energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/21): "ION_helium_Edrift_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+Epoch_1 (No: 35) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/23): "nanoseconds since J2000"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/4): "time"
+     VALIDMIN        (CDF_TT2000/1): 1989-01-10T16:58:57.090849757
+     CATDESC         (CDF_CHAR/7): "Epoch_1"
+     VALIDMAX        (CDF_TT2000/1): 1989-01-11T00:00:09.045221507
+     SCALEMAX        (CDF_TT2000/1): 1989-01-11T00:00:09.045221507
+     SCALEMIN        (CDF_TT2000/1): 1989-01-10T16:58:57.090849757
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/7): "Epoch_1"
+     FILLVAL         (CDF_TT2000/1): 2000-01-01T00:00:00.000000000
+
+SpinPeriod_1 (No: 36) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/7): "seconds"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/12): "SpinPeriod_1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/12): "SpinPeriod_1"
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/12): "SpinPeriod_1"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+Sector_1 (No: 37) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "sector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/8): "Sector_1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/8): "SECTOR_1"
+     VALIDMAX        (CDF_REAL4/1): 31.0
+     SCALEMAX        (CDF_REAL4/1): 31.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/8): "Sector_1"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+Gain_1 (No: 38) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     UNITS           (CDF_CHAR/8): "unitless"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/6): "Gain_1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/6): "Gain_1"
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/6): "Gain_1"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+MCP1 (No: 39) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/4): "MCP1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/66): "Micro-channel plate 1:  count rate from counts summed over 4 spins"
+     FULL_CATDESC    (CDF_CHAR/66): "Micro-channel plate 1:  count rate from counts summed over 4 spins"
+     VALIDMAX        (CDF_REAL4/1): 8.32307e+06
+     SCALEMAX        (CDF_REAL4/1): 50000.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/4): "MCP1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+MCP2 (No: 40) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/4): "MCP2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/26): "---> Micro-channel plate 2"
+     FULL_CATDESC    (CDF_CHAR/65): "Micro-channel plate 2: count rate from counts summed over 4 spins"
+     VALIDMAX        (CDF_REAL4/1): 8.32307e+06
+     SCALEMAX        (CDF_REAL4/1): 50000.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/4): "MCP2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+MCP3 (No: 41) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/4): "MCP3"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/26): "---> Micro-channel plate 3"
+     FULL_CATDESC    (CDF_CHAR/65): "Micro-channel plate 3: count rate from counts summed over 4 spins"
+     VALIDMAX        (CDF_REAL4/1): 8.32307e+06
+     SCALEMAX        (CDF_REAL4/1): 50000.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/4): "MCP3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+SSD (No: 42) (Recs: 0) (Compression: GZIP.6)
+---
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/3): "SSD"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/25): "---> Solid state detector"
+     FULL_CATDESC    (CDF_CHAR/64): "Solid state detector: count rate from counts summed over 4 spins"
+     VALIDMAX        (CDF_REAL4/1): 8.32307e+06
+     SCALEMAX        (CDF_REAL4/1): 50000.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/3): "SSD"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+TOF_protons_COUNTS (No: 43) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/11): "TOF_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/179): "TOF_protons: counts per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/179): "TOF_protons: counts per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "TOF_protons_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/24): "TOF_protons_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/13): "TOF_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "TOF_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "TOF_protons_E_dhi"
+
+TOF_protons_CPS (No: 44) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/11): "TOF_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/60): "---> TOF_protons: counts per second per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/190): "TOF_protons: counts per second per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/15): "TOF_protons_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/21): "TOF_protons_CPS_names"
+     DEPEND_1        (CDF_CHAR/13): "TOF_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "TOF_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "TOF_protons_E_dhi"
+
+TOF_protons_INTEN (No: 45) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/19): "TOF_protons_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/65): "---> TOF_protons: differential intensity per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/195): "TOF_protons: differential intensity per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_protons_INTEN"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "TOF_protons_INTEN_names"
+     DEPEND_1        (CDF_CHAR/13): "TOF_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "TOF_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "TOF_protons_E_dhi"
+
+TOF_protons_COUNTS_stack (No: 46) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/11): "TOF_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/178): "TOF_protons: counts per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/178): "TOF_protons: counts per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "TOF_protons_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/24): "TOF_protons_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/13): "TOF_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "TOF_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "TOF_protons_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/18): "TOF_protons_COUNTS"
+
+TOF_protons_CPS_stack (No: 47) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/11): "TOF_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/59): "---> TOF_protons: counts per second per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/189): "TOF_protons: counts per second per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/15): "TOF_protons_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/21): "TOF_protons_CPS_names"
+     DEPEND_1        (CDF_CHAR/13): "TOF_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "TOF_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "TOF_protons_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "TOF_protons_CPS"
+
+TOF_protons_INTEN_stack (No: 48) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/19): "TOF_protons_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/64): "---> TOF_protons: differential intensity per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/194): "TOF_protons: differential intensity per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_protons_INTEN"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "TOF_protons_INTEN_names"
+     DEPEND_1        (CDF_CHAR/13): "TOF_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "TOF_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "TOF_protons_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/17): "TOF_protons_INTEN"
+
+TOF_protons_COUNTS_names (No: 49) (Recs: 1)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "names of the TOF_protons_COUNTS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/24): "TOF_protons_COUNTS_names"
+     FORMAT          (CDF_CHAR/3): "a14"
+
+TOF_protons_E (No: 50) (Recs: 1)
+-------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_REAL4/1): 56.0
+     CATDESC         (CDF_CHAR/13): "channel names"
+     VALIDMAX        (CDF_REAL4/1): 1500.0
+     SCALEMAX        (CDF_REAL4/1): 1500.0
+     SCALEMIN        (CDF_REAL4/1): 56.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/13): "TOF_protons_E"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_protons_E_dlo (No: 51) (Recs: 1)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/17): "TOF_protons_E_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/17): "TOF_protons_E_dlo"
+     VALIDMAX        (CDF_REAL4/1): 1500.0
+     SCALEMAX        (CDF_REAL4/1): 1500.0
+     SCALEMIN        (CDF_REAL4/1): 56.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_protons_E_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_protons_E_dhi (No: 52) (Recs: 1)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/17): "TOF_protons_E_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/17): "TOF_protons_E_dhi"
+     VALIDMAX        (CDF_REAL4/1): 1500.0
+     SCALEMAX        (CDF_REAL4/1): 1500.0
+     SCALEMIN        (CDF_REAL4/1): 56.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_protons_E_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_protons_CPS_names (No: 53) (Recs: 1)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "names of the TOF_protons_CPS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/21): "TOF_protons_CPS_names"
+     FORMAT          (CDF_CHAR/3): "a11"
+
+TOF_protons_INTEN_names (No: 54) (Recs: 1)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "names of the TOF_protons_INTEN channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/23): "TOF_protons_INTEN_names"
+     FORMAT          (CDF_CHAR/3): "a13"
+
+TOF_protons_Edrift (No: 55) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/18): "TOF_protons_Edrift"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/70): "Actual TOF_protons channel midpoint energies at the middle of this day"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "TOF_protons_Edrift"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_protons_Edrift_dlo (No: 56) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/22): "TOF_protons_Edrift_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from lower to mid energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/22): "TOF_protons_Edrift_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_protons_Edrift_dhi (No: 57) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/22): "TOF_protons_Edrift_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from mid to upper energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/22): "TOF_protons_Edrift_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_helium_COUNTS (No: 58) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/10): "TOF_helium"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/178): "TOF_helium: counts per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/178): "TOF_helium: counts per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_helium_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "TOF_helium_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_helium_E_dhi"
+
+TOF_helium_CPS (No: 59) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/10): "TOF_helium"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/59): "---> TOF_helium: counts per second per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/189): "TOF_helium: counts per second per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/14): "TOF_helium_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/20): "TOF_helium_CPS_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_helium_E_dhi"
+
+TOF_helium_INTEN (No: 60) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/18): "TOF_helium_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/64): "---> TOF_helium: differential intensity per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/194): "TOF_helium: differential intensity per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "TOF_helium_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/22): "TOF_helium_INTEN_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_helium_E_dhi"
+
+TOF_helium_COUNTS_stack (No: 61) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/10): "TOF_helium"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/177): "TOF_helium: counts per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/177): "TOF_helium: counts per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_helium_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "TOF_helium_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_helium_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/17): "TOF_helium_COUNTS"
+
+TOF_helium_CPS_stack (No: 62) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/10): "TOF_helium"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/58): "---> TOF_helium: counts per second per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/188): "TOF_helium: counts per second per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/14): "TOF_helium_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/20): "TOF_helium_CPS_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_helium_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "TOF_helium_CPS"
+
+TOF_helium_INTEN_stack (No: 63) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/18): "TOF_helium_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/63): "---> TOF_helium: differential intensity per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/193): "TOF_helium: differential intensity per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "TOF_helium_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/22): "TOF_helium_INTEN_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_helium_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_helium_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_helium_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/16): "TOF_helium_INTEN"
+
+TOF_helium_COUNTS_names (No: 64) (Recs: 1)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "names of the TOF_helium_COUNTS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/23): "TOF_helium_COUNTS_names"
+     FORMAT          (CDF_CHAR/3): "a15"
+
+TOF_helium_E (No: 65) (Recs: 1)
+------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_REAL4/1): 72.0
+     CATDESC         (CDF_CHAR/13): "channel names"
+     VALIDMAX        (CDF_REAL4/1): 4000.0
+     SCALEMAX        (CDF_REAL4/1): 4000.0
+     SCALEMIN        (CDF_REAL4/1): 72.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/12): "TOF_helium_E"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_helium_E_dlo (No: 66) (Recs: 1)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/16): "TOF_helium_E_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/16): "TOF_helium_E_dlo"
+     VALIDMAX        (CDF_REAL4/1): 4000.0
+     SCALEMAX        (CDF_REAL4/1): 4000.0
+     SCALEMIN        (CDF_REAL4/1): 72.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/16): "TOF_helium_E_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_helium_E_dhi (No: 67) (Recs: 1)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/16): "TOF_helium_E_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/16): "TOF_helium_E_dhi"
+     VALIDMAX        (CDF_REAL4/1): 4000.0
+     SCALEMAX        (CDF_REAL4/1): 4000.0
+     SCALEMIN        (CDF_REAL4/1): 72.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/16): "TOF_helium_E_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_helium_CPS_names (No: 68) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "names of the TOF_helium_CPS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/20): "TOF_helium_CPS_names"
+     FORMAT          (CDF_CHAR/3): "a12"
+
+TOF_helium_INTEN_names (No: 69) (Recs: 1)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "names of the TOF_helium_INTEN channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/22): "TOF_helium_INTEN_names"
+     FORMAT          (CDF_CHAR/3): "a14"
+
+TOF_helium_Edrift (No: 70) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/17): "TOF_helium_Edrift"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/69): "Actual TOF_helium channel midpoint energies at the middle of this day"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_helium_Edrift"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_helium_Edrift_dlo (No: 71) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/21): "TOF_helium_Edrift_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from lower to mid energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/21): "TOF_helium_Edrift_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_helium_Edrift_dhi (No: 72) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/21): "TOF_helium_Edrift_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from mid to upper energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/21): "TOF_helium_Edrift_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_oxygen_COUNTS (No: 73) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/10): "TOF_oxygen"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/178): "TOF_oxygen: counts per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/178): "TOF_oxygen: counts per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_oxygen_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "TOF_oxygen_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_oxygen_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_oxygen_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_oxygen_E_dhi"
+
+TOF_oxygen_CPS (No: 74) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/10): "TOF_oxygen"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/59): "---> TOF_oxygen: counts per second per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/190): "TOF_oxygen: counts per second per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1  midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/14): "TOF_oxygen_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/20): "TOF_oxygen_CPS_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_oxygen_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_oxygen_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_oxygen_E_dhi"
+
+TOF_oxygen_INTEN (No: 75) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/18): "TOF_oxygen_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/64): "---> TOF_oxygen: differential intensity per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/195): "TOF_oxygen: differential intensity per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1  midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "TOF_oxygen_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/22): "TOF_oxygen_INTEN_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_oxygen_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_oxygen_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_oxygen_E_dhi"
+
+TOF_oxygen_COUNTS_stack (No: 76) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/10): "TOF_oxygen"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/177): "TOF_oxygen: counts per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/177): "TOF_oxygen: counts per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_oxygen_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/23): "TOF_oxygen_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_oxygen_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_oxygen_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_oxygen_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/17): "TOF_oxygen_COUNTS"
+
+TOF_oxygen_CPS_stack (No: 77) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/10): "TOF_oxygen"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/58): "---> TOF_oxygen: counts per second per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/189): "TOF_oxygen: counts per second per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1  midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/14): "TOF_oxygen_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/20): "TOF_oxygen_CPS_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_oxygen_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_oxygen_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_oxygen_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "TOF_oxygen_CPS"
+
+TOF_oxygen_INTEN_stack (No: 78) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/18): "TOF_oxygen_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/63): "---> TOF_oxygen: differential intensity per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/194): "TOF_oxygen: differential intensity per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1  midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/18): "TOF_oxygen_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/22): "TOF_oxygen_INTEN_names"
+     DEPEND_1        (CDF_CHAR/12): "TOF_oxygen_E"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "TOF_oxygen_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "TOF_oxygen_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/16): "TOF_oxygen_INTEN"
+
+TOF_oxygen_COUNTS_names (No: 79) (Recs: 1)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "names of the TOF_oxygen_COUNTS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/23): "TOF_oxygen_COUNTS_names"
+     FORMAT          (CDF_CHAR/3): "a15"
+
+TOF_oxygen_E (No: 80) (Recs: 1)
+------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_REAL4/1): 137.0
+     CATDESC         (CDF_CHAR/13): "channel names"
+     VALIDMAX        (CDF_REAL4/1): 5000.0
+     SCALEMAX        (CDF_REAL4/1): 5000.0
+     SCALEMIN        (CDF_REAL4/1): 137.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/12): "TOF_oxygen_E"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_oxygen_E_dlo (No: 81) (Recs: 1)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/16): "TOF_oxygen_E_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/16): "TOF_oxygen_E_dlo"
+     VALIDMAX        (CDF_REAL4/1): 5000.0
+     SCALEMAX        (CDF_REAL4/1): 5000.0
+     SCALEMIN        (CDF_REAL4/1): 137.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/16): "TOF_oxygen_E_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_oxygen_E_dhi (No: 82) (Recs: 1)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/16): "TOF_oxygen_E_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/16): "TOF_oxygen_E_dhi"
+     VALIDMAX        (CDF_REAL4/1): 5000.0
+     SCALEMAX        (CDF_REAL4/1): 5000.0
+     SCALEMIN        (CDF_REAL4/1): 137.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/16): "TOF_oxygen_E_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_oxygen_CPS_names (No: 83) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "names of the TOF_oxygen_CPS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/20): "TOF_oxygen_CPS_names"
+     FORMAT          (CDF_CHAR/3): "a12"
+
+TOF_oxygen_INTEN_names (No: 84) (Recs: 1)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "names of the TOF_oxygen_INTEN channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/22): "TOF_oxygen_INTEN_names"
+     FORMAT          (CDF_CHAR/3): "a14"
+
+TOF_oxygen_Edrift (No: 85) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/17): "TOF_oxygen_Edrift"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/69): "Actual TOF_oxygen channel midpoint energies at the middle of this day"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/17): "TOF_oxygen_Edrift"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_oxygen_Edrift_dlo (No: 86) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/21): "TOF_oxygen_Edrift_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from lower to mid energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/21): "TOF_oxygen_Edrift_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_oxygen_Edrift_dhi (No: 87) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/21): "TOF_oxygen_Edrift_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from mid to upper energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/21): "TOF_oxygen_Edrift_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_iron_COUNTS (No: 88) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/8): "TOF_iron"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/176): "TOF_iron: counts per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/176): "TOF_iron: counts per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/15): "TOF_iron_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/21): "TOF_iron_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/10): "TOF_iron_E"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "TOF_iron_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "TOF_iron_E_dhi"
+
+TOF_iron_CPS (No: 89) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/8): "TOF_iron"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/57): "---> TOF_iron: counts per second per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/187): "TOF_iron: counts per second per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/12): "TOF_iron_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/18): "TOF_iron_CPS_names"
+     DEPEND_1        (CDF_CHAR/10): "TOF_iron_E"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "TOF_iron_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "TOF_iron_E_dhi"
+
+TOF_iron_INTEN (No: 90) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/16): "TOF_iron_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/62): "---> TOF_iron: differential intensity per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/192): "TOF_iron: differential intensity per sector (spectrogram) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/16): "TOF_iron_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/20): "TOF_iron_INTEN_names"
+     DEPEND_1        (CDF_CHAR/10): "TOF_iron_E"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "TOF_iron_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "TOF_iron_E_dhi"
+
+TOF_iron_COUNTS_stack (No: 91) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/8): "TOF_iron"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/175): "TOF_iron: counts per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/175): "TOF_iron: counts per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/15): "TOF_iron_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/21): "TOF_iron_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/10): "TOF_iron_E"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "TOF_iron_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "TOF_iron_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "TOF_iron_COUNTS"
+
+TOF_iron_CPS_stack (No: 92) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/8): "TOF_iron"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/56): "---> TOF_iron: counts per second per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/186): "TOF_iron: counts per second per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/12): "TOF_iron_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/18): "TOF_iron_CPS_names"
+     DEPEND_1        (CDF_CHAR/10): "TOF_iron_E"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "TOF_iron_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "TOF_iron_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/12): "TOF_iron_CPS"
+
+TOF_iron_INTEN_stack (No: 93) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/16): "TOF_iron_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/61): "---> TOF_iron: differential intensity per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/191): "TOF_iron: differential intensity per sector (stack_plot) with each sector being a sum from 4 spins; either ION or TOF records; the time given is the SECTOR_1 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/16): "TOF_iron_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/20): "TOF_iron_INTEN_names"
+     DEPEND_1        (CDF_CHAR/10): "TOF_iron_E"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "TOF_iron_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "TOF_iron_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "TOF_iron_INTEN"
+
+TOF_iron_COUNTS_names (No: 94) (Recs: 1)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "names of the TOF_iron_COUNTS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/21): "TOF_iron_COUNTS_names"
+     FORMAT          (CDF_CHAR/3): "a15"
+
+TOF_iron_E (No: 95) (Recs: 1)
+----------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_REAL4/1): 900.0
+     CATDESC         (CDF_CHAR/13): "channel names"
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     SCALEMAX        (CDF_REAL4/1): 2000.0
+     SCALEMIN        (CDF_REAL4/1): 900.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/10): "TOF_iron_E"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_iron_E_dlo (No: 96) (Recs: 1)
+--------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/14): "TOF_iron_E_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/14): "TOF_iron_E_dlo"
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     SCALEMAX        (CDF_REAL4/1): 2000.0
+     SCALEMIN        (CDF_REAL4/1): 900.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/14): "TOF_iron_E_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_iron_E_dhi (No: 97) (Recs: 1)
+--------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/14): "TOF_iron_E_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/14): "TOF_iron_E_dhi"
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     SCALEMAX        (CDF_REAL4/1): 2000.0
+     SCALEMIN        (CDF_REAL4/1): 900.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/14): "TOF_iron_E_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+TOF_iron_CPS_names (No: 98) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "names of the TOF_iron_CPS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/18): "TOF_iron_CPS_names"
+     FORMAT          (CDF_CHAR/3): "a12"
+
+TOF_iron_INTEN_names (No: 99) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "names of the TOF_iron_INTEN channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/20): "TOF_iron_INTEN_names"
+     FORMAT          (CDF_CHAR/3): "a14"
+
+TOF_iron_Edrift (No: 100) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/15): "TOF_iron_Edrift"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/67): "Actual TOF_iron channel midpoint energies at the middle of this day"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/15): "TOF_iron_Edrift"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_iron_Edrift_dlo (No: 101) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/19): "TOF_iron_Edrift_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from lower to mid energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/19): "TOF_iron_Edrift_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+TOF_iron_Edrift_dhi (No: 102) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/19): "TOF_iron_Edrift_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from mid to upper energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/19): "TOF_iron_Edrift_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+Epoch_2 (No: 103) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/23): "nanoseconds since J2000"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/4): "time"
+     VALIDMIN        (CDF_TT2000/1): 1989-01-10T16:58:57.090849757
+     CATDESC         (CDF_CHAR/7): "Epoch_2"
+     VALIDMAX        (CDF_TT2000/1): 1989-01-10T23:58:59.545296132
+     SCALEMAX        (CDF_TT2000/1): 1989-01-10T23:58:59.545296132
+     SCALEMIN        (CDF_TT2000/1): 1989-01-10T16:58:57.090849757
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/7): "Epoch_2"
+     FILLVAL         (CDF_TT2000/1): 2000-01-01T00:00:00.000000000
+
+SpinPeriod_2 (No: 104) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/7): "seconds"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/12): "SpinPeriod_2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/12): "SpinPeriod_2"
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/12): "SpinPeriod_2"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/7): "Epoch_2"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+Sector_2 (No: 105) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "sector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/8): "Sector_2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/8): "SECTOR_2"
+     VALIDMAX        (CDF_REAL4/1): 31.0
+     SCALEMAX        (CDF_REAL4/1): 31.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/8): "Sector_2"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/7): "Epoch_2"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+Gain_2 (No: 106) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     UNITS           (CDF_CHAR/8): "unitless"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/6): "Gain_2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/6): "Gain_2"
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/6): "Gain_2"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/7): "Epoch_2"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+TOF_all_ions_COUNTS (No: 107) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/12): "TOF_all_ions"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/171): "TOF_all_ions: counts per sector (spectrogram) with each sector being a sum from 4 spins; TOF records only; the time given is the SECTOR_2 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/171): "TOF_all_ions: counts per sector (spectrogram) with each sector being a sum from 4 spins; TOF records only; the time given is the SECTOR_2 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/19): "TOF_all_ions_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_2"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/25): "TOF_all_ions_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/14): "TOF_all_ions_T"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "TOF_all_ions_T_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "TOF_all_ions_T_dhi"
+
+TOF_all_ions_CPS (No: 108) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/12): "TOF_all_ions"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/61): "---> TOF_all_ions: counts per second per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/182): "TOF_all_ions: counts per second per sector (spectrogram) with each sector being a sum from 4 spins; TOF records only; the time given is the SECTOR_2 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/16): "TOF_all_ions_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_2"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/22): "TOF_all_ions_CPS_names"
+     DEPEND_1        (CDF_CHAR/14): "TOF_all_ions_T"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "TOF_all_ions_T_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "TOF_all_ions_T_dhi"
+
+TOF_all_ions_INTEN (No: 109) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/20): "TOF_all_ions_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/66): "---> TOF_all_ions: differential intensity per sector (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/187): "TOF_all_ions: differential intensity per sector (spectrogram) with each sector being a sum from 4 spins; TOF records only; the time given is the SECTOR_2 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/20): "TOF_all_ions_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_2"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/24): "TOF_all_ions_INTEN_names"
+     DEPEND_1        (CDF_CHAR/14): "TOF_all_ions_T"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "TOF_all_ions_T_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "TOF_all_ions_T_dhi"
+
+TOF_all_ions_COUNTS_stack (No: 110) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/12): "TOF_all_ions"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/170): "TOF_all_ions: counts per sector (stack_plot) with each sector being a sum from 4 spins; TOF records only; the time given is the SECTOR_2 midpoint in spin 2 out of 0,1,2,3"
+     FULL_CATDESC    (CDF_CHAR/170): "TOF_all_ions: counts per sector (stack_plot) with each sector being a sum from 4 spins; TOF records only; the time given is the SECTOR_2 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/19): "TOF_all_ions_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_2"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/25): "TOF_all_ions_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/14): "TOF_all_ions_T"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "TOF_all_ions_T_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "TOF_all_ions_T_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/19): "TOF_all_ions_COUNTS"
+
+TOF_all_ions_CPS_stack (No: 111) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/12): "TOF_all_ions"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/60): "---> TOF_all_ions: counts per second per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/181): "TOF_all_ions: counts per second per sector (stack_plot) with each sector being a sum from 4 spins; TOF records only; the time given is the SECTOR_2 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/16): "TOF_all_ions_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_2"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/22): "TOF_all_ions_CPS_names"
+     DEPEND_1        (CDF_CHAR/14): "TOF_all_ions_T"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "TOF_all_ions_T_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "TOF_all_ions_T_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/16): "TOF_all_ions_CPS"
+
+TOF_all_ions_INTEN_stack (No: 112) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/20): "TOF_all_ions_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/65): "---> TOF_all_ions: differential intensity per sector (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/186): "TOF_all_ions: differential intensity per sector (stack_plot) with each sector being a sum from 4 spins; TOF records only; the time given is the SECTOR_2 midpoint in spin 2 out of 0,1,2,3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/20): "TOF_all_ions_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_2"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/24): "TOF_all_ions_INTEN_names"
+     DEPEND_1        (CDF_CHAR/14): "TOF_all_ions_T"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "TOF_all_ions_T_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "TOF_all_ions_T_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/18): "TOF_all_ions_INTEN"
+
+TOF_all_ions_COUNTS_names (No: 113) (Recs: 1)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "names of the TOF_all_ions_COUNTS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/25): "TOF_all_ions_COUNTS_names"
+     FORMAT          (CDF_CHAR/3): "a12"
+
+TOF_all_ions_T (No: 114) (Recs: 1)
+--------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_REAL4/1): 50.0
+     CATDESC         (CDF_CHAR/13): "channel names"
+     VALIDMAX        (CDF_REAL4/1): 6000.0
+     SCALEMAX        (CDF_REAL4/1): 6000.0
+     SCALEMIN        (CDF_REAL4/1): 50.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/14): "TOF_all_ions_T"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     VAR_NOTES       (CDF_CHAR/42): "REM changed name/units from time to energy"
+
+TOF_all_ions_T_dlo (No: 115) (Recs: 1)
+------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/18): "TOF_all_ions_T_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/18): "TOF_all_ions_T_dlo"
+     VALIDMAX        (CDF_REAL4/1): 6000.0
+     SCALEMAX        (CDF_REAL4/1): 6000.0
+     SCALEMIN        (CDF_REAL4/1): 50.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/18): "TOF_all_ions_T_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     VAR_NOTES       (CDF_CHAR/42): "REM changed name/units from time to energy"
+
+TOF_all_ions_T_dhi (No: 116) (Recs: 1)
+------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/18): "TOF_all_ions_T_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/18): "TOF_all_ions_T_dhi"
+     VALIDMAX        (CDF_REAL4/1): 6000.0
+     SCALEMAX        (CDF_REAL4/1): 6000.0
+     SCALEMIN        (CDF_REAL4/1): 50.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/18): "TOF_all_ions_T_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     VAR_NOTES       (CDF_CHAR/42): "REM changed name/units from time to energy"
+
+TOF_all_ions_CPS_names (No: 117) (Recs: 1)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "names of the TOF_all_ions_CPS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/22): "TOF_all_ions_CPS_names"
+     FORMAT          (CDF_CHAR/2): "a9"
+
+TOF_all_ions_INTEN_names (No: 118) (Recs: 1)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "names of the TOF_all_ions_INTEN channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/24): "TOF_all_ions_INTEN_names"
+     FORMAT          (CDF_CHAR/3): "a11"
+
+Epoch_3 (No: 119) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/23): "nanoseconds since J2000"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/4): "time"
+     VALIDMIN        (CDF_TT2000/1): 1989-01-10T19:01:12.605099976
+     CATDESC         (CDF_CHAR/7): "Epoch_3"
+     VALIDMAX        (CDF_TT2000/1): 1989-01-11T00:00:14.855585277
+     SCALEMAX        (CDF_TT2000/1): 1989-01-11T00:00:14.855585277
+     SCALEMIN        (CDF_TT2000/1): 1989-01-10T19:01:12.605099976
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/7): "Epoch_3"
+     FILLVAL         (CDF_TT2000/1): 2000-01-01T00:00:00.000000000
+
+SpinPeriod_3 (No: 120) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/7): "seconds"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/12): "SpinPeriod_3"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/12): "SpinPeriod_3"
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/12): "SpinPeriod_3"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+Sector_3 (No: 121) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "sector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/8): "Sector_3"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/8): "SECTOR_3"
+     VALIDMAX        (CDF_REAL4/1): 31.0
+     SCALEMAX        (CDF_REAL4/1): 31.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/8): "Sector_3"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+Gain_3 (No: 122) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     UNITS           (CDF_CHAR/8): "unitless"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/6): "Gain_3"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/6): "Gain_3"
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/6): "Gain_3"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+
+HIRES_ION_protons_COUNTS (No: 123) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/17): "HIRES_ION_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/132): "HIRES_ION_protons: counts for every sector in every spin (spectrogram); ION records only; the time given is the midpoint of SECTOR_3"
+     FULL_CATDESC    (CDF_CHAR/132): "HIRES_ION_protons: counts for every sector in every spin (spectrogram); ION records only; the time given is the midpoint of SECTOR_3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/24): "HIRES_ION_protons_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/30): "HIRES_ION_protons_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/19): "HIRES_ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "HIRES_ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "HIRES_ION_protons_E_dhi"
+
+HIRES_ION_protons_CPS (No: 124) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/17): "HIRES_ION_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/86): "---> HIRES_ION_protons: counts per second for every sector in every spin (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/143): "HIRES_ION_protons: counts per second for every sector in every spin (spectrogram); ION records only; the time given is the midpoint of SECTOR_3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/21): "HIRES_ION_protons_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/27): "HIRES_ION_protons_CPS_names"
+     DEPEND_1        (CDF_CHAR/19): "HIRES_ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "HIRES_ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "HIRES_ION_protons_E_dhi"
+
+HIRES_ION_protons_INTEN (No: 125) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/25): "HIRES_ION_protons_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/91): "---> HIRES_ION_protons: differential intensity for every sector in every spin (spectrogram)"
+     FULL_CATDESC    (CDF_CHAR/148): "HIRES_ION_protons: differential intensity for every sector in every spin (spectrogram); ION records only; the time given is the midpoint of SECTOR_3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/25): "HIRES_ION_protons_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/29): "HIRES_ION_protons_INTEN_names"
+     DEPEND_1        (CDF_CHAR/19): "HIRES_ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "HIRES_ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "HIRES_ION_protons_E_dhi"
+
+HIRES_ION_protons_COUNTS_stack (No: 126) (Recs: 0) (Compression: GZIP.6)
+------------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/17): "HIRES_ION_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/131): "HIRES_ION_protons: counts for every sector in every spin (stack_plot); ION records only; the time given is the midpoint of SECTOR_3"
+     FULL_CATDESC    (CDF_CHAR/131): "HIRES_ION_protons: counts for every sector in every spin (stack_plot); ION records only; the time given is the midpoint of SECTOR_3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/24): "HIRES_ION_protons_COUNTS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/30): "HIRES_ION_protons_COUNTS_names"
+     DEPEND_1        (CDF_CHAR/19): "HIRES_ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "HIRES_ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "HIRES_ION_protons_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/24): "HIRES_ION_protons_COUNTS"
+
+HIRES_ION_protons_CPS_stack (No: 127) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/17): "HIRES_ION_protons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/85): "---> HIRES_ION_protons: counts per second for every sector in every spin (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/142): "HIRES_ION_protons: counts per second for every sector in every spin (stack_plot); ION records only; the time given is the midpoint of SECTOR_3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/21): "HIRES_ION_protons_CPS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/27): "HIRES_ION_protons_CPS_names"
+     DEPEND_1        (CDF_CHAR/19): "HIRES_ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "HIRES_ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "HIRES_ION_protons_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "HIRES_ION_protons_CPS"
+
+HIRES_ION_protons_INTEN_stack (No: 128) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/21): "1/(sec ster cm^2 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     LABLAXIS        (CDF_CHAR/25): "HIRES_ION_protons_DiffInt"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/90): "---> HIRES_ION_protons: differential intensity for every sector in every spin (stack_plot)"
+     FULL_CATDESC    (CDF_CHAR/147): "HIRES_ION_protons: differential intensity for every sector in every spin (stack_plot); ION records only; the time given is the midpoint of SECTOR_3"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+20
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/25): "HIRES_ION_protons_DiffInt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/5): "e13.5"
+     LABL_PTR_1      (CDF_CHAR/29): "HIRES_ION_protons_INTEN_names"
+     DEPEND_1        (CDF_CHAR/19): "HIRES_ION_protons_E"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "HIRES_ION_protons_E_dlo"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "HIRES_ION_protons_E_dhi"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/23): "HIRES_ION_protons_INTEN"
+
+HIRES_ION_protons_COUNTS_names (No: 129) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "names of the HIRES_ION_protons_COUNTS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/30): "HIRES_ION_protons_COUNTS_names"
+     FORMAT          (CDF_CHAR/3): "a20"
+
+HIRES_ION_protons_E (No: 130) (Recs: 1)
+-------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_REAL4/1): 25.0
+     CATDESC         (CDF_CHAR/13): "channel names"
+     VALIDMAX        (CDF_REAL4/1): 83.0
+     SCALEMAX        (CDF_REAL4/1): 83.0
+     SCALEMIN        (CDF_REAL4/1): 25.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/19): "HIRES_ION_protons_E"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+HIRES_ION_protons_E_dlo (No: 131) (Recs: 1)
+-----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/23): "HIRES_ION_protons_E_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/23): "HIRES_ION_protons_E_dlo"
+     VALIDMAX        (CDF_REAL4/1): 83.0
+     SCALEMAX        (CDF_REAL4/1): 83.0
+     SCALEMIN        (CDF_REAL4/1): 25.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/23): "HIRES_ION_protons_E_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+HIRES_ION_protons_E_dhi (No: 132) (Recs: 1)
+-----------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/23): "HIRES_ION_protons_E_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/23): "HIRES_ION_protons_E_dhi"
+     VALIDMAX        (CDF_REAL4/1): 83.0
+     SCALEMAX        (CDF_REAL4/1): 83.0
+     SCALEMIN        (CDF_REAL4/1): 25.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/23): "HIRES_ION_protons_E_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+HIRES_ION_protons_CPS_names (No: 133) (Recs: 1)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "names of the HIRES_ION_protons_CPS channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/27): "HIRES_ION_protons_CPS_names"
+     FORMAT          (CDF_CHAR/3): "a17"
+
+HIRES_ION_protons_INTEN_names (No: 134) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "names of the HIRES_ION_protons_INTEN channels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/29): "HIRES_ION_protons_INTEN_names"
+     FORMAT          (CDF_CHAR/3): "a19"
+
+HIRES_ION_protons_Edrift (No: 135) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/24): "HIRES_ION_protons_Edrift"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/76): "Actual HIRES_ION_protons channel midpoint energies at the middle of this day"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/24): "HIRES_ION_protons_Edrift"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_3"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+HIRES_ION_protons_Edrift_dlo (No: 136) (Recs: 0) (Compression: GZIP.6)
+----------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/28): "HIRES_ION_protons_Edrift_dlo"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from lower to mid energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/28): "HIRES_ION_protons_Edrift_dlo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+HIRES_ION_protons_Edrift_dhi (No: 137) (Recs: 0) (Compression: GZIP.6)
+----------------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/28): "HIRES_ION_protons_Edrift_dhi"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/140): "delta from mid to upper energy bound for actual channel energy range at the middle of the day for the channels in the corresponding spectrum"
+     VALIDMAX        (CDF_REAL4/1): 7000.0
+     SCALEMAX        (CDF_REAL4/1): 7000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/28): "HIRES_ION_protons_Edrift_dhi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     SCALETYP        (CDF_CHAR/3): "log"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+
+Epoch_4 (No: 138) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/23): "nanoseconds since J2000"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/4): "time"
+     VALIDMIN        (CDF_TT2000/1): 1989-01-10T16:58:57.000062823
+     CATDESC         (CDF_CHAR/7): "Epoch_4"
+     VALIDMAX        (CDF_TT2000/1): 1989-01-11T00:00:03.325644671
+     SCALEMAX        (CDF_TT2000/1): 1989-01-11T00:00:03.325644671
+     SCALEMIN        (CDF_TT2000/1): 1989-01-10T16:58:57.000062823
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/7): "Epoch_4"
+     FILLVAL         (CDF_TT2000/1): 2000-01-01T00:00:00.000000000
+
+spin_axis_dirn_in_GSE (No: 139) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/21): "Spin/Z axis Direction"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     CATDESC         (CDF_CHAR/70): "Spacecraft spin axis as a unit vector in GSE evaluated once per record"
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/21): "spin_axis_dirn_in_GSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_4"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "f7.4"
+     LABL_PTR_1      (CDF_CHAR/19): "spin_axis_dirn_labl"
+
+spin_axis_dirn_labl (No: 140) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "spin_axis_dirn_labl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/19): "spin_axis_dirn_labl"
+     FORMAT          (CDF_CHAR/3): "a14"
+
+MAG (No: 141) (Recs: 0) (Compression: GZIP.6)
+---
+Attribute Entries:
+     UNITS           (CDF_CHAR/2): "nT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABLAXIS        (CDF_CHAR/13): "B field (GSE)"
+     VALIDMIN        (CDF_REAL4/1): -30000.0
+     CATDESC         (CDF_CHAR/48): "MAG data in GSE interpolated to sector midpoints"
+     VALIDMAX        (CDF_REAL4/1): 30000.0
+     SCALEMAX        (CDF_REAL4/1): 2000.0
+     SCALEMIN        (CDF_REAL4/1): -2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FIELDNAM        (CDF_CHAR/3): "MAG"
+     FILLVAL         (CDF_REAL4/1): -1.0e+38
+     DEPEND_0        (CDF_CHAR/7): "Epoch_4"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+     LABL_PTR_1      (CDF_CHAR/8): "MAG_labl"
+
+MAG_labl (No: 142) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "MAG_labl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/8): "MAG_labl"
+     FORMAT          (CDF_CHAR/2): "a5"
+

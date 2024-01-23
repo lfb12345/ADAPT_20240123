@@ -1,0 +1,290 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/pmc-turbo_l1_bolide_vbc_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     pmc-turbo_l1_bolide_vbc_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     9
+NumAttrs:     47 (23 global, 24 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+_NCProperties (1 entry):
+	0 (CDF_CHAR/54): 	"version=1|netcdflibversion=4.4.1|hdf5libversion=1.8.17"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/44): 	"PMC Turbo>Polar Mesospheric Cloud Turbulence"
+Discipline (1 entry):
+	0 (CDF_CHAR/50): 	"Heliophyscics>Mesosphere and Thermosphere Dynamics"
+Data_type (1 entry):
+	0 (CDF_CHAR/34): 	"L1>Volume backscatter coefficients"
+Descriptor (1 entry):
+	0 (CDF_CHAR/31): 	"BOLIDE>Balloon lidar experiment"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/39): 	"pmc-turbo_l1_bolide_vbc_00000000_v01.nc"
+Logical_source (1 entry):
+	0 (CDF_CHAR/19): 	"pmc-turbo_l1_bolide"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/59): 	"PMC-Turbo/BOLIDE Rayleigh lidar PMC data 20m 10s resolution"
+PI_name (1 entry):
+	0 (CDF_CHAR/35): 	"Bernd Kaifler, bernd.kaifler@dlr.de"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/8): 	"DLR, IPA"
+TEXT (1 entry):
+	0 (CDF_CHAR/66): 	"Instrument description in https://doi.org/10.5194/amt-13-5681-2020"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/156): 	"Users are encouraged to contact the PI for early discussion of analysis projects and to offer co-authorship when publishing results derived from BOLIDE data"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/45): 	"BOLIDE lidar PMC measurements as described in"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/24): 	"PMC Turbo overview paper"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/36): 	"https://doi.org/10.1029/2019JD030298"
+Mission_group (1 entry):
+	0 (CDF_CHAR/8): 	"Balloons"
+history (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NCO (1 entry):
+	0 (CDF_CHAR/7): 	""4.6.1""
+NC_KIND (1 entry):
+	0 (CDF_CHAR/22): 	"netCDF-4 classic model"
+NC_DIMENSIONS_G (2 entries):
+	0 (CDF_CHAR/12): 	"Altitude=701"
+	1 (CDF_CHAR/14): 	"Time=UNLIMITED"
+
+Variable Attributes (24 attributes)
+=========================================
+NC_DIMENSIONS_V
+NC_DEFLATE
+NC_SHUFFLE
+NC_STORAGE
+NC_CHUNKSIZES
+UNITS
+CATDESC
+DISPLAY_TYPE
+FIELDNAM
+VAR_TYPE
+FILLVAL
+VALIDMIN
+VALIDMAX
+FORMAT
+LABLAXIS
+MD5
+DEPEND_0
+DEPEND_1
+TIME_BASE
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+VAR_NOTES
+
+Variable Information (0 rVariable, 9 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+time_base             CDF_EPOCH/1	0:[]	F/  
+Altitude              CDF_FLOAT/1	1:[701]	F/T
+Azimuth               CDF_FLOAT/1	0:[]	T/  
+Floating_altitude     CDF_FLOAT/1	0:[]	T/  
+Latitude              CDF_FLOAT/1	0:[]	T/  
+Longitude             CDF_FLOAT/1	0:[]	T/  
+Time                  CDF_DOUBLE/1	0:[]	T/  
+Volume_backscatter_coefficient CDF_DOUBLE/1	1:[701]	T/T
+
+
+Variable (9 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0) (Compression: GZIP.9)
+-----
+Attribute Entries:
+     UNITS           (CDF_CHAR/4): "msec"
+     CATDESC         (CDF_CHAR/12): "time_inboard"
+     FIELDNAM        (CDF_CHAR/10): "time_epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     TIME_BASE       (CDF_CHAR/22): "1970-01-01 00:00:00 AD"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/9): "time_base"
+     COMPONENT_1     (CDF_CHAR/4): "Time"
+     VAR_NOTES       (CDF_CHAR/47): "Date in msec - time_base+Time, computed by SPDF"
+
+time_base (No: 1) (Recs: 1)
+---------
+Attribute Entries:
+     UNITS           (CDF_CHAR/4): "msec"
+     CATDESC         (CDF_CHAR/9): "time base"
+     FIELDNAM        (CDF_CHAR/9): "Time_base"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     VAR_NOTES       (CDF_CHAR/62): "EPOCH of 01-Jan-1970 00:00:00 - SPDF added base variable/value"
+
+Altitude (No: 2) (Recs: 1) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/8): "Altitude"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 701
+     UNITS           (CDF_CHAR/2): "km"
+     CATDESC         (CDF_CHAR/8): "altitude"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/8): "Altitude"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): 9.96921e+36
+     VALIDMIN        (CDF_FLOAT/1): 76.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     LABLAXIS        (CDF_CHAR/8): "Altitude"
+     MD5             (CDF_CHAR/32): "8661173f4d1246175501967bd5dc623a"
+
+Azimuth (No: 3) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "Time"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 1
+     UNITS           (CDF_CHAR/3): "deg"
+     CATDESC         (CDF_CHAR/86): "Beam pointing clockwise from north, from gondola yaw angle + 90 deg of CSBFs TDRSS log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "alpha"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): 9.96921e+36
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 270.0
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABLAXIS        (CDF_CHAR/7): "Azimuth"
+     MD5             (CDF_CHAR/32): "0ece0e303afeb4695cd178c3369a51df"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+Floating_altitude (No: 4) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "Time"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 1
+     UNITS           (CDF_CHAR/2): "km"
+     CATDESC         (CDF_CHAR/50): "Balloon floating altitude from onboard GPS sensors"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/2): "z0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): 9.96921e+36
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 60.0
+     FORMAT          (CDF_CHAR/4): "F5.2"
+     LABLAXIS        (CDF_CHAR/17): "Floating altitude"
+     MD5             (CDF_CHAR/32): "abaf7b433fbe43ec89f0cd91eb2b0be5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+Latitude (No: 5) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "Time"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 1
+     UNITS           (CDF_CHAR/3): "deg"
+     CATDESC         (CDF_CHAR/107): "Latitude of lidar beam at 82 km altitude, given azimuth, floating altitude and 28 deg off-zenith beam angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "latitude"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): 9.96921e+36
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABLAXIS        (CDF_CHAR/8): "Latitude"
+     MD5             (CDF_CHAR/32): "26dcbbd6fe706307fcab2d5ccc1b287e"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+Longitude (No: 6) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "Time"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 1
+     UNITS           (CDF_CHAR/3): "deg"
+     CATDESC         (CDF_CHAR/108): "Longitude of lidar beam at 82 km altitude, given azimuth, floating altitude and 28 deg off-zenith beam angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "longitude"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): 9.96921e+36
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABLAXIS        (CDF_CHAR/9): "Longitude"
+     MD5             (CDF_CHAR/32): "78d50aa5ef7e38c246821ec735898af5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+Time (No: 7) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "Time"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 1
+     UNITS           (CDF_CHAR/34): "Seconds since 1970-01-01T00:00:00Z"
+     CATDESC         (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 9.96921e+36
+     VALIDMIN        (CDF_DOUBLE/1): 1.53148e+09
+     VALIDMAX        (CDF_DOUBLE/1): 1.53154e+09
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     MD5             (CDF_CHAR/32): "489152a780565bf246f106c785edc07a"
+
+Volume_backscatter_coefficient (No: 8) (Recs: 0) (Compression: GZIP.6)
+------------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/13): "Time,Altitude"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 701
+     UNITS           (CDF_CHAR/13): "10^{-10}/m/sr"
+     CATDESC         (CDF_CHAR/113): "volume backscatter coefficient beta derived from Rayleigh lidar data at a threshold of 2.5 sigma above background"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "beta"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_DOUBLE/1): 9.96921e+36
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 200.0
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     LABLAXIS        (CDF_CHAR/30): "Volume backscatter coefficient"
+     MD5             (CDF_CHAR/32): "048b014457fd5306e3a56ead132b8a5b"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+

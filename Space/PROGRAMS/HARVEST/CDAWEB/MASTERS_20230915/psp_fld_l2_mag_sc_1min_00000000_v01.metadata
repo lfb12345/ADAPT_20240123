@@ -1,0 +1,257 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_fld_l2_mag_sc_1min_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_fld_l2_mag_sc_1min_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     53 (30 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (30 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/43): 	"PSP FIELDS Fluxgate Magnetometer (MAG) data"
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"PSP"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/33): 	"PSP_FLD>Parker Solar Probe FIELDS"
+Descriptor (1 entry):
+	0 (CDF_CHAR/56): 	"MAG_SC_1min>Fluxgate Magnetometer data in SC coordinates"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"L2>Level 2 Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+TEXT (5 entries):
+	0 (CDF_CHAR/214): 	"PSP FIELDS Fluxgate Magnetometer data. Time resolution varies with instrument mode, ranging from 2.3-292.9 samples/sec, corresponding to 2-256 samples per 0.874 seconds (0.874 = 2^25 / 38.4 MHz, see reference [2])."
+	1 (CDF_CHAR/197): 	"The Magnetometer has 4 ranges - +/-1024, +/-4096, +/-16,384, +/-65,536 nT, selected by the ranging algorithm, based on the ambient magnetic field. Precision is +/- 15 bits, based on the 16-bit ADC."
+	2 (CDF_CHAR/11): 	"References:"
+	3 (CDF_CHAR/115): 	"1. Fox, N.J., Velli, M.C., Bale, S.D. et al. Space Sci Rev (2016) 204: 7. https://doi.org/10.1007/s11214-015-0211-6"
+	4 (CDF_CHAR/117): 	"2. Bale, S.D., Goetz, K., Harvey, P.R. et al. Space Sci Rev (2016) 204: 49. https://doi.org/10.1007/s11214-016-0244-5"
+MODS (1 entry):
+	0 (CDF_CHAR/9): 	"Version 1"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/35): 	"psp_fld_l2_mag_SC_1min_20190220_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/22): 	"psp_fld_l2_mag_SC_1min"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/78): 	"PSP FIELDS 1 minute cadence Fluxgate Magnetometer (MAG) data in SC coordinates"
+PI_name (1 entry):
+	0 (CDF_CHAR/34): 	"Stuart D. Bale (bale@berkeley.edu)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/37): 	"UC Berkeley Space Sciences Laboratory"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+Parents (4 entries):
+	0 (CDF_CHAR/35): 	"spp_fld_l1_mago_hk_20190220_v00.cdf"
+	1 (CDF_CHAR/35): 	"spp_fld_l1_mago_hk_20190221_v00.cdf"
+	2 (CDF_CHAR/39): 	"spp_fld_l1_mago_survey_20190220_v00.cdf"
+	3 (CDF_CHAR/39): 	"spp_fld_l1_mago_survey_20190221_v00.cdf"
+mag_offset_calibration_files (1 entry):
+	0 (CDF_CHAR/34): 	"psp_mago_zeros_range0_2019_v03.dat"
+Dependencies (1 entry):
+	0 (CDF_CHAR/4): 	"None"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Acknowledgement (0 entry):
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/69): 	"spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/MAG/Level2/SC/PT1M"
+Generated_by (1 entry):
+	0 (CDF_CHAR/14): 	"PSP FIELDS SOC"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/79): 	"PSP/FIELDS Rules of the Road available at http://fields.ssl.berkeley.edu/rules/"
+Generation_date (1 entry):
+	0 (CDF_CHAR/24): 	"Tue Nov  5 21:37:31 2019"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/36): 	"http://fields.ssl.berkeley.edu/data/"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/14): 	"PSP/FIELDS SOC"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/10): 	" Data Link"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"1 minute"
+svn_version (1 entry):
+	0 (CDF_CHAR/5): 	"25679"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+MONOTON
+FORMAT
+LABLAXIS
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+SI_conv
+CATDESC
+TIME_BASE
+VAR_NOTES
+SCALETYP
+LABL_PTR_1
+RESOLUTION
+TIME_SCALE
+REFERENCE_POSITION
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+epoch_mag_SC_1min     CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_mag_SC_1min CDF_REAL4/1	1:[3]	T/T
+epoch_mag_SC_zero     CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_mag_SC_zero CDF_REAL4/1	2:[3,4]	T/TT
+label_SC              CDF_CHAR/3	1:[3]	F/T
+component_index_SC    CDF_INT4/1	1:[3]	F/T
+epoch_quality_flags   CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_quality_flags CDF_UINT4/1	0:[]	T/  
+
+
+Variable (8 variables)
+=========================================
+
+epoch_mag_SC_1min (No: 0) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "epoch_mag_SC_1min"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2049-12-31T23:59:59.999999999
+     SCALEMIN        (CDF_TT2000/1): 2019-02-20T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-02-21T00:00:00.000000000
+     UNITS           (CDF_CHAR/2): "ns"
+     CATDESC         (CDF_CHAR/53): "Time in TT2000 for 1 minute cadence MAG waveform data"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+
+psp_fld_l2_mag_SC_1min (No: 1) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "MAG B_SC"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/4): "B_SC"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/17): "epoch_mag_SC_1min"
+     DEPEND_1        (CDF_CHAR/18): "component_index_SC"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_REAL4/3): -65536.0, -65536.0, -65536.0
+     VALIDMAX        (CDF_REAL4/3): 65536.0, 65536.0, 65536.0
+     UNITS           (CDF_CHAR/2): "nT"
+     SI_conv         (CDF_CHAR/12): "1.0e-9>Tesla"
+     CATDESC         (CDF_CHAR/51): "Magnetic field in SC coordinates (1 minute cadence)"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABL_PTR_1      (CDF_CHAR/8): "label_SC"
+
+epoch_mag_SC_zero (No: 2) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "epoch_mag_SC_1"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2049-12-31T23:59:59.999999999
+     SCALEMIN        (CDF_TT2000/1): 2019-02-20T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-02-21T00:00:00.000000000
+     UNITS           (CDF_CHAR/2): "ns"
+     CATDESC         (CDF_CHAR/32): "Time in TT2000 for MAG zero data"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+
+psp_fld_l2_mag_SC_zero (No: 3) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "Magnetometer Sensor Zeros (1 min)"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "MAG Zeros"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/17): "epoch_mag_SC_zero"
+     VALIDMIN        (CDF_REAL4/1): -32768.0
+     VALIDMAX        (CDF_REAL4/1): 32767.0
+     UNITS           (CDF_CHAR/6): "Counts"
+     CATDESC         (CDF_CHAR/77): "Magnetometer sensor zeros for each of 3 axes and 4 measurement ranges (1 min)"
+     VAR_NOTES       (CDF_CHAR/130): "Magnetometer zero levels based on time-varying in-flight calibrations.  Zero levels reported in counts, in MAG sensor coordinates."
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+label_SC (No: 4) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Labels for B in SC coordinates"
+     FORMAT          (CDF_CHAR/2): "A3"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     UNITS           (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/30): "Labels for B in SC coordinates"
+
+component_index_SC (No: 5) (Recs: 1)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/50): "Numerical index for B components in SC coordinates"
+     FORMAT          (CDF_CHAR/3): "I10"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     UNITS           (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/50): "Numerical index for B components in SC coordinates"
+
+epoch_quality_flags (No: 6) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "epoch_quality_flags"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-02-20T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-02-21T00:00:00.000000000
+     UNITS           (CDF_CHAR/2): "ns"
+     CATDESC         (CDF_CHAR/32): "Time for the FIELDS quality flag"
+
+psp_fld_l2_quality_flags (No: 7) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "quality_flags"
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/4): "flag"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     DEPEND_0        (CDF_CHAR/19): "epoch_quality_flags"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 127
+     UNITS           (CDF_CHAR/4): "None"
+     CATDESC         (CDF_CHAR/19): "FIELDS quality flag"
+     VAR_NOTES       (CDF_CHAR/990): "FIELDS quality flags. This is a bitwise variable, meaning that multiple flags can be set for a single time, by adding flag values. Current flagged values are: 1: FIELDS antenna bias sweep, 2: PSP thruster firing, 4: SCM Calibration, 8: PSP rotations for MAG calibration (MAG rolls), 16: FIELDS MAG calibration sequence, 32: SWEAP SPC in electron mode, 64: PSP Solar limb sensor (SLS) test. 128: PSP spacecraft is off umbra pointing. 256: High frequency noise affecting RFS and TDS receivers. 512: Antennas driven towards the FIELDS power supply rails. A value of zero corresponds to no set flags. Not all flags are relevant to all FIELDS data products, refer to notes in the CDF metadata and on the FIELDS SOC website for information on how the various flags impact FIELDS data. For more information on the quality flags describing high frequency noise and antennas driven to the rails, see release notes for PSP/FIELDS releases 8 and 9. Additional flagged items may be added in the future."
+

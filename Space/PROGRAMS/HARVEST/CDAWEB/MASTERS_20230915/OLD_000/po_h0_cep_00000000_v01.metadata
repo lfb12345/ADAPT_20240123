@@ -1,0 +1,344 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_h0_cep_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_h0_cep_00000000_v01.cdf
+Version:      3.6.2
+
+Common Data Format (CDF)
+(C) Copyright 1990-2016 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     13
+NumAttrs:     52 (25 global, 27 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"H0>High Time Resolution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/49): 	"CEP>COMPREHENSIVE ENERGETIC PARTICLE PITCH ANGLE "
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/28): 	"J.B. Blake, Aerospace Corp; "
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/20): 	"Reiner Friedel, LANL"
+TEXT (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"po_h0_cep"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"po_h0_cep_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/84): 	"CEPPAD Energetic particles, by energy & pitch angle, High Time Resolution parameters"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/6): 	"48 sec"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0179"
+Link_text (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/5): 	"Polar"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+
+Variable Attributes (27 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+FUNCTION
+VIRTUAL
+COMPONENT_0
+ALLOW_BIN
+
+Variable Information (0 rVariable, 13 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+ENERGY                CDF_REAL4/1	1:[17]	F/T
+PITCH_ANGLE           CDF_INT2/1	1:[18]	F/T
+PITCH                 CDF_REAL4/1	2:[17,18]	T/TT
+FLUX_LOG              CDF_REAL4/1	2:[17,18]	T/TT
+FLUX_P                CDF_REAL4/1	2:[17,18]	T/TT
+PITCH_V               CDF_REAL4/1	2:[17,18]	T/TT
+PITCH_VA              CDF_REAL4/1	2:[17,18]	T/TT
+COUNT                 CDF_INT2/1	2:[17,18]	T/TT
+COUNT_V               CDF_INT2/1	2:[17,18]	T/TT
+COUNT_VA              CDF_INT2/1	2:[17,18]	T/TT
+Label_energy          CDF_CHAR/18	1:[17]	F/T
+Label_pitch           CDF_CHAR/14	1:[18]	F/T
+
+
+Variable (13 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "Time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FIELDNAM        (CDF_CHAR/5): "Time "
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+ENERGY (No: 1) (Recs: 1)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "[Time not TAI converted] Energy_cal"
+     FIELDNAM        (CDF_CHAR/10): "Energy_cal"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/3): "keV"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 353.401
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+PITCH_ANGLE (No: 2) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Pitch Angle"
+     FIELDNAM        (CDF_CHAR/11): "Pitch Angle"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "i4"
+     LABLAXIS        (CDF_CHAR/11): "Pitch Angle"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_INT2/1): 5
+     VALIDMAX        (CDF_INT2/1): 175
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+PITCH (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/100): "Flux distributions (small format, linear intensity vs unscaled pitch vertical and energy horizontal)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "ENERGY"
+     DEPEND_2        (CDF_CHAR/11): "PITCH_ANGLE"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     FIELDNAM        (CDF_CHAR/13): "Particle Flux"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f12.3"
+     LABL_PTR_1      (CDF_CHAR/12): "Label_energy"
+     LABL_PTR_2      (CDF_CHAR/11): "Label_pitch"
+     UNITS           (CDF_CHAR/14): "#/c2-str-keV-s"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+09
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+FLUX_LOG (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/97): "Flux distributions (large format, log intensity vs unscaled pitch vertical and energy horizontal)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "ENERGY"
+     DEPEND_2        (CDF_CHAR/11): "PITCH_ANGLE"
+     DISPLAY_TYPE    (CDF_CHAR/19): "image>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/19): "Log10 Particle Flux"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f12.3"
+     LABL_PTR_1      (CDF_CHAR/12): "Label_energy"
+     LABL_PTR_2      (CDF_CHAR/11): "Label_pitch"
+     UNITS           (CDF_CHAR/21): "log10(#/c2-str-keV-s)"
+     VALIDMIN        (CDF_REAL4/1): -2.0
+     VALIDMAX        (CDF_REAL4/1): 9.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FUNCTION        (CDF_CHAR/13): "convert_log10"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/5): "PITCH"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+FLUX_P (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "Scaled Flux Distributions, Log Intensity vs Scaled Energy and Pitch Angle"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "ENERGY"
+     DEPEND_2        (CDF_CHAR/11): "PITCH_ANGLE"
+     DISPLAY_TYPE    (CDF_CHAR/52): "plasmagram>x=ENERGY,y=PITCH_ANGLE,z=FLUX_P,symsize=4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f12.3"
+     LABL_PTR_1      (CDF_CHAR/12): "Label_energy"
+     LABL_PTR_2      (CDF_CHAR/11): "Label_pitch"
+     UNITS           (CDF_CHAR/21): "log10(#/c2-str-keV-s)"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+09
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FUNCTION        (CDF_CHAR/13): "convert_log10"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/5): "PITCH"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+PITCH_V (No: 6) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Flux vs pitch angle spectrograms,  at 5 selected energies"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "ENERGY"
+     DEPEND_2        (CDF_CHAR/11): "PITCH_ANGLE"
+     DISPLAY_TYPE    (CDF_CHAR/105): "spectrogram>y=PITCH_ANGLE,z=PITCH_V(2,*), z=PITCH_V(6,*),z=PITCH_V(9,*), z=PITCH_V(12,*), z=PITCH_V(16,*)"
+     FIELDNAM        (CDF_CHAR/13): "Particle Flux"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f12.3"
+     LABL_PTR_1      (CDF_CHAR/12): "Label_energy"
+     LABL_PTR_2      (CDF_CHAR/11): "Label_pitch"
+     UNITS           (CDF_CHAR/14): "#/c2-str-keV-s"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+09
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/5): "PITCH"
+
+PITCH_VA (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Flux vs energy spectrograms, at 5 selected pitch angles"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "ENERGY"
+     DEPEND_2        (CDF_CHAR/11): "PITCH_ANGLE"
+     DISPLAY_TYPE    (CDF_CHAR/105): "spectrogram>y=ENERGY,z=PITCH_VA(*,2), z=PITCH_VA(*,6),z=PITCH_VA(*,9), z=PITCH_VA(*,12), z=PITCH_VA(*,16)"
+     FIELDNAM        (CDF_CHAR/13): "Particle Flux"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f12.3"
+     LABL_PTR_1      (CDF_CHAR/12): "Label_energy"
+     LABL_PTR_2      (CDF_CHAR/11): "Label_pitch"
+     UNITS           (CDF_CHAR/14): "#/c2-str-kev-s"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+09
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/5): "PITCH"
+
+COUNT (No: 8) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Counts Distributions"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "ENERGY"
+     DEPEND_2        (CDF_CHAR/11): "PITCH_ANGLE"
+     DISPLAY_TYPE    (CDF_CHAR/5): "IMAGE"
+     FIELDNAM        (CDF_CHAR/6): "Counts"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "i3"
+     LABL_PTR_1      (CDF_CHAR/12): "Label_energy"
+     LABL_PTR_2      (CDF_CHAR/11): "Label_pitch"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 254
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+COUNT_V (No: 9) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Counts vs pitch angle spectrograms, at 5 selected energies"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "ENERGY"
+     DEPEND_2        (CDF_CHAR/11): "PITCH_ANGLE"
+     DISPLAY_TYPE    (CDF_CHAR/105): "spectrogram>y=PITCH_ANGLE,z=COUNT_V(2,*), z=COUNT_V(6,*),z=COUNT_V(9,*), z=COUNT_V(12,*), z=COUNT_V(16,*)"
+     FIELDNAM        (CDF_CHAR/6): "Counts"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "i3"
+     LABL_PTR_1      (CDF_CHAR/12): "Label_energy"
+     LABL_PTR_2      (CDF_CHAR/11): "Label_pitch"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 254
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/5): "COUNT"
+
+COUNT_VA (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Counts vs energy spectrograms, at 5 selected pitch angles"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "ENERGY"
+     DEPEND_2        (CDF_CHAR/11): "PITCH_ANGLE"
+     DISPLAY_TYPE    (CDF_CHAR/105): "spectrogram>y=ENERGY,z=COUNT_VA(*,2), z=COUNT_VA(*,6),z=COUNT_VA(*,9), z=COUNT_VA(*,12), z=COUNT_VA(*,16)"
+     FIELDNAM        (CDF_CHAR/6): "Counts"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "i3"
+     LABL_PTR_1      (CDF_CHAR/12): "Label_energy"
+     LABL_PTR_2      (CDF_CHAR/11): "Label_pitch"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 254
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/5): "COUNT"
+
+Label_energy (No: 11) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "Labels for energy axis"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/22): "Labels for energy axis"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Label_pitch (No: 12) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "Labels for pitch axis"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/21): "Labels for pitch axis"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

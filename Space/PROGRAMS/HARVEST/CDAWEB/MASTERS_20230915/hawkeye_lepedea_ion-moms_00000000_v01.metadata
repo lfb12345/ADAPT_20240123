@@ -1,0 +1,329 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/hawkeye_lepedea_ion-moms_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     hawkeye_lepedea_ion-moms_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     13
+NumAttrs:     58 (26 global, 32 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/13): 	"NSSDC_Archive"
+Source_name (1 entry):
+	0 (CDF_CHAR/10): 	"HK>Hawkeye"
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+	1 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/20): 	"ion-moms>ion moments"
+Descriptor (1 entry):
+	0 (CDF_CHAR/59): 	"LEPEDEA>Low-Energy Proton and Electron Differential Energy "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Louis A. Frank"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/18): 	"University of Iowa"
+TEXT (7 entries):
+	0 (CDF_CHAR/762): 	"This data set was derived as a validation check of the attitude spin index solution described in Hawkeye Spacecraft (2012), JOURNAL OF SPACECRAFT AND ROCKETS, Vol. 39, No. 5, September-October 2002, https://doi.org/10.2514/2.3879. Ion moments, treated as 100% protons, are derived from LEPEDEA ramp measurements, one ramp energy sweep takes 1.44 s, time between ion sweeps is 11.52s, spin period is about 11s, so about 21 sweeps are required for uniform coverage in the spin plane. The FOV is 8 degrees (spin-plane) x 30 degrees (out of spin pane), so the FOV covered over a spin is about pi of 4*pi steradians. The time step between moment computations varies between 70 and 110s and the time interval for a moment computation was typically 21x2 sweeps or 484s."
+	1 (CDF_CHAR/44): 	"Note: LEPEDEA is not a solar wind instrument"
+	2 (CDF_CHAR/222): 	"Note: contamination by interval photo electrons have not been mitigated. For 80 degrees < sun angle < 120 degree the moments can be heavily contaminated by internal photo electrons, especially if the plasma density is low."
+	3 (CDF_CHAR/98): 	"Note:No correction for the external photo-electron sheath has been made, the impact will be small."
+	4 (CDF_CHAR/81): 	"Derived from IDL save files derived from the Hawkeye Master Science Files in 2000"
+	5 (CDF_CHAR/81): 	"Derived from IDL save files derived from the Hawkeye Master Science Files in 2000"
+	6 (CDF_CHAR/81): 	"Derived from IDL save files derived from the Hawkeye Master Science Files in 2000"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	1 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/7): 	"Hawkeye"
+Logical_source (1 entry):
+	0 (CDF_CHAR/24): 	"hawkeye_lepedea_ion-moms"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/37): 	"hawkeye_lepedea_ion-moms_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/42): 	"hk_lepedea_l1_ion-moms/LEPEDEA ion moments"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/3): 	"80s"
+Rules_of_use (0 entry):
+Generated_by (1 entry):
+	0 (CDF_CHAR/17): 	"Scott A. Boardsen"
+Generation_date (1 entry):
+	0 (CDF_CHAR/10): 	"2000/01/01"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/107): 	"We thank James L Green for obtaining the master science files for Iowa and providing support in the 1990's."
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (0 entry):
+LINK_TITLE (0 entry):
+HTTP_LINK (0 entry):
+spase_DatasetResourceID (0 entry):
+
+Variable Attributes (32 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+
+Variable Information (0 rVariable, 13 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+partial_proton_density CDF_REAL4/1	0:[]	T/  
+partial_proton_speed  CDF_REAL4/1	0:[]	T/  
+phi                   CDF_REAL4/1	0:[]	T/  
+partial_proton_thermal_velocity CDF_REAL4/1	0:[]	T/  
+pos_gsm               CDF_REAL4/1	1:[3]	T/T
+bgsm                  CDF_REAL4/1	1:[3]	T/T
+spinaxis_gsm          CDF_REAL4/1	1:[3]	T/T
+sun_gsm               CDF_REAL4/1	1:[3]	T/T
+pos_gsm_LABL_1        CDF_CHAR/22	1:[3]	F/T
+bgsm_LABL_1           CDF_CHAR/20	1:[3]	F/T
+unitvector_gsm_LABL_1 CDF_CHAR/29	1:[3]	F/T
+sun_angle             CDF_REAL4/1	0:[]	T/  
+
+
+Variable (13 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "center time of moments computation"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1974-06-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 1978-04-29T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+
+partial_proton_density (No: 1) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "partial_proton_density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "partial_proton_density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/22): "partial_proton_density"
+     UNITS           (CDF_CHAR/5): "# /cc"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/62): "Ion are treated as proton 0th order moment integral of f(v)*dv"
+
+partial_proton_speed (No: 2) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "partial_proton_speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/20): "partial_proton_speed"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/20): "partial_proton_speed"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): -200.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/91): "proton speed computed from the velocity moment. intergral of v*f(v)*dv/integral of f(v)*dv "
+
+phi (No: 3) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "angle of velocity moment in spin plane relative to the sun vector"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/3): "phi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/16): "spin_index_angle"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/174): "angle of velocity moment in spin plane relative to projected sun vector into the spin plane vx = partial_proton_speed*cos( phi/57.3) vy = partial_proton_speed*sin( phi/57.3) "
+
+partial_proton_thermal_velocity (No: 4) (Recs: 0)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "partial_proton_thermal_velocity derived from spin plane measurement"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/31): "partial_proton_thermal_velocity"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/31): "partial_proton_thermal_velocity"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+pos_gsm (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "X, Y, Z spacecraft postion in GSM with units of RE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "pos_gsm"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "e12.2"
+     LABL_PTR_1      (CDF_CHAR/14): "pos_gsm_LABL_1"
+     UNITS           (CDF_CHAR/2): "RE"
+     VALIDMIN        (CDF_REAL4/3): -22.0, -22.0, -22.0
+     VALIDMAX        (CDF_REAL4/3): 22.0, 22.0, 22.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+bgsm (No: 6) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "bfield_gsm"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "bfield_gsm"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/11): "bgsm_LABL_1"
+     UNITS           (CDF_CHAR/2): "nt"
+     VALIDMIN        (CDF_REAL4/3): -60000.0, -60000.0, -60000.0
+     VALIDMAX        (CDF_REAL4/3): 60000.0, 60000.0, 60000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/51): "average magnetic field over time moment computation"
+
+spinaxis_gsm (No: 7) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "spinaxis_gsm"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "spinaxis_gsm"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/21): "unitvector_gsm_LABL_1"
+     UNITS           (CDF_CHAR/13): "dimensionless"
+     VALIDMIN        (CDF_REAL4/3): -1.0, -1.0, -1.0
+     VALIDMAX        (CDF_REAL4/3): 1.0, 1.0, 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/39): "spacecraft spin axis unit vecotr in GSM"
+
+sun_gsm (No: 8) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "sun_gsm"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "sun_gsm"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/21): "unitvector_gsm_LABL_1"
+     UNITS           (CDF_CHAR/13): "dimensionless"
+     VALIDMIN        (CDF_REAL4/3): -1.0, -1.0, -1.0
+     VALIDMAX        (CDF_REAL4/3): 1.0, 1.0, 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/25): "sun direction unit vector"
+
+pos_gsm_LABL_1 (No: 9) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "pos_gsm_LABL_1"
+     FIELDNAM        (CDF_CHAR/14): "pos_gsm_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A23"
+     LABLAXIS        (CDF_CHAR/14): "pos_gsm_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+bgsm_LABL_1 (No: 10) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "bgsm_LABL_1"
+     FIELDNAM        (CDF_CHAR/11): "bgsm_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/11): "bgsm_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+unitvector_gsm_LABL_1 (No: 11) (Recs: 1)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "unitvector_gsm_LABL_1"
+     FIELDNAM        (CDF_CHAR/21): "unitvector_gsm_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A30"
+     LABLAXIS        (CDF_CHAR/21): "unitvector_gsm_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+sun_angle (No: 12) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "angle in degree between the spin axis and Sun direction"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "sun_angle"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "sun_angle"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/149): "For  80 degrees < sun angle < 120 degree the moments can be heavily contanimated by internal photo electrons, especially if the plasma density is low"
+

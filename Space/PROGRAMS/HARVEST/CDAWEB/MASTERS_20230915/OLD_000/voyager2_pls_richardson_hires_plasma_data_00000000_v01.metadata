@@ -1,0 +1,209 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/voyager2_pls_richardson_hires_plasma_data_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     voyager2_pls_richardson_hires_plasma_data_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     48 (25 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/8): 	"Voyager2"
+Source_name (1 entry):
+	0 (CDF_CHAR/18): 	"VOYAGER2>Voyager-2"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/26): 	"hires>Voyager HiRes Plasma"
+Descriptor (1 entry):
+	0 (CDF_CHAR/47): 	"pls-plasma>Voyager high resolution plasma data."
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/18): 	"John D. Richardson"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/91): 	"Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology."
+TEXT (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_UCHAR/7): 	"Voyager"
+Logical_source (1 entry):
+	0 (CDF_CHAR/25): 	"Voyager2_PLS-Plasma_HiRes"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/30): 	"High Resolution Plasma Moments"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/4): 	"vary"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/26): 	"Above data in the form of "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/11): 	"ASCII files"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/66): 	"https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/plasma/hires/"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+V                     CDF_DOUBLE/1	0:[]	T/  
+dens                  CDF_DOUBLE/1	0:[]	T/  
+V_thermal             CDF_DOUBLE/1	0:[]	T/  
+V_rtn                 CDF_DOUBLE/1	1:[3]	T/T
+V_rtn_depend          CDF_DOUBLE/1	1:[3]	F/T
+V_rtn_labl            CDF_CHAR/7	1:[3]	F/T
+
+
+Variable (7 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-3000 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+V (No: 1) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "V_proton"
+     CATDESC         (CDF_CHAR/20): "proton bulk velocity"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "proton bulk velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/7): "Vp-Bulk"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+dens (No: 2) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "dens"
+     CATDESC         (CDF_CHAR/21): "proton number density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/2): "Np"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+V_thermal (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "V_proton_thermal"
+     CATDESC         (CDF_CHAR/23): "proton thermal velocity"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/23): "proton thermal velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/10): "Vp-thermal"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+V_rtn (No: 4) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Vp_rtn"
+     CATDESC         (CDF_CHAR/27): "proton bulk velocity vector"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "V_rtn_depend"
+     DICT_KEY        (CDF_CHAR/22): "proton velocity vector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/5): "V_rtn"
+     LABL_PTR_1      (CDF_CHAR/10): "V_rtn_labl"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): -100000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+V_rtn_depend (No: 5) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Component No"
+     CATDESC         (CDF_CHAR/12): "Component No"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABL_PTR_1      (CDF_CHAR/10): "V_rtn_labl"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 3.0
+     VAR_TYPE        (CDF_CHAR/12): "support data"
+
+V_rtn_labl (No: 6) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "V_rtn_labl"
+     CATDESC         (CDF_CHAR/10): "V_rtn_labl"
+     DICT_KEY        (CDF_CHAR/10): "V_rtn_labl"
+     FORMAT          (CDF_CHAR/2): "a7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

@@ -1,0 +1,321 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sts01_ed_tepc_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sts01_ed_tepc_00000000_v01.cdf
+Version:      2.6.7
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-1997 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     14
+NumAttrs:     47 (24 global, 23 variable)
+Compression:  None
+
+Global Attributes (24 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"ISS"
+Source_name (1 entry):
+	0 (CDF_CHAR/11): 	"STS01>STS01"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/18): 	"ED>Experiment Data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/9): 	"TEPC>TEPC"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"Juan Garza"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/8): 	"SRAG/JSC"
+TEXT (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/3): 	"ISS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"sts01_ed_tepc"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"sts01_ed_tepc_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/53): 	"Experiment Data, ISS STS01 TEPC (from ASCII .ED file)"
+Time_resolution (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/57): 	"Space Radiation Analysis Group /NASA Johnson Space Center"
+MODS (0 entry):
+ADID_ref (0 entry):
+Link_text (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+
+Variable Attributes (23 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 14 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+GMT Time              CDF_CHAR/16	0:[]	T/  
+Elapsed Time          CDF_REAL4/1	0:[]	T/  
+Temp                  CDF_REAL4/1	0:[]	T/  
+Det_Vol               CDF_REAL4/1	0:[]	T/  
+Det_In-C              CDF_REAL4/1	0:[]	T/  
+Det_Out-C             CDF_REAL4/1	0:[]	T/  
+Inp_Curr              CDF_REAL4/1	0:[]	T/  
+Inp_Volt              CDF_REAL4/1	0:[]	T/  
+Watt                  CDF_REAL4/1	0:[]	T/  
+Batt                  CDF_REAL4/1	0:[]	T/  
+VPlus                 CDF_REAL4/1	0:[]	T/  
+VMinus                CDF_REAL4/1	0:[]	T/  
+Vcc                   CDF_REAL4/1	0:[]	T/  
+
+
+Variable (14 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+GMT Time (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "GMT Time as recorded on original file"
+     FIELDNAM        (CDF_CHAR/8): "GMT Time"
+     FILLVAL         (CDF_CHAR/17): "No  Original GMT "
+     LABLAXIS        (CDF_CHAR/17): "GMT Original Time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Elapsed Time (No: 2) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Elapsed Time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "Elapsed Time"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/12): "Elapsed Time"
+     UNITS           (CDF_CHAR/4): "Mins"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Temp (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "Temp"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "Temp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/4): "Temp"
+     UNITS           (CDF_CHAR/1): "C"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Det_Vol (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Det_Voltage"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "potential"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "Det_Vol"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.0"
+     LABLAXIS        (CDF_CHAR/11): "Det_Voltage"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Det_In-C (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "Det_Input Current"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/7): "current"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "Det_In-C"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/11): "Det_In-Curr"
+     UNITS           (CDF_CHAR/2): "mA"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Det_Out-C (No: 6) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Det_Out-Current"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/7): "current"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "Det_Out-C"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.1"
+     LABLAXIS        (CDF_CHAR/12): "Det_Out-Curr"
+     UNITS           (CDF_CHAR/2): "uA"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Inp_Curr (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Inp_Current"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/7): "current"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "Inp_Curr"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.0"
+     LABLAXIS        (CDF_CHAR/8): "Inp_Curr"
+     UNITS           (CDF_CHAR/2): "mA"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Inp_Volt (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Inp_Voltage"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "potential"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "Inp_Volt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/8): "Inp_Volt"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Watt (No: 9) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "Watt"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "power"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "Watt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/4): "Watt"
+     UNITS           (CDF_CHAR/1): "W"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Batt (No: 10) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Battery Voltage"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "Batt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/15): "Battery Voltage"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+VPlus (No: 11) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "VPlus"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "potential"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "VPlus"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/5): "VPlus"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+VMinus (No: 12) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/6): "VMinus"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "potential"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "VMinus"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/6): "VMinus"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vcc (No: 13) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/3): "Vcc"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/3): "Vcc"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/3): "Vcc"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+

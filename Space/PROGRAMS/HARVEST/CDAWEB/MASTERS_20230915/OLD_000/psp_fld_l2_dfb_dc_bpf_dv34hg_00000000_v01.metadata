@@ -1,0 +1,235 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_fld_l2_dfb_dc_bpf_dv34hg_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_fld_l2_dfb_dc_bpf_dv34hg_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     44 (25 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/52): 	"PSP FIELDS Digital Fields Board (DFB), dV34hg data. "
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"PSP"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Solar Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/22): 	"PSP>Parker Solar Probe"
+Descriptor (1 entry):
+	0 (CDF_CHAR/64): 	"DFB_DC_BPF_DV34HG>Digital Fields Board DC Bandpass Filter dV34hg"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"L2>Level 2 Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (10 entries):
+	0 (CDF_CHAR/52): 	"PSP FIELDS Digital Fields Board (DFB), dV34hg data. "
+	1 (CDF_CHAR/213): 	"The DFB is the low frequency (< 75 kHz) component of the FIELDS experiment on the Parker Solar Probe spacecraft [1]. For a full description of the FIELDS experiment, see [2]. For a description of the DFB, see [3]."
+	2 (CDF_CHAR/327): 	"DFB DC bandpass data consist of peak and average values of the absolute value of band-passed time series waveform data over a time interval equal to the reporting cadence. The DC bandpass data have the peak response frequency of each bin reported in the metadata. The frequency response curves for these bins are given in [3]. "
+	3 (CDF_CHAR/1121): 	"The Level 2 data products contained in this data file have been calibrated for (i) the ~6.3 dB loss associated with forming the bandpass signal [3], (ii) DFB in-band gain, (iii) DFB digital filter time delays, which become significant in the lowest frequency DC bandpass bins, and (iv) the search coil preamplifier response (when applicable). Calibrations for the DFB digital filter and analog filter gains have not been implemented, as it was determined that these could not be applied accurately to single numerical values representing a broadband signal response, and because all bins except the highest frequency bin have a flat gain response equal to 1 due to these filters.  Calibrations for the FIELDS preamplifiers have not been implemented, as the preamplifier response is flat and equal to 1 through the DFB frequency range.  Corrections for plasma sheath impedance gain and antenna effective length have not been applied voltage sensor signals (these corrections will be applied in Level 3 DFB data), therefore units for all voltage sensor quantities are Volts.  Units for all magnetic field quantities are nT."
+	4 (CDF_CHAR/168): 	"The Level 2 data products contained in this data file are in sensor coordinates (e.g. dV12, dV34 for voltage measurements, and u,v,w for the search coil magnetometer). "
+	5 (CDF_CHAR/244): 	"Time resolution of the DFB DC bandpass data can vary by multiples of 2^N.  During encounter (when PSP is within 0.25 AU of the Sun), DFB AC bandpass cadence is typically 1 NYsecond [2].  Timestamps correspond to the center time of each window. "
+	6 (CDF_CHAR/12): 	"References: "
+	7 (CDF_CHAR/113): 	"1. Fox, N.J., Velli, M.C., Bale, S.D. et al. Space Sci Rev (2016) 204: 7. https://doi.org/10.1007/s1121401502116 "
+	8 (CDF_CHAR/115): 	"2. Bale, S.D., Goetz, K., Harvey, P.R. et al. Space Sci Rev (2016) 204: 49. https://doi.org/10.1007/s1121401602445 "
+	9 (CDF_CHAR/129): 	"3. Malaspina, D.M., Ergun, R.E., Bolton, M. et al. (2016) JGR Space Physics, 121, 5088-5096. https://doi.org/10.1002/2016JA022344"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/28): 	"psp_fld_l2_dfb_dc_bpf_dv34hg"
+Logical_source (1 entry):
+	0 (CDF_CHAR/28): 	"psp_fld_l2_dfb_dc_bpf_dV34hg"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/87): 	"PSP FIELDS Level 2 DFB DC Bandpass Filter (BPF) of dV34 High Gain (HG) Channel (DV34HG)"
+PI_name (1 entry):
+	0 (CDF_CHAR/38): 	"Stuart D. Bale (bale@ssl.berkeley.edu)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/37): 	"UC Berkeley Space Sciences Laboratory"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Dependencies (1 entry):
+	0 (CDF_CHAR/4): 	"None"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (1 entry):
+	0 (CDF_CHAR/10): 	"FIELDS SOC"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/36): 	"http://fields.ssl.berkeley.edu/data/"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/14): 	"PSP/FIELDS SOC"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/10): 	" Data Link"
+svn_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/105): 	"spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/DC/BandpassFilter/DV34/HighGain/PT0.873813S"
+
+Variable Attributes (19 attributes)
+=========================================
+CATDESC
+COORDINATE_SYSTEM
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+SCALETYP
+FIELDNAM
+FILLVAL
+FORMAT
+LABL_PTR_1
+LABLAXIS
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+MONOTON
+SCALEMIN
+SCALEMAX
+VAR_NOTES
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+epoch                 CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_dc_bpf_dV34hg_frequency_bins CDF_FLOAT/1	1:[15]	T/T
+psp_fld_l2_dfb_dc_bpf_dV34hg_avg CDF_FLOAT/1	1:[15]	T/T
+psp_fld_l2_dfb_dc_bpf_dV34hg_peak CDF_FLOAT/1	1:[15]	T/T
+psp_fld_l2_dfb_dc_bpf_dV34hg_saturation_flags CDF_INT2/1	0:[]	T/  
+epoch_quality_flags   CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_quality_flags CDF_UINT4/1	0:[]	T/  
+
+
+Variable (7 variables)
+=========================================
+
+epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "Time for DC Bandpass Filter data"
+     FIELDNAM        (CDF_CHAR/5): "epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     SCALEMIN        (CDF_TT2000/1): 2018-10-06T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2018-10-07T00:00:00.000000000
+
+psp_fld_l2_dfb_dc_bpf_dV34hg_frequency_bins (No: 1) (Recs: 0) (Compression: GZIP.6)
+-------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Frequency bins for channel dV34hg"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FIELDNAM        (CDF_CHAR/14): "frequency_bins"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     LABLAXIS        (CDF_CHAR/9): "frequency"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_FLOAT/1): 0.429153
+     VALIDMAX        (CDF_FLOAT/1): 7031.25
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_dc_bpf_dV34hg_avg (No: 2) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 DC Band-pass filter average power for channel dV34hg"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/43): "psp_fld_l2_dfb_dc_bpf_dV34hg_frequency_bins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FIELDNAM        (CDF_CHAR/32): "psp_fld_l2_dfb_dc_bpf_dV34hg_avg"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     LABLAXIS        (CDF_CHAR/9): "Amplitude"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/130): "Data is in the sensor reference frame. For description see Malaspina et al., (2016), JGR, 121, 5088-5096, doi:10.1002/2016JA022344"
+
+psp_fld_l2_dfb_dc_bpf_dV34hg_peak (No: 3) (Recs: 0) (Compression: GZIP.6)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "L2 DC Band-pass filter peak power for channel dV34hg"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/43): "psp_fld_l2_dfb_dc_bpf_dV34hg_frequency_bins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FIELDNAM        (CDF_CHAR/33): "psp_fld_l2_dfb_dc_bpf_dV34hg_peak"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     LABLAXIS        (CDF_CHAR/9): "Amplitude"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/130): "Data is in the sensor reference frame. For description see Malaspina et al., (2016), JGR, 121, 5088-5096, doi:10.1002/2016JA022344"
+
+psp_fld_l2_dfb_dc_bpf_dV34hg_saturation_flags (No: 4) (Recs: 0) (Compression: GZIP.6)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "L2 Saturation flags (1 = spectra saturated, 0 = spectra unsaturated)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/45): "psp_fld_l2_dfb_dc_bpf_dV34hg_saturation_flags"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/3): "I08"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+epoch_quality_flags (No: 5) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "Time for the FIELDS quality flag"
+     FIELDNAM        (CDF_CHAR/19): "epoch_quality_flags"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     SCALEMIN        (CDF_TT2000/1): 2018-10-06T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2018-10-07T00:00:00.000000000
+
+psp_fld_l2_quality_flags (No: 6) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "FIELDS quality flag"
+     DEPEND_0        (CDF_CHAR/19): "epoch_quality_flags"
+     FIELDNAM        (CDF_CHAR/13): "quality_flags"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/4): "flag"
+     UNITS           (CDF_CHAR/4): "None"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 255
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/990): "FIELDS quality flags. This is a bitwise variable, meaning that multiple flags can be set for a single time, by adding flag values. Current flagged values are: 1: FIELDS antenna bias sweep, 2: PSP thruster firing, 4: SCM Calibration, 8: PSP rotations for MAG calibration (MAG rolls), 16: FIELDS MAG calibration sequence, 32: SWEAP SPC in electron mode, 64: PSP Solar limb sensor (SLS) test. 128: PSP spacecraft is off umbra pointing. 256: High frequency noise affecting RFS and TDS receivers. 512: Antennas driven towards the FIELDS power supply rails. A value of zero corresponds to no set flags. Not all flags are relevant to all FIELDS data products, refer to notes in the CDF metadata and on the FIELDS SOC website for information on how the various flags impact FIELDS data. For more information on the quality flags describing high frequency noise and antennas driven to the rails, see release notes for PSP/FIELDS releases 8 and 9. Additional flagged items may be added in the future."
+

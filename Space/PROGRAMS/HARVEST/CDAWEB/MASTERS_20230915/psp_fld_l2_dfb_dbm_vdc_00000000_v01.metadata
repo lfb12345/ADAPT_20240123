@@ -1,0 +1,620 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_fld_l2_dfb_dbm_vdc_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_fld_l2_dfb_dbm_vdc_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     31
+NumAttrs:     43 (25 global, 18 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"PSP FIELDS DFB Single Ended Voltage Burst Waveform"
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"PSP"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Solar Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/33): 	"PSP_FLD>Parker Solar Probe FIELDS"
+Descriptor (1 entry):
+	0 (CDF_CHAR/69): 	"DFB_DBM_DVAC>Digital Fields Board Single Ended Voltage Burst Waveform"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"L2>Level 2 Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (11 entries):
+	0 (CDF_CHAR/66): 	"PSP FIELDS Digital Fields Board (DFB), Single Ended Voltage data. "
+	1 (CDF_CHAR/213): 	"The DFB is the low frequency (< 75 kHz) component of the FIELDS experiment on the Parker Solar Probe spacecraft [1]. For a full description of the FIELDS experiment, see [2]. For a description of the DFB, see [3]."
+	2 (CDF_CHAR/386): 	"DFB burst waveform data consist of short bursts of time-series data from various FIELDS sensors. These data have been filtered by both analog and digital filters [3]. These data are pre-sorted by on-board competitive selection algorithms described in [3] before storage by FIELDS. A sub-set of this stored burst data is telemetered to Earth for scientist-selected regions of interest.  "
+	3 (CDF_CHAR/263): 	"The Level 2 data products contained in this data file have been calibrated for (i) DFB in-band gain, (ii) DFB analog filter gain/phase response, (iii) DFB digital filter phase response, and (iv) the search coil preamplifier gain/phase response (when applicable). "
+	4 (CDF_CHAR/459): 	"Calibrations for the FIELDS voltage sensor preamplifiers have not been implemented, as the preamplifier response is flat and equal to 1 through the DFB frequency range.  Corrections for plasma sheath impedance gain and antenna effective length have not been applied to the voltage sensor data (these corrections will be applied in Level 3 DFB data), therefore units for all voltage sensor quantities are Volts.  Units for all magnetic field quantities are nT."
+	5 (CDF_CHAR/168): 	"The Level 2 data products contained in this data file are in sensor coordinates (e.g. dV12, dV34 for voltage measurements, and u,v,w for the search coil magnetometer). "
+	6 (CDF_CHAR/321): 	"Time resolution for the DFB burst waveform data can vary by multiples of 2^N.  During encounter (when PSP is within 0.25 AU of the Sun), cadence for the DFB burst waveform data is typically 150,000 samples/second.  This rate is the sample rate of the ADC, and data taken at this rate do not pass through a digital filter."
+	7 (CDF_CHAR/12): 	"References: "
+	8 (CDF_CHAR/113): 	"1. Fox, N.J., Velli, M.C., Bale, S.D. et al. Space Sci Rev (2016) 204: 7. https://doi.org/10.1007/s1121401502116 "
+	9 (CDF_CHAR/115): 	"2. Bale, S.D., Goetz, K., Harvey, P.R. et al. Space Sci Rev (2016) 204: 49. https://doi.org/10.1007/s1121401602445 "
+	10 (CDF_CHAR/129): 	"3. Malaspina, D.M., Ergun, R.E., Bolton, M. et al. (2016) JGR Space Physics, 121, 5088-5096. https://doi.org/10.1002/2016JA022344"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"psp_fld_l2_dfb_dbm_vdc"
+Logical_source (1 entry):
+	0 (CDF_CHAR/22): 	"psp_fld_l2_dfb_dbm_vdc"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/66): 	"PSP FIELDS Level 2 DFB DC Burst Single Ended Voltage Waveform Data"
+PI_name (1 entry):
+	0 (CDF_CHAR/38): 	"Stuart D. Bale (bale@ssl.berkeley.edu)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/37): 	"UC Berkeley Space Sciences Laboratory"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Dependencies (1 entry):
+	0 (CDF_CHAR/4): 	"None"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (1 entry):
+	0 (CDF_CHAR/10): 	"FIELDS SOC"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/36): 	"http://fields.ssl.berkeley.edu/data/"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/15): 	"PSP/FIELDS SOC "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/9): 	"Data Link"
+svn_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (18 attributes)
+=========================================
+CATDESC
+COORDINATE_SYSTEM
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABL_PTR_1
+LABLAXIS
+UNITS
+VALIDMIN
+SCALEMAX
+SCALEMIN
+VALIDMAX
+VAR_TYPE
+VAR_NOTES
+MONOTON
+
+Variable Information (0 rVariable, 31 zVariables)
+===========================================================
+epoch_psp_fld_l2_dfb_dbm_vdc CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc_sample_rate CDF_DOUBLE/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc_time_series_TT2000 CDF_TT2000/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_vdc_time_series_seconds CDF_DOUBLE/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_vdc1 CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_vdc1_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc1_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc1_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc1_median CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc2 CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_vdc2_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc2_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc2_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc2_median CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc3 CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_vdc3_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc3_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc3_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc3_median CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc4 CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_vdc4_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc4_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc4_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc4_median CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc5 CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_vdc5_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc5_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc5_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_vdc5_median CDF_FLOAT/1	0:[]	T/  
+epoch_quality_flags   CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_quality_flags CDF_UINT4/1	0:[]	T/  
+
+
+Variable (31 variables)
+=========================================
+
+epoch_psp_fld_l2_dfb_dbm_vdc (No: 0) (Recs: 0)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Time of first data point for L2 DC Burst Single Ended Voltage"
+     FIELDNAM        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2020-01-24T12:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2020-01-24T06:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_dbm_vdc_sample_rate (No: 1) (Recs: 0) (Compression: GZIP.6)
+----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "Sample rate for L2 DC Burst Single Ended Voltage"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): "psp_fld_l2_dfb_dbm_vdc_sample_rate"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     UNITS           (CDF_CHAR/9): "Samples/s"
+     VALIDMIN        (CDF_DOUBLE/1): 292.969
+     VALIDMAX        (CDF_DOUBLE/1): 150000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_dbm_vdc_time_series_TT2000 (No: 2) (Recs: 0) (Compression: GZIP.6)
+-----------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage Waveform Time in TT2000"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/41): "psp_fld_l2_dfb_dbm_vdc_time_series_TT2000"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2020-01-24T12:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2020-01-24T06:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_vdc_time_series_seconds (No: 3) (Recs: 0) (Compression: GZIP.6)
+------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/86): "L2 DC Burst Single Ended Voltage Waveform Time in Seconds (relative to start of burst)"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DEPEND_1        (CDF_CHAR/41): "psp_fld_l2_dfb_dbm_vdc_time_series_TT2000"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/42): "psp_fld_l2_dfb_dbm_vdc_time_series_seconds"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F16.8"
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/1): "s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1789.57
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_vdc1 (No: 4) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "L2 DC Burst Single Ended Voltage from Sensor 1"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DEPEND_1        (CDF_CHAR/42): "psp_fld_l2_dfb_dbm_vdc_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_vdc1"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/28): "Burst Waveform from Sensor 1"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_vdc1_rms (No: 5) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 1 rms value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc1_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-1 rms"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc1_max (No: 6) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 1 max value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc1_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-1 max"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc1_min (No: 7) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 1 min value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc1_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-1 min"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc1_median (No: 8) (Recs: 0) (Compression: GZIP.6)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "L2 DC Burst Single Ended Voltage from Sensor 1 median value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "psp_fld_l2_dfb_dbm_vdc1_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/15): "Sensor-1 median"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc2 (No: 9) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "L2 DC Burst Single Ended Voltage from Sensor 2"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DEPEND_1        (CDF_CHAR/42): "psp_fld_l2_dfb_dbm_vdc_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_vdc2"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/28): "Burst Waveform from Sensor 2"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_vdc2_rms (No: 10) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 2 rms value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc2_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-2 rms"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc2_max (No: 11) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 2 max value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc2_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-2 max"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc2_min (No: 12) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 2 min value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc2_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-2 min"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc2_median (No: 13) (Recs: 0) (Compression: GZIP.6)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "L2 DC Burst Single Ended Voltage from Sensor 2 median value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "psp_fld_l2_dfb_dbm_vdc2_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/15): "Sensor-2 median"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc3 (No: 14) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "L2 DC Burst Single Ended Voltage from Sensor 3"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DEPEND_1        (CDF_CHAR/42): "psp_fld_l2_dfb_dbm_vdc_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_vdc3"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/28): "Burst Waveform from Sensor 3"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_vdc3_rms (No: 15) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 3 rms value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc3_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-3 rms"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc3_max (No: 16) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 3 max value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc3_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-3 max"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc3_min (No: 17) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 3 min value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc3_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-3 min"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc3_median (No: 18) (Recs: 0) (Compression: GZIP.6)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "L2 DC Burst Single Ended Voltage from Sensor 3 median value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "psp_fld_l2_dfb_dbm_vdc3_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/15): "Sensor-3 median"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc4 (No: 19) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "L2 DC Burst Single Ended Voltage from Sensor 4"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DEPEND_1        (CDF_CHAR/42): "psp_fld_l2_dfb_dbm_vdc_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_vdc4"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/28): "Burst Waveform from Sensor 4"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_vdc4_rms (No: 20) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 4 rms value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc4_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-4 rms"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc4_max (No: 21) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 4 max value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc4_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-4 max"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc4_min (No: 22) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 4 min value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc4_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-4 min"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc4_median (No: 23) (Recs: 0) (Compression: GZIP.6)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "L2 DC Burst Single Ended Voltage from Sensor 4 median value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "psp_fld_l2_dfb_dbm_vdc4_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/15): "Sensor-4 median"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc5 (No: 24) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "L2 DC Burst Single Ended Voltage from Sensor 5"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DEPEND_1        (CDF_CHAR/42): "psp_fld_l2_dfb_dbm_vdc_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_vdc5"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/28): "Burst Waveform from Sensor 5"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_vdc5_rms (No: 25) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 5 rms value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc5_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-5 rms"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc5_max (No: 26) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 5 max value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc5_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-5 max"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc5_min (No: 27) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 DC Burst Single Ended Voltage from Sensor 5 min value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "psp_fld_l2_dfb_dbm_vdc5_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/12): "Sensor-5 min"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_vdc5_median (No: 28) (Recs: 0) (Compression: GZIP.6)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "L2 DC Burst Single Ended Voltage from Sensor 5 median value"
+     DEPEND_0        (CDF_CHAR/28): "epoch_psp_fld_l2_dfb_dbm_vdc"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "psp_fld_l2_dfb_dbm_vdc5_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/15): "Sensor-5 median"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -3.0
+     VALIDMAX        (CDF_FLOAT/1): 3.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+epoch_quality_flags (No: 29) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "Time for the FIELDS quality flag"
+     FIELDNAM        (CDF_CHAR/19): "epoch_quality_flags"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2020-01-24T12:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2020-01-24T06:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_quality_flags (No: 30) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "FIELDS quality flag"
+     DEPEND_0        (CDF_CHAR/19): "epoch_quality_flags"
+     FIELDNAM        (CDF_CHAR/13): "quality_flags"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/4): "flag"
+     UNITS           (CDF_CHAR/4): "None"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 255
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/990): "FIELDS quality flags. This is a bitwise variable, meaning that multiple flags can be set for a single time, by adding flag values. Current flagged values are: 1: FIELDS antenna bias sweep, 2: PSP thruster firing, 4: SCM Calibration, 8: PSP rotations for MAG calibration (MAG rolls), 16: FIELDS MAG calibration sequence, 32: SWEAP SPC in electron mode, 64: PSP Solar limb sensor (SLS) test. 128: PSP spacecraft is off umbra pointing. 256: High frequency noise affecting RFS and TDS receivers. 512: Antennas driven towards the FIELDS power supply rails. A value of zero corresponds to no set flags. Not all flags are relevant to all FIELDS data products, refer to notes in the CDF metadata and on the FIELDS SOC website for information on how the various flags impact FIELDS data. For more information on the quality flags describing high frequency noise and antennas driven to the rails, see release notes for PSP/FIELDS releases 8 and 9. Additional flagged items may be added in the future."
+

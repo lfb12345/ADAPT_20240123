@@ -1,0 +1,235 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/cnofs_vefi_fft_2sec_mode1_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     cnofs_vefi_fft_2sec_mode1_00000000_v01.cdf
+Version:      3.3.1
+
+Common Data Format (CDF)
+(C) Copyright 1990-2010 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- CDFSUPPORT@LISTSERV.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     49 (25 global, 24 variable)
+Compression:  None
+Checksum:     None
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CNOFS"
+Source_name (1 entry):
+	0 (CDF_CHAR/54): 	"CNOFS>Communications Navigation Outage Forecast System"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/96): 	"K0>Key Parameter.  The data are PRELIMINARY, and as such, are intended for BROWSE PURPOSES ONLY."
+Descriptor (1 entry):
+	0 (CDF_CHAR/4): 	"VEFI"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/15): 	"Robert F. Pfaff"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/4): 	"GSFC"
+TEXT (1 entry):
+	0 (CDF_CHAR/757): 	"This data file contains information on the FFT data as processed by the VEFI team at NASA/Goddard Space Flight Center.  Mode 1 FFT data contains two channels:.1) E34 HF, 8 MHz sampling, 0-4 MHz FFT spectra,.2) E34 LFB, 32 kHz sampling, 0-16 kHz FFT spectra.  The FFT spectra are tabulated for 128 bin semi-log spaced frequencies and are presented in units of (milliVolts/meter)^2/Hz.  Gain is set to 1 and the FFT window is set to Hanning.  E34 LFB channel is boosted, meaning that the gain is 1 at DC while the high frequencies are boosted by a factor of 10 using a 'shelf' filter (1-zero at 0.5 Hz and 1-pole at 5 Hz).  The data is PRELIMINARY, and as such, is intended for BROWSE PURPOSES ONLY.  Registering your email will allow notification of updates."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"CNOFS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/25): 	"cnofs_vefi_fft_2sec_mode1"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/235): 	"FFT data, Mode1 (at 1 spectra every 2 seconds) of the electric field data produced by VEFI on the Communication Navigation Outage Forecast System satellite.  The data are PRELIMINARY, and as such, are intended for BROWSE PURPOSES ONLY."
+Time_resolution (1 entry):
+	0 (CDF_CHAR/11): 	"0.5 seconds"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/153): 	"While the VEFI data are still preliminary, users are requested to contact the P.I., Dr. Robert Pfaff at NASA GSFC, prior to publication of any VEFI data."
+Generated_by (1 entry):
+	0 (CDF_CHAR/54): 	"S. Martin, ADNET Systems Inc. on contract to NASA/GSFC"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/190): 	"VEFI was designed and built by NASA Goddard Space Flight Center. CNOFS is a joint effort between the Air Force Research Laboratory Space Vehicles Directorate and the USAF Space Test Program."
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/15): 	"Please see our "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/58): 	"VEFI Project home page at NASA Goddard Space Flight Center"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/26): 	"http://vefi.gsfc.nasa.gov/"
+
+Variable Attributes (24 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+FORM_PTR
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+year                  CDF_UINT2/1	0:[]	F/  
+dayofyear             CDF_UINT2/1	0:[]	F/  
+FFT_E34HF             CDF_REAL4/1	1:[128]	T/T
+FFT_E34HF_FREQ        CDF_REAL4/1	1:[128]	F/T
+FFT_E34LFB            CDF_REAL4/1	1:[128]	T/T
+FFT_E34LFB_FREQ       CDF_REAL4/1	1:[128]	F/T
+FFT_quality           CDF_UINT2/1	0:[]	T/  
+
+
+Variable (8 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Default time"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+year (No: 1) (Recs: 1)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "year for this data file"
+     FIELDNAM        (CDF_CHAR/4): "year"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I4"
+     VALIDMIN        (CDF_UINT2/1): 2008
+     VALIDMAX        (CDF_UINT2/1): 2028
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+dayofyear (No: 2) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "The day number (Jan 1 = day 1) for this data file."
+     FIELDNAM        (CDF_CHAR/9): "dayofyear"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/11): "Day of Year"
+     VALIDMIN        (CDF_UINT2/1): 1
+     VALIDMAX        (CDF_UINT2/1): 366
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+FFT_E34HF (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "Electric Field FFT (E34HF), 0-4 MHz, 8 MHz sampling"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "FFT_E34HF_FREQ"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/9): "FFT E34HF"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     LABLAXIS        (CDF_CHAR/15): "FFT E34HF Power"
+     UNITS           (CDF_CHAR/11): "(mV/m)^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-15
+     VALIDMAX        (CDF_REAL4/1): 0.1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/360): "E34 HF, 8 MHz sampling, 1024 point FFTs.  Gain is set to 1 and the FFT window is set to a modified Hanning (first 256 samples processed with a Hanning window, middle 512 samples no window processing, last 256 sample processed with a reverse index Hanning window).  To get a duty cycle of 1 FFT every 2 seconds, 16 1024 point FFTs at 1 Hz are averaged together."
+
+FFT_E34HF_FREQ (No: 4) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Frequencies for E34HF FFT."
+     FIELDNAM        (CDF_CHAR/14): "FFT E34HF Freq"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f5.3"
+     LABLAXIS        (CDF_CHAR/14): "FFT E34HF FREQ"
+     UNITS           (CDF_CHAR/3): "MHz"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 4.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/48): "semi-log spaced frequencies between 0 and 4 MHz."
+
+FFT_E34LFB (No: 5) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Electric Field FFT (E34LFB), 0-16 kHz, 32 kHz sampling"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "FFT_E34LFB_FREQ"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/10): "FFT E34LFB"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     LABLAXIS        (CDF_CHAR/9): "FFT Power"
+     UNITS           (CDF_CHAR/11): "(mV/m)^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-15
+     VALIDMAX        (CDF_REAL4/1): 0.1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/543): "E34 LFB, 32 kHz sampling, 1024 point FFTs.  Gain is set to 1 and the FFT window is set to a modified Hanning (first 256 samples processed with a Hanning window, middle 512 samples no window processing, last 256 sample processed with a reverse index Hanning window).  E34 LFB channel is boosted, meaning that the gain is 1 at DC while the high frequencies are boosted by a factor of 10 using a 'shelf' filter (1-zero at 0.5 Hz and 1-pole at 5 Hz).  To get a duty cycle of 1 FFT every 2 seconds, 16 1024 point FFTs at 1 Hz are averaged together."
+
+FFT_E34LFB_FREQ (No: 6) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Frequencies for E34LFB FFT"
+     FIELDNAM        (CDF_CHAR/15): "FFT E34LFB Freq"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.3"
+     LABLAXIS        (CDF_CHAR/15): "FFT E34LFB FREQ"
+     UNITS           (CDF_CHAR/3): "kHz"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 17.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/49): "semi-log spaced frequencies between 0 and 16 kHz."
+
+FFT_quality (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Parameters used for the FFTs."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/11): "FFT_quality"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/11): "FFT_quality"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65535
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/453): "bit 0-7: FFT Gain , bit 8: Active Gain enabled, bit 9: High pass filter with 3db cutoff at 0.0016*samplerate, bit 10: High pass filter with 3db cutoff at 0.0005*samplerate, bit 11: a non-rectangular window was applied to the time domain, bit 12: Ensemble Averaging was enabled, bit 13: Log-spaced frequency bins, bit 14: FFT ready, bit 15: FFT overflow.  FFT gain definition: bit 0-7 correspond to a gain of 1/16, 1/8, 1/4, 1/2, 1, 2, 4, 8 respectively."
+

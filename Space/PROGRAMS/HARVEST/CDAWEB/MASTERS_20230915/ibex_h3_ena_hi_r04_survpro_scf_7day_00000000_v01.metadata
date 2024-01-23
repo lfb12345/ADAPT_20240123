@@ -1,0 +1,256 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ibex_h3_ena_hi_r04_survpro_scf_7day_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ibex_h3_ena_hi_r04_survpro_scf_7day_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     61 (26 global, 35 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/25): 	"HEX>Heliophysics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"IBEX>Interstellar Boundary Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/17): 	"H3>Flux Dist. Map"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"ENA>Energetic Neutral Atom"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/20): 	"Dr. David J. McComas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/20): 	"Princeton University"
+TEXT (14 entries):
+	0 (CDF_CHAR/289): 	"1: The Interstellar Boundary Explorer (IBEX) has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 16 releases of IBEX-HI and/or IBEX-LO data covering 2009-2019. "
+	1 (CDF_CHAR/275): 	"2: This data set is from the Release 4, 7.5 day-cadence IBEX-Hi data for the  years 2009-2012 in the form of Survival Probabilities tables. Each data directory related to survival probability has information about a different aspect of the transport through the heliosphere: "
+	2 (CDF_CHAR/95): 	"a) deflection - angular deflection experienced between the termination shock and the observer. "
+	3 (CDF_CHAR/81): 	"b) eloss - energy loss (or gain) between the termination shock and the observer. "
+	4 (CDF_CHAR/105): 	"c) survpro - survival probability that an ENA passing through the termination shock will make it to 1AU. "
+	5 (CDF_CHAR/226): 	"3. For this release, the survival probabilities are only applied to the IBEX-HI data stream. Note that the energy loss is negligible, and the deflection angles in the inertial system are always smaller than 0.6 degrees or so. "
+	6 (CDF_CHAR/537): 	"4. Each directory has contains correction factors for data in the spacecraft frame (scf) and the inertial frame (1AU). The inertial frame (1AU) survival probabilities are used for the CG corrected data. The spacecraft frame factors are used for uncorrected data. The spacecraft frame files have the energy/direction shifts caused by the Earth/Spacecraft motion. This has a small effect on the survival probabilities (simply due to the energy shifts), but the deflection angles and energy shifts caused by this motion can be significant. "
+	7 (CDF_CHAR/304): 	"5. The deflection and energy shift files are not applied by the IBEX pipeline software. In theory, these could be applied to the CG corrected data after the fact. However, it is important to note that the spacecraft frame correction factors for energy and angle contain elements of the CG correction and "
+	8 (CDF_CHAR/479): 	"6. can yield confusing results when applied to the pipeline results. The data layout per frame consists of the following. For the spacecraft frame, there is a column for each ESA step, and a row for each angle bin (1 degree bins). Each number gives the probability at that angle and ESA for survival. The probability per angle is interpolated to the center of any particular angular bin being evaluated. In the inertial frame, the columns are the energies rather than ESA steps. "
+	9 (CDF_CHAR/194): 	"7. These are applied to the IBEX images that are given on the variable energy grid. For each image pixel, we take the energy and angle and use a 2D interpolation to get the survival probability."
+	10 (CDF_CHAR/157): 	"8. The data consist of Survival Probabilities tables. Details of the data and enabled science from Release 10 are given in the following journal publication:"
+	11 (CDF_CHAR/138): 	"9: McComas, D. J., et al. (2017), Seven Years of Imaging the Global Heliosphere with IBEX, Astrophys. J. Supp. Ser., 229(2), 41 (32 pp.), "
+	12 (CDF_CHAR/44): 	"10: http://doi.org/10.3847/1538-4365/aa66d8 "
+	13 (CDF_CHAR/282): 	"8: This particular data set, denoted in the original ascii files as Data_Release_4\hs_transport\surv\o0NNNx.survscf , where NNN=006-150 is an orbit number, and x = a or b for the orbit 130 or higher, indicates the first or the second half of the orbit, Survival Probabilities tables"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"IBEX"
+Logical_source (1 entry):
+	0 (CDF_CHAR/35): 	"ibex_h3_ena_hi_r04_survpro_scf_7day"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/48): 	"IBEX-Hi Release 4; Survival Probabilities tables"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/16): 	"7.5 days cadence"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/184): 	"The IBEX Release 4 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data. "
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University. "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (0 entry):
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/55): 	"IBEX Mission, Instrument, and Data Release Descriptions"
+	1 (CDF_CHAR/98): 	"IBEX Data Release 4, IBEX-Hi 7.5 days survival probabilities plots in ascii list and image formats"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/47): 	"IBEX The Interstellar Boundary Explorer mission"
+	1 (CDF_CHAR/20): 	"IBEX Data Release 4 "
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/27): 	"https://ibex.princeton.edu/"
+	1 (CDF_CHAR/38): 	"https://ibex.princeton.edu/DataRelease"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/61): 	"spase://VSPO/NumericalData/IBEX/H3/ENA/Hi/R04/SurvPro/SCF/7dy"
+
+Variable Attributes (35 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+orbit                 CDF_UINT2/1	0:[]	T/  
+longitude_bin         CDF_UINT2/1	1:[360]	F/T
+West_Longitude        CDF_REAL4/1	1:[360]	F/T
+East_Longitude        CDF_REAL4/1	1:[360]	F/T
+Energy_Channel        CDF_REAL4/1	1:[6]	F/T
+Surv_Pro              CDF_REAL4/1	2:[360,6]	T/TT
+
+
+Variable (7 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "CDF epoch time for the start of the  six-month measurement period"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/14): "CDF Epoch Time"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/33): "day-month-year hour:minute:second"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+orbit (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "Starting Orbit Number of the measurement period"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/21): "Starting Orbit Number"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/14): "Starting Orbit"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65534
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/45): "IBEX orbital period around Earth is 7.5 days."
+
+longitude_bin (No: 2) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/130): "Solar West Ecliptic Longitude Bin Number corresponding to one-degree longitudinal increments of the current IBEX-HI viewing sector"
+     FIELDNAM        (CDF_CHAR/40): "Solar West Ecliptic Longitude Bin Number"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/1): "#"
+     LABL_PTR_1      (CDF_CHAR/14): "West_Longitude"
+     UNITS           (CDF_CHAR/10): "Bin Number"
+     VALIDMIN        (CDF_UINT2/1): 1
+     VALIDMAX        (CDF_UINT2/1): 360
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/86): "There are 360 angular sectors in Solar West Ecliptic Longitude from 1 to 360 degrees. "
+
+West_Longitude (No: 3) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Solar West Ecliptic Longitude"
+     FIELDNAM        (CDF_CHAR/29): "Solar West Ecliptic Longitude"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/13): "SWE Longitude"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/95): "Longitude value corresponds to the mid-point of one-degree longitudinal IBEX-HI viewing sector."
+
+East_Longitude (No: 4) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Solar East Ecliptic Longitude"
+     FIELDNAM        (CDF_CHAR/29): "Solar East Ecliptic Longitude"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/13): "SEE Longitude"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/95): "Longitude value corresponds to the mid-point of one-degree longitudinal IBEX-HI viewing sector."
+
+Energy_Channel (No: 5) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "Energy Channel number"
+     FIELDNAM        (CDF_CHAR/14): "Energy Channel"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/7): "Channel"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/125): "Energy Channel value corresponds to the sequence number of the energy channel. #1 corresponds to 0.2 keV, and #37 to 6.18 keV"
+
+Surv_Pro (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Survival Probability"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "West_Longitude"
+     DEPEND_2        (CDF_CHAR/14): "Energy_Channel"
+     DISPLAY_TYPE    (CDF_CHAR/10): "plasmagram"
+     FIELDNAM        (CDF_CHAR/20): "Survival Probability"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     LABLAXIS        (CDF_CHAR/20): "Survival Probability"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/174): "Survival Probability that an ENA passing through the termination shock will make it to 1AU. Each directory contains correction factors for data in the spacecraft frame (SCF)."
+

@@ -1,0 +1,222 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/vi_c9_vi3l_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     vi_c9_vi3l_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     6
+NumAttrs:     47 (26 global, 21 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"CDAW-9A; Viking; V4L; E field spect.; 2 sec       "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"Viking    "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"LF El. Wav"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"2 sec     "
+MODS (1 entry):
+	0 (CDF_CHAR/29): 	"Converted to CDAWeb Feb 2000 "
+TEXT (9 entries):
+	0 (CDF_CHAR/30): 	"Derived from VI3L in CDAW9 DB."
+	1 (CDF_CHAR/28): 	"Data for CDAW9 events A & C."
+	2 (CDF_CHAR/35): 	"Two antenna beams, 80 m tip-to-top "
+	3 (CDF_CHAR/273): 	"Due to the very large data volume, for best response time when plotting power density vs time the user should use filtering to select a single frequency index (which is constant), rather than the frequency range (which is time-varying and requires much longer to search).  "
+	4 (CDF_CHAR/203): 	"Both VI3H and VI3L have identical parameters, basically the power spectral density as a function of frequency.  The instrument has 3 operating modes, and switches from one to another at various times.   "
+	5 (CDF_CHAR/146): 	"VI3H (Higher frequencies) contains Mode 1 and 2 data:      Mode 1:  from 10 to 214 Hz in 14 ranges       Mode 2:  from 10 to 428 Hz in 17 ranges. "
+	6 (CDF_CHAR/103): 	"VI3L (Lower frequencies) contains Mode 3 data:      Mode 3:  from 0.4 to 10 Hz in 13 frequency ranges. "
+	7 (CDF_CHAR/144): 	"Because the instrument changes modes continuously, there is 2-second resolution in both VI3H and VI3L, but never the same time for H and for L. "
+	8 (CDF_CHAR/539): 	"For plotting a power density spectrum, the user should plot the power density, using filtering to select the time interval.  Or, the Animation feature can be used, animating on, e.g., IMINUTE, which would then produce a composite of all the spectra for each minute of time.  When using Animation for this, one might want to set the controls to ORDER on either the vertical or the horizontal parameter, or use SCATTER plot instead of VECTOR, to avoid drawing extraneous lines from the end of one spectrum to the beginning of the next one.  "
+Descriptor (1 entry):
+	0 (CDF_CHAR/48): 	"VI3L>  Viking; V4L; E field spect.; 2 sec       "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>cdaw9"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"VI>Viking"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"Gustaffson"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/26): 	"Gustaffson and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"vi_c9_vi3l"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"vi_c9_vi3l_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/52): 	"Vi   Viking; V4L; E field spect.; 2 sec        cdaw9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_1
+
+Variable Information (0 rVariable, 6 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+VI3L_IND              CDF_INT4/1	1:[13]	F/T
+VI3L_ESP              CDF_REAL4/1	1:[13]	T/T
+VI3L_FCP              CDF_REAL4/1	0:[]	T/  
+VI3L_FLO              CDF_REAL4/1	1:[13]	F/T
+VI3L_FUP              CDF_REAL4/1	1:[13]	F/T
+
+
+Variable (6 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+VI3L_IND (No: 1) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Spectrum index      "
+     VALIDMIN        (CDF_INT4/1): -1040015265
+     VALIDMAX        (CDF_INT4/1): 1107468383
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 17.0
+     UNITS           (CDF_CHAR/20): "none                "
+     FORMAT          (CDF_CHAR/8): "I2      "
+     CATDESC         (CDF_CHAR/40): "Index for spectrum     -T               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/10): "Spec Index"
+
+VI3L_ESP (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Power spect. density"
+     VALIDMIN        (CDF_REAL4/1): -32.6566
+     VALIDMAX        (CDF_REAL4/1): 32.6566
+     SCALEMIN        (CDF_REAL8/1): -1.0e+10
+     SCALEMAX        (CDF_REAL8/1): 1.0e+10
+     UNITS           (CDF_CHAR/20): "(mV/m)^2/Hz         "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "of electric field      TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "E SpecDens"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "VI3L_IND"
+
+VI3L_FCP (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Proton cyclotron fq."
+     VALIDMIN        (CDF_REAL4/1): -32.6566
+     VALIDMAX        (CDF_REAL4/1): 32.6566
+     SCALEMIN        (CDF_REAL8/1): -1.0e+10
+     SCALEMAX        (CDF_REAL8/1): 1.0e+10
+     UNITS           (CDF_CHAR/20): "Hz                  "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Fcp frequency          T-               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/20): "Proton CycFreq (Fcp)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI3L_FLO (No: 4) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Frq. range, lower b."
+     VALIDMIN        (CDF_REAL4/1): -32.6566
+     VALIDMAX        (CDF_REAL4/1): 32.6566
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 1.0e+10
+     UNITS           (CDF_CHAR/20): "Hz                  "
+     FORMAT          (CDF_CHAR/8): "F8.1    "
+     CATDESC         (CDF_CHAR/40): "Lower boundary         -T               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "Freq (lowerbound)"
+
+VI3L_FUP (No: 5) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Frq. range, upper b."
+     VALIDMIN        (CDF_REAL4/1): -32.6566
+     VALIDMAX        (CDF_REAL4/1): 32.6566
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 1.0e+10
+     UNITS           (CDF_CHAR/20): "Hz                  "
+     FORMAT          (CDF_CHAR/8): "F8.1    "
+     CATDESC         (CDF_CHAR/40): "Upper boundary         -T               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "Freq (upperbound)"
+

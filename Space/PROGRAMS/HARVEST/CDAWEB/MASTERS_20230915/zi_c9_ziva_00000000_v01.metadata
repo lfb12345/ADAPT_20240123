@@ -1,0 +1,180 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/zi_c9_ziva_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     zi_c9_ziva_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     4
+NumzVars:     0
+NumAttrs:     46 (26 global, 20 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"CDAW-9; Ivalo Sta.; Magnetometer; 1 s avg;        "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9E             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"Ivalo Sta."
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/16): 	"Magnetometer    "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"1 s avg   "
+MODS (1 entry):
+	0 (CDF_CHAR/100): 	"Converted to CDAWeb Feb 2000                                                                        "
+Descriptor (1 entry):
+	0 (CDF_CHAR/39): 	"ZIVA> Ivalo Sta.; Magnetometer; 1 s avg"
+TEXT (3 entries):
+	0 (CDF_CHAR/30): 	"Derived from ZIVA in CDAW9 DB."
+	1 (CDF_CHAR/28): 	"Data for CDAW9 event E only."
+	2 (CDF_CHAR/341): 	"These magnetic H, D, and Z components are from the induction coil pulsation magnetometer at Ivalo Station, Finland (IVA), at geographic coordinates  68.55 deg N, 27.27 deg E.  The 0.1s resolution data have been corrected for frequency and phase response, and averaged over 1.0s.  An automatic calibration signal starts every day at 1400 UT. "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>cdaw9"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/8): 	"ZI>Ivalo"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"Bosinger"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/24): 	"Bosinger and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/47): 	"Ground-Based Magnetometers, Riometers, Sounders"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"zi_c9_ziva"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"zi_c9_ziva_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/43): 	"Zi  Ivalo Sta.; Magnetometer; 1 s avg cdaw9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+UNITS
+CATDESC
+SCALEMIN
+SCALEMAX
+FORMAT
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+
+Variable Information (4 rVariables, 0 zVariable)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+ZIVAH                 CDF_REAL4/1	0:[]	T/  
+ZIVAD                 CDF_REAL4/1	0:[]	T/  
+ZIVAZ                 CDF_REAL4/1	0:[]	T/  
+
+
+Variable (4 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     SCALEMIN        (CDF_EPOCH/1): 08-May-1986 10:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 08-May-1986 18:00:00.000
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+ZIVAH    (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H                   "
+     VALIDMIN        (CDF_REAL4/1): -3.39062
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     UNITS           (CDF_CHAR/20): "nT                  "
+     CATDESC         (CDF_CHAR/40): "H component                             "
+     SCALEMIN        (CDF_REAL8/1): -20.0
+     SCALEMAX        (CDF_REAL8/1): 20.0
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "Ivalo H"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+ZIVAD    (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "D                   "
+     VALIDMIN        (CDF_REAL4/1): -3.39062
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     UNITS           (CDF_CHAR/20): "nT                  "
+     CATDESC         (CDF_CHAR/40): "D component                             "
+     SCALEMIN        (CDF_REAL8/1): -20.0
+     SCALEMAX        (CDF_REAL8/1): 20.0
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "Ivalo D"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+ZIVAZ    (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Z                   "
+     VALIDMIN        (CDF_REAL4/1): -3.39062
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     UNITS           (CDF_CHAR/20): "nT                  "
+     CATDESC         (CDF_CHAR/40): "Z component                             "
+     SCALEMIN        (CDF_REAL8/1): -20.0
+     SCALEMAX        (CDF_REAL8/1): 20.0
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "Ivalo Z"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+

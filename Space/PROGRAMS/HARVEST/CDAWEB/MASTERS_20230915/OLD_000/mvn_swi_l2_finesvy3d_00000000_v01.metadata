@@ -1,0 +1,1666 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/mvn_swi_l2_finesvy3d_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     mvn_swi_l2_finesvy3d_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     73
+NumAttrs:     54 (27 global, 27 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/32): 	"MAVEN SWIA Fine 3d Distributions"
+Project (1 entry):
+	0 (CDF_CHAR/52): 	"MAVEN>Mars Atmosphere and Volatile EvolutioN Mission"
+Discipline (1 entry):
+	0 (CDF_CHAR/27): 	"Planetary Physics>Particles"
+Source_name (1 entry):
+	0 (CDF_CHAR/52): 	"MAVEN>Mars Atmosphere and Volatile EvolutioN Mission"
+Descriptor (1 entry):
+	0 (CDF_CHAR/28): 	"SWIA>Solar Wind Ion Analyzer"
+Data_type (1 entry):
+	0 (CDF_CHAR/14): 	"CAL>Calibrated"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/32): 	"MAVEN SWIA Fine 3d Distributions"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/31): 	"maven_cal_swia_20170101_vv01r02"
+Logical_source (1 entry):
+	0 (CDF_CHAR/27): 	"SWIA.calibrated.fine_svy_3d"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/97): 	"DERIVED FROM: MAVEN SWIA (Solar Wind Ion Analyzer) Level 2 Fine 3D Distributions Survey Telemetry"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"J.S. Halekas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/6): 	"U Iowa"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"MAVEN"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_collection_id (1 entry):
+	0 (CDF_CHAR/51): 	"urn:nasa:pds:maven.swia.calibrated:data.fine_svy_3d"
+PDS_start_time (1 entry):
+	0 (CDF_CHAR/24): 	"2017-01-01T00:03:54.785Z"
+PDS_stop_time (1 entry):
+	0 (CDF_CHAR/24): 	"2017-01-01T23:57:22.367Z"
+PDS_sclk_start_count (1 entry):
+	0 (CDF_DOUBLE/1): 	3.51601e+13
+PDS_sclk_stop_count (1 entry):
+	0 (CDF_DOUBLE/1): 	3.51658e+13
+leapseconds_kernel (1 entry):
+	0 (CDF_CHAR/12): 	"naif0012.tls"
+Spacecraft_clock_kernel (1 entry):
+	0 (CDF_CHAR/22): 	"MVN_SCLKSCET.00043.tsc"
+LINK_TEXT (3 entries):
+	0 (CDF_CHAR/19): 	"MAVEN Data Archive "
+	1 (CDF_CHAR/15): 	"MAVEN Overview "
+	2 (CDF_CHAR/15): 	"MAVEN Overview "
+LINK_TITLE (3 entries):
+	0 (CDF_CHAR/15): 	"at PDS PPI Node"
+	1 (CDF_CHAR/7): 	"at LASP"
+	2 (CDF_CHAR/11): 	"at nasa.gov"
+HTTP_LINK (3 entries):
+	0 (CDF_CHAR/68): 	"https://pds-ppi.igpp.ucla.edu/search/?sc=MAVEN&facet=SPACECRAFT_NAME"
+	1 (CDF_CHAR/36): 	"http://lasp.colorado.edu/home/maven/"
+	2 (CDF_CHAR/56): 	"https://www.nasa.gov/mission_pages/maven/main/index.html"
+
+Variable Attributes (27 attributes)
+=========================================
+FIELDNAM
+MONOTON
+FORMAT
+FORM_PTR
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DISPLAY_TYPE
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+SCALETYP
+TIME_BASE
+UNITS
+CATDESC
+VIRTUAL
+FUNCT
+COMPONENT_0
+ALLOW_BIN
+
+Variable Information (0 rVariable, 73 zVariables)
+===========================================================
+epoch                 CDF_TT2000/1	0:[]	T/  
+time_met              CDF_DOUBLE/1	0:[]	T/  
+time_unix             CDF_DOUBLE/1	0:[]	T/  
+atten_state           CDF_UINT1/1	0:[]	T/  
+grouping              CDF_UINT1/1	0:[]	T/  
+estep_first           CDF_UINT1/1	0:[]	T/  
+dstep_first           CDF_UINT1/1	0:[]	T/  
+counts                CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes        CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_mv     CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec1  CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_2      CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_2mv    CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec2  CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_3      CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_3mv    CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec3  CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_4      CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_4mv    CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec4  CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_5      CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_5mv    CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec5  CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_6      CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_6mv    CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec6  CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_7      CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_7mv    CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec7  CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_8      CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_8mv    CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec8  CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_9      CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_9mv    CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec9  CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_10     CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_10mv   CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec10 CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_11     CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_11mv   CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec11 CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_12     CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_12mv   CDF_FLOAT/1	3:[10,12,48]	T/TTT
+diff_en_fluxes_spec12 CDF_FLOAT/1	3:[10,12,48]	T/TTT
+geom_factor           CDF_FLOAT/1	0:[]	F/  
+de_over_e_fine        CDF_FLOAT/1	0:[]	F/  
+accum_time_fine       CDF_FLOAT/1	0:[]	F/  
+energy_fine           CDF_FLOAT/1	1:[96]	F/T
+theta_fine            CDF_FLOAT/1	2:[24,96]	F/TT
+theta_atten_fine      CDF_FLOAT/1	2:[24,96]	F/TT
+g_theta_fine          CDF_FLOAT/1	2:[24,96]	F/TT
+g_theta_atten_fine    CDF_FLOAT/1	2:[24,96]	F/TT
+phi_fine              CDF_FLOAT/1	1:[10]	F/T
+g_phi_fine            CDF_FLOAT/1	1:[10]	F/T
+g_phi_atten_fine      CDF_FLOAT/1	1:[10]	F/T
+eindex                CDF_UINT1/1	1:[48]	F/T
+dindex                CDF_UINT1/1	1:[12]	F/T
+phi_label             CDF_CHAR/2	1:[10]	F/T
+phi_label_1D          CDF_CHAR/2	1:[10]	F/T
+phi_label_2D          CDF_CHAR/2	1:[10]	F/T
+phi_label_3D          CDF_CHAR/2	1:[10]	F/T
+phi_label_4D          CDF_CHAR/2	1:[10]	F/T
+phi_label_5D          CDF_CHAR/2	1:[10]	F/T
+phi_label_6D          CDF_CHAR/2	1:[10]	F/T
+phi_label_7D          CDF_CHAR/2	1:[10]	F/T
+phi_label_8D          CDF_CHAR/2	1:[10]	F/T
+phi_label_9D          CDF_CHAR/2	1:[10]	F/T
+phi_label_10D         CDF_CHAR/2	1:[10]	F/T
+phi_label_11D         CDF_CHAR/2	1:[10]	F/T
+phi_label_12D         CDF_CHAR/2	1:[10]	F/T
+def_label             CDF_CHAR/3	1:[12]	F/T
+en_label              CDF_CHAR/3	1:[48]	F/T
+num_dists             CDF_INT2/1	0:[]	F/  
+
+
+Variable (73 variables)
+=========================================
+
+epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_TT2000/1): 2013-11-17T23:59:59.999998080
+     VALIDMAX        (CDF_TT2000/1): 2030-12-31T23:58:59.999998080
+     SCALEMIN        (CDF_TT2000/1): 2017-01-01T00:03:54.785553920
+     SCALEMAX        (CDF_TT2000/1): 2017-01-01T23:57:22.367250688
+     UNITS           (CDF_CHAR/2): "ns"
+     CATDESC         (CDF_CHAR/42): "Time, start of sample, in TT2000 time base"
+
+time_met (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "time_met"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/5): "F25.6"
+     LABLAXIS        (CDF_CHAR/8): "time_met"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_DOUBLE/1): 4.38005e+08
+     VALIDMAX        (CDF_DOUBLE/1): 9.78264e+08
+     SCALEMIN        (CDF_DOUBLE/1): 5.36501e+08
+     SCALEMAX        (CDF_DOUBLE/1): 5.36587e+08
+     UNITS           (CDF_CHAR/1): "s"
+     CATDESC         (CDF_CHAR/50): "Time, start of sample, in raw mission elapsed time"
+
+time_unix (No: 2) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "time_unix"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/5): "F25.6"
+     LABLAXIS        (CDF_CHAR/9): "time_unix"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_DOUBLE/1): 1.38473e+09
+     VALIDMAX        (CDF_DOUBLE/1): 1.92499e+09
+     SCALEMIN        (CDF_DOUBLE/1): 1.48323e+09
+     SCALEMAX        (CDF_DOUBLE/1): 1.48332e+09
+     UNITS           (CDF_CHAR/1): "s"
+     CATDESC         (CDF_CHAR/35): "Time, start of sample, in Unix time"
+
+atten_state (No: 3) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "atten_state"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/11): "atten_state"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 1
+     VALIDMAX        (CDF_UINT1/1): 3
+     SCALEMIN        (CDF_UINT1/1): 1
+     SCALEMAX        (CDF_UINT1/1): 3
+     CATDESC         (CDF_CHAR/56): "Attenuator state, 1 = open, 2 = closed, 3 = cover closed"
+
+grouping (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "grouping"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/8): "grouping"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 2
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 2
+     CATDESC         (CDF_CHAR/58): "Data Coverage Flag: 0 = 48E x 12D x 10A, 1 = 32E x 8D x 6A"
+
+estep_first (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "estep_first"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/11): "estep_first"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 47
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 47
+     CATDESC         (CDF_CHAR/20): "Starting Energy Step"
+
+dstep_first (No: 6) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "dstep_first"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/11): "dstep_first"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 23
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 23
+     CATDESC         (CDF_CHAR/24): "Starting Deflection Step"
+
+counts (No: 7) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "counts"
+     FORMAT          (CDF_CHAR/5): "F18.7"
+     LABLAXIS        (CDF_CHAR/6): "counts"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100000.0
+     UNITS           (CDF_CHAR/6): "counts"
+     CATDESC         (CDF_CHAR/38): "[no-plot for now]Raw Instrument counts"
+
+diff_en_fluxes (No: 8) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 1st deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/78): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes(*,1,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/150): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 1st Deflection Index[Thumbnails, select a few hours]"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_mv (No: 9) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 1st deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/70): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_mv(*,1,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec1 (No: 10) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/29): "Energy @ 1st deflection index"
+     LABL_PTR_1      (CDF_CHAR/12): "phi_label_1D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/146): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec1(1,1,*),z=diff_en_fluxes_spec1(4,1,*),z=diff_en_fluxes_spec1(7,1,*),z=diff_en_fluxes_spec1(10,1,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_2 (No: 11) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 2nd deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/80): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_2(*,2,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/150): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 2nd Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_2mv (No: 12) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 2nd deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/71): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_2mv(*,2,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec2 (No: 13) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/29): "Energy @ 2nd deflection index"
+     LABL_PTR_1      (CDF_CHAR/12): "phi_label_2D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/146): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec2(1,2,*),z=diff_en_fluxes_spec2(4,2,*),z=diff_en_fluxes_spec2(7,2,*),z=diff_en_fluxes_spec2(10,2,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_3 (No: 14) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 3rd deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/80): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_3(*,3,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/150): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 3rd Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_3mv (No: 15) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 3rd deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/71): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_3mv(*,3,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec3 (No: 16) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/29): "Energy @ 3rd deflection index"
+     LABL_PTR_1      (CDF_CHAR/12): "phi_label_3D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/146): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec3(1,3,*),z=diff_en_fluxes_spec3(4,3,*),z=diff_en_fluxes_spec3(7,3,*),z=diff_en_fluxes_spec3(10,3,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_4 (No: 17) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 4th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/80): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_4(*,4,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/150): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 4th Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_4mv (No: 18) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 4th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/71): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_4mv(*,4,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec4 (No: 19) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/29): "Energy @ 4th deflection index"
+     LABL_PTR_1      (CDF_CHAR/12): "phi_label_4D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/146): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec4(1,4,*),z=diff_en_fluxes_spec4(4,4,*),z=diff_en_fluxes_spec4(7,4,*),z=diff_en_fluxes_spec4(10,4,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_5 (No: 20) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 5th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/80): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_5(*,5,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/150): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 5th Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_5mv (No: 21) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 5th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/71): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_5mv(*,5,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec5 (No: 22) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/29): "Energy @ 5th deflection index"
+     LABL_PTR_1      (CDF_CHAR/12): "phi_label_5D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/146): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec5(1,5,*),z=diff_en_fluxes_spec5(4,5,*),z=diff_en_fluxes_spec5(7,5,*),z=diff_en_fluxes_spec5(10,5,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_6 (No: 23) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 6th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/80): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_6(*,6,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/150): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 6th Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_6mv (No: 24) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 6th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/71): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_6mv(*,6,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec6 (No: 25) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/29): "Energy @ 6th deflection index"
+     LABL_PTR_1      (CDF_CHAR/12): "phi_label_6D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/146): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec6(1,6,*),z=diff_en_fluxes_spec6(4,6,*),z=diff_en_fluxes_spec6(7,6,*),z=diff_en_fluxes_spec6(10,6,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_7 (No: 26) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 7th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/80): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_7(*,7,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/150): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 7th Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_7mv (No: 27) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 7th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/71): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_7mv(*,7,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec7 (No: 28) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/29): "Energy @ 7th deflection index"
+     LABL_PTR_1      (CDF_CHAR/12): "phi_label_7D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/146): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec7(1,7,*),z=diff_en_fluxes_spec7(4,7,*),z=diff_en_fluxes_spec7(7,7,*),z=diff_en_fluxes_spec7(10,7,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_8 (No: 29) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 8th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/80): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_8(*,8,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/150): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 8th Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_8mv (No: 30) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 8th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/71): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_8mv(*,8,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec8 (No: 31) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/29): "Energy @ 8th deflection index"
+     LABL_PTR_1      (CDF_CHAR/12): "phi_label_8D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/146): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec8(1,8,*),z=diff_en_fluxes_spec8(4,8,*),z=diff_en_fluxes_spec8(7,8,*),z=diff_en_fluxes_spec8(10,8,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_9 (No: 32) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 9th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/80): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_9(*,9,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/150): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 9th Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_9mv (No: 33) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/46): "Differential energy flux: 9th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/71): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_9mv(*,9,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec9 (No: 34) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/29): "Energy @ 9th deflection index"
+     LABL_PTR_1      (CDF_CHAR/12): "phi_label_9D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/146): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec9(1,9,*),z=diff_en_fluxes_spec9(4,9,*),z=diff_en_fluxes_spec9(7,9,*),z=diff_en_fluxes_spec9(10,9,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_10 (No: 35) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/47): "Differential energy flux: 10th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/82): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_10(*,10,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/151): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 10th Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_10mv (No: 36) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/47): "Differential energy flux: 10th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/73): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_10mv(*,10,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec10 (No: 37) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/30): "Energy @ 10th deflection index"
+     LABL_PTR_1      (CDF_CHAR/13): "phi_label_10D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/154): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec10(1,10,*),z=diff_en_fluxes_spec10(4,10,*),z=diff_en_fluxes_spec10(7,10,*),z=diff_en_fluxes_spec10(10,10,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_11 (No: 38) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/47): "Differential energy flux: 11th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/82): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_11(*,11,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/151): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 11th Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_11mv (No: 39) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/47): "Differential energy flux: 11th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/73): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_11mv(*,11,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec11 (No: 40) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/30): "Energy @ 11th deflection index"
+     LABL_PTR_1      (CDF_CHAR/13): "phi_label_11D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/154): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec11(1,11,*),z=diff_en_fluxes_spec11(4,11,*),z=diff_en_fluxes_spec11(7,11,*),z=diff_en_fluxes_spec11(10,11,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_12 (No: 41) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/47): "Differential energy flux: 12th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/82): "plasmagram>THUMBSIZE>60>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_12(*,12,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/151): "Calibrated Differential Energy Flux [vary with time, energy, deflection index and anode angle] at 12th Deflection Index[Thumbnails, select a few hours]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_12mv (No: 42) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/47): "Differential energy flux: 11th deflection index"
+     LABL_PTR_1      (CDF_CHAR/9): "phi_label"
+     LABL_PTR_2      (CDF_CHAR/9): "def_label"
+     LABL_PTR_3      (CDF_CHAR/8): "en_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/73): "plasma_movie>xsz=4>x=phi_fine,y=energy_fine,z=diff_en_fluxes_12mv(*,12,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/53): "---> Movie of above [flux vs. energy and anode angle]"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+diff_en_fluxes_spec12 (No: 43) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "diff_en_fluxes"
+     FORMAT          (CDF_CHAR/5): "F20.7"
+     LABLAXIS        (CDF_CHAR/30): "Energy @ 12th deflection index"
+     LABL_PTR_1      (CDF_CHAR/13): "phi_label_12D"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/8): "phi_fine"
+     DEPEND_2        (CDF_CHAR/6): "dindex"
+     DEPEND_3        (CDF_CHAR/6): "eindex"
+     DISPLAY_TYPE    (CDF_CHAR/154): "spectrogram>y=energy_fine,z=diff_en_fluxes_spec12(1,12,*),z=diff_en_fluxes_spec12(4,12,*),z=diff_en_fluxes_spec12(7,12,*),z=diff_en_fluxes_spec12(10,12,*)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+14
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+11
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/17): "ev/[eV cm^2 sr s]"
+     CATDESC         (CDF_CHAR/56): "---> Spectrogram at selected Azimuth Angle bins 1,4,7,10"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "diff_en_fluxes"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+geom_factor (No: 44) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "geom_factor"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/11): "geom_factor"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 0.01
+     UNITS           (CDF_CHAR/13): "cm^2 sr eV/eV"
+     CATDESC         (CDF_CHAR/30): "Full Analyzer Geometric Factor"
+
+de_over_e_fine (No: 45) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "de_over_e_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/14): "de_over_e_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 0.2
+     UNITS           (CDF_CHAR/5): "eV/eV"
+     CATDESC         (CDF_CHAR/13): "Fine DeltaE/E"
+
+accum_time_fine (No: 46) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "accum_time_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/15): "accum_time_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 0.1
+     UNITS           (CDF_CHAR/1): "s"
+     CATDESC         (CDF_CHAR/21): "Fine Integration Time"
+
+energy_fine (No: 47) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "energy_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/11): "energy_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 25.0
+     VALIDMAX        (CDF_FLOAT/1): 25000.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 30000.0
+     UNITS           (CDF_CHAR/2): "eV"
+     CATDESC         (CDF_CHAR/17): "Fine Energy Table"
+
+theta_fine (No: 48) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "theta_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/10): "theta_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     SCALEMIN        (CDF_FLOAT/1): -45.0
+     SCALEMAX        (CDF_FLOAT/1): 45.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     CATDESC         (CDF_CHAR/55): "Fine Deflection Angle (Theta) Table for Attenuator Open"
+
+theta_atten_fine (No: 49) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "theta_atten_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/16): "theta_atten_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     SCALEMIN        (CDF_FLOAT/1): -45.0
+     SCALEMAX        (CDF_FLOAT/1): 45.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     CATDESC         (CDF_CHAR/57): "Fine Deflection Angle (Theta) Table for Attenuator Closed"
+
+g_theta_fine (No: 50) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "g_theta_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/12): "g_theta_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     CATDESC         (CDF_CHAR/51): "Fine Relative Sensitivity Table for Attenuator Open"
+
+g_theta_atten_fine (No: 51) (Recs: 1)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "g_theta_atten_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/18): "g_theta_atten_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     CATDESC         (CDF_CHAR/53): "Fine Relative Sensitivity Table for Attenuator Closed"
+
+phi_fine (No: 52) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "phi_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/8): "phi_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 150.0
+     VALIDMAX        (CDF_FLOAT/1): 250.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 360.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     CATDESC         (CDF_CHAR/28): "Fine Anode Angle (Phi) Table"
+
+g_phi_fine (No: 53) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "g_phi_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/10): "g_phi_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     CATDESC         (CDF_CHAR/51): "Fine Relative Sensitivity Table for Attenuator Open"
+
+g_phi_atten_fine (No: 54) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "g_phi_atten_fine"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/16): "g_phi_atten_fine"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     CATDESC         (CDF_CHAR/53): "Fine Relative Sensitivity Table for Attenuator Closed"
+
+eindex (No: 55) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "eindex"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/6): "eindex"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 47
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 47
+     CATDESC         (CDF_CHAR/34): "Energy Index for CDF compatibility"
+
+dindex (No: 56) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "dindex"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/6): "dindex"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 11
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 11
+     CATDESC         (CDF_CHAR/38): "Deflection Index for CDF compatibility"
+
+phi_label (No: 57) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_1D (No: 58) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_2D (No: 59) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_3D (No: 60) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_4D (No: 61) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_5D (No: 62) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_6D (No: 63) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_7D (No: 64) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_8D (No: 65) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_9D (No: 66) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_10D (No: 67) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_11D (No: 68) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+phi_label_12D (No: 69) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "phi_label"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Phi Axis Label for CDF compatibility"
+
+def_label (No: 70) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "def_label"
+     FORMAT          (CDF_CHAR/2): "A3"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/43): "Deflection Axis Label for CDF compatibility"
+
+en_label (No: 71) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "en_label"
+     FORMAT          (CDF_CHAR/2): "A3"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/39): "Energy Axis Label for CDF compatibility"
+
+num_dists (No: 72) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "num_dists"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/9): "num_dists"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 21600
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 21600
+     CATDESC         (CDF_CHAR/36): "Number of Fine Distributions in File"
+

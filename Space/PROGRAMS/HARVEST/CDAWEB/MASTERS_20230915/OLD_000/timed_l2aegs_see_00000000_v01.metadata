@@ -1,0 +1,337 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/timed_l2aegs_see_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     timed_l2aegs_see_00000000_v01.cdf
+Version:      2.6.7
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-1997 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     PPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     16
+NumAttrs:     39 (20 global, 19 variable)
+Compression:  None
+
+Global Attributes (20 attributes)
+=========================================
+Title (1 entry):
+	0 (CDF_CHAR/104): 	"SEE Level 2A EGS Observation Averaged Data Product - calibrated 0.1nm EGS data averaged over ~ 3 minutes"
+Source_name (1 entry):
+	0 (CDF_CHAR/64): 	"TIMED>Thermosphere+Ionosphere+Mesosphere+Energetics and Dynamics"
+Data_type (1 entry):
+	0 (CDF_CHAR/44): 	"L2AEGS>Level 2A EGS EUV Grating Spectrograph"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Source (1 entry):
+	0 (CDF_CHAR/20): 	"SEE POC at LASP / CU"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"TIMED"
+Data_product_type (1 entry):
+	0 (CDF_CHAR/16): 	"SEE EGS Level 2A"
+Data_product_version (1 entry):
+	0 (CDF_CHAR/3): 	"007"
+Data_product_revision (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+Product_format_version (1 entry):
+	0 (CDF_CHAR/3): 	"006"
+Software_version (1 entry):
+	0 (CDF_CHAR/5): 	"07.01"
+Software_name (1 entry):
+	0 (CDF_CHAR/48): 	"write_netCDF.pro called from egs_level2_main.pro"
+Calibration_version (1 entry):
+	0 (CDF_CHAR/5): 	"05.01"
+Descriptor (1 entry):
+	0 (CDF_CHAR/24): 	"SEE>Solar EUV Experiment"
+Description (1 entry):
+	0 (CDF_CHAR/136): 	"Calibrated SEE EGS science data averaged over each solar observation $ at 0.1 nm bins with degradation, atmospheric, and 1AU corrections"
+History (1 entry):
+	0 (CDF_CHAR/39): 	"7/03/03 Don Woodraska Original creation"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/32): 	"Imaging and Remote Sensing (Sun)"
+Date_generated (1 entry):
+	0 (CDF_CHAR/24): 	"Tue Jul 13 18:20:33 2004"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/29): 	"timed_L2Aegs_see_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/16): 	"timed_L2Aegs_see"
+
+Variable Attributes (19 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+INTERNAL_VARIABLE
+FUNCTION
+VIRTUAL
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+COMPONENT_3
+
+Variable Information (0 rVariable, 16 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+DATE                  CDF_INT4/1	0:[]	T/  
+WAVE                  CDF_FLOAT/1	1:[1690]	F/T
+FLUX_MEDIAN           CDF_FLOAT/1	1:[1690]	T/T
+DIFF_MA               CDF_FLOAT/1	1:[1690]	T/T
+ERR_TOT               CDF_FLOAT/1	1:[1690]	T/T
+ERR_MEAS              CDF_FLOAT/1	1:[1690]	T/T
+STDEV_MEAS            CDF_FLOAT/1	1:[1690]	T/T
+NUMPT                 CDF_INT2/1	1:[1690]	T/T
+COR_OS_MED            CDF_FLOAT/1	1:[1690]	T/T
+COR_1AU               CDF_FLOAT/1	0:[]	T/  
+SLIT                  CDF_BYTE/1	0:[]	T/  
+START_TIME            CDF_FLOAT/1	0:[]	T/  
+STOP_TIME             CDF_FLOAT/1	0:[]	T/  
+ODC_ID                CDF_UINT1/1	0:[]	T/  
+FLARE                 CDF_FLOAT/1	0:[]	T/  
+
+
+Variable (16 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/15): "Time since 0 AD"
+     CATDESC         (CDF_UCHAR/67): "Time tag rounded to nearest msecond. Denotes beginning of interval."
+     FILLVAL         (CDF_FLOAT/1): 01-Jan-0000 00:00:00.000
+     FORMAT          (CDF_UCHAR/7): "1PE13.2"
+     LABLAXIS        (CDF_UCHAR/5): "Epoch"
+     UNITS           (CDF_UCHAR/12): "milliseconds"
+     VALIDMIN        (CDF_DOUBLE/1): 24-Mar-1992 23:46:40.000
+     VALIDMAX        (CDF_DOUBLE/1): 27-Mar-1992 07:20:00.000
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     INTERNAL_VARIABLE (CDF_UCHAR/2): "No"
+
+DATE (No: 1) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Date of observation"
+     CATDESC         (CDF_CHAR/19): "Date of observation"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "i7"
+     LABLAXIS        (CDF_CHAR/19): "Date of observation"
+     UNITS           (CDF_UCHAR/2): "  "
+     VALIDMIN        (CDF_INT4/1): 1990001
+     VALIDMAX        (CDF_INT4/1): 2020365
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+WAVE (No: 2) (Recs: 1)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Wavelength intervals"
+     CATDESC         (CDF_CHAR/52): "Array of wavelength intervals, half-Angstrom centers"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/20): "Wavelength intervals"
+     UNITS           (CDF_CHAR/2): "nm"
+     VALIDMIN        (CDF_FLOAT/1): 26.05
+     VALIDMAX        (CDF_FLOAT/1): 194.94
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+FLUX_MEDIAN (No: 3) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Flux Median"
+     CATDESC         (CDF_CHAR/84): "Array of median solar irradiances for each wavelength interval. This is the spectrum"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "WAVE"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.4"
+     LABLAXIS        (CDF_CHAR/11): "Flux Median"
+     UNITS           (CDF_CHAR/12): "W / m^2 / nm"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+DIFF_MA (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "Diff MA"
+     CATDESC         (CDF_CHAR/108): "Array of differences between the median and weighted averaged solar irradiances for each wavelength interval"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "WAVE"
+     FORMAT          (CDF_CHAR/4): "f7.4"
+     LABLAXIS        (CDF_CHAR/7): "Diff MA"
+     UNITS           (CDF_CHAR/12): "W / m^2 / nm"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+ERR_TOT (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Accuracy of solar irradiance"
+     CATDESC         (CDF_CHAR/28): "Accuracy of solar irradiance"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "WAVE"
+     FILLVAL         (CDF_FLOAT/1): 1000.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     LABLAXIS        (CDF_CHAR/28): "Accuracy of solar irradiance"
+     UNITS           (CDF_CHAR/10): "Fractional"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+ERR_MEAS (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Measurement precision"
+     CATDESC         (CDF_CHAR/21): "Measurement precision"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "WAVE"
+     FILLVAL         (CDF_FLOAT/1): 1000.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     LABLAXIS        (CDF_CHAR/21): "Measurement precision"
+     UNITS           (CDF_CHAR/10): "Fractional"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+STDEV_MEAS (No: 7) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "Standard deviation of the median"
+     CATDESC         (CDF_CHAR/32): "Standard deviation of the median"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "WAVE"
+     FILLVAL         (CDF_FLOAT/1): 1000.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     LABLAXIS        (CDF_CHAR/32): "Standard deviation of the median"
+     UNITS           (CDF_CHAR/10): "Fractional"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+NUMPT (No: 8) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Number of Points"
+     CATDESC         (CDF_CHAR/136): "Array of the Number of points (1-Angstrom-gridded measurements) used in determining the observation average for each wavelength interval"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "WAVE"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "i4"
+     LABLAXIS        (CDF_CHAR/16): "Number of Points"
+     UNITS           (CDF_CHAR/4): "NONE"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 250.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+COR_OS_MED (No: 9) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Sort correction (flux_median)"
+     CATDESC         (CDF_CHAR/47): "Order Sorting correction applied to flux_median"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "WAVE"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.4"
+     LABLAXIS        (CDF_CHAR/29): "Sort correction (flux_median)"
+     UNITS           (CDF_CHAR/8): "W/m^2/nm"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+COR_1AU (No: 10) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "AU correction factor for date"
+     CATDESC         (CDF_CHAR/29): "AU correction factor for date"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f5.1"
+     LABLAXIS        (CDF_CHAR/29): "AU correction factor for date"
+     UNITS           (CDF_CHAR/10): "1 / (AU^2)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+SLIT (No: 11) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Slit"
+     CATDESC         (CDF_CHAR/39): "0 is calibration slit, 1 is normal slit"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "i1"
+     LABLAXIS        (CDF_CHAR/4): "Slit"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+START_TIME (No: 12) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "Array of observation start time"
+     CATDESC         (CDF_CHAR/31): "Array of observation start time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/31): "Array of observation start time"
+     UNITS           (CDF_CHAR/17): "UT seconds of day"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 86400.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+STOP_TIME (No: 13) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Array of observation stop time"
+     CATDESC         (CDF_CHAR/30): "Array of observation stop time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/30): "Array of observation stop time"
+     UNITS           (CDF_CHAR/17): "UT seconds of day"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 86400.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+ODC_ID (No: 14) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Observation identifier"
+     CATDESC         (CDF_CHAR/122): "Array of observation identifiers (1-254), A value of 0 means the observation did not produce data used in routine products"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "i3"
+     LABLAXIS        (CDF_CHAR/22): "Observation identifier"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_UINT1/1): 1
+     VALIDMAX        (CDF_UINT1/1): 254
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+FLARE (No: 15) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Flare"
+     CATDESC         (CDF_CHAR/5): "Flare"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/5): "Flare"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+

@@ -1,0 +1,899 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/mvn_sep_l2_s1-cal-svy-full_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     mvn_sep_l2_s1-cal-svy-full_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     41
+NumAttrs:     46 (26 global, 20 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (26 attributes)
+=========================================
+Acknowledgement (0 entry):
+TITLE (1 entry):
+	0 (CDF_CHAR/31): 	"MAVEN SEP Electron and Ion Flux"
+Project (1 entry):
+	0 (CDF_CHAR/52): 	"MAVEN>Mars Atmosphere and Volatile EvolutioN Mission"
+Discipline (1 entry):
+	0 (CDF_CHAR/27): 	"Planetary Physics>Particles"
+Source_name (1 entry):
+	0 (CDF_CHAR/52): 	"MAVEN>Mars Atmosphere and Volatile Evolution Mission"
+Descriptor (1 entry):
+	0 (CDF_CHAR/39): 	"SEP>Solar Energetic Particle Experiment"
+Data_type (1 entry):
+	0 (CDF_CHAR/47): 	"s1-cal-svy-full>Survey Calibrated Particle Flux"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/31): 	"MAVEN SEP electron and ion Flux"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source (1 entry):
+	0 (CDF_CHAR/26): 	"mvn_sep_l2_s1-cal-svy-full"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/102): 	"DERIVED FROM: MAVEN SEP (Solar Energetic Particle) Instrument Sensor 1 Fully Calibrated Spectra Survey"
+Sensor (1 entry):
+	0 (CDF_CHAR/4): 	"SEP1"
+PI_name (1 entry):
+	0 (CDF_CHAR/34): 	"D. Larson (davin@ssl.berkeley.edu)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/39): 	"U.C. Berkeley Space Sciences Laboratory"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"MAVEN"
+LINK_TEXT (3 entries):
+	0 (CDF_CHAR/19): 	"MAVEN Data Archive "
+	1 (CDF_CHAR/16): 	"MAVEN home page "
+	2 (CDF_CHAR/16): 	"MAVEN home page "
+LINK_TITLE (3 entries):
+	0 (CDF_CHAR/15): 	"at PDS PPI Node"
+	1 (CDF_CHAR/7): 	"at LASP"
+	2 (CDF_CHAR/11): 	"at NASA.gov"
+HTTP_LINK (3 entries):
+	0 (CDF_CHAR/68): 	"https://pds-ppi.igpp.ucla.edu/search/?sc=MAVEN&facet=SPACECRAFT_NAME"
+	1 (CDF_CHAR/36): 	"http://lasp.colorado.edu/home/maven/"
+	2 (CDF_CHAR/56): 	"https://www.nasa.gov/mission_pages/maven/main/index.html"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Planet (1 entry):
+	0 (CDF_CHAR/4): 	"Mars"
+PDS_collection_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_start_time (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_stop_time (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+MONOTON
+FORMAT
+LABLAXIS
+VAR_TYPE
+DISPLAY_TYPE
+FILLVAL
+SCALETYP
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+CATDESC
+FORM_PTR
+DEPEND_TIME
+DEPEND_0
+DEPEND_1
+DEPEND_2
+LABL_PTR_1
+
+Variable Information (0 rVariable, 41 zVariables)
+===========================================================
+time_unix             CDF_DOUBLE/1	0:[]	T/  
+epoch                 CDF_TT2000/1	0:[]	T/  
+time_met              CDF_DOUBLE/1	0:[]	T/  
+time_ephemeris        CDF_DOUBLE/1	0:[]	T/  
+attenuator_state      CDF_UINT2/1	0:[]	T/  
+accum_time            CDF_UINT2/1	0:[]	T/  
+mapid                 CDF_UINT2/1	0:[]	T/  
+seq_cntr              CDF_UINT2/1	0:[]	T/  
+f_ion_flux            CDF_FLOAT/1	1:[28]	T/T
+f_ion_flux_unc        CDF_FLOAT/1	1:[28]	T/T
+f_ion_flux_tot        CDF_FLOAT/1	0:[]	T/  
+f_ion_flux_tot_unc    CDF_FLOAT/1	0:[]	T/  
+f_ion_energy          CDF_FLOAT/1	1:[28]	T/T
+f_ion_denergy         CDF_FLOAT/1	1:[28]	T/T
+f_elec_flux           CDF_FLOAT/1	1:[15]	T/T
+f_elec_flux_unc       CDF_FLOAT/1	1:[15]	T/T
+f_elec_flux_tot       CDF_FLOAT/1	0:[]	T/  
+f_elec_flux_tot_unc   CDF_FLOAT/1	0:[]	T/  
+f_elec_energy         CDF_FLOAT/1	1:[15]	T/T
+f_elec_denergy        CDF_FLOAT/1	1:[15]	T/T
+r_ion_flux            CDF_FLOAT/1	1:[28]	T/T
+r_ion_flux_unc        CDF_FLOAT/1	1:[28]	T/T
+r_ion_flux_tot        CDF_FLOAT/1	0:[]	T/  
+r_ion_flux_tot_unc    CDF_FLOAT/1	0:[]	T/  
+r_ion_energy          CDF_FLOAT/1	1:[28]	T/T
+r_ion_denergy         CDF_FLOAT/1	1:[28]	T/T
+r_elec_flux           CDF_FLOAT/1	1:[15]	T/T
+r_elec_flux_unc       CDF_FLOAT/1	1:[15]	T/T
+r_elec_flux_tot       CDF_FLOAT/1	0:[]	T/  
+r_elec_flux_tot_unc   CDF_FLOAT/1	0:[]	T/  
+r_elec_energy         CDF_FLOAT/1	1:[15]	T/T
+r_elec_denergy        CDF_FLOAT/1	1:[15]	T/T
+a_t_rates             CDF_FLOAT/1	1:[8]	T/T
+b_t_rates             CDF_FLOAT/1	1:[8]	T/T
+a_fto_rates           CDF_FLOAT/1	1:[10]	T/T
+b_fto_rates           CDF_FLOAT/1	1:[10]	T/T
+f_o_rate              CDF_FLOAT/1	0:[]	T/  
+f_f_rate              CDF_FLOAT/1	0:[]	T/  
+r_o_rate              CDF_FLOAT/1	0:[]	T/  
+r_f_rate              CDF_FLOAT/1	0:[]	T/  
+quality_flag          CDF_UINT4/1	0:[]	T/  
+
+
+Variable (41 variables)
+=========================================
+
+time_unix (No: 0) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "time_unix"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/5): "F15.3"
+     LABLAXIS        (CDF_CHAR/10): "Time (UTC)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     VALIDMIN        (CDF_DOUBLE/1): 1.2623e+09
+     VALIDMAX        (CDF_DOUBLE/1): 1.89346e+09
+     SCALEMIN        (CDF_DOUBLE/1): 0.0
+     SCALEMAX        (CDF_DOUBLE/1): 1.0e+10
+     UNITS           (CDF_CHAR/3): "sec"
+     CATDESC         (CDF_CHAR/36): "Time, middle of sample, in Unix time"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+epoch (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     VALIDMIN        (CDF_TT2000/1): 2009-12-31T23:59:59.999998080
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:59.999998080
+     SCALEMIN        (CDF_TT2000/1): 2016-01-04T00:00:08.079208384
+     SCALEMAX        (CDF_TT2000/1): 2016-01-05T00:00:07.384746304
+     UNITS           (CDF_CHAR/2): "ns"
+     CATDESC         (CDF_CHAR/43): "Time, middle of sample, in TT2000 time base"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+time_met (No: 2) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "time_met"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/5): "F25.6"
+     LABLAXIS        (CDF_CHAR/8): "time_met"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 9.4608e+08
+     SCALEMIN        (CDF_DOUBLE/1): 5.05138e+08
+     SCALEMAX        (CDF_DOUBLE/1): 5.05224e+08
+     UNITS           (CDF_CHAR/1): "s"
+     CATDESC         (CDF_CHAR/51): "Time, middle of sample, in raw mission elapsed time"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+time_ephemeris (No: 3) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "time_ephemeris"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/5): "F25.6"
+     LABLAXIS        (CDF_CHAR/14): "time_ephemeris"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 9.4608e+08
+     SCALEMIN        (CDF_DOUBLE/1): 5.05138e+08
+     SCALEMAX        (CDF_DOUBLE/1): 5.05224e+08
+     UNITS           (CDF_CHAR/1): "s"
+     CATDESC         (CDF_CHAR/56): "Ephermeris Time, middle of sample, compatible with spice"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+attenuator_state (No: 4) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "attenuator_state"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/16): "attenuator_state"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_UINT2/1): 65535
+     VALIDMIN        (CDF_UINT2/1): 1
+     VALIDMAX        (CDF_UINT2/1): 2
+     SCALEMIN        (CDF_UINT2/1): 0
+     SCALEMAX        (CDF_UINT2/1): 3
+     CATDESC         (CDF_CHAR/55): "Attenuator state, 0=error,  1=open, 2=closed,   3=mixed"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+accum_time (No: 5) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "accum_time"
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/10): "accum_time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_UINT2/1): 65535
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 128
+     SCALEMIN        (CDF_UINT2/1): 0
+     SCALEMAX        (CDF_UINT2/1): 128
+     CATDESC         (CDF_CHAR/67): "Number of 1-second accumulations contained within this data sample."
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+mapid (No: 6) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "mapid"
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/5): "mapid"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_UINT2/1): 65535
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 128
+     SCALEMIN        (CDF_UINT2/1): 0
+     SCALEMAX        (CDF_UINT2/1): 128
+     CATDESC         (CDF_CHAR/21): "Binning Map ID number"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+seq_cntr (No: 7) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "seq_cntr"
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/8): "seq_cntr"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_UINT2/1): 65535
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 16384
+     SCALEMIN        (CDF_UINT2/1): 0
+     SCALEMAX        (CDF_UINT2/1): 16384
+     CATDESC         (CDF_CHAR/22): "CCSDS Sequence Counter"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_ion_flux (No: 8) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "f_ion_flux"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/10): "f_ion_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/69): "Differential ion flux in forward look direction (#/cm^2/sec/ster/keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/12): "f_ion_energy"
+
+f_ion_flux_unc (No: 9) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "f_ion_flux_unc"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/14): "f_ion_flux_unc"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/68): "Ion flux uncertainty in forward look direction (#/cm^2/sec/ster/keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/12): "f_ion_energy"
+
+f_ion_flux_tot (No: 10) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "f_ion_flux_tot"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/14): "f_ion_flux_tot"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/71): "Total (integrated) ion flux in forward look direction (#/cm^2/sec/ster)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_ion_flux_tot_unc (No: 11) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "f_ion_flux_tot_unc"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/18): "f_ion_flux_tot_unc"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/44): "Total ion flux uncertainty (#/cm^2/sec/ster)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_ion_energy (No: 12) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "f_ion_energy"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/12): "f_ion_energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/16): "Ion energy (keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_ion_denergy (No: 13) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "f_ion_denergy"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/13): "f_ion_denergy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/30): "Ion energy channel width (keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_elec_flux (No: 14) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "f_elec_flux"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/11): "f_elec_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/74): "Differential electron flux in forward look direction (#/cm^2/sec/ster/keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/13): "f_elec_energy"
+
+f_elec_flux_unc (No: 15) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "f_elec_flux_unc"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/15): "f_elec_flux_unc"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/47): "Electron flux uncertainty (#/cm^2/sec/ster/keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/13): "f_elec_energy"
+
+f_elec_flux_tot (No: 16) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "f_elec_flux_tot"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/15): "f_elec_flux_tot"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/76): "Total (integrated) electron flux in forward look direction (#/cm^2/sec/ster)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_elec_flux_tot_unc (No: 17) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "f_elec_flux_tot_unc"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/19): "f_elec_flux_tot_unc"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/49): "Total electron flux uncertainty (#/cm^2/sec/ster)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_elec_energy (No: 18) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "f_elec_energy"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/13): "f_elec_energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/21): "Electron energy (keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_elec_denergy (No: 19) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "f_elec_denergy"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/14): "f_elec_denergy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/35): "Electron energy channel width (keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_ion_flux (No: 20) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "r_ion_flux"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/10): "r_ion_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/69): "Differential ion flux in reverse look direction (#/cm^2/sec/ster/keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/12): "r_ion_energy"
+
+r_ion_flux_unc (No: 21) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "r_ion_flux_unc"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/14): "r_ion_flux_unc"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/68): "Ion flux uncertainty in reverse look direction (#/cm^2/sec/ster/keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/12): "r_ion_energy"
+
+r_ion_flux_tot (No: 22) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "r_ion_flux_tot"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/14): "r_ion_flux_tot"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/71): "Total (integrated) ion flux in reverse look direction (#/cm^2/sec/ster)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_ion_flux_tot_unc (No: 23) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "r_ion_flux_tot_unc"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/18): "r_ion_flux_tot_unc"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/44): "Total ion flux uncertainty (#/cm^2/sec/ster)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_ion_energy (No: 24) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "r_ion_energy"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/12): "r_ion_energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/16): "Ion energy (keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_ion_denergy (No: 25) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "r_ion_denergy"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/13): "r_ion_denergy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/30): "Ion energy channel width (keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_elec_flux (No: 26) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "r_elec_flux"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/11): "r_elec_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/74): "Differential electron flux in reverse look direction (#/cm^2/sec/ster/keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/13): "r_elec_energy"
+
+r_elec_flux_unc (No: 27) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "r_elec_flux_unc"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/15): "r_elec_flux_unc"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/73): "Electron flux uncertainty in reverse look direction (#/cm^2/sec/ster/keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/13): "r_elec_energy"
+
+r_elec_flux_tot (No: 28) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "r_elec_flux_tot"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/15): "r_elec_flux_tot"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/76): "Total (integrated) electron flux in reverse look direction (#/cm^2/sec/ster)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_elec_flux_tot_unc (No: 29) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "r_elec_flux_tot_unc"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/19): "r_elec_flux_tot_unc"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/49): "Total electron flux uncertainty (#/cm^2/sec/ster)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_elec_energy (No: 30) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "r_elec_energy"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/13): "r_elec_energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/21): "Electron energy (keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_elec_denergy (No: 31) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "r_elec_denergy"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/14): "r_elec_denergy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/35): "Electron energy channel width (keV)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+a_t_rates (No: 32) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "a_t_rates"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/9): "a_t_rates"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/48): "Count Rate in THICK detectors of A Stack (#/sec)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+b_t_rates (No: 33) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "b_t_rates"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/9): "b_t_rates"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/48): "Count Rate in THICK detectors of B Stack (#/sec)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+a_fto_rates (No: 34) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "a_fto_rates"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/11): "a_fto_rates"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/51): "Count Rate of triple coincidence in A Stack (#/sec)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+b_fto_rates (No: 35) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "b_fto_rates"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/11): "b_fto_rates"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/51): "Count Rate in triple coincidence in B Stack (#/sec)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_o_rate (No: 36) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "f_o_rate"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/8): "f_o_rate"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/49): "Total Count Rate in Forward Open detector (#/sec)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+f_f_rate (No: 37) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "f_f_rate"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/8): "f_f_rate"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/49): "Total Count Rate in Forward Foil detector (#/sec)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_o_rate (No: 38) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "r_o_rate"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/8): "r_o_rate"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/46): "Total Count Rate in Rear Open detector (#/sec)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+r_f_rate (No: 39) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "r_f_rate"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     LABLAXIS        (CDF_CHAR/8): "r_f_rate"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/46): "Total Count Rate in Rear Foil detector (#/sec)"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+
+quality_flag (No: 40) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "quality_flag"
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/12): "quality_flag"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1024
+     SCALEMIN        (CDF_UINT2/1): 0
+     SCALEMAX        (CDF_UINT4/1): 1024
+     CATDESC         (CDF_CHAR/12): "Quality FLAG"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+

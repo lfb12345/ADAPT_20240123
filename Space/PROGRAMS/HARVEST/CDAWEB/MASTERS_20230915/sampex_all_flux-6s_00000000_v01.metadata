@@ -1,0 +1,888 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sampex_all_flux-6s_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sampex_all_flux-6s_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     51
+NumAttrs:     44 (22 global, 22 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (22 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/59): 	"SAMPEX>Solar Anomalous and Magnetospheric Particle Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"FLUX-6S>6-second fluxes"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"ALL>HILT, LICA, MAST, PET"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"6 seconds"
+TEXT (7 entries):
+	0 (CDF_CHAR/66): 	"Description of the SAMPEX instruments and scientific scope can be "
+	1 (CDF_CHAR/65): 	"found on SAMPEX homepage https://lasp.colorado.edu/home/sampex/ ."
+	2 (CDF_CHAR/53): 	"The 6-second flux data documentation is available at "
+	3 (CDF_CHAR/71): 	"https://izw1.caltech.edu/sampex/DataCenter/docs/intensities_6sec.html ."
+	4 (CDF_CHAR/53): 	"SAMPEX data quality flag description is available at "
+	5 (CDF_CHAR/73): 	"https://izw1.caltech.edu/sampex/DataCenter/docs/SAMPEX_QualityFlags.pdf ."
+	6 (CDF_CHAR/75): 	"Flux 1-sigma standard uncertainties are due to statistics (1/sqrt(N)) only."
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/18): 	"sampex_all_flux-6s"
+Logical_source (1 entry):
+	0 (CDF_CHAR/18): 	"sampex_all_flux-6s"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/44): 	"SAMPEX HILT, LICA, MAST, PET 6-second fluxes"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"Glenn Mason"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"JHU/APL"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"SAMPEX"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/57): 	"SAMPEX HILT, LICA, MAST, PET 6-second fluxes available at"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/18): 	"SAMPEX Data Center"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/53): 	"https://izw1.caltech.edu/sampex/DataCenter/index.html"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (2 entries):
+	0 (CDF_CHAR/49): 	"Andriy Koval at SPDF from original ASCII files at"
+	1 (CDF_CHAR/63): 	"https://izw1.caltech.edu/sampex/DataCenter/DATA/Intensity/Text/"
+
+Variable Attributes (22 attributes)
+=========================================
+CATDESC
+FIELDNAM
+LABLAXIS
+LABL_PTR_1
+FILLVAL
+VALIDMIN
+VALIDMAX
+UNITS
+VAR_TYPE
+MONOTON
+DEPEND_0
+DEPEND_1
+FORMAT
+DISPLAY_TYPE
+TIME_BASE
+SCALETYP
+VAR_NOTES
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 51 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Sec_of_day            CDF_UINT4/1	0:[]	T/  
+Sec_of_day_psset      CDF_UINT4/1	0:[]	T/  
+Flag_rstime           CDF_UINT1/1	0:[]	T/  
+Orbit_Number          CDF_UINT4/1	0:[]	T/  
+mdf_ver_i2            CDF_UINT1/1	0:[]	T/  
+bl_igrf_ver_i2        CDF_UINT1/1	0:[]	T/  
+mag_eph_ver_i2        CDF_UINT1/1	0:[]	T/  
+zGT2_DIF_FLX          CDF_REAL4/1	1:[9]	T/T
+zGT2_DIF_FLX_ErrorBars CDF_REAL4/1	1:[9]	T/T
+zGT2_FLX_SIG          CDF_REAL4/1	1:[9]	T/T
+zGT2_Energy           CDF_REAL4/1	1:[9]	F/T
+zGT2_Halfwidth        CDF_REAL4/1	1:[9]	F/T
+zGT2_flux_label       CDF_CHAR/20	1:[9]	F/T
+zGT2_sigma_label      CDF_CHAR/26	1:[9]	F/T
+He_dif_flux           CDF_REAL4/1	1:[4]	T/T
+He_dif_flux_ErrorBars CDF_REAL4/1	1:[4]	T/T
+He_flx_sigma          CDF_REAL4/1	1:[4]	T/T
+He_Energy             CDF_REAL4/1	1:[4]	F/T
+He_Halfwidth          CDF_REAL4/1	1:[4]	F/T
+He_flux_label         CDF_CHAR/18	1:[4]	F/T
+He_sigma_label        CDF_CHAR/24	1:[4]	F/T
+Prot_Dif_Flux         CDF_REAL4/1	1:[2]	T/T
+Prot_Dif_Flux_ErrorBars CDF_REAL4/1	1:[2]	T/T
+Prot_flx_sigma        CDF_REAL4/1	1:[2]	T/T
+Proton_Energy         CDF_REAL4/1	1:[2]	F/T
+Proton_Halfwidth      CDF_REAL4/1	1:[2]	F/T
+Proton_flux_label     CDF_CHAR/13	1:[2]	F/T
+Proton_sigma_label    CDF_CHAR/19	1:[2]	F/T
+Elect_Dif_Flx         CDF_REAL4/1	1:[2]	T/T
+Elect_Dif_Flx_ErrorBars CDF_REAL4/1	1:[2]	T/T
+Elect_flx_sigma       CDF_REAL4/1	1:[2]	T/T
+Electron_Energy       CDF_REAL4/1	1:[2]	F/T
+Electron_Halfwidth    CDF_REAL4/1	1:[2]	F/T
+Electron_flux_label   CDF_CHAR/14	1:[2]	F/T
+Electron_sigma_label  CDF_CHAR/20	1:[2]	F/T
+Int_Flux              CDF_REAL4/1	0:[]	T/  
+Int_Flux_ErrorBars    CDF_REAL4/1	0:[]	T/  
+Int_flux_sigma        CDF_REAL4/1	0:[]	T/  
+LICA_flag             CDF_UINT1/1	1:[6]	T/T
+LICA_flag_number      CDF_UINT1/1	1:[6]	F/T
+LICA_flag_label       CDF_CHAR/20	1:[6]	F/T
+HILT_flag             CDF_UINT1/1	1:[7]	T/T
+HILT_flag_number      CDF_UINT1/1	1:[7]	F/T
+HILT_flag_label       CDF_CHAR/18	1:[7]	F/T
+MAST_flag             CDF_UINT1/1	1:[4]	T/T
+MAST_flag_number      CDF_UINT1/1	1:[4]	F/T
+MAST_flag_label       CDF_CHAR/18	1:[4]	F/T
+PET_flag              CDF_UINT1/1	1:[4]	T/T
+PET_flag_number       CDF_UINT1/1	1:[4]	F/T
+PET_flag_label        CDF_CHAR/18	1:[4]	F/T
+
+
+Variable (51 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Start time, number of milliseconds since 01-Jan-0000 00:00:00.000"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2013 00:00:00.000
+     UNITS           (CDF_CHAR/2): "ms"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+Sec_of_day (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Second of day, synced RS Set time-stamp when Flag_rstime is 1"
+     FIELDNAM        (CDF_CHAR/13): "Second of day"
+     LABLAXIS        (CDF_CHAR/13): "Second of day"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 86400
+     UNITS           (CDF_CHAR/1): "s"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I6"
+
+Sec_of_day_psset (No: 2) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "Second of day contained in the original data record"
+     FIELDNAM        (CDF_CHAR/24): "Second of day (original)"
+     LABLAXIS        (CDF_CHAR/24): "Second of day (original)"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 86400
+     UNITS           (CDF_CHAR/1): "s"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I6"
+
+Flag_rstime (No: 3) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Flag_rstime"
+     FIELDNAM        (CDF_CHAR/11): "Flag_rstime"
+     LABLAXIS        (CDF_CHAR/11): "Flag_rstime"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_NOTES       (CDF_CHAR/113): "Flag indicating whether the time-stamp for the data record has been synced to its corresponding RS Set time-stamp"
+
+Orbit_Number (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "SAMPEX Orbit Number"
+     FIELDNAM        (CDF_CHAR/12): "Orbit Number"
+     LABLAXIS        (CDF_CHAR/12): "Orbit Number"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 999999
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I6"
+     VAR_NOTES       (CDF_CHAR/116): "SAMPEX Orbit Number. Launch into orbit 1. Orbit 2 starts at first ascending node through geographic equatorial plane"
+
+mdf_ver_i2 (No: 5) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Software version for MDF Generator"
+     FIELDNAM        (CDF_CHAR/20): "MDF software version"
+     LABLAXIS        (CDF_CHAR/8): "MDF vers"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 254
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+bl_igrf_ver_i2 (No: 6) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "Version of the bl_igrf subroutine used to calculate IGRF 1990 model magnetic field"
+     FIELDNAM        (CDF_CHAR/26): "bl_igrf subroutine version"
+     LABLAXIS        (CDF_CHAR/12): "bl_igrf vers"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 254
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+mag_eph_ver_i2 (No: 7) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "Software version for magnetic ephemeris library"
+     FIELDNAM        (CDF_CHAR/34): "Magnetic ephemeris library version"
+     LABLAXIS        (CDF_CHAR/12): "mag_eph vers"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 254
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+zGT2_DIF_FLX (No: 8) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "Z>2 dif fluxes, 9 channels (0.5-220 MeV/n) from LICA, HILT, and MAST"
+     FIELDNAM        (CDF_CHAR/26): "Z>2 dif fluxes, 9 channels"
+     LABL_PTR_1      (CDF_CHAR/15): "zGT2_flux_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "zGT2_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/251): "L_ = LICA; H_ = HILT; M_ = MAST. L_hipri(0.49-8.3 MeV/n); H_hz1(8.2-42 Mev/n); M_hizr1(19.3-22.8 MeV/n); M_hizr2(22.8-31.0 MeV/n); M_hizr3(31.0-51.7 MeV/n); M_hizr4(51.7-76.2 MeV/n); M_hizr5(76.2-113 MeV/n); M_hizr6(113-156 MeV/n); H_hz2(42-220 MeV/n)"
+
+zGT2_DIF_FLX_ErrorBars (No: 9) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/94): "---> Z>2 dif fluxes, 9 channels (0.5-220 MeV/n) from LICA, HILT, and MAST (with uncertainties)"
+     FIELDNAM        (CDF_CHAR/26): "Z>2 dif fluxes, 9 channels"
+     LABL_PTR_1      (CDF_CHAR/15): "zGT2_flux_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "zGT2_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/251): "L_ = LICA; H_ = HILT; M_ = MAST. L_hipri(0.49-8.3 MeV/n); H_hz1(8.2-42 Mev/n); M_hizr1(19.3-22.8 MeV/n); M_hizr2(22.8-31.0 MeV/n); M_hizr3(31.0-51.7 MeV/n); M_hizr4(51.7-76.2 MeV/n); M_hizr5(76.2-113 MeV/n); M_hizr6(113-156 MeV/n); H_hz2(42-220 MeV/n)"
+     DELTA_MINUS_VAR (CDF_CHAR/12): "zGT2_FLX_SIG"
+     DELTA_PLUS_VAR  (CDF_CHAR/12): "zGT2_FLX_SIG"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/12): "zGT2_DIF_FLX"
+
+zGT2_FLX_SIG (No: 10) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/75): "Sigma: Z>2 dif fluxes, 9 channels (0.5-220 MeV/n) from LICA, HILT, and MAST"
+     FIELDNAM        (CDF_CHAR/33): "Sigma: Z>2 dif fluxes, 9 channels"
+     LABL_PTR_1      (CDF_CHAR/16): "zGT2_sigma_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "zGT2_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_NOTES       (CDF_CHAR/251): "L_ = LICA; H_ = HILT; M_ = MAST. L_hipri(0.49-8.3 MeV/n); H_hz1(8.2-42 Mev/n); M_hizr1(19.3-22.8 MeV/n); M_hizr2(22.8-31.0 MeV/n); M_hizr3(31.0-51.7 MeV/n); M_hizr4(51.7-76.2 MeV/n); M_hizr5(76.2-113 MeV/n); M_hizr6(113-156 MeV/n); H_hz2(42-220 MeV/n)"
+
+zGT2_Energy (No: 11) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Energy for Z>2 flux, 9 energy bands (0.5-220 MeV/nu) center value"
+     FIELDNAM        (CDF_CHAR/14): "Z>2 Mid energy"
+     LABLAXIS        (CDF_CHAR/10): "Z>2 Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "F11.3"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "zGT2_Halfwidth"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "zGT2_Halfwidth"
+
+zGT2_Halfwidth (No: 12) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "Energy band halfwidths for Z>2, 9 channels (0.5-220 MeV/nu)"
+     FIELDNAM        (CDF_CHAR/30): "Energy band halfwidths for Z>2"
+     LABLAXIS        (CDF_CHAR/12): "Z>2 E_band/2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "F11.3"
+
+zGT2_flux_label (No: 13) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Label for Z>2 energy channels"
+     FIELDNAM        (CDF_CHAR/15): "Label for Z>2 E"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A20"
+
+zGT2_sigma_label (No: 14) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "SIGMA:Label for Z>2 energy channels"
+     FIELDNAM        (CDF_CHAR/21): "SIGMA:Label for Z>2 E"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A26"
+
+He_dif_flux (No: 15) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "He Dif Fluxes, 4 channels (0.5-38 MeV/n): from LICA, HILT, and MAST"
+     FIELDNAM        (CDF_CHAR/25): "He Dif Fluxes, 4 channels"
+     LABL_PTR_1      (CDF_CHAR/13): "He_flux_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "He_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/110): "L_ = LICA; H_ = HILT; M_ = MAST. L_lopri(0.5-6.6 MeV/n); H_he1(4-9 MeV/n); M_z2(8-15 MeV/n); H_he2(9-38 MeV/n)"
+
+He_dif_flux_ErrorBars (No: 16) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/93): "---> He Dif Fluxes, 4 channels (0.5-38 MeV/n): from LICA, HILT, and MAST (with uncertainties)"
+     FIELDNAM        (CDF_CHAR/25): "He Dif Fluxes, 4 channels"
+     LABL_PTR_1      (CDF_CHAR/13): "He_flux_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "He_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/110): "L_ = LICA; H_ = HILT; M_ = MAST. L_lopri(0.5-6.6 MeV/n); H_he1(4-9 MeV/n); M_z2(8-15 MeV/n); H_he2(9-38 MeV/n)"
+     DELTA_MINUS_VAR (CDF_CHAR/12): "He_flx_sigma"
+     DELTA_PLUS_VAR  (CDF_CHAR/12): "He_flx_sigma"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/11): "He_dif_flux"
+
+He_flx_sigma (No: 17) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "Sigma: He Dif Fluxes, 4 channels (0.5-38 MeV/n): from LICA, HILT, and MAST"
+     FIELDNAM        (CDF_CHAR/32): "Sigma: He Dif Fluxes, 4 channels"
+     LABL_PTR_1      (CDF_CHAR/14): "He_sigma_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "He_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_NOTES       (CDF_CHAR/110): "L_ = LICA; H_ = HILT; M_ = MAST. L_lopri(0.5-6.6 MeV/n); H_he1(4-9 MeV/n); M_z2(8-15 MeV/n); H_he2(9-38 MeV/n)"
+
+He_Energy (No: 18) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "He Mid Energy; 4 energy bands (0.5-38 MeV/n) center value"
+     FIELDNAM        (CDF_CHAR/13): "He Mid energy"
+     LABLAXIS        (CDF_CHAR/9): "He Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "F11.3"
+     DELTA_MINUS_VAR (CDF_CHAR/12): "He_Halfwidth"
+     DELTA_PLUS_VAR  (CDF_CHAR/12): "He_Halfwidth"
+
+He_Halfwidth (No: 19) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Energy band halfwidths for He 4 energy channels (0.5-38 MeV/n)"
+     FIELDNAM        (CDF_CHAR/29): "Energy band halfwidths for He"
+     LABLAXIS        (CDF_CHAR/11): "He E_band/2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "F11.3"
+
+He_flux_label (No: 20) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Label for He energy channels"
+     FIELDNAM        (CDF_CHAR/14): "Label for He E"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A18"
+
+He_sigma_label (No: 21) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "SIGMA:Label for He energy channels"
+     FIELDNAM        (CDF_CHAR/20): "SIGMA:Label for He E"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+Prot_Dif_Flux (No: 22) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "H+ (mainly) Dif Fluxes, 2 channels (5-12, 19-27 MeV/n): from MAST and PET"
+     FIELDNAM        (CDF_CHAR/22): "H+ (mainly) Dif Fluxes"
+     LABL_PTR_1      (CDF_CHAR/17): "Proton_flux_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Proton_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/58): "M_ = MAST; P_ = PET: M_m12(5-12 MeV/n); P_plo(19-27 MeV/n)"
+
+Prot_Dif_Flux_ErrorBars (No: 23) (Recs: 0)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/99): "---> H+ (mainly) Dif Fluxes, 2 channels (5-12, 19-27 MeV/n): from MAST and PET (with uncertainties)"
+     FIELDNAM        (CDF_CHAR/22): "H+ (mainly) Dif Fluxes"
+     LABL_PTR_1      (CDF_CHAR/17): "Proton_flux_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Proton_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/58): "M_ = MAST; P_ = PET: M_m12(5-12 MeV/n); P_plo(19-27 MeV/n)"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "Prot_flx_sigma"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "Prot_flx_sigma"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/13): "Prot_Dif_Flux"
+
+Prot_flx_sigma (No: 24) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/80): "Sigma: H+ (mainly) Dif Fluxes, 2 channels (5-12, 19-27 MeV/n): from MAST and PET"
+     FIELDNAM        (CDF_CHAR/29): "Sigma: H+ (mainly) Dif Fluxes"
+     LABL_PTR_1      (CDF_CHAR/18): "Proton_sigma_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Proton_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_NOTES       (CDF_CHAR/58): "M_ = MAST; P_ = PET: M_m12(5-12 MeV/n); P_plo(19-27 MeV/n)"
+
+Proton_Energy (No: 25) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "H+ Mid Energy. 2 Energy bands:MAST (5-12 MeV), PET (19-27)"
+     FIELDNAM        (CDF_CHAR/13): "H+ Mid Energy"
+     LABLAXIS        (CDF_CHAR/9): "H+ Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "F11.3"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "Proton_Halfwidth"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "Proton_Halfwidth"
+
+Proton_Halfwidth (No: 26) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "Energy band halfwidths for H+ 2 energy channels (5-12, 19-27 MeV/n)"
+     FIELDNAM        (CDF_CHAR/29): "Energy band halfwidths for H+"
+     LABLAXIS        (CDF_CHAR/11): "H+ E_band/2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "F11.3"
+
+Proton_flux_label (No: 27) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Label for H+ energy channels"
+     FIELDNAM        (CDF_CHAR/14): "Label for H+ E"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A13"
+
+Proton_sigma_label (No: 28) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "SIGMA:Label for H+ energy channels"
+     FIELDNAM        (CDF_CHAR/20): "SIGMA:Label for H+ E"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A19"
+
+Elect_Dif_Flx (No: 29) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Electr Dif Fluxes, 2 channels (1.5-6, 2.5-14 MeV) from PET"
+     FIELDNAM        (CDF_CHAR/17): "Electr Dif Fluxes"
+     LABL_PTR_1      (CDF_CHAR/19): "Electron_flux_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "Electron_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/39): "PET_elo(1.5-6 MeV); PET_ehi(2.5-14 MeV)"
+
+Elect_Dif_Flx_ErrorBars (No: 30) (Recs: 0)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "---> Electr Dif Fluxes, 2 channels (1.5-6, 2.5-14 MeV) from PET (with uncertainties)"
+     FIELDNAM        (CDF_CHAR/17): "Electr Dif Fluxes"
+     LABL_PTR_1      (CDF_CHAR/19): "Electron_flux_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "Electron_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/39): "PET_elo(1.5-6 MeV); PET_ehi(2.5-14 MeV)"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "Elect_flx_sigma"
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "Elect_flx_sigma"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/13): "Elect_Dif_Flx"
+
+Elect_flx_sigma (No: 31) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Sigma: Electr Dif Fluxes, 2 channels (1.5-6, 2.5-14 MeV) from PET"
+     FIELDNAM        (CDF_CHAR/24): "Sigma: Electr Dif Fluxes"
+     LABL_PTR_1      (CDF_CHAR/20): "Electron_sigma_label"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm^2 s sr MeV/n)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "Electron_Energy"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_NOTES       (CDF_CHAR/39): "PET_elo(1.5-6 MeV); PET_ehi(2.5-14 MeV)"
+
+Electron_Energy (No: 32) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Electron band midenergy, 2 channels: 1.5-6 MeV, 2.5-14 MeV"
+     FIELDNAM        (CDF_CHAR/25): "Electron bands mid energy"
+     LABLAXIS        (CDF_CHAR/9): "e- Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 16.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "F11.3"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "Electron_Halfwidth"
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "Electron_Halfwidth"
+
+Electron_Halfwidth (No: 33) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/75): "Energy band halfwidths for Electron 2 energy channels (1.5-6, 2.5-14 MeV/n)"
+     FIELDNAM        (CDF_CHAR/35): "Energy band halfwidths for Electron"
+     LABLAXIS        (CDF_CHAR/11): "e- E_band/2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "F11.3"
+
+Electron_flux_label (No: 34) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Label for e- energy channels"
+     FIELDNAM        (CDF_CHAR/14): "Label for e- E"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A14"
+
+Electron_sigma_label (No: 35) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "SIGMA:Label for e- energy channels"
+     FIELDNAM        (CDF_CHAR/20): "SIGMA:Label for e- E"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A20"
+
+Int_Flux (No: 36) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "[QUALITATIVE ONLY] Integral flux, electrons >0.6 MeV and/or protons >0.8 Mev"
+     FIELDNAM        (CDF_CHAR/31): "Integral Flux, >.6 E- or >.8 H+"
+     LABLAXIS        (CDF_CHAR/19): "LICA:>.6 E-, >.8 H+"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/13): "1/(cm^2 s sr)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/8): "LICA_ssd"
+
+Int_Flux_ErrorBars (No: 37) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/102): "---> [QUALITATIVE ONLY] Integral flux, electrons >0.6 MeV and/or protons >0.8 Mev (with uncertainties)"
+     FIELDNAM        (CDF_CHAR/31): "Integral Flux, >.6 E- or >.8 H+"
+     LABLAXIS        (CDF_CHAR/19): "LICA:>.6 E-, >.8 H+"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/13): "1/(cm^2 s sr)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/8): "LICA_ssd"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "Int_flux_sigma"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "Int_flux_sigma"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/8): "Int_Flux"
+
+Int_flux_sigma (No: 38) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/83): "[QUALITATIVE ONLY] Sigma: Integral flux, electrons >0.6 MeV and/or protons >0.8 Mev"
+     FIELDNAM        (CDF_CHAR/38): "Sigma: Integral Flux, >.6 E- or >.8 H+"
+     LABLAXIS        (CDF_CHAR/25): "SIGMA:LICA:>.6 E-, >.8 H+"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/13): "1/(cm^2 s sr)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_NOTES       (CDF_CHAR/8): "LICA_ssd"
+
+LICA_flag (No: 39) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "6 LICA flags"
+     FIELDNAM        (CDF_CHAR/10): "LICA flags"
+     LABL_PTR_1      (CDF_CHAR/15): "LICA_flag_label"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "LICA_flag_number"
+     FORMAT          (CDF_CHAR/2): "I2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/473): "LICA flags: LICA_OFF, LICA_IFC, LICA_BHV, LICA_SIG, LICA_SSD_SAT, LICA_MCP_SAT. If all flags are set to 0, the data are OK to use. All data are set to FILL if either lica_off, lica_ifc, lica_bhv, lica_sig are set to 1. ssd_flux data are included but not in calibration if lica_ssd_sat is set to 1. lopri_flux and hipri_flux data are included but not in calibration if lica_mcp_sat is set to 1. For more details, see link in TEXT to the SAMPEX data quality flag description."
+
+LICA_flag_number (No: 40) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "LICA flag number"
+     FIELDNAM        (CDF_CHAR/16): "LICA flag number"
+     LABLAXIS        (CDF_CHAR/16): "LICA flag number"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 9
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "I1"
+
+LICA_flag_label (No: 41) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Label LICA flags"
+     FIELDNAM        (CDF_CHAR/16): "Label LICA flags"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A20"
+
+HILT_flag (No: 42) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "7 HILT flags"
+     FIELDNAM        (CDF_CHAR/10): "HILT flags"
+     LABL_PTR_1      (CDF_CHAR/15): "HILT_flag_label"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "HILT_flag_number"
+     FORMAT          (CDF_CHAR/2): "I2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/603): "HILT flags: HILT_OFF, HILT_IFC, HILT_SIG, HILT_HE1_SAT, HILT_HE2_SAT, HILT_HZ1_SAT, HILT_HZ2_SAT. If all flags are set to 0, the data are OK to use. All data are set to FILL if either hilt_off, hilt_ifc, hilt_sig are set to 1. he1_flux: are included but not in calibration if hilt_he1_sat is set to 1. he2_flux are included but not in calibration if hilt_he2_sat is set to 1. hz1_flux are included but not in calibration if hilt_hz1_sat is set to 1. hz2_flux are included but not in calibration if hilt_hz2_sat is set to 1. For more details, see link in TEXT to the SAMPEX data quality flag description."
+
+HILT_flag_number (No: 43) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "HILT flag number"
+     FIELDNAM        (CDF_CHAR/16): "HILT flag number"
+     LABLAXIS        (CDF_CHAR/16): "HILT flag number"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 9
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "I1"
+
+HILT_flag_label (No: 44) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Label HILT flags"
+     FIELDNAM        (CDF_CHAR/16): "Label HILT flags"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A18"
+
+MAST_flag (No: 45) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "4 MAST flags"
+     FIELDNAM        (CDF_CHAR/10): "MAST flags"
+     LABL_PTR_1      (CDF_CHAR/15): "MAST_flag_label"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "MAST_flag_number"
+     FORMAT          (CDF_CHAR/2): "I2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/342): "MAST flags: MAST_OFF, MAST_IFC, MAST_SIG, MAST_ADC_SAT. If all flags are set to 0, the data are OK to use. All data are set to FILL if either mast_off, mast_ifc, mast_sig are set to 1. All the data are included but not in calibration if mast_adc_sat is set to 1. For more details, see link in TEXT to the SAMPEX data quality flag description."
+
+MAST_flag_number (No: 46) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "MAST flag number"
+     FIELDNAM        (CDF_CHAR/16): "MAST flag number"
+     LABLAXIS        (CDF_CHAR/16): "MAST flag number"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 9
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "I1"
+
+MAST_flag_label (No: 47) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Label MAST flags"
+     FIELDNAM        (CDF_CHAR/16): "Label MAST flags"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A18"
+
+PET_flag (No: 48) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "4 PET flags"
+     FIELDNAM        (CDF_CHAR/9): "PET flags"
+     LABL_PTR_1      (CDF_CHAR/14): "PET_flag_label"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "PET_flag_number"
+     FORMAT          (CDF_CHAR/2): "I2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/335): "PET flags: PET_OFF, PET_IFC, PET_SIG, PET_P1HI_SAT. If all flags are set to 0, the data are OK to use. All data are set to FILL if either pet_off, pet_ifc, pet_sig are set to 1. All the data are included but not in calibration if pet_p1hi_sat is set to 1. For more details, see link in TEXT to the SAMPEX data quality flag description."
+
+PET_flag_number (No: 49) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "PET flag number"
+     FIELDNAM        (CDF_CHAR/15): "PET flag number"
+     LABLAXIS        (CDF_CHAR/15): "PET flag number"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 9
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "I1"
+
+PET_flag_label (No: 50) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Label PET flags"
+     FIELDNAM        (CDF_CHAR/15): "Label PET flags"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A18"
+

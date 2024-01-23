@@ -1,0 +1,274 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/bar_1l_l2_ephm_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     bar_1l_l2_ephm_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     10
+NumAttrs:     41 (23 global, 18 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_type (1 entry):
+	0 (CDF_CHAR/10): 	"l2>Level-2"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"Robyn Millan"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/17): 	"Dartmouth College"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"BARREL"
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"LWS>Living With a Star>BARREL"
+Source_name (1 entry):
+	0 (CDF_CHAR/6): 	"bar_1L"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"04"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/26): 	"http://barreldata.ucsc.edu"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/32): 	"BARREL Data Repository and Tools"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/86): 	"Access to all releases of BARREL data and links to the Science Operation Center tools."
+Generation_date (1 entry):
+	0 (CDF_CHAR/10): 	"2015/03/20"
+Generated_by (1 entry):
+	0 (CDF_CHAR/20): 	"BARREL CDF Generator"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/265): 	"BARREL will make all its scientific data products quickly and publicly available but all users are expected to read and follow the "BARREL Mission Data Usage Policy" which can be found in the BARREL data repository or obtained by contacting barrelballoons@gmail.com"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/11): 	"Coordinates"
+TEXT (1 entry):
+	0 (CDF_CHAR/262): 	"Geographic and magnetic corrdinates. Geographic coordinates are obtained from onboard GPS unit, magnegic coordinates are derived using the IRBEM FORTRAN library. Ephemeris data products (Lat, Long, Alt, and Time) are each returned from the payload once every 4s."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+Descriptor (1 entry):
+	0 (CDF_CHAR/14): 	"ephm>EPHeMeris"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/2): 	"4s"
+Logical_source (1 entry):
+	0 (CDF_CHAR/14): 	"bar_1L_l2_ephm"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/27): 	"bar_1L_l2_ephm_20130106_V04"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/54): 	"spase://NASA/NumericalData/BARREL/1L/Ephemeris/L2/PT4S"
+
+Variable Attributes (18 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+UNITS
+SCALETYPE
+VALIDMIN
+VALIDMAX
+FILLVAL
+LABLAXIS
+MONOTON
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+DEPEND_0
+FORMAT
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+
+Variable Information (0 rVariable, 10 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+FrameGroup            CDF_UINT4/1	0:[]	T/  
+Quality               CDF_UINT4/1	0:[]	T/  
+GPS_Lat               CDF_FLOAT/1	0:[]	T/  
+GPS_Lon               CDF_FLOAT/1	0:[]	T/  
+GPS_Alt               CDF_FLOAT/1	0:[]	T/  
+MLT_Kp2_T89c          CDF_FLOAT/1	0:[]	T/  
+MLT_Kp6_T89c          CDF_FLOAT/1	0:[]	T/  
+L_Kp2                 CDF_FLOAT/1	0:[]	T/  
+L_Kp6                 CDF_FLOAT/1	0:[]	T/  
+
+
+Variable (10 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/2): "ns"
+     SCALETYPE       (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_TT2000/1): 2012-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2015-11-30T23:59:59.000000000
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earch Geoid"
+
+FrameGroup (No: 1) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Frame Number"
+     CATDESC         (CDF_CHAR/17): "DPU Frame Counter"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/5): "Frame"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I10"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Quality (No: 2) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Data Quality Flag"
+     CATDESC         (CDF_CHAR/17): "Data Quality Flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/17): "0 means no issues"
+     SCALETYPE       (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FILLVAL         (CDF_UINT4/1): 2147483648
+     LABLAXIS        (CDF_CHAR/1): "Q"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I10"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/41): "32bit flag used to indicate data quality."
+
+GPS_Lat (No: 3) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "GPS Lat"
+     CATDESC         (CDF_CHAR/13): "GPS Latitude."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/13): "degrees North"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "Lat"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/86): "Converted from raw int value by multiplying by a scaling factor: 8.38190317154 * 10^-8"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+GPS_Lon (No: 4) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "GPS Lon"
+     CATDESC         (CDF_CHAR/14): "GPS Longitude."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/12): "degrees East"
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "Lon"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/86): "Converted from raw int value by multiplying by a scaling factor: 8.38190317154 * 10^-8"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+GPS_Alt (No: 5) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "GPS_Alt"
+     CATDESC         (CDF_CHAR/13): "GPS Altitude."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 50.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "Alt"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+MLT_Kp2_T89c (No: 6) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "MLT for Kp=2 (T89c)"
+     CATDESC         (CDF_CHAR/51): "Magnetic local time for Kp=2 in hours (using T89c)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/2): "hr"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 24.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "MLT_Kp2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F4.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/58): "Calculated using T89c model with the IRBEM FORTRAN library"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+MLT_Kp6_T89c (No: 7) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "MLT for Kp=6 (T89c)"
+     CATDESC         (CDF_CHAR/51): "Magnetic local time for Kp=6 in hours (using T89c)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/2): "hr"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 24.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "MLT_Kp6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F4.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/58): "Calculated using T89c model with the IRBEM FORTRAN library"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+L_Kp2 (No: 8) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "L for Kp=2 (T89c)"
+     CATDESC         (CDF_CHAR/30): "L shell for Kp=2 (using T89c)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "L_Kp2_T89c"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/96): "Calculated using T89c model with the IRBEM FORTRAN library. 9999.0 indicates an open field line."
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+L_Kp6 (No: 9) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "L for Kp=6 (T89c)"
+     CATDESC         (CDF_CHAR/30): "L shell for Kp=6 (using T89c)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "L_Kp6_T89c"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/96): "Calculated using T89c model with the IRBEM FORTRAN library. 9999.0 indicates an open field line."
+     SCALETYP        (CDF_CHAR/6): "linear"
+

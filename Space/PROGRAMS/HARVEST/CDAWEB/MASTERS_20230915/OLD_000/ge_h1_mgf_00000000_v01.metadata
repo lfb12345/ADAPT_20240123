@@ -1,0 +1,392 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ge_h1_mgf_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ge_h1_mgf_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     16
+NumAttrs:     50 (27 global, 23 variable)
+Compression:  None
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/22): 	"Geotail Magnetic Field"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"GEOTAIL>Geomagnetic tail"
+Data_type (1 entry):
+	0 (CDF_CHAR/40): 	"H1>3 sec calculated ULF power parameters"
+Descriptor (1 entry):
+	0 (CDF_CHAR/18): 	"MGF>Magnetic Field"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (1 entry):
+	0 (CDF_CHAR/59): 	"Kokubun et al., Geotail Prelaunch Report, ISAS, 58-70, 1992"
+MODS (3 entries):
+	0 (CDF_CHAR/35): 	"Created by R.L. Kessel in July 2000"
+	1 (CDF_CHAR/63): 	"Revised by R.L. Kessel on 31 Dec 2000 to update global metadata"
+	2 (CDF_CHAR/56): 	"Revised by R.L. Kessel on 28 Feb 2001 to add minute data"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0087"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"ge_h1_mgf_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"ge_h1_mgf"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/54): 	"Geotail Magnetic Field Calculated ULF power parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"S. Kokubun"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/26): 	"STELAB Nagoya Univ., Japan"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/7): 	"Geotail"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+Link_text (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Time_resolution (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/7): 	"Geotail"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+LABL_PTR_1
+UNITS
+UNIT_PTR
+FORMAT
+FORM_PTR
+DEPEND_0
+DEPEND_1
+MONOTON
+VAR_TYPE
+DICT_KEY
+CATDESC
+FILLVAL
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCAL_PTR
+SCALETYP
+
+Variable Information (0 rVariable, 16 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Pc5comp               CDF_REAL4/1	0:[]	T/  
+Pc5par                CDF_REAL4/1	0:[]	T/  
+Pc5perp               CDF_REAL4/1	0:[]	T/  
+Bmag_PSD              CDF_REAL4/1	1:[65]	T/T
+Bpar_PSD              CDF_REAL4/1	1:[65]	T/T
+Bperp_PSD             CDF_REAL4/1	1:[65]	T/T
+Frequency             CDF_REAL4/1	1:[65]	F/T
+Epoch3                CDF_EPOCH/1	0:[]	T/  
+Pc5comp3              CDF_REAL4/1	0:[]	T/  
+Pc5par3               CDF_REAL4/1	0:[]	T/  
+Pc5bperp3             CDF_REAL4/1	0:[]	T/  
+B3_mag_PSD            CDF_REAL4/1	1:[257]	T/T
+B3_par_PSD            CDF_REAL4/1	1:[257]	T/T
+B3_perp_PSD           CDF_REAL4/1	1:[257]	T/T
+Frequency3            CDF_REAL4/1	1:[257]	F/T
+
+
+Variable (16 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     CATDESC         (CDF_CHAR/6): "Time  "
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Pc5comp (No: 1) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/42): "Pc5 power (1-8.3 mHz) calc. from mag field"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/17): "Pc5 |B| (1-8 mHz)"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/80): "Pc 5 Total |B| Power (1-8.3 mHz), calculated from 1 min magnetic field magnitude"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Pc5par (No: 2) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/46): "Pc5 B|| power (1-8.3 mHz) calc. from mag field"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/17): "Pc5 B|| (1-8 mHz)"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/92): "Pc 5 Total Power in B|| (1-8.3 mHz), calculated from 1 min magnetic field parallel component"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Pc5perp (No: 3) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/48): "Pc5 Bperp power (1-8.3 mHz) calc. from mag field"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/19): "Pc5 Bperp (1-8 mHz)"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/100): "Pc 5 Total Power in  Bperp (1-8.3 mHz), calculated from 1 min magnetic field perpendicular component"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Bmag_PSD (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "PSD of magnetic field magnitude"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/7): "PSD |B|"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/63): "Power Spectral Density of magnetic field magnitude, 0.1-8.3 mHz"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Bpar_PSD (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "PSD of parallel magnetic field"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/7): "PSD B||"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/62): "Power Spectral Density of parallel magnetic field, 0.1-8.3 mHz"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Bperp_PSD (No: 6) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/35): "PSD of perpendicular magnetic field"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/9): "PSD Bperp"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/66): "Power Spectral Density of perpendicularmagnetic field, 0.1-8.3 mHz"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Frequency (No: 7) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Frequency"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/3): "mHz"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     CATDESC         (CDF_CHAR/9): "Frequency"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Epoch3 (No: 8) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     CATDESC         (CDF_CHAR/6): "Time  "
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Pc5comp3 (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/54): "Pc5 power (1.3-10.4 mHz) calc. from 3 second mag field"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/18): "Pc5 |B| (1-10 mHz)"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/6): "Epoch3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/81): "Pc5 Total |B| Power (1.3-10.4 mHz) calculated from 3 sec magnetic field magnitude"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Pc5par3 (No: 10) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/54): "Pc5 power (1.3-10.4 mHz) calc. from 3 second mag field"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/18): "Pc5 B|| (1-10 mHz)"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/6): "Epoch3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/93): "Pc5 Total Power in B|| (1.3-10.4 mHz) calculated from 3 sec magnetic field parallel component"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Pc5bperp3 (No: 11) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/54): "Pc5 power (1.3-10.4 mHz) calc. from 3 second mag field"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/20): "Pc5 Bperp (1-10 mHz)"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/6): "Epoch3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/100): "Pc5 Total Power in Bperp (1.3-10.4 mHz) calculated from 3 sec magnetic field perpendicular component"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+B3_mag_PSD (No: 12) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "PSD of 3 sec magnetic field magnitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/7): "PSD |B|"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/6): "Epoch3"
+     DEPEND_1        (CDF_CHAR/10): "Frequency3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/65): "Power Spectral Density of magnetic field magnitude, 0.6-166.6 mHz"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+B3_par_PSD (No: 13) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/36): "PSD of 3 sec parallel magnetic field"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/7): "PSD B||"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/6): "Epoch3"
+     DEPEND_1        (CDF_CHAR/10): "Frequency3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/64): "Power Spectral Density of parallel magnetic field, 0.6-166.6 mHz"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+B3_perp_PSD (No: 14) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/41): "PSD of 3 sec perpendicular magnetic field"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     LABLAXIS        (CDF_CHAR/9): "PSD Bperp"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/6): "Epoch3"
+     DEPEND_1        (CDF_CHAR/10): "Frequency3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/69): "Power Spectral Density of perpendicular magnetic field, 0.6-166.6 mHz"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Frequency3 (No: 15) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Frequency"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 200.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 200.0
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/3): "mHz"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     CATDESC         (CDF_CHAR/28): "Frequency for 3 sec mag data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/6): "linear"
+

@@ -1,0 +1,194 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/twins1_at_def_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     twins1_at_def_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     31 (16 global, 15 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (16 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/55): 	"TWINS>Two Wide-angle Imaging Neutral-atom Spectrometers"
+Source_name (1 entry):
+	0 (CDF_CHAR/6): 	"TWINS1"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/11): 	"AT>Attitude"
+Descriptor (1 entry):
+	0 (CDF_CHAR/14): 	"DEF>Definitive"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"TWINS1_AT_DEF_20170731_V01"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"D. McComas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/28): 	"Southwest Research Institute"
+TEXT (1 entry):
+	0 (CDF_CHAR/21): 	"http://twins.swri.edu"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"TWINS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"TWINS1_AT_DEF"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/28): 	"TWINS1 - Spacecraft Attitude"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/72): 	"spase://NASA/NumericalData/TWINS1/Ephemeris/Attitude/Definitive/PT0.512S"
+
+Variable Attributes (15 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+DICT_KEY
+VAR_NOTES
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+ISTARTTIMEMJD         CDF_DOUBLE/1	0:[]	T/  
+FPOLARPOINTECI        CDF_DOUBLE/1	1:[3]	T/T
+FAZIMUTHALPOINTECI    CDF_DOUBLE/1	1:[3]	T/T
+NDATAFILEID           CDF_INT4/1	0:[]	T/  
+cartesian             CDF_CHAR/1	1:[3]	F/T
+metavar1              CDF_CHAR/16	1:[3]	F/T
+metavar2              CDF_CHAR/20	1:[3]	F/T
+
+
+Variable (8 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 31-Jul-2017 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Jul-2017 23:59:59.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+ISTARTTIMEMJD (No: 1) (Recs: 0) (Compression: GZIP.9)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "Start Time MJD - time key of data point"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "Start Time MJD"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "F30.12"
+     LABLAXIS        (CDF_CHAR/14): "Start Time MJD"
+     UNITS           (CDF_CHAR/3): "MJD"
+     VALIDMIN        (CDF_DOUBLE/1): 57965.0
+     VALIDMAX        (CDF_DOUBLE/1): 57966.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+FPOLARPOINTECI (No: 2) (Recs: 0) (Compression: GZIP.9)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "Polar Pointing vector ECI component XYZ"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "Polar ECI XYZ"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "F16.12"
+     LABLAXIS        (CDF_CHAR/13): "Polar ECI XYZ"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar1"
+     UNITS           (CDF_CHAR/8): "unitless"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/77): "The cartesian XYZ components of the polar pointing vector in ECI coordinates."
+
+FAZIMUTHALPOINTECI (No: 3) (Recs: 0) (Compression: GZIP.9)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "Azimuthal Pointing vector ECI component XYZ"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "Azimuthal ECI XYZ"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "F16.12"
+     LABLAXIS        (CDF_CHAR/17): "Azimuthal ECI XYZ"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar2"
+     UNITS           (CDF_CHAR/8): "unitless"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/81): "The cartesian XYZ components of the azimuthal pointing vector in ECI coordinates."
+
+NDATAFILEID (No: 4) (Recs: 0) (Compression: GZIP.9)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "TWINS DataFile ID"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "DataFile ID"
+     FILLVAL         (CDF_INT4/1): -2012696540
+     FORMAT          (CDF_CHAR/2): "F7"
+     LABLAXIS        (CDF_CHAR/11): "DataFile ID"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/45): "DataFile ID as used in TWINS database storage"
+
+cartesian (No: 5) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "Components in cartesian coord."
+     FIELDNAM        (CDF_CHAR/30): "Components in cartesian coord."
+     FORMAT          (CDF_CHAR/2): "a2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/22): "label>vector>cartesian"
+
+metavar1 (No: 6) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "metavar1"
+     FIELDNAM        (CDF_UCHAR/8): "metavar1"
+     FORMAT          (CDF_CHAR/3): "a16"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+metavar2 (No: 7) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "metavar2"
+     FIELDNAM        (CDF_UCHAR/8): "metavar2"
+     FORMAT          (CDF_CHAR/3): "a20"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+

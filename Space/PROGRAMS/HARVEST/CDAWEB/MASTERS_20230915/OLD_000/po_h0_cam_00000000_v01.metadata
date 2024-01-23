@@ -1,0 +1,250 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_h0_cam_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_h0_cam_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     9
+NumAttrs:     49 (26 global, 23 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/44): 	"H0>Ion Fluxes at 32-Spin/3-Minute Resolution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/50): 	"CAM>Charge And Mass Magnetospheric Ion Composition"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"R. Friedel"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/4): 	"Lanl"
+TEXT (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"po_h0_cam"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"po_h0_cam_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/59): 	"Ion Fluxes 1-200 keV/q @ 3-minute resolution, Polar CAMMICE"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/21): 	"3 minutes 22 seconds "
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/9): 	"A. Test, "
+MODS (1 entry):
+	0 (CDF_CHAR/26): 	"CDF Master created 3/21/03"
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/14): 	"Polar CAMMICE "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/9): 	"Home Page"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/29): 	"http://leadbelly.lanl.gov/ccr"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/36): 	"Polar_CAMMICE_definitive_3min_h0_cdf"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/54): 	"spase://NASA/NumericalData/POLAR/CAMMICE/Fluxes/PT204S"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 9 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+EN_PER_CHG            CDF_REAL4/1	1:[31]	F/T
+EN_PER_CHG_LABL_1     CDF_CHAR/23	1:[31]	F/T
+DCR_H_PLUS            CDF_REAL4/1	1:[31]	T/T
+H_PLUS                CDF_REAL4/1	1:[31]	T/T
+HE_PLUS               CDF_REAL4/1	1:[31]	T/T
+HE_PLUS2              CDF_REAL4/1	1:[31]	T/T
+O_LT_PLUS3            CDF_REAL4/1	1:[31]	T/T
+O_GT_PLUS2            CDF_REAL4/1	1:[31]	T/T
+
+
+Variable (9 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "time"
+     CATDESC         (CDF_CHAR/4): "time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+EN_PER_CHG (No: 1) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Energy per charge"
+     CATDESC         (CDF_CHAR/17): "Energy per charge"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     LABL_PTR_1      (CDF_CHAR/17): "EN_PER_CHG_LABL_1"
+     UNITS           (CDF_CHAR/5): "keV/Q"
+     VALIDMIN        (CDF_REAL4/1): 0.8
+     VALIDMAX        (CDF_REAL4/1): 315.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+EN_PER_CHG_LABL_1 (No: 2) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "EN_PER_CHG_LABL_1"
+     CATDESC         (CDF_CHAR/17): "EN_PER_CHG_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FORMAT          (CDF_CHAR/3): "a23"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+DCR_H_PLUS (No: 3) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Spin-Avg Flux DCR (H+)"
+     CATDESC         (CDF_CHAR/89): "Ion (mainly H+) flux (from DC rate) at 25 energies 1-200 keV/Q, 32-spin/3-minute averages"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "EN_PER_CHG"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABL_PTR_1      (CDF_CHAR/17): "EN_PER_CHG_LABL_1"
+     UNITS           (CDF_CHAR/16): "/(cm^2-s-sr-keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 2.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+H_PLUS (No: 4) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Spin-Avg Flux H+"
+     CATDESC         (CDF_CHAR/70): "H+ Flux (usually)at 19 energies 5-200 keV/Q, 32-spin/3-minute averages"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "EN_PER_CHG"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     FORMAT          (CDF_CHAR/5): "e12.3"
+     LABL_PTR_1      (CDF_CHAR/17): "EN_PER_CHG_LABL_1"
+     UNITS           (CDF_CHAR/16): "/(cm^2-s-sr-keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+HE_PLUS (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Spin-Avg Flux He+"
+     CATDESC         (CDF_CHAR/73): "He+ flux (usually) at 14 energies 20-200 keV/Q, 32-spin/3-minute averages"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "EN_PER_CHG"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     FORMAT          (CDF_CHAR/5): "e12.3"
+     LABL_PTR_1      (CDF_CHAR/17): "EN_PER_CHG_LABL_1"
+     UNITS           (CDF_CHAR/16): "/(cm^2-s-sr-keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+HE_PLUS2 (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Spin-Avg Flux He+2"
+     CATDESC         (CDF_CHAR/73): "He+2 flux (usually) at 24 energies 1-200 keV/Q, 32-spin/3-minute averages"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "EN_PER_CHG"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     FORMAT          (CDF_CHAR/5): "e12.3"
+     LABL_PTR_1      (CDF_CHAR/17): "EN_PER_CHG_LABL_1"
+     UNITS           (CDF_CHAR/16): "/(cm^2-s-sr-keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+O_LT_PLUS3 (No: 7) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Spin-Avg Flux O<+3"
+     CATDESC         (CDF_CHAR/74): "O<+3 flux (usually) at 12 energies 35-200 keV/Q, 32-spin/3-minute averages"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "EN_PER_CHG"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     FORMAT          (CDF_CHAR/5): "e12.3"
+     LABL_PTR_1      (CDF_CHAR/17): "EN_PER_CHG_LABL_1"
+     UNITS           (CDF_CHAR/16): "/(cm^2-s-sr-keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+O_GT_PLUS2 (No: 8) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Spin-Avg Flux O>+2"
+     CATDESC         (CDF_CHAR/75): "O>+2 flux (usually) at 19 energies 1.5-100 keV/Q, 32-spin/3-minute averages"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "EN_PER_CHG"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     FORMAT          (CDF_CHAR/5): "e12.3"
+     LABL_PTR_1      (CDF_CHAR/17): "EN_PER_CHG_LABL_1"
+     UNITS           (CDF_CHAR/16): "/(cm^2-s-sr-keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 5.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+

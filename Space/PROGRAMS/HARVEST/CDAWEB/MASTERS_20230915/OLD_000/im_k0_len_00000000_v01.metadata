@@ -1,0 +1,259 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/im_k0_len_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     im_k0_len_00000000_v01.cdf
+Version:      2.6.7
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-1997 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     15
+NumAttrs:     27 (12 global, 15 variable)
+Compression:  None
+
+Global Attributes (12 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_UCHAR/58): 	"IMAGE>Imager for Magnetopause-to-Aurora Global Exploration"
+Discipline (1 entry):
+	0 (CDF_UCHAR/36): 	"Space Physics>Magnetospheric Science"
+Descriptor (1 entry):
+	0 (CDF_UCHAR/35): 	"LENA>Low Energy Neutral Atom Imager"
+PI_name (1 entry):
+	0 (CDF_UCHAR/8): 	"T. Moore"
+PI_affiliation (1 entry):
+	0 (CDF_UCHAR/27): 	"Goddard Space Flight Center"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/15): 	"Imagers (space)"
+Data_type (1 entry):
+	0 (CDF_UCHAR/16): 	"K0>Key Parameter"
+Data_version (1 entry):
+	0 (CDF_UCHAR/1): 	"1"
+TEXT (1 entry):
+	0 (CDF_UCHAR/168): 	"The logical_file_id stores the name of the CDF file using the ISTP naming convention (source_name / data_type / descriptor / date / data_version).im_l1_len_00000000_v01"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/22): 	"im_l1_len_19951019_v01"
+Logical_source (1 entry):
+	0 (CDF_UCHAR/9): 	"im_l1_len"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"IMAGE"
+
+Variable Attributes (15 attributes)
+=========================================
+FIELDNAM
+VAR_TYPE
+DICT_KEY
+LABLAXIS
+FILLVAL
+FORMAT
+UNITS
+VALIDMIN
+VALIDMAX
+DEPEND_0
+DEPEND_1
+DEPEND_2
+LABL_PTR_1
+CATDESC
+VAR_NOTES
+
+Variable Information (0 rVariable, 15 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+IMAGE                 CDF_REAL4/1	2:[12,45]	T/TT
+SM_POSITION           CDF_REAL4/1	1:[3]	T/T
+Geo_POSITION          CDF_REAL4/1	1:[3]	T/T
+GSM_POSITION          CDF_REAL4/1	1:[3]	T/T
+Opt_OI                CDF_REAL4/1	0:[]	T/  
+Spin_Phase            CDF_REAL4/1	0:[]	T/  
+Polar_Zone            CDF_CHAR/18	1:[12]	F/T
+cartesian             CDF_CHAR/1	1:[3]	F/T
+Spin_Sect             CDF_CHAR/14	1:[45]	F/T
+IMG_MINUS_MSEC        CDF_REAL4/1	0:[]	T/  
+IMG_PLUS_MSEC         CDF_REAL4/1	0:[]	T/  
+metavar0              CDF_CHAR/7	1:[3]	F/T
+metavar1              CDF_CHAR/7	1:[3]	F/T
+metavar2              CDF_CHAR/6	1:[3]	F/T
+
+
+Variable (15 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/9): "Time Line"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     DICT_KEY        (CDF_UCHAR/10): "time>epoch"
+     LABLAXIS        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_UCHAR/5): "F16.2"
+     UNITS           (CDF_UCHAR/2): "ms"
+     VALIDMIN        (CDF_FLOAT/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_FLOAT/1): 01-Jan-0000 00:00:00.000
+     CATDESC         (CDF_UCHAR/10): "Image Time"
+     VAR_NOTES       (CDF_UCHAR/48): "The time in EPOCH refers to the center of IMAGE."
+
+IMAGE (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/10): "LENA Image"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     UNITS           (CDF_UCHAR/12): "cnts/cm^2/sr"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/10): "Polar_Zone"
+     DEPEND_2        (CDF_UCHAR/9): "Spin_Sect"
+
+SM_POSITION (No: 2) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/29): "SM Spacecraft Position Vector"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     DICT_KEY        (CDF_UCHAR/22): "position>spacecraft_SM"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.1"
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/3): -60000.0, -60000.0, -60000.0
+     VALIDMAX        (CDF_FLOAT/3): 60000.0, 60000.0, 60000.0
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     LABL_PTR_1      (CDF_UCHAR/8): "metavar2"
+     CATDESC         (CDF_UCHAR/34): "Spacecraft Position in SM, 3 comp."
+     VAR_NOTES       (CDF_UCHAR/31): "SM = solar magnetic coordinates"
+
+Geo_POSITION (No: 3) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/37): "Geographic Spacecraft Position Vector"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     DICT_KEY        (CDF_UCHAR/23): "position>spacecraft_Geo"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.1"
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/3): -60000.0, -60000.0, -60000.0
+     VALIDMAX        (CDF_FLOAT/3): 60000.0, 60000.0, 60000.0
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     LABL_PTR_1      (CDF_UCHAR/8): "metavar1"
+     CATDESC         (CDF_UCHAR/35): "Spacecraft Position in Geo, 3 comp."
+     VAR_NOTES       (CDF_UCHAR/28): "Geo = geographic coordinates"
+
+GSM_POSITION (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/30): "GSM Spacecraft Position Vector"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     DICT_KEY        (CDF_UCHAR/23): "position>spacecraft_GSM"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.1"
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/3): -60000.0, -60000.0, -60000.0
+     VALIDMAX        (CDF_FLOAT/3): 60000.0, 60000.0, 60000.0
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     LABL_PTR_1      (CDF_UCHAR/8): "metavar0"
+     CATDESC         (CDF_UCHAR/35): "Spacecraft Position in GSM, 3 comp."
+     VAR_NOTES       (CDF_UCHAR/49): "GSM = gencentric solar magnetospheric coordinates"
+
+Opt_OI (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/26): "Optics HVPS Output Current"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     UNITS           (CDF_UCHAR/6): "uA/bit"
+
+Spin_Phase (No: 6) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/10): "Spin Phase"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/19): "time>range_absolute"
+     LABLAXIS        (CDF_UCHAR/12): "Center Point"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/5): "F10.1"
+     UNITS           (CDF_UCHAR/2): "ms"
+     VALIDMIN        (CDF_DOUBLE/1): -1.8e+06
+     VALIDMAX        (CDF_DOUBLE/1): 1.8e+06
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     VAR_NOTES       (CDF_UCHAR/121): "The time during the image at which the camera is pointed toward the center of the earth.  This time is relative to Epoch."
+
+Polar_Zone (No: 7) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/12): "Polar Sector"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+cartesian (No: 8) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/30): "Components in Cartesian Coord."
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     DICT_KEY        (CDF_UCHAR/15): "label>cartesian"
+     CATDESC         (CDF_UCHAR/30): "Components in Cartesian Coord."
+
+Spin_Sect (No: 9) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/11): "Spin Sector"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+IMG_MINUS_MSEC (No: 10) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/27): "Relative beginning of image"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/19): "time>range_absolute"
+     LABLAXIS        (CDF_UCHAR/5): "Start"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/5): "F10.1"
+     UNITS           (CDF_UCHAR/2): "ms"
+     VALIDMIN        (CDF_DOUBLE/1): -1.8e+06
+     VALIDMAX        (CDF_DOUBLE/1): 0.0
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/44): "The start of the image, measured from EPOCH."
+     VAR_NOTES       (CDF_UCHAR/101): "The beginning time of the image is specified in msec relative to the time in EPOCH by IMG_MINUS_MSEC."
+
+IMG_PLUS_MSEC (No: 11) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/21): "Relative end of image"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/19): "time>range_absolute"
+     LABLAXIS        (CDF_UCHAR/3): "End"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/5): "F10.1"
+     UNITS           (CDF_UCHAR/2): "ms"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.8e+06
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/42): "The end of the image, measured from EPOCH."
+     VAR_NOTES       (CDF_UCHAR/97): "The ending time of the image is specified in msec relative to the time in EPOCH by IMG_PLUS_MSEC."
+
+metavar0 (No: 12) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "metavar0"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+metavar1 (No: 13) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "metavar1"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+metavar2 (No: 14) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "metavar2"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+

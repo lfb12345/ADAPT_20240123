@@ -1,0 +1,2654 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/twins2_l1_imager_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     twins2_l1_imager_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     116
+NumAttrs:     45 (20 global, 25 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (20 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/55): 	"TWINS>Two Wide-angle Imaging Neutral-atom Spectrometers"
+Source_name (1 entry):
+	0 (CDF_CHAR/56): 	"TWINS2>Two Wide-angle Imaging Neutral-atom Spectrometers"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/10): 	"L1>Level 1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/17): 	"IMAGER>image data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"D. McComas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/28): 	"Southwest Research Institute"
+TEXT (5 entries):
+	0 (CDF_CHAR/260): 	"TWINS (Two Wide-angle Imaging Neutral-atom Spectrometers) is a Mission of Opportunity under NASA's Small Explorer (SMEX) program. TWINS-1 and TWINS-2 are the designations for NASA-sponsored instruments flying on unspecified non-NASA U.S. government spacecraft."
+	1 (CDF_CHAR/367): 	"The TWINS-1 instrument high voltages were turned on in April 2007 and the TWINS-2 high voltages in May 2008; the exact launchdates are not available. The data (including both science data and spacecraft ephemeris/attitude information) from the two NASA-funded science instruments are publicly available to the scientific research community. See http://twins.swri.edu/"
+	2 (CDF_CHAR/697): 	"TWINS is a stereo mission whose overall scientific objective is to establish the global connectivities and causal relationships between processes in different regions of the Earth.s magnetosphere. To meet this goal, TWINS-1 and TWINS-2 provide stereoscopic neutral atom imaging of the magnetosphere from two widely spaced, high-altitude, high-inclination spacecraft. TWINS instrumentation includes an energetic neutral atom (ENA) imager to capture charge-exchange-produced neutral atoms over a broad energy range (approximately 1-100 keV) and a Lyman-alpha detector to measure the density of the neutral hydrogen geocorona needed for extraction of magnetospheric ion fluxes from neutral atom data."
+	3 (CDF_CHAR/681): 	"The TWINS-1 and TWINS-2 instruments are identical. Each spacecraft carrying TWINS instruments is in a Molniya orbit (63.4 deg, 7.2 Re apogee, 1000 km perigee; period 12 h), and is three-axis stabilized and approximately nadir-pointing. Each acquires image data with time resolution of 60 s. The time required to change actuator direction between scans (no data collection) was 25 seconds from June 2008 to July 2009, and 12 seconds at all other times.  This gives an effective cadence of 72 or 85 seconds.  The nominal design lifetime for each instrument is four years. TWINS operates  only during the apogee portion of each orbit, when the spacecraft is above the radiation belts."
+	4 (CDF_CHAR/85): 	"More detailed information is available at the TWINS home page http://twins.swri.edu/ "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/48): 	"Imaging and Remote Sensing (Magnetosphere/Earth)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"TWINS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/16): 	"twins2_l1_imager"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/29): 	"twins2_l1_imager_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/143): 	"TWINS Spacecraft 2 - Neutral-atom Spectrometer Level-1 Magnetospheric Images and Image Movies at Full (9 Energy Steps and 15 minute) Resolution"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Link_text (2 entries):
+	0 (CDF_CHAR/21): 	"Initial CDAWeb TWINS "
+	1 (CDF_CHAR/48): 	"Release notes and other information available at"
+Link_title (2 entries):
+	0 (CDF_CHAR/32): 	"list of events and sample plots."
+	1 (CDF_CHAR/47): 	"the TWINS Southwest Research Institute web site"
+HTTP_link (2 entries):
+	0 (CDF_CHAR/44): 	"https://cdaweb.gsfc.nasa.gov/TWINS_info.html"
+	1 (CDF_CHAR/21): 	"http://twins.swri.edu"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/46): 	"spase://NASA/NumericalData/TWINS2/ENA/L1/PT15M"
+
+Variable Attributes (25 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DEPEND_4
+DEPEND_5
+DEPEND_6
+DEPEND_7
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+VAR_NOTES
+VIRTUAL
+FUNCT
+COMPONENT_0
+SCALETYP
+ALLOW_BIN
+
+Variable Information (0 rVariable, 116 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+satellite             CDF_INT2/1	0:[]	T/  
+smooth_image          CDF_DOUBLE/1	3:[9,90,22]	T/TTT
+smooth_image_e1       CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_image_e2       CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_image_e3       CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_image_e4       CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_image_e5       CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_image_e6       CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_image_e7       CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_image_e8       CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_image_e9       CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Mimage_e1      CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Mimage_e2      CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Mimage_e3      CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Mimage_e4      CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Mimage_e5      CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Mimage_e6      CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Mimage_e7      CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Mimage_e8      CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Mimage_e9      CDF_DOUBLE/1	2:[90,22]	T/TT
+pixel_sweep_count     CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_image_val      CDF_DOUBLE/1	1:[9]	T/T
+smooth_image_energy_kev CDF_DOUBLE/1	1:[9]	T/T
+smooth_image_version  CDF_CHAR/24	0:[]	T/  
+smooth_image_units    CDF_CHAR/17	1:[9]	T/T
+lonmin_deg            CDF_DOUBLE/1	0:[]	T/  
+lonmax_deg            CDF_DOUBLE/1	0:[]	T/  
+latmin_deg            CDF_DOUBLE/1	0:[]	T/  
+latmax_deg            CDF_DOUBLE/1	0:[]	T/  
+lat_pixelsize_deg     CDF_INT2/1	0:[]	T/  
+lon_pixelsize_deg     CDF_INT2/1	0:[]	T/  
+time_YYMMDD           CDF_EPOCH/1	1:[2]	T/T
+time_MJD              CDF_DOUBLE/1	1:[2]	T/T
+smooth_error_image    CDF_DOUBLE/1	3:[9,90,22]	T/TTT
+smooth_error_image_e1 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_error_image_e2 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_error_image_e3 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_error_image_e4 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_error_image_e5 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_error_image_e6 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_error_image_e7 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_error_image_e8 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_error_image_e9 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Merror_image_e1 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Merror_image_e2 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Merror_image_e3 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Merror_image_e4 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Merror_image_e5 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Merror_image_e6 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Merror_image_e7 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Merror_image_e8 CDF_DOUBLE/1	2:[90,22]	T/TT
+smooth_Merror_image_e9 CDF_DOUBLE/1	2:[90,22]	T/TT
+quality_flag          CDF_INT2/1	0:[]	T/  
+no_orbit_data         CDF_INT2/1	0:[]	T/  
+attitude_delta_deg    CDF_DOUBLE/1	0:[]	T/  
+sc_posv_re_eci        CDF_DOUBLE/1	1:[3]	T/T
+spin_axis_eci         CDF_DOUBLE/1	1:[3]	T/T
+prime_meridian_eci    CDF_DOUBLE/1	1:[3]	T/T
+sun_posv_eci          CDF_DOUBLE/1	1:[3]	T/T
+mag_eci               CDF_DOUBLE/1	1:[3]	T/T
+sc_posv_re_sm         CDF_DOUBLE/1	1:[3]	T/T
+spin_axis_sm          CDF_DOUBLE/1	1:[3]	T/T
+prime_meridian_sm     CDF_DOUBLE/1	1:[3]	T/T
+sun_posv_sm           CDF_DOUBLE/1	1:[3]	T/T
+mag_sm                CDF_DOUBLE/1	1:[3]	T/T
+radial_distance_re    CDF_DOUBLE/1	0:[]	T/  
+latitude_deg          CDF_DOUBLE/1	0:[]	T/  
+lshell_dip            CDF_DOUBLE/1	0:[]	T/  
+mlt                   CDF_DOUBLE/1	0:[]	T/  
+energy_kev            CDF_DOUBLE/1	1:[9]	T/T
+all_energies          CDF_INT2/1	0:[]	T/  
+saveset_version       CDF_INT2/1	0:[]	T/  
+title                 CDF_CHAR/65	0:[]	T/  
+units_of_twins_image  CDF_CHAR/17	1:[9]	T/T
+sw_version            CDF_CHAR/12	0:[]	T/  
+creation_time         CDF_CHAR/24	0:[]	T/  
+twins_image           CDF_DOUBLE/1	3:[9,90,22]	T/TTT
+twins_image_e1        CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_image_e2        CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_image_e3        CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_image_e4        CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_image_e5        CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_image_e6        CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_image_e7        CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_image_e8        CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_image_e9        CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_Mimage_e1       CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_Mimage_e2       CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_Mimage_e3       CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_Mimage_e4       CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_Mimage_e5       CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_Mimage_e6       CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_Mimage_e7       CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_Mimage_e8       CDF_DOUBLE/1	2:[90,22]	T/TT
+twins_Mimage_e9       CDF_DOUBLE/1	2:[90,22]	T/TT
+error_image           CDF_DOUBLE/1	3:[9,90,22]	T/TTT
+error_image_e1        CDF_DOUBLE/1	2:[90,22]	T/TT
+error_image_e2        CDF_DOUBLE/1	2:[90,22]	T/TT
+error_image_e3        CDF_DOUBLE/1	2:[90,22]	T/TT
+error_image_e4        CDF_DOUBLE/1	2:[90,22]	T/TT
+error_image_e5        CDF_DOUBLE/1	2:[90,22]	T/TT
+error_image_e6        CDF_DOUBLE/1	2:[90,22]	T/TT
+error_image_e7        CDF_DOUBLE/1	2:[90,22]	T/TT
+error_image_e8        CDF_DOUBLE/1	2:[90,22]	T/TT
+error_image_e9        CDF_DOUBLE/1	2:[90,22]	T/TT
+error_Mimage_e1       CDF_DOUBLE/1	2:[90,22]	T/TT
+error_Mimage_e2       CDF_DOUBLE/1	2:[90,22]	T/TT
+error_Mimage_e3       CDF_DOUBLE/1	2:[90,22]	T/TT
+error_Mimage_e4       CDF_DOUBLE/1	2:[90,22]	T/TT
+error_Mimage_e5       CDF_DOUBLE/1	2:[90,22]	T/TT
+error_Mimage_e6       CDF_DOUBLE/1	2:[90,22]	T/TT
+error_Mimage_e7       CDF_DOUBLE/1	2:[90,22]	T/TT
+error_Mimage_e8       CDF_DOUBLE/1	2:[90,22]	T/TT
+error_Mimage_e9       CDF_DOUBLE/1	2:[90,22]	T/TT
+indexvar9             CDF_INT2/1	1:[9]	F/T
+
+
+Variable (116 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-9999 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+satellite (No: 1) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "satellite ID number (1=twins1 or 2:twins2)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "satellite"
+     FILLVAL         (CDF_DOUBLE/1): -1.0
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/9): "satellite"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 2.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+smooth_image (No: 2) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "TWINS smooth Image for all energies"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "indexvar9"
+     FIELDNAM        (CDF_CHAR/12): "smooth_image"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/12): "smooth_image"
+     UNITS           (CDF_CHAR/19): "Flux (cm^2 sr s)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+smooth_image_e1 (No: 3) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "TWINS Smooth Image @ 1 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/44): "TWINS smooth Image @ 1 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "smooth_image_e1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/270): "Statistically smoothed TWINS image at 1 keV energy, in units of (cm^2 sr s eV)^-1. Images have been smoothed using a technique that provides approximately uniform statistics across the image.  Each image has 4x4 degree angular resolution and includes 15 minutes of data."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_image_e2 (No: 4) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "TWINS Smooth Image @ 4 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/44): "TWINS Smooth Image @ 4 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "smooth_image_e2"
+     UNITS           (CDF_CHAR/34): "Flux Per Energy (cm^2 sr s eV)^-1 "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/99): "Statistically smoothed TWINS image at 4 keV energy, in the same format as the 1 keV smoothed image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_image_e3 (No: 5) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "TWINS Smooth Image @ 8 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/44): "TWINS Smooth Image @ 8 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "smooth_image_e3"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/99): "Statistically smoothed TWINS image at 8 keV energy, in the same format as the 1 keV smoothed image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_image_e4 (No: 6) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "TWINS Smooth Image @ 12 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/45): "TWINS Smooth Image @ 12 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/45): "TWINS Smooth Image @ 12 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/35): "Flux Per Energy (cm^2 sr s eV)^-1  "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/100): "Statistically smoothed TWINS image at 12 keV energy, in the same format as the 1 keV smoothed image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_image_e5 (No: 7) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "TWINS Smooth Image @ 16 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/45): "TWINS Smooth Image @ 16 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "smooth_image_e5"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/100): "Statistically smoothed TWINS image at 16 keV energy, in the same format as the 1 keV smoothed image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_image_e6 (No: 8) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "TWINS Smooth Image @ 20 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/45): "TWINS Smooth Image @ 20 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "smooth_image_e6"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/100): "Statistically smoothed TWINS image at 20 keV energy, in the same format as the 1 keV smoothed image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_image_e7 (No: 9) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "TWINS Smooth Image @ 25 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/45): "TWINS Smooth Image @ 25 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "smooth_image_e7"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/100): "Statistically smoothed TWINS image at 25 keV energy, in the same format as the 1 keV smoothed image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_image_e8 (No: 10) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "TWINS Smooth Image @ 30 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/45): "TWINS Smooth Image @ 30 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "smooth_image_e8"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/100): "Statistically smoothed TWINS image at 30 keV energy, in the same format as the 1 keV smoothed image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_image_e9 (No: 11) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "TWINS Smooth Image @ 50 keV (cm^2 sr s eV)^-1  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/45): "TWINS Smooth Image @ 50 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "smooth_image_e9"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/100): "Statistically smoothed TWINS image at 50 keV energy, in the same format as the 1 keV smoothed image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Mimage_e1 (No: 12) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "TWINS Smooth Image Movie @ 1 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/50): "TWINS Smooth Image Movie @ 1 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/50): "TWINS Smooth Image Movie @ 1 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/277): "Statistically smoothed TWINS image movies at 1 keV energy, in units of (cm^2 sr s eV)^-1. Images have been smoothed using a technique that provides approximately uniform statistics across the image.  Each image has 4x4 degree angular resolution and includes 15 minutes of data."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "smooth_image_e1"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Mimage_e2 (No: 13) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "TWINS Smooth Image Movie @ 4 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/50): "TWINS Smooth Image Movie @ 4 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/50): "TWINS Smooth Image Movie @ 4 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/105): "Statistically smoothed TWINS image movie at 4 keV energy, in the same format as the 1 keV smoothed image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "smooth_image_e2"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Mimage_e3 (No: 14) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "TWINS Smooth Image Movie @ 8 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/50): "TWINS Smooth Image Movie @ 8 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/50): "TWINS Smooth Image Movie @ 8 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/105): "Statistically smoothed TWINS image movie at 8 keV energy, in the same format as the 1 keV smoothed image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "smooth_image_e3"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Mimage_e4 (No: 15) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Image Movie @ 12 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 12 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 12 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "Statistically smoothed TWINS image movie at 12 keV energy, in the same format as the 1 keV smoothed image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "smooth_image_e4"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Mimage_e5 (No: 16) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Image Movie @ 16 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 16 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 16 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "Statistically smoothed TWINS image movie at 16 keV energy, in the same format as the 1 keV smoothed image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "smooth_image_e5"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Mimage_e6 (No: 17) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Image Movie @ 20 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 20 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 20 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "Statistically smoothed TWINS image movie at 20 keV energy, in the same format as the 1 keV smoothed image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "smooth_image_e6"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Mimage_e7 (No: 18) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Image Movie @ 25 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 25 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 25 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "Statistically smoothed TWINS image movie at 25 keV energy, in the same format as the 1 keV smoothed image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "smooth_image_e7"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Mimage_e8 (No: 19) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Image Movie @ 30 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 30 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 30 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "Statistically smoothed TWINS image movie at 30 keV energy, in the same format as the 1 keV smoothed image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "smooth_image_e8"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Mimage_e9 (No: 20) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Image Movie @ 50 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 50 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/51): "TWINS Smooth Image Movie @ 50 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "Statistically smoothed TWINS image movie at 50 keV energy, in the same format as the 1 keV smoothed image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/15): "smooth_image_e9"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+pixel_sweep_count (No: 21) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "Per-pixel sweep count"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     FIELDNAM        (CDF_CHAR/17): "pixel_sweep_count"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/17): "pixel_sweep_count"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 4.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/522): "The per-pixel sweep count is the  number of times a given pixel was  sampled by the instrument during thetime taken to make the image.  This value is only a function of   longitude (actuation angle), and so is the same for all latitude (imaged) pixels at a given scan (actuation) angle. The value is nominally the same for all pixels in an image, and is the same as the number of sweeps in the  image.  Differences from this value are due to errors in either actuator motion or transmission of data from agiven direction. "
+
+smooth_image_val (No: 22) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Target counts value used in the smoothing algorithm. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "target value"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/12): "target value"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/111): "Target value for the number of counts per pixel used in the smoothing algorithm. This value can vary by energy."
+
+smooth_image_energy_kev (No: 23) (Recs: 0)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Image energy values"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "indexvar9"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/6): "energy"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F12.7"
+     LABLAXIS        (CDF_CHAR/6): "energy"
+     UNITS           (CDF_CHAR/3): "keV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/109): "Array of energy values (in keV) for the smoothed images.  Nominally 1, 4, 8, 12, 16, 20, 25, 30, and 50 keV. "
+
+smooth_image_version (No: 24) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/85): "[LIST ONLY] version of the smoothing algorithm used to create the TWINS_SMOOTH_IMAGE."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/27): "smoothing algorithm version"
+     FORMAT          (CDF_CHAR/3): "a24"
+     LABLAXIS        (CDF_CHAR/27): "smoothing algorithm version"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+smooth_image_units (No: 25) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "[LIST ONLY] units of smoothed twins image"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/5): "units"
+     FORMAT          (CDF_CHAR/3): "a17"
+     LABLAXIS        (CDF_CHAR/5): "units"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+lonmin_deg (No: 26) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/103): "Longitude (deg) at the middle of the  first pixel.  For 4 deg pixel_size this is nominally -88 degrees."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/7): "lon min"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/7): "lon min"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     VALIDMAX        (CDF_DOUBLE/1): 270.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+lonmax_deg (No: 27) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/102): "Longitude (deg) at the middle of the  last pixel.  For 4 deg pixel_size this is nominally -92 degrees."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/7): "lon max"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/7): "lon max"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     VALIDMAX        (CDF_DOUBLE/1): 270.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+latmin_deg (No: 28) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/100): "Latitude (deg) at the middle of the  first pixel.  For 4 deg pixel_size this is nominally 4 degrees."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/7): "lat min"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/7): "lat min"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): 2.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+latmax_deg (No: 29) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/100): "Latitude (deg) at the middle of the  last pixel.  For 4 deg pixel_size this is nominally 88 degrees."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/7): "lat min"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/7): "lat min"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): 2.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+lat_pixelsize_deg (No: 30) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "The pixel size in the imaging (polar) direction. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/18): "lat pixel bin size"
+     FILLVAL         (CDF_INT2/1): -1
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/18): "lat pixel bin size"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+lon_pixelsize_deg (No: 31) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "The pixel size in the scan (longitudinal) direction. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/18): "lon pixel bin size"
+     FILLVAL         (CDF_INT2/1): -1
+     FORMAT          (CDF_CHAR/2): "i4"
+     LABLAXIS        (CDF_CHAR/18): "lon pixel bin size"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+time_YYMMDD (No: 32) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "start time of the image and the stop time of the image"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "start/stop time of image"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+time_MJD (No: 33) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "start time of the image and the stop time of the image in Modified Julian Date (MJD)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/30): "start/stop time of image (MJD)"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/30): "start/stop time of image (MJD)"
+     UNITS           (CDF_CHAR/3): "mjd"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+smooth_error_image (No: 34) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "TWINS smooth Error_Image for all energies"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "indexvar9"
+     FIELDNAM        (CDF_CHAR/18): "smooth_error_image"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/18): "smooth_error_image"
+     UNITS           (CDF_CHAR/19): "Flux (cm^2 sr s)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+smooth_error_image_e1 (No: 35) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "TWINS Smooth Error_Image @ 1 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/50): "TWINS smooth Error_Image @ 1 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/21): "smooth_error_image_e1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/176): "TWINS smoothed image error image at 1 keV energy.  The error in the flux for each pixel is given by sqrt(counts) / counts using the counts included in each pixel of the image. "
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_error_image_e2 (No: 36) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "TWINS Smooth Error_Image @ 4 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/50): "TWINS Smooth Error_Image @ 4 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/21): "smooth_error_image_e2"
+     UNITS           (CDF_CHAR/34): "Flux Per Energy (cm^2 sr s eV)^-1 "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/109): "TWINS smoothed image error image at 4 keV energy, in the same format as the 1 keV smoothed image error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_error_image_e3 (No: 37) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "TWINS Smooth Error_Image @ 8 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/50): "TWINS Smooth Error_Image @ 8 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/21): "smooth_error_image_e3"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/109): "TWINS smoothed image error image at 8 keV energy, in the same format as the 1 keV smoothed image error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_error_image_e4 (No: 38) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Error_Image @ 12 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Error_Image @ 12 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/51): "TWINS Smooth Error_Image @ 12 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/35): "Flux Per Energy (cm^2 sr s eV)^-1  "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/110): "TWINS smoothed image error image at 12 keV energy, in the same format as the 1 keV smoothed image error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_error_image_e5 (No: 39) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Error_Image @ 16 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Error_Image @ 16 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/21): "smooth_error_image_e5"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/110): "TWINS smoothed image error image at 16 keV energy, in the same format as the 1 keV smoothed image error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_error_image_e6 (No: 40) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Error_Image @ 20 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Error_Image @ 20 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/21): "smooth_error_image_e6"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/110): "TWINS smoothed image error image at 20 keV energy, in the same format as the 1 keV smoothed image error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_error_image_e7 (No: 41) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Error_Image @ 25 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Error_Image @ 25 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/21): "smooth_error_image_e7"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/110): "TWINS smoothed image error image at 25 keV energy, in the same format as the 1 keV smoothed image error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_error_image_e8 (No: 42) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "TWINS Smooth Error_Image @ 30 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Error_Image @ 30 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/21): "smooth_error_image_e8"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/110): "TWINS smoothed image error image at 30 keV energy, in the same format as the 1 keV smoothed image error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_error_image_e9 (No: 43) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "TWINS Smooth Error_Image @ 50 keV (cm^2 sr s eV)^-1  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/51): "TWINS Smooth Error_Image @ 50 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/21): "smooth_error_image_e9"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/110): "TWINS smoothed image error image at 50 keV energy, in the same format as the 1 keV smoothed image error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Merror_image_e1 (No: 44) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "TWINS Smooth Error Image Movie @ 1 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/56): "TWINS Smooth Error Image Movie @ 1 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/56): "TWINS Smooth Error Image Movie @ 1 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/190): "Statistically smoothed TWINS error image movie at 1 keV energy.  The error in the flux for each pixel is given by sqrt(counts) / counts using the counts included in each pixel of the image. "
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "smooth_error_image_e1"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Merror_image_e2 (No: 45) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "TWINS Smooth Error Image Movie @ 4 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/56): "TWINS Smooth Error Image Movie @ 4 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/56): "TWINS Smooth Error Image Movie @ 4 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/117): "Statistically smoothed TWINS error image movie at 4 keV energy, in the same format as the 1 keV smoothed error image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "smooth_error_image_e2"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Merror_image_e3 (No: 46) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "TWINS Smooth Error Image Movie @ 8 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/56): "TWINS Smooth Error Image Movie @ 8 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/56): "TWINS Smooth Error Image Movie @ 8 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/117): "Statistically smoothed TWINS error image movie at 8 keV energy, in the same format as the 1 keV smoothed error image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "smooth_error_image_e3"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Merror_image_e4 (No: 47) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 12 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 12 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 12 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/118): "Statistically smoothed TWINS error image movie at 12 keV energy, in the same format as the 1 keV smoothed error image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "smooth_error_image_e4"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Merror_image_e5 (No: 48) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 16 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 16 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 16 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/118): "Statistically smoothed TWINS error image movie at 16 keV energy, in the same format as the 1 keV smoothed error image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "smooth_error_image_e5"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Merror_image_e6 (No: 49) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 20 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 20 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 20 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/118): "Statistically smoothed TWINS error image movie at 20 keV energy, in the same format as the 1 keV smoothed error image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "smooth_error_image_e6"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Merror_image_e7 (No: 50) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 25 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 25 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 25 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/118): "Statistically smoothed TWINS error image movie at 25 keV energy, in the same format as the 1 keV smoothed error image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "smooth_error_image_e7"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Merror_image_e8 (No: 51) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 30 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 30 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 30 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/118): "Statistically smoothed TWINS error image movie at 30 keV energy, in the same format as the 1 keV smoothed error image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "smooth_error_image_e8"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+smooth_Merror_image_e9 (No: 52) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 50 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 50 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/57): "TWINS Smooth Error Image Movie @ 50 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/118): "Statistically smoothed TWINS error image movie at 50 keV energy, in the same format as the 1 keV smoothed error image."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/21): "smooth_error_image_e9"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+quality_flag (No: 53) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "data quality flag, 0=good"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/23): "Attitude/Ephemeris flag"
+     FILLVAL         (CDF_INT2/1): -1
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/25): "data quality flag, 0=good"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 7
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/488): "Indication of the quality of the data based on three parameters. The quality flag is a 3 bit number. A value of 0 indicates good data.  A value of 1 indicates an attitude shift of more than 4 degrees during the sweep.  A value of 2 indicates that the Sun is within 20 degrees of the instrument...s FOV.  A value of 4 indicates a high level of background. A value of 7 would indicate that all three flags have been raised (indicating that caution should be used in interpreting this data)."
+
+no_orbit_data (No: 54) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Attitude/Ephemeris flag; 0=data, 1=data are not available"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/23): "Attitude/Ephemeris flag"
+     FILLVAL         (CDF_INT2/1): -1
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/42): "Attitude/Ephemeris flag; 0=data, 1=no data"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/233): "A flag that identifies when attitude and ephemeris information are available. A value of 0 indicates data are available; a value of 1 indicates that either attitude or ephemeris information is not available for a given time interval."
+
+attitude_delta_deg (No: 55) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Attitude Variation (degrees) during the time interval of each image. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/18): "attitude_delta_deg"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/18): "attitude_delta_deg"
+     UNITS           (CDF_CHAR/26): "attitude change in degrees"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/105): "The change (in degrees) of the spacecraft attitude vector over the time required to make the given image."
+
+sc_posv_re_eci (No: 56) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "Average spacecraft position vector in ECI coordinates (time series)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "spacecraft position"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/19): "spacecraft position"
+     UNITS           (CDF_CHAR/11): "Earth Radii"
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/122): "The average spacecraft location vector over the time interval of the image in ECI coordinates (cartesian XYZ components). "
+
+spin_axis_eci (No: 57) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Average polar attitude unit vector in ECI coordinates"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/14): "polar attitude"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/14): "polar attitude"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/195): "The average polar pointing vector over the time interval of the image in ECI coordinates (Cartesian XYZ components). The polar attitude vector points to 90 degree instrument polar (imaged) angle."
+
+prime_meridian_eci (No: 58) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Average azimuth attitude unit vector in ECI coordinates"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/16): "azimuth attitude"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/16): "azimuth attitude"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/195): "The average azimuthal pointing vector over the time interval of the image in ECI coordinates (Cartesian XYZ components). The azimuthal pointing vector points to +90 degree instrument scan angle. "
+
+sun_posv_eci (No: 59) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "Average sun position unit vector in ECIcoordinates."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "sun position"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/12): "sun position"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/115): "The average location of the Sun over the time interval of the image in ECI coordinates (Cartesian XYZ components). "
+
+mag_eci (No: 60) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Average geomagnetic dipole unit vector in ECI coordinates"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/15): "magnetic dipole"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/15): "magnetic dipole"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/121): "The average geomagnetic dipole vector over the time interval of the image in ECI coordinates (Cartesian XYZ components). "
+
+sc_posv_re_sm (No: 61) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Average spacecraft position vector in SM coordinates. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/19): "spacecraft position"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/19): "spacecraft position"
+     UNITS           (CDF_CHAR/11): "Earth Radii"
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/121): "The average spacecraft location vector over the time interval of the image in SM coordinates (Cartesian XYZ components). "
+
+spin_axis_sm (No: 62) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Average polar attitude unit vector in SM coordinates. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/14): "polar attitude"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/14): "polar attitude"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/194): "The average polar pointing vector over the time interval of the image in SM coordinates (Cartesian XYZ components). The polar attitude vector points to 90 degree instrument polar (imaged) angle."
+
+prime_meridian_sm (No: 63) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Average azimuth attitude unit vector in SM coordinates"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/16): "azimuth attitude"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/16): "azimuth attitude"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/194): "The average azimuthal pointing vector over the time interval of the image in SM coordinates (Cartesian XYZ components). The azimuthal pointing vector points to +90 degree instrument scan angle. "
+
+sun_posv_sm (No: 64) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "Average sun position unit vector in SM coordinates. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "sun position"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/12): "sun position"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/114): "The average location of the Sun over the time interval of the image in SM coordinates (Cartesian XYZ components). "
+
+mag_sm (No: 65) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Average magnetic dipole unit vector in SM coordinates."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/15): "magnetic dipole"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/15): "magnetic dipole"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -10.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/120): "The average geomagnetic dipole vector over the time interval of the image in SM coordinates (Cartesian XYZ components). "
+
+radial_distance_re (No: 66) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "Radial Location of satellite in Earth radii"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "sat location"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F12.7"
+     LABLAXIS        (CDF_CHAR/12): "sat location"
+     UNITS           (CDF_CHAR/11): "earth radii"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/72): "Spacecraft radial distance (in Earth radii)from the center of the Earth."
+
+latitude_deg (No: 67) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "Spacecraft latitude in SM coordinates"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/3): "lat"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F12.7"
+     LABLAXIS        (CDF_CHAR/3): "lat"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/39): "Spacecraft latitude in SM coordinates. "
+
+lshell_dip (No: 68) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Spacecraft McIlwain L Shell assuming a dipole magnetic field."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/6): "lshell"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F12.7"
+     LABLAXIS        (CDF_CHAR/6): "lshell"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/113): "The McIlwain L-Shell at the spacecraft location assuming a dipole magnetic field model and using SM coordinates. "
+
+mlt (No: 69) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Spacecraft Magnetic local time in SM coordinates."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/3): "mlt"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F12.7"
+     LABLAXIS        (CDF_CHAR/3): "mlt"
+     UNITS           (CDF_CHAR/5): "hh:mm"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 24.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/49): "Spacecraft magnetic local time in SM coordinates."
+
+energy_kev (No: 70) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Raw images energy values"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "indexvar9"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/6): "energy"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F12.7"
+     LABLAXIS        (CDF_CHAR/6): "energy"
+     UNITS           (CDF_CHAR/3): "keV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/100): "Array of energy values (in keV) for the images.  Nominally 1, 4, 8, 12, 16, 20, 25, 30, and 50 keV. "
+
+all_energies (No: 71) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "0 for a Differential Energy Flux image. 1 for an All Energies image"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/10): "image type"
+     FILLVAL         (CDF_INT2/1): -1
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/10): "image type"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+saveset_version (No: 72) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "saveset_version"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/15): "saveset_version"
+     FILLVAL         (CDF_INT2/1): -1
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/15): "saveset_version"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 99
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+title (No: 73) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/89): "[LIST ONLY] Start and stop times of the image, along with the selected number of sweeps. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "times/sweeps"
+     FORMAT          (CDF_CHAR/3): "a65"
+     LABLAXIS        (CDF_CHAR/12): "times/sweeps"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+units_of_twins_image (No: 74) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "[LIST ONLY] units of raw twins image"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/5): "units"
+     FORMAT          (CDF_CHAR/3): "a17"
+     LABLAXIS        (CDF_CHAR/5): "units"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+sw_version (No: 75) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "[LIST ONLY] Software version"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/16): "software version"
+     FORMAT          (CDF_CHAR/3): "a12"
+     LABLAXIS        (CDF_CHAR/16): "software version"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+creation_time (No: 76) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "[LIST ONLY] Time image was created"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/19): "image creation time"
+     FORMAT          (CDF_CHAR/3): "a24"
+     LABLAXIS        (CDF_CHAR/19): "image creation time"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+twins_image (No: 77) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "TWINS Raw Image for all energies"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "indexvar9"
+     FIELDNAM        (CDF_CHAR/15): "twins_raw_image"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/15): "twins_raw_image"
+     UNITS           (CDF_CHAR/19): "Flux (cm^2 sr s)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+twins_image_e1 (No: 78) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "TWINS Raw Image @ 1 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/41): "TWINS Raw Image @ 1 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/18): "twins_raw_image_e1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/603): "TWINS raw image at 1 keV energy, in units of (cm^2 sr s eV)^-1.  These images are derived on the ground from direct events measurements of the time of flight and detection location on the anode for individual ENAs.  Each image has 4x4 degree angular resolution and includes 15 minutes of data. The first dimension of the image represents the scan angle in instrument coordinates.  In this system the azimuthal attitude vector points to +90 degree scan angle.  The second is the imaged angle, where 90 degrees is the central viewing angle of the instrument and the direction of the polar attitude vector."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_image_e2 (No: 79) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "TWINS Raw Image @ 4 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/41): "TWINS Raw Image @ 4 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/18): "twins_raw_image_e2"
+     UNITS           (CDF_CHAR/34): "Flux Per Energy (cm^2 sr s eV)^-1 "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/71): "TWINS raw image at 4 keV energy, in the same format as the 1 keV image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_image_e3 (No: 80) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "TWINS Raw Image @ 8 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/41): "TWINS Raw Image @ 8 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/18): "twins_raw_image_e3"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/71): "TWINS raw image at 8 keV energy, in the same format as the 1 keV image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_image_e4 (No: 81) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "TWINS Raw Image @ 12 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/42): "TWINS Raw Image @ 12 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/19): " twins_raw_image_e4"
+     UNITS           (CDF_CHAR/35): "Flux Per Energy (cm^2 sr s eV)^-1  "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/72): "TWINS raw image at 12 keV energy, in the same format as the 1 keV image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_image_e5 (No: 82) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "TWINS Raw Image @ 16 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/42): "TWINS Raw Image @ 16 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/18): "twins_raw_image_e5"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/72): "TWINS raw image at 16 keV energy, in the same format as the 1 keV image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_image_e6 (No: 83) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "TWINS Raw Image @ 20 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/42): "TWINS Raw Image @ 20 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/18): "twins_raw_image_e6"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/72): "TWINS raw image at 20 keV energy, in the same format as the 1 keV image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_image_e7 (No: 84) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "TWINS Raw Image @ 25 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/42): "TWINS Raw Image @ 25 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/18): "twins_raw_image_e7"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/72): "TWINS raw image at 25 keV energy, in the same format as the 1 keV image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_image_e8 (No: 85) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "TWINS Raw Image @ 30 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/42): "TWINS Raw Image @ 30 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/18): "twins_raw_image_e8"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/72): "TWINS raw image at 30 keV energy, in the same format as the 1 keV image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_image_e9 (No: 86) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "TWINS Raw Image @ 50 keV (cm^2 sr s eV)^-1 "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/42): "TWINS Raw Image @ 50 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/18): "twins_raw_image_e9"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/72): "TWINS raw image at 50 keV energy, in the same format as the 1 keV image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_Mimage_e1 (No: 87) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "TWINS Raw Image Movie @ 1 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/47): "TWINS Raw Image Movie @ 1 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/47): "TWINS Raw Image Movie @ 1 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "A series of TWINS raw images at 1 keV energy. These are the same images as in the twins_image_e1 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "twins_image_e1"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_Mimage_e2 (No: 88) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "TWINS Raw Image Movie @ 4 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/47): "TWINS Raw Image Movie @ 4 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/47): "TWINS Raw Image Movie @ 4 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "A series of TWINS raw images at 4 keV energy. These are the same images as in the twins_image_e2 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "twins_image_e2"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_Mimage_e3 (No: 89) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "TWINS Raw Image Movie @ 8 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/47): "TWINS Raw Image Movie @ 8 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/47): "TWINS Raw Image Movie @ 8 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "A series of TWINS raw images at 8 keV energy. These are the same images as in the twins_image_e3 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "twins_image_e3"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_Mimage_e4 (No: 90) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "TWINS Raw Image Movie @ 12 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/48): "TWINS Raw Image Movie @ 12 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/48): "TWINS Raw Image Movie @ 12 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/107): "A series of TWINS raw images at 12 keV energy. These are the same images as in the twins_image_e4 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "twins_image_e4"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_Mimage_e5 (No: 91) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "TWINS Raw Image Movie @ 16 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/48): "TWINS Raw Image Movie @ 16 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/47): "TWINS RawImage Movie @ 16 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/107): "A series of TWINS raw images at 16 keV energy. These are the same images as in the twins_image_e5 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "twins_image_e5"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_Mimage_e6 (No: 92) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "TWINS Raw Image Movie @ 20 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/48): "TWINS Raw Image Movie @ 20 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/48): "TWINS Raw Image Movie @ 20 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/107): "A series of TWINS raw images at 20 keV energy. These are the same images as in the twins_image_e6 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "twins_image_e6"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_Mimage_e7 (No: 93) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "TWINS Raw Image Movie @ 25 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/48): "TWINS Raw Image Movie @ 25 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/48): "TWINS Raw Image Movie @ 25 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/107): "A series of TWINS raw images at 25 keV energy. These are the same images as in the twins_image_e7 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "twins_image_e7"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_Mimage_e8 (No: 94) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "TWINS Raw Image Movie @ 30 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/48): "TWINS Raw Image Movie @ 30 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/48): "TWINS Raw Image Movie @ 30 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/107): "A series of TWINS raw images at 30 keV energy. These are the same images as in the twins_image_e8 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "twins_image_e8"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+twins_Mimage_e9 (No: 95) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "TWINS Raw Image Movie @ 50 keV (cm^2 sr s eV)^-1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/48): "TWINS Raw Image Movie @ 50 keV (cm^2 sr s eV)^-1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     LABLAXIS        (CDF_CHAR/48): "TWINS Raw Image Movie @ 50 keV (cm^2 sr s eV)^-1"
+     UNITS           (CDF_CHAR/33): "Flux Per Energy (cm^2 sr s eV)^-1"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/107): "A series of TWINS raw images at 50 keV energy. These are the same images as in the twins_image_e9 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "twins_image_e9"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_image (No: 96) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Raw Error Image"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     FIELDNAM        (CDF_CHAR/15): "raw_error_image"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/15): "raw_error_image"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+error_image_e1 (No: 97) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "Raw Error Image @ 1 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/23): "Raw Error Image @ 1 keV"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e1"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/198): "TWINS error image for raw image at 1 keV energy. The error in the flux for each pixel is based on the error in the fit of flux vs energy used to determine the flux value given in the primary image. "
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_image_e2 (No: 98) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "Raw Error Image @ 4 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/23): "Raw Error Image @ 4 keV"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error image_e2"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/83): "TWINS raw error image at 4 keV energy, in the same format as the 1 keV error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_image_e3 (No: 99) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "Raw Error Image @ 8 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/23): "Raw Error Image @ 8 keV"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e3"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/83): "TWINS raw error image at 8 keV energy, in the same format as the 1 keV error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_image_e4 (No: 100) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Raw Error Image @ 12 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/24): "Raw Error Image @ 12 keV"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e4"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/84): "TWINS raw error image at 12 keV energy, in the same format as the 1 keV error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_image_e5 (No: 101) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Raw Error Image @ 16 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/24): "Raw Error Image @ 16 keV"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e5"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/84): "TWINS raw error image at 16 keV energy, in the same format as the 1 keV error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_image_e6 (No: 102) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Raw Error Image @ 20 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/24): "Raw Error Image @ 20 keV"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e6"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/84): "TWINS raw error image at 20 keV energy, in the same format as the 1 keV error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_image_e7 (No: 103) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Raw Error Image @ 25 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/24): "Raw Error Image @ 25 keV"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e7"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/84): "TWINS raw error image at 25 keV energy, in the same format as the 1 keV error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_image_e8 (No: 104) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Raw Error Image @ 30 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/24): "Raw Error Image @ 30 keV"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e8"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/84): "TWINS raw error image at 30 keV energy, in the same format as the 1 keV error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_image_e9 (No: 105) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Raw Error Image @ 50 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/20): "skymap>THUMBSIZE>166"
+     FIELDNAM        (CDF_CHAR/24): "Raw Error Image @ 50 keV"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e9"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/84): "TWINS raw error image at 50 keV energy, in the same format as the 1 keV error image."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_Mimage_e1 (No: 106) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Movie of Raw Error Images @ 1 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/18): "raw_error_image_e1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e1"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/105): "A series of TWINS raw error images at 1 keV. These are the same images as in the error_image_e1 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "error_image_e1"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_Mimage_e2 (No: 107) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Movie of Raw Error Images @ 4 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/18): "raw_error image_e2"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e2"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/101): "A series of TWINS error images at 4 keV. These are the same images as in the error_image_e2 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "error_image_e2"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_Mimage_e3 (No: 108) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Movie of Raw Error Images @ 8 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/18): "Raw_Error_image_e3"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e3"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/105): "A series of TWINS raw error images at 8 keV. These are the same images as in the error_image_e3 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "error_image_e3"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_Mimage_e4 (No: 109) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Movie of Raw Error Images @ 12 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/18): "Raw_Error_image_e4"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e4"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "A series of TWINS raw error images at 12 keV. These are the same images as in the error_image_e4 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "error_image_e4"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_Mimage_e5 (No: 110) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Movie of Raw Error Images @ 16 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/18): "Raw_Error_image_e5"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e5"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "A series of TWINS raw error images at 16 keV. These are the same images as in the error_image_e5 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "error_image_e5"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_Mimage_e6 (No: 111) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Movie of Raw Error Images @ 20 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/18): "Raw_Error_image_e6"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e6"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "A series of TWINS raw error images at 20 keV. These are the same images as in the error_image_e6 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "error_image_e6"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_Mimage_e7 (No: 112) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Movie of Raw Error Images @ 25 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/18): "Raw_Error_image_e7"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e7"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "A series of TWINS raw error images at 25 keV. These are the same images as in the error_image_e7 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "error_image_e7"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_Mimage_e8 (No: 113) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Movie of Raw Error Images @ 30 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/18): "Raw_Error_image_e8"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e8"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "A series of TWINS raw error images at 30 keV. These are the same images as in the error_image_e8 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "error_image_e8"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+error_Mimage_e9 (No: 114) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Movie of Raw Error Images @ 50 keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "sc_posv_re_eci"
+     DEPEND_2        (CDF_CHAR/13): "spin_axis_eci"
+     DEPEND_3        (CDF_CHAR/12): "sun_posv_eci"
+     DEPEND_4        (CDF_CHAR/18): "prime_meridian_eci"
+     DEPEND_5        (CDF_CHAR/7): "mag_eci"
+     DEPEND_6        (CDF_CHAR/5): "title"
+     DISPLAY_TYPE    (CDF_CHAR/12): "skymap_movie"
+     FIELDNAM        (CDF_CHAR/18): "Raw_Error_image_e9"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/18): "raw_error_image_e9"
+     UNITS           (CDF_CHAR/16): "Fractional Error"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/106): "A series of TWINS raw error images at 50 keV. These are the same images as in the error_image_e9 variable."
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "error_image_e9"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+indexvar9 (No: 115) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/9): "indexvar9"
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_UCHAR/9): "indexvar9"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 9
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/23): "Depend_1 for Energy KeV"
+

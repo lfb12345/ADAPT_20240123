@@ -1,0 +1,1799 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sx_k0_30f_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sx_k0_30f_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     86
+NumAttrs:     49 (25 global, 24 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/38): 	"Space Physics>Magnetospheric Science  "
+Source_name (1 entry):
+	0 (CDF_CHAR/49): 	"SAMPEX>Solar Anomalous Magnetic Particle Explorer"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/20): 	"30F>30 second Fluxes"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/32): 	"SAMPEX 30-second averaged fluxes"
+TEXT (1 entry):
+	0 (CDF_CHAR/1): 	" "
+MODS (0 entry):
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0251"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"SX_K0_30F_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"SX_K0_30F"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/36): 	"30-s averaged fluxes: 4 Instruments "
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"Glenn Mason "
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/8): 	"JHU/APL "
+Mission_group (2 entries):
+	0 (CDF_UCHAR/6): 	"SAMPEX"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"asco-00001"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/41): 	"SAMPEX_fluxes_Key-Parameters_30sec_k0_cdf"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/67): 	"Additional and higher-resolution data products now available at the"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/18): 	"SAMPEX Data Center"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/55): 	"http://www.srl.caltech.edu/sampex/DataCenter/index.html"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/42): 	"spase://NASA/NumericalData/SAMPEX/PT30.00S"
+
+Variable Attributes (24 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+LABL_PTR_1
+UNIT_PTR
+DICT_KEY
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+VAR_NOTES
+AVG_TYPE
+SCALETYP
+DISPLAY_TYPE
+
+Variable Information (0 rVariable, 86 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+sampex_time           CDF_INT4/1	0:[]	T/  
+iso_time              CDF_CHAR/24	0:[]	T/  
+orbit                 CDF_INT4/1	0:[]	T/  
+mdf_vers              CDF_INT2/1	0:[]	T/  
+bl_igrf_vers          CDF_INT2/1	0:[]	T/  
+mag_eph_vers          CDF_INT2/1	0:[]	T/  
+geo_POS               CDF_REAL4/1	1:[3]	T/T
+geo_alt               CDF_REAL4/1	0:[]	T/  
+gei_pos               CDF_REAL4/1	1:[3]	T/T
+gei_vel               CDF_REAL4/1	1:[3]	T/T
+dir_cos               CDF_REAL4/1	2:[3,3]	T/TT
+exo_temp              CDF_REAL4/1	0:[]	T/  
+drag                  CDF_REAL4/1	0:[]	T/  
+geomag_index          CDF_REAL4/1	0:[]	T/  
+ecd_pos               CDF_REAL4/1	1:[3]	T/T
+ecd_lt                CDF_REAL4/1	0:[]	T/  
+L_shell               CDF_REAL4/1	0:[]	T/  
+Bfield_mag            CDF_REAL4/1	0:[]	T/  
+equat_lt              CDF_REAL4/1	0:[]	T/  
+invlat                CDF_REAL4/1	0:[]	T/  
+pitch                 CDF_REAL4/1	0:[]	T/  
+losscone1             CDF_REAL4/1	0:[]	T/  
+losscone2             CDF_REAL4/1	0:[]	T/  
+b_vect_gei            CDF_REAL4/1	1:[3]	T/T
+b_vect_geogr          CDF_REAL4/1	1:[3]	T/T
+dipole_mom            CDF_REAL4/1	1:[3]	T/T
+dipole_displace       CDF_REAL4/1	1:[3]	T/T
+declination           CDF_REAL4/1	0:[]	T/  
+dip                   CDF_REAL4/1	0:[]	T/  
+mag_rad               CDF_REAL4/1	0:[]	T/  
+mag_lat               CDF_REAL4/1	0:[]	T/  
+mirror_point          CDF_REAL4/1	1:[3]	T/T
+mag_equator           CDF_REAL4/1	1:[4]	T/T
+N_mirror_params       CDF_REAL4/1	1:[4]	T/T
+S_mirror_params       CDF_REAL4/1	1:[4]	T/T
+cutoff                CDF_REAL4/1	0:[]	T/  
+saa_flag              CDF_INT2/1	0:[]	T/  
+zenith_z              CDF_REAL4/1	0:[]	T/  
+azimuth_z             CDF_REAL4/1	0:[]	T/  
+ctrl_mode             CDF_INT2/1	0:[]	T/  
+sun_b_angle           CDF_REAL4/1	0:[]	T/  
+lica_flag             CDF_INT2/1	1:[6]	T/T
+HILT_flag             CDF_INT2/1	1:[7]	T/T
+MAST_flag             CDF_INT2/1	1:[4]	T/T
+PET_flag              CDF_INT2/1	1:[4]	T/T
+zGT2_DIF_FLX          CDF_REAL4/1	1:[9]	T/T
+He_dif_flux           CDF_REAL4/1	1:[4]	T/T
+Prot_Dif_Flux         CDF_REAL4/1	1:[2]	T/T
+Elect_Dif_Flx         CDF_REAL4/1	1:[2]	T/T
+Int_Flux              CDF_REAL4/1	0:[]	T/  
+zGT2_FLX_SIG          CDF_REAL4/1	1:[9]	T/T
+He_flx_sigma          CDF_REAL4/1	1:[4]	T/T
+Prot_Flux_Sigma       CDF_REAL4/1	1:[2]	T/T
+Elect_Flx_Sigma       CDF_REAL4/1	1:[2]	T/T
+Int_Flux_sigma        CDF_REAL4/1	0:[]	T/  
+zGT2_Energy           CDF_REAL4/1	1:[9]	F/T
+zGT2_Halfwide         CDF_REAL4/1	1:[9]	F/T
+zGT2_Channels         CDF_CHAR/20	1:[9]	F/T
+He_Energy             CDF_REAL4/1	1:[4]	F/T
+He_Halfwide           CDF_REAL4/1	1:[4]	F/T
+He_Channels           CDF_CHAR/18	1:[4]	F/T
+Proton_Energy         CDF_REAL4/1	1:[2]	F/T
+Proton_Halfwide       CDF_REAL4/1	1:[2]	F/T
+Proton_Channels       CDF_CHAR/13	1:[2]	F/T
+Ele_Energy            CDF_REAL4/1	1:[2]	F/T
+Ele_Halfwide          CDF_REAL4/1	1:[2]	F/T
+Ele_Channels          CDF_CHAR/14	1:[2]	F/T
+label_geogrpos        CDF_CHAR/9	1:[3]	F/T
+label_gei             CDF_CHAR/5	1:[3]	F/T
+label_body            CDF_CHAR/2	1:[3]	F/T
+label_vgei            CDF_CHAR/6	1:[3]	F/T
+label_dircos          CDF_CHAR/10	2:[3,3]	F/TT
+label_ecd             CDF_CHAR/11	1:[3]	F/T
+label_bgei            CDF_CHAR/6	1:[3]	F/T
+label_bgeogr          CDF_CHAR/8	1:[3]	F/T
+label_dipole          CDF_CHAR/2	1:[3]	F/T
+label_displace        CDF_CHAR/15	1:[3]	F/T
+label_mirror          CDF_CHAR/9	1:[3]	F/T
+label_4element        CDF_CHAR/9	1:[4]	F/T
+unit_kdd              CDF_CHAR/3	1:[3]	F/T
+unit_Gkdd             CDF_CHAR/5	1:[4]	F/T
+label_LICAflg         CDF_CHAR/20	1:[6]	F/T
+label_HILTflg         CDF_CHAR/26	1:[7]	F/T
+label_MASTflg         CDF_CHAR/19	1:[4]	F/T
+label_PETflg          CDF_CHAR/19	1:[4]	F/T
+
+
+Variable (86 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:20.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:20.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/39): "Universal Time. dd-mm-yyyy hh:mm:ss.sss"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+sampex_time (No: 1) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "sampex time"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 315360000
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 315360000
+     LABLAXIS        (CDF_CHAR/11): "sampex time"
+     UNITS           (CDF_CHAR/7): "seconds"
+     FORMAT          (CDF_CHAR/3): "I10"
+     MONOTON         (CDF_CHAR/4): "True"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/70): "sampex time:seconds since 01Jan92 00:00:00 of current 6-second MDF bin"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+iso_time (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "ISO standard time"
+     VALIDMIN        (CDF_CHAR/24): "1992-01-01T00:00:0000000"
+     VALIDMAX        (CDF_CHAR/24): "2020-01-01T00:00:0000000"
+     SCALEMIN        (CDF_CHAR/24): "1992-01-01T00:00:0000000"
+     SCALEMAX        (CDF_CHAR/24): "2020-01-01T00:00:0000000"
+     LABLAXIS        (CDF_CHAR/8): "ISO time"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "C24"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_CHAR/24): "FFFFFFFFFFFFFFFFFFFFFFFF"
+     CATDESC         (CDF_CHAR/50): "ISO standard time 8601; (yyyy-mm-ddThh:mm:ssbbbbb)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+orbit (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "orbit number"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 75920
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 75920
+     LABLAXIS        (CDF_CHAR/5): "orbit"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I8"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/73): " Orbit number. increases by one at each north-going passage over equator."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+mdf_vers (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "software version number"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 99
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 99
+     LABLAXIS        (CDF_CHAR/8): "MDF vers"
+     UNITS           (CDF_CHAR/8): "no units"
+     FORMAT          (CDF_CHAR/3): "I3 "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/40): "software version number of MDF generator"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+bl_igrf_vers (No: 5) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "BL_IGRF software vers."
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 99
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 99
+     LABLAXIS        (CDF_CHAR/9): "IGRF vers"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "I3 "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/94): "BL_IGRF software vers. Version number of BL_IGRF software formodel magnetic field calculations"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+mag_eph_vers (No: 6) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Magnetic model vers."
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 99
+     SCALEMIN        (CDF_INT2/1): 1
+     SCALEMAX        (CDF_INT2/1): 99
+     LABLAXIS        (CDF_CHAR/8): "MAG vers"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): " I3 "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/75): "Magnetic model vers. Software versionnumber for magnetic ephemeris library."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+geo_POS (No: 7) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "geographic sphr. coords"
+     VALIDMIN        (CDF_REAL4/3): 6500.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/3): 8000.0, 360.0, 90.0
+     SCALEMIN        (CDF_REAL4/3): 6500.0, 0.0, -90.0
+     SCALEMAX        (CDF_REAL4/3): 8000.0, 360.0, 90.0
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/63): "geographic spherical coords: radial distance,longitude,latitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "label_geogrpos"
+     LABL_PTR_1      (CDF_CHAR/14): "label_geogrpos"
+     UNIT_PTR        (CDF_CHAR/8): "unit_kdd"
+     DICT_KEY        (CDF_CHAR/19): "position>geographic"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+geo_alt (No: 8) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "geographic altitude"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     SCALEMIN        (CDF_REAL4/1): 100.0
+     SCALEMAX        (CDF_REAL4/1): 2000.0
+     LABLAXIS        (CDF_CHAR/10): "Geogr alt."
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/6): "E11.3 "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/55): "geographic altitude. Altitude aboveEarth's surface (km)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+gei_pos (No: 9) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "GEI X,Y,Z coordinates"
+     VALIDMIN        (CDF_REAL4/1): -8000.0
+     VALIDMAX        (CDF_REAL4/1): 8000.0
+     SCALEMIN        (CDF_REAL4/1): -8000.0
+     SCALEMAX        (CDF_REAL4/1): 8000.0
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/70): "GEI X,Y,Z coordinates (km);X-Y in equatorial plane;X to vernal equinox"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "label_gei"
+     LABL_PTR_1      (CDF_CHAR/9): "label_gei"
+     DICT_KEY        (CDF_CHAR/19): "position>geographic"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+gei_vel (No: 10) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "GEI velocity"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): -10.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/29): "GEI velocity. VX,VY,VZ (km/s)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "label_vgei"
+     LABL_PTR_1      (CDF_CHAR/10): "label_vgei"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+dir_cos (No: 11) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "direction cosines"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/96): "direction cosines. 9-element direction array for GEI-to-body-fixed coords change. Z is bore axis"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "label_gei"
+     DEPEND_2        (CDF_CHAR/10): "label_body"
+     LABL_PTR_1      (CDF_CHAR/12): "label_dircos"
+     DICT_KEY        (CDF_CHAR/22): "angle>direction_cosine"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+exo_temp (No: 12) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "exospheric temperature"
+     VALIDMIN        (CDF_REAL4/1): 300.0
+     VALIDMAX        (CDF_REAL4/1): 8000.0
+     SCALEMIN        (CDF_REAL4/1): 300.0
+     SCALEMAX        (CDF_REAL4/1): 8000.0
+     LABLAXIS        (CDF_CHAR/9): "exos temp"
+     UNITS           (CDF_CHAR/6): "Kelvin"
+     FORMAT          (CDF_CHAR/6): "E11.3 "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/60): "exospheric temperature, Kelvinused in orbit propagation code"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "temperature"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+drag (No: 13) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "drag factor"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 0.0
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 0.0
+     LABLAXIS        (CDF_CHAR/11): "drag factor"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/62): "drag factor: used in orbit propagation; drag coef=(1+drag)*2.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/18): "number>drag_factor"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+geomag_index (No: 14) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "geomagnetic activity index,Kp"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     LABLAXIS        (CDF_CHAR/16): "geomag index, Kp"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/30): "geomagnetic activity index, Kp"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "magnetic_field>index"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+ecd_pos (No: 15) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "eccentric dipole position"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 360.0, 90.0
+     SCALEMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     SCALEMAX        (CDF_REAL4/3): 2000.0, 360.0, 90.0
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/48): "eccentric dipole position:Distance (km),Long,Lat"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "label_ecd"
+     LABL_PTR_1      (CDF_CHAR/9): "label_ecd"
+     UNIT_PTR        (CDF_CHAR/8): "unit_kdd"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+ecd_lt (No: 16) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "local time in ECD"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 24.0
+     LABLAXIS        (CDF_CHAR/6): "ECD LT"
+     UNITS           (CDF_CHAR/5): "hours"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/41): "local time in ECD. ECcentric Dipole hh.hh"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+L_shell (No: 17) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "L-shell"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 9000.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 9000.0
+     LABLAXIS        (CDF_CHAR/13): "L-shell value"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/7): "E11.3  "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/32): "L-shell parameter (MacIllwain's)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Bfield_mag (No: 18) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "model B-field magnitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     LABLAXIS        (CDF_CHAR/12): "B-field mag."
+     UNITS           (CDF_CHAR/5): "Gauss"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/30): "model B-field magnitude, Gauss"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/29): "magnetic_field>IGRF_magnitude"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+equat_lt (No: 19) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "local time at mag. equat."
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 24.0
+     LABLAXIS        (CDF_CHAR/14): "mag equator LT"
+     UNITS           (CDF_CHAR/5): "hours"
+     FORMAT          (CDF_CHAR/6): "E11.3 "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/38): "local time at magnetic equator (hours)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+invlat (No: 20) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "invariant latitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/18): "invariant latitude"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/32): "invariant latitude, deg. Dipole."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/21): "position>inv_latitude"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+pitch (No: 21) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "particle pitch angle"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/11): "pitch angle"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/25): "particle pitch angle,deg."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "angle>pitch"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+losscone1 (No: 22) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "losscone 1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/15): "losscone,100 km"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/7): "E11.3  "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/89): "losscome 1: Pitch half-angle of cone withparticles that mirror at <100 km,same hemisphere"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/15): "angle>loss_cone"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+losscone2 (No: 23) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "losscone 2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/19): "losscone, <100 km. "
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/7): "E11.3  "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/100): "losscone 2:Pitch-angle cone containing particles mirroring at <100 km,at either(other ??) hemisphere"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/15): "angle>loss_cone"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+b_vect_gei (No: 24) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Magnetic field components."
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/5): "gauss"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/50): "Magnetic field components in GEI: Bx,By, Bz, Gauss"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "label_bgei"
+     LABL_PTR_1      (CDF_CHAR/10): "label_bgei"
+     DICT_KEY        (CDF_CHAR/21): "magnetic_field>vector"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+b_vect_geogr (No: 25) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Mag vector, geographic"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/5): "gauss"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/80): "Mag vector, geographic: magnetic components,radial,south (theta), and east (phi)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "label_bgeogr"
+     LABL_PTR_1      (CDF_CHAR/12): "label_bgeogr"
+     DICT_KEY        (CDF_CHAR/21): "magnetic_field>vector"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+dipole_mom (No: 26) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "dipole moment vector."
+     VALIDMIN        (CDF_REAL4/1): -99.0
+     VALIDMAX        (CDF_REAL4/1): 99.0
+     SCALEMIN        (CDF_REAL4/1): -99.0
+     SCALEMAX        (CDF_REAL4/1): 99.0
+     UNITS           (CDF_CHAR/11): "Gauss RE**3"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/56): "dipole moment vector components in geographic Cartesians"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "label_dipole"
+     LABL_PTR_1      (CDF_CHAR/12): "label_dipole"
+     DICT_KEY        (CDF_CHAR/28): "magnetic_field>dipole_moment"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+dipole_displace (No: 27) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "dipole location vector."
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): -1000.0
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/39): "dipole location vector: displacement,km"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "label_displace"
+     LABL_PTR_1      (CDF_CHAR/14): "label_displace"
+     DICT_KEY        (CDF_CHAR/19): "position>geographic"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+declination (No: 28) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "magnetic declination"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     LABLAXIS        (CDF_CHAR/15): "declination,deg"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/6): "E11.3 "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/59): "magnetic declination, measured eastward of geographic north"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/17): "angle>declination"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+dip (No: 29) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "mag dip angle"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/9): "dip angle"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/7): "E11.3  "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/60): "mag dip angle: vector's deviation from horizontal plane, deg"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "angle>dip"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+mag_rad (No: 30) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "mag radial distance"
+     VALIDMIN        (CDF_REAL4/1): 6378.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 6378.0
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     LABLAXIS        (CDF_CHAR/14): "mag rad dis,km"
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/72): " mag radial distance of ECD B-field line top point,km; akin to dipole L."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+mag_lat (No: 31) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "IGRF inv_mag latitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/12): "mag inv_lat."
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/51): "IGRF inv_mag latitude, deg; akin to dipole Inv_Lat."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/18): "angle>inv_latitude"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+mirror_point (No: 32) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "mirror location"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 360.0, 90.0
+     SCALEMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     SCALEMAX        (CDF_REAL4/3): 2000.0, 360.0, 90.0
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/29): "mirror location: alt,long,lat"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "label_mirror"
+     LABL_PTR_1      (CDF_CHAR/12): "label_mirror"
+     UNIT_PTR        (CDF_CHAR/8): "unit_kdd"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+mag_equator (No: 33) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "magnetic equator"
+     VALIDMIN        (CDF_REAL4/4): 0.0, 100.0, 0.0, -30.0
+     VALIDMAX        (CDF_REAL4/4): 1.0, 2000.0, 360.0, 30.0
+     SCALEMIN        (CDF_REAL4/4): 0.0, 100.0, 0.0, -30.0
+     SCALEMAX        (CDF_REAL4/4): 1.0, 2000.0, 360.0, 30.0
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/81): "magnetic equator: B-field magnitude,alt.,geogr_long. and lat. at mag_equator pass"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "label_4element"
+     LABL_PTR_1      (CDF_CHAR/14): "label_4element"
+     UNIT_PTR        (CDF_CHAR/9): "unit_Gkdd"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+N_mirror_params (No: 34) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "parameters at N100 mirror"
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/4): 1.0, 300.0, 360.0, 90.0
+     SCALEMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, -90.0
+     SCALEMAX        (CDF_REAL4/4): 1.0, 300.0, 360.0, 90.0
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/96): "parameters at N100 mirror: B-magnitude,alt.,geogr_long,lat at north '100 km' level of field line"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "label_4element"
+     LABL_PTR_1      (CDF_CHAR/14): "label_4element"
+     UNIT_PTR        (CDF_CHAR/9): "unit_Gkdd"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+S_mirror_params (No: 35) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "parameters at S100 mirror"
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/4): 1.0, 300.0, 360.0, 90.0
+     SCALEMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, -90.0
+     SCALEMAX        (CDF_REAL4/4): 1.0, 300.0, 360.0, 90.0
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/94): "parameters at S100 mirror: B-magnitude,alt., geogr_long,lat. at south '100 km' point on B-line"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "label_4element"
+     LABL_PTR_1      (CDF_CHAR/14): "label_4element"
+     UNIT_PTR        (CDF_CHAR/9): "unit_Gkdd"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+cutoff (No: 36) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "vertical cutoff"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/6): "cutoff"
+     UNITS           (CDF_CHAR/2): "GV"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/55): "vertical cutoff nominal rigidity (GV) at 20 km altitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+saa_flag (No: 37) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "South Atlantic Anomaly flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 1
+     LABLAXIS        (CDF_CHAR/8): "SAA flag"
+     UNITS           (CDF_CHAR/8): "no units"
+     FORMAT          (CDF_CHAR/3): "I3 "
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/52): "Aouth Atlantic Anamoly flag: 0=not in SAA; 1= in SAA"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "flag>saa"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+zenith_z (No: 38) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "zenith-bore angle"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/15): "bore angle,deg "
+     UNITS           (CDF_CHAR/8): "degrees "
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/81): "zenith-bore angle: angle between zenith and S/C z-axis,i.e, instrument bore. axis"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+azimuth_z (No: 39) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "azimuth"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     LABLAXIS        (CDF_CHAR/7): "azimuth"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/75): "azimuth:  angle of s/c z-axis projected on horizontal plane;0=east,90=north"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+ctrl_mode (No: 40) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "ACS control mode"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 4
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 4
+     LABLAXIS        (CDF_CHAR/9): "ctrl mode"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/16): "ACS control mode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_NOTES       (CDF_CHAR/45): "0=sunpoint; 1=mag_cal; 2=orb_rotation 3=coast"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+sun_b_angle (No: 41) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Sun-B angle"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     LABLAXIS        (CDF_CHAR/18): "cosine Sun-B angle"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/74): "Sun-B angle: cos of angle between sun line and local magnetic field vector"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+lica_flag (No: 42) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "LICA flags"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/12): "6 LICA flags"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "label_LICAflg"
+     LABL_PTR_1      (CDF_CHAR/13): "label_LICAflg"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     VAR_NOTES       (CDF_CHAR/230): "For each of 6 flags, 0 means gooddata. But F1=1: LICA off; F2=1: calibrationtime; F3=1: excessive HV;F4=1: some noisy-SSD data; F5=1:some noisy-MCP data; F6=1: some abnormality.When F1 or F2 or F3 or F6 is 1, data is a fill value."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+HILT_flag (No: 43) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "HILT FLAGS"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/13): "7 HILT flags "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "label_HILTflg"
+     LABL_PTR_1      (CDF_CHAR/13): "label_HILTflg"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     VAR_NOTES       (CDF_CHAR/275): "For each of 7 flags, 0=good data.But, F1=1: HILT off; F2=1: calibrationtime; F3=1: some noisy 4-9 MeV/n data;F4=1: some noisy 9-38 MeV/n data;F5=1: some noisy 8-42 MeV/n data;F6=1: some noisy 41-220 MeV/n data;F7=1: abnormal time. When F1 or F2or F7 is 1, data is fill value."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+MAST_flag (No: 44) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "MAST flags"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/12): "4 MAST flags"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "label_MASTflg"
+     LABL_PTR_1      (CDF_CHAR/13): "label_MASTflg"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     VAR_NOTES       (CDF_CHAR/163): "For each of 4 flagss, 0=good data.But F1=1: Mast off; F2=1: calibrationtime; F3=1: abnormal time; F4=1 somenoisy data. If F1 or F2 or F3 is 1,data is a fill value."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+PET_flag (No: 45) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "PET flags"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/11): "4 PET flags"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "label_PETflg"
+     LABL_PTR_1      (CDF_CHAR/12): "label_PETflg"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     VAR_NOTES       (CDF_CHAR/167): "For each of the 4 flags, 0=good dataBut F1=1: PET off; F2=1: calibrationtime; F3=1: abnormal time; F4=1: somenoisy data. When F1 or F2 or F3 is 1,data is a fill value."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+zGT2_DIF_FLX (No: 46) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Z>2 dif flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/19): "1/(cm2 sec sr MeV/n"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/10): "FALSE     "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/76): "Z>2 dif fluxes, 9 channels (0.5-220 MeV/nu)from LICA,HILT,and MAST detectors"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "zGT2_Energy"
+     LABL_PTR_1      (CDF_CHAR/13): "zGT2_Channels"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_NOTES       (CDF_CHAR/239): "L_ = LICA; H_ = HILT; M_ = MAST. L_hipri(0.49-8.3 MeV/nu);_H_hz1(8.2-42 Mev/nu);M_hizr1(19.3-22.8 MeV/nu;_hizr2(22.8-31.0 MeV/nu);_hizr3(31.0-51.7);_hizr4(51.7-76.2 MeV/nu;_hizr5(76.2-113 MeV/nu);_hizr6(113-156 MeV/nu);H_hz2(42-220 MeV/nu)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+He_dif_flux (No: 47) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "He Dif Flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/18): "1/(cm2 s sr MeV/n)"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/6): "FALSE "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/78): "He Dif Fluxes, 4 channels (0.5-38 MeV/nu): from LICA, HILT, and MAST detectors"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "He_Energy"
+     LABL_PTR_1      (CDF_CHAR/11): "He_Channels"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_NOTES       (CDF_CHAR/111): "L_ = LICA; H_ = HILT; M_ = MAST. L_lopri(0.5-6.6 MeV/nu);H_he1(4-9 MeV/nu);M_z2(8-15 MeV/nu);H_he2(9-38 MeV/nu)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Prot_Dif_Flux (No: 48) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): " H+ Dif Flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/18): "1/(cm2 s sr MeV/n)"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/6): "False "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/63): "H+ (mainly) Dif Fluxes, 2 channels: from MAST and PET detectors"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Proton_Energy"
+     LABL_PTR_1      (CDF_CHAR/15): "Proton_Channels"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_NOTES       (CDF_CHAR/81): "M_ = MAST; P_ = PET: M_m12(5-12 MeV/nu);P_plo(19-27 MeV/nu).Fluxes are mainly H+."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Elect_Dif_Flx (No: 49) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Electr Dif Flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/16): "1/(cm2 s sr MeV)"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/6): "False "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/62): "Electr Dif Fluxes, 2 channels (1.5-14 MeV)from PET instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Ele_Energy"
+     LABL_PTR_1      (CDF_CHAR/12): "Ele_Channels"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_NOTES       (CDF_CHAR/38): "pet_elo(1.5-6 MeV);pet_ehi(2.5-14 MeV)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Int_Flux (No: 50) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Integral Flux, E- or H+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Flux:>.6 E-,+ >.8 H+"
+     UNITS           (CDF_CHAR/13): "1/(cm2 s sr) "
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "False"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/77): "Integral Flux, E- or H from LICA.E>0.6 MeV electrons and/or E>0.8 MeV protons"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_NOTES       (CDF_CHAR/26): "Data from lica_ssd channel"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+zGT2_FLX_SIG (No: 51) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Sigma:Z>2 dif fluxes"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/18): "1/(cm2 s sr MeV/n)"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/6): "FALSE "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/82): "Sigma:Z>2 dif fluxes, 9 channels (0.5-220 MeV/nu)from LICA,HILT,and MAST detectors"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "zGT2_Energy"
+     LABL_PTR_1      (CDF_CHAR/13): "zGT2_Channels"
+     DICT_KEY        (CDF_CHAR/11): "uncertainty"
+     VAR_NOTES       (CDF_CHAR/259): "L_ = LICA; H_ = HILT; M_ = MAST. All in meV/nu. L_hipri_sigma(0.49-8.3MeV/nu);_H_hz1_sigma(8.2-42);M_hizr1_sigma(19.3-22.8;_hizr2_sigma(22.8-31.0);_hizr3_sigma(31.0-51.7);_hizr4_sigma(51.7-76.2);_hizr5_sigma(76.2-113);_hizr6_sigma(113-156);H_hz2_sigma(42-220)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+He_flx_sigma (No: 52) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Sigma: He Dif Flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/18): "1/(cm2 s sr MeV/n)"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/6): "FALSE "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/84): "Sigma: He Dif Fluxes, 4 channels;(0.5-38 MeV/nu):from LICA, HILT, and MAST detectors"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "He_Energy"
+     LABL_PTR_1      (CDF_CHAR/11): "He_Channels"
+     DICT_KEY        (CDF_CHAR/11): "uncertainty"
+     VAR_NOTES       (CDF_CHAR/122): "L_ = LICA; H_ = HILT; M_ = MAST. All in MeV/nu. L_lopri_sigma(0.5-6.6MeV/nu);H_he1_sigma(4-9);M_z2_sigma(8-15);H_hz2_sigma"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Prot_Flux_Sigma (No: 53) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): " Sigma: H+ Dif Flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/18): "1/(cm2 s sr MeV/n)"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/6): "False "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/69): "Sigma: H+ (mainly) Dif Fluxes, 2 channels:from MAST and PET detectors"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Proton_Energy"
+     LABL_PTR_1      (CDF_CHAR/15): "Proton_Channels"
+     DICT_KEY        (CDF_CHAR/11): "uncertainty"
+     VAR_NOTES       (CDF_CHAR/68): "M_ =MAST; P_ =PET: M_m12_sigma(5-12);P_plo_sigma(19-27). All in MeV."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Elect_Flx_Sigma (No: 54) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Sigma: Electr Dif Fluxes"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/16): "1/(cm2 s sr MeV)"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/6): "False "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/68): "Sigma: Electr Dif Fluxes, 2 channels;(2-16 MeV) from PET instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Ele_Energy"
+     LABL_PTR_1      (CDF_CHAR/12): "Ele_Channels"
+     DICT_KEY        (CDF_CHAR/11): "uncertainty"
+     VAR_NOTES       (CDF_CHAR/52): "pet_elo_sigma (1.5-6 MeV);pet_ehi_sigma (2.5-14 MeV)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Int_Flux_sigma (No: 55) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Sigma: Int_ Flux, E- or H+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/29): "Flux:>.6 MeV E- &  >.8 MeV H+"
+     UNITS           (CDF_CHAR/12): "1/(cm2 s sr)"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     MONOTON         (CDF_CHAR/5): "False"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/83): "Sigma: Integral Flux, E- or H from LICA.E>0.6 MeV electrons and/orE>0.8 MeV protons"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "uncertainty"
+     VAR_NOTES       (CDF_CHAR/25): "Sigma from LICA_ssd_sigma"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+zGT2_Energy (No: 56) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Z>2 Mid energy"
+     VALIDMIN        (CDF_REAL4/1): 0.4
+     VALIDMAX        (CDF_REAL4/1): 160.0
+     SCALEMIN        (CDF_REAL4/1): 0.4
+     SCALEMAX        (CDF_REAL4/1): 160.0
+     LABLAXIS        (CDF_CHAR/5): "E Z>2"
+     UNITS           (CDF_CHAR/7): "MeV/nu "
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/79): "Z>2 Mid energy: Energy for Z>2 flux,9 energy bands (0.5-220 MeV/nu)center value"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     DELTA_PLUS_VAR  (CDF_CHAR/13): "zGT2_Halfwide"
+     DELTA_MINUS_VAR (CDF_CHAR/13): "zGT2_Halfwide"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+zGT2_Halfwide (No: 57) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Energy band halfwidths for Z>2"
+     VALIDMIN        (CDF_REAL4/1): 0.4
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.4
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/8): "E_band/2"
+     UNITS           (CDF_CHAR/6): "MeV/nu"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/59): "Energy band halfwidths for Z>2, 9 channels (0.5-220 MeV/nu)"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+zGT2_Channels (No: 58) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Z>2 Rate Channels "
+     FORMAT          (CDF_CHAR/3): "A11"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/63): "Z>2 Rate Channels. See description in original SAMPEX document."
+     DICT_KEY        (CDF_CHAR/14): "number>channel"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+He_Energy (No: 59) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "He Mid Energy"
+     VALIDMIN        (CDF_REAL4/1): 0.5
+     VALIDMAX        (CDF_REAL4/1): 38.0
+     SCALEMIN        (CDF_REAL4/1): 0.5
+     SCALEMAX        (CDF_REAL4/1): 38.0
+     LABLAXIS        (CDF_CHAR/5): "E: He"
+     UNITS           (CDF_CHAR/6): "MeV/nu"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/58): "He Mid Energy; 4 energy bands (0.5-38 MeV/n) center values"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     DELTA_PLUS_VAR  (CDF_CHAR/11): "He_Halfwide"
+     DELTA_MINUS_VAR (CDF_CHAR/11): "He_Halfwide"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+He_Halfwide (No: 60) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Energy bands halfwidths for He"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 40.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 40.0
+     LABLAXIS        (CDF_CHAR/8): "E_band/2"
+     UNITS           (CDF_CHAR/6): "MeV/nu"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/56): "Energy bands halfwidths for He4 channels (0.5-38 MeV/nu)"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+He_Channels (No: 61) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "He Rate Channels"
+     FORMAT          (CDF_CHAR/3): "A11"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/59): "He Rate Channels. Descriptions in original SAMPEX document."
+     DICT_KEY        (CDF_CHAR/15): "number>channel "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Proton_Energy (No: 62) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "H+ Mid Energy"
+     VALIDMIN        (CDF_REAL4/1): 4.0
+     VALIDMAX        (CDF_REAL4/1): 28.0
+     SCALEMIN        (CDF_REAL4/1): 4.0
+     SCALEMAX        (CDF_REAL4/1): 28.0
+     LABLAXIS        (CDF_CHAR/5): "E: H+"
+     UNITS           (CDF_CHAR/3): "MeV"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/58): "H+ Mid Energy. 2 Energy bands:MAST (5-12 MeV), PET (19-27)"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "Proton_Halfwide"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "Proton_Halfwide"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Proton_Halfwide (No: 63) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Energy band halfwidths for H+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 28.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 28.0
+     LABLAXIS        (CDF_CHAR/8): "E_band/2"
+     UNITS           (CDF_CHAR/3): "MeV"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/64): "Energy band halfwidths for H+ fluxes:2 channels: 5-12, 19-27 MeV"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Proton_Channels (No: 64) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "H+ Flux Channels"
+     FORMAT          (CDF_CHAR/2): "A8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/60): "H+ Flux Channels. See original SAMPEXdata description report"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Ele_Energy (No: 65) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Electron bands mid energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 16.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 16.0
+     LABLAXIS        (CDF_CHAR/4): "E e-"
+     UNITS           (CDF_CHAR/3): "MeV"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/58): "Electron band midenergy, 2 channels: 1.5-6 MeV, 2.5-14 MeV"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     DELTA_PLUS_VAR  (CDF_CHAR/12): "Ele_Halfwide"
+     DELTA_MINUS_VAR (CDF_CHAR/12): "Ele_Halfwide"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Ele_Halfwide (No: 66) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Energy band HALWIDTH"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     LABLAXIS        (CDF_CHAR/8): "E_BAND/2"
+     UNITS           (CDF_CHAR/3): "MeV"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/68): "Energy band Halfwidth:Electron Fluxes; 2 Channels: 1.5-6, 2.5-14 MeV"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     VAR_NOTES       (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/2): "  "
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+
+Ele_Channels (No: 67) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "E- Rate Channels"
+     FORMAT          (CDF_CHAR/3): "A11"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/58): "E- Rate Channels. Descriptions inoriginal SAMPEX document."
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_geogrpos (No: 68) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "geographic position"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/20): "geographic position "
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_gei (No: 69) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "GEI Position"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/12): "GEI Position"
+     DICT_KEY        (CDF_CHAR/6): "label "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_body (No: 70) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Body-centered X,Y,Z"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/18): "Body centered axes"
+     DICT_KEY        (CDF_CHAR/6): "label "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_vgei (No: 71) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "GEI Velocity"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/12): "GEI Velocity"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_dircos (No: 72) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "GEI_TO_BODY MATRIX"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/18): "GEI_TO_BODY MATRIX"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_ecd (No: 73) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Ecc_Dipole Location"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/19): "Ecc_Dipole Location"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_bgei (No: 74) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "B_Field,GEI"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/11): "B_Field,GEI"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_bgeogr (No: 75) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "B_Field, Geographic"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/19): "B_Field, Geographic"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_dipole (No: 76) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Dipole Moment Vector,geogr"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/26): "Dipole Moment Vector,geogr"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_displace (No: 77) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Dipole Location,Geogr."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/22): "Dipole Location,Geogr."
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_mirror (No: 78) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Mirror Point"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/12): "Mirror Point"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_4element (No: 79) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Parameters at Mag_equator"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/25): "Parameters at Mag_equator"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+unit_kdd (No: 80) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units km, deg, deg"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/18): "Units km, deg, deg"
+     DICT_KEY        (CDF_CHAR/11): "label>units"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+unit_Gkdd (No: 81) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "units:Gauss,km,deg,deg"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/22): "units:Gauss,km,deg,deg"
+     DICT_KEY        (CDF_CHAR/11): "label>units"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_LICAflg (No: 82) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "LICA Q_Flags"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/12): "LICA Q_Flags"
+     DICT_KEY        (CDF_CHAR/12): "label>status"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_HILTflg (No: 83) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "HILT Q-Flags"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/12): "HILT Q-Flags"
+     DICT_KEY        (CDF_CHAR/12): "label>status"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_MASTflg (No: 84) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "MAST Q-Flags"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/12): "MAST Q-Flags"
+     DICT_KEY        (CDF_CHAR/12): "label>status"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+label_PETflg (No: 85) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "PET Q-Flags"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/11): "PET Q-Flags"
+     DICT_KEY        (CDF_CHAR/12): "label>status"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+

@@ -1,0 +1,855 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_l2-30min_sms-stics-erpa-magnetosphere_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_l2-30min_sms-stics-erpa-magnetosphere_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     39
+NumAttrs:     55 (23 global, 32 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/24): 	"L2-30MIN>Level2 30minute"
+Descriptor (1 entry):
+	0 (CDF_CHAR/124): 	"SMS-STICS-ERPA-MAGNETOSPHERE>SMS Magnetosphere & Suprathermal Ion Composition Investigation magnetosphere ERPA magnetosphere"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TITLE (1 entry):
+	0 (CDF_CHAR/41): 	"WIND SMS Level2 stics erpa magnetosphere "
+TEXT (1 entry):
+	0 (CDF_CHAR/1700): 	"The Suprathermal Ion Composition Spectrometer (STICS) is a time of flight (TOF) plasma mass spectrometer, capable of identifying mass and mass per charge for incident ions up to 200 keV/e. It uses an electrostatic analyzer to admit ions of a particular energy per charge (E/Q) into the TOF chamber. The E/Q voltage is stepped through 32 values, sitting at each value for approximately 24 sec., to measure ions over the full E/Q range of 6 - 200 keV/e. Ions then pass through a carbon foil and TOF chamber, before finally impacting on a solid-state detector (SSD) for energy measurement. STICS combines these three measurements of E/Q, TOF and residual energy, producing PHA words. This triple-coincidence technique greatly improves the signal to noise ratio in the data. Measurements of E/Q and TOF without residual energy also produce PHA words. These double-coincidence measurements are characterized by better statistics since ions whose energy does not allow them to be registered by the SSD can still be counted in double-coincidence measurements. However, ion identification in double-coincidence measurements are limited to a select number of ions that are well separated in E/Q - TOF space.  The STICS instrument provides full 3D velocity distribution functions, through a combination of multiple telescopes and spacecraft spin. The instrument includes 3 separate TOF telescopes that view 3 separate latitude sectors, as shown in Figure 1. In addition, the WIND spacecraft spins, allowing the 3 telescopes to trace out a nearly 4ïÂ° steradian viewing area. The longitudinal sectors are shown in Figure 2. The solar direction is in sectors 8-10 while the earthward direction is in sectors 0-2."
+MODS (1 entry):
+	0 (CDF_CHAR/15): 	"Initial release"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0142"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/53): 	"WI_L2-30MIN_SMS-STICS-ERPA-MAGNETOSPHERE_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/40): 	"WI_L2-30MIN_SMS-STICS-ERPA-MAGNETOSPHERE"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/74): 	"Magnetosphere and Suprathermal Ion Composition  Instrument, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"S. T. Lepri"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/13): 	"U of Michigan"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/18): 	"Historic Wind SMS "
+	1 (CDF_CHAR/11): 	"Wind STICS "
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/9): 	"Home Page"
+	1 (CDF_CHAR/13): 	"Release Notes"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/26): 	"http://space.umd.edu/wind/"
+	1 (CDF_CHAR/88): 	"https://spdf.gsfc.nasa.gov/pub/data/wind/documents/wind_stics_lv2_release_notes_revD.pdf"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"sphe-00653"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/35): 	"Wind_SMS_Key-Parameters-K0_1min_cdf"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+
+Variable Attributes (32 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+SCALETYP
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+FUNCT
+VIRTUAL
+COMPONENT_0
+ARR_INDEX
+ARR_DIM
+ALLOW_BIN
+
+Variable Information (0 rVariable, 39 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+ERPA_tc_hplus         CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_hplus_sum     CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_heplus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_heplus_sum    CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_he2plus       CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_he2plus_sum   CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_oplus         CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_oplus_sum     CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_o6plus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_o6plus_sum    CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_c5plus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_c5plus_sum    CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_fe10plus      CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_fe10plus_sum  CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_cplus         CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_nplus         CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_o2plus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_o7plus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_o8plus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_c4plus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_c6plus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_fe8plus       CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_fe9plus       CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_tc_fe16plus      CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_hplus         CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_hplus_sum     CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_heplus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_heplus_sum    CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_he2plus       CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_he2plus_sum   CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_oplus         CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_oplus_sum     CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_o6plus        CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_o6plus_sum    CDF_REAL4/1	2:[12,32]	T/TT
+ERPA_dc_cplus         CDF_REAL4/1	2:[12,32]	T/TT
+eoq                   CDF_REAL4/1	1:[32]	T/T sRecords.PREV
+SECTOR_index          CDF_INT2/1	1:[12]	F/T
+SECTOR_angle          CDF_REAL4/1	1:[12]	F/T
+
+
+Variable (39 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/23): "time>Epoch_center_range"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/26): "Time start of avg interval"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+ERPA_tc_hplus (No: 1) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "erpa tc H+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "erpa tc H+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/63): "Energy-resolved pitch-angle distributions triple coincidence H+"
+     DISPLAY_TYPE    (CDF_CHAR/47): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_hplus"
+
+ERPA_tc_hplus_sum (No: 2) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "erpa tc H+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/31): "erpa tc H+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/68): "Pitch-angle distributions triple coincidence H+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/13): "ERPA_tc_hplus"
+
+ERPA_tc_heplus (No: 3) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa tc He+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa tc He+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions triple coincidence He+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_heplus"
+
+ERPA_tc_heplus_sum (No: 4) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "erpa tc He+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/32): "erpa tc He+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/69): "Pitch-angle distributions triple coincidence He+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/14): "ERPA_tc_heplus"
+
+ERPA_tc_he2plus (No: 5) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "erpa tc He2+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "erpa tc He2+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/65): "Energy-resolved pitch-angle distributions triple coincidence He2+"
+     DISPLAY_TYPE    (CDF_CHAR/49): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_he2plus"
+
+ERPA_tc_he2plus_sum (No: 6) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "erpa tc He2+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/33): "erpa tc He2+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/70): "Pitch-angle distributions triple coincidence He2+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/15): "ERPA_tc_he2plus"
+
+ERPA_tc_oplus (No: 7) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "erpa tc O+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "erpa tc O+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/63): "Energy-resolved pitch-angle distributions triple coincidence O+"
+     DISPLAY_TYPE    (CDF_CHAR/47): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_oplus"
+
+ERPA_tc_oplus_sum (No: 8) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "erpa tc O+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/31): "erpa tc O+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/68): "Pitch-angle distributions triple coincidence O+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/13): "ERPA_tc_oplus"
+
+ERPA_tc_o6plus (No: 9) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa tc O6+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa tc O6+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions triple coincidence O6+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_o6plus"
+
+ERPA_tc_o6plus_sum (No: 10) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "erpa tc O6+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/32): "erpa tc O6+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/69): "Pitch-angle distributions triple coincidence O6+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/14): "ERPA_tc_o6plus"
+
+ERPA_tc_c5plus (No: 11) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa tc C5+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa tc C5+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions triple coincidence C5+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_c5plus"
+
+ERPA_tc_c5plus_sum (No: 12) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "erpa tc C5+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/32): "erpa tc C5+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/69): "Pitch-angle distributions triple coincidence C5+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/14): "ERPA_tc_c5plus"
+
+ERPA_tc_fe10plus (No: 13) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "erpa tc Fe10+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "erpa tc Fe10+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/66): "Energy-resolved pitch-angle distributions triple coincidence Fe10+"
+     DISPLAY_TYPE    (CDF_CHAR/50): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_fe10plus"
+
+ERPA_tc_fe10plus_sum (No: 14) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "erpa tc Fe10+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/34): "erpa tc Fe10+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/71): "Pitch-angle distributions triple coincidence Fe10+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/16): "ERPA_tc_fe10plus"
+
+ERPA_tc_cplus (No: 15) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "erpa tc C+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "erpa tc C+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/63): "Energy-resolved pitch-angle distributions triple coincidence C+"
+     DISPLAY_TYPE    (CDF_CHAR/47): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_cplus"
+
+ERPA_tc_nplus (No: 16) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "erpa tc N+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "erpa tc N+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/63): "Energy-resolved pitch-angle distributions triple coincidence N+"
+     DISPLAY_TYPE    (CDF_CHAR/47): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_nplus"
+
+ERPA_tc_o2plus (No: 17) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa tc O2+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa tc O2+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions triple coincidence O2+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_o2plus"
+
+ERPA_tc_o7plus (No: 18) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa tc O7+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa tc O7+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions triple coincidence O7+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_o7plus"
+
+ERPA_tc_o8plus (No: 19) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa tc O8+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa tc O8+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions triple coincidence O8+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_o8plus"
+
+ERPA_tc_c4plus (No: 20) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa tc C4+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa tc C4+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions triple coincidence C4+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_c4plus"
+
+ERPA_tc_c6plus (No: 21) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa tc C6+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa tc C6+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions triple coincidence C6+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_c6plus"
+
+ERPA_tc_fe8plus (No: 22) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "erpa tc Fe8+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "erpa tc Fe8+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/65): "Energy-resolved pitch-angle distributions triple coincidence Fe8+"
+     DISPLAY_TYPE    (CDF_CHAR/49): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_fe8plus"
+
+ERPA_tc_fe9plus (No: 23) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "erpa tc Fe9+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "erpa tc Fe9+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/65): "Energy-resolved pitch-angle distributions triple coincidence Fe9+"
+     DISPLAY_TYPE    (CDF_CHAR/49): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_fe9plus"
+
+ERPA_tc_fe16plus (No: 24) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "erpa tc Fe16+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "erpa tc Fe16+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/66): "Energy-resolved pitch-angle distributions triple coincidence Fe16+"
+     DISPLAY_TYPE    (CDF_CHAR/50): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_tc_fe16plus"
+
+ERPA_dc_hplus (No: 25) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "erpa dc H+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "erpa dc H+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/63): "Energy-resolved pitch-angle distributions double coincidence H+"
+     DISPLAY_TYPE    (CDF_CHAR/47): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_dc_hplus"
+
+ERPA_dc_hplus_sum (No: 26) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "erpa dc H+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/31): "erpa dc H+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/68): "Pitch-angle distributions double coincidence H+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/13): "ERPA_dc_hplus"
+
+ERPA_dc_heplus (No: 27) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa dc He+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa dc He+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions double coincidence He+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_dc_heplus"
+
+ERPA_dc_heplus_sum (No: 28) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "erpa dc He+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/32): "erpa dc He+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/69): "Pitch-angle distributions double coincidence He+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/14): "ERPA_dc_heplus"
+
+ERPA_dc_he2plus (No: 29) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "erpa dc He2+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "erpa dc He2+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/65): "Energy-resolved pitch-angle distributions double coincidence He2+"
+     DISPLAY_TYPE    (CDF_CHAR/49): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_dc_he2plus"
+
+ERPA_dc_he2plus_sum (No: 30) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "erpa dc He2+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/33): "erpa dc He2+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/70): "Pitch-angle distributions double coincidence He2+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/15): "ERPA_dc_he2plus"
+
+ERPA_dc_oplus (No: 31) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "erpa dc O+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "erpa dc O+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/63): "Energy-resolved pitch-angle distributions double coincidence O+"
+     DISPLAY_TYPE    (CDF_CHAR/47): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_dc_oplus"
+
+ERPA_dc_oplus_sum (No: 32) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "erpa dc O+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/31): "erpa dc O+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/68): "Pitch-angle distributions double coincidence O+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/13): "ERPA_dc_oplus"
+
+ERPA_dc_o6plus (No: 33) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "erpa dc O6+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "erpa dc O6+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/64): "Energy-resolved pitch-angle distributions double coincidence O6+"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_dc_o6plus"
+
+ERPA_dc_o6plus_sum (No: 34) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "erpa dc O6+ - summed over energy"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/32): "erpa dc O6+ - summed over energy"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     CATDESC         (CDF_CHAR/69): "Pitch-angle distributions double coincidence O6+ - summed over energy"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FUNCT           (CDF_CHAR/17): "spdf_sum_over_row"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/14): "ERPA_dc_o6plus"
+
+ERPA_dc_cplus (No: 35) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "erpa dc C+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "erpa dc C+"
+     UNITS           (CDF_CHAR/8): "s^3/km^6"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_angle"
+     DEPEND_2        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/63): "Energy-resolved pitch-angle distributions double coincidence C+"
+     DISPLAY_TYPE    (CDF_CHAR/47): "plasmagram>x=SECTOR_angle,y=eoq,z=ERPA_dc_cplus"
+
+eoq (No: 36) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Energy per charge"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 6.0
+     SCALEMAX        (CDF_REAL4/1): 230.0
+     LABLAXIS        (CDF_CHAR/17): "Energy per charge"
+     UNITS           (CDF_CHAR/5): "keV/e"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/3): "eoq"
+     CATDESC         (CDF_CHAR/17): "Energy per charge"
+
+SECTOR_index (No: 37) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Sector index"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 12
+     SCALEMIN        (CDF_INT2/1): 1
+     SCALEMAX        (CDF_INT2/1): 12
+     LABLAXIS        (CDF_CHAR/12): "Sector index"
+     UNITS           (CDF_CHAR/12): "sector index"
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -9
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Sector index"
+
+SECTOR_angle (No: 38) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Sector angle"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 360
+     LABLAXIS        (CDF_CHAR/6): "Sector"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f5.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -9
+     SCALETYP        (CDF_CHAR/6): "linear"
+     CATDESC         (CDF_CHAR/12): "Sector angle"
+

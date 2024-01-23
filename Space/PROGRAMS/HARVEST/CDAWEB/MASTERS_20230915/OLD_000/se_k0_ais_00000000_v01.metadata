@@ -1,0 +1,342 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/se_k0_ais_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     se_k0_ais_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     12
+NumzVars:     0
+NumAttrs:     43 (20 global, 23 variable)
+Compression:  None
+
+Global Attributes (20 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/63): 	"Advanced Ionospheric Sounder Key Parameters, Halley, Antarctica"
+PROJECT (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+DISCIPLINE (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+SOURCE_NAME (1 entry):
+	0 (CDF_CHAR/69): 	"SESAME>Satellite Experiments Simultaneous with Antarctic Measurements"
+DATA_TYPE (1 entry):
+	0 (CDF_CHAR/17): 	"K0>Key Parameters"
+DESCRIPTOR (1 entry):
+	0 (CDF_CHAR/32): 	"AIS>Advanced Ionospheric Sounder"
+DATA_VERSION (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (14 entries):
+	0 (CDF_CHAR/60): 	"Ionospheric parameters derived from quarter-hourly ionograms"
+	1 (CDF_CHAR/80): 	"Ref: Grubb,RN The NOAA SEL HF Radar system (ionospheric sounder) NOAA Tech Memo "
+	2 (CDF_CHAR/48): 	"ERL SEL-55, Space Environ Lab, Boulder, CO, 1979"
+	3 (CDF_CHAR/73): 	"Ref: Jarvis,MJ & Dudeney ,JR Reduction of ambiguities in HF radar results"
+	4 (CDF_CHAR/81): 	"through a revised receiving array & sounding pattern. Radio Sci 21, 151-158, 1986"
+	5 (CDF_CHAR/78): 	"Ref: Satellite Experiments Simultaneous with Antarctic Measurements (SESAME), "
+	6 (CDF_CHAR/60): 	"in GGS Instrument Papers, submitted to Space Science Reviews"
+	7 (CDF_CHAR/79): 	"Info:Keith Morrison,GGS Scientist,British Antarctic Survey,Cambridge,CB3 0ET,UK"
+	8 (CDF_CHAR/23): 	"E-mail: 19989::MORRISON"
+	9 (CDF_CHAR/80): 	"QUALITY_FLAG Comprised of several additive values each with a specific meaning:-"
+	10 (CDF_CHAR/80): 	"0 okay,+1 <6 echoes used for fmin,+2 <6 echoes for fEmax,+4 <6 echoes for fFmax,"
+	11 (CDF_CHAR/68): 	"+8 fmin approx= min tx frequency,+16 fEmax approx= max tx frequency,"
+	12 (CDF_CHAR/52): 	"+32 fFmax approx= max tx  frequency (tx=transmitter)"
+	13 (CDF_CHAR/76): 	"eg 37 indicates <6 echoes used for fmin & fFmax, & fFmax approx= max tx freq"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0125"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"SE_K0_AIS_19940703_V01"
+MODS (1 entry):
+	0 (CDF_CHAR/34): 	"This is first  operational version"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"SE_K0_AIS"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/51): 	"SESAME Advanced Ionospheric Sounder, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"J. Dudeney"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/24): 	"British Antarctic Survey"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/47): 	"Ground-Based Magnetometers, Riometers, Sounders"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/36): 	"SESAME_All-Sky_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/58): 	"spase://NASA/NumericalData/SESAME/KeyParameters/AIS/PT900S"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+LABL_PTR_1
+FORMAT
+LABLAXIS
+MONOTON
+FILLVAL
+CATDESC
+DEPEND_0
+DEPEND_1
+FORM_PTR
+UNIT_PTR
+VAR_TYPE
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+DICT_KEY
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (12 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	1:[3]	T/F
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+half_duration         CDF_REAL8/1	1:[3]	T/F
+fmin                  CDF_REAL4/1	1:[3]	T/F
+fEmax                 CDF_REAL4/1	1:[3]	T/F
+fFmax                 CDF_REAL4/1	1:[3]	T/F
+quality_flag          CDF_INT2/1	1:[3]	T/F
+feature_flag          CDF_INT1/1	1:[3]	T/F
+post_gap              CDF_INT1/1	1:[3]	T/F
+
+
+Variable (12 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Time of observation"
+     VALIDMIN        (CDF_EPOCH/1): 03-Jul-1994 00:00:21.000
+     VALIDMAX        (CDF_EPOCH/1): 03-Jul-1994 23:45:21.000
+     SCALEMIN        (CDF_EPOCH/1): 03-Jul-1994 00:00:21.000
+     SCALEMAX        (CDF_EPOCH/1): 03-Jul-1994 23:45:21.000
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/41): "Mid-time of observation to nearest second"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DELTA_PLUS_VAR  (CDF_CHAR/13): "half_duration"
+     DELTA_MINUS_VAR (CDF_CHAR/13): "half_duration"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Time of observation"
+     VALIDMIN        (CDF_UINT4/3): 1994, 184, 21
+     VALIDMAX        (CDF_UINT4/3): 1994, 184, 85521000
+     SCALEMIN        (CDF_UINT4/3): 1994, 184, 21
+     SCALEMAX        (CDF_UINT4/3): 1994, 184, 85521000
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/41): "Mid-time of observation to nearest second"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 2) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 4) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Format for Time_PB5                     "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+half_duration (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "1/2 duration of observation"
+     VALIDMIN        (CDF_REAL8/1): 500.0
+     VALIDMAX        (CDF_REAL8/1): 90000.0
+     SCALEMIN        (CDF_REAL8/1): 500.0
+     SCALEMAX        (CDF_REAL8/1): 90000.0
+     UNITS           (CDF_CHAR/2): "ms"
+     FORMAT          (CDF_CHAR/4): "F8.1"
+     LABLAXIS        (CDF_CHAR/13): "half duration"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     CATDESC         (CDF_CHAR/56): "Epoch and Time_PB5 correspond to mid-time of observation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+fmin (No: 6) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Lowest plasma frequency"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     UNITS           (CDF_CHAR/3): "MHz"
+     FORMAT          (CDF_CHAR/4): "F5.2"
+     LABLAXIS        (CDF_CHAR/8): "Min freq"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/63): "Lowest plasma frequency (-88.88=Insuf. echoes,-99.99=no echoes)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/48): "(-88.88=Insuff. echoes,-99.99=no echoes present)"
+
+fEmax (No: 7) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Max E-region plasma frequency"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     UNITS           (CDF_CHAR/3): "MHz"
+     FORMAT          (CDF_CHAR/4): "F5.2"
+     LABLAXIS        (CDF_CHAR/14): "E-reg max freq"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/70): "Max E-region plasma frequency  (-88.88=Insuf. echoes,-99.99=no echoes)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/80): "Virtual height approx<200km. -88.88=Insufficient echoes,-99.99=no echoes present"
+
+fFmax (No: 8) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Max F-region plasma frequency"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     UNITS           (CDF_CHAR/3): "MHz"
+     FORMAT          (CDF_CHAR/4): "F5.2"
+     LABLAXIS        (CDF_CHAR/14): "F-reg max freq"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/70): "Max F-region plasma frequency  (-88.88=Insuf. echoes,-99.99=no echoes)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/80): "Virtual height approx>200km. -88.88=Insufficient echoes,-99.99=no echoes present"
+
+quality_flag (No: 9) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Data quality flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 63
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 63
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/7): "Quality"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/62): "Comprised of several additive values - see description in TEXT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+feature_flag (No: 10) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "feature flag"
+     VALIDMIN        (CDF_INT1/1): 0
+     VALIDMAX        (CDF_INT1/1): 2
+     SCALEMIN        (CDF_INT1/1): 0
+     SCALEMAX        (CDF_INT1/1): 2
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     LABLAXIS        (CDF_CHAR/12): "Feature Flag"
+     FILLVAL         (CDF_INT1/1): -128
+     CATDESC         (CDF_CHAR/31): "0-okay,  1-blackout  2-spread-F"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+post_gap (No: 11) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "post gap flag"
+     VALIDMIN        (CDF_INT1/1): 0
+     VALIDMAX        (CDF_INT1/1): 1
+     SCALEMIN        (CDF_INT1/1): 0
+     SCALEMAX        (CDF_INT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     LABLAXIS        (CDF_CHAR/8): "Gap Flag"
+     FILLVAL         (CDF_INT1/1): -128
+     CATDESC         (CDF_CHAR/69): "Indicates gap: 0-no gap,  1-not recording (gap = no data for > 17min)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

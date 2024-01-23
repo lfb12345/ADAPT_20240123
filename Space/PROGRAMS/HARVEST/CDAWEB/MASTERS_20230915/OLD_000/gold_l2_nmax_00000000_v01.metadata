@@ -1,0 +1,897 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/gold_l2_nmax_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     gold_l2_nmax_00000000_v01.cdf
+Version:      3.9.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     34
+NumAttrs:     56 (28 global, 28 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (28 attributes)
+=========================================
+Data_revision (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source (1 entry):
+	0 (CDF_CHAR/12): 	"GOLD_L2_NMAX"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Richard Eastes"
+TEXT (1 entry):
+	0 (CDF_CHAR/324): 	"The GOLD mission of opportunity flies an ultraviolet (UV) imaging spectrograph on a geostationary satellite to measure densities and temperatures in Earth's thermosphere and ionosphere and to understand the global-scale response to forcing in the integrate Sun-Earth system. Visit 'https://gold.cs.ucf.edu' for more details."
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"GOLD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Data_type (1 entry):
+	0 (CDF_CHAR/63): 	"APIDx? > GOLD Application ID 0x?: Level 2 Day Disk Science Data"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+date_start (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/31): 	"UV Imaging Spectrograph (Space)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/27): 	"University of Colorado/LASP"
+Source_name (1 entry):
+	0 (CDF_CHAR/51): 	"GOLD>Global-scale Observations of the Limb and Disk"
+Data_cycle (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/823): 	"This is a data product from the NASA Global-scale Observations of the Limb and Disk (GOLD) mission, an Heliophysics Explorer mission of opportunity launched in January 2018.  Responsibility of the mission science falls to the Principal Investigator, Dr. Richard Eastes at University of Colorado/LASP.  Validation of the L1B data products falls to the instrument lead investigators/scientists. * EUV  Dr. Bill McClintock Validation of the L2 data products falls to Computational Physics, Inc. * Dr. Jerry Lumpe  (https://gold.cs.ucf.edu/). Overall validation of the products is overseen by the GOLD Project Scientist Dr. Alan Burns. Users of these data should contact and acknowledge the Principal Investigator Dr. Richard Eastes and the party directly responsible for the data product and the NASA Explorers Project Office."
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/46): 	"GOLD Peak Electron density NMAX L2 Daily Files"
+Discipline (1 entry):
+	0 (CDF_CHAR/35): 	"Space Physics > Ionospheric Science"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/12): 	"GOLD_L2_NMAX"
+date_end (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"NMAX>Peak electron density"
+Project (1 entry):
+	0 (CDF_CHAR/11): 	"NASA > GOLD"
+Software_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+SPDF_NOTES (1 entry):
+	0 (CDF_CHAR/62): 	"May 2023 release changed nlons to a fixed dimension size of 92"
+NC_KIND (1 entry):
+	0 (CDF_CHAR/8): 	"netCDF-4"
+NC_DIMENSIONS_G (5 entries):
+	0 (CDF_CHAR/16): 	"nscans=UNLIMITED"
+	1 (CDF_CHAR/10): 	"nmask=4001"
+	2 (CDF_CHAR/9): 	"nlats=100"
+	3 (CDF_CHAR/8): 	"nlons=92"
+	4 (CDF_CHAR/17): 	"max_string_len=50"
+NC_STRINGS_G (1 entry):
+	0 (CDF_CHAR/274): 	"Data_revision Logical_source PI_name TEXT Mission_group Data_version Data_type Generation_date date_start Instrument_type PI_affiliation Source_name Data_cycle Acknowledgement Logical_source_description Discipline Logical_file_id date_end Descriptor Project Software_version"
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/10): 	"GOLD Data "
+	1 (CDF_CHAR/9): 	"Plotting "
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/14): 	"Release Notes "
+	1 (CDF_CHAR/35): 	"notes (select a smaller time range)"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/57): 	"https://cdaweb.gsfc.nasa.gov/pub/data/gold/documentation/"
+	1 (CDF_CHAR/67): 	"https://cdaweb.gsfc.nasa.gov/pub/data/gold/documentation/SPDF_notes"
+
+Variable Attributes (28 attributes)
+=========================================
+NC_DIMENSIONS_V
+NC_DEFLATE
+NC_SHUFFLE
+NC_STORAGE
+NC_CHUNKSIZES
+FORMAT
+DEPEND_0
+FIELDNAM
+VAR_TYPE
+FILLVAL
+VALIDMIN
+VALIDMAX
+CATDESC
+DEPEND_1
+LABLAXIS
+DEPEND_2
+UNITS
+DISPLAY_TYPE
+NC_STRING
+TIME_BASE
+NC_ADDED
+SCALETYP
+NC_STRINGS_V
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+COMPARE_VAL
+
+Variable Information (0 rVariable, 34 zVariables)
+===========================================================
+mask_oi_1356          CDF_INT4/1	1:[4001]	F/T
+mask_wavelength       CDF_FLOAT/1	1:[4001]	F/T
+radiance_oi_1356      CDF_FLOAT/1	2:[100,92]	T/TT
+radiance_oi_1356_full_mv CDF_FLOAT/1	2:[100,92]	T/TT
+radiance_oi_1356_north_mv CDF_FLOAT/1	2:[100,92]	T/TT
+radiance_oi_1356_south_mv CDF_FLOAT/1	2:[100,92]	T/TT
+oi_1356_unc_ran       CDF_FLOAT/1	2:[100,92]	T/TT
+oi_1356_unc_sys       CDF_FLOAT/1	2:[100,92]	T/TT
+counts_oi_1356        CDF_FLOAT/1	2:[100,92]	T/TT
+dqi                   CDF_INT4/1	0:[]	T/  
+nmax_dqi              CDF_INT4/1	2:[100,92]	T/TT
+channel               CDF_CHAR/50	0:[]	T/  
+latitude              CDF_FLOAT/1	2:[100,92]	T/TT
+longitude             CDF_FLOAT/1	2:[100,92]	T/TT
+time_utc              CDF_CHAR/50	1:[92]	T/T
+nmax                  CDF_FLOAT/1	2:[100,92]	T/TT
+nmax_nosmooth         CDF_FLOAT/1	2:[100,92]	T/TT
+nmax_movie            CDF_FLOAT/1	2:[100,92]	T/TT
+nmax_movie_n          CDF_FLOAT/1	2:[100,92]	T/TT
+nmax_movie_s          CDF_FLOAT/1	2:[100,92]	T/TT
+nmax_unc_ran          CDF_FLOAT/1	2:[100,92]	T/TT
+nmax_unc_mod          CDF_FLOAT/1	2:[100,92]	T/TT
+nmax_unc_sys          CDF_FLOAT/1	2:[100,92]	T/TT
+solar_zenith_angle    CDF_FLOAT/1	2:[100,92]	T/TT
+input_l1c_file        CDF_CHAR/50	0:[]	T/  
+emission_angle        CDF_FLOAT/1	2:[100,92]	T/TT
+scan_start_time       CDF_CHAR/50	0:[]	T/  
+scan_stop_time        CDF_CHAR/50	0:[]	T/  
+hemisphere            CDF_CHAR/50	0:[]	T/  
+nmask                 CDF_INT1/1	1:[4001]	F/T
+nscans                CDF_INT1/1	0:[]	T/  
+nlats                 CDF_INT1/1	1:[100]	F/T
+max_string_len        CDF_INT1/1	1:[50]	F/T
+nlons                 CDF_INT1/1	1:[92]	F/T
+
+
+Variable (34 variables)
+=========================================
+
+mask_oi_1356 (No: 0) (Recs: 1) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "nmask"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 4001
+     FORMAT          (CDF_CHAR/2): "I1"
+     DEPEND_0        (CDF_CHAR/6): "nscans"
+     FIELDNAM        (CDF_CHAR/55): "Wavelength mask used to extract OI 135.6 nm brightness."
+     VAR_TYPE        (CDF_CHAR/12): "support data"
+     FILLVAL         (CDF_INT4/1): -999999999
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     CATDESC         (CDF_CHAR/55): "Wavelength mask used to extract OI 135.6 nm brightness."
+     NC_STRINGS_V    (CDF_CHAR/41): "FORMAT DEPEND_0 FIELDNAM VAR_TYPE CATDESC"
+
+mask_wavelength (No: 1) (Recs: 1) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "nmask"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 4001
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DEPEND_0        (CDF_CHAR/5): "nmask"
+     FIELDNAM        (CDF_CHAR/43): "Wavelength grid associated with mask array."
+     VAR_TYPE        (CDF_CHAR/12): "support data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 130.0
+     VALIDMAX        (CDF_FLOAT/1): 170.0
+     CATDESC         (CDF_CHAR/43): "Wavelength grid associated with mask array."
+     NC_STRINGS_V    (CDF_CHAR/41): "FORMAT DEPEND_0 FIELDNAM VAR_TYPE CATDESC"
+
+radiance_oi_1356 (No: 2) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/23): "O I 135.6 nm Brightness"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/41): "O I 135.6 nm brightness used in retrieval"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/16): "O I 135.6 nm Rad"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/9): "Rayleighs"
+     DISPLAY_TYPE    (CDF_CHAR/64): "map_image>THUMBSIZE>166>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+radiance_oi_1356_full_mv (No: 3) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/23): "O I 135.6 nm Brightness"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/19): "---> Movie of above"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/16): "O I 135.6 nm Rad"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/9): "Rayleighs"
+     DISPLAY_TYPE    (CDF_CHAR/50): "map_movie>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/16): "radiance_oi_1356"
+
+radiance_oi_1356_north_mv (No: 4) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/23): "O I 135.6 nm Brightness"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/45): "---> Movie of just Northern hemisphere images"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/36): "O I 135.6 nm Rad (North images only)"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/9): "Rayleighs"
+     DISPLAY_TYPE    (CDF_CHAR/50): "map_movie>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/16): "radiance_oi_1356"
+     COMPONENT_1     (CDF_CHAR/10): "hemisphere"
+     COMPARE_VAL     (CDF_CHAR/1): "N"
+
+radiance_oi_1356_south_mv (No: 5) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/23): "O I 135.6 nm Brightness"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/45): "---> Movie of just Southern hemisphere images"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/36): "O I 135.6 nm Rad (South images only)"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/9): "Rayleighs"
+     DISPLAY_TYPE    (CDF_CHAR/50): "map_movie>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/16): "radiance_oi_1356"
+     COMPONENT_1     (CDF_CHAR/10): "hemisphere"
+     COMPARE_VAL     (CDF_CHAR/1): "S"
+
+oi_1356_unc_ran (No: 6) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/42): "O I 135.6 nm Brightness Random Uncertainty"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/42): "O I 135.6 nm Brightness Random Uncertainty"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/27): "135.6 nm Random Uncertainty"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/9): "Rayleighs"
+     DISPLAY_TYPE    (CDF_CHAR/64): "map_image>THUMBSIZE>166>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+oi_1356_unc_sys (No: 7) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/46): "O I 135.6 nm Brightness Systematic Uncertainty"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     CATDESC         (CDF_CHAR/46): "O I 135.6 nm Brightness Systematic Uncertainty"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/31): "135.6 nm Systematic Uncertainty"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/9): "Rayleighs"
+     DISPLAY_TYPE    (CDF_CHAR/64): "map_image>THUMBSIZE>166>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+counts_oi_1356 (No: 8) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/19): "O I 135.6 nm Counts"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     CATDESC         (CDF_CHAR/43): "O I 135.6 nm total counts used in retrieval"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/15): "135.6 nm Counts"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/6): "counts"
+     DISPLAY_TYPE    (CDF_CHAR/64): "map_image>THUMBSIZE>166>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+dqi (No: 9) (Recs: 0) (Compression: GZIP.6)
+---
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/6): "nscans"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 24
+     FORMAT          (CDF_CHAR/2): "I7"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/22): "Data Quality Indicator"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -999999999
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     CATDESC         (CDF_CHAR/100): "File-level Data Quality Indicator. 0 indicates good data. See documentation for list of other values"
+     UNITS           (CDF_CHAR/1): " "
+     NC_STRINGS_V    (CDF_CHAR/47): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE UNITS CATDESC"
+
+nmax_dqi (No: 10) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/2): "I7"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/27): "NMAX Data Quality Indicator"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -999999999
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     CATDESC         (CDF_CHAR/106): "NMAX Pixel-level Data Quality Indicator. 0 indicates good data. See documentation for list of other values"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/8): "NMAX DQI"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/14): "0=good quality"
+     DISPLAY_TYPE    (CDF_CHAR/57): "map_image>THUMBSIZE>166>MAP_PROJ>7>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+channel (No: 11) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/21): "nscans,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 50
+     FORMAT          (CDF_CHAR/2): "A1"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/7): "Channel"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_CHAR/1): "*"
+     CATDESC         (CDF_CHAR/41): "[NO PLOT] Channel identifier ("A" or "B")"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     NC_STRING       (CDF_CHAR/2): "no"
+     NC_STRINGS_V    (CDF_CHAR/49): "FORMAT FILLVAL FIELDNAM DEPEND_0 CATDESC VAR_TYPE"
+
+latitude (No: 12) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/8): "Latitude"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     CATDESC         (CDF_CHAR/8): "Latitude"
+     LABLAXIS        (CDF_CHAR/8): "Latitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     NC_STRINGS_V    (CDF_CHAR/69): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+longitude (No: 13) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/9): "Longitude"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     CATDESC         (CDF_CHAR/9): "Longitude"
+     LABLAXIS        (CDF_CHAR/9): "Longitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     NC_STRINGS_V    (CDF_CHAR/69): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+time_utc (No: 14) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/27): "nscans,nlons,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 52, 50
+     FORMAT          (CDF_CHAR/3): "A50"
+     FIELDNAM        (CDF_CHAR/14): "Universal Time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_CHAR/1): "*"
+     CATDESC         (CDF_CHAR/32): "ISO 8601 formatted UTC timestamp"
+     LABLAXIS        (CDF_CHAR/8): "time_utc"
+     UNITS           (CDF_CHAR/1): "s"
+     NC_STRING       (CDF_CHAR/2): "no"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     NC_STRINGS_V    (CDF_CHAR/65): "FORMAT TIME_BASE FIELDNAM LABLAXIS VAR_TYPE UNITS FILLVAL CATDESC"
+
+nmax (No: 15) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/4): "NMAX"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     CATDESC         (CDF_CHAR/52): "NMAX Peak electron density (mapped - image smoothed)"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/26): "NMAX>Peak electron density"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/14): "electrons/cm^3"
+     DISPLAY_TYPE    (CDF_CHAR/64): "map_image>THUMBSIZE>166>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+nmax_nosmooth (No: 16) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/4): "NMAX"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     CATDESC         (CDF_CHAR/23): "---> above not smoothed"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/26): "NMAX>Peak electron density"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/14): "electrons/cm^3"
+     DISPLAY_TYPE    (CDF_CHAR/57): "map_image>THUMBSIZE>166>MAP_PROJ>7>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/4): "nmax"
+
+nmax_movie (No: 17) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/4): "NMAX"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     CATDESC         (CDF_CHAR/30): "---> Movie (smoothed) of above"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/26): "NMAX>Peak electron density"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/14): "electrons/cm^3"
+     DISPLAY_TYPE    (CDF_CHAR/50): "map_movie>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/4): "nmax"
+
+nmax_movie_n (No: 18) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/4): "NMAX"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     CATDESC         (CDF_CHAR/45): "---> Movie of just Northern hemisphere images"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/46): "NMAX>Peak electron density (North images only)"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/14): "electrons/cm^3"
+     DISPLAY_TYPE    (CDF_CHAR/50): "map_movie>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/4): "nmax"
+     COMPONENT_1     (CDF_CHAR/10): "hemisphere"
+     COMPARE_VAL     (CDF_CHAR/1): "N"
+
+nmax_movie_s (No: 19) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/4): "NMAX"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     CATDESC         (CDF_CHAR/45): "---> Movie of just Southern hemisphere images"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/46): "NMAX>Peak electron density (South images only)"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/14): "electrons/cm^3"
+     DISPLAY_TYPE    (CDF_CHAR/50): "map_movie>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/4): "nmax"
+     COMPONENT_1     (CDF_CHAR/10): "hemisphere"
+     COMPARE_VAL     (CDF_CHAR/1): "S"
+
+nmax_unc_ran (No: 20) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/23): "NMAX Random Uncertainty"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     CATDESC         (CDF_CHAR/23): "NMAX Random Uncertainty"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/8): "NMAX Unc"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/14): "electrons/cm^3"
+     DISPLAY_TYPE    (CDF_CHAR/64): "map_image>THUMBSIZE>166>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+nmax_unc_mod (No: 21) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/22): "NMAX Model Uncertainty"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     CATDESC         (CDF_CHAR/32): "[NO PLOT] NMAX Model Uncertainty"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/8): "NMAX Unc"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/14): "electrons/cm^3"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+nmax_unc_sys (No: 22) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/27): "NMAX Systematic Uncertainty"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     CATDESC         (CDF_CHAR/27): "NMAX Systematic Uncertainty"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/8): "NMAX Unc"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/14): "electrons/cm^3"
+     DISPLAY_TYPE    (CDF_CHAR/64): "map_image>THUMBSIZE>166>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+solar_zenith_angle (No: 23) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/18): "Solar Zenith Angle"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     CATDESC         (CDF_CHAR/18): "Solar Zenith Angle"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/3): "SZA"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     DISPLAY_TYPE    (CDF_CHAR/57): "map_image>THUMBSIZE>166>MAP_PROJ>7>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+input_l1c_file (No: 24) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/21): "nscans,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 50
+     FORMAT          (CDF_CHAR/3): "A50"
+     DEPEND_0        (CDF_CHAR/6): "nscans"
+     FIELDNAM        (CDF_CHAR/14): "Input L1C File"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): "*"
+     CATDESC         (CDF_CHAR/28): "Corresponding Input L1C File"
+     NC_STRING       (CDF_CHAR/2): "no"
+     NC_STRINGS_V    (CDF_CHAR/49): "FORMAT FILLVAL FIELDNAM DEPEND_0 CATDESC VAR_TYPE"
+
+emission_angle (No: 25) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/18): "nscans,nlats,nlons"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 100, 92
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/14): "Emission Angle"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     CATDESC         (CDF_CHAR/14): "Emission Angle"
+     DEPEND_1        (CDF_CHAR/8): "latitude"
+     LABLAXIS        (CDF_CHAR/14): "Emission Angle"
+     DEPEND_2        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     DISPLAY_TYPE    (CDF_CHAR/64): "map_image>THUMBSIZE>166>MAP_PROJ>7>SMOOTH>x=latitude,y=longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+scan_start_time (No: 26) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/21): "nscans,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 50
+     FORMAT          (CDF_CHAR/3): "A50"
+     FIELDNAM        (CDF_CHAR/15): "Scan Start Time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_CHAR/1): "*"
+     CATDESC         (CDF_CHAR/46): "Time at beginning of scan (ISO 8601 formatted)"
+     LABLAXIS        (CDF_CHAR/8): "time_utc"
+     UNITS           (CDF_CHAR/1): "s"
+     NC_STRING       (CDF_CHAR/2): "no"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     NC_STRINGS_V    (CDF_CHAR/65): "FORMAT TIME_BASE FIELDNAM LABLAXIS VAR_TYPE UNITS FILLVAL CATDESC"
+
+scan_stop_time (No: 27) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/21): "nscans,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 50
+     FORMAT          (CDF_CHAR/3): "A50"
+     FIELDNAM        (CDF_CHAR/14): "Scan Stop Time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_CHAR/1): "*"
+     CATDESC         (CDF_CHAR/40): "Time at end of scan (ISO 8601 formatted)"
+     LABLAXIS        (CDF_CHAR/8): "time_utc"
+     UNITS           (CDF_CHAR/1): "s"
+     NC_STRING       (CDF_CHAR/2): "no"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     NC_STRINGS_V    (CDF_CHAR/65): "FORMAT TIME_BASE FIELDNAM LABLAXIS VAR_TYPE UNITS FILLVAL CATDESC"
+
+hemisphere (No: 28) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/21): "nscans,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 50
+     FORMAT          (CDF_CHAR/2): "A1"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     FIELDNAM        (CDF_CHAR/10): "Hemisphere"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): "*"
+     CATDESC         (CDF_CHAR/32): "Hemisphere observed ("N" or "S")"
+     NC_STRING       (CDF_CHAR/2): "no"
+     NC_STRINGS_V    (CDF_CHAR/49): "FORMAT FILLVAL FIELDNAM DEPEND_0 CATDESC VAR_TYPE"
+
+nmask (No: 29) (Recs: 1)
+-----
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/5): "nmask"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT1/1): -128
+     VALIDMIN        (CDF_INT1/1): -127
+     VALIDMAX        (CDF_INT1/1): 127
+     CATDESC         (CDF_CHAR/5): "nmask"
+     LABLAXIS        (CDF_CHAR/5): "nmask"
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+nscans (No: 30) (Recs: 0)
+------
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/6): "nscans"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT1/1): -128
+     VALIDMIN        (CDF_INT1/1): -127
+     VALIDMAX        (CDF_INT1/1): 127
+     CATDESC         (CDF_CHAR/6): "nscans"
+     LABLAXIS        (CDF_CHAR/6): "nscans"
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+nlats (No: 31) (Recs: 1)
+-----
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/6): "nscans"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT1/1): -128
+     VALIDMIN        (CDF_INT1/1): -127
+     VALIDMAX        (CDF_INT1/1): 127
+     CATDESC         (CDF_CHAR/6): "nscans"
+     LABLAXIS        (CDF_CHAR/6): "nscans"
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+max_string_len (No: 32) (Recs: 1)
+--------------
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/5): "nlats"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT1/1): -128
+     VALIDMIN        (CDF_INT1/1): -127
+     VALIDMAX        (CDF_INT1/1): 127
+     CATDESC         (CDF_CHAR/5): "nlats"
+     LABLAXIS        (CDF_CHAR/5): "nlats"
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+nlons (No: 33) (Recs: 1)
+-----
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/14): "max_string_len"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT1/1): -128
+     VALIDMIN        (CDF_INT1/1): -127
+     VALIDMAX        (CDF_INT1/1): 127
+     CATDESC         (CDF_CHAR/14): "max_string_len"
+     LABLAXIS        (CDF_CHAR/14): "max_string_len"
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

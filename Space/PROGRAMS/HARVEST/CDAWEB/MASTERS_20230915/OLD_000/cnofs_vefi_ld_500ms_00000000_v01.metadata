@@ -1,0 +1,199 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/cnofs_vefi_ld_500ms_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     cnofs_vefi_ld_500ms_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     33 (21 global, 12 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (21 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/27): 	"CNOFS VEFI/LD low rate data"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CNOFS"
+Source_name (1 entry):
+	0 (CDF_CHAR/54): 	"CNOFS>Communications Navigation Outage Forecast System"
+Instrument (1 entry):
+	0 (CDF_CHAR/23): 	"VEFI lightning detector"
+PI_name (1 entry):
+	0 (CDF_CHAR/19): 	"Robert H. Holzworth"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/24): 	"University of Washington"
+PI_VEFI_name (1 entry):
+	0 (CDF_CHAR/15): 	"Robert F. Pfaff"
+PI_VEFI_affiliation (1 entry):
+	0 (CDF_CHAR/4): 	"GSFC"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"CNOFS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/19): 	"cnofs_vefi_LD_500ms"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/32): 	"cnofs_vefi_LD_500ms_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/77): 	"CNOFS VEFI Lightning Detector, low rate data (eclipse portion of CNOFS orbit)"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/7): 	" 500 ms"
+Orbit (1 entry):
+	0 (CDF_CHAR/38): 	"Eclipse portion of C/NOFS orbit   3050"
+Generation_date (1 entry):
+	0 (CDF_CHAR/17): 	"2012-May-08/16:49"
+TEXT (1 entry):
+	0 (CDF_CHAR/253): 	"This data file contains the low rate data from the VEFI lightning detector. Two photodiodes measure white light irradiance in 2 look directions and for 7 threshold values. Reference: Jacobson et al, J Atm Ocean Tech, 2011, doi:10.1175/JTECH-D-11-00047.1"
+Data_use (1 entry):
+	0 (CDF_CHAR/124): 	"Users are requested to contact Dr. R. H. Holzworth at Univ of Washington prior to publication of any lightning detector data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/37): 	"VEFI>Vector Electric Field Instrument"
+Data_type (1 entry):
+	0 (CDF_CHAR/27): 	"LD_500MS>Lightning Detector"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/54): 	"spase://NASA/NumericalData/CNOFS/VEFI/Lightning/PT0.5S"
+
+Variable Attributes (12 attributes)
+=========================================
+FIELDNAM
+DEPEND_0
+CATDESC
+LABLAXIS
+VALIDMIN
+VALIDMAX
+FILLVAL
+FORMAT
+VAR_TYPE
+UNITS
+LABL_PTR_1
+DICT_KEY
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+lat                   CDF_REAL4/1	0:[]	T/  
+lon                   CDF_REAL4/1	0:[]	T/  
+alt                   CDF_REAL4/1	0:[]	T/  
+ldn                   CDF_UINT2/1	1:[7]	T/T
+lds                   CDF_UINT2/1	1:[7]	T/T
+cnofs_LD_ldn_labl     CDF_CHAR/17	1:[7]	F/T
+cnofs_LD_lds_labl     CDF_CHAR/17	1:[7]	F/T
+
+
+Variable (8 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/33): "Time from UT 0000-Jan-01 00:00:00"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 17-Apr-2008 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+lat (No: 1) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Geodetic latitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/26): "C/NOFS latitude in degrees"
+     LABLAXIS        (CDF_CHAR/8): "latitude"
+     VALIDMIN        (CDF_FLOAT/1): -20.0
+     VALIDMAX        (CDF_FLOAT/1): 20.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/3): "deg"
+
+lon (No: 2) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Geodetic longitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/34): "C/NOFS longitude in degrees (east)"
+     LABLAXIS        (CDF_CHAR/9): "longitude"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/3): "deg"
+
+alt (No: 3) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Altitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/21): "C/NOFS altitude in km"
+     LABLAXIS        (CDF_CHAR/8): "altitude"
+     VALIDMIN        (CDF_FLOAT/1): 350.0
+     VALIDMAX        (CDF_FLOAT/1): 900.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/2): "km"
+
+ldn (No: 4) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "North-viewing lightning detector"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/162): "Number of samples with white-light irradiance in 7 bins defined by the irradiance boundary values 0.23, 3.7, 11, 23, 39, 60, 84, > 84 mW/m^2 (north-viewing diode)"
+     LABLAXIS        (CDF_CHAR/8): "LD_north"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 4032
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/6): "counts"
+     LABL_PTR_1      (CDF_CHAR/17): "cnofs_LD_ldn_labl"
+
+lds (No: 5) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "South-viewing lightning detector"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/162): "Number of samples with white-light irradiance in 7 bins defined by the irradiance boundary values 0.23, 3.7, 11, 23, 39, 60, 84, > 84 mW/m^2 (south-viewing diode)"
+     LABLAXIS        (CDF_CHAR/8): "LD_south"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 4032
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/6): "counts"
+     LABL_PTR_1      (CDF_CHAR/17): "cnofs_LD_lds_labl"
+
+cnofs_LD_ldn_labl (No: 6) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "cnofs_LD_ldn_labl"
+     CATDESC         (CDF_CHAR/17): "cnofs_LD_ldn_labl"
+     FORMAT          (CDF_CHAR/3): "a17"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+cnofs_LD_lds_labl (No: 7) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "cnofs_LD_lds_labl"
+     CATDESC         (CDF_CHAR/17): "cnofs_LD_lds_labl"
+     FORMAT          (CDF_CHAR/3): "a17"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+

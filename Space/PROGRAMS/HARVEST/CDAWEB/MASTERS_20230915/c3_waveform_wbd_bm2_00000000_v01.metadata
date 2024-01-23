@@ -1,0 +1,414 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/c3_waveform_wbd_bm2_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     c3_waveform_wbd_bm2_00000000_v01.cdf
+Version:      3.6.4
+
+Common Data Format (CDF)
+(C) Copyright 1990-2017 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     14
+NumAttrs:     44 (28 global, 16 variable)
+Compression:  GZIP.4
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (28 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/11): 	"CLUSTER WBD"
+Project (1 entry):
+	0 (CDF_CHAR/49): 	"STSP>Solar Terrestrial Science Programme, Cluster"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/23): 	"C3>Cluster spacecraft 3"
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"waveform"
+Descriptor (1 entry):
+	0 (CDF_CHAR/55): 	"WBD>Wide Band Data Plasma Wave Receiver Burst Mode(BM2)"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (14 entries):
+	0 (CDF_CHAR/373): 	"High time resolution calibrated waveform data sampled in one of 3 frequency bandwidths in the range 0-577 kHz along one axis using either an electric field antenna or a magnetic search coil sensor.  The dataset also includes instrument mode, data quality and the angles required to orient the measurement with respect to the magnetic field and to the GSE coordinate system."
+	1 (CDF_CHAR/3): 	"..."
+	2 (CDF_CHAR/12): 	"CALIBRATION:"
+	3 (CDF_CHAR/3): 	"..."
+	4 (CDF_CHAR/573): 	"The procedure used in computing the calibrated Electric Field and Magnetic Field values found in this file can be obtained from the document 'CAA_EST_CR_WBD_v20.pdf'. Because the calibration was applied in the time domain using a simple equation the raw counts actually measured by the WBD instrument can be obtained by using these equations and solving for 'Raw Counts', keeping in mind that this number is an Integer ranging from 0 to 255.  Since DC offset is a real number, the resultant when solving for raw counts will need to be converted to the nearest whole number."
+	5 (CDF_CHAR/3): 	"..."
+	6 (CDF_CHAR/31): 	"CONVERSION TO FREQUENCY DOMAIN:"
+	7 (CDF_CHAR/3): 	"..."
+	8 (CDF_CHAR/832): 	"In order to convert the WBD data to the frequency domain via an FFT, see 'CAA_EST_CR_WBD_v20.pdf'. The steps for converting are briefly outlined below: 1) If Electric Field, first divide calibrated data by 1000 to get V m^-1; 2) Apply window of preference, if any (such as Hanning, etc.); 3) Divide data values by sqrt(2) to get back to the rms domain; 4) perform FFT (see Bandwidth VAR_NOTES for non-continuous modes); 5) divide by the noise bandwidth, which is equal to the sampling frequency divided by the FFT size (see table in VAR_NOTES of the 'BM_Mode' variable for the appropriate sampling frequency); 6) multiply by the appropriate constant for the window used, if any;7) if Translation is not equal to 0, add the appropriate translation frequency to each frequency component (see Translation CATDESC for the exact values)."
+	9 (CDF_CHAR/3): 	"..."
+	10 (CDF_CHAR/23): 	"COORDINATE SYSTEM USED:"
+	11 (CDF_CHAR/3): 	"..."
+	12 (CDF_CHAR/280): 	"One axis measurements made in the Antenna Coordinate System, i.e., if electric field measurement, it will either be Ey or Ez, both of which are in the spin plane of the spacecraft, and if magnetic field measurement, it will either be Bx, along the spin axis, or By, in spin plane."
+	13 (CDF_CHAR/3): 	"..."
+MODS (1 entry):
+	0 (CDF_CHAR/17): 	"Created Nov 2014."
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0171"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/36): 	"c3_waveform_wbd_bm2_yyyymmddhhmm_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/19): 	"c3_waveform_wbd_bm2"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/77): 	"Cluster Wideband Data Plasma Wave Receiver/High Time Resolution Waveform Data"
+PI_name (1 entry):
+	0 (CDF_CHAR/59): 	"2006 - Current:  J. S. Pickett; 1988 - 2006:  D. A. Gurnett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/23): 	"The University of  Iowa"
+Mission_group (1 entry):
+	0 (CDF_CHAR/7): 	"Cluster"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/40): 	"http://www-pw.physics.uiowa.edu/cluster/"
+	1 (CDF_CHAR/34): 	"http://www.cosmos.esa.int/web/csa/"
+Generation_date (1 entry):
+	0 (CDF_CHAR/25): 	"2017-05-18T17:47:34.000Z "
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/42): 	"Cluster Wideband Plasma Wave Investigation"
+	1 (CDF_CHAR/22): 	"Cluster Active Archive"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/165): 	"Users of the Cluster WBD data are encouraged to acknowledge NASA Goddard Space Flight Center and The University of Iowa as the source of the data in any publication."
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/135): 	"Cluster WBD data are open to everyone.  However, users of these data are encouraged to contact the PI Institute should questions arise."
+Generated_by (0 entry):
+Time_resolution (1 entry):
+	0 (CDF_CHAR/15): 	"1.0/Sample_rate"
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/86): 	"Overview and high time resolution spectrograms, documentation, and data coverage files"
+	1 (CDF_CHAR/73): 	"High time resolution spectrograms, documentation, and data coverage files"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/60): 	"spase://ESA/NumericalData/Cluster-Samba/WBD/BM2/PT0.0000046S"
+
+Variable Attributes (16 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+VALIDMIN
+VALIDMAX
+MONOTON
+UNITS
+LABLAXIS
+DEPEND_0
+FORMAT
+FILLVAL
+AVG_TYPE
+DICT_KEY
+DISPLAY_TYPE
+SI_conversion
+VAR_NOTES
+
+Variable Information (0 rVariable, 14 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH16/1	0:[]	T/  
+Bandwidth             CDF_REAL4/1	0:[]	T/  
+Translation           CDF_REAL4/1	0:[]	T/  
+Resolution            CDF_BYTE/1	0:[]	T/  
+ANTENNA               CDF_BYTE/1	0:[]	T/  
+Gain                  CDF_BYTE/1	0:[]	T/  
+Ant_B_Field_Angle     CDF_REAL4/1	0:[]	T/  
+Ant_Xgse_Angle        CDF_REAL4/1	0:[]	T/  
+Ant_YZgse_Plane_Angle CDF_REAL4/1	0:[]	T/  
+DC_Offset             CDF_REAL4/1	0:[]	T/  
+WBD_Elec              CDF_REAL4/1	0:[]	T/  
+WBD_Mag               CDF_REAL4/1	0:[]	T/  
+DATA_QUALITY          CDF_BYTE/1	0:[]	T/  
+BM_Mode               CDF_BYTE/1	0:[]	T/  
+
+
+Variable (14 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "UT Time"
+     CATDESC         (CDF_CHAR/31): "UT Time, time of WBD data point"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_EPOCH16/1): 03-Feb-2001 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2020 23:59:59.999.999.999.999
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/11): "picoseconds"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "A37"
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     SI_conversion   (CDF_CHAR/9): "1.0e-12>s"
+     VAR_NOTES       (CDF_CHAR/514): "WARNING:  If Translation is not equal to 0, this variable represents the time associated with the down-converted waveform. This affects the apparent frequency content of the electric field amplitude when plotted vs. time, as well as the frequency of the derived components when an FFT isapplied to the electric field data. Refer to the WBD User Guide 'CAA_EST_UG_WBD_v20.pdf' and calibration report 'CAA_EST_CR_WBD_v20.pdf' for more information. NOTE:  Accuracy of this variable is on the order of 50 microseconds."
+
+Bandwidth (No: 1) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Frequency Bandwidth"
+     CATDESC         (CDF_CHAR/44): "Frequency Bandwidth: 9.5 kHz, 19 kHz, 77 kHz"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 80.0
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/3): "kHz"
+     LABLAXIS        (CDF_CHAR/9): "Bandwidth"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "E5.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/13): "number>filter"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/9): "1.0e+3>Hz"
+     VAR_NOTES       (CDF_CHAR/278): "WARNING:  Burst Modes 0 through 5 are not continuous data modes (see 'BM_Mode' variable). Always check for periodic time jumps for these modes.Values for Bandwidth are subject to error before mode switches or gaps due to Whisper soundings.  Please refer to the caveats document."
+
+Translation (No: 2) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Frequency Shift"
+     CATDESC         (CDF_CHAR/70): "Base freq. of freq. bandwidth (0.0, 125.454, 250.908, and 501.816 kHz)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 510.0
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/3): "kHz"
+     LABLAXIS        (CDF_CHAR/10): "Freq.Shift"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "E8.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/9): "1.0e+3>Hz"
+     VAR_NOTES       (CDF_CHAR/698): "Also known as Conversion Frequency.WARNING:  If this variable is not equal to 0, the electric field waveform (WBD_Elec vs. Epoch variables) is the product of a down-conversion to 0.0 kHz which took place onboard within the WBD instrument. This affects the apparent frequency content of the electric field amplitude when plotted vs. time, as well as the frequency of the derived components when an FFT is applied to the electric field data. Refer to the WBD User Guide 'CAA_EST_UG_WBD_v20.pdf' and calibration report 'CAA_EST_CR_WBD_v20.pdf' for more information.Values for Translation are subject to error before mode switches or gaps due to Whisper soundings. Please refer to the caveats document."
+
+Resolution (No: 3) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Digital Resolution"
+     CATDESC         (CDF_CHAR/69): "Number of bits used when digitizing waveform (8-bit, 4-bit, or 1-bit)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 1
+     VALIDMAX        (CDF_BYTE/1): 8
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/4): "bits"
+     LABLAXIS        (CDF_CHAR/9): "Dig. Res."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/10): "1.0>(bits)"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+ANTENNA (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "Antenna"
+     CATDESC         (CDF_CHAR/32): "Antenna (0=Ez, 1=Bx, 2=By, 3=Ey)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 3
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/7): "Antenna"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/36): "1.0>(ordinal 0=Ez, 1=Bx, 2=By, 3=Ey)"
+     VAR_NOTES       (CDF_CHAR/132): "Values for ANTENNA are subject to error before mode switches or gaps due to Whisper soundings. Please refer to the caveats document."
+
+Gain (No: 5) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Gain"
+     CATDESC         (CDF_CHAR/28): "Gain state of WBD instrument"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): -1
+     VALIDMAX        (CDF_BYTE/1): 80
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/2): "dB"
+     LABLAXIS        (CDF_CHAR/8): "WBD Gain"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/8): "1.0>(dB)"
+     VAR_NOTES       (CDF_CHAR/156): "Steps of 5 dB from 0 to 75.Values for Gain are subject to error before mode switches or gaps due to Whisper soundings. Please refer to the caveats document."
+
+Ant_B_Field_Angle (No: 6) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Antenna-B Field Total Angle"
+     CATDESC         (CDF_CHAR/83): "Total angle between antenna used for WBD measurement and measured B field direction"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/9): "Ant-B Ang"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/11): "1.0>degrees"
+     VAR_NOTES       (CDF_CHAR/76): "Antenna refers to the antenna in use, either E or B.  See ANTENNA variable. "
+
+Ant_Xgse_Angle (No: 7) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Antenna Xgse Angle"
+     CATDESC         (CDF_CHAR/59): "Total angle between the Xgse axis and the antenna direction"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/8): "Ant_Xgse"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/11): "1.0>degrees"
+     VAR_NOTES       (CDF_CHAR/136): "Total angle between the Xgse axis and the antenna direction. Antenna refers to the antenna in use, either E or B.  See ANTENNA variable."
+
+Ant_YZgse_Plane_Angle (No: 8) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Antenna YZgse-Plane Angle"
+     CATDESC         (CDF_CHAR/96): "Total angle between Ygse axis and the projection of the antenna direction in the Ygse-Zgse plane"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/9): "Ant_YZgse"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/11): "1.0>degrees"
+     VAR_NOTES       (CDF_CHAR/300): "Total angle between Ygse axis and the projection of the antenna direction in the Ygse-Zgse plane, measured counter-clockwise from +Ygse (angle=0 deg) to +Zgse (angle=90 deg), -Ygse (angle=180 deg) and -Zgse (angle=270 deg).  Antenna refers to the antenna in use, either E or B.  See ANTENNA variable."
+
+DC_Offset (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "DC Offset"
+     CATDESC         (CDF_CHAR/73): "DC Offset used when converting from raw digital values to calibrated data"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 255.0
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "DC Offset"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "E9.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/13): "dimensionless"
+     VAR_NOTES       (CDF_CHAR/393): "DC Offset values may be used to reverse calibrate the data to the original raw counts and to determine the boundaries of the original transport packets. A description of the procedure may be found in the WBD calibration report 'CAA_EST_CR_WBD_v20.pdf' (see Global attributes section of this file).  In addition, sample code for reverse calibration may be found in the above mentioned document."
+
+WBD_Elec (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "WBD AC Electric Field"
+     CATDESC         (CDF_CHAR/32): "Calibrated AC WBD Electric Field"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -50.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/7): "mV m^-1"
+     LABLAXIS        (CDF_CHAR/7): "E-field"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/24): "electric_field>amplitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/13): "1.0e-3>V m^-1"
+     VAR_NOTES       (CDF_CHAR/466): "WARNING:  If Translation is not equal to 0, this variable represents the electric field amplitude associated with the down-converted waveform. This affects the apparent frequency content of the electric field amplitude when plotted vs. time, as well as the frequency of the derived components when an FFT is applied to the electric field data. Refer to the WBD User Guide 'CAA_EST_UG_WBD_v20.pdf' and calibration report 'CAA_EST_CR_WBD_v20.pdf' for more information."
+
+WBD_Mag (No: 11) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "WBD AC Magnetic Field"
+     CATDESC         (CDF_CHAR/32): "Calibrated AC WBD Magnetic Field"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/7): "B-field"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/24): "magnetic_field>amplitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/8): "1.0e-9>T"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DATA_QUALITY (No: 12) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Data Quality"
+     CATDESC         (CDF_CHAR/70): "Data Quality: 0 = OK, 1 = clipped or questionable, 2 = bad data point."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): -1
+     VALIDMAX        (CDF_BYTE/1): 3
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "Data Qual"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/65): "1.0>(ordinal 0=OK, 1= Clipped or questionable, 2= Bad data value)"
+     VAR_NOTES       (CDF_CHAR/199): "Clipped data:  Measurement was equal to raw data value maximum (255) or minimum (0).  This does not necessarily mean the receiver was in saturation, which would be accompanied by non-linear effects. "
+
+BM_Mode (No: 13) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "BM_Mode"
+     CATDESC         (CDF_CHAR/472): "BM_Mode (0=Duty Cycled 9.5 kHz, 1-in-3,1 = Duty Cycled 9.5 kHz, 1-in-4, 2 = Duty Cycled 19 kHz, 1-in-3, 3 = Duty Cycled 19 kHz, 1-in-4, 4 = Duty Cycled 77 kHz, 1-in-3, 5 = Duty Cycled 77 kHz, 1-in-4, 6 = Digital Filtered 9.5 kHz, 1-in-3,      roll-off at 3.2 kHz 7 = Digital Filtered 9.5 kHz, 1-in-3,      optimized roll-off at 4.2 kHz 8 = Digital Filtered 9.5 kHz, 1-in-4,      roll-off at 2.5 kHz 9 = Digital Filtered 9.5 kHz, 1-in-4,      optimized roll-off at 3.1 kHz)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 12
+     MONOTON         (CDF_CHAR/1): " "
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/7): "BM_Mode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SI_conversion   (CDF_CHAR/479): "1.0>(ordinal 0 = Duty Cycled 9.5 kHz, 1-in-3, 1 = Duty Cycled 9.5 kHz, 1-in-4, 2 = Duty Cycled 19 kHz, 1-in-3, 3 = Duty Cycled 19 kHz, 1-in-4, 4 = Duty Cycled 77 kHz, 1-in-3, 5 = Duty Cycled 77 kHz, 1-in-4, 6 = Digital Filtered 9.5 kHz, 1-in-3,      roll-off at 3.2 kHz 7 = Digital Filtered 9.5 kHz, 1-in-3,      optimized roll-off at 4.2 kHz 8 = Digital Filtered 9.5 kHz, 1-in-4,      roll-off at 2.5 kHz 9 = Digital Filtered 9.5 kHz, 1-in-4,      optimized roll-off at 3.1 kHz)"
+     VAR_NOTES       (CDF_CHAR/345): "The following are the sampling rates for each of the 10 defined modes: Bandwidth    Burst Mode    Sample Rate ---------    ----------    ------------ 9.5 kHz      0, 1           27.443 kHz19.0 kHz      2, 3           54.886 kHz77.0 kHz      4, 5          219.544 kHz 9.5 kHz      6, 7            9.148 kHz 9.5 kHz      8, 9            6.861 kHz "
+

@@ -1,0 +1,398 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_h9_pwi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_h9_pwi_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     16
+NumzVars:     0
+NumAttrs:     45 (28 global, 17 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (28 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/13): 	"POLAR PWI WBR"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"H9>High Resolution Data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"PWI>Plasma Wave Instrument"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (6 entries):
+	0 (CDF_CHAR/149): 	"Reference:..Gurnett, D.A. et al, The Polar plasma wave instrument, Space Science Reviews, Vol. 71, pp. 597-622, 1995.GURNETT@IOWAVE.physics.uiowa.edu"
+	1 (CDF_CHAR/156): 	"An FFT on 1992 values was used in calibrating the data; i.e., perform FFT, calibrate in frequency domain, perform inverse FFT to get calibrated time series."
+	2 (CDF_CHAR/134): 	"Effective Bandwidth is 1.5*delta_f, where delta_f depends on the size of the FFT used to convert to the frequency domain, and delta_t."
+	3 (CDF_CHAR/239): 	"Coordinate system used:  antenna coordinate system, where the u-axis is offset by -45 degrees from the spacecraft x-axis, the v-axis is offset by -45 degrees from the spacecraft y-axis, and the z-axis is identical to the spacecraft z-axis."
+	4 (CDF_CHAR/326): 	"This data comes in snapshots of 1992 or 3984 points every 0.064 seconds.  Duration of a snapshot is less when the instrument is in duty cycle modes.  Since Epoch time is in milliseconds, the times for the data points will not be unique unless the fmsec (fraction of milliseconds) is appended to the Epoch0 time for that point."
+	5 (CDF_CHAR/601): 	"The frequency filters used for the wideband receiver have a range that limits the calibration.  The following table specifies the range of frequencies for which the calibration is certified.  Outside this range the amplitude values may be in error and should not be used.  (Translation, Filter, Freq Range) (0 kHz, 90 kHz, 7.5 kHz-90.0 kHz) (125 kHz, 90 kHz, 131.9 kHz-214.8 kHz) (250 kHz, 90 kHz, 254.3 kHz-341.2 kHz) (500 kHz, 90 kHz, 504.79 kHz-591.1 kHz) (0 kHz, 10 kHz, 0.035 kHz-11.64 kHz) (0 kHz, 22 kHz, 0.065 kHz-21.59 kHz) (0 kHz, 1-3 kHz, 1.0 kHz-3.0 kHz) (0 kHz, 3-6 kHz, 3.0 kHz-6.0 kHz) "
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"Created Dec 2003"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0171"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/24): 	"PO_H9_PWI_1996032614_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"PO_H9_PWI"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/62): 	"Polar Plasma Wave Instrument, High Frequency Waveform Receiver"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"D. Gurnett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"U. Iowa"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/64): 	"http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/home.html"
+	1 (CDF_CHAR/73): 	"http:/www-pw.physics.uiowa.edu/plasma-wave/istp/polar/interpretation.html"
+Generation_date (1 entry):
+	0 (CDF_CHAR/14): 	"20 April, 2004"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/15): 	"1.0/Sample_rate"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/1): 	" "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/5): 	"Polar"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/55): 	"spase://NASA/NumericalData/POLAR/PWI/WBR/PT0.000004016S"
+
+Variable Attributes (17 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+VALIDMIN
+VALIDMAX
+MONOTON
+UNITS
+LABLAXIS
+DEPEND_0
+DEPEND_1
+FORMAT
+FILLVAL
+AVG_TYPE
+DICT_KEY
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+
+Variable Information (16 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	1:[3984]	T/F
+Delta_T               CDF_REAL8/1	1:[3984]	T/F
+Sample_rate           CDF_REAL4/1	1:[3984]	T/F
+FilterMode            CDF_BYTE/1	1:[3984]	T/F
+DATA_MODE             CDF_BYTE/1	1:[3984]	T/F
+WBR_Ant               CDF_BYTE/1	1:[3984]	T/F
+Gain1                 CDF_BYTE/1	1:[3984]	T/F
+Gain2                 CDF_BYTE/1	1:[3984]	T/F
+Translation           CDF_INT4/1	1:[3984]	T/F
+NumPoints             CDF_INT4/1	1:[3984]	T/F
+DATA_QUALITY          CDF_BYTE/1	1:[3984]	T/T
+WBR_Elec              CDF_REAL4/1	1:[3984]	T/T
+WBR_Mag               CDF_REAL4/1	1:[3984]	F/T
+Num_Snap              CDF_INT4/1	1:[3984]	F/F
+FFT_size              CDF_INT4/1	1:[3984]	F/F
+Data_No               CDF_INT4/1	1:[3984]	F/T
+
+
+Variable (16 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/32): "Time, begin time of WBR snapshot"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_EPOCH/1): 27-Feb-1996 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Delta_T (No: 1) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "Delta_T"
+     CATDESC         (CDF_CHAR/29): "Time, time between WBR points"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 0.033
+     LABLAXIS        (CDF_CHAR/7): "Delta_T"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "E8.1"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Sample_rate (No: 2) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Sample rate"
+     CATDESC         (CDF_CHAR/69): "Sample rate: the rate at which the data is telemetered to the ground."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 31120.0
+     VALIDMAX        (CDF_REAL4/1): 249000.0
+     UNITS           (CDF_CHAR/2): "Hz"
+     LABLAXIS        (CDF_CHAR/11): "Sample Rate"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F9.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FilterMode (No: 3) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Filter Mode"
+     CATDESC         (CDF_CHAR/90): "Filter Mode: 0-2 = 90 kHz, 3 = 1-3 kHz, 4 = 20 kHz, 5 = 3-6 kHz, 6 = 10-16 kHz, 7 = 10 kHz"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 1
+     VALIDMAX        (CDF_BYTE/1): 7
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/11): "Filter Mode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DATA_MODE (No: 4) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Data_Mode"
+     CATDESC         (CDF_CHAR/46): "Data_Mode (8-bit, 4-bit, or 1-bit compression)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 1
+     VALIDMAX        (CDF_BYTE/1): 8
+     UNITS           (CDF_CHAR/4): "bits"
+     LABLAXIS        (CDF_CHAR/21): "Data Compression Mode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+WBR_Ant (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "WBR Ant"
+     CATDESC         (CDF_CHAR/38): "WBR Antenna (0=Eu, 1=Ev, 2=Loop, 3=Bu)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 3
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/16): "WBR Antenna Code"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gain1 (No: 6) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Gain1 (WBR) "
+     CATDESC         (CDF_CHAR/51): "Gain for WBR values 1-996 of 1992 or 1-1992 of 3984"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 75
+     UNITS           (CDF_CHAR/2): "dB"
+     LABLAXIS        (CDF_CHAR/9): "WBR_Gain1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gain2 (No: 7) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Gain2 (WBR) "
+     CATDESC         (CDF_CHAR/57): "Gain for WBR values 997-1992 of 1992 or 1993-3984 of 3984"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 75
+     UNITS           (CDF_CHAR/2): "dB"
+     LABLAXIS        (CDF_CHAR/9): "WBR_Gain2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Translation (No: 8) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Translation"
+     CATDESC         (CDF_CHAR/51): "Frequency Offset (0 kHz, 125 kHz, 250 kHz, 500 kHz)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 500
+     LABLAXIS        (CDF_CHAR/11): "Freq Offset"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I4"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+NumPoints (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "NumPoints"
+     CATDESC         (CDF_CHAR/51): "Number points that were processed for this snapshot"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 1992
+     VALIDMAX        (CDF_INT4/1): 3984
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/17): "Num Pts Processed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DATA_QUALITY (No: 10) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "DATA_QUALITY"
+     CATDESC         (CDF_CHAR/50): "Data Quality:  0 = OK, 1 = clipped or questionable"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     UNITS           (CDF_CHAR/7): " (0=OK)"
+     LABLAXIS        (CDF_CHAR/12): "DATA_QUALITY"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+WBR_Elec (No: 11) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "WBR Elec. Field"
+     CATDESC         (CDF_CHAR/25): "WBR Electric Field (mV/M)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/4): "mV/M"
+     LABLAXIS        (CDF_CHAR/8): "WBR_Elec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+WBR_Mag (No: 12) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "WBR Mag. Field"
+     CATDESC         (CDF_CHAR/23): "WBR Magnetic Field (nT)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/7): "WBR_Mag"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Num_Snap (No: 13) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Num_Snap"
+     CATDESC         (CDF_CHAR/81): "Number of snapshots of 1992 or 3984 points each that were processed for this file"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 11205000
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I9"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FFT_size (No: 14) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "FFT Size"
+     CATDESC         (CDF_CHAR/31): "Size of FFT used in calibration"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I5"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Data_No (No: 15) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "Data_No"
+     CATDESC         (CDF_CHAR/44): "Data_No:  index of value within the snapshot"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 3983
+     UNITS           (CDF_CHAR/30): "(1992 or 3984 pts in <=0.064s)"
+     LABLAXIS        (CDF_CHAR/20): "Point No in Snapshot"
+     FORMAT          (CDF_CHAR/2): "I5"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time series"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

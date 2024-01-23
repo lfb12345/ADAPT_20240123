@@ -1,0 +1,240 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/it_k0_ele_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     it_k0_ele_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     37 (19 global, 18 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"INTERBALL-TAIL>Interball tail probe"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"ELE>Thermal Electron Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/30): 	"Tail Probe ELECTRON Instrument"
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"created Mar 1996"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0246"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IT_K0_ELE_19950829_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IT_K0_ELE"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/56): 	"Interball Tail probe ELECTRON instrument, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/13): 	"J.-A. Sauvaud"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/39): 	"CESR, BP 4346, 31029, Toulouse, France "
+Mission_group (2 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	2 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+TEXT_supplement_1 (4 entries):
+	0 (CDF_CHAR/104): 	"Density and mean energy integrated from spectrum, measured by one plate and averaged over a spin period "
+	1 (CDF_CHAR/162): 	"Ne and Te - integration over full energy range, Ne1, Te1 - integration, excluding lowest energies with dominating photoelectrons (up to 20-40 eV, see description)"
+	2 (CDF_CHAR/30): 	"Top Hat Electrostatic Analyser"
+	3 (CDF_CHAR/55): 	"Full description: http://www.iki.rssi.ru/interball.html"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/40): 	"Interball-Tail_ELE_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/54): 	"spase://NASA/NumericalData/Interball-1/ELECTRON/PT120S"
+
+Variable Attributes (18 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DICT_KEY
+CATDESC
+SCALETYP
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Ne                    CDF_REAL4/1	0:[]	T/  
+Te                    CDF_REAL4/1	0:[]	T/  
+Ne1                   CDF_REAL4/1	0:[]	T/  
+Te1                   CDF_REAL4/1	0:[]	T/  
+Flag_El               CDF_UINT1/1	0:[]	T/  
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (7 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 29-Aug-1995 00:01:00.000
+     SCALEMAX        (CDF_EPOCH/1): 29-Aug-1995 23:59:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Ne (No: 1) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Electron Number Density"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     SCALEMIN        (CDF_REAL4/1): 0.5433
+     SCALEMAX        (CDF_REAL4/1): 27.14
+     LABLAXIS        (CDF_CHAR/2): "Ne"
+     UNITS           (CDF_CHAR/5): "no/cc"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/23): "density>electron_number"
+     CATDESC         (CDF_CHAR/42): "Electron Number Density, full energy range"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/17): "2 min. resolution"
+
+Te (No: 2) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Electron Mean Energy"
+     VALIDMIN        (CDF_REAL4/1): 10.0
+     VALIDMAX        (CDF_REAL4/1): 26000.0
+     SCALEMIN        (CDF_REAL4/1): 23.9
+     SCALEMAX        (CDF_REAL4/1): 3993.0
+     LABLAXIS        (CDF_CHAR/2): "Te"
+     UNITS           (CDF_CHAR/2): "eV"
+     FORMAT          (CDF_CHAR/4): "F8.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/15): "energy>electron"
+     CATDESC         (CDF_CHAR/39): "Electron mean energy, full energy range"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/17): "2 min. resolution"
+
+Ne1 (No: 3) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Electron Number Density"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     SCALEMIN        (CDF_REAL4/1): 0.2034
+     SCALEMAX        (CDF_REAL4/1): 22.95
+     LABLAXIS        (CDF_CHAR/13): "Ne, >20-40 eV"
+     UNITS           (CDF_CHAR/5): "no/cc"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/23): "density>electron_number"
+     CATDESC         (CDF_CHAR/41): "Electron Density, lowest energies cut off"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/17): "2 min. resolution"
+
+Te1 (No: 4) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Electron Mean Energy"
+     VALIDMIN        (CDF_REAL4/1): 10.0
+     VALIDMAX        (CDF_REAL4/1): 26000.0
+     SCALEMIN        (CDF_REAL4/1): 33.83
+     SCALEMAX        (CDF_REAL4/1): 4655.0
+     LABLAXIS        (CDF_CHAR/13): "Te, >20-40 eV"
+     UNITS           (CDF_CHAR/2): "eV"
+     FORMAT          (CDF_CHAR/4): "F8.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/15): "energy>electron"
+     CATDESC         (CDF_CHAR/45): "Electron mean energy, lowest energies cut off"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/17): "2 min. resolution"
+
+Flag_El (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Status Flag, ELECTRON"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 40
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 40
+     LABLAXIS        (CDF_CHAR/4): "Flag"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/40): "Status flag, mode coded, see description"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/224): "Standard flags are used in case of data absence. For the valid data SF is in the range 10-38. Most significant digit (1-3) shows energy range used. Least significant digit shows number of the plate, data from which are used."
+
+Gap_Flag (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag : 0 no gap before this point, 1-5 gap reason"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

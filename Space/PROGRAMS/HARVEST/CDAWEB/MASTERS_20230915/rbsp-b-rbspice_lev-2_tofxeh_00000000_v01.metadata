@@ -1,0 +1,632 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/rbsp-b-rbspice_lev-2_tofxeh_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     rbsp-b-rbspice_lev-2_tofxeh_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     32
+NumAttrs:     66 (27 global, 39 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (27 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/22): 	"LWS>Living With a Star"
+Source_name (1 entry):
+	0 (CDF_CHAR/43): 	"RBSP-B-RBSPICE>Radiation Belt Storm Probe A"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/40): 	"TOFXEH>Time of Flight vs Energy Hydrogen"
+Descriptor (1 entry):
+	0 (CDF_CHAR/13): 	"Lev-2>Level 2"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_descriptor_datatype"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Lou Lanzerotti"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/34): 	"New Jersey Institute of Technology"
+TEXT (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/23): 	"Van Allen Probes (RBSP)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/27): 	"rbsp-b-rbspice_lev-2_tofxeh"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/40): 	"rbsp-b-rbspice_lev-2_tofxeh_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/100): 	"TOF x Energy Hydrogen Rates (with spin accumulations plotted at end of accumulation in sector order)"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/19): 	"sub spin resolution"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/1): 	" "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (0 entry):
+LINK_TEXT (3 entries):
+	0 (CDF_CHAR/70): 	"Current QuickLook & Summary Plots, Instrument Information and All Data"
+	1 (CDF_CHAR/37): 	"Interactive Analysis for RBSPICE Data"
+	2 (CDF_CHAR/16): 	"Van Allen Probes"
+LINK_TITLE (3 entries):
+	0 (CDF_CHAR/30): 	"at the RBSPICE Instrument Site"
+	1 (CDF_CHAR/18): 	"using RBSPICE MIDL"
+	2 (CDF_CHAR/68): 	"Science Gateway (including Mission Rules of the Road for Data Usage)"
+HTTP_LINK (3 entries):
+	0 (CDF_CHAR/34): 	"http://rbspice.ftecs.com/Data.html"
+	1 (CDF_CHAR/38): 	"http://sd-www.jhuapl.edu/rbspice/MIDL/"
+	2 (CDF_CHAR/27): 	"http://rbspgway.jhuapl.edu/"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/5): 	"FALSE"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/51): 	"spase://NASA/NumericalData/RBSP/B/RBSPICE/L2/TOFXEH"
+
+Variable Attributes (39 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VIRTUAL
+FUNCT
+COMPONENT_0
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+DELTA_PLUS_VAR
+SCALEMIN
+SCALEMAX
+ALLOW_BIN
+
+Variable Information (0 rVariable, 32 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+UTC                   CDF_UCHAR/30	0:[]	T/  
+SCLOCK_Full           CDF_UCHAR/20	0:[]	T/  
+ET                    CDF_DOUBLE/1	0:[]	T/  
+MidET                 CDF_DOUBLE/1	0:[]	T/  
+StopET                CDF_DOUBLE/1	0:[]	T/  
+Telescope             CDF_INT1/1	1:[6]	F/T
+Channel               CDF_INT1/1	1:[14]	F/T
+FPDU_Energy_Fixed     CDF_REAL4/1	1:[14]	F/T
+FPDU                  CDF_DOUBLE/1	2:[6,14]	T/TT
+FPDU_I                CDF_DOUBLE/1	2:[6,14]	T/TT
+FPDU_Error            CDF_REAL4/1	2:[6,14]	T/TT
+FPDU_Crosscalib_RMSE  CDF_REAL4/1	2:[6,14]	T/TT
+FPDU_Quality          CDF_INT2/1	2:[6,14]	T/TT
+Sector                CDF_UINT4/1	0:[]	T/  
+Duration              CDF_DOUBLE/1	0:[]	T/  
+Spin                  CDF_UINT4/1	0:[]	T/  
+OrbitNumber           CDF_INT4/1	0:[]	T/  
+L                     CDF_REAL4/1	0:[]	T/  
+Position_SM           CDF_REAL4/1	1:[3]	T/T
+OrbitNumber_TT        CDF_INT4/1	0:[]	T/  
+L_TT                  CDF_REAL4/1	0:[]	T/  
+Position_SM_TT        CDF_REAL4/1	1:[3]	T/T
+Position_SM_Axis_Label CDF_CHAR/3	1:[3]	F/T
+FPDU_Energy           CDF_REAL4/1	2:[6,14]	F/TT
+FPDU_EnergyRange      CDF_REAL4/1	3:[6,2,14]	F/TTT
+FPDU_Telescope_Label  CDF_CHAR/32	1:[6]	F/T
+FPDU_Error_Telescope_Label CDF_CHAR/14	1:[6]	F/T
+FPDU_RMSE_Telescope_Label CDF_CHAR/20	1:[6]	F/T
+FPDU_Quality_Telescope_Label CDF_CHAR/15	1:[6]	F/T
+FPDU_Energy_Channel_Label CDF_CHAR/1	1:[14]	F/T
+FEDU_Energy_Channel   CDF_CHAR/1	1:[14]	F/T
+
+
+Variable (32 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/70): "Ephemeris Time of the start  of the accumulation for this measurement."
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:59.999000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/294): "This is the Ephemeris Time saved as a TT2000 CDF Variable.  The difference between the ET value and the TT value is less than a millisecond.  The ET time values have an accuracy of no greater than 3 milliseconds hence it was determined that there was no reason to convert the ET values into TT."
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+
+UTC (No: 1) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/88): "The time of the start of the measurement in as a UTC time string (CCYY-DOYTHH:MM:SS.hhh)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/3): "UTC"
+     FORMAT          (CDF_CHAR/3): "A31"
+     LABLAXIS        (CDF_CHAR/3): "UTC"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SCLOCK_Full (No: 2) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "The time at the start of the measurement of the Spacecraft Clock as (#/Ticks:Fine)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/11): "SCLOCK_Full"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/11): "SCLOCK_Full"
+     UNITS           (CDF_CHAR/5): "ticks"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+ET (No: 3) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "The ephemeris time at the start of the measurement."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/2): "ET"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/2): "ET"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VALIDMIN        (CDF_DOUBLE/1): 3.15576e+08
+     VALIDMAX        (CDF_DOUBLE/1): 7.88962e+08
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+MidET (No: 4) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/207): "The ephemeris time at the mid-point of the measurement. For multi-spin measurements the midET is centered so that it properly represents the time to be used to calculate the look direction of the instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/5): "MidET"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "MidET"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VALIDMIN        (CDF_DOUBLE/1): 3.15576e+08
+     VALIDMAX        (CDF_DOUBLE/1): 7.88962e+08
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+StopET (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "The ephemeris time at the end of the accumulation of the measurement"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/6): "StopET"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "StopET"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VALIDMIN        (CDF_DOUBLE/1): 3.15576e+08
+     VALIDMAX        (CDF_DOUBLE/1): 7.88962e+08
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Telescope (No: 6) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Identifies the telescope used to collect the measurement"
+     FIELDNAM        (CDF_CHAR/13): "Telescope No."
+     FILLVAL         (CDF_INT1/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/13): "Telescope No."
+     VALIDMIN        (CDF_INT1/1): -1
+     VALIDMAX        (CDF_INT1/1): 6
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SCALEMIN        (CDF_INT1/1): -1
+     SCALEMAX        (CDF_INT1/1): 6
+
+Channel (No: 7) (Recs: 1)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Identifies the channel used to collect the measurement"
+     FIELDNAM        (CDF_CHAR/7): "Channel"
+     FILLVAL         (CDF_INT1/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/7): "Channel"
+     VALIDMIN        (CDF_INT1/1): 0
+     VALIDMAX        (CDF_INT1/1): 13
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+FPDU_Energy_Fixed (No: 8) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/128): "Midpoint energy of the measurement channel. A value of -1 indicates that an energy definition for this channel is not applicable"
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/3): "MeV"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/13): "Added by SPDF"
+
+FPDU (No: 9) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "FPDU: Proton flux spectrograms in energy, by telescope in sector order "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Telescope"
+     DEPEND_2        (CDF_CHAR/17): "FPDU_Energy_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/107): "spectrogram>y=FPDU_Energy_Fixed,z=FPDU(1,*),z=FPDU(2,*), z=FPDU(3,*), z=FPDU(4,*), z=FPDU(5,*), z=FPDU(6,*)"
+     FIELDNAM        (CDF_CHAR/4): "FPDU"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/4): "FPDU"
+     LABL_PTR_1      (CDF_CHAR/20): "FPDU_Telescope_Label"
+     LABL_PTR_2      (CDF_CHAR/25): "FPDU_Energy_Channel_Label"
+     UNITS           (CDF_CHAR/17): "1/(MeV-cm^2-s-sr)"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+FPDU_I (No: 10) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "---> Telescope-energy images"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Telescope"
+     DEPEND_2        (CDF_CHAR/17): "FPDU_Energy_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/63): "plasmagram>THUMBSIZE>166>x=Telescope,y=FPDU_Energy_Fixed,z=FPDU"
+     FIELDNAM        (CDF_CHAR/4): "FPDU"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/31): "FPDU_MultiSpin_Accums_By_Sector"
+     LABL_PTR_1      (CDF_CHAR/20): "FPDU_Telescope_Label"
+     LABL_PTR_2      (CDF_CHAR/25): "FPDU_Energy_Channel_Label"
+     UNITS           (CDF_CHAR/17): "1/(MeV-cm^2-s-sr)"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+10
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/4): "FPDU"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+FPDU_Error (No: 11) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "---> The percentage error of the measurement."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Telescope"
+     DEPEND_2        (CDF_CHAR/17): "FPDU_Energy_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/143): "spectrogram>y=FPDU_Energy_Fixed,z=FPDU_Error(1,*),z=FPDU_Error(2,*), z=FPDU_Error(3,*), z=FPDU_Error(4,*), z=FPDU_Error(5,*), z=FPDU_Error(6,*)"
+     FIELDNAM        (CDF_CHAR/10): "FPDU_Error"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/10): "FPDU_Error"
+     LABL_PTR_1      (CDF_CHAR/26): "FPDU_Error_Telescope_Label"
+     LABL_PTR_2      (CDF_CHAR/25): "FPDU_Energy_Channel_Label"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+FPDU_Crosscalib_RMSE (No: 12) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "---> RMS Error of the natural log of the flux for each channel."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Telescope"
+     DEPEND_2        (CDF_CHAR/17): "FPDU_Energy_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/203): "spectrogram>y=FPDU_Energy_Fixed,z=FPDU_Crosscalib_RMSE(1,*),z=FPDU_Crosscalib_RMSE(2,*), z=FPDU_Crosscalib_RMSE(3,*), z=FPDU_Crosscalib_RMSE(4,*), z=FPDU_Crosscalib_RMSE(5,*), z=FPDU_Crosscalib_RMSE(6,*)"
+     FIELDNAM        (CDF_CHAR/20): "FPDU_Crosscalib_RMSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/20): "FPDU_Crosscalib_RMSE"
+     LABL_PTR_1      (CDF_CHAR/25): "FPDU_RMSE_Telescope_Label"
+     LABL_PTR_2      (CDF_CHAR/25): "FPDU_Energy_Channel_Label"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/103): "This error value includes all errors associated with the measurement including cross calibration errors"
+
+FPDU_Quality (No: 13) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/110): "---> Quality flag for the measurement for each telescope/channel/timestep. .see PREBM standards for definition"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Telescope"
+     DEPEND_2        (CDF_CHAR/17): "FPDU_Energy_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/155): "spectrogram>y=FPDU_Energy_Fixed,z=FPDU_Quality(1,*),z=FPDU_Quality(2,*), z=FPDU_Quality(3,*), z=FPDU_Quality(4,*), z=FPDU_Quality(5,*), z=FPDU_Quality(6,*)"
+     FIELDNAM        (CDF_CHAR/12): "FPDU_Quality"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/12): "FPDU_Quality"
+     LABL_PTR_1      (CDF_CHAR/28): "FPDU_Quality_Telescope_Label"
+     LABL_PTR_2      (CDF_CHAR/25): "FPDU_Energy_Channel_Label"
+     UNITS           (CDF_CHAR/7): "(10=OK)"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Sector (No: 14) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "---> The current sector number where each spin is divided into 36 sectors."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/6): "Sector"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/6): "Sector"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 35
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Duration (No: 15) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "---> Duration of the accumulation."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/8): "Duration"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "Duration"
+     UNITS           (CDF_CHAR/7): "Seconds"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Spin (No: 16) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "---> The current spin number of the spacecraft"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/4): "Spin"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/4): "Spin"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 65535
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+OrbitNumber (No: 17) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "Orbit Number at the time of the measurement"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/11): "OrbitNumber"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/11): "OrbitNumber"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+L (No: 18) (Recs: 0)
+-
+Attribute Entries:
+     CATDESC         (CDF_CHAR/140): "---> Dipole L value calculated using the SM Reference Frame and taken from the definitive SPICE SPK kernels that are available at the time. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/1): "L"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/1): "L"
+     UNITS           (CDF_CHAR/10): "EarthRadii"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Position_SM (No: 19) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "---> Position of the spacecraft in SM coordinates"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "Position_SM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/22): "Position_SM_Axis_Label"
+     UNITS           (CDF_CHAR/10): "EarthRadii"
+     VALIDMIN        (CDF_REAL4/3): -10.0, -10.0, -10.0
+     VALIDMAX        (CDF_REAL4/3): 10.0, 10.0, 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+OrbitNumber_TT (No: 20) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "[Labels on plots] Orbit Number at the time of the measurement"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     FIELDNAM        (CDF_CHAR/11): "OrbitNumber"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/11): "OrbitNumber"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5000
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/11): "OrbitNumber"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+L_TT (No: 21) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/158): "---> [Labels on plots] Dipole L value calculated using the SM Reference Frame and taken from the definitive SPICE SPK kernels that are available at the time. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     FIELDNAM        (CDF_CHAR/1): "L"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/1): "L"
+     UNITS           (CDF_CHAR/10): "EarthRadii"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/1): "L"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Position_SM_TT (No: 22) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "---> [Labels on plots] Position of the spacecraft in SM coordinates"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     FIELDNAM        (CDF_CHAR/11): "Position_SM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/22): "Position_SM_Axis_Label"
+     UNITS           (CDF_CHAR/10): "EarthRadii"
+     VALIDMIN        (CDF_REAL4/3): -10.0, -10.0, -10.0
+     VALIDMAX        (CDF_REAL4/3): 10.0, 10.0, 10.0
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/11): "Position_SM"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Position_SM_Axis_Label (No: 23) (Recs: 1)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "Position_SM_Axis_Label"
+     FIELDNAM        (CDF_CHAR/22): "Position_SM_Axis_Label"
+     FORMAT          (CDF_CHAR/2): "A3"
+     LABLAXIS        (CDF_CHAR/22): "Position_SM_Axis_Label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+FPDU_Energy (No: 24) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/128): "Midpoint energy of the measurement channel. A value of -1 indicates that an energy definition for this channel is not applicable"
+     FIELDNAM        (CDF_CHAR/11): "FPDU_Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/11): "FPDU_Energy"
+     UNITS           (CDF_CHAR/3): "MeV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 15.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+FPDU_EnergyRange (No: 25) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/233): "Minimum and Maximum energy of the measurement channel. A value of -1 indicates that either an energy definition for this channel is not applicable or that the upper end of the channel is undefined - i.e. the channel becomes integral."
+     FIELDNAM        (CDF_CHAR/16): "FDPU_EnergyRange"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/16): "FDPU_EnergyRange"
+     UNITS           (CDF_CHAR/3): "MeV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 15.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+FPDU_Telescope_Label (No: 26) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "FPDU_Telescope"
+     FIELDNAM        (CDF_CHAR/14): "FPDU_Telescope"
+     FORMAT          (CDF_CHAR/3): "A32"
+     LABLAXIS        (CDF_CHAR/14): "FPDU_Telescope"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+FPDU_Error_Telescope_Label (No: 27) (Recs: 1)
+--------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "FPDU_Telescope"
+     FIELDNAM        (CDF_CHAR/14): "FPDU_Telescope"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/14): "FPDU_Telescope"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+FPDU_RMSE_Telescope_Label (No: 28) (Recs: 1)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "FPDU_Telescope"
+     FIELDNAM        (CDF_CHAR/14): "FPDU_Telescope"
+     FORMAT          (CDF_CHAR/3): "A17"
+     LABLAXIS        (CDF_CHAR/14): "FPDU_Telescope"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+FPDU_Quality_Telescope_Label (No: 29) (Recs: 1)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "FPDU_Telescope"
+     FIELDNAM        (CDF_CHAR/14): "FPDU_Telescope"
+     FORMAT          (CDF_CHAR/3): "A12"
+     LABLAXIS        (CDF_CHAR/14): "FPDU_Telescope"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+FPDU_Energy_Channel_Label (No: 30) (Recs: 1)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "FPDU_Energy_Channel"
+     FIELDNAM        (CDF_CHAR/19): "FPDU_Energy_Channel"
+     FORMAT          (CDF_CHAR/3): "A28"
+     LABLAXIS        (CDF_CHAR/19): "FPDU_Energy_Channel"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+FEDU_Energy_Channel (No: 31) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "FPDU_Energy_Channel"
+     FIELDNAM        (CDF_CHAR/19): "FPDU_Energy_Channel"
+     FORMAT          (CDF_CHAR/3): "A28"
+     LABLAXIS        (CDF_CHAR/19): "FPDU_Energy_Channel"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

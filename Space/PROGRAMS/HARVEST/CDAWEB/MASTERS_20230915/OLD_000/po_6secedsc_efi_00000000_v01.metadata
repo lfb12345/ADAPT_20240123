@@ -1,0 +1,173 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_6secedsc_efi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_6secedsc_efi_00000000_v01.cdf
+Version:      2.6.7
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     4
+NumAttrs:     41 (20 global, 21 variable)
+Compression:  None
+
+Global Attributes (20 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_Name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/79): 	"6secEdsc>6 second Electric Field components Despun Spacecraft Coordinates (DSC)"
+Descriptor (1 entry):
+	0 (CDF_CHAR/29): 	"EFI>Electric Field Instrument"
+Data_Version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Title (1 entry):
+	0 (CDF_CHAR/61): 	"Electric Field components Despun Spacecraft Coordinates (DSC)"
+TEXT (6 entries):
+	0 (CDF_CHAR/635): 	"Important Warning: The data described below is meant for archival purposes.  It should not be considered as highly accurate data.  For example, accurate data requires a correction in the form of an offset to the Sunward component of the electric field.  A constant offset of 1.2 mV/m has been used for all the data, this being an approximate average value.  In fact, however, the offset varies with time, and must be determined by analysis of the particular time of interest.  Users of this data desiring more information should get in touch with Dr. Forrest Mozer, at the Space Sciences Laboratory, University of California, Berkeley."
+	1 (CDF_CHAR/254): 	"The electric field data is at spin period time resolution. This means that there is 1 data point about every 6 seconds. However, it should be noted that there can be longer intervals between data points, due to missing data.  Data gaps are not filled in."
+	2 (CDF_CHAR/1246): 	"The components of the electric field are given in a coordinate system designated as Despun Spacecraft Coordinates , or DSC.  This is a coordinate system for a rotating spacecraft that is in an orbit near the Earth.  DSC is defined by the spacecraft's spin plane and spin axis. However, as the Despun part of the name suggests, the coordinate axes do not participate of the spacecraft's rotation. The X and Y axes are on the spacecraft's spin plane; the Z axis is along the spacecraft's spin axis.  The positive X, Y, and Z axes form an orthogonal, right-handed coordinate system.  The positive Z axis points in the same direction as the spacecraft's angular momentum (or spin or attitude) vector.  The positive X axis points in the direction on the spin plane that is closest to the direction towards the Sun.  In other words, the positive X axis points in the direction of the projection on the spin plane of the vector from the spacecraft to the Sun.  The positive Y axis is determined by the requirement that the DSC system (X, Y, Z) be an orthogonal right-handed system. It follows that the positive Y axis points in the direction on the spin plane that is 90 degrees ahead of the positive X axis (in the sense of the spacecraft's rotation). "
+	3 (CDF_CHAR/361): 	"The electric field data included in these files consists of 2 electric field components on the spin plane.  The original data used is V34L, which typically has a time resolution of about 40 data points per second.  A least-squares spin fit of V34L is performed, and the spin fit coefficients provide the spin plane components of the spin period electric field. "
+	4 (CDF_CHAR/360): 	"Time is a real double-precision quantity.  The units for the time are seconds.  The time is time elapsed since the FAST Mission Epoch, which is May 24, 1968 (1968/05/24) at 00:00:00 UT.  Each time tag indicates the mid-point of the time interval for the corresponding spin period.  Data gaps are not filled; each time tag corresponds to an actual data point.  "
+	5 (CDF_CHAR/377): 	"E_X and E_Y are the X and Y components of the electric field in the DSC coordinate system (note that both the X and the Y component are present, despite the X in the file name).  E_X and E_Y are real single-precision quantities. The units for the electric field components are mV/m.  There are no missing data values; each data point value corresponds to an actual data point. "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/28): 	"po_6secEdsc_efi_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/15): 	"po_6secEdsc_efi"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/59): 	"Polar Electric Field (x,y) in Despun Spacecraft Coordinates"
+PI_name (1 entry):
+	0 (CDF_CHAR/5): 	"Mozer"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/11): 	"UC Berkeley"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/36): 	"Polar_EFI_XY-Electric-Field_6sec_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/48): 	"spase://NASA/NumericalData/POLAR/EFI/Despun/PT6S"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+LABLAXIS
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 4 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Time                  CDF_REAL8/1	0:[]	T/  
+E_X                   CDF_REAL4/1	0:[]	T/  
+E_Y                   CDF_REAL4/1	0:[]	T/  
+
+
+Variable (4 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/41): "Time relative to midnight January 1, 0 AD"
+     CATDESC         (CDF_CHAR/49): "Time relative to midnight January 1, 0 AD, Scalar"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time (No: 1) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "elapsed time"
+     CATDESC         (CDF_CHAR/64): "elapsed time since the Fast Mission Epoch,5/24/1968 00:00:00 UT."
+     VALIDMIN        (CDF_REAL8/1): 8.0e+08
+     VALIDMAX        (CDF_REAL8/1): 8.0e+09
+     UNITS           (CDF_CHAR/7): "seconds"
+     FORMAT          (CDF_CHAR/5): "f12.1"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "elapsed time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_X (No: 2) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "X comp E-Field (DSC) "
+     CATDESC         (CDF_CHAR/56): "X component of the electric field, DSC coordinate system"
+     VALIDMIN        (CDF_REAL4/1): -500.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     UNITS           (CDF_CHAR/4): "mV/m"
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/21): "X comp E-Field (DSC) "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_Y (No: 3) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Y comp E-Field (DSC) "
+     CATDESC         (CDF_CHAR/56): "Y component of the electric field, DSC coordinate system"
+     VALIDMIN        (CDF_REAL4/1): -500.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     UNITS           (CDF_CHAR/4): "mV/m"
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/21): "Y comp E-Field (DSC) "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+

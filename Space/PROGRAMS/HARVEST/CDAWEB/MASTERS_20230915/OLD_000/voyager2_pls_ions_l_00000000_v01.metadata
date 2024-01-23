@@ -1,0 +1,393 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/voyager2_pls_ions_l_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     voyager2_pls_ions_l_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     16
+NumAttrs:     53 (26 global, 27 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/15): 	"VOYAGER>Voyager"
+Source_name (1 entry):
+	0 (CDF_CHAR/17): 	"VOYAGER2>Voyager2"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/4): 	"Ions"
+Descriptor (1 entry):
+	0 (CDF_CHAR/16): 	"PLS>Plasma Data "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/22): 	"Dr. John D. Richardson"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/19): 	"MIT Kavli Institute"
+TEXT (2 entries):
+	0 (CDF_CHAR/664): 	"These ion current spectra in the jovian magnetosphere are from the Plasma Spectrometer (PLS) instrument on Voyager 2 during the July 1979 flyby of Jupiter. The instrument has four Faraday Cups A - D, the electron data come only from D. The data are specified in terms of current per cup in femto-amps (10^-15 A) versus channel number and energy (eV). This data set is for the PLS L-mode covering H+ ion energies of 10 - 5950 eV at low energy resolution in 16 logarithmic energy channels. PLS samples only one mode of electron (E1, E2) or ion (L, M) spectra in each time interval, so the L-mode data are not continuous but consecutive with the other modes in time. "
+	1 (CDF_CHAR/124): 	"Reference: Bridge et al. (1977). The Plasma Experiment on the the 1977 Voyager Mission, Space Science Reviews, 21, 259-287. "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/7): 	"Voyager"
+Logical_source (1 entry):
+	0 (CDF_CHAR/19): 	"voyager2_pls_ions_l"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/53): 	"Voyager-2, Jupiter Low-Resolution Ion Current Spectra"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/28): 	"irregular, mostly 96 seconds"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/119): 	"For public distribution but users are advised to contact Dr. Richardson on questions about how the data were produced. "
+Generated_by (1 entry):
+	0 (CDF_CHAR/13): 	"Sonya Lyatsky"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/109): 	"Please acknowledge the Voyager 2 PLS PI, Dr. John D. Richardson of the Massacusetts Institute of Technology. "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/46): 	"Homepage for Voyager Plasma Science Experiment"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/33): 	"Voyager Plasma Science Experiment"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/49): 	"http://web.mit.edu/space/www/voyager/voyager.html"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/92): 	"spase://NASA/NumericalData/Voyager2/PLS/Jupiter/Ion/CurrentSpectra/LowEnergyResolution/PT96S"
+
+Variable Attributes (27 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+UNIT_PTR
+
+Variable Information (0 rVariable, 16 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Year                  CDF_UINT4/1	0:[]	T/  
+Month                 CDF_UINT4/1	0:[]	T/  
+Day                   CDF_UINT4/1	0:[]	T/  
+Hour                  CDF_UINT4/1	0:[]	T/  
+Minute                CDF_UINT4/1	0:[]	T/  
+Second                CDF_UINT4/1	0:[]	T/  
+Millisecond           CDF_UINT4/1	0:[]	T/  
+FOY                   CDF_REAL4/1	0:[]	T/  
+DOY                   CDF_UINT4/1	0:[]	T/  
+Ions_Cup1             CDF_REAL8/1	1:[16]	T/T
+Ions_Cup2             CDF_REAL8/1	1:[16]	T/T
+Ions_Cup3             CDF_REAL8/1	1:[16]	T/T
+Ions_Cup4             CDF_REAL8/1	1:[16]	T/T
+Channel               CDF_REAL4/1	1:[16]	F/T
+Ions_LABL_1           CDF_CHAR/24	1:[16]	F/T
+
+
+Variable (16 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "CDF epoch time for the event"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/14): "CDF Epoch Time"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/33): "day-month-year hour:minute:second"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1960 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+Year (No: 1) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "Year"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/4): "Year"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/4): "Year"
+     UNITS           (CDF_CHAR/4): "Year"
+     VALIDMIN        (CDF_UINT4/1): 1960
+     VALIDMAX        (CDF_UINT4/1): 2200
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/4): "Year"
+
+Month (No: 2) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "Month"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/5): "Month"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/4): "Hour"
+     UNITS           (CDF_CHAR/4): "Hour"
+     VALIDMIN        (CDF_UINT4/1): 1
+     VALIDMAX        (CDF_UINT4/1): 12
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/5): "Month"
+
+Day (No: 3) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Day of the Month"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/16): "Day of the Month"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/4): "Year"
+     UNITS           (CDF_CHAR/3): "Day"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Hour (No: 4) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Hour of the Day"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/15): "Hour of the Day"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/4): "Hour"
+     UNITS           (CDF_CHAR/4): "Hour"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 23
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/15): "Hour of the Day"
+
+Minute (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "Minute of the Hour"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/18): "Minute of the Hour"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/3): "Min"
+     UNITS           (CDF_CHAR/3): "Min"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 59
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/18): "Minute of the Hour"
+
+Second (No: 6) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Second of the Minute"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/20): "Second of the Minute"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/3): "Min"
+     UNITS           (CDF_CHAR/3): "Sec"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 59
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/20): "Second of the Minute"
+
+Millisecond (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "Millisecond of the Second"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/25): "Millisecond of the Second"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/4): "MSec"
+     UNITS           (CDF_CHAR/4): "MSec"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/25): "Millisecond of the Second"
+
+FOY (No: 8) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Fraction f the Year."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/20): "Fraction of the Year"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F12.6"
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/20): "Fraction of the year"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 367.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+DOY (No: 9) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Day of the Year"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/15): "Day of the Year"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/4): "Year"
+     UNITS           (CDF_CHAR/4): "Year"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 366
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/15): "Day of the Year"
+
+Ions_Cup1 (No: 10) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "L-mode Ion current from A cup for H+ energies 10 - 5950 eV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Channel"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/29): "L-mode Ion current from A cup"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.6"
+     LABLAXIS        (CDF_CHAR/4): "Flux"
+     LABL_PTR_1      (CDF_CHAR/11): "Ions_LABL_1"
+     UNITS           (CDF_CHAR/9): "femto-amp"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/85): "1 femto-amp = 10^-15 amps. The equivalent energy coverage for He++ is 20 - 11900 eV. "
+
+Ions_Cup2 (No: 11) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "L-mode Ion current from B cup for H+ energies 10 - 5950 eV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Channel"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/29): "L-Mode Ion current from B cup"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.6"
+     LABLAXIS        (CDF_CHAR/4): "Flux"
+     LABL_PTR_1      (CDF_CHAR/11): "Ions_LABL_1"
+     UNITS           (CDF_CHAR/9): "femto-amp"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/84): "1 femto-amp = 10^-15 amps. The equivalent energy coverage for He++ is 20 - 11900 eV."
+
+Ions_Cup3 (No: 12) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "L-Mode Ion current from C cup for H+ energies 10 - 5950 eV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Channel"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/29): "L-Mode Ion current from C cup"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.6"
+     LABLAXIS        (CDF_CHAR/4): "Flux"
+     LABL_PTR_1      (CDF_CHAR/11): "Ions_LABL_1"
+     UNITS           (CDF_CHAR/9): "femto-amp"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/84): "1 femto-amp = 10^-15 amps. The equivalent energy coverage for He++ is 20 - 11900 eV."
+
+Ions_Cup4 (No: 13) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "L-Mode Ion current from D cup for H+ energies 10 - 5950 eV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Channel"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/29): "L-Mode Ion current from D cup"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.6"
+     LABLAXIS        (CDF_CHAR/4): "Flux"
+     LABL_PTR_1      (CDF_CHAR/11): "Ions_LABL_1"
+     UNITS           (CDF_CHAR/9): "femto-amp"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/84): "1 femto-amp = 10^-15 amps. The equivalent energy coverage for He++ is 20 - 11900 eV."
+
+Channel (No: 14) (Recs: 1)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "L-Mode Energy Channel Number"
+     FIELDNAM        (CDF_CHAR/32): "L-Mode Ion Energy Channel Number"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F5.2"
+     LABLAXIS        (CDF_CHAR/14): "Channel Number"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 16.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SCAL_PTR        (CDF_CHAR/11): "Ions_LABL_1"
+     VAR_NOTES       (CDF_CHAR/187): "In L mode there are 16 logarithmic energy channels covering 10 - 5950 eV for H+. The 17 bounding energies of the 128 channels are computed from.[60(1.33352)^(i-1) - 50] eV for i = 1 - 17."
+     FORM_PTR        (CDF_CHAR/11): "Ions_LABL_1"
+
+Ions_LABL_1 (No: 15) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "L-Mode Ion Energy Channel"
+     FIELDNAM        (CDF_CHAR/25): "L-Mode Ion Energy Channel"
+     FORMAT          (CDF_CHAR/3): "A14"
+     LABLAXIS        (CDF_CHAR/16): "Electrons_LABL_1"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

@@ -1,0 +1,291 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/mms1_dsp_slow_l2_bpsd_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     mms1_dsp_slow_l2_bpsd_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     56 (26 global, 30 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (26 attributes)
+=========================================
+Data_type (1 entry):
+	0 (CDF_CHAR/12): 	"slow_l2_bpsd"
+Data_version (1 entry):
+	0 (CDF_CHAR/6): 	"v2.1.0"
+Descriptor (1 entry):
+	0 (CDF_CHAR/28): 	"DSP>Digital Signal Processor"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Generation_date (1 entry):
+	0 (CDF_CHAR/8): 	"20160222"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/21): 	"mms1_dsp_slow_l2_bpsd"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/41): 	"search coil magnetometer spectral density"
+Mission_group (1 entry):
+	0 (CDF_CHAR/3): 	"MMS"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/15): 	"SWRI, LASP, LPP"
+PI_name (1 entry):
+	0 (CDF_CHAR/32): 	"J. Burch, R. Ergun, O. Le Contel"
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"STP>Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/28): 	"MMS1>MMS Satellite Number 1 "
+TEXT (1 entry):
+	0 (CDF_CHAR/41): 	"search coil magnetometer spectral density"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/25): 	"http://mms.gsfc.nasa.gov/"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/46): 	"Magnetospheric Multiscale (MMS) Mission - NASA"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/46): 	"Magnetospheric Multiscale (MMS) Mission - NASA"
+MODS (0 entry):
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+Acknowledgement (0 entry):
+Generated_by (0 entry):
+Rules_of_use (0 entry):
+Time_resolution (0 entry):
+ADID_ref (0 entry):
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/95): 	"spase://NASA/NumericalData/MMS/1/FIELDS/DSP/Slow/Level2/MagneticFieldPowerSpectralDensity/PT16S"
+
+Variable Attributes (30 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+SCALETYP
+LABLAXIS
+UNITS
+FORMAT
+DELTA_PLUS
+DELTA_MINUS
+MONOTON
+CATDESC
+FILLVAL
+DICT_KEY
+VAR_TYPE
+AVG_TYPE
+DISPLAY_TYPE
+Calib_input
+Calib_software
+Frame
+Sig_digits
+SI_conversion
+DEPEND_0
+VAR_NOTES
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+DEPEND_1
+TIME_BASE
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+mms1_dsp_bpsd_scm1_slow_l2 CDF_FLOAT/1	1:[56]	T/T
+mms1_dsp_bpsd_scm2_slow_l2 CDF_FLOAT/1	1:[56]	T/T
+mms1_dsp_bpsd_scm3_slow_l2 CDF_FLOAT/1	1:[56]	T/T
+mms1_dsp_bpsd_omni_slow_l2 CDF_FLOAT/1	1:[56]	T/T
+epoch_timetag         CDF_TT2000/1	0:[]	T/  
+mms1_dsp_seqcnt_bpsd  CDF_UINT2/1	0:[]	T/  
+mms1_b_freq           CDF_FLOAT/1	1:[56]	F/T
+
+
+Variable (8 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_TT2000/1): 1970-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:59.999999999
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     FORMAT          (CDF_CHAR/5): "E14.8"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     CATDESC         (CDF_CHAR/38): "approximate center time for the sample"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     DICT_KEY        (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     Calib_input     (CDF_CHAR/1): " "
+     Calib_software  (CDF_CHAR/1): " "
+     Frame           (CDF_CHAR/9): "scalar>na"
+     Sig_digits      (CDF_CHAR/2): "14"
+     SI_conversion   (CDF_CHAR/8): "1.0e-9>s"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+
+mms1_dsp_bpsd_scm1_slow_l2 (No: 1) (Recs: 0) (Compression: GZIP.6)
+--------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "mms1_dsp_bpsd_scm1"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     SCALEMIN        (CDF_FLOAT/1): 1.0e-09
+     SCALEMAX        (CDF_FLOAT/1): 0.01
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/9): "BPSD SCM1"
+     UNITS           (CDF_CHAR/10): " nT^{2}/Hz"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     CATDESC         (CDF_CHAR/46): "SCM1 component magnetic power spectral density"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     Calib_input     (CDF_CHAR/1): " "
+     Calib_software  (CDF_CHAR/1): " "
+     Frame           (CDF_CHAR/8): "array>na"
+     Sig_digits      (CDF_CHAR/2): "10"
+     SI_conversion   (CDF_CHAR/2): "na"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "mms1_b_freq"
+
+mms1_dsp_bpsd_scm2_slow_l2 (No: 2) (Recs: 0) (Compression: GZIP.6)
+--------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "mms1_dsp_bpsd_scm2"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     SCALEMIN        (CDF_FLOAT/1): 1.0e-09
+     SCALEMAX        (CDF_FLOAT/1): 0.01
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/9): "BPSD SCM1"
+     UNITS           (CDF_CHAR/10): " nT^{2}/Hz"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     CATDESC         (CDF_CHAR/71): "SCM2 component magnetic power spectral density - NO DATA in Slow Survey"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     Calib_input     (CDF_CHAR/1): " "
+     Calib_software  (CDF_CHAR/1): " "
+     Frame           (CDF_CHAR/8): "array>na"
+     Sig_digits      (CDF_CHAR/2): "10"
+     SI_conversion   (CDF_CHAR/2): "na"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "mms1_b_freq"
+
+mms1_dsp_bpsd_scm3_slow_l2 (No: 3) (Recs: 0) (Compression: GZIP.6)
+--------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "mms1_dsp_bpsd_scm3"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     SCALEMIN        (CDF_FLOAT/1): 1.0e-09
+     SCALEMAX        (CDF_FLOAT/1): 0.01
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/9): "BPSD SCM3"
+     UNITS           (CDF_CHAR/10): " nT^{2}/Hz"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     CATDESC         (CDF_CHAR/46): "SCM3 component magnetic power spectral density"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     Calib_input     (CDF_CHAR/1): " "
+     Calib_software  (CDF_CHAR/1): " "
+     Frame           (CDF_CHAR/8): "array>na"
+     Sig_digits      (CDF_CHAR/2): "10"
+     SI_conversion   (CDF_CHAR/2): "na"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "mms1_b_freq"
+
+mms1_dsp_bpsd_omni_slow_l2 (No: 4) (Recs: 0) (Compression: GZIP.6)
+--------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "mms1_dsp_bpsd_omni"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     SCALEMIN        (CDF_FLOAT/1): 1.0e-09
+     SCALEMAX        (CDF_FLOAT/1): 0.01
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/12): "BPSD OMNI-2D"
+     UNITS           (CDF_CHAR/10): " nT^{2}/Hz"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     CATDESC         (CDF_CHAR/103): "Omni-directional magnetic power spectral density: square root of the sum of the squares of 2 components"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     Calib_input     (CDF_CHAR/1): " "
+     Calib_software  (CDF_CHAR/1): " "
+     Frame           (CDF_CHAR/8): "array>na"
+     Sig_digits      (CDF_CHAR/2): "10"
+     SI_conversion   (CDF_CHAR/2): "na"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "mms1_b_freq"
+
+epoch_timetag (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "epoch_timetag"
+     VALIDMIN        (CDF_TT2000/1): 2000-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:59.999000000
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/13): "epoch_timetag"
+     UNITS           (CDF_CHAR/2): "ns"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     CATDESC         (CDF_CHAR/15): "packet time tag"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms1_dsp_seqcnt_bpsd (No: 6) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "SEQCNT"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65535
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "I6"
+     CATDESC         (CDF_CHAR/6): "SEQCNT"
+     FILLVAL         (CDF_UINT2/1): 65535
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/13): "epoch_timetag"
+
+mms1_b_freq (No: 7) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "BPSD Freq Midpoints"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 8192.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/2): "Hz"
+     FORMAT          (CDF_CHAR/5): "F10.1"
+     DELTA_PLUS      (CDF_FLOAT/55): 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 32.0, 32.0, 32.0, 32.0, 32.0, 32.0, 32.0, 32.0, 64.0, 64.0, 64.0, 64.0, 64.0, 64.0, 64.0, 128.0, 128.0, 128.0, 128.0, 128.0, 128.0, 128.0, 128.0, 256.0, 256.0, 256.0, 256.0, 256.0, 256.0, 256.0, 256.0
+     DELTA_MINUS     (CDF_FLOAT/55): 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 32.0, 32.0, 32.0, 32.0, 32.0, 32.0, 32.0, 32.0, 64.0, 64.0, 64.0, 64.0, 64.0, 64.0, 64.0, 128.0, 128.0, 128.0, 128.0, 128.0, 128.0, 128.0, 128.0, 256.0, 256.0, 256.0, 256.0, 256.0, 256.0, 256.0, 256.0
+     CATDESC         (CDF_CHAR/22): "LF Frequency Midpoints"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+

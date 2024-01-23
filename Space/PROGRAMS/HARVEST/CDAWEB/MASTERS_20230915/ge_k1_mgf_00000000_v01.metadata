@@ -1,0 +1,180 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ge_k1_mgf_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ge_k1_mgf_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     4
+NumAttrs:     50 (27 global, 23 variable)
+Compression:  None
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/23): 	"Geotail Total Pc5 Power"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"GEOTAIL>Geomagnetic tail"
+Data_type (1 entry):
+	0 (CDF_CHAR/41): 	"K1>1 min calculated Pc 5 power parameters"
+Descriptor (1 entry):
+	0 (CDF_CHAR/18): 	"MGF>Magnetic Field"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (1 entry):
+	0 (CDF_CHAR/59): 	"Kokubun et al., Geotail Prelaunch Report, ISAS, 58-70, 1992"
+MODS (1 entry):
+	0 (CDF_CHAR/37): 	"Created by R.L. Kessel on 11/7/2000, "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0087"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"ge_k1_mgf_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"ge_k1_mgf"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/32): 	"Geotail Magnetic Field Pc5 Power"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"S. Kokubun"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/26): 	"STELAB Nagoya Univ., Japan"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/7): 	"Geotail"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+Link_text (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Time_resolution (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/7): 	"Geotail"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+LABL_PTR_1
+UNITS
+UNIT_PTR
+FORMAT
+FORM_PTR
+DEPEND_0
+DEPEND_1
+MONOTON
+VAR_TYPE
+DICT_KEY
+CATDESC
+FILLVAL
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCAL_PTR
+SCALETYP
+
+Variable Information (0 rVariable, 4 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Pc5power              CDF_REAL4/1	0:[]	T/  
+B_mag_PSD             CDF_REAL4/1	1:[65]	T/T
+Frequency             CDF_REAL4/1	1:[65]	F/T
+
+
+Variable (4 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     CATDESC         (CDF_CHAR/6): "Time  "
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Pc5power (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/35): "Pc5 power calc. from magnetic field"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     LABLAXIS        (CDF_CHAR/15): "Pc 5 (1-8.3mHz)"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/68): "Pc 5 Power calculated from 1 min magnetic field magnitude (1-8.3mHz)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+B_mag_PSD (No: 2) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "PSD of magnetic field magnitude"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/5): "PSD B"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     CATDESC         (CDF_CHAR/63): "Power Spectral Density of magnetic field magnitude, 0.2-8.3 mHz"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Frequency (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Frequency"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/3): "mHz"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     CATDESC         (CDF_CHAR/9): "Frequency"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/6): "linear"
+

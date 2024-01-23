@@ -1,0 +1,750 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_k0_swe_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_k0_swe_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     33
+NumzVars:     0
+NumAttrs:     54 (24 global, 30 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (24 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/27): 	"WIND> Solar Wind Parameters"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"SWE>Solar Wind Experiment"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (24 entries):
+	0 (CDF_CHAR/68): 	"SWE, a comprehensive plasma instrument for the WIND spacecraft, K.W."
+	1 (CDF_CHAR/49): 	"Ogilvie, et al., Space Sci. Rev., 71, 55-77, 1995"
+	2 (CDF_CHAR/1): 	" "
+	3 (CDF_CHAR/30): 	"USE OF THE QUALITY VARIABLES: "
+	4 (CDF_CHAR/1): 	" "
+	5 (CDF_CHAR/54): 	"*** Good data is indicated by a quality flag of 0. ***"
+	6 (CDF_CHAR/67): 	"The quality flags for each parameter are given as integers 4 bytes "
+	7 (CDF_CHAR/72): 	"long (integer*4).  The individual 'bits' for each quality value are set "
+	8 (CDF_CHAR/72): 	"(or cleared) in the analysis code by adding (or subtracting) a power of "
+	9 (CDF_CHAR/14): 	"2 as follows: "
+	10 (CDF_CHAR/27): 	"To set the 1st bit, add 1. "
+	11 (CDF_CHAR/27): 	"To set the 2nd bit, add 2, "
+	12 (CDF_CHAR/27): 	"To set the 3rd bit, add 4, "
+	13 (CDF_CHAR/38): 	"To set the 4th bit, add 8, and so on. "
+	14 (CDF_CHAR/1): 	" "
+	15 (CDF_CHAR/32): 	"    BIT  TO_SET_BIT     MEANING "
+	16 (CDF_CHAR/81): 	"    1    +1         = 3 point parabolic fits to proton peaks were not attempted. "
+	17 (CDF_CHAR/70): 	"    2    +2         = non-linear least squares fit was not attempted. "
+	18 (CDF_CHAR/69): 	"    3    +4         = 3 point parabolic fits to proton peaks FAILED. "
+	19 (CDF_CHAR/59): 	"    4    +8         = non-linear least squares fit FAILED. "
+	20 (CDF_CHAR/1): 	" "
+	21 (CDF_CHAR/55): 	"See https://cdaweb.gsfc.nasa.gov/wind_swe_quality.html "
+	22 (CDF_CHAR/51): 	"For the complete guide to the quality flag values. "
+	23 (CDF_CHAR/1): 	" "
+MODS (4 entries):
+	0 (CDF_CHAR/79): 	"12/28/94, 3/4/96, by Alan J. Lazarus John T. Steinberg Daniel B. Berdichevsky. "
+	1 (CDF_CHAR/65): 	"Skeleton TABLE for plasma CDF SWE keyparameters, dbb, Jan., 1994."
+	2 (CDF_CHAR/147): 	"Instr. qual. flags validmax setequal to +2147483647, 12/94. Qual. flags format changed to compatible values with new validmax, jts and ajl, 12/94. "
+	3 (CDF_CHAR/108): 	"Processing with instrument science modes 2 and 11 added, jts and dbb, 10/27/95. DICT_KEYs added ajl, 3/4/96."
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0138"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"WI_K0_SWE_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"WI_K0_SWE"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/48): 	"Wind SWE (Solar Wind Experiment), Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"K. Ogilvie"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA GSFC"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/9): 	"Wind SWE "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/9): 	"Home Page"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/55): 	"http://web.mit.edu/afs/athena/org/s/space/www/wind.html"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"sphe-00752"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/48): 	"Wind_SWE_Ion-Moments-Key-Parameters-K0_92sec_cdf"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/65): 	"spase://NASA/NumericalData/Wind/SWE/IonMoments/KeyParameter/PT99S"
+
+Variable Attributes (30 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+SCALETYP
+SCAL_PTR
+LABLAXIS
+UNITS
+MONOTON
+VAR_TYPE
+FORMAT
+FORM_PTR
+LABL_PTR_1
+UNIT_PTR
+FILLVAL
+TIME_RES
+DEPEND_0
+DEPEND_1
+DICT_KEY
+CATDESC
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+FUNCT
+COMPONENT_0
+COMPONENT_1
+VIRTUAL
+
+Variable Information (33 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	1:[3]	T/F
+Delta_time            CDF_REAL8/1	1:[3]	T/F
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+label_time            CDF_CHAR/27	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+GAP_FLAG              CDF_INT4/1	1:[3]	T/F
+MODE                  CDF_INT4/1	1:[3]	T/F
+SC_pos_gse            CDF_REAL4/1	1:[3]	T/T
+label_pos_GSE         CDF_CHAR/10	1:[3]	F/T
+SC_pos_GSM            CDF_REAL4/1	1:[3]	T/T
+label_pos_GSM         CDF_CHAR/10	1:[3]	F/T
+SC_pos_R              CDF_REAL4/1	1:[3]	T/F
+DQF                   CDF_INT4/1	1:[3]	T/F
+QF_V                  CDF_INT4/1	1:[3]	T/F
+QF_Vth                CDF_INT4/1	1:[3]	T/F
+QF_Np                 CDF_INT4/1	1:[3]	T/F
+QF_a/p                CDF_INT4/1	1:[3]	T/F
+V_GSE                 CDF_REAL4/1	1:[3]	T/T
+label_V_GSE           CDF_CHAR/8	1:[3]	F/T
+V_GSM                 CDF_REAL4/1	1:[3]	T/T
+label_V_GSM           CDF_CHAR/8	1:[3]	F/T
+V_GSE_p               CDF_REAL4/1	1:[3]	T/T
+V_GSE_plog            CDF_REAL4/1	1:[3]	T/T
+label_V_polar         CDF_CHAR/13	1:[3]	F/T
+unit_polar            CDF_CHAR/4	1:[3]	F/T
+THERMAL_SPD           CDF_REAL4/1	1:[3]	T/F
+Np                    CDF_REAL4/1	1:[3]	T/F
+Np_l                  CDF_REAL4/1	1:[3]	T/F
+Pressure              CDF_REAL4/1	1:[3]	T/F
+Alpha_Percent         CDF_REAL4/1	1:[3]	T/F
+cartesian             CDF_CHAR/1	1:[3]	F/T
+polar                 CDF_CHAR/3	1:[3]	F/T
+
+
+Variable (33 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Nov-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Nov-1994 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     CATDESC         (CDF_CHAR/30): "Time, centered, in NSSDC Epoch"
+     DELTA_PLUS_VAR  (CDF_CHAR/10): "Delta_time"
+     DELTA_MINUS_VAR (CDF_CHAR/10): "Delta_time"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Delta_time (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Time interval"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 300000.0
+     SCALEMIN        (CDF_REAL8/1): 2000.0
+     SCALEMAX        (CDF_REAL8/1): 200000.0
+     LABLAXIS        (CDF_CHAR/8): "Del Time"
+     UNITS           (CDF_CHAR/2): "ms"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "E10.4"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     CATDESC         (CDF_CHAR/49): "1/2 time interval to collect data for parameters "
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Time PB5"
+     VALIDMIN        (CDF_INT4/3): 1994, 305, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 365, 86399000
+     SCALEMIN        (CDF_INT4/3): 1994, 305, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 365, 86399000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     DICT_KEY        (CDF_CHAR/8): "time>PB5"
+     CATDESC         (CDF_CHAR/48): "Time, centered, in GSFC PB5 format (yr, day, ms)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/18): "Units for Time_PB5"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 4) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/18): "Label for Time_PB5"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 5) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/19): "Format for Time_PB5"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GAP_FLAG (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 15
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 3
+     LABLAXIS        (CDF_CHAR/8): "Data Gap"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/79): "Post Gap Flag0=no gap immediately prior to this record; other:see 'Guidelines' "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+MODE (No: 7) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Instrument Mode"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 15
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/4): "Mode"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "flag>mode"
+     CATDESC         (CDF_CHAR/29): "Mode categories to be decided"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SC_pos_gse (No: 8) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "S/C position in GSE"
+     VALIDMIN        (CDF_REAL4/3): -2.0e+06, -2.0e+06, -2.0e+06
+     VALIDMAX        (CDF_REAL4/3): 2.0e+06, 2.0e+06, 2.0e+06
+     SCALEMIN        (CDF_REAL4/3): -2.0e+06, -2.0e+06, -2.0e+06
+     SCALEMAX        (CDF_REAL4/3): 2.0e+06, 2.0e+06, 2.0e+06
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f9.1"
+     LABL_PTR_1      (CDF_CHAR/13): "label_pos_GSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/22): "position>GSE_cartesian"
+     CATDESC         (CDF_CHAR/40): "Wind s/c position, 3 comp. in GSE coord."
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_pos_GSE (No: 9) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for POS(GSE)"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/29): "Label for Wind Position (GSE)"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SC_pos_GSM (No: 10) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "S/C position in GSM"
+     VALIDMIN        (CDF_REAL4/3): -2.0e+06, -2.0e+06, -2.0e+06
+     VALIDMAX        (CDF_REAL4/3): 2.0e+06, 2.0e+06, 2.0e+06
+     SCALEMIN        (CDF_REAL4/3): -2.0e+06, -2.0e+06, -2.0e+06
+     SCALEMAX        (CDF_REAL4/3): 2.0e+06, 2.0e+06, 2.0e+06
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f9.1"
+     LABL_PTR_1      (CDF_CHAR/13): "label_pos_GSM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/22): "position>GSM_cartesian"
+     CATDESC         (CDF_CHAR/40): "Wind s/c position, 3 comp. in GSM coord."
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_pos_GSM (No: 11) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for POS(GSM)"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/23): "Label for Wind POS(GSM)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SC_pos_R (No: 12) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "S/C radial distance"
+     VALIDMIN        (CDF_REAL4/1): 6400.0
+     VALIDMAX        (CDF_REAL4/1): 4.0e+06
+     SCALEMIN        (CDF_REAL4/1): 6400.0
+     SCALEMAX        (CDF_REAL4/1): 4.0e+06
+     LABLAXIS        (CDF_CHAR/11): "WI Rad Dist"
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f9.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/24): "position>radial_distance"
+     CATDESC         (CDF_CHAR/51): "Wind s/c radial distance to center of Earth, scalar"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DQF (No: 13) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Quality Flag: Data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 1
+     LABLAXIS        (CDF_CHAR/7): "DQ FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "I1"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     CATDESC         (CDF_CHAR/32): "Data Quality Flag: 0=good; 1=bad"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+QF_V (No: 14) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Quality Flag: Velocity"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 256
+     LABLAXIS        (CDF_CHAR/4): "QF_V"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/3): "I11"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     CATDESC         (CDF_CHAR/71): "Velocity Quality Flag: 0=OK; 2 or 130 = caution; Other values NOT VALID"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/160): "Velocity Quality Flag: 0=OK; 2=parabolic 3-point fit only; 130=parabolic 3-point fit only, sensor 1 only, N/S angle zero degrees assumed; Other values NOT VALID"
+
+QF_Vth (No: 15) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Quality Flag: proton Vth"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 255
+     LABLAXIS        (CDF_CHAR/6): "QF_Vth"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/3): "I11"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     CATDESC         (CDF_CHAR/83): "Proton thermal speed Quality Flag: 0=OK; 2 or 130 = caution; Other values NOT VALID"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/172): "Proton thermal speed Quality Flag: 0=OK; 2=parabolic 3-point fit only; 130=parabolic 3-point fit only, sensor 1 only, N/S angle zero degrees assumed; Other values NOT VALID"
+
+QF_Np (No: 16) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Quality Flag: proton dens."
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 255
+     LABLAXIS        (CDF_CHAR/5): "QF_Np"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/3): "I11"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     CATDESC         (CDF_CHAR/77): "Proton Density Quality Flag: 0=OK; 2 or 130 = caution; Other values NOT VALID"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/166): "Proton Density Quality Flag: 0=OK; 2=parabolic 3-point fit only; 130=parabolic 3-point fit only, sensor 1 only, N/S angle zero degrees assumed; Other values NOT VALID"
+
+QF_a/p (No: 17) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Quality Flag: Na/Np"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 256
+     LABLAXIS        (CDF_CHAR/6): "QF_a/p"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/3): "I11"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     CATDESC         (CDF_CHAR/38): "Na/Np Quality Flag: 0=OK; >0=NOT VALID"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+V_GSE (No: 18) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Solar Wind Velocity (GSE)"
+     VALIDMIN        (CDF_REAL4/3): -1800.0, -900.0, -900.0
+     VALIDMAX        (CDF_REAL4/3): 0.0, 900.0, 900.0
+     SCALEMIN        (CDF_REAL4/3): -1200.0, -500.0, -500.0
+     SCALEMAX        (CDF_REAL4/3): 0.0, 500.0, 500.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.1"
+     LABL_PTR_1      (CDF_CHAR/11): "label_V_GSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/23): "velocity>solar_wind_GSE"
+     CATDESC         (CDF_CHAR/42): "Solar Wind Velocity in GSE coord., 3 comp."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_V_GSE (No: 19) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "label VELOCITY (GSE)"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/14): "label>velocity"
+     CATDESC         (CDF_CHAR/31): "label, Solar wind velocity, GSE"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+V_GSM (No: 20) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Solar Wind Velocity (GSM)"
+     VALIDMIN        (CDF_REAL4/3): -1800.0, -900.0, -900.0
+     VALIDMAX        (CDF_REAL4/3): 0.0, 900.0, 900.0
+     SCALEMIN        (CDF_REAL4/3): -1200.0, -500.0, -500.0
+     SCALEMAX        (CDF_REAL4/3): 0.0, 500.0, 500.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.1"
+     LABL_PTR_1      (CDF_CHAR/11): "label_V_GSM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/23): "velocity>solar_wind_GSM"
+     CATDESC         (CDF_CHAR/42): "Solar Wind Velocity in GSM coord., 3 comp."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_V_GSM (No: 21) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "label VELOCITY (GSM)"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/14): "label>velocity"
+     CATDESC         (CDF_CHAR/31): "label, Solar wind velocity, GSM"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+V_GSE_p (No: 22) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Bulk Flow, polar, (GSE) "
+     VALIDMIN        (CDF_REAL4/3): 10.0, -50.0, -50.0
+     VALIDMAX        (CDF_REAL4/3): 4000.0, 50.0, 50.0
+     SCALEMIN        (CDF_REAL4/3): 200.0, -20.0, -20.0
+     SCALEMAX        (CDF_REAL4/3): 1000.0, 20.0, 20.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     LABL_PTR_1      (CDF_CHAR/13): "label_V_polar"
+     UNIT_PTR        (CDF_CHAR/10): "unit_polar"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "polar"
+     DICT_KEY        (CDF_CHAR/18): "velocity>polar_GSE"
+     CATDESC         (CDF_CHAR/72): "Ion Bulk Flow vector in GSE coord.,  3 comp. (speed, E/W flow, N/S flow)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+V_GSE_plog (No: 23) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Bulk Flow, polar, (GSE) "
+     VALIDMIN        (CDF_REAL4/3): 10.0, -50.0, -50.0
+     VALIDMAX        (CDF_REAL4/3): 4000.0, 50.0, 50.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     LABL_PTR_1      (CDF_CHAR/13): "label_V_polar"
+     UNIT_PTR        (CDF_CHAR/10): "unit_polar"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "polar"
+     DICT_KEY        (CDF_CHAR/18): "velocity>polar_GSE"
+     CATDESC         (CDF_CHAR/35): "Ion Bulk Flow Speed GSE coord.(log)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/27): "time_series>y=V_GSE_plog(0)"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/7): "V_GSE_p"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+
+label_V_polar (No: 24) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "FLOW ANGLES (GSE)"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/14): "label>velocity"
+     CATDESC         (CDF_CHAR/54): "Flow direction: +E/W=from W of SUN; +N/S=from S of SUN"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_polar (No: 25) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "units for V_polar "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/11): "label>units"
+     CATDESC         (CDF_CHAR/40): "units for V_polar                       "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+THERMAL_SPD (No: 26) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Proton thermal speed"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 200.0
+     LABLAXIS        (CDF_CHAR/6): "SW Vth"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "velocity>thermal_speed"
+     CATDESC         (CDF_CHAR/60): "Solar Wind Most Probable Thermal Speed = sqrt(2kT/M), scalar"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Np (No: 27) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Proton density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 200.0
+     LABLAXIS        (CDF_CHAR/6): "Ion Np"
+     UNITS           (CDF_CHAR/4): "#/cc"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/14): "density>proton"
+     CATDESC         (CDF_CHAR/49): "Solar Wind Proton Number Density, scalar (linear)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Np_l (No: 28) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Proton density"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 200.0
+     SCALETYP        (CDF_CHAR/3): "LOG"
+     LABLAXIS        (CDF_CHAR/6): "Ion Np"
+     UNITS           (CDF_CHAR/4): "#/cc"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/14): "density>proton"
+     CATDESC         (CDF_CHAR/46): "Solar Wind Proton Number Density, scalar (log)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "Np"
+     VIRTUAL         (CDF_CHAR/4): "true"
+
+Pressure (No: 29) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Ion Dynamic Pressure (mNV^2)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     LABLAXIS        (CDF_CHAR/12): "Ion Pressure"
+     UNITS           (CDF_CHAR/3): "nPa"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     TIME_RES        (CDF_CHAR/5): "1 min"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/49): "Ion Dynamic Pressure (derived from mNV^2), scalar"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FUNCT           (CDF_CHAR/6): "calc_p"
+     COMPONENT_0     (CDF_CHAR/7): "V_GSE_p"
+     COMPONENT_1     (CDF_CHAR/2): "Np"
+     VIRTUAL         (CDF_CHAR/4): "true"
+
+Alpha_Percent (No: 30) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Alpha_Percent"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/5): "Na/Np"
+     UNITS           (CDF_CHAR/1): "%"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/19): "ratio>alpha_density"
+     CATDESC         (CDF_CHAR/41): "Percent of density due to alpha particles"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+cartesian (No: 31) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Components in Cartesian Coord."
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/32): "3 Components in Cartesian Coord."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+polar (No: 32) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Components in Polar Coord."
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/62): "Flow(GSE): LON=arctan[VY/-VX]; LAT=arctan[VZ/sqrt[VX**2+VY**2]"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

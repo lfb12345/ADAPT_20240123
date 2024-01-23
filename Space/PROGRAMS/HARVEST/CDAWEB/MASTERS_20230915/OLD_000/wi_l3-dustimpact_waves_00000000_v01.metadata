@@ -1,0 +1,591 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_l3-dustimpact_waves_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_l3-dustimpact_waves_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     27
+NumAttrs:     42 (27 global, 15 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (27 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Space Physics>Heliospheric Science"
+Logical_source (1 entry):
+	0 (CDF_CHAR/24): 	"wind_l3-dustimpact_waves"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/36): 	"wi_l3-dustimpact_waves_20151222_v005"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/41): 	"L3>Dust Impact Information from WAVES TDS"
+Descriptor (1 entry):
+	0 (CDF_CHAR/45): 	"WAVES>Time Domain Sampler (TDS) Fast Receiver"
+TITLE (1 entry):
+	0 (CDF_CHAR/57): 	"Wind WAVES Time Domain Sampler (TDS) Dust Impact Database"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"Wind"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/62): 	"The Radio and Plasma Wave Investigation on the Wind Spacecraft"
+Instrument_PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"R. MacDowall"
+Instrument_PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+Project_PI_name (1 entry):
+	0 (CDF_CHAR/15): 	"L.B. Wilson III"
+Project_PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"D.M. Malaspina"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/28): 	"U. Colorado at Boulder, LASP"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/168): 	"We would like to thank the Wind/WAVES team, especially Keith Goetz, Paul J. Kellogg, Kris Kersten, and Josh Lynch for their support with data retrieval and calibration."
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/364): 	"Please cite/reference the Wind/WAVES paper by J.-L. Bougeret et al., [1995] in Space Science Reviews and work by Malaspina et al., [2014] in Geophysical Research Letters (doi:10.1002/2013GL058786).  We would also appreciate a reference to the Wind dust impact database paper:  Malaspina et al. [2016], in Journal of Geophysical Research (doi:10.1002/2016JA023209)."
+Extended_Description (1 entry):
+	0 (CDF_CHAR/895): 	"This dataset contains dust impacts identified with the Wind/WAVES Time Domain Sampler (TDS) Fast Receiver, or (TDSF).  The TDSF receiver records two electric field components and four (commandable) sample rates ranging from ~1875--120,000 samples per second (sps) or time durations of ~17--1000 ms.  Each set of two field components for TDSF is called an event and each component is always composed of 2048 samples.  Nearly all events will be measured by the two spin-plane wire dipole antenna, where the X-antenna is ~100 m tip-to-tip and the Y-antenna is ~15 m tip-to-tip [lengths at launch] and in the 120,000 sps mode.  Some events, however, will have Z-antenna results in which case the impact antenna angles are not calculated and defined as fill values.  The output is reported by channel number with the associated antenna identified by the *_ImpactAntenna CDF variable within each file."
+def_FLAGS (4 entries):
+	0 (CDF_CHAR/36): 	"00 - clear of magnetosphere and moon"
+	1 (CDF_CHAR/30): 	"01 - within magnetosphere only"
+	2 (CDF_CHAR/36): 	"02 - in lunar wake or near moon only"
+	3 (CDF_CHAR/44): 	"03 - near/within both magnetosphere and moon"
+TEXT (13 entries):
+	0 (CDF_CHAR/68): 	"Wind WAVES Time Domain Sampler (TDS) Dust Data File                 "
+	1 (CDF_CHAR/68): 	"References:                                                         "
+	2 (CDF_CHAR/68): 	"1)  Bougeret, J.-L., et al. `WAVES:  The Radio and Plasma Wave      "
+	3 (CDF_CHAR/68): 	"    Investigation on the Wind Spacecraft,` Space Sci. Rev. Vol. 71, "
+	4 (CDF_CHAR/68): 	"    pp. 231-263, doi:10.1007/BF00751331, (1995).                    "
+	5 (CDF_CHAR/68): 	"2)  Malaspina, D.M., M. Horanyi, A. Zaslavsky, K. Goetz,            "
+	6 (CDF_CHAR/68): 	"    L.B. Wilson III, and K. Kersten `Interplanetary and interstellar"
+	7 (CDF_CHAR/68): 	"    dust observed by the Wind/WAVES electric field instrument,`     "
+	8 (CDF_CHAR/68): 	"    Geophys. Res. Lett. Vol. 41, pp. 266-272,                       "
+	9 (CDF_CHAR/68): 	"    doi:10.1002/2013GL058786, (2014).                               "
+	10 (CDF_CHAR/68): 	"3)  Malaspina, D.M., and L.B. Wilson III `A Database of             "
+	11 (CDF_CHAR/68): 	"    Interplanetary and Interstellar Dust Detected by the Wind       "
+	12 (CDF_CHAR/67): 	"    Spacecraft, J. Geophys. Res., doi:10.1002/2016JA023209, (2016)."
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/12): 	"JGR article."
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/19): 	"Wind Dust Database "
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/59): 	"http://onlinelibrary.wiley.com/doi/10.1002/2016JA023209/pdf"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/53): 	"spase://NASA/NumericalData/Wind/WAVES/DustImpact/PT1S"
+
+Variable Attributes (15 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+UNITS
+LABLAXIS
+FORMAT
+SCALETYP
+CATDESC
+FILLVAL
+DEPEND_0
+VAR_TYPE
+VAR_NOTES
+TIME_BASE
+TIME_SCALE
+DISPLAY_TYPE
+
+Variable Information (0 rVariable, 27 zVariables)
+===========================================================
+EPOCH                 CDF_TT2000/1	0:[]	T/  
+TDS_Event_Number      CDF_INT4/1	0:[]	T/  
+TDS_Event_Duration    CDF_DOUBLE/1	0:[]	T/  
+Wind_Spin_Rate        CDF_DOUBLE/1	0:[]	T/  
+Wind_Spin_Period      CDF_DOUBLE/1	0:[]	T/  
+FLAG_Location         CDF_INT4/1	0:[]	T/  
+FLAG_XAnt_Cut         CDF_BYTE/1	0:[]	T/  
+Ch01___Peak_amplitude CDF_DOUBLE/1	0:[]	T/  
+Ch01___cc_value       CDF_DOUBLE/1	0:[]	T/  
+Ch01___cc_threshold   CDF_DOUBLE/1	0:[]	T/  
+MinCh1_threshold      CDF_DOUBLE/1	0:[]	T/  
+Ch01___ImpactAntenna  CDF_CHAR/18	0:[]	T/  
+Ch01___MorphologicalType CDF_CHAR/18	0:[]	T/  
+Ch1ImpAnt_E_S_Angle   CDF_DOUBLE/1	0:[]	T/  
+Ch02___Peak_amplitude CDF_DOUBLE/1	0:[]	T/  
+Ch02___cc_value       CDF_DOUBLE/1	0:[]	T/  
+Ch02___cc_threshold   CDF_DOUBLE/1	0:[]	T/  
+MinCh2_threshold      CDF_DOUBLE/1	0:[]	T/  
+Ch02___ImpactAntenna  CDF_CHAR/18	0:[]	T/  
+Ch02___MorphologicalType CDF_CHAR/18	0:[]	T/  
+Ch2ImpAnt_E_S_Angle   CDF_DOUBLE/1	0:[]	T/  
+Pos_Ax_SCS_Angle      CDF_DOUBLE/1	0:[]	T/  
+Pos_Ax_E_S_Angle      CDF_DOUBLE/1	0:[]	T/  
+Pos_Ay_E_S_Angle      CDF_DOUBLE/1	0:[]	T/  
+Pos_Ax_E_S_Delta_Angle CDF_DOUBLE/1	0:[]	T/  
+ImpAnt_E_S_Delta_Angle CDF_DOUBLE/1	0:[]	T/  
+n_TDS_per_day         CDF_INT4/1	0:[]	T/  
+
+
+Variable (27 variables)
+=========================================
+
+EPOCH (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_TT2000/1): 1994-11-01T23:59:59.999999999
+     VALIDMAX        (CDF_TT2000/1): 2044-11-01T23:59:57.999999999
+     UNITS           (CDF_CHAR/2): "ns"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I22"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/41): "Epoch (TT2000) time at start of TDS event"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/330): "Time at beginning of TDS event as measured by the minor frame clock.  Thus, the time stamps have not been adjusted to correct for the inherent positive definite rounding errors due to the low resolution of the minor frame clock times.  This will be implemented in future versions when the entire TDS dataset is released on CDAWeb."
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+
+TDS_Event_Number (No: 1) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "TDS event number"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 99999999
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I8"
+     CATDESC         (CDF_CHAR/48): "TDS event number identifier for each dust impact"
+     FILLVAL         (CDF_INT4/1): -1
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/181): "The TDS event number is a unique long integer that identifies one event from another.  The counter rolls over, so the date and event number are required for waveform identification."
+
+TDS_Event_Duration (No: 2) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "TDS duration"
+     VALIDMIN        (CDF_DOUBLE/1): 0.015
+     VALIDMAX        (CDF_DOUBLE/1): 1.3
+     UNITS           (CDF_CHAR/1): "s"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     CATDESC         (CDF_CHAR/36): "Duration (seconds) of each TDS event"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/366): "The total duration of each TDSF event in seconds.  A single TDSF event is defined as a snapshot of two electric field components with the same event number occurring on the same date.  Most TDSF events were sampled at 120000 samples per second, thus will have durations of roughly 17 milliseconds.  However, the longest duration events can last upwards of ~1 second."
+
+Wind_Spin_Rate (No: 3) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "SC spin rate"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     UNITS           (CDF_CHAR/9): "degrees/s"
+     LABLAXIS        (CDF_CHAR/9): "Spin Rate"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/20): "Spacecraft spin rate"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/522): "The spacecraft (SC) spin rate [deg/s] was determined using the known event duration and angle subtended during each TDS event.  This value is accurate to << 1 degree, where the uncertainties arise from the onboard sample rate clock of the TDS receiver and sun pulse detector time accuracy.  The spin period [s] was then determined using 360 degrees divided by the spin rate value.  Both values assume that the spin rate/period is constant during the TDS event, which should be an accurate assumption for nearly all events."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Wind_Spin_Period (No: 4) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "SC spin period"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 5.0
+     UNITS           (CDF_CHAR/1): "s"
+     LABLAXIS        (CDF_CHAR/11): "Spin Period"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/22): "Spacecraft spin period"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/522): "The spacecraft (SC) spin rate [deg/s] was determined using the known event duration and angle subtended during each TDS event.  This value is accurate to << 1 degree, where the uncertainties arise from the onboard sample rate clock of the TDS receiver and sun pulse detector time accuracy.  The spin period [s] was then determined using 360 degrees divided by the spin rate value.  Both values assume that the spin rate/period is constant during the TDS event, which should be an accurate assumption for nearly all events."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+FLAG_Location (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "SC location flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 3
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/4): "Flag"
+     FORMAT          (CDF_CHAR/2): "I8"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/24): "Spacecraft location flag"
+     FILLVAL         (CDF_INT2/1): -1
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/984): "The spacecraft (SC) location flag notes are defined to inform the user whether the SC was located within the magnetosphere, in the lunar wake or near the moon, or satisfying both or neither of these criteria.  The purpose is to allow one to examine differences in the dust detection rate based upon the SC location with respect to these regions.  We defined the magnetosphere region as periods when the SC was either within 10 R_e of Earth or the SC GSE positions satisfied the following:  (|Y_sc| <= 10 R_e) AND (X_sc < 0).  The lunar wake and/or near moon environment was defined using the relative distance between SC and moon, M, and relative locations.  The criteria, in the GSE coordinate system, were to satisfy either of the following:  a) (X_sc < (X_m + 1/2 R_m)) AND (|M_y| <= 1) AND (|M_z| <= 1); or b) (|M| <= 2 R_m).  00 - clear of magnetosphere and moon; 01 - within magnetosphere only; 02 - in lunar wake or near moon only; 03 - near/within both magnetosphere and moon."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+FLAG_XAnt_Cut (No: 6) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "+X antenna cut flag"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/4): "Flag"
+     FORMAT          (CDF_CHAR/2): "I3"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/19): "+X Antenna cut flag"
+     FILLVAL         (CDF_UINT1/1): 129
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/445): "The +X-antenna cut flag defines whether the event occurred before (0) or after (1) the first cut of the +X-antenna.  The X-antenna was first cut on August 3, 2000.  It was cut again on September 24, 2002.  Currently, the effective antenna lengths used are 41.1 m, 3.79 m, and 2.17 m for the X-, Y-, and Z-antenna, respectively, for all dust impacts.  We have removed these antenna length dependencies, which is why the amplitude units are in mV."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch01___Peak_amplitude (No: 7) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Peak Ch 1 amplitude"
+     VALIDMIN        (CDF_DOUBLE/1): -20000.0
+     VALIDMAX        (CDF_DOUBLE/1): 20000.0
+     UNITS           (CDF_CHAR/2): "mV"
+     LABLAXIS        (CDF_CHAR/14): "Ch 1 Peak Amp."
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/27): "Peak amplitude (mV) on Ch 1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/513): "The peak amplitude of the electric field component from the dust impact.  This is the peak amplitude measured during a TDSF event on both antenna.  This is a signed (i.e., +/-) value.  The X-antenna was first cut on August 3, 2000.  It was cut again on September 24, 2002.  Currently, the effective antenna lengths used are 41.1 m, 3.79 m, and 2.17 m for the X-, Y-, and Z-antenna, respectively, for all dust impacts.  We have removed these antenna length dependencies, which is why the amplitude units are in mV."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch01___cc_value (No: 8) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Ch 1 CC value"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/21): "Ch 1 Cross-Corr. Val."
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/34): "Value of cross-correlation on Ch 1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/192): "The cross-correlation value between Ch 1 waveform and the normalized median waveform of a given morphological type [e.g., see Malaspina  and Wilson, (2016) for morphological type definitions]."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch01___cc_threshold (No: 9) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Ch 1 CC threshold value"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/23): "Ch 1 Cross-Corr. Thrsh."
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/53): "Threshold value allowed for cross-correlation on Ch 1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/177): "The cross-correlation threshold value for the Ch 1 waveform used.  The overall cross-correlation threshold is 0.8 but morphological types C, D, and M are required to exceed 0.9."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+MinCh1_threshold (No: 10) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Ch 1 Min. threshold"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     UNITS           (CDF_CHAR/2): "mV"
+     LABLAXIS        (CDF_CHAR/16): "Ch 1 Min. Thrsh."
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/48): "Event selection threshold amplitude (mV) on Ch 1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/395): "The minimum Ch 1 absolute amplitude required for event selection.  The X-antenna was first cut on August 3, 2000.  It was cut again on September 24, 2002.  Currently, the effective antenna lengths used are 41.1 m, 3.79 m, and 2.17 m for the X-, Y-, and Z-antenna, respectively, for all dust impacts.  We have removed these antenna length dependencies, which is why the amplitude units are in mV."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch01___ImpactAntenna (No: 11) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Ch 1 impact antenna"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/19): "Ch 1 Impact Antenna"
+     FORMAT          (CDF_CHAR/3): "a18"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/48): "Antenna closest to dust impact on spacecraft bus"
+     FILLVAL         (CDF_CHAR/18): "N/A               "
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/344): "The closest Ch 1 antenna (i.e., + or -) to dust impact.  If we start at +Ex and move in a clockwise (CW) direction, then the -Ey antenna is +90 degrees away.  Thus, the +Ey antenna is +270 degrees CW from +Ex and the -Ex antenna is +180 degrees CW from +Ex.We define CW as viewed from the north ecliptic pole looking down upon the XY-GSE plane."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch01___MorphologicalType (No: 12) (Recs: 0)
+------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Ch 1 Morph. type"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/16): "Ch 1 Morph. Type"
+     FORMAT          (CDF_CHAR/3): "a18"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/61): "Morphological type (or shape) of dust impact waveform on Ch 1"
+     FILLVAL         (CDF_CHAR/18): "Type ?            "
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/69): "The morphological type is defined in Malaspina and Wilson, [2016] JGR"
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch1ImpAnt_E_S_Angle (No: 13) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Ex Impact Ant. angle"
+     VALIDMIN        (CDF_DOUBLE/1): -360.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/31): "Ex Imp. Ant. CW Earth-Sun Angle"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/130): "Avg. clockwise angle (degrees) of closest Ex antenna (to dust impact on spacecraft bus) from Earth-sun line (i.e., roughly +X-GSE)"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/1242): "The angle accounts for the XY-GSE displacement of Wind but assumes Earth remains at exactly 1 AU always.  The error introduced by not including the change of the Earth's radial position throughout its annual orbit is less than ~0.017 degrees.  The error introduced by not including the change of the spacecraft's out-of-ecliptic displacement is less than ~0.0018 degrees.  The spacecraft (SC) spin axis is aligned within ~0.8 degrees of the south ecliptic pole.  This varies annually due to the differences in torque applied to the SC bus by solar radiation.  The angle can be as low as < 0.1 degrees.We define clockwise (CW) angles as being < 0 for CW rotations to remain consistent with Euler angle notation.  We define CW as viewed from the north ecliptic pole looking down upon the XY-GSE plane.  All angles herein vary from 0 to 360 degrees (absolute values), thus a positive counter-clockwise angle corresponds to [(clockwise angle) + 360] > 0.  The impact antenna angle depends upon the closest impact antenna, defined by the CDF variables Ch01___ImpactAntenna and Ch02___ImpactAntenna.  An example image illustrating the various angles within these CDF files can be found in the Malaspina and Wilson, [2016] (doi:10.1002/2016JA023209)"
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch02___Peak_amplitude (No: 14) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Peak Ch 2 amplitude"
+     VALIDMIN        (CDF_DOUBLE/1): -20000.0
+     VALIDMAX        (CDF_DOUBLE/1): 20000.0
+     UNITS           (CDF_CHAR/2): "mV"
+     LABLAXIS        (CDF_CHAR/14): "Ch 2 Peak Amp."
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/27): "Peak amplitude (mV) on Ch 2"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/513): "The peak amplitude of the electric field component from the dust impact.  This is the peak amplitude measured during a TDSF event on both antenna.  This is a signed (i.e., +/-) value.  The X-antenna was first cut on August 3, 2000.  It was cut again on September 24, 2002.  Currently, the effective antenna lengths used are 41.1 m, 3.79 m, and 2.17 m for the X-, Y-, and Z-antenna, respectively, for all dust impacts.  We have removed these antenna length dependencies, which is why the amplitude units are in mV."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch02___cc_value (No: 15) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Ch 2 CC value"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/21): "Ch 2 Cross-Corr. Val."
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/34): "Value of cross-correlation on Ch 2"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/113): "The cross-correlation value between Ey waveform and the normalized median waveform of a given morphological type."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch02___cc_threshold (No: 16) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Ch 2 CC threshold value"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/23): "Ch 2 Cross-Corr. Thrsh."
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/53): "Threshold value allowed for cross-correlation on Ch 2"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/65): "The cross-correlation threshold value for the Ch 2 waveform used."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+MinCh2_threshold (No: 17) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Ch 2 Min. threshold"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     UNITS           (CDF_CHAR/2): "mV"
+     LABLAXIS        (CDF_CHAR/16): "Ch 2 Min. Thrsh."
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/48): "Event selection threshold amplitude (mV) on Ch 2"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/395): "The minimum Ch 2 absolute amplitude required for event selection.  The X-antenna was first cut on August 3, 2000.  It was cut again on September 24, 2002.  Currently, the effective antenna lengths used are 41.1 m, 3.79 m, and 2.17 m for the X-, Y-, and Z-antenna, respectively, for all dust impacts.  We have removed these antenna length dependencies, which is why the amplitude units are in mV."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch02___ImpactAntenna (No: 18) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Ch 2 impact antenna"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/19): "Ch 2 Impact Antenna"
+     FORMAT          (CDF_CHAR/3): "a18"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/48): "Antenna closest to dust impact on spacecraft bus"
+     FILLVAL         (CDF_CHAR/18): "N/A               "
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/344): "The closest Ch 2 antenna (i.e., + or -) to dust impact.  If we start at +Ex and move in a clockwise (CW) direction, then the -Ey antenna is +90 degrees away.  Thus, the +Ey antenna is +270 degrees CW from +Ex and the -Ex antenna is +180 degrees CW from +Ex.We define CW as viewed from the north ecliptic pole looking down upon the XY-GSE plane."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch02___MorphologicalType (No: 19) (Recs: 0)
+------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Ch 2 Morph. type"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/16): "Ch 2 Morph. Type"
+     FORMAT          (CDF_CHAR/3): "a18"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/61): "Morphological type (or shape) of dust impact waveform on Ch 2"
+     FILLVAL         (CDF_CHAR/18): "Type ?            "
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/69): "The morphological type is defined in Malaspina and Wilson, [2016] JGR"
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Ch2ImpAnt_E_S_Angle (No: 20) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Ey Impact Ant. angle"
+     VALIDMIN        (CDF_DOUBLE/1): -360.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/31): "Ey Imp. Ant. CW Earth-Sun Angle"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/130): "Avg. clockwise angle (degrees) of closest Ey antenna (to dust impact on spacecraft bus) from Earth-sun line (i.e., roughly +X-GSE)"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/1242): "The angle accounts for the XY-GSE displacement of Wind but assumes Earth remains at exactly 1 AU always.  The error introduced by not including the change of the Earth's radial position throughout its annual orbit is less than ~0.017 degrees.  The error introduced by not including the change of the spacecraft's out-of-ecliptic displacement is less than ~0.0018 degrees.  The spacecraft (SC) spin axis is aligned within ~0.8 degrees of the south ecliptic pole.  This varies annually due to the differences in torque applied to the SC bus by solar radiation.  The angle can be as low as < 0.1 degrees.We define clockwise (CW) angles as being < 0 for CW rotations to remain consistent with Euler angle notation.  We define CW as viewed from the north ecliptic pole looking down upon the XY-GSE plane.  All angles herein vary from 0 to 360 degrees (absolute values), thus a positive counter-clockwise angle corresponds to [(clockwise angle) + 360] > 0.  The impact antenna angle depends upon the closest impact antenna, defined by the CDF variables Ch01___ImpactAntenna and Ch02___ImpactAntenna.  An example image illustrating the various angles within these CDF files can be found in the Malaspina and Wilson, [2016] (doi:10.1002/2016JA023209)"
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Pos_Ax_SCS_Angle (No: 21) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "+Ex angle from spacecraft-sun line"
+     VALIDMIN        (CDF_DOUBLE/1): -360.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/19): "+Ex CW SC-Sun Angle"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/70): "Avg. clockwise angle (degrees) of +Ex antenna from spacecraft-sun line"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/1242): "The angle accounts for the XY-GSE displacement of Wind but assumes Earth remains at exactly 1 AU always.  The error introduced by not including the change of the Earth's radial position throughout its annual orbit is less than ~0.017 degrees.  The error introduced by not including the change of the spacecraft's out-of-ecliptic displacement is less than ~0.0018 degrees.  The spacecraft (SC) spin axis is aligned within ~0.8 degrees of the south ecliptic pole.  This varies annually due to the differences in torque applied to the SC bus by solar radiation.  The angle can be as low as < 0.1 degrees.We define clockwise (CW) angles as being < 0 for CW rotations to remain consistent with Euler angle notation.  We define CW as viewed from the north ecliptic pole looking down upon the XY-GSE plane.  All angles herein vary from 0 to 360 degrees (absolute values), thus a positive counter-clockwise angle corresponds to [(clockwise angle) + 360] > 0.  The impact antenna angle depends upon the closest impact antenna, defined by the CDF variables Ch01___ImpactAntenna and Ch02___ImpactAntenna.  An example image illustrating the various angles within these CDF files can be found in the Malaspina and Wilson, [2016] (doi:10.1002/2016JA023209)"
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Pos_Ax_E_S_Angle (No: 22) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "+Ex angle from Earth-sun line"
+     VALIDMIN        (CDF_DOUBLE/1): -360.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/22): "+Ex CW Earth-Sun Angle"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/88): "Avg. clockwise angle (degrees) of +Ex antenna from Earth-sun line (i.e., roughly +X-GSE)"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/1242): "The angle accounts for the XY-GSE displacement of Wind but assumes Earth remains at exactly 1 AU always.  The error introduced by not including the change of the Earth's radial position throughout its annual orbit is less than ~0.017 degrees.  The error introduced by not including the change of the spacecraft's out-of-ecliptic displacement is less than ~0.0018 degrees.  The spacecraft (SC) spin axis is aligned within ~0.8 degrees of the south ecliptic pole.  This varies annually due to the differences in torque applied to the SC bus by solar radiation.  The angle can be as low as < 0.1 degrees.We define clockwise (CW) angles as being < 0 for CW rotations to remain consistent with Euler angle notation.  We define CW as viewed from the north ecliptic pole looking down upon the XY-GSE plane.  All angles herein vary from 0 to 360 degrees (absolute values), thus a positive counter-clockwise angle corresponds to [(clockwise angle) + 360] > 0.  The impact antenna angle depends upon the closest impact antenna, defined by the CDF variables Ch01___ImpactAntenna and Ch02___ImpactAntenna.  An example image illustrating the various angles within these CDF files can be found in the Malaspina and Wilson, [2016] (doi:10.1002/2016JA023209)"
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Pos_Ay_E_S_Angle (No: 23) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "+Ey angle from Earth-sun line"
+     VALIDMIN        (CDF_DOUBLE/1): -360.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/22): "+Ey CW Earth-Sun Angle"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/88): "Avg. clockwise angle (degrees) of +Ey antenna from Earth-sun line (i.e., roughly +X-GSE)"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/1242): "The angle accounts for the XY-GSE displacement of Wind but assumes Earth remains at exactly 1 AU always.  The error introduced by not including the change of the Earth's radial position throughout its annual orbit is less than ~0.017 degrees.  The error introduced by not including the change of the spacecraft's out-of-ecliptic displacement is less than ~0.0018 degrees.  The spacecraft (SC) spin axis is aligned within ~0.8 degrees of the south ecliptic pole.  This varies annually due to the differences in torque applied to the SC bus by solar radiation.  The angle can be as low as < 0.1 degrees.We define clockwise (CW) angles as being < 0 for CW rotations to remain consistent with Euler angle notation.  We define CW as viewed from the north ecliptic pole looking down upon the XY-GSE plane.  All angles herein vary from 0 to 360 degrees (absolute values), thus a positive counter-clockwise angle corresponds to [(clockwise angle) + 360] > 0.  The impact antenna angle depends upon the closest impact antenna, defined by the CDF variables Ch01___ImpactAntenna and Ch02___ImpactAntenna.  An example image illustrating the various angles within these CDF files can be found in the Malaspina and Wilson, [2016] (doi:10.1002/2016JA023209)"
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+Pos_Ax_E_S_Delta_Angle (No: 24) (Recs: 0)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "Uncertainty in Pos_Ax_E_S_Angle"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/22): "Delta Pos_Ax_E_S_Angle"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/31): "Uncertainty in Pos_Ax_E_S_Angle"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/1242): "The angle accounts for the XY-GSE displacement of Wind but assumes Earth remains at exactly 1 AU always.  The error introduced by not including the change of the Earth's radial position throughout its annual orbit is less than ~0.017 degrees.  The error introduced by not including the change of the spacecraft's out-of-ecliptic displacement is less than ~0.0018 degrees.  The spacecraft (SC) spin axis is aligned within ~0.8 degrees of the south ecliptic pole.  This varies annually due to the differences in torque applied to the SC bus by solar radiation.  The angle can be as low as < 0.1 degrees.We define clockwise (CW) angles as being < 0 for CW rotations to remain consistent with Euler angle notation.  We define CW as viewed from the north ecliptic pole looking down upon the XY-GSE plane.  All angles herein vary from 0 to 360 degrees (absolute values), thus a positive counter-clockwise angle corresponds to [(clockwise angle) + 360] > 0.  The impact antenna angle depends upon the closest impact antenna, defined by the CDF variables Ch01___ImpactAntenna and Ch02___ImpactAntenna.  An example image illustrating the various angles within these CDF files can be found in the Malaspina and Wilson, [2016] (doi:10.1002/2016JA023209)"
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+ImpAnt_E_S_Delta_Angle (No: 25) (Recs: 0)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "Uncertainty in ImpAnt_E_S_Angle"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     LABLAXIS        (CDF_CHAR/22): "Delta ImpAnt_E_S_Angle"
+     FORMAT          (CDF_CHAR/5): "E14.6"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/38): "Uncertainty in E[x,y]_ImpAnt_E_S_Angle"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/781): "The impact angle uncertainties are mostly controlled by the quadrant or hemisphere in which the dust impact occurred.  This is true for the Ch1ImpAnt_E_S_Angle and Ch2ImpAnt_E_S_Angle.  This is roughly +/- 45 degrees (i.e., quadrant) for all events.  For the other sun angles (i.e., Pos_Ax_SCS_Angle, Pos_Ax_E_S_Angle, and Pos_Ay_E_S_Angle), the uncertainty is controlled by the spin rate of the spacecraft (determined by event duration and angle subtended during an event) multiplied by the TDSF event duration plus the DPU clock latency uncertainty (i.e., ~10.6 ms).  Thus, this uncertainty is currently < 13 degrees (i.e., worst case scenario for fastest spin rate and slowest sampling rate).  In the best case scenario (i.e., most events), the uncertainties drop to ~3 degrees."
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+
+n_TDS_per_day (No: 26) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Total # of TDS per date"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_INT4/1): 10000
+     UNITS           (CDF_CHAR/6): "#/date"
+     LABLAXIS        (CDF_CHAR/10): "Number TDS"
+     FORMAT          (CDF_CHAR/2): "I8"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     CATDESC         (CDF_CHAR/29): "Number of TDS events per date"
+     FILLVAL         (CDF_INT4/1): -1
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/39): "The total number of TDS events per date"
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+

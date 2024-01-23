@@ -1,0 +1,215 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/splitvc3_456_esa_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     splitvc3_456_esa_00000000_v01.cdf
+Version:      2.7.2
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2004 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     9
+NumAttrs:     43 (25 global, 18 variable)
+Compression:  None
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_UCHAR/74): 	"THEMIS>Time History of Events and Macroscale Interactions during Substorms"
+Source_name (1 entry):
+	0 (CDF_UCHAR/74): 	"THEMIS>Time History of Events and Macroscale Interactions during Substorms"
+Discipline (1 entry):
+	0 (CDF_UCHAR/22): 	"Magnetospheric Physics"
+Data_type (1 entry):
+	0 (CDF_UCHAR/13): 	"L0>Level Zero"
+Descriptor (1 entry):
+	0 (CDF_UCHAR/41): 	"Electrostatic Analyzer full distributions"
+Data_version (1 entry):
+	0 (CDF_UCHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_UCHAR/29): 	"J. McFadden & V. Angelopoulos"
+PI_affiliation (1 entry):
+	0 (CDF_UCHAR/13): 	"U C, Berkeley"
+TEXT (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/9): 	"Particles"
+Mission_group (1 entry):
+	0 (CDF_UCHAR/6): 	"THEMIS"
+Logical_source (1 entry):
+	0 (CDF_UCHAR/16): 	"splitvc3_456_esa"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/29): 	"splitvc3_456_esa_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_UCHAR/53): 	"456: ESA ions, particle burst, 88 angles, 32 energies"
+TIME_RESOLUTION (1 entry):
+	0 (CDF_UCHAR/1): 	" "
+RULES_OF_USE (0 entry):
+GENERATED_BY (1 entry):
+	0 (CDF_UCHAR/8): 	"Berkeley"
+GENERATION_DATE (0 entry):
+ACKNOWLEDGEMENT (1 entry):
+	0 (CDF_UCHAR/1): 	" "
+MODS (0 entry):
+ADID_ref (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/1): 	" "
+Link_text (1 entry):
+	0 (CDF_CHAR/2): 	"* "
+Link_title (1 entry):
+	0 (CDF_CHAR/36): 	"THEMIS Mission home page at Berkeley"
+HTTP_link (1 entry):
+	0 (CDF_CHAR/49): 	" http://sprg.ssl.berkeley.edu/themis/noFlash.html"
+
+Variable Attributes (18 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+FILLVAL
+FORMAT
+LABLAXIS
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+
+Variable Information (0 rVariable, 9 zVariables)
+===========================================================
+pkt_seq               CDF_UINT2/1	0:[]	T/  
+pkt_time_sec          CDF_UINT4/1	0:[]	T/  
+pkt_time_subsec       CDF_UINT2/1	0:[]	T/  
+pkt_config_bytes      CDF_UINT1/1	1:[4]	T/T
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+counts                CDF_UINT2/1	2:[88,32]	T/TT
+angles                CDF_UINT1/1	1:[88]	F/T
+energies              CDF_UINT1/1	1:[32]	F/T
+index                 CDF_UINT1/1	1:[4]	F/T
+
+
+Variable (9 variables)
+=========================================
+
+pkt_seq (No: 0) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "pkt_seq"
+     CATDESC         (CDF_CHAR/7): "pkt_seq"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "pkt_seq"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+pkt_time_sec (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "pkt_time_sec"
+     CATDESC         (CDF_CHAR/12): "pkt_time_sec"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "pkt_time_sec"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+pkt_time_subsec (No: 2) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "pkt_time_subsec"
+     CATDESC         (CDF_CHAR/15): "pkt_time_subsec"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "pkt_time_subsec"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+pkt_config_bytes (No: 3) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "pkt_config_bytes"
+     CATDESC         (CDF_CHAR/16): "pkt_config_bytes"
+     DEPEND_0        (CDF_CHAR/12): "pkt_time_sec"
+     DEPEND_1        (CDF_CHAR/5): "index"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "pkt_config_bytes"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Epoch (No: 4) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Epoch Time"
+     CATDESC         (CDF_CHAR/10): "Epoch Time"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     UNITS           (CDF_CHAR/17): "YYYYMMDD hr:mm:ss"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+counts (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Counts"
+     CATDESC         (CDF_CHAR/41): "Plasmagram display of angles vs. energies"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "energies"
+     DEPEND_2        (CDF_CHAR/6): "angles"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/6): "counts"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 64000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/53): "plasmagram>THUMBSIZE>166>x=energies,y=angles,z=counts"
+     VAR_NOTES       (CDF_CHAR/120): "The depend_1 and depend_2 variables have to be reversed from you'd think because IDL reads the array dimensions reversed"
+
+angles (No: 6) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "angles"
+     CATDESC         (CDF_CHAR/6): "angles"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/6): "angles"
+     UNITS           (CDF_CHAR/9): "angle num"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 88
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+energies (No: 7) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "energies"
+     CATDESC         (CDF_CHAR/8): "energies"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/8): "energies"
+     UNITS           (CDF_CHAR/10): "energy num"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 32
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+index (No: 8) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "index"
+     CATDESC         (CDF_CHAR/26): "index for pkt_config_bytes"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     UNITS           (CDF_CHAR/1): "?"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 4
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+

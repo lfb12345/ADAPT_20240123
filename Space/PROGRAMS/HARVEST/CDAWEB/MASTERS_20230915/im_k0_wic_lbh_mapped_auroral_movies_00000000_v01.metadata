@@ -1,0 +1,143 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/im_k0_wic_lbh_mapped_auroral_movies_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     im_k0_wic_lbh_mapped_auroral_movies_00000000_v01.cdf
+Version:      3.6.2
+
+Common Data Format (CDF)
+(C) Copyright 1990-2016 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     2
+NumzVars:     0
+NumAttrs:     48 (27 global, 21 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (27 attributes)
+=========================================
+POINTER_CDF (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"IMAGE"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/28): 	"IMAGE>Magnetopause to Aurora"
+Data_type (1 entry):
+	0 (CDF_CHAR/17): 	"K0>Key Parameters"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/114): 	"Canned animated GIFs of Auroral Images, Key Parameters, IMAGE Far UltraViolet (FUV) Wide-band Imaging Camera (WIC)"
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"S. Mende"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/15): 	"UC/Berkeley/SSL"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+TEXT_supplement_1 (2 entries):
+	0 (CDF_CHAR/29): 	"SKT version 15-December-1999 "
+	1 (CDF_CHAR/91): 	"Mende et al: Far Ultraviolet Imaging from the IMAGE Spacecraft,Space Sciences Review 1999  "
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/44): 	"WIC>Auroral Images, Wide-Band Imaging Camera"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/39): 	"im_k0_wic_WIC_PIXELS_MOVIE_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/26): 	"im_k0_wic_WIC_PIXELS_MOVIE"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/5): 	"IMAGE"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+TEXT (1 entry):
+	0 (CDF_CHAR/40): 	"WIC Movie files generated at CDAWeb/GSFC"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+ADID_ref (0 entry):
+Rules_of_use (0 entry):
+Generated_by (1 entry):
+	0 (CDF_CHAR/6): 	"CDAWeb"
+MODS (0 entry):
+Time_resolution (0 entry):
+Link_text (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/35): 	"IMAGE_FUV-WIC_Key-Parameters-K0_cdf"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+UNITS
+VALIDMIN
+VALIDMAX
+DESCRIP
+VAR_NOTES
+CATDESC
+DISPLAY_TYPE
+FILLVAL
+LABLAXIS
+FORMAT
+VAR_TYPE
+DICT_KEY
+DEPEND_0
+DEPEND_1
+DEPEND_2
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+ALLOW_BIN
+
+Variable Information (2 rVariables, 0 zVariable)
+===========================================================
+WIC_PIXELS_MOVIE      CDF_FLOAT/1	2:[256,256]	T/TT
+EPOCH                 CDF_EPOCH/1	2:[256,256]	T/FF
+
+
+Variable (2 variables)
+=========================================
+
+WIC_PIXELS_MOVIE (No: 0) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "LBH Auroral Image Raw Cnts)  "
+     UNITS           (CDF_CHAR/11): "Log10(Cnts)"
+     VALIDMIN        (CDF_FLOAT/1): 2.5
+     VALIDMAX        (CDF_FLOAT/1): 4.5
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (14 bits)"
+     CATDESC         (CDF_CHAR/81): "Canned animated Gifs - FUV/WIC LBH Auroral Mapped Images, as above (movie format)"
+     DISPLAY_TYPE    (CDF_CHAR/9): "fuv_movie"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "FUV/WIC (Cnts)"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z256_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z256"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+EPOCH (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "EPOCH"
+     UNITS           (CDF_CHAR/9): "date/time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1999 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2010 00:00:00.000
+     DESCRIP         (CDF_CHAR/37): "UT Snapshot Time (center of interval)"
+     CATDESC         (CDF_CHAR/4): "Time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "  "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+

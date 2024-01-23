@@ -1,0 +1,3472 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/de1_1min_rims_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     de1_1min_rims_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     209
+NumAttrs:     40 (21 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (21 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/23): 	"DE1>Dynamics Explorer 1"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Descriptor (1 entry):
+	0 (CDF_CHAR/14): 	"1MIN> 1 minute"
+Data_type (1 entry):
+	0 (CDF_CHAR/36): 	"RIMS>Retarding Ion Mass Spectrometer"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"1 minute"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Skeleton_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/23): 	"Dr. Charles R. Chappell"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/MSFC"
+TEXT (2 entries):
+	0 (CDF_CHAR/2393): 	"The data were provided by Dennis Gallagher (MSFC). The Retarding Ion Mass Spectrometer (RIMS) consisted of a retarding potential analyzer for energy analysis in series with a magnetic ion-mass spectrometer for mass analysis. Multiple sensor heads permitted the determination of the thermal plasma flow characteristics. This instrument was designed to operate in two basic commandable modes: a high-altitude mode in which the density, temperature, and bulk-flow characteristics of principally H+, He+, and O+ ions were measured; and a low-altitude mode that concentrated on the composition in the 1- to 32-u range. This investigation provided information on (1) the densities of H+, He+, and O+ ions in the ionosphere, plasmasphere, plasma trough, and polar cap (including the density distribution along the magnetic vector in the vicinity of the satellite apogee); (2) the temperature of H+, He+, and O+ ions in the ionosphere, plasmasphere, plasma trough, and polar cap (energy range 0-45 eV); (3) the bulk flow velocities of H+, He+, and O+ in the plasmapause, plasma trough and polar cap; (4) the changing character of the cold plasma density, temperature, and bulk flow in regions of interaction with hot plasma such as at the boundary between the plasmasphere and the ring current; and (5) the detailed composition of ionospheric plasma in the 1-to 32-u range. He++ and O++ were also measured. The instrument consisted of three detector heads. One looked out in the radial direction, and the other two were along the plus and minus spin-axis directions. Each detector had a 55-deg half-cone acceptance angle. The detector heads had a gridded, weakly collimating aperture where the retarding analysis was performed, followed by a parallel plate ceramic magnetic mass analyzer with two separate exit slits corresponding to ion masses in the ratio 1:4. Ions exiting from these slits were detected with electron multipliers. In the apogee mode, the thermal particle fluxes were measured while the potential on a set of retarding grids was stepped through a sequence of settings. In the perigee mode, the retarding grids were grounded and the detector utilized a continuous acceleration potential sweep that focused the mass ranges from 1 to 8, and 4 to 32 u. Time resolution was 16 msec. Additional details can be found in C. R. Chappell et al., Space Sci. Instrum., v. 5, n. 4, p. 477, 1981."
+	1 (CDF_CHAR/1538): 	"Criterian for selecting data points to be fitted aperature bias = 0 must have at least 10 or more non-zero points in rpa curve.  if less that 1.3 Re high voltage monitor must be turned on maximum countr rate value must at least 5.0 must have at least 4 points starting from end of rpa curve find 3 consecutive point of increasing value, reset end of rpa curve to here make certain last point is 1 sigma above noise level (the points excluded in previous step), if not drop point and check new last point, continue until criteria is met, must have at least 3 points left starting at new end of selected rpa curve stop first point greater that 80% of maximum of spin curve, if non found stop at last point less that maximum, must have at least 3 points left change curve from count rate curve to l**2 curve if number of points are 5 or less: do a linear least squares fit (linfit) to the data, if the linear correlation coefficient (lcc) greater than 0.800 then points will be used, if not, data set is discarded if number of points are greater then 5: do a linfit to the bottom 5 and a linfit to the top 5 points, in 6 or more points do linfit to the middle 5, saving the lcc and slope for each case. if all three lccs are less than 0.800 discard data set through a series of tests find the set of 5 with the best lcc slope combination once set of 5 has been selected add rest of points one at a time and redo linfit, if lcc gets worse discard point otherwise keep it, do this until all points are checked we now have the points to be used"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/73): 	"More information on DE-1 Retarding Ion Mass Spectrometer is available at "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/25): 	"Space Plasma Physics Page"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/49): 	"https://spacephysics.msfc.nasa.gov/projects/rims/"
+TEXT_supplement (2 entries):
+	0 (CDF_CHAR/300): 	"Two Dynamics Explorer (DE) spacecraft were launched August 3, 1981, and placed into coplanar polar orbits with DE-1 in a highly elliptical orbit and DE-2 in a lower more circular orbit. The primary objective of the DE program was to investigate magnetosphere-ionosphere-atmosphere coupling processes."
+	1 (CDF_CHAR/485): 	"The DE mission provided a wealth of new information on a wide variety of magnetospheric plasma wave phenomena including auroral kilometric radiation, auroral hiss, Z mode radiation, narrow-band electromagnetic emissions associated with equatorial upper hybrid waves, whistler mode emissions, wave-particle interactions stimulated by ground VLF transmitters, equatorial ion cyclotron.emissions, ion Bernstein mode emissions, and electric field turbulence along the auroral field lines. "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/17): 	"Dynamics Explorer"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/134): 	"DE-1 Retarding Ion Mass Spectrometer 1-min temperature and density data (low channel used for H+, He++, high channel for He+, O+, O++)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"de1_1min_rims"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"de1_1min_rims_00000000_v01"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/40): 	"spase://NASA/NumericalData/DE1/RIMS/PT1M"
+
+Variable Attributes (19 attributes)
+=========================================
+FIELDNAM
+CATDESC
+UNITS
+VAR_TYPE
+DEPEND_0
+DEPEND_1
+VALIDMIN
+VALIDMAX
+FILLVAL
+MONOTON
+LABLAXIS
+SCALEMIN
+SCALEMAX
+SCALETYP
+FORMAT
+DISPLAY_TYPE
+VAR_NOTES
+DICT_KEY
+LABL_PTR_1
+
+Variable Information (0 rVariable, 209 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+compno_3              CDF_INT2/1	1:[3]	F/T
+bfsm_labl             CDF_CHAR/5	1:[3]	F/T
+re                    CDF_REAL4/1	0:[]	T/  
+smlong_sc             CDF_REAL4/1	0:[]	T/  
+smlat_sc              CDF_REAL4/1	0:[]	T/  
+smlat_sun             CDF_REAL4/1	0:[]	T/  
+calc_mlt              CDF_REAL4/1	0:[]	T/  
+shell_l               CDF_REAL4/1	0:[]	T/  
+bfsm                  CDF_FLOAT/1	1:[3]	T/T
+kp                    CDF_INT4/1	0:[]	T/  
+f10_7                 CDF_REAL4/1	0:[]	T/  
+flag_gen              CDF_UINT1/1	0:[]	T/  
+temp_pz_lo_Hplus      CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_lo_Heplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_hi_Heplus     CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_hi_Oplus      CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_hi_Oplusplus  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_pz_lo_Hplus     CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pz_lo_Heplusplus CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pz_hi_Heplus    CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pz_hi_Oplus     CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pz_hi_Oplusplus CDF_UINT1/1	0:[]	T/   sRecords.PAD
+temp_mz_lo_Hplus      CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_lo_Heplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_hi_Heplus     CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_hi_Oplus      CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_hi_Oplusplus  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_mz_lo_Hplus     CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_mz_lo_Heplusplus CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_mz_hi_Heplus    CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_mz_hi_Oplus     CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_mz_hi_Oplusplus CDF_UINT1/1	0:[]	T/   sRecords.PAD
+temp_z_lo_Hplus       CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_lo_Heplusplus  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_hi_Heplus      CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_hi_Oplus       CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_hi_Oplusplus   CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_z_lo_Hplus      CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_lo_Heplusplus CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_hi_Heplus     CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_hi_Oplus      CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_hi_Oplusplus  CDF_UINT1/1	0:[]	T/   sRecords.PAD
+den_temp_lo_Hplus     CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_lo_Heplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_hi_Heplus    CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_hi_Oplus     CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_hi_Oplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_lo_Hplus     CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_lo_Heplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_hi_Heplus    CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_hi_Oplus     CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_hi_Oplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_lo_Hplus  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_lo_Heplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_hi_Heplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_hi_Oplus  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_hi_Oplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_temp_lo_Hplus   CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_lo_Heplusplus CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_hi_Heplus  CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_hi_Oplus   CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_hi_Oplusplus CDF_UINT1/1	0:[]	T/   sRecords.PAD
+avg_pot               CDF_REAL4/1	0:[]	T/  
+pot_flag              CDF_UINT1/1	0:[]	T/  
+den_pot_lo_Hplus      CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_lo_Heplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_hi_Heplus     CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_hi_Oplus      CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_hi_Oplusplus  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_lo_Hplus      CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_lo_Heplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_hi_Heplus     CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_hi_Oplus      CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_hi_Oplusplus  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_lo_Hplus   CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_lo_Heplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_hi_Heplus  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_hi_Oplus   CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_hi_Oplusplus CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_pot_lo_Hplus    CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_lo_Heplusplus CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_hi_Heplus   CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_hi_Oplus    CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_hi_Oplusplus CDF_UINT1/1	0:[]	T/   sRecords.PAD
+temp_pz_LO_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_LO_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_LO_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_LO_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_LO_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_LO_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_LO_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_LO_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_LO_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_LO_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_LO_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_LO_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_LO_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_LO_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_LO_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_z_LO_lo_Hplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_LO_lo_Heplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_LO_hi_Heplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_LO_hi_Oplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_LO_hi_Oplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+den_temp_LO_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_LO_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_LO_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_LO_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_LO_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_LO_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_LO_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_LO_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_LO_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_LO_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_LO_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_LO_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_LO_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_LO_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_LO_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_temp_LO_lo_Hplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_LO_lo_Heplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_LO_hi_Heplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_LO_hi_Oplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_LO_hi_Oplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+avg_pot_LO            CDF_REAL4/1	0:[]	T/  
+pot_flag_LO           CDF_UINT1/1	0:[]	T/  
+den_pot_LO_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_LO_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_LO_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_LO_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_LO_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_LO_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_LO_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_LO_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_LO_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_LO_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_LO_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_LO_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_LO_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_LO_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_LO_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_pot_LO_lo_Hplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_LO_lo_Heplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_LO_hi_Heplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_LO_hi_Oplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_LO_hi_Oplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+temp_pz_HI_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_HI_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_HI_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_HI_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_pz_HI_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_HI_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_HI_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_HI_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_HI_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_mz_HI_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_HI_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_HI_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_HI_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_HI_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_z_HI_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_z_HI_lo_Hplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_HI_lo_Heplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_HI_hi_Heplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_HI_hi_Oplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_z_HI_hi_Oplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+den_temp_HI_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_HI_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_HI_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_HI_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_temp_HI_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_HI_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_HI_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_HI_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_HI_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+pot_temp_HI_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_HI_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_HI_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_HI_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_HI_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_temp_HI_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_temp_HI_lo_Hplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_HI_lo_Heplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_HI_hi_Heplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_HI_hi_Oplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_temp_HI_hi_Oplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+avg_pot_HI            CDF_REAL4/1	0:[]	T/  
+pot_flag_HI           CDF_UINT1/1	0:[]	T/  
+den_pot_HI_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_HI_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_HI_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_HI_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+den_pot_HI_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_HI_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_HI_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_HI_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_HI_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+temp_rd_HI_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_HI_lo_Hplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_HI_lo_Heplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_HI_hi_Heplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_HI_hi_Oplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+chisqr_pot_HI_hi_Oplusplus_plus_std CDF_REAL4/1	0:[]	T/   sRecords.PAD
+flags_pot_HI_lo_Hplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_HI_lo_Heplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_HI_hi_Heplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_HI_hi_Oplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+flags_pot_HI_hi_Oplusplus_plus_std CDF_UINT1/1	0:[]	T/   sRecords.PAD
+
+
+Variable (209 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Time since 0 A.D.(vefi)"
+     CATDESC         (CDF_CHAR/43): "NSSDC standard-reference time value. (vefi)"
+     UNITS           (CDF_CHAR/8): "ms (UT) "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_EPOCH/1): 15-Sep-1981 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 18-Feb-1991 23:59:59.999
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     SCALEMIN        (CDF_EPOCH/1): 16-Sep-1981 05:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 18-Feb-1991 10:00:00.000
+     FORMAT          (CDF_CHAR/8): "F14.0   "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+compno_3 (No: 1) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "compno_3"
+     CATDESC         (CDF_CHAR/8): "compno_3"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     FILLVAL         (CDF_INT2/1): 0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "I3"
+
+bfsm_labl (No: 2) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "bfsm_labl"
+     CATDESC         (CDF_CHAR/9): "bfsm_labl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A5"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+re (No: 3) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Alt. in Re"
+     CATDESC         (CDF_CHAR/34): "s/c radial distance in earth radii"
+     UNITS           (CDF_CHAR/3): "Re "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     FILLVAL         (CDF_REAL4/1): -0.0
+     LABLAXIS        (CDF_CHAR/3): "Alt"
+     FORMAT          (CDF_CHAR/4): "f6.3"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+smlong_sc (No: 4) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "SM_Long"
+     CATDESC         (CDF_CHAR/26): "s/c longitude in SM coord."
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     FILLVAL         (CDF_REAL4/1): -0.0
+     LABLAXIS        (CDF_CHAR/7): "SM_Long"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+smlat_sc (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "SM_Lat"
+     CATDESC         (CDF_CHAR/25): "s/c latitude in SM coord."
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     FILLVAL         (CDF_REAL4/1): -0.0
+     LABLAXIS        (CDF_CHAR/6): "SM_Lat"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+smlat_sun (No: 6) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Sun SM_Lat"
+     CATDESC         (CDF_CHAR/18): "SM latitude of sun"
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     FILLVAL         (CDF_REAL4/1): -0.0
+     LABLAXIS        (CDF_CHAR/10): "Sun_SM_Lat"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+calc_mlt (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "MLT_calc"
+     CATDESC         (CDF_CHAR/30): "Calculated Magnetic Local Time"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     FILLVAL         (CDF_REAL4/1): -0.0
+     LABLAXIS        (CDF_CHAR/8): "MLT_calc"
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+shell_l (No: 8) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "L value"
+     CATDESC         (CDF_CHAR/7): "L value"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     FILLVAL         (CDF_REAL4/1): -0.0
+     LABLAXIS        (CDF_CHAR/1): "L"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+bfsm (No: 9) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SM_B-vector"
+     CATDESC         (CDF_CHAR/34): "Magnetic field vector in SM coord."
+     UNITS           (CDF_CHAR/2): "nT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "compno_3"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+10
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "SM_B-vector"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     LABL_PTR_1      (CDF_CHAR/9): "bfsm_labl"
+
+kp (No: 10) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "kp"
+     CATDESC         (CDF_CHAR/24): "3-hour kp magnetic index"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 999
+     FILLVAL         (CDF_INT4/1): -1
+     LABLAXIS        (CDF_CHAR/2): "kp"
+     FORMAT          (CDF_CHAR/2): "i3"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+f10_7 (No: 11) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "Daily F10.7 solar flux at 10.7cm"
+     CATDESC         (CDF_CHAR/11): "Daily F10.7"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.1
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -0.0
+     LABLAXIS        (CDF_CHAR/6): "F10.7D"
+     FORMAT          (CDF_CHAR/4): "f5.1"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+flag_gen (No: 12) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Flag gen"
+     CATDESC         (CDF_CHAR/8): "Flag gen"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/8): "Flag gen"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+temp_pz_lo_Hplus (No: 13) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "H+ temp,+z"
+     CATDESC         (CDF_CHAR/71): "H+ temperature in eV, detector head in positive z-direction (spin axis)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "T_H+,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_lo_Heplusplus (No: 14) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "He++ temp,+z"
+     CATDESC         (CDF_CHAR/23): "-----> He++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "T_He++,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_hi_Heplus (No: 15) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "He+ temp,+z"
+     CATDESC         (CDF_CHAR/22): "-----> He+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "T_He+,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_hi_Oplus (No: 16) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "O+ temp,+z"
+     CATDESC         (CDF_CHAR/21): "-----> O+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "T_O+,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_hi_Oplusplus (No: 17) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "O++ temp,+z"
+     CATDESC         (CDF_CHAR/22): "-----> O++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "T_O++,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pz_lo_Hplus (No: 18) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Flag T_H+,+z"
+     CATDESC         (CDF_CHAR/28): "-------> Flag H+ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/12): "Flag T_H+,+z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pz_lo_Heplusplus (No: 19) (Recs: 0) (Compression: GZIP.5)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Flag T_He++,+z"
+     CATDESC         (CDF_CHAR/30): "-------> Flag He++ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/14): "Flag T_He++,+z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pz_hi_Heplus (No: 20) (Recs: 0) (Compression: GZIP.5)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Flag T_He+,+z"
+     CATDESC         (CDF_CHAR/29): "-------> Flag He+ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/13): "Flag T_He+,+z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pz_hi_Oplus (No: 21) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Flag T_O+,+z"
+     CATDESC         (CDF_CHAR/28): "-------> Flag O+ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/12): "Flag T_O+,+z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pz_hi_Oplusplus (No: 22) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Flag T_O++,+z"
+     CATDESC         (CDF_CHAR/29): "-------> Flag O++ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/13): "Flag T_O++,+z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_lo_Hplus (No: 23) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "H+ temp,-z"
+     CATDESC         (CDF_CHAR/71): "H+ temperature in eV, detector head in negative z-direction (spin axis)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "T_H+,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_lo_Heplusplus (No: 24) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "He++ temp,-z"
+     CATDESC         (CDF_CHAR/23): "-----> He++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "T_He++,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_hi_Heplus (No: 25) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "He+ temp,-z"
+     CATDESC         (CDF_CHAR/22): "-----> He+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T_He++,-z,hi"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_hi_Oplus (No: 26) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "O+ temp,-z"
+     CATDESC         (CDF_CHAR/21): "-----> O+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "T_O+,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_hi_Oplusplus (No: 27) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "O++ temp,-z"
+     CATDESC         (CDF_CHAR/22): "-----> O++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "T_O++,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_mz_lo_Hplus (No: 28) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Flag T_H+,-z"
+     CATDESC         (CDF_CHAR/28): "-------> Flag H+ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/12): "Flag T_H+,-z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_mz_lo_Heplusplus (No: 29) (Recs: 0) (Compression: GZIP.5)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Flag T_He++,-z"
+     CATDESC         (CDF_CHAR/30): "-------> Flag He++ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/14): "Flag T_He++,-z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_mz_hi_Heplus (No: 30) (Recs: 0) (Compression: GZIP.5)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Flag T_He+,-z"
+     CATDESC         (CDF_CHAR/29): "-------> Flag He+ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/13): "Flag T_He+,-z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_mz_hi_Oplus (No: 31) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Flag T_O+,-z"
+     CATDESC         (CDF_CHAR/28): "-------> Flag O+ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/12): "Flag T_O+,-z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_mz_hi_Oplusplus (No: 32) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Flag T_O++,-z"
+     CATDESC         (CDF_CHAR/29): "-------> Flag O++ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/13): "Flag T_O++,-z"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_lo_Hplus (No: 33) (Recs: 0) (Compression: GZIP.5)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "H+ temp,r"
+     CATDESC         (CDF_CHAR/62): "H+ temperature in eV, average radial head temperature (temp-z)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "T_H+,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/45): "calculated from available Z head temperatures"
+
+temp_z_lo_Heplusplus (No: 34) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "He++ temp,r"
+     CATDESC         (CDF_CHAR/23): "-----> He++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "T_He++,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/45): "calculated from available Z head temperatures"
+
+temp_z_hi_Heplus (No: 35) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "He+ temp,r"
+     CATDESC         (CDF_CHAR/21): "-----> H+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "T_He+,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/45): "calculated from available Z head temperatures"
+
+temp_z_hi_Oplus (No: 36) (Recs: 0) (Compression: GZIP.5)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "O+ temp,r"
+     CATDESC         (CDF_CHAR/21): "-----> O+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "T_O+,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/45): "calculated from available Z head temperatures"
+
+temp_z_hi_Oplusplus (No: 37) (Recs: 0) (Compression: GZIP.5)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "O++ temp,r"
+     CATDESC         (CDF_CHAR/22): "-----> O++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "T_O++,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/45): "calculated from available Z head temperatures"
+
+flags_z_lo_Hplus (No: 38) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Flag T_H+,r"
+     CATDESC         (CDF_CHAR/28): "-------> Flag H+ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/11): "Flag T_H+,r"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_lo_Heplusplus (No: 39) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Flag T_He++,r"
+     CATDESC         (CDF_CHAR/30): "-------> Flag He++ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/13): "Flag T_He++,r"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_hi_Heplus (No: 40) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Flag T_He+,r"
+     CATDESC         (CDF_CHAR/29): "-------> Flag He+ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/12): "Flag T_He+,r"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_hi_Oplus (No: 41) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Flag T_O+,r"
+     CATDESC         (CDF_CHAR/28): "-------> Flag O+ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/11): "Flag T_O+,r"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_hi_Oplusplus (No: 42) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Flag T_O++,r"
+     CATDESC         (CDF_CHAR/29): "-------> Flag O++ temperature"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Flag T_O++,r"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_lo_Hplus (No: 43) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "n(H+),T const"
+     CATDESC         (CDF_CHAR/69): "H+ density in cm-3, fit to radial head data with temp-z held constant"
+     UNITS           (CDF_CHAR/5): "cm-3 "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "n(H+),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/76): "Density from fit to radial head data with temperature (temp_z) held constant"
+
+den_temp_lo_Heplusplus (No: 44) (Recs: 0) (Compression: GZIP.5)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "n(He=+),T const"
+     CATDESC         (CDF_CHAR/19): "-----> He++ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "n(He++),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/76): "Density from fit to radial head data with temperature (temp_z) held constant"
+
+den_temp_hi_Heplus (No: 45) (Recs: 0) (Compression: GZIP.5)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "n(He+),T const"
+     CATDESC         (CDF_CHAR/18): "-----> He+ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "n(He+),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/76): "Density from fit to radial head data with temperature (temp_z) held constant"
+
+den_temp_hi_Oplus (No: 46) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "n(O+),T const"
+     CATDESC         (CDF_CHAR/17): "-----> O+ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "n(O+),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/76): "Density from fit to radial head data with temperature (temp_z) held constant"
+
+den_temp_hi_Oplusplus (No: 47) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "n(O++),T const"
+     CATDESC         (CDF_CHAR/18): "-----> O++ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "n(O++),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/76): "Density from fit to radial head data with temperature (temp_z) held constant"
+
+pot_temp_lo_Hplus (No: 48) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "pot(H+),T const"
+     CATDESC         (CDF_CHAR/53): "-------> H+ potential in V, with temp_z held constant"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "Pot_H+,T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/78): "Potential from fit to radial head data with temperature (temp_z) held constant"
+
+pot_temp_lo_Heplusplus (No: 49) (Recs: 0) (Compression: GZIP.5)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "pot(He++),T const"
+     CATDESC         (CDF_CHAR/23): "-------> He++ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "Pot_He++,T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/78): "Potential from fit to radial head data with temperature (temp_z) held constant"
+
+pot_temp_hi_Heplus (No: 50) (Recs: 0) (Compression: GZIP.5)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "pot(He+),T const"
+     CATDESC         (CDF_CHAR/22): "-------> He+ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Pot_He+,T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/78): "Potential from fit to radial head data with temperature (temp_z) held constant"
+
+pot_temp_hi_Oplus (No: 51) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "pot(O+),T const"
+     CATDESC         (CDF_CHAR/21): "-------> O+ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "Pot_O+,T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/78): "Potential from fit to radial head data with temperature (temp_z) held constant"
+
+pot_temp_hi_Oplusplus (No: 52) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "pot(O++),T const"
+     CATDESC         (CDF_CHAR/22): "-------> O++ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Pot_O++,T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/78): "Potential from fit to radial head data with temperature (temp_z) held constant"
+
+chisqr_temp_lo_Hplus (No: 53) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Chi^2(H+),T const"
+     CATDESC         (CDF_CHAR/54): "-----> Chi-square for H+ fit with temp-z held constant"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Chi^2(H+),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_lo_Heplusplus (No: 54) (Recs: 0) (Compression: GZIP.5)
+-------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Chi^2(He++),T const"
+     CATDESC         (CDF_CHAR/18): "-----> Chi^2(He++)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "Chi^2(He++),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_hi_Heplus (No: 55) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Chi^2(He+),T const"
+     CATDESC         (CDF_CHAR/17): "-----> Chi^2(He+)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Chi^2(He+),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_hi_Oplus (No: 56) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Chi^2(O+),T const"
+     CATDESC         (CDF_CHAR/16): "-----> Chi^2(O+)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Chi^2(O+),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_hi_Oplusplus (No: 57) (Recs: 0) (Compression: GZIP.5)
+------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Chi^2(O++),T const"
+     CATDESC         (CDF_CHAR/17): "-----> Chi^2(O++)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Chi^2(O++),T"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_lo_Hplus (No: 58) (Recs: 0) (Compression: GZIP.5)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag(H+),T const"
+     CATDESC         (CDF_CHAR/50): "-------> Flag for H+ fit with temp-z held constant"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/8): "FlagH+,T"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_lo_Heplusplus (No: 59) (Recs: 0) (Compression: GZIP.5)
+------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Flag(He++),T const"
+     CATDESC         (CDF_CHAR/19): "-------> Flag(He++)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/10): "FlagHe++,T"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_hi_Heplus (No: 60) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Flag(He+),T const"
+     CATDESC         (CDF_CHAR/18): "-------> Flag(He+)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/9): "FlagHe+,T"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_hi_Oplus (No: 61) (Recs: 0) (Compression: GZIP.5)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag(O+),T const"
+     CATDESC         (CDF_CHAR/17): "-------> Flag(O+)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/8): "FlagO+,T"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_hi_Oplusplus (No: 62) (Recs: 0) (Compression: GZIP.5)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Flag(O++),T const"
+     CATDESC         (CDF_CHAR/18): "-------> Flag(O++)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "FlagO++,T"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+avg_pot (No: 63) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Pot H+ He+ avg"
+     CATDESC         (CDF_CHAR/51): "Weighted average of H+ and He+ potentials (avg_pot)"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.1
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     LABLAXIS        (CDF_CHAR/14): "Pot,H+ He+ avg"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+pot_flag (No: 64) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Avg Pot flag"
+     CATDESC         (CDF_CHAR/53): "-----> Flag for weighted avg of H+ and He+ potentials"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "Pot_avg flag"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+den_pot_lo_Hplus (No: 65) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "H+ den,pot"
+     CATDESC         (CDF_CHAR/75): "H+ density in cm-3, radial head data with potential (avg_pot) held constant"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "n_H+,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/75): "Density from fit to radial head data with potential (avg_pot) held constant"
+
+den_pot_lo_Heplusplus (No: 66) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "He++ den,pot"
+     CATDESC         (CDF_CHAR/19): "-----> He++ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "n_He++,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/75): "Density from fit to radial head data with potential (avg_pot) held constant"
+
+den_pot_hi_Heplus (No: 67) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "He+ den,pot"
+     CATDESC         (CDF_CHAR/18): "-----> He+ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "n_He+,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/75): "Density from fit to radial head data with potential (avg_pot) held constant"
+
+den_pot_hi_Oplus (No: 68) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "O+ den,pot"
+     CATDESC         (CDF_CHAR/17): "-----> O+ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "n_O+,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/75): "Density from fit to radial head data with potential (avg_pot) held constant"
+
+den_pot_hi_Oplusplus (No: 69) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "O++ den,pot"
+     CATDESC         (CDF_CHAR/18): "-----> O++ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "n_O++,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/75): "Density from fit to radial head data with potential (avg_pot) held constant"
+
+temp_rd_lo_Hplus (No: 70) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "H+ temp,pot"
+     CATDESC         (CDF_CHAR/56): "-------> H+ temperature in K withpotential held constant"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "T_H+,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/79): "Temperature from fit to radial head data with potential (avg_pot) held constant"
+
+temp_rd_lo_Heplusplus (No: 71) (Recs: 0) (Compression: GZIP.5)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "He++ temp,pot"
+     CATDESC         (CDF_CHAR/25): "-------> He++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "T_He++,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/79): "Temperature from fit to radial head data with potential (avg_pot) held constant"
+
+temp_rd_hi_Heplus (No: 72) (Recs: 0) (Compression: GZIP.5)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "He+ temp,pot"
+     CATDESC         (CDF_CHAR/24): "-------> He+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "T_He+,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/79): "Temperature from fit to radial head data with potential (avg_pot) held constant"
+
+temp_rd_hi_Oplus (No: 73) (Recs: 0) (Compression: GZIP.5)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "O+ temp,pot"
+     CATDESC         (CDF_CHAR/23): "-------> O+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "T_O+,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/79): "Temperature from fit to radial head data with potential (avg_pot) held constant"
+
+temp_rd_hi_Oplusplus (No: 74) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "O++ temp,pot"
+     CATDESC         (CDF_CHAR/24): "-------> O++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "T_O++,pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/79): "Temperature from fit to radial head data with potential (avg_pot) held constant"
+
+chisqr_pot_lo_Hplus (No: 75) (Recs: 0) (Compression: GZIP.5)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Chi^2(H+),pot"
+     CATDESC         (CDF_CHAR/57): "-----> Chi-square for H+ fit with potential held constant"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "Chi^2(H+),pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/77): "Chi-squared of fit to radial head data with potential (avg_pot) held constant"
+
+chisqr_pot_lo_Heplusplus (No: 76) (Recs: 0) (Compression: GZIP.5)
+------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Chi^2(He++),pot"
+     CATDESC         (CDF_CHAR/18): "-----> Chi^2(He++)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "Chi^2(He++),pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/77): "Chi-squared of fit to radial head data with potential (avg_pot) held constant"
+
+chisqr_pot_hi_Heplus (No: 77) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Chi^2(He+),pot"
+     CATDESC         (CDF_CHAR/17): "-----> Chi^2(He+)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Chi^2(He+),pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/77): "Chi-squared of fit to radial head data with potential (avg_pot) held constant"
+
+chisqr_pot_hi_Oplus (No: 78) (Recs: 0) (Compression: GZIP.5)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Chi^2(O+),pot"
+     CATDESC         (CDF_CHAR/16): "-----> Chi^2(O+)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "Chi^2(O+),pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/77): "Chi-squared of fit to radial head data with potential (avg_pot) held constant"
+
+chisqr_pot_hi_Oplusplus (No: 79) (Recs: 0) (Compression: GZIP.5)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Chi^2(O++),pot"
+     CATDESC         (CDF_CHAR/17): "-----> Chi^2(O++)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Chi^2(O++),pot"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/77): "Chi-squared of fit to radial head data with potential (avg_pot) held constant"
+
+flags_pot_lo_Hplus (No: 80) (Recs: 0) (Compression: GZIP.5)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Flag(H+),pot const"
+     CATDESC         (CDF_CHAR/53): "-------> Flag for H+ fit with potential held constant"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/10): "FlagH+,pot"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Flag for fit to radial head data with potential (avg_pot) held constant"
+
+flags_pot_lo_Heplusplus (No: 81) (Recs: 0) (Compression: GZIP.5)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Flag(He++),pot const"
+     CATDESC         (CDF_CHAR/18): "-------> Flag He++"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/12): "FlagHe++,pot"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Flag for fit to radial head data with potential (avg_pot) held constant"
+
+flags_pot_hi_Heplus (No: 82) (Recs: 0) (Compression: GZIP.5)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Flag(He+),pot const"
+     CATDESC         (CDF_CHAR/17): "-------> Flag He+"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/11): "FlagHe+,pot"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Flag for fit to radial head data with potential (avg_pot) held constant"
+
+flags_pot_hi_Oplus (No: 83) (Recs: 0) (Compression: GZIP.5)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Flag(O+),pot const"
+     CATDESC         (CDF_CHAR/16): "-------> Flag O+"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/10): "FlagO+,pot"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Flag for fit to radial head data with potential (avg_pot) held constant"
+
+flags_pot_hi_Oplusplus (No: 84) (Recs: 0) (Compression: GZIP.5)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Flag(O+),pot const"
+     CATDESC         (CDF_CHAR/17): "-------> Flag O++"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_REAL4/1): 255.0
+     LABLAXIS        (CDF_CHAR/11): "FlagO++,pot"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Flag for fit to radial head data with potential (avg_pot) held constant"
+
+temp_pz_LO_lo_Hplus_plus_std (No: 85) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(H+)-STD,+z"
+     CATDESC         (CDF_CHAR/93): "--- TEMPERATURE VALUES MINUS STANDARD DEVIATION (STD): H+ temperature in K minus STD, +z head"
+     UNITS           (CDF_CHAR/3): " eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(H+)-std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_LO_lo_Heplusplus_plus_std (No: 86) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "T(He++)-STD,+z"
+     CATDESC         (CDF_CHAR/18): "-----> T(He++)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "T(He++)-std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_LO_hi_Heplus_plus_std (No: 87) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(He+)-STD,+z"
+     CATDESC         (CDF_CHAR/17): "-----> T(He+)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(He+)-std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_LO_hi_Oplus_plus_std (No: 88) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(O+)-STD,+z"
+     CATDESC         (CDF_CHAR/16): "-----> T(O+)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(O+)-std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_LO_hi_Oplusplus_plus_std (No: 89) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(O++)-STD,+z"
+     CATDESC         (CDF_CHAR/17): "-----> T(O++)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(O++)-std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_LO_lo_Hplus_plus_std (No: 90) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(H+)-STD,-z"
+     CATDESC         (CDF_CHAR/38): "H+ temperature in K minus STD, -z head"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(H+)-std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_LO_lo_Heplusplus_plus_std (No: 91) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "T(He++)-STD,-z"
+     CATDESC         (CDF_CHAR/18): "-----> T(He++)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "T(He++)-std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_LO_hi_Heplus_plus_std (No: 92) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(He+)-STD,-z"
+     CATDESC         (CDF_CHAR/17): "-----> T(He+)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(He+)-std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_LO_hi_Oplus_plus_std (No: 93) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(O+)-STD,-z"
+     CATDESC         (CDF_CHAR/16): "-----> T(O+)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(O+)-std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_LO_hi_Oplusplus_plus_std (No: 94) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(O++)-STD,-z"
+     CATDESC         (CDF_CHAR/17): "-----> T(O++)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(O++)-std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_LO_lo_Hplus_plus_std (No: 95) (Recs: 0) (Compression: GZIP.5)
+---------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "T(H+)-STD,r"
+     CATDESC         (CDF_CHAR/55): "H+ temperature (in K) minus STD, average of radial data"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "T(H+)-std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_LO_lo_Heplusplus_plus_std (No: 96) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(He++)-STD,r"
+     CATDESC         (CDF_CHAR/18): "-----> T(He++)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(He++)-std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_LO_hi_Heplus_plus_std (No: 97) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(He+)-STD,r"
+     CATDESC         (CDF_CHAR/17): "-----> T(He+)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(He+)-std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_LO_hi_Oplus_plus_std (No: 98) (Recs: 0) (Compression: GZIP.5)
+---------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "T(O+)-STD,r"
+     CATDESC         (CDF_CHAR/16): "-----> T(O+)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "T(O+)-std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_LO_hi_Oplusplus_plus_std (No: 99) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(O++)-STD,r"
+     CATDESC         (CDF_CHAR/17): "-----> T(O++)-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(O++)-std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_LO_lo_Hplus_plus_std (No: 100) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag T(H+)-STD,r"
+     CATDESC         (CDF_CHAR/27): "-------> Flag for T(H+)-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "FlagH+mSTD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_LO_lo_Heplusplus_plus_std (No: 101) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Flag T(HE++)-STD,r"
+     CATDESC         (CDF_CHAR/29): "-------> Flag for T(He++)-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "FlagHe++mSTD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_LO_hi_Heplus_plus_std (No: 102) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Flag T(He+)-STD,r"
+     CATDESC         (CDF_CHAR/28): "-------> Flag for T(He+)-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "FlagHe+mSTD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_LO_hi_Oplus_plus_std (No: 103) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag T(O+)-STD,r"
+     CATDESC         (CDF_CHAR/27): "-------> Flag for T(O+)-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "FlagO+mSTD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_LO_hi_Oplusplus_plus_std (No: 104) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Flag T(O++)-STD,r"
+     CATDESC         (CDF_CHAR/28): "-------> Flag for T(O++)-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "FlagO++mSTD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_LO_lo_Hplus_plus_std (No: 105) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "n(H+),T-STD"
+     CATDESC         (CDF_CHAR/71): "n(H+) from fit to radial head data with temp held constant (temp_z-STD)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "n(H+),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_LO_lo_Heplusplus_plus_std (No: 106) (Recs: 0) (Compression: GZIP.5)
+----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "n(He++),T-STD"
+     CATDESC         (CDF_CHAR/14): "-----> n(He++)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "n(He++),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_LO_hi_Heplus_plus_std (No: 107) (Recs: 0) (Compression: GZIP.5)
+------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "n(He+),T-STD"
+     CATDESC         (CDF_CHAR/13): "-----> n(He+)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "n(He+),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_LO_hi_Oplus_plus_std (No: 108) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "n(O+),T-STD"
+     CATDESC         (CDF_CHAR/12): "-----> n(O+)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "n(O+),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_LO_hi_Oplusplus_plus_std (No: 109) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "n(O++),T-STD"
+     CATDESC         (CDF_CHAR/13): "-----> n(O++)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "n(O++),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_LO_lo_Hplus_plus_std (No: 110) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Pot(H+),T-STD"
+     CATDESC         (CDF_CHAR/37): "-------> H+ potential from fit, T-STD"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "P(H+),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_LO_lo_Heplusplus_plus_std (No: 111) (Recs: 0) (Compression: GZIP.5)
+----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Pot(He++),T-STD"
+     CATDESC         (CDF_CHAR/23): "-------> He++ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "P(He++),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_LO_hi_Heplus_plus_std (No: 112) (Recs: 0) (Compression: GZIP.5)
+------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Pot(He+),T-STD"
+     CATDESC         (CDF_CHAR/22): "-------> He+ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "P(He+),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_LO_hi_Oplus_plus_std (No: 113) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Pot(O+),T-STD"
+     CATDESC         (CDF_CHAR/21): "-------> O+ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "P(O+),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_LO_hi_Oplusplus_plus_std (No: 114) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Pot(O++),T-STD"
+     CATDESC         (CDF_CHAR/22): "-------> O++ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "P(O++),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_LO_lo_Hplus_plus_std (No: 115) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "chi^2(H+),T-STD"
+     CATDESC         (CDF_CHAR/35): "-----> chi-square for H+ fit, T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "chi^2(H+),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_LO_lo_Heplusplus_plus_std (No: 116) (Recs: 0) (Compression: GZIP.5)
+-------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "chi^2(He++),T-STD"
+     CATDESC         (CDF_CHAR/30): "-----> chi-square for He++ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "chi^2(He++),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_LO_hi_Heplus_plus_std (No: 117) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "chi^2(He+),T-STD"
+     CATDESC         (CDF_CHAR/29): "-----> chi-square for He+ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "chi^2(He+),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_LO_hi_Oplus_plus_std (No: 118) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "chi^2(O+),T-STD"
+     CATDESC         (CDF_CHAR/28): "-----> chi-square for O+ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "chi^2(O+),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_LO_hi_Oplusplus_plus_std (No: 119) (Recs: 0) (Compression: GZIP.5)
+------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "chi^2(O++),T-STD"
+     CATDESC         (CDF_CHAR/29): "-----> chi-square for O++ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "chi^2(O++),T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_LO_lo_Hplus_plus_std (No: 120) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Flag H+,T-STD"
+     CATDESC         (CDF_CHAR/31): "-------> Flag for H+ fit, T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "FlagH+,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_LO_lo_Heplusplus_plus_std (No: 121) (Recs: 0) (Compression: GZIP.5)
+------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Flag He++,T-STD"
+     CATDESC         (CDF_CHAR/26): "-------> Flag for He++ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "FlagHe++,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_LO_hi_Heplus_plus_std (No: 122) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Flag He+,T-STD"
+     CATDESC         (CDF_CHAR/25): "-------> Flag for He+ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "FlagHe+,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_LO_hi_Oplus_plus_std (No: 123) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Flag O+,T-STD"
+     CATDESC         (CDF_CHAR/24): "-------> Flag for O+ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "FlagO+,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_LO_hi_Oplusplus_plus_std (No: 124) (Recs: 0) (Compression: GZIP.5)
+-----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Flag O++,T-STD"
+     CATDESC         (CDF_CHAR/25): "-------> Flag for O++ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "FlagO++,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+avg_pot_LO (No: 125) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Avg pot,temp_z-STD"
+     CATDESC         (CDF_CHAR/58): "Weighted average of H+ and He+ potentials (avg_pot), T-STD"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.1
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     LABLAXIS        (CDF_CHAR/12): "avgPot,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+pot_flag_LO (No: 126) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Flag avg pot,T-STD"
+     CATDESC         (CDF_CHAR/23): "-----> Flag for avg_pot"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/16): "FlagAvgPot,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+den_pot_LO_lo_Hplus_plus_std (No: 127) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "n(H+),Pot,T-STD"
+     CATDESC         (CDF_CHAR/85): "H+ density from fit to radial head data with potential (avg_pot) held constant, T-STD"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "n(H+),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_pot_LO_lo_Heplusplus_plus_std (No: 128) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "n(He++),P,T-STD"
+     CATDESC         (CDF_CHAR/19): "-----> He++ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "n(He++),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_pot_LO_hi_Heplus_plus_std (No: 129) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "n(He+),P,T-STD"
+     CATDESC         (CDF_CHAR/18): "-----> He+ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "n(He+),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_pot_LO_hi_Oplus_plus_std (No: 130) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "n(O+),P,T-STD"
+     CATDESC         (CDF_CHAR/17): "-----> O+ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "n(O+),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_pot_LO_hi_Oplusplus_plus_std (No: 131) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "n(O++),P,T-STD"
+     CATDESC         (CDF_CHAR/18): "-----> O++ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "n(O++),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_LO_lo_Hplus_plus_std (No: 132) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(H+),P,T-STD"
+     CATDESC         (CDF_CHAR/39): "-------> H+ temperature from fit, T-STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(H+),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_LO_lo_Heplusplus_plus_std (No: 133) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "T(He++),P,T-STD"
+     CATDESC         (CDF_CHAR/16): "-------> T(He++)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "T(He++),pot,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_LO_hi_Heplus_plus_std (No: 134) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "T(He+),P,T-STD"
+     CATDESC         (CDF_CHAR/15): "-------> T(He+)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "T(He+),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_LO_hi_Oplus_plus_std (No: 135) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(O+),P,T-STD"
+     CATDESC         (CDF_CHAR/14): "-------> T(O+)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(O+),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_LO_hi_Oplusplus_plus_std (No: 136) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "T(O++),P,T-STD"
+     CATDESC         (CDF_CHAR/15): "-------> T(O++)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "T(O++),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_LO_lo_Hplus_plus_std (No: 137) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "chi^2(H+),P,T-STD"
+     CATDESC         (CDF_CHAR/35): "-----> chi-square for H+ fit, T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "chi^2(H+),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_LO_lo_Heplusplus_plus_std (No: 138) (Recs: 0) (Compression: GZIP.5)
+------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "chi^2(He++),P,T-STD"
+     CATDESC         (CDF_CHAR/24): "-----> chi^2(He++),T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "chi^2(He++),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_LO_hi_Heplus_plus_std (No: 139) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "chi^2(He+),P,T-STD"
+     CATDESC         (CDF_CHAR/24): "-----> chi^2(He+), T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/18): "chi^2(He+),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_LO_hi_Oplus_plus_std (No: 140) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "chi^2(O+),P,T-STD"
+     CATDESC         (CDF_CHAR/23): "-----> chi^2(O+), T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "chi^2(O+),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_LO_hi_Oplusplus_plus_std (No: 141) (Recs: 0) (Compression: GZIP.5)
+-----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "chi^2(O++),P,T-STD"
+     CATDESC         (CDF_CHAR/24): "-----> chi^2(O++), T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/18): "chi^2(O++),P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_LO_lo_Hplus_plus_std (No: 142) (Recs: 0) (Compression: GZIP.5)
+------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Flag H+,P,T-STD"
+     CATDESC         (CDF_CHAR/31): "-------> Flag for H+ fit, T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "FlagH+,P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_LO_lo_Heplusplus_plus_std (No: 143) (Recs: 0) (Compression: GZIP.5)
+-----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Flag He++,P,T-STD"
+     CATDESC         (CDF_CHAR/25): "-------> Flag He++, T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/16): "FlagHe++,P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_LO_hi_Heplus_plus_std (No: 144) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag He+,P,T-STD"
+     CATDESC         (CDF_CHAR/24): "-------> Flag He+, T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/15): "FlagHe+,P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_LO_hi_Oplus_plus_std (No: 145) (Recs: 0) (Compression: GZIP.5)
+------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Flag O+,P,T-STD"
+     CATDESC         (CDF_CHAR/23): "-------> Flag O+, T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "FlagO+,P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_LO_hi_Oplusplus_plus_std (No: 146) (Recs: 0) (Compression: GZIP.5)
+----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag O++,P,T-STD"
+     CATDESC         (CDF_CHAR/24): "-------> Flag O++, T-STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "FlagO+,P,T-STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_HI_lo_Hplus_plus_std (No: 147) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(H+)+STD,+z"
+     CATDESC         (CDF_CHAR/91): "+++ TEMPERATURE VALUES PLUS STANDARD DEVIATION (STD): H+ temperature in K plus STD, +z head"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(H+)+std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_HI_lo_Heplusplus_plus_std (No: 148) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "T(He++)+STD,+z"
+     CATDESC         (CDF_CHAR/23): "-----> He++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "T(He++)+std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_HI_hi_Heplus_plus_std (No: 149) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(He+)+STD,+z"
+     CATDESC         (CDF_CHAR/22): "-----> He+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(He+)+std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_HI_hi_Oplus_plus_std (No: 150) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(O+)+STD,+z"
+     CATDESC         (CDF_CHAR/21): "-----> O+ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(O+)+std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_pz_HI_hi_Oplusplus_plus_std (No: 151) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(O++)+STD,+z"
+     CATDESC         (CDF_CHAR/22): "-----> O++ temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(O++)+std,+z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_HI_lo_Hplus_plus_std (No: 152) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(H+)+STD,-z"
+     CATDESC         (CDF_CHAR/44): "H+ temperature (in K) plus STD, -z head data"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(H+)+std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_HI_lo_Heplusplus_plus_std (No: 153) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "T(He++)+STD,-z"
+     CATDESC         (CDF_CHAR/18): "-----> T(He++)+STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "T(He++)+std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_HI_hi_Heplus_plus_std (No: 154) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(He+)+STD,-z"
+     CATDESC         (CDF_CHAR/17): "-----> T(He+)+STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(He+)+std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_HI_hi_Oplus_plus_std (No: 155) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(O+)+STD,-z"
+     CATDESC         (CDF_CHAR/16): "-----> T(O+)+STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(O+)+std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_mz_HI_hi_Oplusplus_plus_std (No: 156) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(O++)+STD,-z"
+     CATDESC         (CDF_CHAR/17): "-----> T(O++)+STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(O++)+std,-z"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_HI_lo_Hplus_plus_std (No: 157) (Recs: 0) (Compression: GZIP.5)
+---------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "T(H+)+STD,r"
+     CATDESC         (CDF_CHAR/54): "H+ temperature (in K) plus STD, average of radial data"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "T(H+)+std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_HI_lo_Heplusplus_plus_std (No: 158) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(He++)+STD,r"
+     CATDESC         (CDF_CHAR/18): "-----> T(He++)+STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(He++)+std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_HI_hi_Heplus_plus_std (No: 159) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(He+)+STD,r"
+     CATDESC         (CDF_CHAR/17): "-----> T(He+)+STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(He+)+std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_HI_hi_Oplus_plus_std (No: 160) (Recs: 0) (Compression: GZIP.5)
+---------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "T(O+)+STD,r"
+     CATDESC         (CDF_CHAR/16): "-----> T(O+)+STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "T(O+)+std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_z_HI_hi_Oplusplus_plus_std (No: 161) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "T(O++)+STD,r"
+     CATDESC         (CDF_CHAR/17): "-----> T(O++)+STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "T(O++)+std,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_HI_lo_Hplus_plus_std (No: 162) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag T(H+)+STD,r"
+     CATDESC         (CDF_CHAR/27): "-------> Flag for T(H+)+STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "H+Flag+STD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_HI_lo_Heplusplus_plus_std (No: 163) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Flag T(He++)+STD,r"
+     CATDESC         (CDF_CHAR/29): "-------> Flag for T(He++)+STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "He++Flag+STD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_HI_hi_Heplus_plus_std (No: 164) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Flag T(He+)+STD,r"
+     CATDESC         (CDF_CHAR/28): "-------> Flag for T(He+)+STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "He+Flag+STD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_HI_hi_Oplus_plus_std (No: 165) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag T(O+)+STD,r"
+     CATDESC         (CDF_CHAR/27): "-------> Flag for T(O+)+STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "O+Flag+STD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_z_HI_hi_Oplusplus_plus_std (No: 166) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Flag T(O++)+STD,r"
+     CATDESC         (CDF_CHAR/28): "-------> Flag for T(O++)+STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "O++Flag+STD,r"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_HI_lo_Hplus_plus_std (No: 167) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "n(H+),T+STD"
+     CATDESC         (CDF_CHAR/71): "n(H+) from fit to radial head data with temp held constant (temp_z+STD)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "n(H+),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_HI_lo_Heplusplus_plus_std (No: 168) (Recs: 0) (Compression: GZIP.5)
+----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "n(He++),T+STD"
+     CATDESC         (CDF_CHAR/14): "-----> n(He++)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "n(He++),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_HI_hi_Heplus_plus_std (No: 169) (Recs: 0) (Compression: GZIP.5)
+------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "n(He+),T+STD"
+     CATDESC         (CDF_CHAR/13): "-----> n(He+)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "n(He+),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_HI_hi_Oplus_plus_std (No: 170) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "n(O+),T+STD"
+     CATDESC         (CDF_CHAR/12): "-----> n(O+)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "n(O+),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_temp_HI_hi_Oplusplus_plus_std (No: 171) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "n(O++),T+STD"
+     CATDESC         (CDF_CHAR/13): "-----> n(O++)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "n(O++),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_HI_lo_Hplus_plus_std (No: 172) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Pot(H+),T+STD"
+     CATDESC         (CDF_CHAR/37): "-------> H+ potential from fit, T+STD"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "P(H+),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_HI_lo_Heplusplus_plus_std (No: 173) (Recs: 0) (Compression: GZIP.5)
+----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Pot(He++),T+STD"
+     CATDESC         (CDF_CHAR/23): "-------> He++ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "P(He++),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_HI_hi_Heplus_plus_std (No: 174) (Recs: 0) (Compression: GZIP.5)
+------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Pot(He+),T+STD"
+     CATDESC         (CDF_CHAR/22): "-------> He+ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "P(He+),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_HI_hi_Oplus_plus_std (No: 175) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Pot(O+),T+STD"
+     CATDESC         (CDF_CHAR/21): "-------> O+ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "P(O+),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pot_temp_HI_hi_Oplusplus_plus_std (No: 176) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Pot(O++),T+STD"
+     CATDESC         (CDF_CHAR/22): "-------> O++ potential"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "P(O++),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_HI_lo_Hplus_plus_std (No: 177) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "chi^2(H+),T+STD"
+     CATDESC         (CDF_CHAR/35): "-----> chi-square for H+ fit, T+STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "chi^2(H+),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_HI_lo_Heplusplus_plus_std (No: 178) (Recs: 0) (Compression: GZIP.5)
+-------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "chi^2(He++),T+STD"
+     CATDESC         (CDF_CHAR/30): "-----> chi-square for He++ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "chi^2(He++),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_HI_hi_Heplus_plus_std (No: 179) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "chi^2(He+),T+STD"
+     CATDESC         (CDF_CHAR/29): "-----> chi-square for He+ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "chi^2(He+),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_HI_hi_Oplus_plus_std (No: 180) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "chi^2(O+),T+STD"
+     CATDESC         (CDF_CHAR/28): "-----> chi-square for O+ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "chi^2(O+),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_temp_HI_hi_Oplusplus_plus_std (No: 181) (Recs: 0) (Compression: GZIP.5)
+------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "chi^2(O++),T+STD"
+     CATDESC         (CDF_CHAR/29): "-----> chi-square for O++ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "chi^2(O++),T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_HI_lo_Hplus_plus_std (No: 182) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Flag H+,T+STD"
+     CATDESC         (CDF_CHAR/31): "-------> Flag for H+ fit, T+STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "FlagH+,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_HI_lo_Heplusplus_plus_std (No: 183) (Recs: 0) (Compression: GZIP.5)
+------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Flag He++,T+STD"
+     CATDESC         (CDF_CHAR/26): "-------> Flag for He++ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "FlagHe++,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_HI_hi_Heplus_plus_std (No: 184) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Flag He+,T+STD"
+     CATDESC         (CDF_CHAR/25): "-------> Flag for He+ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "FlagHe+,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_HI_hi_Oplus_plus_std (No: 185) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Flag O+,T+STD"
+     CATDESC         (CDF_CHAR/24): "-------> Flag for O+ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "FlagO+,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_temp_HI_hi_Oplusplus_plus_std (No: 186) (Recs: 0) (Compression: GZIP.5)
+-----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Flag O++,T+STD"
+     CATDESC         (CDF_CHAR/25): "-------> Flag for O++ fit"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "FlagO++,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+avg_pot_HI (No: 187) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Avg pot,temp_z+STD"
+     CATDESC         (CDF_CHAR/58): "Weighted average of H+ and He+ potentials (avg_pot), T+STD"
+     UNITS           (CDF_CHAR/1): "V"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.1
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     LABLAXIS        (CDF_CHAR/12): "avgPot,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+pot_flag_HI (No: 188) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Flag avg pot,T+STD"
+     CATDESC         (CDF_CHAR/23): "-----> Flag for avg_pot"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/16): "FlagAvgPot,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+den_pot_HI_lo_Hplus_plus_std (No: 189) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "n(H+),Pot,T+STD"
+     CATDESC         (CDF_CHAR/85): "H+ density from fit to radial head data with potential (avg_pot) held constant, T+STD"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "n(H+),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_pot_HI_lo_Heplusplus_plus_std (No: 190) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "n(He++),Pot,T+STD"
+     CATDESC         (CDF_CHAR/19): "-----> He++ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "n(He++),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_pot_HI_hi_Heplus_plus_std (No: 191) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "n(He+),Pot,T+STD"
+     CATDESC         (CDF_CHAR/18): "-----> He+ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "n(He+),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_pot_HI_hi_Oplus_plus_std (No: 192) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "n(O+),Pot,T+STD"
+     CATDESC         (CDF_CHAR/17): "-----> O+ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "n(O+),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+den_pot_HI_hi_Oplusplus_plus_std (No: 193) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "n(O++),Pot,T+STD"
+     CATDESC         (CDF_CHAR/18): "-----> O++ density"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "n(O++),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_HI_lo_Hplus_plus_std (No: 194) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(H+),P,T+STD"
+     CATDESC         (CDF_CHAR/39): "-------> H+ temperature from fit, T+STD"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(H+),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_HI_lo_Heplusplus_plus_std (No: 195) (Recs: 0) (Compression: GZIP.5)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "T(He++),P,T+STD"
+     CATDESC         (CDF_CHAR/16): "-------> T(He++)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "T(He++),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_HI_hi_Heplus_plus_std (No: 196) (Recs: 0) (Compression: GZIP.5)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "T(He+),P,T+STD"
+     CATDESC         (CDF_CHAR/15): "-------> T(He+)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "T(He+),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_HI_hi_Oplus_plus_std (No: 197) (Recs: 0) (Compression: GZIP.5)
+----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "T(O+),P,T+STD"
+     CATDESC         (CDF_CHAR/14): "-------> T(O+)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "T(O+),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+temp_rd_HI_hi_Oplusplus_plus_std (No: 198) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "T(O++),P,T+STD"
+     CATDESC         (CDF_CHAR/15): "-------> T(O++)"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "T(O++),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_HI_lo_Hplus_plus_std (No: 199) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "chi^2(H+),P,T+STD"
+     CATDESC         (CDF_CHAR/35): "-----> chi-square for H+ fit, T+STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "chi^2(H+),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_HI_lo_Heplusplus_plus_std (No: 200) (Recs: 0) (Compression: GZIP.5)
+------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "chi^2(He++),P,T+STD"
+     CATDESC         (CDF_CHAR/18): "-----> chi^2(He++)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "chi^2(He++),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_HI_hi_Heplus_plus_std (No: 201) (Recs: 0) (Compression: GZIP.5)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "chi^2(He+),P,T+STD"
+     CATDESC         (CDF_CHAR/17): "-----> chi^2(He+)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/18): "chi^2(He+),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_HI_hi_Oplus_plus_std (No: 202) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "chi^2(O+),P,T+STD"
+     CATDESC         (CDF_CHAR/16): "-----> chi^2(O+)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "chi^2(O+),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+chisqr_pot_HI_hi_Oplusplus_plus_std (No: 203) (Recs: 0) (Compression: GZIP.5)
+-----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "chi^2(O++),P,T+STD"
+     CATDESC         (CDF_CHAR/17): "-----> chi^2(O++)"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/18): "chi^2(O++),P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_HI_lo_Hplus_plus_std (No: 204) (Recs: 0) (Compression: GZIP.5)
+------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Flag H+,P,T+STD"
+     CATDESC         (CDF_CHAR/31): "-------> Flag for H+ fit, T+STD"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "FlagH+,P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_HI_lo_Heplusplus_plus_std (No: 205) (Recs: 0) (Compression: GZIP.5)
+-----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Flag He++,P,T+STD"
+     CATDESC         (CDF_CHAR/22): "-------> Flag for He++"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/16): "FlagHe++,P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_HI_hi_Heplus_plus_std (No: 206) (Recs: 0) (Compression: GZIP.5)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag He+,P,T+STD"
+     CATDESC         (CDF_CHAR/21): "-------> Flag for He+"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/15): "FlagHe+,P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_HI_hi_Oplus_plus_std (No: 207) (Recs: 0) (Compression: GZIP.5)
+------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Flag O+,P,T+STD"
+     CATDESC         (CDF_CHAR/20): "-------> Flag for O+"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "FlagO+,P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+flags_pot_HI_hi_Oplusplus_plus_std (No: 208) (Recs: 0) (Compression: GZIP.5)
+----------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Flag O++,P,T+STD"
+     CATDESC         (CDF_CHAR/21): "-------> Flag for O++"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/15): "FlagO++,P,T+STD"
+     FORMAT          (CDF_CHAR/5): "g12.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+

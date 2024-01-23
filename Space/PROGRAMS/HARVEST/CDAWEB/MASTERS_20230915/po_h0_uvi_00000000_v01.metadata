@@ -1,0 +1,165 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_h0_uvi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_h0_uvi_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     2
+NumzVars:     0
+NumAttrs:     56 (21 global, 35 variable)
+Compression:  None
+
+Global Attributes (21 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/28): 	"H0>Key Parameter (segment 0)"
+Descriptor (1 entry):
+	0 (CDF_CHAR/22): 	"UVI>Ultraviolet Imager"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/20): 	"UVI High Res. Images"
+TEXT (6 entries):
+	0 (CDF_CHAR/31): 	"References --------------------"
+	1 (CDF_CHAR/144): 	"1. M. R. Torr, et al., A far ultraviolet imager for the International Solar-Terrestrial Physics mission, Space Sci. Rev., v71, pp329 - 383, 1995"
+	2 (CDF_CHAR/31): 	"Notes ------------------------ "
+	3 (CDF_CHAR/161): 	"1. The UVI field of view is circular with an 8 degree full width.  The circular image is stored in IMAGE_DATA as a rectangular array of 228 rows and 200 columns."
+	4 (CDF_CHAR/90): 	"2.  Time information is contained in EPOCH, Time_PB5, IMG_MINUS_MSEC, and IMG_PLUS_MSEC.  "
+	5 (CDF_CHAR/83): 	"3. Pointing information is given in GCI_LOOK_DIR, GEODETIC_LAT, and GEODETIC_LONG. "
+MODS (4 entries):
+	0 (CDF_CHAR/40): 	"v1.0 Initial Prelaunch Release 10/16/95 "
+	1 (CDF_CHAR/31): 	"v1.0 Interim Prelaunch Release "
+	2 (CDF_CHAR/25): 	"5/8/96 Added KPGS_VERSION"
+	3 (CDF_CHAR/43): 	"3/9/97 Changed min/max valuesfor IMAGE_DATA"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0175"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"PO_H0_UVI_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"PO_H0_UVI"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/35): 	"Polar Ultraviolet Imager, High Res."
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"G. Parks"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/13): 	"U. Washington"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+POINTER_CDF (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/52): 	"Polar_UVI_Sample0-High-Resolution-Images-H0_1min_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/37): 	"spase://NASA/DisplayData/POLAR/UVI/H0"
+
+Variable Attributes (35 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+LABL_PTR_2
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+OFFSET_0
+OFFSET_1
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+VIRTUAL
+FUNCTION
+COMPONENT_3
+COMPONENT_4
+COMPONENT_5
+
+Variable Information (2 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	5:[3,228,200,23,20]	T/FFFFF
+IMAGE_DATA            CDF_REAL4/1	5:[3,228,200,23,20]	T/FTTFF
+
+
+Variable (2 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     FORMAT          (CDF_CHAR/5): "F16.2"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DELTA_PLUS_VAR  (CDF_CHAR/13): "IMG_PLUS_MSEC"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "IMG_MINUS_MSEC"
+     CATDESC         (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/286): "The time in EPOCH and Time_PB5 refer to the center of the image in IMAGE_DATA. There is an offset of up to 8 major frames between the beginning of the image exposure and the ATC telemetry time stamp.  The times shown here are corrected for this and describe the actual time of exposure."
+
+IMAGE_DATA (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "FUV Image"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/9): "FUV Image"
+     UNITS           (CDF_CHAR/17): "photon cm^-2 s^-1"
+     FORMAT          (CDF_CHAR/4): "F8.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/22): "photon_flux>brightness"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/18): "MPEG canned images"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/573): "The UVI field of view is circular with an 8 degree full width.  The circular image is stored in IMAGE_DATA as a rectangular array of 228 rows and 200 columns.  Consequently, the corners of each image contain non-image data.  The non-active corner pixel locations are identified by a corner fill value = -128.  The image is oriented such that the direction of decreasing row number points along the spacecraft spin axis.  The direction of decreasing column number points to the outboard direction (relative to the spin axis).  The orientation is the same for both detectors."
+

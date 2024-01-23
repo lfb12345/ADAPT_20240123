@@ -1,0 +1,235 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ir_c9_ir04_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ir_c9_ir04_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     7
+NumzVars:     0
+NumAttrs:     47 (26 global, 21 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"AMPTE/IRM - PlasmaWave Amplitudes 10s res EVENTB  "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9B             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"AMPTE/IRM "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"PlasmaWave"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"10 s      "
+TEXT (2 entries):
+	0 (CDF_CHAR/30): 	"Derived from IR04 in CDAW9 DB."
+	1 (CDF_CHAR/28): 	"Data for CDAW9 event B only."
+Descriptor (1 entry):
+	0 (CDF_CHAR/55): 	"IR04> AMPTE/IRM - PlasmaWave Amplitudes 10s res EVENTB "
+MODS (1 entry):
+	0 (CDF_CHAR/29): 	"Converted to CDAWeb Feb 2000."
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>cdaw9"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/12): 	"IR>AMPTE/IRM"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/6): 	"Roeder"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/22): 	"Roeder and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"AMPTE"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"ir_c9_ir04"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"ir_c9_ir04_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/59): 	"Ir  AMPTE/IRM - PlasmaWave Amplitudes 10s res EVENTB  cdaw9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/5): 	"AMPTE"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_1
+
+Variable Information (7 rVariables, 0 zVariable)
+===========================================================
+IR04CHAN              CDF_INT4/1	1:[16]	F/T
+IR04FREQ              CDF_INT4/1	1:[16]	F/T
+IR04XGSE              CDF_REAL4/1	1:[16]	T/F
+IR04YGSE              CDF_REAL4/1	1:[16]	T/F
+IR04ZGSE              CDF_REAL4/1	1:[16]	T/F
+IR04EFLD              CDF_REAL4/1	1:[16]	T/T
+EPOCH                 CDF_EPOCH/1	1:[16]	T/F
+
+
+Variable (7 variables)
+=========================================
+
+IR04CHAN (No: 0) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Channel Number      "
+     VALIDMIN        (CDF_INT4/1): 1072693248
+     VALIDMAX        (CDF_INT4/1): 1076887552
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 16.0
+     UNITS           (CDF_CHAR/20): "                    "
+     FORMAT          (CDF_CHAR/8): "I2      "
+     CATDESC         (CDF_CHAR/40): "Channel Number        T                 "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/8): "Chan No."
+
+IR04FREQ (No: 1) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Center Frequency    "
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1089957888
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 96000.0
+     UNITS           (CDF_CHAR/20): "Hz                  "
+     FORMAT          (CDF_CHAR/8): "I5      "
+     CATDESC         (CDF_CHAR/40): "Center Frequency      T                 "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/11): "Center Freq"
+
+IR04XGSE (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "GSE, X coordinate   "
+     VALIDMIN        (CDF_REAL4/1): -2.5
+     VALIDMAX        (CDF_REAL4/1): 0.0
+     SCALEMIN        (CDF_REAL8/1): -8.0
+     SCALEMAX        (CDF_REAL8/1): 0.0
+     UNITS           (CDF_CHAR/20): "RE                  "
+     FORMAT          (CDF_CHAR/8): "F5.2    "
+     CATDESC         (CDF_CHAR/40): "Geocentric Solar Ecliptic, X coordinate "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "IRM X GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR04YGSE (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "GSE, Y coordinate   "
+     VALIDMIN        (CDF_REAL4/1): -2.5
+     VALIDMAX        (CDF_REAL4/1): 0.0
+     SCALEMIN        (CDF_REAL8/1): -8.0
+     SCALEMAX        (CDF_REAL8/1): 0.0
+     UNITS           (CDF_CHAR/20): "RE                  "
+     FORMAT          (CDF_CHAR/8): "F5.2    "
+     CATDESC         (CDF_CHAR/40): "Geocentric Solar Ecliptic, Y coordinate "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "IRM Y GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR04ZGSE (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "GSE, Z coordinate   "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.875
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 1.0
+     UNITS           (CDF_CHAR/20): "RE                  "
+     FORMAT          (CDF_CHAR/8): "F5.2    "
+     CATDESC         (CDF_CHAR/40): "Geocentric Solar Ecliptic, Z coordinate "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "IRM Z GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR04EFLD (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E_Field Amplitude   "
+     VALIDMIN        (CDF_REAL4/1): 0.107172
+     VALIDMAX        (CDF_REAL4/1): 0.44721
+     SCALEMIN        (CDF_REAL8/1): 1.0e-10
+     SCALEMAX        (CDF_REAL8/1): 1.0e-05
+     UNITS           (CDF_CHAR/20): "V/m SQRT(Hz)        "
+     FORMAT          (CDF_CHAR/8): "E10.2   "
+     CATDESC         (CDF_CHAR/40): "PlasmaWave Electric Field Amplitude     "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "E-Field Amp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "IR04FREQ"
+
+EPOCH    (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 02-Apr-1986 18:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 03-Apr-1986 10:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 02-Apr-1986 18:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 03-Apr-1986 10:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.8   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+

@@ -1,0 +1,586 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/g11_l2_mag_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     g11_l2_mag_00000000_v01.cdf
+Version:      3.6.4
+
+Common Data Format (CDF)
+(C) Copyright 1990-2017 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     33
+NumAttrs:     60 (26 global, 34 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"GOES"
+Source_name (1 entry):
+	0 (CDF_CHAR/63): 	"g11>Geostationary Operational Environmental Satellite (GOES-11)"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"L2>Level 2 data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"MAG>Fluxgate magnetometer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/16): 	"Howard J. Singer"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/36): 	"NOAA Space Weather Prediction Center"
+TEXT (6 entries):
+	0 (CDF_CHAR/346): 	"Satellite positions and velocities derived from SSCWEB GEI ephemeris, interpolated to one minute time resolution; perpendicular vectors for ENP coordinate system derived from pos X vel. B field vectors in LH-ENP and GEI systems, B field total magnitude, magnetotorquer counts, and data quality flags derived from 512 msec binary GOES data files. "
+	1 (CDF_CHAR/67): 	"General Comments from Dr. Howard J. Singer (GOES Magnetometer PI)  "
+	2 (CDF_CHAR/539): 	" 1. Data Description: A full description of the GOES magnetometer data, including use of the quality flags and torquer current information, is contained in a GOES 8-12 Magnetometer Readme File prepared by Dr. Howard J. Singer. The GOES data have been prepared at NOAA Space Weather Prediction Center (SWPC) by Dr. Howard J. Singer with major data processing and data evaluation contributions by SWPC staff, Lorne Matheson and Ann Newman, as well as coordinate transformation development by Dr. Paul Loto aniu (University of Colorado/SWPC)."
+	3 (CDF_CHAR/391): 	" 2. Coordinate description for PEN: .Hp:  magnetic field vector component, points northward, perpendicular to orbit plane which for a zero degree inclination orbit is parallel to Earth's spin axis. .He:  magnetic field vector component, perpendicular to Hp and Hn and points earthward. .Hn:  magnetic field vector component, perpendicular to Hp and He and points eastward. Ht:  total field. "
+	4 (CDF_CHAR/949): 	" 3. Magnetometer offsets and noise: GOES 8-12 spacecraft are 3-axis stabilized. There is only one opportunity for a spin maneuver at the beginning of the mission to determine on-orbit magnetic field offsets. There are additional complications that result from needing to know the changing offsets introduced by torquer coils on the satellites. While comparisons of GOES data to model fields during quiet times and comparisons to nearby encounters with other spacecraft are used to demonstrate the observed data values are reasonable, caution should be used in assigning absolute accuracy. While there has been a significant effort to remove the effects of torquer coil interference in the 0.512 s data, there can be small, typically less than 1 nT spikes in the data at the time of torquer current changes. More information on this topic is included the more extensive readme file. This file is a living document that will be updated periodically.  "
+	5 (CDF_CHAR/267): 	"4.  Orbital Inclination: During the primary operational lifetime of the GOES satellites, the satellite inclination is typically kept within a few tenths of a degree of 0 degrees inclination; however, as the satellite ages, the inclination can grow to several degrees."
+Instrument_type (2 entries):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+	1 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"GOES"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"g11_l2_mag"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"g11_l2_mag_00000000_v00"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/78): 	"GOES-11 High Resolution Magnetometer data vectors (at 512 ms, ephem at 60 sec)"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/37): 	" 512 ms (science), 60 sec (ephemeris)"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/28): 	"Open Data for Scientific Use"
+Generated_by (1 entry):
+	0 (CDF_CHAR/10): 	"THEMIS SOC"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/24): 	"NASA Contract NAS5-02099"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+LINK_TEXT (4 entries):
+	0 (CDF_CHAR/40): 	"GOES 8-12 draft magnetometer README file"
+	1 (CDF_CHAR/22): 	"GOES magnetometer data"
+	2 (CDF_CHAR/24): 	"GOES general information"
+	3 (CDF_CHAR/27): 	"VMO product description for"
+LINK_TITLE (4 entries):
+	0 (CDF_CHAR/17): 	"THEMIS web server"
+	1 (CDF_CHAR/17): 	"THEMIS web server"
+	2 (CDF_CHAR/36): 	"NOAA Space Weather Prediction Center"
+	3 (CDF_CHAR/30): 	"GOES11 512ms magnetometer data"
+HTTP_LINK (4 entries):
+	0 (CDF_CHAR/72): 	"http://themis.ssl.berkeley.edu/data/goes/GOES8-12_readme_draft090108.doc"
+	1 (CDF_CHAR/41): 	"http://themis.ssl.berkeley.edu/data/goes/"
+	2 (CDF_CHAR/39): 	"http://www.swpc.noaa.gov/Data/goes.html"
+	3 (CDF_CHAR/85): 	"http://vmo.nasa.gov/vxo/metadata.php?id=spase://VMO/NumericalData/GOES11/MAG/PT0.512S"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/47): 	"spase://NOAA/NumericalData/GOES/11/MAG/PT0.512S"
+
+Variable Attributes (34 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+COORDINATE_SYSTEM
+REPRESENTATION_1
+TENSOR_ORDER
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+DEPEND_TIME
+DEPEND_EPOCH0
+MONOTON
+
+Variable Information (0 rVariable, 33 zVariables)
+===========================================================
+g11_longitude_time    CDF_REAL8/1	0:[]	T/  
+g11_longitude_epoch   CDF_EPOCH/1	0:[]	T/  
+g11_longitude         CDF_REAL8/1	0:[]	T/  
+g11_mlt               CDF_REAL8/1	0:[]	T/  
+g11_pos_gei           CDF_REAL8/1	1:[3]	T/T
+g11_pos_gsm           CDF_REAL8/1	1:[3]	T/T
+g11_pos_gei_labl      CDF_CHAR/9	1:[3]	F/T
+g11_pos_gsm_labl      CDF_CHAR/9	1:[3]	F/T
+g11_pos_unit          CDF_CHAR/2	1:[3]	F/T
+g11_vel_gei           CDF_REAL8/1	1:[3]	T/T
+g11_vel_gsm           CDF_REAL8/1	1:[3]	T/T
+g11_vel_gei_labl      CDF_CHAR/10	1:[3]	F/T
+g11_vel_gsm_labl      CDF_CHAR/10	1:[3]	F/T
+g11_vel_unit          CDF_CHAR/4	1:[3]	F/T
+g11_perp              CDF_REAL8/1	1:[3]	T/T
+g11_perp_labl         CDF_CHAR/11	1:[3]	F/T
+g11_perp_unit         CDF_CHAR/10	1:[3]	F/T
+range_epoch           CDF_EPOCH/1	0:[]	T/  
+g11_ephem_time        CDF_REAL8/1	0:[]	T/  
+g11_ephem_epoch       CDF_EPOCH/1	0:[]	T/  
+g11_sample_time       CDF_REAL8/1	0:[]	T/  
+g11_sample_epoch      CDF_EPOCH/1	0:[]	T/  
+g11_b_enp             CDF_REAL4/1	1:[3]	T/T
+g11_b_enp_labl        CDF_CHAR/9	1:[3]	F/T
+g11_b_gei             CDF_REAL4/1	1:[3]	T/T
+g11_b_gsm             CDF_REAL4/1	1:[3]	T/T
+g11_b_gei_labl        CDF_CHAR/6	1:[3]	F/T
+g11_b_gsm_labl        CDF_CHAR/6	1:[3]	F/T
+g11_b_unit            CDF_CHAR/2	1:[3]	F/T
+g11_b_tot             CDF_REAL4/1	0:[]	T/  
+g11_t1_counts         CDF_REAL4/1	0:[]	T/  
+g11_t2_counts         CDF_REAL4/1	0:[]	T/  
+g11_dataqual          CDF_UINT4/1	0:[]	T/  
+
+
+Variable (33 variables)
+=========================================
+
+g11_longitude_time (No: 0) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "g11_longitude_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/19): "g11_longitude_epoch"
+     FIELDNAM        (CDF_CHAR/18): "g11_longitude_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+g11_longitude_epoch (No: 1) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "g11_longitude_epoch"
+     FIELDNAM        (CDF_CHAR/19): "g11_longitude_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+g11_longitude (No: 2) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "Satellite geographic west longitude at noon UTC"
+     DEPEND_0        (CDF_CHAR/19): "g11_longitude_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "GOES11 West Longitude"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/12): "g11_WestLong"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): -180.0
+     VALIDMAX        (CDF_REAL8/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GEO"
+     DEPEND_TIME     (CDF_CHAR/18): "g11_longitude_time"
+
+g11_mlt (No: 3) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "Magnetic local time at satellite position"
+     DEPEND_0        (CDF_CHAR/15): "g11_ephem_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "GOES11_Magnetic Local Time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/7): "g11_MLT"
+     UNITS           (CDF_CHAR/5): "hours"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 24.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_TIME     (CDF_CHAR/14): "g11_ephem_time"
+
+g11_pos_gei (No: 4) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Satellite position (GEI)"
+     DEPEND_0        (CDF_CHAR/15): "g11_ephem_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "GOES11_pos_gei"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "g11_pos_gei_labl"
+     UNIT_PTR        (CDF_CHAR/12): "g11_pos_unit"
+     VALIDMIN        (CDF_REAL8/3): -1.0e+06, -1.0e+06, -1.0e+06
+     VALIDMAX        (CDF_REAL8/3): 1.0e+06, 1.0e+06, 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GEI"
+     DEPEND_TIME     (CDF_CHAR/14): "g11_ephem_time"
+
+g11_pos_gsm (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Satellite position (GSM)"
+     DEPEND_0        (CDF_CHAR/15): "g11_ephem_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "GOES11_pos_gsm"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "g11_pos_gsm_labl"
+     UNIT_PTR        (CDF_CHAR/12): "g11_pos_unit"
+     VALIDMIN        (CDF_REAL8/3): -1.0e+06, -1.0e+06, -1.0e+06
+     VALIDMAX        (CDF_REAL8/3): 1.0e+06, 1.0e+06, 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSM"
+     DEPEND_TIME     (CDF_CHAR/14): "g11_ephem_time"
+
+g11_pos_gei_labl (No: 6) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "g11_pos_gei_labl"
+     FIELDNAM        (CDF_CHAR/16): "g11_pos_gei_labl"
+     FORMAT          (CDF_CHAR/2): "A9"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_pos_gsm_labl (No: 7) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "g11_pos_gsm_labl"
+     FIELDNAM        (CDF_CHAR/16): "g11_pos_gsm_labl"
+     FORMAT          (CDF_CHAR/2): "A9"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_pos_unit (No: 8) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "g11_pos_unit"
+     FIELDNAM        (CDF_CHAR/12): "g11_pos_unit"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_vel_gei (No: 9) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Satellite velocity (GEI)"
+     DEPEND_0        (CDF_CHAR/15): "g11_ephem_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "GOES11_vel_gei"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "g11_vel_gei_labl"
+     UNIT_PTR        (CDF_CHAR/12): "g11_vel_unit"
+     VALIDMIN        (CDF_REAL8/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL8/3): 1000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GEI"
+     DEPEND_TIME     (CDF_CHAR/14): "g11_ephem_time"
+
+g11_vel_gsm (No: 10) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Satellite velocity (GSM)"
+     DEPEND_0        (CDF_CHAR/15): "g11_ephem_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "GOES11_vel_gsm"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "g11_vel_gsm_labl"
+     UNIT_PTR        (CDF_CHAR/12): "g11_vel_unit"
+     VALIDMIN        (CDF_REAL8/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL8/3): 1000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSM"
+     DEPEND_TIME     (CDF_CHAR/14): "g11_ephem_time"
+
+g11_vel_gei_labl (No: 11) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "g11_vel_gei_labl"
+     FIELDNAM        (CDF_CHAR/16): "g11_vel_gei_labl"
+     FORMAT          (CDF_CHAR/3): "A10"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_vel_gsm_labl (No: 12) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "g11_vel_gsm_labl"
+     FIELDNAM        (CDF_CHAR/16): "g11_vel_gsm_labl"
+     FORMAT          (CDF_CHAR/3): "A10"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_vel_unit (No: 13) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "g11_vel_unit"
+     FIELDNAM        (CDF_CHAR/12): "g11_vel_unit"
+     FORMAT          (CDF_CHAR/2): "A4"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_perp (No: 14) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Unit vector in GEI perp to orbital plane (parallel to Earth's spin axis for 0 inclination orbit)"
+     DEPEND_0        (CDF_CHAR/15): "g11_ephem_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "GOES11_perp_GEI"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/13): "g11_perp_labl"
+     UNIT_PTR        (CDF_CHAR/13): "g11_perp_unit"
+     VALIDMIN        (CDF_REAL8/3): -1.0, -1.0, -1.0
+     VALIDMAX        (CDF_REAL8/3): 1.0, 1.0, 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GEI"
+     DEPEND_TIME     (CDF_CHAR/14): "g11_ephem_time"
+
+g11_perp_labl (No: 15) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "g11_perp_labl"
+     FIELDNAM        (CDF_CHAR/13): "g11_perp_labl"
+     FORMAT          (CDF_CHAR/3): "A11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_perp_unit (No: 16) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "g11_perp_unit"
+     FIELDNAM        (CDF_CHAR/13): "g11_perp_unit"
+     FORMAT          (CDF_CHAR/3): "A10"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+range_epoch (No: 17) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "range_epoch"
+     FIELDNAM        (CDF_CHAR/11): "range_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/4): "msec"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+g11_ephem_time (No: 18) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "g11_ephem_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/15): "g11_ephem_epoch"
+     FIELDNAM        (CDF_CHAR/14): "g11_ephem_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+g11_ephem_epoch (No: 19) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "g11_ephem_epoch"
+     FIELDNAM        (CDF_CHAR/15): "g11_ephem_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+g11_sample_time (No: 20) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "g11_sample_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/16): "g11_sample_epoch"
+     FIELDNAM        (CDF_CHAR/15): "g11_sample_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+g11_sample_epoch (No: 21) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "g11_sample_epoch"
+     FIELDNAM        (CDF_CHAR/16): "g11_sample_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+g11_b_enp (No: 22) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/133): "Magnetic field in LH-ENP (P=northward Perp to orbital plane, E=Earthward perp to P and Earth center, N=eastward/LH Normal to P and E)"
+     DEPEND_0        (CDF_CHAR/16): "g11_sample_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "GOES11_b_enp"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/14): "g11_b_enp_labl"
+     UNIT_PTR        (CDF_CHAR/10): "g11_b_unit"
+     VALIDMIN        (CDF_REAL4/1): -300.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "ENP"
+     DEPEND_TIME     (CDF_CHAR/15): "g11_sample_time"
+
+g11_b_enp_labl (No: 23) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "g11_enp_labl"
+     FIELDNAM        (CDF_CHAR/12): "g11_enp_labl"
+     FORMAT          (CDF_CHAR/2): "A9"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_b_gei (No: 24) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "Magnetic field in GEI"
+     DEPEND_0        (CDF_CHAR/16): "g11_sample_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "GOES11_b_gei"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/14): "g11_b_gei_labl"
+     UNIT_PTR        (CDF_CHAR/10): "g11_b_unit"
+     VALIDMIN        (CDF_REAL4/1): -300.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GEI"
+     DEPEND_TIME     (CDF_CHAR/15): "g11_sample_time"
+
+g11_b_gsm (No: 25) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "Magnetic field in GSM"
+     DEPEND_0        (CDF_CHAR/16): "g11_sample_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "GOES11_b_gsm"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/14): "g11_b_gsm_labl"
+     UNIT_PTR        (CDF_CHAR/10): "g11_b_unit"
+     VALIDMIN        (CDF_REAL4/1): -300.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSM"
+     DEPEND_TIME     (CDF_CHAR/15): "g11_sample_time"
+
+g11_b_gei_labl (No: 26) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "g11_b_gei_labl"
+     FIELDNAM        (CDF_CHAR/14): "g11_b_gei_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_b_gsm_labl (No: 27) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "g11_b_gsm_labl"
+     FIELDNAM        (CDF_CHAR/14): "g11_b_gsm_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_b_unit (No: 28) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "g11_b_unit"
+     FIELDNAM        (CDF_CHAR/10): "g11_b_unit"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+g11_b_tot (No: 29) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Total magnetic field strength"
+     DEPEND_0        (CDF_CHAR/16): "g11_sample_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "g11_Btotal"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/10): "g11_Btotal"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -300.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_TIME     (CDF_CHAR/15): "g11_sample_time"
+
+g11_t1_counts (No: 30) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "T1 magnetotorquer filtered counts"
+     DEPEND_0        (CDF_CHAR/16): "g11_sample_epoch"
+     FIELDNAM        (CDF_CHAR/20): "GOES11_T1_FiltCounts"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/15): "g11_T1_FiltCnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_TIME     (CDF_CHAR/15): "g11_sample_time"
+
+g11_t2_counts (No: 31) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "T2 magnetotorquer filtered counts"
+     DEPEND_0        (CDF_CHAR/16): "g11_sample_epoch"
+     FIELDNAM        (CDF_CHAR/20): "GOES11_T2_FiltCounts"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/15): "g11_t2_FiltCnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_TIME     (CDF_CHAR/15): "g11_sample_time"
+
+g11_dataqual (No: 32) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Data quality flag (7=good)"
+     DEPEND_0        (CDF_CHAR/16): "g11_sample_epoch"
+     FIELDNAM        (CDF_CHAR/18): "GOES11_DataQuality"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/10): "g11_DQFlag"
+     UNITS           (CDF_CHAR/8): "(7=good)"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_TIME     (CDF_CHAR/15): "g11_sample_time"
+

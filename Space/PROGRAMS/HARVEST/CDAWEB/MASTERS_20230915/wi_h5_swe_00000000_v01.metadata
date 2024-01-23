@@ -1,0 +1,477 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_h5_swe_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_h5_swe_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     22
+NumAttrs:     44 (22 global, 22 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (22 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"ISTP"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/36): 	"H5>9 sec solar wind electron moments"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"SWE>Solar Wind Experiment"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"K. Ogilvie"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+TEXT (6 entries):
+	0 (CDF_CHAR/19): 	"Explanatory notes: "
+	1 (CDF_CHAR/309): 	"The electron moments included in this data set are derived from quadrature integration of the solar wind electron distributions (w/ some fitting) measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1955)."
+	2 (CDF_CHAR/304): 	"Moments parameters are computed from 9s measurements which are usually separated by one or more 3s spin-periods. These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing."
+	3 (CDF_CHAR/716): 	"The following comments are intended to aid in the use and interpretation of the prime quantities of this data set, the electron density, bulk-velocity and temperature.  We compensate for the limited nature of our observations under this instrument mode by combining electron observations with bulk-velocity estimates derived from corresponding ion observations.  The (13) energy channels over which observations are made are: E = 19.34, 38.68, 58.03, 77.37, 96.71, 116.1, 193.4, 290.1, 425.5, 580.3, 773.7, 1006., and 1238. eV; f(E,Az,El) [#/{cc*(cm/s)^3}] being obtained for each E, using an 8x6 grid of look-directions (Azimuth x Elevation, with ~45x9 deg. "pixels")--thus constituting an 'electron distribution'. "
+	4 (CDF_CHAR/822): 	" A fitted Maxwellian model supplements the "core" regime of each distribution.  N_elec [#/cc] gives the density value derived for the full distribution, while NcElec [#/cc] gives that of the core.  U_eGSE and UceGSE [km/s, GSE], resp. supply the full and core bulk-velocity.  P_eGSE [erg/cc, GSE] has the [Pxx, Pxy, Pxz, Pyy, Pyz, Pzz] components of the derived pressure-tensor.  T_elec and TcElec [K], resp. provide the full and core total-temperatures; W_elec and WcElec [eV] specifying the corresponding thermal-energies.  Te_pal, Te_per, TecPal and TecPer [K] give resp. full and core parallel- and perpendicular-temperatures (wrt B), with Te_ani and TecAni [unitless] furnishing the perpendicular/parallel temperature-anisotropies for each regime.  Finally, Gyrtrp [unitless] indicates the derived electron gyrotropy."
+	5 (CDF_CHAR/189): 	"The data set reported here contains: N_elec, NcElec, U_eGSE, UceGSE, P_eGSE, T_elec, TcElec, W_elec, WcElec, Te_pal, Te_per, TecPal, TecPer, Te_ani, TecAni, and Gyrtrp (as described above)."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"Wind"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"wi_h5_swe"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"wi_h5_swe_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/85): 	"Wind Solar Wind Experiment (SWE), 9 sec solar wind electron moments at 12 sec cadence"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"9 seconds"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+MODS (1 entry):
+	0 (CDF_CHAR/28): 	"Skeleton created 12/10/2009."
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/76): 	"Additional information about instruments and parameters is available on the "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/14): 	"Wind Data Page"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/29): 	"http://wind.nasa.gov/data.php"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/44): 	"spase://NASA/NumericalData/Wind/SWE/H5/PT12S"
+
+Variable Attributes (22 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+FORM_PTR
+
+Variable Information (0 rVariable, 22 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+N_elec                CDF_REAL4/1	0:[]	T/  
+NcElec                CDF_REAL4/1	0:[]	T/  
+U_eGSE                CDF_REAL4/1	1:[3]	T/T
+UceGSE                CDF_REAL4/1	1:[3]	T/T
+P_eGSE                CDF_REAL4/1	1:[6]	T/T
+T_elec                CDF_REAL4/1	0:[]	T/  
+TcElec                CDF_REAL4/1	0:[]	T/  
+W_elec                CDF_REAL4/1	0:[]	T/  
+WcElec                CDF_REAL4/1	0:[]	T/  
+Te_pal                CDF_REAL4/1	0:[]	T/  
+Te_per                CDF_REAL4/1	0:[]	T/  
+TecPal                CDF_REAL4/1	0:[]	T/  
+TecPer                CDF_REAL4/1	0:[]	T/  
+Te_ani                CDF_REAL4/1	0:[]	T/  
+TecAni                CDF_REAL4/1	0:[]	T/  
+Gyrtrp                CDF_REAL4/1	0:[]	T/  
+label_U_eGSE          CDF_CHAR/20	1:[3]	F/T
+label_UceGSE          CDF_CHAR/20	1:[3]	F/T
+label_P_eGSE          CDF_CHAR/20	1:[6]	F/T
+cartesian             CDF_CHAR/1	1:[3]	F/T
+tensor                CDF_CHAR/2	1:[6]	F/T
+
+
+Variable (22 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "Time at start of measurement interval"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+N_elec (No: 1) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Ne Electron density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/23): "density>electron_number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "N_elec"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/2): "Ne"
+     UNITS           (CDF_CHAR/4): "#/cc"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/81): "Number-density from full solar wind electron distribution, including fitted core."
+
+NcElec (No: 2) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Ne core Electron density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/28): "density>electron_number_core"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "NcElec"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "Ne core"
+     UNITS           (CDF_CHAR/4): "#/cc"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/119): "Number-density from fitted Maxwellian model supplementing the core regime of observed solar wind electron distribution."
+
+U_eGSE (No: 3) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "Ue (GSE, 3 comp.) Electron bulk-velocity"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/32): "velocity>solar_wind_electron_GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "U_eGSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/12): "label_U_eGSE"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/3): -1800.0, -900.0, -900.0
+     VALIDMAX        (CDF_REAL4/3): 0.0, 900.0, 900.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/80): "Bulk-velocity from full solar wind electron distribution, including fitted core."
+
+UceGSE (No: 4) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "Ue core (GSE, 3 comp.) Electron bulk-velocity"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/37): "velocity>solar_wind_electron_GSE_core"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "UceGSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/12): "label_UceGSE"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/3): -1800.0, -900.0, -900.0
+     VALIDMAX        (CDF_REAL4/3): 0.0, 900.0, 900.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/118): "Bulk-velocity from fitted Maxwellian model supplementing the core regime of observed solar wind electron distribution."
+
+P_eGSE (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "Pe (GSE, 6 comp.) Electron pressure-tensor"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "tensor"
+     DICT_KEY        (CDF_CHAR/28): "pressure>electron_tensor_GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "P_eGSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/12): "label_P_eGSE"
+     UNITS           (CDF_CHAR/6): "erg/cc"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-13
+     VALIDMAX        (CDF_REAL4/1): 1.0e-08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/82): "Pressure-tensor from full solar wind electron distribution, including fitted core."
+
+T_elec (No: 6) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Te Electron total-temperature"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "temperature>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "T_elec"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/2): "Te"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "Total-temperature from full solar wind electron distribution, including fitted core."
+
+TcElec (No: 7) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Te core Electron total-temperature"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/25): "temperature>electron_core"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "TcElec"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "Te core"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/122): "Total-temperature from fitted Maxwellian model supplementing the core regime of observed solar wind electron distribution."
+
+W_elec (No: 8) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "We Electron average thermal-energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/23): "energy>electron_average"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "W_elec"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/2): "We"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 75.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/89): "Average thermal-energy from full solar wind electron distribution, including fitted core."
+
+WcElec (No: 9) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "We core Electron average thermal-energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/28): "energy>electron_average_core"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "WcElec"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "We core"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 75.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/127): "Average thermal-energy from fitted Maxwellian model supplementing the core regime of observed solar wind electron distribution."
+
+Te_pal (No: 10) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "TePal Electron parallel-temperature"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/29): "temperature>electron_parallel"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "Te_pal"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "TePal"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/95): "Parallel-temperature (wrt B) from full solar wind electron distribution, including fitted core."
+
+Te_per (No: 11) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "TePer Electron perpendicular-temperature"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/34): "temperature>electron_perpendicular"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "Te_per"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "TePer"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/100): "Perpendicular-temperature (wrt B) from full solar wind electron distribution, including fitted core."
+
+TecPal (No: 12) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "TePal core Electron parallel-temperature"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/34): "temperature>electron_parallel_core"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "TecPal"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/10): "TePal core"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/133): "Parallel-temperature (wrt B) from fitted Maxwellian model supplementing the core regime of observed solar wind electron distribution."
+
+TecPer (No: 13) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "TePer core Electron perpendicular-temperature"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/39): "temperature>electron_perpendicular_core"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "TecPer"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/10): "TePer core"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/138): "Perpendicular-temperature (wrt B) from fitted Maxwellian model supplementing the core regime of observed solar wind electron distribution."
+
+Te_ani (No: 14) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Aniso_e Electron temperature-anisotropy (TePer/TePal)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/31): "anisotropy>electron_temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "Te_ani"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "Aniso_e"
+     UNITS           (CDF_CHAR/8): "unitless"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/105): "Temperature-anisotropy (Te_per/Te_pal) from full solar wind electron distribution, including fitted core."
+
+TecAni (No: 15) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "Aniso_e core Electron temperature-anisotropy (TePer_core/TePal_core)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/36): "anisotropy>electron_temperature_core"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "TecAni"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/12): "Aniso_e core"
+     UNITS           (CDF_CHAR/8): "unitless"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/143): "Temperature-anisotropy (TecPer/TecPal) from fitted Maxwellian model supplementing the core regime of observed solar wind electron distribution."
+
+Gyrtrp (No: 16) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "Gyrtrp_e Electron gyrotropy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/18): "gyrotropy>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "Gyrtrp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "Gyrtrp_e"
+     UNITS           (CDF_CHAR/8): "unitless"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/76): "Gyrotropy from full solar wind electron distribution, including fitted core."
+
+label_U_eGSE (No: 17) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "label, Solar Wind Electron Bulk-Velocity, cartesian GSE"
+     DICT_KEY        (CDF_CHAR/38): "label>velocity_solar_wind_electron_GSE"
+     FIELDNAM        (CDF_CHAR/12): "label_U_eGSE"
+     FORMAT          (CDF_CHAR/3): "A10"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+label_UceGSE (No: 18) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/60): "label, Solar Wind Electron Core Bulk-Velocity, cartesian GSE"
+     DICT_KEY        (CDF_CHAR/43): "label>velocity_solar_wind_electron_GSE_core"
+     FIELDNAM        (CDF_CHAR/12): "label_UceGSE"
+     FORMAT          (CDF_CHAR/3): "A15"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+label_P_eGSE (No: 19) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "label, Solar Wind Electron Pressure-Tensor, cartesian GSE"
+     DICT_KEY        (CDF_CHAR/34): "label>pressure_electron_tensor_GSE"
+     FIELDNAM        (CDF_CHAR/12): "label_P_eGSE"
+     FORMAT          (CDF_CHAR/3): "A11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+cartesian (No: 20) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "3 Components in Cartesian Coord."
+     DICT_KEY        (CDF_CHAR/22): "label>vector_cartesian"
+     FIELDNAM        (CDF_CHAR/9): "cartesian"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+tensor (No: 21) (Recs: 1)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "6 Components of Cartesian Tensor"
+     DICT_KEY        (CDF_CHAR/22): "label>tensor_cartesian"
+     FIELDNAM        (CDF_CHAR/6): "tensor"
+     FORMAT          (CDF_CHAR/2): "A3"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

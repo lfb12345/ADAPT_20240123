@@ -1,0 +1,411 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/rbspa_efw-l2_spec_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     rbspa_efw-l2_spec_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     16
+NumAttrs:     75 (35 global, 40 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (35 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"rbsp"
+Source_name (1 entry):
+	0 (CDF_CHAR/31): 	"RBSPA>Van Allen Probes (RBSP) A"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/13): 	"SPEC>spectral"
+Descriptor (1 entry):
+	0 (CDF_CHAR/34): 	"EFW-L2>Electric Field and Waves L2"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"J. R. Wygant"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/23): 	"University of Minnesota"
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"On-Board Spin-Fit electric and magnetic field data"
+TEXT (1 entry):
+	0 (CDF_CHAR/237): 	"Six spectral products are returned. The possible sources are:.E12dc,E34dc,E56dc.E12ac,E34ac,E56ac.Edcpar,Edcprp.Eacpar,Eacprp.V1ac,V2ac,V3ac,V4ac,V5ac,V6ac.SCMU,SCMV,SCMW.SCMpar,SCMprp,.(V1ac+V2ac+V3ac+V4ac)/4,.Edcprp2, Eacprp2, SCMprp2."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/23): 	"Van Allen Probes (RBSP)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/17): 	"rbspa_efw-l2_spec"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/30): 	"rbspa_efw-l2_spec_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/140): 	"On-Board Spin-Fit 4-8000 Hz electric and magnetic field spectral data from RBSP-EFW (with 7 of 75 possible sources returned at any one time)"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/3): 	"UTC"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (1 entry):
+	0 (CDF_CHAR/3): 	"n/a"
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/32): 	"EFW home page at Minnesota with "
+	1 (CDF_CHAR/16): 	"Van Allen Probes"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/42): 	"Daily Summary Plots and additional L2 data"
+	1 (CDF_CHAR/68): 	"Science Gateway (including Mission Rules of the Road for Data Usage)"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/25): 	"http://rbsp.space.umn.edu"
+	1 (CDF_CHAR/27): 	"http://rbspgway.jhuapl.edu/"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+Caveats (1 entry):
+	0 (CDF_CHAR/30): 	"See THEMIS website for caveats"
+Validity (1 entry):
+	0 (CDF_CHAR/15): 	"to be validated"
+Validator (1 entry):
+	0 (CDF_CHAR/3): 	"tbd"
+Validate (1 entry):
+	0 (CDF_CHAR/38): 	"Compatible with the ISTP CDF Standards"
+Inst_mod (1 entry):
+	0 (CDF_CHAR/8): 	"THM>xxxx"
+Parents (1 entry):
+	0 (CDF_CHAR/4): 	"xxxx"
+Inst_settings (1 entry):
+	0 (CDF_CHAR/8): 	"Not used"
+Software_version (1 entry):
+	0 (CDF_CHAR/4): 	"xxxx"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/50): 	"spase://NASA/NumericalData/RBSP/A/EFW/L2/SPEC/PT4S"
+
+Variable Attributes (40 attributes)
+=========================================
+CATDESC
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABL_PTR_1
+UNITS
+DEPEND_TIME
+DEPEND_EPOCH0
+DEPEND_0
+DEPEND_1
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+VAR_NOTES
+COORDINATE_SYSTEM
+REPRESENTATION_1
+TENSOR_ORDER
+AVG_TYPE
+PROPERTY
+SC_ID
+CALIB_SOFTWARE
+CALIB_INPUT
+DICT_KEY
+SI_CONVERSION
+SCALETYP
+LABLAXIS
+LABEL_1
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+
+Variable Information (0 rVariable, 16 zVariables)
+===========================================================
+spec64_fcenter        CDF_REAL4/1	1:[64]	F/T
+spec64_compno         CDF_BYTE/1	1:[64]	F/T
+epoch                 CDF_EPOCH16/1	0:[]	T/  
+spec64_e12ac          CDF_REAL4/1	1:[64]	T/T
+spec64_e56ac          CDF_REAL4/1	1:[64]	T/T
+spec64_v1ac           CDF_REAL4/1	1:[64]	T/T
+spec64_v2ac           CDF_REAL4/1	1:[64]	T/T
+spec64_scmu           CDF_REAL4/1	1:[64]	T/T
+spec64_scmv           CDF_REAL4/1	1:[64]	T/T
+spec64_scmw           CDF_REAL4/1	1:[64]	T/T
+epoch_qual            CDF_EPOCH16/1	0:[]	T/  
+epoch_qual_labl       CDF_CHAR/19	1:[20]	F/T
+epoch_qual_compno     CDF_INT2/1	1:[20]	F/T
+efw_qual              CDF_INT2/1	1:[20]	T/T
+efw_qual_labl         CDF_CHAR/19	1:[20]	F/T
+efw_qual_compno       CDF_INT2/1	1:[20]	F/T
+
+
+Variable (16 variables)
+=========================================
+
+spec64_fcenter (No: 0) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "spec64_fcenter"
+     FIELDNAM        (CDF_CHAR/14): "spec64_fcenter"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 9000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/37): "Center frequency for the SPEC 64 bins"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/20): "Center_freq (spec64)"
+
+spec64_compno (No: 1) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "spec64_compno"
+     FIELDNAM        (CDF_CHAR/13): "spec64_compno"
+     FILLVAL         (CDF_BYTE/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 64
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/13): "spec64_compno"
+
+epoch (No: 2) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Time, UTC"
+     FIELDNAM        (CDF_CHAR/9): "Time, UTC"
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     UNITS           (CDF_CHAR/2): "ps"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-1990 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2029 23:59:59.999.999.999.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/35): "Time tags for the survey quantities"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+spec64_e12ac (No: 3) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/6): "E12 AC"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/12): "spec64_e12ac"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/11): "(mV/m)^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/14): "spec64_fcenter"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/28): "64 bin spectrogram for E12AC"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/12): "spec64_e12ac"
+
+spec64_e56ac (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "---> E56 AC"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/12): "spec64_e56ac"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/11): "(mV/m)^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/14): "spec64_fcenter"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/28): "64 bin spectrogram for E56AC"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/12): "spec64_e56ac"
+
+spec64_v1ac (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "[64 FREQUENCIES] V1 AC"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "spec64_v1ac"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/6): "V^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/14): "spec64_fcenter"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/27): "64 bin spectrogram for V1AC"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/11): "spec64_v1ac"
+
+spec64_v2ac (No: 6) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "---> V2 AC"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "spec64_v2ac"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/6): "V^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/14): "spec64_fcenter"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/27): "64 bin spectrogram for V2AC"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/11): "spec64_v2ac"
+
+spec64_scmu (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "[64 FREQUENCIES] SCM u"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "spec64_scmu"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/7): "pT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/14): "spec64_fcenter"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/27): "64 bin spectrogram for SCMu"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/11): "spec64_scmu"
+
+spec64_scmv (No: 8) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "---> SCM v"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "spec64_scmv"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/7): "pT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/14): "spec64_fcenter"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/27): "64 bin spectrogram for SCMv"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/11): "spec64_scmv"
+
+spec64_scmw (No: 9) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "---> SCM w"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "spec64_scmw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/7): "pT^2/Hz"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/14): "spec64_fcenter"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/27): "64 bin spectrogram for SCMw"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/11): "spec64_scmw"
+
+epoch_qual (No: 10) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Timetags for elements of efw_qual"
+     FIELDNAM        (CDF_CHAR/9): "Time, UTC"
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     UNITS           (CDF_CHAR/2): "ps"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-1990 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2029 23:59:59.999.999.999.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/196): "The elements of efw_qual are determined on a fixed cadence regardless of the nominal cadence of the individual L2 data products, and epoch_qual provides storage for those fixed-cadence time tags.."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/10): "epoch_qual"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+epoch_qual_labl (No: 11) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Descriptive labels for each of the elements of efw_qual."
+     FIELDNAM        (CDF_CHAR/23): "EFW Quality Flag Labels"
+     FORMAT          (CDF_CHAR/3): "A26"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/147): "See EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for detailed description of the determination and meaning of each of the elements of efw_qual."
+     LABLAXIS        (CDF_CHAR/15): "epoch_qual_labl"
+
+epoch_qual_compno (No: 12) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Component numbers for EFW data quality flags, efw_qual."
+     FIELDNAM        (CDF_CHAR/28): "EFW Quality Flags Components"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I5"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 20
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/5): "none."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/17): "epoch_qual_compno"
+
+efw_qual (No: 13) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/183): "An array that indicates a global estimate of EFW data quality, as well as a breakdown of observatory and instrument-level data quality issues that impact the global quality estimate.."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "EFW Data Quality Flags"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABL_PTR_1      (CDF_CHAR/13): "efw_qual_labl"
+     DEPEND_0        (CDF_CHAR/10): "epoch_qual"
+     DEPEND_1        (CDF_CHAR/15): "efw_qual_compno"
+     VALIDMIN        (CDF_INT2/1): -10000
+     VALIDMAX        (CDF_INT2/1): 10000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/1107): "The quality of EFW data products can be affected by a variety of observatory and instrument-level conditions.  efw_qual is a collection of flags that show the estimate of each of these contributors over time.  ..See the EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for a detailed description of the determination and meaning of each of the elements of efw_qual...If the value of a particular element of efw_qual is not relevant to the quality of a particular data product, it shall receive the value EFW_QUAL_NR (typ. -2)...If the value of a particular element of efw_qual is relevant to the quality of a particular data product but is not known at the time lf L2 data production, it shall receive the value EFW_QUAL_UNK (typ. -1)...A quality value of EFW_QUAL_GOOD (typ. 0) indicates that there are no known issues with the data product due to that particular element of efw_qual...The quality values are meant to be conservative, and values other than EFW_QUAL_GOOD should lead the user back to a member of the EFW instrument team for discussion and advice on the nature of the data quality as needed."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/8): "efw_qual"
+
+efw_qual_labl (No: 14) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Descriptive labels for each of the elements of efw_qual."
+     FIELDNAM        (CDF_CHAR/23): "EFW Quality Flag Labels"
+     FORMAT          (CDF_CHAR/3): "A26"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/147): "See EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for detailed description of the determination and meaning of each of the elements of efw_qual."
+     LABLAXIS        (CDF_CHAR/13): "efw_qual_labl"
+
+efw_qual_compno (No: 15) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Component numbers for EFW data quality flags, efw_qual."
+     FIELDNAM        (CDF_CHAR/28): "EFW Quality Flags Components"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I5"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 20
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/5): "none."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/15): "efw_qual_compno"
+

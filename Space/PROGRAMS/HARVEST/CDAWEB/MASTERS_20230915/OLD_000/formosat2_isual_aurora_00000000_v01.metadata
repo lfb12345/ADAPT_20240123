@@ -1,0 +1,968 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/formosat2_isual_aurora_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     formosat2_isual_aurora_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     52
+NumAttrs:     41 (22 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (22 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"ISUAL"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"FORMOSAT2"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key parameter"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/31): 	"FORMOSAT2/ISAUL, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"Rue-Ron Hsu"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/61): 	"Department of Physics, National Cheng Kung University, Taiwan"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/15): 	"Imagers (space)"
+	1 (CDF_CHAR/11): 	"Engineering"
+TEXT_SUPPLEMENT_1 (2 entries):
+	0 (CDF_CHAR/27): 	"SKT version 3-November-2002"
+	1 (CDF_CHAR/93): 	"Mende et al: Sprite spectra: N2 1 PG band identification, Geophys. Res. Lett., 22, 2633, 1995"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Descriptor (1 entry):
+	0 (CDF_CHAR/55): 	"ISUAL>Imager of Sprites and Upper Atmospheric Lightning"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source (1 entry):
+	0 (CDF_CHAR/22): 	"formosat2_isual_aurora"
+Mission_group (1 entry):
+	0 (CDF_CHAR/8): 	"Formosat"
+TEXT (2 entries):
+	0 (CDF_CHAR/569): 	"The Imager of Sprite and Upper Atmospheric Lightning is the scientific nighttime payload onboard the Taiwanese FORMOSAT 2 satellite and provides the observation of TLEs within a +/-60 degree range of latitude. The satellite was launched by a Taurus launch vehicle on May 20, 2004, from Vandenberg Air Force Base in California. After monitoring the upper atmosphere for 12 consecutive years, FORMOSAT 2 was terminated on June 21, 2016, due to the failure of the attitude control gyros. The total duration of the mission is more than twice the original designed lifetime."
+	1 (CDF_CHAR/798): 	"In Aurora mode images are acquired and transferred to the Mass Memory at the repetition rate last commanded. Aurora Mode is designed to support exposure duration and repetition periods up to one (1) second while minimizing dark signal accumulation as much as possible. This is done by taking exposure and then reading it out as quickly as possible. This is in contrast to the Sprite modes where several images are stored on the CCD, which makes them susceptible to dark signal accumulation, so the Sprite modes are more amenable to taking very quick exposure sequences. Nonetheless, Aurora mode can be used to take binned images at a continuous rate of nearly 75 Hz. After every exposure, the image data is automatically transferred to Mass Memory, so fast repetition rates can quickly fill memory."
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/3): 	"ack"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/4): 	"adid"
+Rules_of_use (2 entries):
+	0 (CDF_CHAR/91): 	"Please write 'We are grateful to NSPO, Taiwan, for the formosat-2 data.' in acknowledgment."
+	1 (CDF_CHAR/225): 	"Please cite 'Rajesh, P. K., et al. (2009), First results of the limb imaging of 630.0 nm airglow using FORMOSAT-2/Imager of Sprites and Upper Atmospheric Lightnings, J. Geophys. Res., 114, A10302, doi:10.1029/2009JA014087.' ."
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/13): 	"1 millisecond"
+
+Variable Attributes (19 attributes)
+=========================================
+FIELDNAM
+UNITS
+VALIDMIN
+VALIDMAX
+DESCRIP
+VAR_NOTES
+CATDESC
+DISPLAY_TYPE
+FILLVAL
+LABLAXIS
+FORMAT
+VAR_TYPE
+DICT_KEY
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DIM_SIZES
+SCALEMIN
+SCALEMAX
+
+Variable Information (0 rVariable, 52 zVariables)
+===========================================================
+IMG0                  CDF_INT2/1	2:[524,128]	T/TT
+SAT_LON               CDF_DOUBLE/1	0:[]	T/  
+SAT_LAT               CDF_DOUBLE/1	0:[]	T/  
+SAT_ALT               CDF_DOUBLE/1	0:[]	T/  
+BUFFER_SWITCH_TIME_SPR CDF_EPOCH/1	0:[]	T/  
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+C_BUFFER_SWITCH_TIME_SPR CDF_EPOCH/1	0:[]	T/  
+TPA1_TIME             CDF_EPOCH/1	0:[]	T/  
+TPA2_TIME             CDF_EPOCH/1	0:[]	T/  
+IMAGE_WIDTH           CDF_INT4/1	0:[]	F/  
+IMAGE_HEIGHT          CDF_INT4/1	0:[]	F/  
+SCIENCE_MODE          CDF_INT4/1	0:[]	T/  
+DAY_SENSOR_STATUS     CDF_INT4/1	0:[]	T/  
+EXPOSURE_DURATION     CDF_INT4/1	0:[]	T/  
+EXPOSURE_INTERVAL     CDF_INT4/1	0:[]	T/  
+FILTER_CODE           CDF_INT4/1	0:[]	T/  
+MCP_HV                CDF_DOUBLE/1	0:[]	T/  
+PHOSPHOR_HV           CDF_DOUBLE/1	0:[]	T/  
+LENS_T                CDF_DOUBLE/1	0:[]	T/  
+FW_T                  CDF_DOUBLE/1	0:[]	T/  
+II_HV_T               CDF_DOUBLE/1	0:[]	T/  
+PHOS_HV_T             CDF_DOUBLE/1	0:[]	T/  
+CCD_T                 CDF_DOUBLE/1	0:[]	T/  
+TPA1_XPOS             CDF_DOUBLE/1	0:[]	T/  
+TPA1_YPOS             CDF_DOUBLE/1	0:[]	T/  
+TPA1_ZPOS             CDF_DOUBLE/1	0:[]	T/  
+TPA1_XV               CDF_DOUBLE/1	0:[]	T/  
+TPA1_YV               CDF_DOUBLE/1	0:[]	T/  
+TPA1_ZV               CDF_DOUBLE/1	0:[]	T/  
+TPA1_Q1               CDF_DOUBLE/1	0:[]	T/  
+TPA1_Q2               CDF_DOUBLE/1	0:[]	T/  
+TPA1_Q3               CDF_DOUBLE/1	0:[]	T/  
+TPA1_Q4               CDF_DOUBLE/1	0:[]	T/  
+TPA2_XPOS             CDF_DOUBLE/1	0:[]	T/  
+TPA2_YPOS             CDF_DOUBLE/1	0:[]	T/  
+TPA2_ZPOS             CDF_DOUBLE/1	0:[]	T/  
+TPA2_XV               CDF_DOUBLE/1	0:[]	T/  
+TPA2_YV               CDF_DOUBLE/1	0:[]	T/  
+TPA2_ZV               CDF_DOUBLE/1	0:[]	T/  
+TPA2_Q1               CDF_DOUBLE/1	0:[]	T/  
+TPA2_Q2               CDF_DOUBLE/1	0:[]	T/  
+TPA2_Q3               CDF_DOUBLE/1	0:[]	T/  
+TPA2_Q4               CDF_DOUBLE/1	0:[]	T/  
+ORB_IDX               CDF_INT4/1	0:[]	T/  
+GPS_SHIFT             CDF_INT4/1	0:[]	T/  
+IMG_AMP_BIAS          CDF_DOUBLE/1	0:[]	T/  
+CLK_SHIFT             CDF_INT4/1	0:[]	T/  
+HEIGHT                CDF_INT2/1	0:[]	T/  
+image_row             CDF_INT4/1	1:[128]	F/T
+WIDTH                 CDF_INT2/1	0:[]	T/  
+image_column          CDF_INT4/1	1:[524]	F/T
+SOURCE_RECORD         CDF_CHAR/1	0:[]	T/  
+
+
+Variable (52 variables)
+=========================================
+
+IMG0 (No: 0) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "IMG0"
+     UNITS           (CDF_CHAR/5): "count"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 4095
+     CATDESC         (CDF_CHAR/32): "The 1st frame recorded by imager"
+     DISPLAY_TYPE    (CDF_CHAR/19): "image>thumbsize>166"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/4): "Mode"
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/12): "image_column"
+     DEPEND_2        (CDF_CHAR/9): "image_row"
+     DIM_SIZES       (CDF_INT2/2): 128, 524
+
+SAT_LON (No: 1) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "SAT_LON"
+     UNITS           (CDF_CHAR/6): "degree"
+     VALIDMIN        (CDF_DOUBLE/1): -180.0
+     VALIDMAX        (CDF_DOUBLE/1): 180.0
+     CATDESC         (CDF_CHAR/30): "Longitude of the FS2 satellite"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F11.6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+SAT_LAT (No: 2) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "SAT_LAT"
+     UNITS           (CDF_CHAR/6): "degree"
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     CATDESC         (CDF_CHAR/29): "Latitude of the FS2 satellite"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+SAT_ALT (No: 3) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "SAT_ALT"
+     UNITS           (CDF_CHAR/5): "meter"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     CATDESC         (CDF_CHAR/29): "Altitude of the FS2 satellite"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+BUFFER_SWITCH_TIME_SPR (No: 4) (Recs: 0)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "BUFFER_SWITCH_TIME_SPR"
+     UNITS           (CDF_CHAR/9): "date/time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2009 00:00:00.000
+     CATDESC         (CDF_CHAR/24): "Buffer Switch Time (SPR)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "TT"
+     FORMAT          (CDF_CHAR/5): "E14.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+EPOCH (No: 5) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "EPOCH"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2009 00:00:00.000
+     CATDESC         (CDF_CHAR/10): "EPOCH data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E14.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+C_BUFFER_SWITCH_TIME_SPR (No: 6) (Recs: 0)
+------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "C_BUFFER_SWITCH_TIME_SPR"
+     UNITS           (CDF_CHAR/9): "date/time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2009 00:00:00.000
+     CATDESC         (CDF_CHAR/34): "Corrected Buffer Switch Time (SPR)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_TIME (No: 7) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "TPA1_TIME"
+     UNITS           (CDF_CHAR/9): "date/time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2009 00:00:00.000
+     CATDESC         (CDF_CHAR/23): "Time of Position 1 - UT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/3): "T1T"
+     FORMAT          (CDF_CHAR/5): "E14.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 0
+
+TPA2_TIME (No: 8) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "TPA2_TIME"
+     UNITS           (CDF_CHAR/9): "date/time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2009 00:00:00.000
+     CATDESC         (CDF_CHAR/23): "Time of Position 1 - UT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/3): "T1T"
+     FORMAT          (CDF_CHAR/5): "E14.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 0
+
+IMAGE_WIDTH (No: 9) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "IMAGE_WIDTH"
+     UNITS           (CDF_CHAR/5): "pixel"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 524
+     CATDESC         (CDF_CHAR/11): "Image width"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DIM_SIZES       (CDF_INT4/1): 0
+
+IMAGE_HEIGHT (No: 10) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "IMAGE_HEIGHT"
+     UNITS           (CDF_CHAR/5): "pixel"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 128
+     CATDESC         (CDF_CHAR/11): "image hight"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DIM_SIZES       (CDF_INT4/1): 0
+
+SCIENCE_MODE (No: 11) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "SCIENCE_MODE"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 4
+     CATDESC         (CDF_CHAR/20): "ISUAL Operation Mode"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/4): "Mode"
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+DAY_SENSOR_STATUS (No: 12) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "DAY_SENSOR_STATUS"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 255
+     CATDESC         (CDF_CHAR/17): "Day Sensor status"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/2): "DS"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+EXPOSURE_DURATION (No: 13) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "EXPOSURE_DURATION"
+     UNITS           (CDF_CHAR/12): "milliseconds"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 2000
+     CATDESC         (CDF_CHAR/17): "Exposure duration"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/3): "Exp"
+     FORMAT          (CDF_CHAR/2): "I4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+EXPOSURE_INTERVAL (No: 14) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "EXPOSURE_INTERVAL"
+     UNITS           (CDF_CHAR/12): "milliseconds"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 2000
+     CATDESC         (CDF_CHAR/17): "Exposure interval"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/4): "Intv"
+     FORMAT          (CDF_CHAR/2): "I4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+FILTER_CODE (No: 15) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "FILTER_CODE"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 6
+     CATDESC         (CDF_CHAR/21): "filter used by imager"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/3): "FLT"
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+MCP_HV (No: 16) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "MCP_HV"
+     UNITS           (CDF_CHAR/5): "volts"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 7000.0
+     CATDESC         (CDF_CHAR/46): "High voltage setting of the MCP used by imager"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "MCPHV"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+PHOSPHOR_HV (No: 17) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "PHOSPHOR_HV"
+     UNITS           (CDF_CHAR/5): "volts"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 7000.0
+     CATDESC         (CDF_CHAR/51): "High voltage setting of the phosphor used by imager"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "PHV"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+LENS_T (No: 18) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "LENS_T"
+     UNITS           (CDF_CHAR/4): "degC"
+     VALIDMIN        (CDF_DOUBLE/1): -50.0
+     VALIDMAX        (CDF_DOUBLE/1): 50.0
+     CATDESC         (CDF_CHAR/23): "Imager Lens Temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "LensT"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+FW_T (No: 19) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "FW_T"
+     UNITS           (CDF_CHAR/4): "degC"
+     VALIDMIN        (CDF_DOUBLE/1): -50.0
+     VALIDMAX        (CDF_DOUBLE/1): 50.0
+     CATDESC         (CDF_CHAR/31): "Imager Filter Wheel Temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "FWT"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+II_HV_T (No: 20) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "II_HV_T"
+     UNITS           (CDF_CHAR/4): "degC"
+     VALIDMIN        (CDF_DOUBLE/1): -50.0
+     VALIDMAX        (CDF_DOUBLE/1): 50.0
+     CATDESC         (CDF_CHAR/35): "Imager Intensifier HVPS Temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "IIT"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+PHOS_HV_T (No: 21) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "PHOS_HV_T"
+     UNITS           (CDF_CHAR/4): "degC"
+     VALIDMIN        (CDF_DOUBLE/1): -50.0
+     VALIDMAX        (CDF_DOUBLE/1): 50.0
+     CATDESC         (CDF_CHAR/32): "Imager Phosphor HVPS Temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "PhT"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+CCD_T (No: 22) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "CCD_T"
+     UNITS           (CDF_CHAR/4): "degC"
+     VALIDMIN        (CDF_DOUBLE/1): -50.0
+     VALIDMAX        (CDF_DOUBLE/1): 999.99
+     CATDESC         (CDF_CHAR/15): "CCD Temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "CCDT"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_XPOS (No: 23) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "TPA1_XPOS"
+     UNITS           (CDF_CHAR/1): "m"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "X position in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1xP"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_YPOS (No: 24) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "TPA1_YPOS"
+     UNITS           (CDF_CHAR/1): "m"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "Y position in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1yP"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_ZPOS (No: 25) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "TPA1_ZPOS"
+     UNITS           (CDF_CHAR/1): "m"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "Z position in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1zP"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_XV (No: 26) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA1_XV"
+     UNITS           (CDF_CHAR/3): "m/s"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "X velocity in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1xV"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_YV (No: 27) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA1_YV"
+     UNITS           (CDF_CHAR/3): "m/s"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "Y velocity in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1yV"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_ZV (No: 28) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA1_ZV"
+     UNITS           (CDF_CHAR/3): "m/s"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "Z velocity in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1zV"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_Q1 (No: 29) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA1_Q1"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/34): "S/C Quaternion 1 in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1Q1"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_Q2 (No: 30) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA1_Q2"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/34): "S/C Quaternion 2 in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1Q2"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_Q3 (No: 31) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA1_Q3"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/34): "S/C Quaternion 3 in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1Q3"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA1_Q4 (No: 32) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA1_Q4"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/34): "S/C Quaternion 4 in 1st TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1Q4"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_XPOS (No: 33) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "TPA2_XPOS"
+     UNITS           (CDF_CHAR/1): "m"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "X position in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1xP"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_YPOS (No: 34) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "TPA2_YPOS"
+     UNITS           (CDF_CHAR/1): "m"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "Y position in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1yP"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_ZPOS (No: 35) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "TPA2_ZPOS"
+     UNITS           (CDF_CHAR/1): "m"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "Z position in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1zP"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_XV (No: 36) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA2_XV"
+     UNITS           (CDF_CHAR/3): "m/s"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "X velocity in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1xV"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_YV (No: 37) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA2_YV"
+     UNITS           (CDF_CHAR/3): "m/s"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "Y velocity in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1yV"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_ZV (No: 38) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA2_ZV"
+     UNITS           (CDF_CHAR/3): "m/s"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/28): "Z velocity in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1zV"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_Q1 (No: 39) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA2_Q1"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/34): "S/C Quaternion 1 in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1Q1"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_Q2 (No: 40) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA2_Q2"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/34): "S/C Quaternion 2 in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1Q2"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_Q3 (No: 41) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA2_Q3"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/34): "S/C Quaternion 3 in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1Q3"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+TPA2_Q4 (No: 42) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "TPA2_Q4"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     CATDESC         (CDF_CHAR/34): "S/C Quaternion 4 in 2nd TPA packet"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "T1Q4"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+ORB_IDX (No: 43) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "ORB_IDX"
+     UNITS           (CDF_CHAR/5): "orbit"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 999999999
+     CATDESC         (CDF_CHAR/25): "orbit number since launch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I9"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+GPS_SHIFT (No: 44) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "GPS_SHIFT"
+     UNITS           (CDF_CHAR/11): "millisecond"
+     VALIDMIN        (CDF_INT4/1): -99999
+     VALIDMAX        (CDF_INT4/1): 999999
+     CATDESC         (CDF_CHAR/40): "time shift caused by GPS synchronization"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+IMG_AMP_BIAS (No: 45) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "IMG_AMP_BIAS"
+     UNITS           (CDF_CHAR/5): "count"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     CATDESC         (CDF_CHAR/25): "Bias difference of images"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -32768.0
+     LABLAXIS        (CDF_CHAR/5): "count"
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+CLK_SHIFT (No: 46) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "CLK_SHIFT"
+     UNITS           (CDF_CHAR/11): "millisecond"
+     VALIDMIN        (CDF_INT4/1): -99999
+     VALIDMAX        (CDF_INT4/1): 999999
+     CATDESC         (CDF_CHAR/32): "time shift caused by clock drift"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 166
+
+HEIGHT (No: 47) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "HEIGHT"
+     UNITS           (CDF_CHAR/5): "count"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 128
+     CATDESC         (CDF_CHAR/15): "yaxis for image"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/6): "height"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DIM_SIZES       (CDF_INT4/1): 128
+
+image_row (No: 48) (Recs: 1) (Compression: GZIP.9)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "image_row"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 128
+     CATDESC         (CDF_CHAR/16): "Y axis for image"
+     LABLAXIS        (CDF_CHAR/6): "height"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 128
+
+WIDTH (No: 49) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "WIDTH"
+     UNITS           (CDF_CHAR/5): "count"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 524
+     CATDESC         (CDF_CHAR/15): "xaxis for image"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/5): "width"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DIM_SIZES       (CDF_INT4/1): 524
+
+image_column (No: 50) (Recs: 1) (Compression: GZIP.9)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "image_column"
+     UNITS           (CDF_CHAR/5): "count"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 524
+     CATDESC         (CDF_CHAR/16): "X axis for image"
+     LABLAXIS        (CDF_CHAR/5): "width"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 524
+
+SOURCE_RECORD (No: 51) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "SOURCE_RECORD"
+     UNITS           (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/37): "The source record of the level-1 data"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FILLVAL         (CDF_CHAR/4): "null"
+     FORMAT          (CDF_CHAR/3): "a17"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DIM_SIZES       (CDF_INT4/1): 8
+

@@ -1,0 +1,348 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/image_m2_euv_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     image_m2_euv_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     14
+NumAttrs:     34 (16 global, 18 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (16 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/30): 	"SPDS>Space Physics Data System"
+Source_name (1 entry):
+	0 (CDF_CHAR/59): 	"IMAGE>Imager for Magnetospause-to-Aurora Global Exploration"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/18): 	"M2>Modified Data 2"
+Descriptor (1 entry):
+	0 (CDF_CHAR/30): 	"EUV>Extreme Ultraviolet Imager"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/25): 	"image_m2_euv_20051217_v02"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"R. M. Katus"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/27): 	"Eastern Michigan University"
+TEXT (1 entry):
+	0 (CDF_CHAR/258): 	"Katus, R. M., D. L. Gallagher, M. W. Liemohn,A. M. Keesee, and L. K. Sarno?Smith (2015), Statistical storm time examination of MLT dependent plasmapause location derived from IMAGE EUV,J. Geophys. Res. Space Physics, 120, 5545?5559, doi:10.1002/2015JA021225."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/48): 	"Imaging and Remote Sensing (Magnetosphere/Earth)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"IMAGE"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"im_m2_euv"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/84): 	"Imager for Magnetospause-to-Aurora Global Extreme Ultraviolet Imager Modified Data 2"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/78): 	"spase://NASA/NumericalData/IMAGE/EUV/EquatorialMappedImages/ModifiedData/PT10M"
+
+Variable Attributes (18 attributes)
+=========================================
+VALIDMAX
+VALIDMIN
+FILLVAL
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DISPLAY_TYPE
+FIELDNAM
+FORMAT
+LABLAXIS
+UNITS
+VAR_TYPE
+TIME_BASE
+SCALETYP
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 14 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+Plasmapause_MLTbin    CDF_DOUBLE/1	1:[48]	T/T
+Mapped_Plasmapause_Grid CDF_INT2/1	2:[241,241]	T/TT
+Mapped_Plasmapause_Grid_flip_vert CDF_INT2/1	2:[241,241]	T/TT
+Mapped_Plasmapause_Grid_Movie CDF_INT2/1	2:[241,241]	T/TT
+Quality_Flag          CDF_INT2/1	0:[]	T/  
+MLTbin                CDF_DOUBLE/1	1:[48]	F/T
+X_Axis                CDF_DOUBLE/1	1:[241]	F/T
+Y_Axis                CDF_DOUBLE/1	1:[241]	F/T
+Equatorial_EUV_Grid   CDF_DOUBLE/1	2:[241,241]	T/TT
+Equatorial_EUV_Grid_flip_vert CDF_DOUBLE/1	2:[241,241]	T/TT
+Equatorial_EUV_Grid_Movie CDF_DOUBLE/1	2:[241,241]	T/TT
+Equatorial_EUV_Grid_log CDF_DOUBLE/1	2:[241,241]	T/TT
+Equatorial_EUV_Grid_log_Movie CDF_DOUBLE/1	2:[241,241]	T/TT
+
+
+Variable (14 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     VALIDMAX        (CDF_TT2000/1): 2006-01-01T00:00:00.000000000
+     VALIDMIN        (CDF_TT2000/1): 1999-12-31T23:59:58.999995365
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     CATDESC         (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/11): "nanoseconds"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+
+Plasmapause_MLTbin (No: 1) (Recs: 0)
+------------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 20.0
+     VALIDMIN        (CDF_DOUBLE/1): 0.0001
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     CATDESC         (CDF_CHAR/100): "Sharpest gradient from equatorial IMAGE EUV Ion Images, at 48 MLT 0:0.5:23.5 MLT hours (spectrogram)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "MLTbin"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/50): "Plasmapause Lshell, at 48 MLT 0:0.5:23.5 MLT hours"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/36): "Plasmapause [Lshell] @ 0.5:.5:24 MLT"
+     UNITS           (CDF_CHAR/11): "Earth Radii"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Mapped_Plasmapause_Grid (No: 2) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     VALIDMAX        (CDF_INT2/1): 1
+     VALIDMIN        (CDF_INT2/1): 0
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/55): "Sharpest gradient from equatorial IMAGE EUV Ion Images."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "X_Axis"
+     DEPEND_2        (CDF_CHAR/6): "Y_Axis"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     FIELDNAM        (CDF_CHAR/80): "Sharpest gradient from equatorial IMAGE EUV !CIon Images. 12MLT=down, 6MLT=right"
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/11): "Plasmapause"
+     UNITS           (CDF_CHAR/10): "Re and MLT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Mapped_Plasmapause_Grid_flip_vert (No: 3) (Recs: 0) (Compression: GZIP.6)
+---------------------------------
+Attribute Entries:
+     VALIDMAX        (CDF_INT2/1): 1
+     VALIDMIN        (CDF_INT2/1): 0
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/93): "Sharpest gradient from equatorial IMAGE EUV Ion Images. Images flipped so 6MLT is to the left"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "X_Axis"
+     DEPEND_2        (CDF_CHAR/6): "Y_Axis"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     FIELDNAM        (CDF_CHAR/79): "Sharpest gradient from equatorial IMAGE EUV !CIon Images. 12MLT=down, 6MLT=left"
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/11): "Plasmapause"
+     UNITS           (CDF_CHAR/10): "Re and MLT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/24): "alternate_view_flip_vert"
+     COMPONENT_0     (CDF_CHAR/23): "Mapped_Plasmapause_Grid"
+
+Mapped_Plasmapause_Grid_Movie (No: 4) (Recs: 0)
+-----------------------------
+Attribute Entries:
+     VALIDMAX        (CDF_INT2/1): 1
+     VALIDMIN        (CDF_INT2/1): 0
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/68): "---> (MOVIE) Sharpest gradient from equatorial IMAGE EUV Ion Images."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "X_Axis"
+     DEPEND_2        (CDF_CHAR/6): "Y_Axis"
+     DISPLAY_TYPE    (CDF_CHAR/5): "movie"
+     FIELDNAM        (CDF_CHAR/54): "Sharpest gradient from equatorial IMAGE EUV Ion Images"
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/11): "Plasmapause"
+     UNITS           (CDF_CHAR/10): "Re and MLT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/24): "alternate_view_flip_vert"
+     COMPONENT_0     (CDF_CHAR/23): "Mapped_Plasmapause_Grid"
+
+Quality_Flag (No: 5) (Recs: 0)
+------------
+Attribute Entries:
+     VALIDMAX        (CDF_INT2/1): 3
+     VALIDMIN        (CDF_INT2/1): 1
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/72): "Integer quality rating 1:3 of the plasmapause data with 3 being the best"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "Integer quality rating"
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/12): "Quality Flag"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+MLTbin (No: 6) (Recs: 1)
+------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     CATDESC         (CDF_CHAR/43): "Magnetic local time in 0.5:0.5:48 hour bins"
+     DEPEND_1        (CDF_CHAR/6): "MLTbin"
+     FIELDNAM        (CDF_CHAR/43): "Magnetic local time in 0.5:0.5:48 hour bins"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/11): "MLT [hours]"
+     UNITS           (CDF_CHAR/9): "MLT hours"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+X_Axis (No: 7) (Recs: 1)
+------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 7.0
+     VALIDMIN        (CDF_DOUBLE/1): -7.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     CATDESC         (CDF_CHAR/66): "X Coordinates in Re on the equatorial plane. Define dependent Grid"
+     FIELDNAM        (CDF_CHAR/40): "X - Axis in [Re] on the equatorial plane"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/11): "X Axis [Re]"
+     UNITS           (CDF_CHAR/11): "Earth Radii"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Y_Axis (No: 8) (Recs: 1)
+------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 7.0
+     VALIDMIN        (CDF_DOUBLE/1): -7.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     CATDESC         (CDF_CHAR/66): "Y Coordinates in Re on the equatorial plane. Define dependent Grid"
+     FIELDNAM        (CDF_CHAR/40): "Y - Axis in [Re] on the equatorial plane"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/11): "Y Axis [Re]"
+     UNITS           (CDF_CHAR/11): "Earth Radii"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Equatorial_EUV_Grid (No: 9) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     CATDESC         (CDF_CHAR/48): "IMAGE EUV Images mapped to the equatorial plane."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "X_Axis"
+     DEPEND_2        (CDF_CHAR/6): "Y_Axis"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     FIELDNAM        (CDF_CHAR/73): "IMAGE EUV Images mapped to the !Cequatorial plane. 12MLT=down, 6MLT=right"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/23): "IMAGE EUV mapped to z=0"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Equatorial_EUV_Grid_flip_vert (No: 10) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     CATDESC         (CDF_CHAR/86): "IMAGE EUV Images mapped to the equatorial plane. Images flipped so 6MLT is to the left"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "X_Axis"
+     DEPEND_2        (CDF_CHAR/6): "Y_Axis"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     FIELDNAM        (CDF_CHAR/72): "IMAGE EUV Images mapped to the !Cequatorial plane. 12MLT=down, 6MLT=left"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/23): "IMAGE EUV mapped to z=0"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/24): "alternate_view_flip_vert"
+     COMPONENT_0     (CDF_CHAR/19): "Equatorial_EUV_Grid"
+
+Equatorial_EUV_Grid_Movie (No: 11) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     CATDESC         (CDF_CHAR/61): "---> (MOVIE) IMAGE EUV Images mapped to the equatorial plane."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "X_Axis"
+     DEPEND_2        (CDF_CHAR/6): "Y_Axis"
+     DISPLAY_TYPE    (CDF_CHAR/5): "movie"
+     FIELDNAM        (CDF_CHAR/47): "IMAGE EUV Images mapped to the equatorial plane"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/23): "IMAGE EUV mapped to z=0"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/24): "alternate_view_flip_vert"
+     COMPONENT_0     (CDF_CHAR/19): "Equatorial_EUV_Grid"
+
+Equatorial_EUV_Grid_log (No: 12) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     CATDESC         (CDF_CHAR/61): "IMAGE EUV Images mapped to the equatorial plane, log10 scale."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "X_Axis"
+     DEPEND_2        (CDF_CHAR/6): "Y_Axis"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     FIELDNAM        (CDF_CHAR/72): "IMAGE EUV Images mapped to the !Cequatorial plane. 12MLT=down, 6MLT=left"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/23): "IMAGE EUV mapped to z=0"
+     UNITS           (CDF_CHAR/10): "log(cm^-3)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/23): "convert_log10_flip_vert"
+     COMPONENT_0     (CDF_CHAR/19): "Equatorial_EUV_Grid"
+
+Equatorial_EUV_Grid_log_Movie (No: 13) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     CATDESC         (CDF_CHAR/74): "---> (MOVIE) IMAGE EUV Images mapped to the equatorial plane, log10 scale."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "X_Axis"
+     DEPEND_2        (CDF_CHAR/6): "Y_Axis"
+     DISPLAY_TYPE    (CDF_CHAR/5): "movie"
+     FIELDNAM        (CDF_CHAR/72): "IMAGE EUV Images mapped to the !Cequatorial plane. 12MLT=down, 6MLT=left"
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/23): "IMAGE EUV mapped to z=0"
+     UNITS           (CDF_CHAR/10): "log(cm^-3)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/23): "convert_log10_flip_vert"
+     COMPONENT_0     (CDF_CHAR/19): "Equatorial_EUV_Grid"
+

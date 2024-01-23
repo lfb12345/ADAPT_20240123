@@ -1,0 +1,605 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/helios2_40sec_mag-plasma_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     helios2_40sec_mag-plasma_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     29
+NumAttrs:     49 (26 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/6): 	"Helios"
+Source_name (1 entry):
+	0 (CDF_CHAR/17): 	"HELIOS-2>Helios-2"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/50): 	"40sec>40 sec Helios magnetic field and plasma data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/52): 	"mag-plasma>Merged magnetic field, plasma, trajectory"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/26): 	"R. Schwenn, F. M. Neubauer"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/69): 	"Max Planck Institute for Solar System Research, University of Cologne"
+TEXT (10 entries):
+	0 (CDF_CHAR/1243): 	"General information about initial ascii files: This subdirectory contains daily files of 40.5 sec Helios magnetic field and plasma data described below.  It also contains a file of software written by Aaron Roberts, readhelios40s_dat.pro, for creating alfvenicity graphs.       The Helios mission consisted of two spacecraft launched into the inner heliosphere, both executing orbits from 0.3 to 1 AU with roughly a six month orbital period.     Magnetic field data were recorded at high resolution, with plasma data recorded  at approximately 40.5 s resolution.  These datasets give the highest resolution  plasma (proton and helium) moments with the corresponding average magnetic field  for each plasma measurement.  There are results from two plasma sensors, one of  which gives the vector velocity.         The coverage is best in the early years and varies considerably for the rest of the mission.  The files Helios1_stats and Helios2_stats give the year, day of  year, number of points, and percentage of possible points for the days included  in the sets.  There is no coverage for many days, with the main reason being that  the spacecraft pass behind the Sun with respect to the Earth, thus cutting off  communication.              "
+	1 (CDF_CHAR/36): 	"The overall intervals covered are:  "
+	2 (CDF_CHAR/36): 	"Helios 1:  1974 day 346 to          "
+	3 (CDF_CHAR/37): 	"           1985 day 247              "
+	4 (CDF_CHAR/30): 	"Helios 2:  1976 day 017 to    "
+	5 (CDF_CHAR/30): 	"           1980 day 068       "
+	6 (CDF_CHAR/518): 	"The present set of files were produced by R. Schwenn and obtained from J. Luhmann. They have been reformatted by Aaron Roberts to assure spaces between the variables,  and in the process the HGI longitude and the RTN versions of the variables were added for convenience.  Also, spacecraft positions were interpolated to make them  distinct. The fill value for missing data in the original files was either -1 or 0;  all these have been changed to 0. The other entries are directly from the original  files.            "
+	7 (CDF_CHAR/201): 	"R. Schwenn should be acknowledged for plasma data and F. Neubauer for magnetic field data.  GSFC/SPDF nssdcftp (or successor) should be acknowledged as the immediate  source of the data.               "
+	8 (CDF_CHAR/731): 	"* The RTN components were calculated from the SSE XYZ components using R -> -X, T -> -Y, and N -> Z.  The Cartesian coordinates for B and the angles for V are the  original variables in the file, and no correction was made in the conversion to RTN  for the actual spacecraft position.  Since RTN and SSE are defined relative to the helioequatorial plane and to the ecliptic plane, respectively, and since these planes are inclined by 7.25 degrees relative to each other (heliocentric orbits of Earth,  Helios 1 and Helios 2 are virtually co-planar), this introduces errors of up to 100% * (1 - cos 7.25) = 1% in the RTN components.  However, the V and B are consistent with each other and can be compared directly.                 "
+	9 (CDF_CHAR/64): 	"(text by Aaron Roberts, with edits by Joe King; October, 2008)  "
+Instrument_type (3 entries):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+	1 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	2 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/6): 	"Helios"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Logical_source (1 entry):
+	0 (CDF_CHAR/24): 	"helios2_40sec_mag-plasma"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/37): 	"helios2_40sec_mag-plasma_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/52): 	"Merged 40.5 s magnetic field, plasma data, ephemeris"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/12): 	"40.5 seconds"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/26): 	"Above data in the form of "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/11): 	"ASCII files"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/68): 	"https://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1_40sec/"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/45): 	"spase://NASA/NumericalData/Helios2/E3/PT40.5S"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 29 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+R_Helio               CDF_DOUBLE/1	0:[]	T/  
+ESS_Ang               CDF_DOUBLE/1	0:[]	T/  
+clong                 CDF_DOUBLE/1	0:[]	T/  
+clat                  CDF_DOUBLE/1	0:[]	T/  
+HGIlong               CDF_DOUBLE/1	0:[]	T/  
+B_R                   CDF_DOUBLE/1	0:[]	T/  
+B_T                   CDF_DOUBLE/1	0:[]	T/  
+B_N                   CDF_DOUBLE/1	0:[]	T/  
+Vp_R                  CDF_DOUBLE/1	0:[]	T/  
+Vp_T                  CDF_DOUBLE/1	0:[]	T/  
+Vp_N                  CDF_DOUBLE/1	0:[]	T/  
+crot                  CDF_DOUBLE/1	0:[]	T/  
+Np                    CDF_DOUBLE/1	0:[]	T/  
+Vp                    CDF_DOUBLE/1	0:[]	T/  
+Tp                    CDF_DOUBLE/1	0:[]	T/  
+V_Azimuth             CDF_DOUBLE/1	0:[]	T/  
+V_Elev                CDF_DOUBLE/1	0:[]	T/  
+B_x                   CDF_DOUBLE/1	0:[]	T/  
+B_y                   CDF_DOUBLE/1	0:[]	T/  
+B_z                   CDF_DOUBLE/1	0:[]	T/  
+stdev_B_x             CDF_DOUBLE/1	0:[]	T/  
+stdev_B_y             CDF_DOUBLE/1	0:[]	T/  
+stdev_B_z             CDF_DOUBLE/1	0:[]	T/  
+N_a                   CDF_DOUBLE/1	0:[]	T/  
+V_a                   CDF_DOUBLE/1	0:[]	T/  
+T_a                   CDF_DOUBLE/1	0:[]	T/  
+Np2                   CDF_DOUBLE/1	0:[]	T/  
+Vp2                   CDF_DOUBLE/1	0:[]	T/  
+
+
+Variable (29 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-3000 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+R_Helio (No: 1) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "R_Helio"
+     CATDESC         (CDF_CHAR/26): "Heliocentric distance (AU)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "distance"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/7): "R_Helio"
+     UNITS           (CDF_CHAR/2): "AU"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 2.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+ESS_Ang (No: 2) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "ESS_Ang"
+     CATDESC         (CDF_CHAR/32): "Earth-sun-spacecraft angle (deg)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/7): "ESS_Ang"
+     UNITS           (CDF_CHAR/6): "degree"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+clong (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "C long"
+     CATDESC         (CDF_CHAR/26): "Carrington longitude (deg)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/20): "Carrington longitude"
+     UNITS           (CDF_CHAR/6): "degree"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+clat (No: 4) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "C/HGI lat"
+     CATDESC         (CDF_CHAR/29): "Carrington/HGI latitude (deg)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/23): "Carrington/HGI latitude"
+     UNITS           (CDF_CHAR/6): "degree"
+     VALIDMIN        (CDF_DOUBLE/1): -180.0
+     VALIDMAX        (CDF_DOUBLE/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+HGIlong (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "HGI Long"
+     CATDESC         (CDF_CHAR/19): "HGI Longitude (deg)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/13): "HGI Longitude"
+     UNITS           (CDF_CHAR/6): "degree"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+B_R (No: 6) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "B_R"
+     CATDESC         (CDF_CHAR/48): "The HGI "R" component of the magnetic field (nT)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/14): "magnetic field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/3): "B_R"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+B_T (No: 7) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "B_T"
+     CATDESC         (CDF_CHAR/48): "The HGI "T" component of the magnetic field (nT)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/14): "magnetic field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/3): "B_T"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+B_N (No: 8) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "B_N"
+     CATDESC         (CDF_CHAR/48): "The HGI "N" component of the magnetic field (nT)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/14): "magnetic field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/3): "B_N"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vp_R (No: 9) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Vp_R"
+     CATDESC         (CDF_CHAR/52): "The HGI "R" component of the proton velocity  (km/s)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     LABLAXIS        (CDF_CHAR/4): "Vp_R"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): -10000.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vp_T (No: 10) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Vp_T"
+     CATDESC         (CDF_CHAR/52): "The HGI "T" component of the proton velocity  (km/s)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     LABLAXIS        (CDF_CHAR/4): "Vp_T"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): -10000.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vp_N (No: 11) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Vp_N"
+     CATDESC         (CDF_CHAR/52): "The HGI "N" component of the proton velocity  (km/s)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     LABLAXIS        (CDF_CHAR/4): "Vp_N"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): -10000.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+crot (No: 12) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Carrington rotation"
+     CATDESC         (CDF_CHAR/19): "Carrington rotation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/19): "Carrington rotation"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     LABLAXIS        (CDF_CHAR/19): "Carrington rotation"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Np (No: 13) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "N_p"
+     CATDESC         (CDF_CHAR/29): "Proton number density (cm^-3)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/3): "N_p"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vp (No: 14) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "V_p"
+     CATDESC         (CDF_CHAR/20): "Proton speed  (Km/s)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/3): "V_p"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Tp (No: 15) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "T_p"
+     CATDESC         (CDF_CHAR/23): "Proton Temperature  (K)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f12.2"
+     LABLAXIS        (CDF_CHAR/3): "T_p"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+V_Azimuth (No: 16) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "V_Azimuth"
+     CATDESC         (CDF_CHAR/36): "Azimuth of the velocity vector (deg)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "direction"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/9): "V_Azimuth"
+     UNITS           (CDF_CHAR/6): "degree"
+     VALIDMIN        (CDF_DOUBLE/1): -180.0
+     VALIDMAX        (CDF_DOUBLE/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+V_Elev (No: 17) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "V_Elev"
+     CATDESC         (CDF_CHAR/38): "Elevation of the velocity vector (deg)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "direction"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/6): "V_Elev"
+     UNITS           (CDF_CHAR/6): "degree"
+     VALIDMIN        (CDF_DOUBLE/1): -180.0
+     VALIDMAX        (CDF_DOUBLE/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+B_x (No: 18) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Bx_SSE"
+     CATDESC         (CDF_CHAR/50): "SSE (spacecraft) X component of the magnetic field"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/14): "magnetic field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/6): "Bx_SSE"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+B_y (No: 19) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "By_SSE"
+     CATDESC         (CDF_CHAR/50): "SSE (spacecraft) Y component of the magnetic field"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/14): "magnetic field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/6): "By_SSE"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+B_z (No: 20) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Bz_SSE"
+     CATDESC         (CDF_CHAR/50): "SSE (spacecraft) Z component of the magnetic field"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/14): "magnetic field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/6): "Bz_SSE"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+stdev_B_x (No: 21) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "stdev Bx_SSE"
+     CATDESC         (CDF_CHAR/55): "Standard deviation of the B_X component over the 40.5 s"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/24): "magnetic field deviation"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/12): "stdev Bx_SSE"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+stdev_B_y (No: 22) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "stdev By_SSE"
+     CATDESC         (CDF_CHAR/55): "Standard deviation of the B_Y component over the 40.5 s"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/24): "magnetic field deviation"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/12): "stdev By_SSE"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+stdev_B_z (No: 23) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "stdev Bz_SSE"
+     CATDESC         (CDF_CHAR/55): "Standard deviation of the B_Z component over the 40.5 s"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/24): "magnetic field deviation"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/12): "stdev Bz_SSE"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_DOUBLE/1): -1000.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+N_a (No: 24) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "N_a"
+     CATDESC         (CDF_CHAR/28): "Alpha number density (cm^-3)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/20): "Alpha number density"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+V_a (No: 25) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "V_a"
+     CATDESC         (CDF_CHAR/19): "Alpha speed  (Km/s)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/8): "velocity"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+T_a (No: 26) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "T_a"
+     CATDESC         (CDF_CHAR/21): "Alpha temperature (K)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f12.2"
+     LABLAXIS        (CDF_CHAR/11): "temperature"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Np2 (No: 27) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "N_p2"
+     CATDESC         (CDF_CHAR/34): "Proton density (second instrument)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/7): "density"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vp2 (No: 28) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "V_p2"
+     CATDESC         (CDF_CHAR/32): "Proton speed (second instrument)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/8): "velocity"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+

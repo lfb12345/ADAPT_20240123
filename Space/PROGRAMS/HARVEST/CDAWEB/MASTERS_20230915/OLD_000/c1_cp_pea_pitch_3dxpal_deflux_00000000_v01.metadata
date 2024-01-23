@@ -1,0 +1,1204 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/c1_cp_pea_pitch_3dxpal_deflux_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     c1_cp_pea_pitch_3dxpal_deflux_00000000_v01.cdf
+Version:      3.9.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     47
+NumAttrs:     86 (55 global, 31 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (55 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/58): 	"STSP Cluster>Solar Terrestrial Science Programmes, Cluster"
+Source_name (1 entry):
+	0 (CDF_CHAR/25): 	"C1>Cluster Satellite No 1"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"CP>CAA Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/45): 	"PEA_PITCH_3DXPAL_DEFlux>Electron spectrometer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/17): 	"Andrew Fazakerley"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/4): 	"MSSL"
+TEXT (20 entries):
+	0 (CDF_CHAR/84): 	"The Plasma Electron And Current Experiment (PEACE) instrument is designed to measure"
+	1 (CDF_CHAR/83): 	"the electron velocity distribution in the vicinity of its host spacecraft, covering"
+	2 (CDF_CHAR/86): 	"an energy range of ~1 eV to ~26 keV and detecting electrons arriving from all possible"
+	3 (CDF_CHAR/80): 	"directions. Each PEACE instrument has two sensor heads, LEEA and HEEA, which are"
+	4 (CDF_CHAR/85): 	"mounted on opposite sides of the spacecraft such that the instantaneous field of view"
+	5 (CDF_CHAR/85): 	"of one is the same as that seen by the other half a spacecraft rotation period later."
+	6 (CDF_CHAR/83): 	"LEEA and HEEA differ only in geometric factor (HEEA admits more electrons than LEEA"
+	7 (CDF_CHAR/84): 	"when measuring the same energy range). Both sensors sample 4*pi steradians per spin."
+	8 (CDF_CHAR/81): 	"The full energy range is divided into 88 levels, however only a subset (60 or 30)"
+	9 (CDF_CHAR/76): 	"of those can be sampled by each sensor in a given spin. Full coverage of the"
+	10 (CDF_CHAR/79): 	"energy range may be achieved by using both HEEA and LEEA sensors together, each"
+	11 (CDF_CHAR/71): 	"sampling a different (possibly overlapping) subset of the energy range."
+	12 (CDF_CHAR/77): 	"HEEA will normally cover the upper part of the energy range, since its larger"
+	13 (CDF_CHAR/75): 	"geometric factor enables it to make better measurements of the more diffuse"
+	14 (CDF_CHAR/48): 	"electron population expected at higher energies."
+	15 (CDF_CHAR/78): 	"LEEA is designed to specialise in the coverage of the lowest electron energies"
+	16 (CDF_CHAR/80): 	"(including below 10 eV) but is also capable of covering the full energy range to"
+	17 (CDF_CHAR/75): 	"26 keV.  The LEEA sensor has a smaller geometric factor appropriate for the"
+	18 (CDF_CHAR/80): 	"higher fluxes of electrons usually found at lower energies, though LEEA does not"
+	19 (CDF_CHAR/34): 	"always sample the lowest energies."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/7): 	"Cluster"
+Logical_source (1 entry):
+	0 (CDF_CHAR/29): 	"C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/44): 	"PEACE PITCH_3DXPAL data from the LEEA sensor"
+MISSION (1 entry):
+	0 (CDF_CHAR/7): 	"Cluster"
+MISSION_TIME_SPAN (1 entry):
+	0 (CDF_CHAR/41): 	"2000-07-16T00:00:00Z/2026-08-22T00:00:00Z"
+MISSION_AGENCY (1 entry):
+	0 (CDF_CHAR/3): 	"ESA"
+MISSION_DESCRIPTION (5 entries):
+	0 (CDF_CHAR/87): 	"The aim of the Cluster mission is to study small-scale structures of the magnetosphere "
+	1 (CDF_CHAR/89): 	"and its environment in three dimensions. To achieve this, Cluster is constituted of four "
+	2 (CDF_CHAR/95): 	"identical spacecraft that will flight in a tetrahedral configuration. The separation distances "
+	3 (CDF_CHAR/84): 	"between the spacecraft will be varied between ~3 km and 67 000 km, according to the "
+	4 (CDF_CHAR/23): 	"key scientific regions."
+MISSION_KEY_PERSONNEL (1 entry):
+	0 (CDF_CHAR/70): 	"Philippe Escoubet>Philippe.Escoubet@esa.int >Cluster Project Scientist"
+MISSION_REFERENCES (1 entry):
+	0 (CDF_CHAR/104): 	"The Cluster and Phoenix Missions>Cluster project and instrument teams>Space Sci. Rev. 79, Nos. 1-2, 1997"
+MISSION_REGION (11 entries):
+	0 (CDF_CHAR/10): 	"Solar_Wind"
+	1 (CDF_CHAR/9): 	"Bow_Shock"
+	2 (CDF_CHAR/13): 	"Magnetosheath"
+	3 (CDF_CHAR/12): 	"Magnetopause"
+	4 (CDF_CHAR/13): 	"Magnetosphere"
+	5 (CDF_CHAR/11): 	"Magnetotail"
+	6 (CDF_CHAR/9): 	"Polar_Cap"
+	7 (CDF_CHAR/14): 	"Auroral_Region"
+	8 (CDF_CHAR/4): 	"Cusp"
+	9 (CDF_CHAR/14): 	"Radiation_Belt"
+	10 (CDF_CHAR/12): 	"Plasmasphere"
+MISSION_CAVEATS (1 entry):
+	0 (CDF_CHAR/3): 	"*CL"
+OBSERVATORY (1 entry):
+	0 (CDF_CHAR/9): 	"Cluster-1"
+OBSERVATORY_CAVEATS (15 entries):
+	0 (CDF_CHAR/6): 	"*C1_CQ"
+	1 (CDF_CHAR/36): 	"Main planned commissioning events : "
+	2 (CDF_CHAR/50): 	" - 2000-08-09T11:13Z/2000-08-09T11:13Z :  Launch 2"
+	3 (CDF_CHAR/74): 	" - 2000-08-09T11:13Z/2000-09-25T22:13Z :  SC not at 15 rpm - starting time"
+	4 (CDF_CHAR/73): 	" - 2000-08-16T09:00Z/2000-08-16T13:00Z :  ASPOC+CIS cover opening and FGM"
+	5 (CDF_CHAR/63): 	" - 2000-08-22T18:54Z/2000-08-23T00:25Z :  FGM Switch-on + tests"
+	6 (CDF_CHAR/69): 	" - 2000-08-29T20:55Z/2000-08-29T21:55Z :  WEC First full WEC on (A.4)"
+	7 (CDF_CHAR/83): 	" - 2000-09-07T21:22Z/2000-09-07T22:22Z :  WEC Deploy booms 3 & 4 and  to 15 m (B.3)"
+	8 (CDF_CHAR/89): 	" - 2000-09-07T22:22Z/2000-09-07T23:22Z :  WEC Deploy booms 1 & 2 from 1.3 m to 15 m (B.4)"
+	9 (CDF_CHAR/96): 	" - 2000-09-07T23:22Z/2000-09-08T00:03Z :  WEC Spin up satellite to 22 rpm + sphere release (B.5)"
+	10 (CDF_CHAR/89): 	" - 2000-09-20T18:34Z/2000-09-20T19:34Z :  WEC Deploy booms 3 & 4  from 15 m to 35 m (C.2)"
+	11 (CDF_CHAR/89): 	" - 2000-09-20T19:34Z/2000-09-20T20:04Z :  WEC Deploy booms 1 & 2  from 15 m to 20 m (C.3)"
+	12 (CDF_CHAR/88): 	" - 2000-09-25T19:18Z/2000-09-25T19:53Z :  WEC Deploy booms 3 & 4 from 35 m to 43 m (D.2)"
+	13 (CDF_CHAR/88): 	" - 2000-10-06T14:54Z/2000-10-06T17:54Z :  WEC Deploy booms 1 & 2 from 20 m to 43 m (E.2)"
+	14 (CDF_CHAR/96): 	" - 2000-12-06T11:00Z/2000-12-20T18:30Z :  Interferences + Intercalibration (6 orbits)/ JSOC OBRQ"
+OBSERVATORY_DESCRIPTION (8 entries):
+	0 (CDF_CHAR/17): 	"Cluster-1 (Rumba)"
+	1 (CDF_CHAR/21): 	"Launched: 09 Aug 2000"
+	2 (CDF_CHAR/13): 	"ESA Number: 1"
+	3 (CDF_CHAR/20): 	"COSPAR ID: 2000-045A"
+	4 (CDF_CHAR/33): 	"USSPACECOM catalogue number 26463"
+	5 (CDF_CHAR/13): 	"CSDS Code: C1"
+	6 (CDF_CHAR/16): 	"ESOC FD code: S1"
+	7 (CDF_CHAR/28): 	"ESA Flight Model Number: FM5"
+OBSERVATORY_TIME_SPAN (1 entry):
+	0 (CDF_CHAR/41): 	"2000-07-16T00:00:00Z/2026-08-22T00:00:00Z"
+OBSERVATORY_REGION (11 entries):
+	0 (CDF_CHAR/10): 	"Solar_Wind"
+	1 (CDF_CHAR/9): 	"Bow_Shock"
+	2 (CDF_CHAR/13): 	"Magnetosheath"
+	3 (CDF_CHAR/12): 	"Magnetopause"
+	4 (CDF_CHAR/13): 	"Magnetosphere"
+	5 (CDF_CHAR/11): 	"Magnetotail"
+	6 (CDF_CHAR/9): 	"Polar_Cap"
+	7 (CDF_CHAR/14): 	"Auroral_Region"
+	8 (CDF_CHAR/4): 	"Cusp"
+	9 (CDF_CHAR/14): 	"Radiation_Belt"
+	10 (CDF_CHAR/12): 	"Plasmasphere"
+EXPERIMENT (1 entry):
+	0 (CDF_CHAR/5): 	"PEACE"
+EXPERIMENT_DESCRIPTION (20 entries):
+	0 (CDF_CHAR/84): 	"The Plasma Electron And Current Experiment (PEACE) instrument is designed to measure"
+	1 (CDF_CHAR/83): 	"the electron velocity distribution in the vicinity of its host spacecraft, covering"
+	2 (CDF_CHAR/86): 	"an energy range of ~1 eV to ~26 keV and detecting electrons arriving from all possible"
+	3 (CDF_CHAR/80): 	"directions. Each PEACE instrument has two sensor heads, LEEA and HEEA, which are"
+	4 (CDF_CHAR/85): 	"mounted on opposite sides of the spacecraft such that the instantaneous field of view"
+	5 (CDF_CHAR/85): 	"of one is the same as that seen by the other half a spacecraft rotation period later."
+	6 (CDF_CHAR/83): 	"LEEA and HEEA differ only in geometric factor (HEEA admits more electrons than LEEA"
+	7 (CDF_CHAR/84): 	"when measuring the same energy range). Both sensors sample 4*pi steradians per spin."
+	8 (CDF_CHAR/81): 	"The full energy range is divided into 88 levels, however only a subset (60 or 30)"
+	9 (CDF_CHAR/76): 	"of those can be sampled by each sensor in a given spin. Full coverage of the"
+	10 (CDF_CHAR/79): 	"energy range may be achieved by using both HEEA and LEEA sensors together, each"
+	11 (CDF_CHAR/71): 	"sampling a different (possibly overlapping) subset of the energy range."
+	12 (CDF_CHAR/77): 	"HEEA will normally cover the upper part of the energy range, since its larger"
+	13 (CDF_CHAR/75): 	"geometric factor enables it to make better measurements of the more diffuse"
+	14 (CDF_CHAR/48): 	"electron population expected at higher energies."
+	15 (CDF_CHAR/78): 	"LEEA is designed to specialise in the coverage of the lowest electron energies"
+	16 (CDF_CHAR/80): 	"(including below 10 eV) but is also capable of covering the full energy range to"
+	17 (CDF_CHAR/75): 	"26 keV.  The LEEA sensor has a smaller geometric factor appropriate for the"
+	18 (CDF_CHAR/80): 	"higher fluxes of electrons usually found at lower energies, though LEEA does not"
+	19 (CDF_CHAR/34): 	"always sample the lowest energies."
+INVESTIGATOR_COORDINATES (1 entry):
+	0 (CDF_CHAR/63): 	"Andrew Fazakerley>a.fazakerley@ucl.ac.uk>Principal Investigator"
+EXPERIMENT_REFERENCES (1 entry):
+	0 (CDF_CHAR/63): 	"http://www.mssl.ucl.ac.uk/www_plasma/missions/cluster/index.php"
+EXPERIMENT_KEY_PERSONNEL (2 entries):
+	0 (CDF_CHAR/63): 	"Andrew Fazakerley>a.fazakerley@ucl.ac.uk>Principal Investigator"
+	1 (CDF_CHAR/47): 	"Natasha Doss>n.doss@ucl.ac.uk>Technical Contact"
+INSTRUMENT_NAME (1 entry):
+	0 (CDF_CHAR/6): 	"PEACE1"
+INSTRUMENT_DESCRIPTION (2 entries):
+	0 (CDF_CHAR/76): 	"The C1 LEEA or C1 HEEA instruments are fully operational and the DPU's are  "
+	1 (CDF_CHAR/76): 	"operating nominally in dual processor mode.                                 "
+MEASUREMENT_TYPE (1 entry):
+	0 (CDF_CHAR/14): 	"Thermal_Plasma"
+DATASET_ID (1 entry):
+	0 (CDF_CHAR/29): 	"C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+DATASET_TITLE (1 entry):
+	0 (CDF_CHAR/44): 	"PEACE PITCH_3DXPAL data from the LEEA sensor"
+DATASET_TYPE (1 entry):
+	0 (CDF_CHAR/21): 	"Particle_Distribution"
+DATASET_DESCRIPTION (5 entries):
+	0 (CDF_CHAR/94): 	"This data product contains rebinned pitch angle distributions from a single (LEEA) sensor for "
+	1 (CDF_CHAR/94): 	"the Cluster C1 spacecraft. The data is provided in the same format as the 3D data, except that"
+	2 (CDF_CHAR/96): 	"the 12 polar zones are rebinned into 12 pitch angle zones using ground calibrated magnetic field"
+	3 (CDF_CHAR/95): 	"data. Only MAR and HAR sweep modes are included. Only the 3DX azimuths that are most closely   "
+	4 (CDF_CHAR/95): 	"aligned parallel and anti-parallel with the onboard magnetic field direction are included.     "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/1): 	"4"
+MIN_TIME_RESOLUTION (1 entry):
+	0 (CDF_CHAR/1): 	"4"
+MAX_TIME_RESOLUTION (1 entry):
+	0 (CDF_CHAR/1): 	"4"
+PROCESSING_LEVEL (1 entry):
+	0 (CDF_CHAR/7): 	"Derived"
+Acknowledgement (3 entries):
+	0 (CDF_CHAR/44): 	"Please acknowledge the PEACE instrument team"
+	1 (CDF_CHAR/30): 	"and ESA Cluster Active Archive"
+	2 (CDF_CHAR/47): 	"in any publication based upon use of this data."
+FILE_TYPE (1 entry):
+	0 (CDF_CHAR/3): 	"cef"
+METADATA_TYPE (1 entry):
+	0 (CDF_CHAR/3): 	"CAA"
+METADATA_VERSION (1 entry):
+	0 (CDF_CHAR/3): 	"2.0"
+VERSION_NUMBER (1 entry):
+	0 (CDF_CHAR/6): 	"120521"
+FILE_TIME_SPAN (1 entry):
+	0 (CDF_CHAR/1): 	" "
+DATASET_VERSION (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Software_version (1 entry):
+	0 (CDF_CHAR/10): 	"SPARTA 1.5"
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/42): 	"source_datatype_descriptor_yyyyMMdd_HHmmss"
+
+Variable Attributes (31 attributes)
+=========================================
+CATDESC
+UNITS
+SI_conversion
+FILLVAL
+FIELDNAM
+LABLAXIS
+VALIDMIN
+VALIDMAX
+TIME_BASE
+TIME_SCALE
+FORMAT
+VAR_TYPE
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+sig_digits
+DEPEND_0
+FRAME
+QUALITY
+SCALEMIN
+SCALEMAX
+SCALETYP
+DISPLAYTYPE
+LABL_PTR_1
+COORDINATE_SYSTEM
+REPRESENTATION_1
+ENTITY
+PROPERTY
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DISPLAY_TYPE
+
+Variable Information (0 rVariable, 47 zVariables)
+===========================================================
+time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_EPOCH/1	0:[]	T/  
+time_tags_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	0:[]	T/  
+time_tags_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	0:[]	T/  
+Angle_SR2phi__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	0:[]	T/  
+Mode_SunpulseRephaseOffset__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	0:[]	T/  
+Mode_Sensor__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	0:[]	F/  
+Mode_SweepMode__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	0:[]	T/  
+Mode_Preset__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	0:[]	T/  
+Mode_EnergyLevelRange__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	1:[2]	T/T
+Mode_EnergyMaxMin__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[2]	T/T
+Mode_MCPlevel__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	0:[]	T/  
+Mode_DataOrigin__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	0:[]	T/  
+Mode_RealSize__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	1:[3]	T/T
+Mode_RealBinNum__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	0:[]	T/  
+Sweep_Energy__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[32]	T/T
+Sweep_Energy_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[32]	T/T
+Sweep_Energy_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[32]	T/T
+Sweep_PitchAngle__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[12]	F/T
+Sweep_PitchAngle_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[12]	F/T
+Sweep_PitchAngle_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[12]	F/T
+Sweep_Azimuth__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[64]	T/T
+Sweep_Azimuth_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[64]	T/T
+Sweep_Azimuth_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[64]	T/T
+Data__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	3:[64,12,32]	T/TTT
+BackgroundLevel__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	3:[64,12,32]	T/TTT
+Status_Quality__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_INT4/1	0:[]	T/  
+Status_CountStats__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[3]	T/T
+Status_ASPOC__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[3]	T/T
+Status_FGM__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[3]	T/T
+Status_InterferenceFromEFW__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[3]	T/T
+Status_InterferenceFromWHI__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[3]	T/T
+Status_Eclipse__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[3]	T/T
+Status_DatastreamErrors__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[3]	T/T
+Status_CalibrationVersion__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[3]	T/T
+Status_PEACErawData__C1_CP_PEA_PITCH_3DXPAL_DEFlux CDF_FLOAT/1	1:[3]	T/T
+Mode_EnergyLevelRange__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/12	1:[2]	F/T
+Mode_EnergyMaxMin__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/11	1:[2]	F/T
+Mode_RealSize__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/43	1:[3]	F/T
+Status_CountStats__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_ASPOC__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_FGM__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_InterferenceFromEFW__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_InterferenceFromWHI__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_Eclipse__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_DatastreamErrors__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_CalibrationVersion__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_PEACErawData__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+
+
+Variable (47 variables)
+=========================================
+
+time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 0) (Recs: 0)
+----------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "Epoch Time of PEACE data record (for one PEACE spin)"
+     UNITS           (CDF_CHAR/2): "ms"
+     SI_conversion   (CDF_CHAR/8): "1.0e-3>s"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FIELDNAM        (CDF_CHAR/10): "Data Epoch"
+     LABLAXIS        (CDF_CHAR/10): "Data Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 16-Jul-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 22-Aug-2026 00:00:00.000
+     TIME_BASE       (CDF_CHAR/3): "0AD"
+     TIME_SCALE      (CDF_CHAR/3): "UTC"
+     FORMAT          (CDF_CHAR/3): "A24"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DELTA_MINUS_VAR (CDF_CHAR/51): "time_tags_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DELTA_PLUS_VAR  (CDF_CHAR/51): "time_tags_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     sig_digits      (CDF_INT4/1): 24
+
+time_tags_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 1) (Recs: 0)
+---------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Actual Lower Epoch Edge = time_tags - time_tags_DeltaLower"
+     UNITS           (CDF_CHAR/1): "s"
+     SI_conversion   (CDF_CHAR/5): "1.0>s"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/22): "Data Epoch Lower Delta"
+     LABLAXIS        (CDF_CHAR/22): "Data Epoch Lower Delta"
+     VALIDMIN        (CDF_FLOAT/1): 2.0
+     VALIDMAX        (CDF_FLOAT/1): 2.1
+     FORMAT          (CDF_CHAR/2): "F4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 4
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+
+time_tags_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 2) (Recs: 0)
+---------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Actual Upper Epoch Edge = time_tags + time_tags_DeltaUpper"
+     UNITS           (CDF_CHAR/1): "s"
+     SI_conversion   (CDF_CHAR/5): "1.0>s"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/22): "Data Epoch Upper Delta"
+     LABLAXIS        (CDF_CHAR/22): "Data Epoch Upper Delta"
+     VALIDMIN        (CDF_FLOAT/1): 2.0
+     VALIDMAX        (CDF_FLOAT/1): 2.1
+     FORMAT          (CDF_CHAR/2): "F4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 4
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+
+Angle_SR2phi__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 3) (Recs: 0)
+-------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/70): "Phi Angle in the SR2 co-ordinate system at the center time of the spin"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SI_conversion   (CDF_CHAR/11): "0.01745>rad"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/13): "SR2 phi angle"
+     LABLAXIS        (CDF_CHAR/13): "SR2 phi angle"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 360.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_SunpulseRephaseOffset__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 4) (Recs: 0)
+---------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/78): "Delay applied to the sun reference pulse in units of spin segment clock pulses"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/23): "Sunpulse rephase offset"
+     LABLAXIS        (CDF_CHAR/4): "SPOS"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 16384
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 5
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 16384
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_Sensor__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 5) (Recs: 1)
+------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "PEACE Sensor from which Data is collected (0 = LEEA, 1 = HEEA, 2 = Both)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/29): "Sensor (0=LEEA,1=HEEA,2=Both)"
+     LABLAXIS        (CDF_CHAR/29): "Sensor (0=LEEA,1=HEEA,2=Both)"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 1
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+
+Mode_SweepMode__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 6) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "PEACE Sweep Mode ( 0 = Off/Fixed, 1 = LAR, 2 = HAR, 3 = MAR )"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/10): "Sweep Mode"
+     LABLAXIS        (CDF_CHAR/10): "Sweep Mode"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 3
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 1
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 3
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_Preset__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 7) (Recs: 0)
+------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "The Energy level aimed for during flyback (always larger than Mode_EnergyLevelRange)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/12): "Preset level"
+     LABLAXIS        (CDF_CHAR/12): "Preset level"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 91
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 91
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_EnergyLevelRange__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 8) (Recs: 0)
+----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/91): "Sweep Energy Level range: the subset of the 88 energy bins measured (not including flyback)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/19): "Sweep Energy Levels"
+     LABLAXIS        (CDF_CHAR/19): "Sweep Energy Levels"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 88
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 88
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/60): "Mode_EnergyLevelRange__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Mode_EnergyMaxMin__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 9) (Recs: 0)
+------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/85): "The energy range (in eV) of electrons measured in a spin, expressed as Max. then Min."
+     UNITS           (CDF_CHAR/2): "eV"
+     SI_conversion   (CDF_CHAR/16): "1.60217646E-19>J"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/17): "Energy Range (eV)"
+     LABLAXIS        (CDF_CHAR/17): "Energy Range (eV)"
+     VALIDMIN        (CDF_FLOAT/1): 0.1
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.1
+     SCALEMAX        (CDF_FLOAT/1): 30000.0
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/56): "Mode_EnergyMaxMin__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Mode_MCPlevel__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 10) (Recs: 0)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "MCP Level: Related to sensor gain (i.e. increase level and gain increases)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/9): "MCP Level"
+     LABLAXIS        (CDF_CHAR/9): "MCP Level"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 31
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 31
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_DataOrigin__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 11) (Recs: 0)
+----------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Data Origin (1=3DX1, 2=3DX2)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/11): "Data Origin"
+     LABLAXIS        (CDF_CHAR/11): "Data Origin"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 22
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 22
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_RealSize__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 12) (Recs: 0)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "Subset of Data variable that contains real data"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/28): "Valid subset of 'data' array"
+     LABLAXIS        (CDF_CHAR/28): "Valid subset of 'data' array"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 64
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 64
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/52): "Mode_RealSize__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Mode_RealBinNum__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 13) (Recs: 0)
+----------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/87): "Number of energy bins returned per sweep, not including fly-backs nor windowed-out data"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/35): "No. energy bins returned (no fills)"
+     LABLAXIS        (CDF_CHAR/35): "No. energy bins returned (no fills)"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 64
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 64
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Sweep_Energy__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 14) (Recs: 0)
+-------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "The representative energy for the accumulation bin."
+     UNITS           (CDF_CHAR/2): "eV"
+     SI_conversion   (CDF_CHAR/16): "1.60217646E-19>J"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/20): "Center Energy Values"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_FLOAT/1): 0.1
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DELTA_MINUS_VAR (CDF_CHAR/54): "Sweep_Energy_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DELTA_PLUS_VAR  (CDF_CHAR/54): "Sweep_Energy_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     SCALEMIN        (CDF_FLOAT/1): 0.1
+     SCALEMAX        (CDF_FLOAT/1): 30000.0
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Sweep_Energy_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 15) (Recs: 0)
+------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "Actual Lower Energy Edge of bin = Sweep_Energy - Sweep_Energy_DeltaLower"
+     UNITS           (CDF_CHAR/2): "eV"
+     SI_conversion   (CDF_CHAR/16): "1.60217646E-19>J"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/25): "Lower delta Energy Values"
+     LABLAXIS        (CDF_CHAR/13): "Lower E-delta"
+     VALIDMIN        (CDF_FLOAT/1): 0.1
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     SCALEMIN        (CDF_FLOAT/1): 0.1
+     SCALEMAX        (CDF_FLOAT/1): 30000.0
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Sweep_Energy_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 16) (Recs: 0)
+------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "Actual Upper Energy Edge of bin = Sweep_Energy + Sweep_Energy_DeltaUpper"
+     UNITS           (CDF_CHAR/2): "eV"
+     SI_conversion   (CDF_CHAR/16): "1.60217646E-19>J"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/25): "Upper delta Energy Values"
+     LABLAXIS        (CDF_CHAR/13): "Upper E-delta"
+     VALIDMIN        (CDF_FLOAT/1): 0.1
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     SCALEMIN        (CDF_FLOAT/1): 0.1
+     SCALEMAX        (CDF_FLOAT/1): 30000.0
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Sweep_PitchAngle__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 17) (Recs: 1)
+-----------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Center values of Pitch angle bins that provided the data"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SI_conversion   (CDF_CHAR/11): "0.01745>rad"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/12): "Pitch angles"
+     LABLAXIS        (CDF_CHAR/12): "Pitch Angles"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     FORMAT          (CDF_CHAR/2): "F5"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DELTA_MINUS_VAR (CDF_CHAR/58): "Sweep_PitchAngle_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DELTA_PLUS_VAR  (CDF_CHAR/58): "Sweep_PitchAngle_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     sig_digits      (CDF_INT4/1): 5
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 180.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "MFA"
+     REPRESENTATION_1 (CDF_CHAR/1): "t"
+
+Sweep_PitchAngle_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 18) (Recs: 1)
+----------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "Actual Lower Edge of bin = Sweep_PitchAngle - Sweep_PitchAngle_DeltaLower"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SI_conversion   (CDF_CHAR/11): "0.01745>rad"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/24): "Lower delta Pitch Angles"
+     LABLAXIS        (CDF_CHAR/17): "Lower Pitch-delta"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     FORMAT          (CDF_CHAR/2): "F5"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 5
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 180.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "MFA"
+     REPRESENTATION_1 (CDF_CHAR/1): "t"
+
+Sweep_PitchAngle_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 19) (Recs: 1)
+----------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "Actual Upper Edge of bin = Sweep_PitchAngle + Sweep_PitchAngle_DeltaUpper"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SI_conversion   (CDF_CHAR/11): "0.01745>rad"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/24): "Upper delta Pitch Angles"
+     LABLAXIS        (CDF_CHAR/23): "Upper Pitch angle-delta"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     FORMAT          (CDF_CHAR/2): "F5"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 5
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 180.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "MFA"
+     REPRESENTATION_1 (CDF_CHAR/1): "t"
+
+Sweep_Azimuth__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 20) (Recs: 0)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Center values of Azimuth sweep that provided the data"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SI_conversion   (CDF_CHAR/11): "0.01745>rad"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/33): "Azimuth Scan Values within a spin"
+     LABLAXIS        (CDF_CHAR/13): "Azimuth Angle"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     FORMAT          (CDF_CHAR/2): "F5"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DELTA_MINUS_VAR (CDF_CHAR/55): "Sweep_Azimuth_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DELTA_PLUS_VAR  (CDF_CHAR/55): "Sweep_Azimuth_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     sig_digits      (CDF_INT4/1): 5
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 360.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     COORDINATE_SYSTEM (CDF_CHAR/10): "Instrument"
+     REPRESENTATION_1 (CDF_CHAR/1): "p"
+
+Sweep_Azimuth_DeltaLower__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 21) (Recs: 0)
+-------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/77): "Actual Lower Azimuth Edge of sweep = Sweep_Azimuth - Sweep_Azimuth_DeltaLower"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SI_conversion   (CDF_CHAR/11): "0.01745>rad"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/26): "Lower delta Azimuth Angles"
+     LABLAXIS        (CDF_CHAR/19): "Lower Azimuth-delta"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     FORMAT          (CDF_CHAR/2): "F5"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 5
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 360.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     COORDINATE_SYSTEM (CDF_CHAR/10): "Instrument"
+     REPRESENTATION_1 (CDF_CHAR/1): "p"
+
+Sweep_Azimuth_DeltaUpper__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 22) (Recs: 0)
+-------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/77): "Actual Upper Azimuth Edge of sweep = Sweep_Azimuth + Sweep_Azimuth_DeltaUpper"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SI_conversion   (CDF_CHAR/11): "0.01745>rad"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/26): "Upper delta Azimuth Angles"
+     LABLAXIS        (CDF_CHAR/19): "Upper Azimuth-delta"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     FORMAT          (CDF_CHAR/2): "F5"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 5
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 360.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     COORDINATE_SYSTEM (CDF_CHAR/10): "Instrument"
+     REPRESENTATION_1 (CDF_CHAR/1): "p"
+
+Data__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 23) (Recs: 0)
+-----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "C1 PITCH_3DXPA LEEA (DEFlux), 12 PA bins"
+     UNITS           (CDF_CHAR/18): "keV/cm^2-s-str-keV"
+     SI_conversion   (CDF_CHAR/30): "6.24150974E+15>m^-2 s^-1 sr^-1"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/11): "PITCH_3DXPA"
+     LABLAXIS        (CDF_CHAR/17): "Diff. Energy Flux"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+09
+     FORMAT          (CDF_CHAR/3): "F11"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_CHAR/45): "Status_Quality__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     SCALEMIN        (CDF_FLOAT/1): 100000.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+09
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Spectrogram"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/24): "Differential_Energy_Flux"
+     DEPEND_1        (CDF_CHAR/44): "Sweep_Azimuth__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DEPEND_2        (CDF_CHAR/47): "Sweep_PitchAngle__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DEPEND_3        (CDF_CHAR/43): "Sweep_Energy__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+
+BackgroundLevel__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 24) (Recs: 0)
+----------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Background level data for 'Data__C1_CP_PEA_PITCH_3DXPAL_DEFlux'"
+     UNITS           (CDF_CHAR/18): "keV/cm^2-s-str-keV"
+     SI_conversion   (CDF_CHAR/30): "6.24150974E+15>m^-2 s^-1 sr^-1"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/28): "PITCH_3DXPA background level"
+     LABLAXIS        (CDF_CHAR/17): "Diff. Energy Flux"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+09
+     FORMAT          (CDF_CHAR/3): "F11"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 5
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 100000.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+09
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Spectrogram"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/24): "Differential_Energy_Flux"
+     DEPEND_1        (CDF_CHAR/44): "Sweep_Azimuth__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DEPEND_2        (CDF_CHAR/47): "Sweep_PitchAngle__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DEPEND_3        (CDF_CHAR/43): "Sweep_Energy__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+
+Status_Quality__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 25) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "C1 LEEA data quality flag"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/17): "Data quality flag"
+     LABLAXIS        (CDF_CHAR/7): "Quality"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 4
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 1
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 4
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Status_CountStats__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 26) (Recs: 0)
+------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "C1 LEEA Status Values for Count Statistics"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/34): "Status Values for Count Statistics"
+     LABLAXIS        (CDF_CHAR/27): "Status Value for CountStats"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 2.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/56): "Status_CountStats__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Status_ASPOC__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 27) (Recs: 0)
+-------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "C1 LEEA Status Values for ASPOC"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/23): "Status Values for ASPOC"
+     LABLAXIS        (CDF_CHAR/22): "Status Value for ASPOC"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/51): "Status_ASPOC__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Status_FGM__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 28) (Recs: 0)
+-----------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "C1 LEEA Status Values for FGM"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/21): "Status Values for FGM"
+     LABLAXIS        (CDF_CHAR/20): "Status Value for FGM"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/49): "Status_FGM__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Status_InterferenceFromEFW__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 29) (Recs: 0)
+---------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "C1 LEEA Status Values for Interference caused by EFW"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/44): "Status Values for Interference caused by EFW"
+     LABLAXIS        (CDF_CHAR/36): "Status Value for InterferenceFromEFW"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/65): "Status_InterferenceFromEFW__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Status_InterferenceFromWHI__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 30) (Recs: 0)
+---------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "C1 LEEA Status Values for Interference caused by WHI"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/44): "Status Values for Interference caused by WHI"
+     LABLAXIS        (CDF_CHAR/36): "Status Value for InterferenceFromWHI"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/65): "Status_InterferenceFromWHI__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Status_Eclipse__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 31) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "C1 LEEA Status Values for Eclipse"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/25): "Status Values for Eclipse"
+     LABLAXIS        (CDF_CHAR/24): "Status Value for Eclipse"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/53): "Status_Eclipse__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Status_DatastreamErrors__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 32) (Recs: 0)
+------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "C1 LEEA Status Values for DatastreamErrors"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/34): "Status Values for DatastreamErrors"
+     LABLAXIS        (CDF_CHAR/33): "Status Value for DatastreamErrors"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 2.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/62): "Status_DatastreamErrors__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Status_CalibrationVersion__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 33) (Recs: 0)
+--------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "C1 LEEA Status Values for Calibration Version"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/37): "Status Values for Calibration Version"
+     LABLAXIS        (CDF_CHAR/35): "Status Value for CalibrationVersion"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.02537e+10
+     FORMAT          (CDF_CHAR/3): "F11"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 11
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 2.02537e+10
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/64): "Status_CalibrationVersion__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Status_PEACErawData__C1_CP_PEA_PITCH_3DXPAL_DEFlux (No: 34) (Recs: 0)
+--------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "C1 LEEA Status Values for PEACE raw data"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/32): "Status Values for PEACE raw data"
+     LABLAXIS        (CDF_CHAR/29): "Status Value for PEACErawData"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.02537e+10
+     FORMAT          (CDF_CHAR/3): "F11"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 11
+     DEPEND_0        (CDF_CHAR/40): "time_tags__C1_CP_PEA_PITCH_3DXPAL_DEFlux"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 2.02537e+10
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/58): "Status_PEACErawData__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+
+Mode_EnergyLevelRange__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 35) (Recs: 1)
+------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/60): "Mode_EnergyLevelRange__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/60): "Mode_EnergyLevelRange__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A12"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Mode_EnergyMaxMin__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 36) (Recs: 1)
+--------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Mode_EnergyMaxMin__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/56): "Mode_EnergyMaxMin__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Mode_RealSize__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 37) (Recs: 1)
+----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "Mode_RealSize__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/52): "Mode_RealSize__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A43"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_CountStats__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 38) (Recs: 1)
+--------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Status_CountStats__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/56): "Status_CountStats__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_ASPOC__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 39) (Recs: 1)
+---------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "Status_ASPOC__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/51): "Status_ASPOC__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_FGM__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 40) (Recs: 1)
+-------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Status_FGM__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/49): "Status_FGM__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_InterferenceFromEFW__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 41) (Recs: 1)
+-----------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Status_InterferenceFromEFW__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/65): "Status_InterferenceFromEFW__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_InterferenceFromWHI__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 42) (Recs: 1)
+-----------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Status_InterferenceFromWHI__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/65): "Status_InterferenceFromWHI__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_Eclipse__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 43) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Status_Eclipse__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Status_Eclipse__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_DatastreamErrors__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 44) (Recs: 1)
+--------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Status_DatastreamErrors__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/62): "Status_DatastreamErrors__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_CalibrationVersion__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 45) (Recs: 1)
+----------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Status_CalibrationVersion__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/64): "Status_CalibrationVersion__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_PEACErawData__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1 (No: 46) (Recs: 1)
+----------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Status_PEACErawData__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/58): "Status_PEACErawData__C1_CP_PEA_PITCH_3DXPAL_DEFlux_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

@@ -1,0 +1,1258 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/fa_esa_l2_ies_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     fa_esa_l2_ies_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     59
+NumAttrs:     57 (27 global, 30 variable)
+Compression:  RLE.0
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (27 attributes)
+=========================================
+Acknowledgment (1 entry):
+	0 (CDF_CHAR/4): 	"None"
+Data_type (1 entry):
+	0 (CDF_CHAR/32): 	"l2_ies>Level 2 data: Iesa Survey"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"0"
+Descriptor (1 entry):
+	0 (CDF_CHAR/61): 	"FA_ESA>Fast Auroral SnapshoT Explorer, Electrostatic Analyzer"
+Discipline (1 entry):
+	0 (CDF_CHAR/41): 	"Space Physics>Planetary Physics>Particles"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/34): 	"descriptor_datatype_yyyyMMddHHmmss"
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/34): 	"http://sprg.ssl.berkeley.edu/fast/"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/42): 	"General Information about the FAST mission"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/14): 	"FAST home page"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"fa_esa_l2_ies"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/29): 	"FAST Ion Survey Distributions"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"FAST"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"J. P. McFadden"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/39): 	"U.C. Berkeley Space Sciences Laboratory"
+Planet (1 entry):
+	0 (CDF_CHAR/5): 	"Earth"
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"FAST"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/28): 	"Open Data for Scientific Use"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"FAST>Fast Auroral SnapshoT Explorer"
+TEXT (1 entry):
+	0 (CDF_CHAR/26): 	"ESA>Electrostatic Analyzer"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TITLE (1 entry):
+	0 (CDF_CHAR/33): 	"FAST ESA Ion Survey Distributions"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/58): 	"spase://NASA/NumericalData/FAST/ESA/L2/Ion/Survey/PT0.625S"
+
+Variable Attributes (30 attributes)
+=========================================
+CATDESC
+DISPLAY_TYPE
+FIELDNAM
+UNITS
+DEPEND_TIME
+DEPEND_0
+VAR_TYPE
+COORDINATE_SYSTEM
+SCALETYP
+LABLAXIS
+MONOTON
+VAR_NOTES
+FILLVAL
+FORMAT
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+DEPEND_1
+DEPEND_2
+LABL_PTR_1
+LABL_PTR_2
+DICT_KEY
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+ARR_INDEX
+ARR_DIM
+ALLOW_BIN
+
+Variable Information (0 rVariable, 59 zVariables)
+===========================================================
+epoch                 CDF_EPOCH/1	0:[]	T/  
+time_unix             CDF_DOUBLE/1	0:[]	T/  
+time_start            CDF_DOUBLE/1	0:[]	T/  
+time_end              CDF_DOUBLE/1	0:[]	T/  
+time_delta            CDF_DOUBLE/1	0:[]	T/  
+time_integ            CDF_DOUBLE/1	0:[]	T/  
+header_bytes          CDF_UINT1/1	1:[44]	T/T
+valid                 CDF_INT2/1	0:[]	T/  
+data_quality          CDF_UINT1/1	0:[]	T/  
+nbins                 CDF_UINT1/1	0:[]	T/  
+nenergy               CDF_UINT1/1	0:[]	T/  
+geom_factor           CDF_FLOAT/1	0:[]	T/  
+gf_ind                CDF_INT2/1	0:[]	T/  
+bins_ind              CDF_INT2/1	0:[]	T/  
+mode_ind              CDF_UINT1/1	0:[]	T/  
+theta_shift           CDF_FLOAT/1	0:[]	T/  
+theta_max             CDF_FLOAT/1	0:[]	T/  
+theta_min             CDF_FLOAT/1	0:[]	T/  
+bkg                   CDF_FLOAT/1	0:[]	T/  
+sc_pot                CDF_FLOAT/1	0:[]	T/  
+data                  CDF_UINT1/1	2:[64,96]	T/TT
+eflux                 CDF_FLOAT/1	2:[64,96]	T/TT
+eflux_movie           CDF_FLOAT/1	2:[64,96]	T/TT
+eflux_byE_atA         CDF_FLOAT/1	2:[64,96]	T/TT
+eflux_byA_atE         CDF_FLOAT/1	2:[64,96]	T/TT
+pitch_angle_median    CDF_FLOAT/1	1:[64]	T/T
+energy_median         CDF_FLOAT/1	1:[96]	T/T
+energy_full           CDF_FLOAT/1	2:[64,96]	T/TT
+denergy_full          CDF_FLOAT/1	2:[64,96]	T/TT
+pitch_angle           CDF_FLOAT/1	2:[64,96]	T/TT
+domega                CDF_FLOAT/1	2:[64,96]	T/TT
+orbit_number          CDF_INT4/1	0:[]	T/  
+orbit_number_time     CDF_DOUBLE/1	0:[]	T/  
+orbit_number_epoch    CDF_EPOCH/1	0:[]	T/  
+project_name          CDF_CHAR/4	0:[]	F/  
+data_name             CDF_CHAR/11	0:[]	F/  
+data_level            CDF_CHAR/7	0:[]	F/  
+units_name            CDF_CHAR/10	0:[]	F/  
+units_procedure       CDF_CHAR/20	0:[]	F/  
+num_dists             CDF_INT4/1	0:[]	F/  
+bins                  CDF_UINT1/1	3:[2,64,96]	F/TTT
+energy                CDF_FLOAT/1	3:[2,64,96]	F/TTT
+denergy               CDF_FLOAT/1	3:[2,64,96]	F/TTT
+theta                 CDF_FLOAT/1	3:[2,64,96]	F/TTT
+dtheta                CDF_FLOAT/1	3:[2,64,96]	F/TTT
+gf                    CDF_FLOAT/1	3:[10,64,96]	F/TTT
+eff                   CDF_FLOAT/1	3:[2,64,96]	F/TTT
+dead                  CDF_FLOAT/1	0:[]	F/  
+mass                  CDF_FLOAT/1	0:[]	F/  
+charge                CDF_INT2/1	0:[]	F/  
+bkg_arr               CDF_FLOAT/1	3:[10,64,96]	F/TTT
+orbit_start           CDF_INT4/1	0:[]	F/  
+orbit_end             CDF_INT4/1	0:[]	F/  
+compno_96             CDF_INT2/1	1:[96]	F/T
+compno_64             CDF_INT2/1	1:[64]	F/T
+energy_labl_96        CDF_CHAR/17	1:[96]	F/T
+angle_labl_64         CDF_CHAR/12	1:[64]	F/T
+eflux_bypitch_labl    CDF_CHAR/26	1:[64]	F/T
+eflux_byenergy_labl   CDF_CHAR/30	1:[96]	F/T
+
+
+Variable (59 variables)
+=========================================
+
+epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "CDF EPOCH time, one element per ion distribution (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "CDF_EPOCH"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/9): "CDF_EPOCH"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     VALIDMIN        (CDF_EPOCH/1): 21-Aug-1996 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-May-2009 00:00:00.000
+
+time_unix (No: 1) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/193): "Unix time (elapsed seconds since 1970-01-01/00:00 without leap seconds) for each data record, one element per distribution. This time is the center time of data collection. (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "Unix Time"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/9): "Unix Time"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     VALIDMIN        (CDF_DOUBLE/1): 8.40586e+08
+     VALIDMAX        (CDF_DOUBLE/1): 1.24114e+09
+
+time_start (No: 2) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Unix time at the start of data collection. (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "Interval start time (unix)"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/26): "Interval start time (unix)"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     VALIDMIN        (CDF_DOUBLE/1): 8.40586e+08
+     VALIDMAX        (CDF_DOUBLE/1): 1.24114e+09
+
+time_end (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Unix time at the end of data collection. (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "Interval end time (unix)"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/24): "Interval end time (unix)"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     VALIDMIN        (CDF_DOUBLE/1): 8.40586e+08
+     VALIDMAX        (CDF_DOUBLE/1): 1.24114e+09
+
+time_delta (No: 4) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Averaging time. (TIME_END - TIME_START). (NUM_DISTS elements)."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "Averaging time"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/14): "Averaging time"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+31
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     SCALEMIN        (CDF_DOUBLE/1): 0.0780373
+     SCALEMAX        (CDF_DOUBLE/1): 0.0780382
+
+time_integ (No: 5) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Integration time. (TIME_DELTA/N_ENERGY). (NUM_DISTS elements)."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "Integration time"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/16): "Integration time"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+31
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     SCALEMIN        (CDF_DOUBLE/1): 0.00162578
+     SCALEMAX        (CDF_DOUBLE/1): 0.0016258
+
+header_bytes (No: 6) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "The packet header bytes. (44XNUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "Header"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/6): "Header"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT2/1): 255
+     FORMAT          (CDF_CHAR/2): "I4"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 255
+
+valid (No: 7) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/102): "Validity flag codes valid data (bit 0), non-zero values are not necessarily valid (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): " Valid flag"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/11): " Valid flag"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I6"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): 1
+     SCALEMAX        (CDF_INT2/1): 1
+
+data_quality (No: 8) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "---> Quality flag (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "Quality flag"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/12): "Quality flag"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT2/1): 255
+     FORMAT          (CDF_CHAR/2): "I4"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 0
+
+nbins (No: 9) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "---> Number of angluar bins (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "Number of bins"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/14): "Number of bins"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT2/1): 255
+     FORMAT          (CDF_CHAR/2): "I4"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     SCALEMIN        (CDF_INT2/1): 32
+     SCALEMAX        (CDF_INT2/1): 32
+
+nenergy (No: 10) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "---> Number of energies (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "Number of energies"
+     UNITS           (CDF_CHAR/2): "eV"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/18): "Number of energies"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT2/1): 255
+     FORMAT          (CDF_CHAR/2): "I4"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     SCALEMIN        (CDF_INT2/1): 48
+     SCALEMAX        (CDF_INT2/1): 48
+
+geom_factor (No: 11) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/77): "---> GEOM_FACTOR, Geometrical factor used in calibration (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "Geometric Factor"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/16): "Geometric Factor"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.000147
+     SCALEMAX        (CDF_FLOAT/1): 0.000147
+
+gf_ind (No: 12) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/80): "---> Index for the value of the Geometrical factor for data (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "GF index"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/8): "GF index"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I6"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 0
+
+bins_ind (No: 13) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "---> Index for the number of angular bins for data (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "Bins index"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/10): "Bins index"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I6"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 0
+
+mode_ind (No: 14) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/92): "---> Index for the data mode (0-2 for survey data, 0-1 for survey data) (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "Mode index"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/10): "Mode index"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT2/1): 255
+     FORMAT          (CDF_CHAR/2): "I4"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 0
+
+theta_shift (No: 15) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "---> Angular shift (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/56): "Angular shift, converts theta bin values to pitch angles"
+     UNITS           (CDF_CHAR/7): "degrees"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/13): "Angular shift"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -400.0
+     VALIDMAX        (CDF_FLOAT/1): 400.0
+
+theta_max (No: 16) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "---> Angular maximum (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "Angular max"
+     UNITS           (CDF_CHAR/7): "degrees"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/11): "Angular max"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -400.0
+     VALIDMAX        (CDF_FLOAT/1): 400.0
+
+theta_min (No: 17) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "---> Angular minimum (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "Angular min"
+     UNITS           (CDF_CHAR/7): "degrees"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/11): "Angular min"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -400.0
+     VALIDMAX        (CDF_FLOAT/1): 400.0
+
+bkg (No: 18) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "Background counts array with dimensions (NUM_DISTS)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "Background counts"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/17): "Background counts"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 0.0
+
+sc_pot (No: 19) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "Spacecraft potential (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/20): "Spacecraft potential"
+     UNITS           (CDF_CHAR/5): "volts"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/20): "Spacecraft potential"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 0.0
+
+data (No: 20) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Survey Ion Raw Counts data with dimensions (96, 64, NUM_DISTS)"
+     DISPLAY_TYPE    (CDF_CHAR/82): "plasmagram>THUMBSIZE>166>xsz=4,ysz=7>xx=pitch_angle_median,y=energy_median, z=data"
+     FIELDNAM        (CDF_CHAR/21): "Survey Ion Raw Counts"
+     UNITS           (CDF_CHAR/6): "Counts"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/21): "Survey Ion Raw Counts"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT2/1): 255
+     FORMAT          (CDF_CHAR/2): "I4"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     DEPEND_1        (CDF_CHAR/18): "pitch_angle_median"
+     DEPEND_2        (CDF_CHAR/13): "energy_median"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+eflux (No: 21) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/99): "Differential survey-mode ion energy flux array with dimensions (96, 64, NUM_DISTS) (as plasmagrams)"
+     DISPLAY_TYPE    (CDF_CHAR/83): "plasmagram>THUMBSIZE>166>xsz=4,ysz=7>xx=pitch_angle_median,y=energy_median, z=eflux"
+     FIELDNAM        (CDF_CHAR/22): "Survey Ion Energy Flux"
+     UNITS           (CDF_CHAR/9): "eV/sr/sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/22): "Survey Ion Energy flux"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DEPEND_1        (CDF_CHAR/18): "pitch_angle_median"
+     DEPEND_2        (CDF_CHAR/13): "energy_median"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+eflux_movie (No: 22) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "---> Plasmagram movie"
+     DISPLAY_TYPE    (CDF_CHAR/91): "plasma_movie>THUMBSIZE>166>xsz=4,ysz=7>xx=pitch_angle_median,y=energy_median, z=eflux_movie"
+     FIELDNAM        (CDF_CHAR/22): "Survey Ion Energy flux"
+     UNITS           (CDF_CHAR/9): "eV/sr/sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/22): "Survey Ion Energy flux"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DEPEND_1        (CDF_CHAR/18): "pitch_angle_median"
+     DEPEND_2        (CDF_CHAR/13): "energy_median"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/5): "eflux"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+eflux_byE_atA (No: 23) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "---> Spectrograms by energy at sample pitch angle bin nos (of varying pitch angle)"
+     DISPLAY_TYPE    (CDF_CHAR/187): "spectrogram>y=energy_median, z=eflux_byE_atA(2,*), z=eflux_byE_atA(8,*), z=eflux_byE_atA(14,*), z=eflux_byE_atA(20,*), z=eflux_byE_atA(26,*), z=eflux_byE_atA(32,*), z=eflux_byE_atA(50,*) "
+     FIELDNAM        (CDF_CHAR/22): "Survey Ion Energy flux"
+     UNITS           (CDF_CHAR/9): "eV/sr/sec"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DEPEND_1        (CDF_CHAR/18): "pitch_angle_median"
+     DEPEND_2        (CDF_CHAR/13): "energy_median"
+     LABL_PTR_1      (CDF_CHAR/18): "eflux_bypitch_labl"
+     LABL_PTR_2      (CDF_CHAR/19): "eflux_byenergy_labl"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/5): "eflux"
+
+eflux_byA_atE (No: 24) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "---> Spectrograms by pitch angle bin nos (of varying pitch angle) at sample energies"
+     DISPLAY_TYPE    (CDF_CHAR/228): "spectrogram>y=compno_64, z=eflux_byA_atE(*,2), z=eflux_byA_atE(*,8), z=eflux_byA_atE(*,14), z=eflux_byA_atE(*,20), z=eflux_byA_atE(*,26), z=eflux_byA_atE(*,32), z=eflux_byA_atE(*,38), z=eflux_byA_atE(*,44), z=eflux_byA_atE(*,76)"
+     FIELDNAM        (CDF_CHAR/22): "Survey Ion Energy flux"
+     UNITS           (CDF_CHAR/9): "eV/sr/sec"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DEPEND_1        (CDF_CHAR/9): "compno_64"
+     DEPEND_2        (CDF_CHAR/13): "energy_median"
+     LABL_PTR_1      (CDF_CHAR/18): "eflux_bypitch_labl"
+     LABL_PTR_2      (CDF_CHAR/19): "eflux_byenergy_labl"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/5): "eflux"
+
+pitch_angle_median (No: 25) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "median pitch angle"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/18): "Median Pitch Angle"
+     UNITS           (CDF_CHAR/7): "degrees"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/18): "Median Pitch Angle"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -360.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     SCALEMIN        (CDF_FLOAT/1): -20.0
+     SCALEMAX        (CDF_FLOAT/1): 380.0
+     DEPEND_1        (CDF_CHAR/9): "compno_64"
+     LABL_PTR_1      (CDF_CHAR/13): "angle_labl_64"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/9): "arr_slice"
+     COMPONENT_0     (CDF_CHAR/11): "pitch_angle"
+     ARR_INDEX       (CDF_INT4/1): 24
+     ARR_DIM         (CDF_INT4/1): 1
+
+energy_median (No: 26) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> median energy"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/13): "Median Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/13): "Median Energy"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 200000.0
+     SCALEMIN        (CDF_FLOAT/1): 1.0
+     SCALEMAX        (CDF_FLOAT/1): 100000.0
+     DEPEND_1        (CDF_CHAR/9): "compno_96"
+     LABL_PTR_1      (CDF_CHAR/14): "energy_labl_96"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/9): "arr_slice"
+     COMPONENT_0     (CDF_CHAR/11): "energy_full"
+     ARR_INDEX       (CDF_INT4/1): 16
+     ARR_DIM         (CDF_INT4/1): 0
+
+energy_full (No: 27) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Energy values for each distribution (96, 64, NUM_DISTS)"
+     DISPLAY_TYPE    (CDF_CHAR/89): "plasmagram>THUMBSIZE>166>xsz=4,ysz=7>xx=pitch_angle_median,y=energy_median, z=energy_full"
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     DEPEND_1        (CDF_CHAR/18): "pitch_angle_median"
+     DEPEND_2        (CDF_CHAR/13): "energy_median"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+denergy_full (No: 28) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Energy bin size for each distribution (96, 64, NUM_DISTS)"
+     DISPLAY_TYPE    (CDF_CHAR/90): "plasmagram>THUMBSIZE>166>xsz=4,ysz=7>xx=pitch_angle_median,y=energy_median, z=denergy_full"
+     FIELDNAM        (CDF_CHAR/7): "DEnergy"
+     UNITS           (CDF_CHAR/2): "eV"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/7): "DEnergy"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     DEPEND_1        (CDF_CHAR/18): "pitch_angle_median"
+     DEPEND_2        (CDF_CHAR/13): "energy_median"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+pitch_angle (No: 29) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "---> Pitch Angle values for each distribution (96, 64, NUM_DISTS)"
+     DISPLAY_TYPE    (CDF_CHAR/89): "plasmagram>THUMBSIZE>166>xsz=4,ysz=7>xx=pitch_angle_median,y=energy_median, z=pitch_angle"
+     FIELDNAM        (CDF_CHAR/11): "Pitch Angle"
+     UNITS           (CDF_CHAR/7): "degrees"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/11): "Pitch Angle"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     DEPEND_1        (CDF_CHAR/18): "pitch_angle_median"
+     DEPEND_2        (CDF_CHAR/13): "energy_median"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+domega (No: 30) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "---> Solid angle (DOmega) for each distribution (96, 64, NUM_DISTS)"
+     DISPLAY_TYPE    (CDF_CHAR/84): "plasmagram>THUMBSIZE>166>xsz=4,ysz=7>xx=pitch_angle_median,y=energy_median, z=domega"
+     FIELDNAM        (CDF_CHAR/6): "DOmega"
+     UNITS           (CDF_CHAR/4): "ster"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/6): "DOmega"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     DEPEND_1        (CDF_CHAR/18): "pitch_angle_median"
+     DEPEND_2        (CDF_CHAR/13): "energy_median"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+orbit_number (No: 31) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "Orbit number for this file, does not change, so only 2 entries per file"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "Orbit_number"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/17): "orbit_number_time"
+     DEPEND_0        (CDF_CHAR/18): "orbit_number_epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/12): "Orbit_number"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/3): "I11"
+     VALIDMIN        (CDF_INT4/1): -2147483647
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): 438
+     SCALEMAX        (CDF_INT4/1): 438
+
+orbit_number_time (No: 32) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "Time array, unix time for orbit number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "Orbit Number Time"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/17): "orbit_number_time"
+     DEPEND_0        (CDF_CHAR/18): "orbit_number_epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/17): "Orbit Number Time"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     VALIDMIN        (CDF_DOUBLE/1): 8.40586e+08
+     VALIDMAX        (CDF_DOUBLE/1): 1.24114e+09
+
+orbit_number_epoch (No: 33) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "CDF Epoch array for orbit number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "Orbit Number Epoch"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/17): "orbit_number_time"
+     DEPEND_0        (CDF_CHAR/18): "orbit_number_epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/18): "Orbit Number Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_NOTES       (CDF_CHAR/4): "None"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     VALIDMIN        (CDF_EPOCH/1): 21-Aug-1996 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-May-2009 00:00:00.000
+
+project_name (No: 34) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "FAST"
+     FIELDNAM        (CDF_CHAR/12): "project_name"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/2): "A5"
+
+data_name (No: 35) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Iesa Survey"
+     FIELDNAM        (CDF_CHAR/9): "data_name"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/3): "A11"
+
+data_level (No: 36) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "Level 2"
+     FIELDNAM        (CDF_CHAR/10): "data_level"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/2): "A8"
+
+units_name (No: 37) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "eflux"
+     FIELDNAM        (CDF_CHAR/10): "units_name"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/3): "A11"
+
+units_procedure (No: 38) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "fa_esa_convert_esa_units, name of IDL routine used for units conversion "
+     FIELDNAM        (CDF_CHAR/15): "units_procedure"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/3): "A21"
+
+num_dists (No: 39) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "Number of measurements or times in the file"
+     FIELDNAM        (CDF_CHAR/9): "num_dists"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/3): "I11"
+     VALIDMIN        (CDF_INT4/1): -2147483647
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): 105
+     SCALEMAX        (CDF_INT4/1): 105
+
+bins (No: 40) (Recs: 1) (Compression: GZIP.6)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "Array with dimension NBINS containing 1 OR 0 used to flag bad angle bins"
+     FIELDNAM        (CDF_CHAR/4): "bins"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_INT2/1): 255
+     FORMAT          (CDF_CHAR/2): "I4"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 255
+
+energy (No: 41) (Recs: 1) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "Energy array with dimension (96,64 or 32,nmode)"
+     FIELDNAM        (CDF_CHAR/6): "energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+31
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+31
+
+denergy (No: 42) (Recs: 1) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Delta Energy array with dimension (96, 64 or 32, 2 or 3)"
+     FIELDNAM        (CDF_CHAR/7): "denergy"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+31
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+31
+
+theta (No: 43) (Recs: 1) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Angle array with with dimension (96, 64 or 32, 2 or 3)"
+     FIELDNAM        (CDF_CHAR/5): "theta"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+31
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+31
+
+dtheta (No: 44) (Recs: 1) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/60): "Delta Angle array with with dimension (96, 64 or 32, 2 or 3)"
+     FIELDNAM        (CDF_CHAR/6): "dtheta"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+31
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+31
+
+gf (No: 45) (Recs: 1) (Compression: GZIP.6)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "Geometric Factor array with dimension (96, 64)"
+     FIELDNAM        (CDF_CHAR/2): "gf"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+31
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+31
+
+eff (No: 46) (Recs: 1) (Compression: GZIP.6)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Efficiency array with dimension (96, 64 or 32, 2 or 3)"
+     FIELDNAM        (CDF_CHAR/3): "eff"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+31
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+31
+
+dead (No: 47) (Recs: 1)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "Dead time in seconds for 1 processed count"
+     FIELDNAM        (CDF_CHAR/4): "dead"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+31
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+31
+
+mass (No: 48) (Recs: 1)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "Proton or Electron mass in units of MeV/c2"
+     FIELDNAM        (CDF_CHAR/4): "mass"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+31
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+31
+
+charge (No: 49) (Recs: 1)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "Proton or Electron charge (1 or -1)"
+     FIELDNAM        (CDF_CHAR/6): "charge"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I6"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): -32767
+     SCALEMAX        (CDF_INT2/1): 32767
+
+bkg_arr (No: 50) (Recs: 1) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "Background counts array with dimension (96, 64)"
+     FIELDNAM        (CDF_CHAR/7): "bkg_arr"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+31
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+31
+
+orbit_start (No: 51) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Start Orbit of file"
+     FIELDNAM        (CDF_CHAR/11): "orbit_start"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/3): "I11"
+     VALIDMIN        (CDF_INT4/1): -2147483647
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): -2147483647
+     SCALEMAX        (CDF_INT4/1): 2147483647
+
+orbit_end (No: 52) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "End Orbit of file"
+     FIELDNAM        (CDF_CHAR/9): "orbit_end"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/3): "I11"
+     VALIDMIN        (CDF_INT4/1): -2147483647
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): -2147483647
+     SCALEMAX        (CDF_INT4/1): 2147483647
+
+compno_96 (No: 53) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "Energy Bin No"
+     FIELDNAM        (CDF_CHAR/13): "Energy Bin No"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "Energy Bin No"
+     FILLVAL         (CDF_INT2/1): 0
+     FORMAT          (CDF_CHAR/2): "I3"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     DICT_KEY        (CDF_CHAR/6): "number"
+
+compno_64 (No: 54) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "PA Bin No"
+     FIELDNAM        (CDF_CHAR/9): "PA Bin No"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/9): "PA Bin No"
+     FILLVAL         (CDF_INT2/1): 0
+     FORMAT          (CDF_CHAR/2): "I3"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     DICT_KEY        (CDF_CHAR/6): "number"
+
+energy_labl_96 (No: 55) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "energy_labl_96"
+     FIELDNAM        (CDF_CHAR/14): "energy_labl_96"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A17"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+angle_labl_64 (No: 56) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "angle_labl_64"
+     FIELDNAM        (CDF_CHAR/13): "angle_labl_64"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A12"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+eflux_bypitch_labl (No: 57) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Energy Flux by Pitch Angle labels"
+     FIELDNAM        (CDF_CHAR/33): "Energy Flux by Pitch Angle labels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A26"
+     DICT_KEY        (CDF_CHAR/11): "label>angle"
+
+eflux_byenergy_labl (No: 58) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Energy Flux by Energy labels"
+     FIELDNAM        (CDF_CHAR/28): "Energy Flux by Energy labels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/12): "label>energy"
+

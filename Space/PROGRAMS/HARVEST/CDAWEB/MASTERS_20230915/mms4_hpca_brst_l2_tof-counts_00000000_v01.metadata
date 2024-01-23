@@ -1,0 +1,231 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/mms4_hpca_brst_l2_tof-counts_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     mms4_hpca_brst_l2_tof-counts_00000000_v01.cdf
+Version:      3.9.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     45 (25 global, 20 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+PacketName (1 entry):
+	0 (CDF_CHAR/3): 	"tof"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"STP>Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/27): 	"MMS4>MMS Satellite Number 4"
+Descriptor (1 entry):
+	0 (CDF_CHAR/37): 	"HPCA> Hot Plasma Composition Analyzer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/1): 	""
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	""
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/13): 	"PI determined"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/43): 	"Confer with PI for rules of acknowledgement"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/41): 	"Level 1b> Hot Plasma Composition Analyzer"
+Mission_group (1 entry):
+	0 (CDF_CHAR/3): 	"MMS"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+PI_name (1 entry):
+	0 (CDF_CHAR/21): 	"J. Burch, S. Fuselier"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/4): 	"SWRI"
+Processing Code Revision (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/26): 	"http://hpca.space.swri.edu"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/45): 	"Data from the Hot Plasma Composition Analyzer"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/4): 	"MMS4"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/13): 	"0.625 seconds"
+Data_type (1 entry):
+	0 (CDF_CHAR/22): 	"brst_l1b_tof_histogram"
+Logical_source (1 entry):
+	0 (CDF_CHAR/28): 	"mms4_hpca_brst_l2_tof-counts"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/41): 	"mms4_hpca_brst_l2_tof-counts_00000000_v01"
+
+Variable Attributes (20 attributes)
+=========================================
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+FIELDNAM
+VALIDMIN
+VALIDMAX
+FILLVAL
+UNITS
+SI_CONVERSION
+FORMAT
+CATDESC
+VAR_TYPE
+DISPLAY_TYPE
+MONOTON
+TIME_BASE
+LABLAXIS
+SCALETYP
+DEPEND_0
+DEPEND_1
+DEPEND_2
+COORDINATE_SYSTEM
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+Epoch_MINUS           CDF_UINT2/1	0:[]	F/  
+Epoch_PLUS            CDF_UINT2/1	0:[]	F/  
+mms4_hpca_tof_energy  CDF_FLOAT/1	1:[8]	F/T
+mms4_hpca_tof_energy_delta_minus CDF_FLOAT/1	1:[8]	F/T
+mms4_hpca_tof_energy_delta_plus CDF_FLOAT/1	1:[8]	F/T
+mms4_hpca_tof_bin_index CDF_UINT1/1	1:[128]	F/T
+mms4_hpca_tof_counts  CDF_UINT2/1	2:[8,128]	T/TT
+
+
+Variable (8 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     DELTA_MINUS_VAR (CDF_CHAR/11): "Epoch_MINUS"
+     DELTA_PLUS_VAR  (CDF_CHAR/10): "Epoch_PLUS"
+     FIELDNAM        (CDF_CHAR/27): "UTC converted from TAI time"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2100-01-01T00:00:00.000000000
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     UNITS           (CDF_CHAR/2): "ns"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-9>s"
+     FORMAT          (CDF_CHAR/5): "E14.8"
+     CATDESC         (CDF_CHAR/25): "Start time for the record"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     MONOTON         (CDF_CHAR/10): "INCREASING"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+
+Epoch_MINUS (No: 1) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Delta start time"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 1000
+     UNITS           (CDF_CHAR/2): "ms"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-3>s"
+     FORMAT          (CDF_CHAR/2): "%d"
+     CATDESC         (CDF_CHAR/53): "Delta start time for the record from the central time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+Epoch_PLUS (No: 2) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Delta start time"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 1000
+     UNITS           (CDF_CHAR/2): "ms"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-3>s"
+     FORMAT          (CDF_CHAR/2): "%d"
+     CATDESC         (CDF_CHAR/53): "Delta start time for the record from the central time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+mms4_hpca_tof_energy (No: 3) (Recs: 1)
+--------------------
+Attribute Entries:
+     DELTA_MINUS_VAR (CDF_CHAR/32): "mms4_hpca_tof_energy_delta_minus"
+     DELTA_PLUS_VAR  (CDF_CHAR/31): "mms4_hpca_tof_energy_delta_plus"
+     FIELDNAM        (CDF_CHAR/14): "Electron Volts"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 37600.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     UNITS           (CDF_CHAR/4): "eV/q"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     FORMAT          (CDF_CHAR/6): "%13.6e"
+     CATDESC         (CDF_CHAR/59): "MMS4 HPCA: Electron Voltage associated with the tof counts."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+mms4_hpca_tof_energy_delta_minus (No: 4) (Recs: 1)
+--------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Energy Delta Minus"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 37600.0
+     UNITS           (CDF_CHAR/4): "eV/q"
+     FORMAT          (CDF_CHAR/6): "%13.6e"
+     CATDESC         (CDF_CHAR/54): "Delta eV/q for the record from the central TOF voltage"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/18): "Energy Delta Minus"
+
+mms4_hpca_tof_energy_delta_plus (No: 5) (Recs: 1)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Energy Delta Plus"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 37600.0
+     UNITS           (CDF_CHAR/4): "eV/q"
+     FORMAT          (CDF_CHAR/6): "%13.6e"
+     CATDESC         (CDF_CHAR/54): "Delta eV/q for the record from the central TOF voltage"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/17): "Energy Delta Plus"
+
+mms4_hpca_tof_bin_index (No: 6) (Recs: 1)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Bin Index"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "%d"
+     CATDESC         (CDF_CHAR/17): "TOF binning index"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/9): "Bin Index"
+
+mms4_hpca_tof_counts (No: 7) (Recs: 0) (Compression: GZIP.5)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Counts"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65534
+     FILLVAL         (CDF_UINT2/1): 65535
+     UNITS           (CDF_CHAR/1): " "
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     FORMAT          (CDF_CHAR/2): "%d"
+     CATDESC         (CDF_CHAR/46): "TOF Counts for all angles, across all energies"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_hpca_tof_energy"
+     DEPEND_2        (CDF_CHAR/23): "mms4_hpca_tof_bin_index"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "BCS"
+

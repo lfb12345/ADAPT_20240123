@@ -1,0 +1,213 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/formosat5_aip_idn_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     formosat5_aip_idn_00000000_v01.cdf
+Version:      3.7.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     40 (22 global, 18 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (22 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/32): 	"NSPO>National Space Organization"
+Source_name (1 entry):
+	0 (CDF_CHAR/15): 	"FS-5>FORMOSAT-5"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"1 second"
+Descriptor (1 entry):
+	0 (CDF_CHAR/30): 	"AIP>Advanced Ionospheric Probe"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"FS5_K0_AIP_00000000_V01"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"C.K. Chao"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/350): 	"Please write 'We are grateful to NSPO, Taiwan, for the formosat-5 data.' in acknowledgment. Please cite 'Lin, Z. W., C. K. Chao, J. Y. Liu, C. M. Huang, Y. H. Chu, C. L. Su, Y. C. Mao, and Y. S. Chang (2017), Advanced Ionospheric Probe scientific mission onboard FORMOSAT-5 satellite, Terr. Atmos. Ocean. Sci., doi: 10.3319/TAO.2016.09.14.01(EOF5).'."
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"NCU"
+TEXT (1 entry):
+	0 (CDF_CHAR/842): 	"IDN>Ion Number Density. Advanced Ionospheric Probe (AIP) is provided by Graduate Institute of Space Science, National Central University (NCU) for the FORMOSAT-5 satellite as a scientific payload. The AIP is an all-in-one plasma sensor with sampling rate up to 8,192 Hz to measure ionospheric plasma concentrations, velocities, and temperatures over a wide range of spatial scales. Once a comprehensive dataset is available from the AIP, a systematic examination of longitudinal and seasonal variations of the ionospheric parameters in the topside F region can be conducted for all latitudinal coverage. The transient and long-term variations of ionospheric plasma can be monitored in the upcoming solar maximum period and are beneficial to predict the trend of the space weather as well as the seismic precursors associated with earthquakes."
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/23): 	"AIP/Science Data Center"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/7): 	"AIP/SDC"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/24): 	"http://sdc.ss.ncu.edu.tw"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/8): 	"Formosat"
+Logical_source (1 entry):
+	0 (CDF_CHAR/17): 	"FORMOSAT5_AIP_IDN"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/51): 	"FORMOSAT-5, Advanced Ionospheric Probe, Ion Density"
+Parent (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NC_KIND (1 entry):
+	0 (CDF_CHAR/7): 	"classic"
+NC_DIMENSIONS_G (1 entry):
+	0 (CDF_CHAR/15): 	"uTIME=UNLIMITED"
+
+Variable Attributes (18 attributes)
+=========================================
+NC_DIMENSIONS_V
+CATDESC
+DEPEND_0
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+UNITS
+TIME_BASE
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+VAR_NOTES
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+time_base             CDF_EPOCH/1	0:[]	F/  
+uTIME                 CDF_DOUBLE/1	0:[]	T/  
+gLAT                  CDF_FLOAT/1	0:[]	T/  
+gLON                  CDF_FLOAT/1	0:[]	T/  
+gALT                  CDF_FLOAT/1	0:[]	T/  
+Ni                    CDF_FLOAT/1	0:[]	T/  
+
+
+Variable (7 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0) (Compression: GZIP.9)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "time_inboard"
+     FIELDNAM        (CDF_CHAR/10): "time_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/4): "msec"
+     TIME_BASE       (CDF_CHAR/22): "1970-01-01 00:00:00 AD"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/9): "time_base"
+     COMPONENT_1     (CDF_CHAR/5): "uTIME"
+     VAR_NOTES       (CDF_CHAR/43): "Date in msec - Base+uTIME, computed by SPDF"
+
+time_base (No: 1) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "time base"
+     FIELDNAM        (CDF_CHAR/9): "Time_base"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     UNITS           (CDF_CHAR/4): "msec"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/62): "EPOCH of 01-Jan-1970 00:00:00 - SPDF added base variable/value"
+
+uTIME (No: 2) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "uTIME"
+     CATDESC         (CDF_CHAR/59): "Time of observation, in UNIX seconds, ignoring leap seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "Time since 1970 (POSIX)"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E14.0"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/34): "seconds since 1970-01-01T00:00:00Z"
+     TIME_BASE       (CDF_CHAR/5): "fixed"
+     VALIDMIN        (CDF_DOUBLE/1): 2.0e+09
+     VALIDMAX        (CDF_DOUBLE/1): 2.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+gLAT (No: 3) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "uTIME"
+     CATDESC         (CDF_CHAR/19): "Geographic Latitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "Geographic Latitude (degrees)"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     LABLAXIS        (CDF_CHAR/4): "gLAT"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+gLON (No: 4) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "uTIME"
+     CATDESC         (CDF_CHAR/20): "Geographic Longitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "Geographic Longitude (degrees)"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     LABLAXIS        (CDF_CHAR/4): "gLON"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+gALT (No: 5) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "uTIME"
+     CATDESC         (CDF_CHAR/13): "Altitude (km)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "Altitude (km)"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     LABLAXIS        (CDF_CHAR/3): "ALT"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): 300.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Ni (No: 6) (Recs: 0) (Compression: GZIP.6)
+--
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "uTIME"
+     CATDESC         (CDF_CHAR/18): "Ion number density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): "Ion Number Density FS-5/AIP (cm-3)"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     LABLAXIS        (CDF_CHAR/2): "Ni"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VALIDMIN        (CDF_FLOAT/1): 1.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+

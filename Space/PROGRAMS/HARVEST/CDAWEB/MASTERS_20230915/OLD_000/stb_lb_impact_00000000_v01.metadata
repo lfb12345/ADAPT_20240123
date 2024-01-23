@@ -1,0 +1,2034 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/stb_lb_impact_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     stb_lb_impact_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     122
+NumAttrs:     51 (28 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (28 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/28): 	"STP>Solar Terrestrial Probes"
+Source_name (1 entry):
+	0 (CDF_CHAR/75): 	"STEREOB>SolarTerrestrial Relations Observatory Behind of the Sun-Earth Line"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"LB>Level Beacon"
+Descriptor (1 entry):
+	0 (CDF_CHAR/59): 	"IMPACT>In-situ Measurements of Particles and CME Transients"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"J. Luhmann"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"UCB/SSL"
+TEXT (2 entries):
+	0 (CDF_CHAR/90): 	"This file contains Beacon data from the IMPACT experiment on the STEREO Behind spacecraft."
+	1 (CDF_CHAR/244): 	"Note: The onboard SWEA calculation of moments and PADs are compromised by a charging effect at low energies. STE-U is not providing any science data as the instrument is blinded by sunlight and thus these variables are not accessible via CDAWeb"
+CAVEAT (1 entry):
+	0 (CDF_CHAR/275): 	"IMPACT Beacon data is not science quality data.  Instead users should use IMPACT Level 1 data when it becomes available. These Beacon data are provided to allow event detection and preliminary analysis while the Level 1 data are processed, which sometimes takes a few months."
+Instrument_type (2 entries):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+	1 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"STEREO"
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"stb_lb_impact"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"stb_lb_impact_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/32): 	"STEREO Behind IMPACT Beacon Data"
+Time_resolution (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/50): 	"Experiment and Data descriptions for STEREO/IMPACT"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/21): 	"STEREO/IMPACT PI Site"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/impact"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/50): 	"spase://NASA/NumericalData/STEREO-B/IMPACT/LB/PT1M"
+
+Variable Attributes (23 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 122 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+label_B_STAHGRTN      CDF_CHAR/22	1:[3]	F/T
+MAGBField             CDF_REAL4/1	1:[3]	T/T
+Epoch_MAG             CDF_EPOCH/1	0:[]	T/  
+Nelectrons            CDF_REAL4/1	0:[]	T/  
+Ve                    CDF_REAL4/1	1:[3]	T/T
+Ve_LABL_1             CDF_CHAR/5	1:[3]	F/T
+Pe                    CDF_REAL4/1	1:[6]	T/T
+Pe_LABL_1             CDF_CHAR/9	1:[6]	F/T
+He                    CDF_REAL4/1	1:[3]	T/T
+He_LABL_1             CDF_CHAR/5	1:[3]	F/T
+V0                    CDF_REAL4/1	0:[]	T/  
+MagAz                 CDF_REAL4/1	0:[]	T/  
+MagEl                 CDF_REAL4/1	0:[]	T/  
+SWEAPAD               CDF_REAL4/1	3:[2,6,2]	T/TTT
+STEUns                CDF_REAL4/1	1:[5]	T/T
+STEUns_LABL_1         CDF_CHAR/7	1:[5]	F/T
+STEUs                 CDF_REAL4/1	1:[5]	T/T
+STED                  CDF_REAL4/1	1:[5]	T/T
+SWEAPAD_Energy        CDF_REAL8/1	1:[2]	F/T
+SWEAPAD_Deflector     CDF_REAL8/1	1:[6]	F/T
+SWEAPAD_Anode         CDF_REAL8/1	1:[2]	F/T
+Epoch_SEP             CDF_EPOCH/1	0:[]	T/  
+SEP_SW_Version        CDF_UINT4/1	0:[]	F/  
+HETLiveTime           CDF_DOUBLE/1	0:[]	T/  
+STE_Energy            CDF_REAL4/1	1:[5]	F/T
+STE_Low_Energy        CDF_REAL4/1	1:[5]	F/T
+STE_High_Energy       CDF_REAL4/1	1:[5]	F/T
+SWEAPAD_LABL_1        CDF_CHAR/136	1:[2]	F/T
+SWEAPAD_LABL_2        CDF_CHAR/139	1:[6]	F/T
+SWEAPAD_LABL_3        CDF_CHAR/135	1:[2]	F/T
+LETLiveTime           CDF_DOUBLE/1	0:[]	T/  
+LETTrigRate           CDF_UINT4/1	0:[]	T/  
+LETHazRate            CDF_UINT4/1	0:[]	T/  
+LETAcceptRate         CDF_UINT4/1	0:[]	T/  
+LETCodeOK             CDF_UINT4/1	0:[]	T/  
+LETHeaterDutyCycle    CDF_UINT4/1	0:[]	T/  
+LETLeakConv           CDF_UINT4/1	0:[]	T/  
+LETDyThState          CDF_UINT4/1	0:[]	T/  
+LETMinute             CDF_UINT4/1	0:[]	T/  
+SEPTStatus            CDF_UINT4/1	0:[]	T/  
+ISCStatus             CDF_UINT4/1	0:[]	T/  
+InterfaceActive       CDF_UINT4/1	0:[]	T/  
+SWEAModeID            CDF_UINT4/1	0:[]	T/  
+STEModeID             CDF_UINT4/1	0:[]	T/  
+Epoch_SWEA            CDF_EPOCH/1	0:[]	T/  
+MAGHKP                CDF_UINT4/1	0:[]	T/  
+HETElectronFlux       CDF_DOUBLE/1	0:[]	T/  
+HETProtonFlux         CDF_DOUBLE/1	1:[3]	T/T
+HET3EnergyBins        CDF_UINT4/1	1:[3]	F/T
+HETHeFlux             CDF_DOUBLE/1	1:[3]	T/T
+HET3FluxEnergies      CDF_CHAR/144	1:[3]	F/T
+HETCNOFlux            CDF_DOUBLE/1	1:[2]	T/T
+HET2EnergyBins        CDF_UINT4/1	1:[2]	F/T
+HET2FluxEnergies      CDF_CHAR/143	1:[2]	F/T
+HETFeFlux             CDF_DOUBLE/1	0:[]	T/  
+SITHeFlux             CDF_DOUBLE/1	1:[4]	T/T
+SITEnergyBins         CDF_UINT4/1	1:[4]	F/T
+SITFluxEnergies       CDF_CHAR/147	1:[4]	F/T
+SITCNOFlux            CDF_DOUBLE/1	1:[4]	T/T
+SITFeFlux             CDF_DOUBLE/1	1:[4]	T/T
+LETProtonFlux         CDF_DOUBLE/1	1:[4]	T/T
+LETProtonBins         CDF_UINT4/1	1:[4]	F/T
+LETProtonLabels       CDF_CHAR/161	1:[4]	F/T
+LET4HeFlux            CDF_DOUBLE/1	1:[5]	T/T
+LET4HeBins            CDF_UINT4/1	1:[5]	F/T
+LET3HeFlux            CDF_DOUBLE/1	1:[2]	T/T
+LET4HeLabels          CDF_CHAR/167	1:[5]	F/T
+LET3HeBins            CDF_UINT4/1	1:[2]	F/T
+LET3HeLabels          CDF_CHAR/143	1:[2]	F/T
+LETCNOFlux            CDF_DOUBLE/1	1:[3]	T/T
+LETCNOBins            CDF_UINT4/1	1:[3]	F/T
+LETFeFlux             CDF_DOUBLE/1	1:[4]	T/T
+LETCNOLabels          CDF_CHAR/143	1:[3]	F/T
+LETFeBins             CDF_UINT4/1	1:[4]	F/T
+LETFeLabels           CDF_CHAR/143	1:[4]	F/T
+SEPTElectronFlux      CDF_DOUBLE/1	1:[10]	T/T
+SEPTElectronBins      CDF_UINT4/1	1:[10]	F/T
+SEPTElectronLabels    CDF_CHAR/152	1:[10]	F/T
+SEPTIonFlux           CDF_DOUBLE/1	1:[10]	T/T
+SEPTIonBins           CDF_UINT4/1	1:[10]	F/T
+SEPTIonLabels         CDF_CHAR/156	1:[10]	F/T
+HETElectronCnts       CDF_UINT4/1	0:[]	T/  
+HETProtonCnts         CDF_UINT4/1	1:[3]	T/T
+HETCNOCnts            CDF_UINT4/1	1:[2]	T/T
+HETFeCnts             CDF_UINT4/1	0:[]	T/  
+SITHeCnts             CDF_UINT4/1	1:[4]	T/T
+SITCNOCnts            CDF_UINT4/1	1:[4]	T/T
+SITFeCnts             CDF_UINT4/1	1:[4]	T/T
+LETProtonCnts         CDF_UINT4/1	1:[4]	T/T
+LET4HeCnts            CDF_UINT4/1	1:[5]	T/T
+LET3HeCnts            CDF_UINT4/1	1:[2]	T/T
+LETCNOCnts            CDF_UINT4/1	1:[3]	T/T
+LETFeCnts             CDF_UINT4/1	1:[4]	T/T
+SEPTElectronCnts      CDF_UINT4/1	1:[10]	T/T
+SEPTIonCnts           CDF_UINT4/1	1:[10]	T/T
+HETHeCnts             CDF_UINT4/1	1:[3]	T/T
+HETMode               CDF_BYTE/1	0:[]	T/  
+SFSEPTElectrons       CDF_DOUBLE/1	0:[]	T/  
+SFHETElectrons        CDF_DOUBLE/1	0:[]	T/  
+SFSEPTIons1           CDF_DOUBLE/1	0:[]	T/  
+SFSEPTIons2           CDF_DOUBLE/1	0:[]	T/  
+SFLETProtons          CDF_DOUBLE/1	0:[]	T/  
+SFHETProtons          CDF_DOUBLE/1	0:[]	T/  
+SFSITHe               CDF_DOUBLE/1	0:[]	T/  
+SFSITCNO              CDF_DOUBLE/1	0:[]	T/  
+SFSITFe               CDF_DOUBLE/1	0:[]	T/  
+SFLETHe               CDF_DOUBLE/1	0:[]	T/  
+SFLETCNO              CDF_DOUBLE/1	0:[]	T/  
+SFLETFe               CDF_DOUBLE/1	0:[]	T/  
+SCSEPTElectrons       CDF_UINT4/1	0:[]	T/  
+SCHETElectrons        CDF_UINT4/1	0:[]	T/  
+SCSEPTIons1           CDF_UINT4/1	0:[]	T/  
+SCSEPTIons2           CDF_UINT4/1	0:[]	T/  
+SCLETProtons          CDF_UINT4/1	0:[]	T/  
+SCHETProtons          CDF_UINT4/1	0:[]	T/  
+SCSITHe               CDF_UINT4/1	0:[]	T/  
+SCSITCNO              CDF_UINT4/1	0:[]	T/  
+SCSITFe               CDF_UINT4/1	0:[]	T/  
+SCLETHe               CDF_UINT4/1	0:[]	T/  
+SCLETCNO              CDF_UINT4/1	0:[]	T/  
+SCLETFe               CDF_UINT4/1	0:[]	T/  
+
+
+Variable (122 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Time since 0 AD"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/57): "Interval centered time tag rounded to nearest millisecond"
+
+label_B_STAHGRTN (No: 1) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "Cartesian labels for B in STEREO-A HGRTN."
+     FIELDNAM        (CDF_CHAR/29): "Label Cartesian B in STAHGRTN"
+     FORMAT          (CDF_CHAR/3): "a12"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/80): "Cartersian labels for B in STEREO-A Heliocentric Radial Tangential Normal Frame."
+
+MAGBField (No: 2) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/83): "Magnetic field vector in STEREO-A Heliocentric Radial Tangential Normal coordinates"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_MAG"
+     DEPEND_1        (CDF_CHAR/16): "label_B_STAHGRTN"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/45): "Magnetic field vector in STAHGRTN coordinates"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/16): "label_B_STAHGRTN"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/3): -65534.0, -65534.0, -65534.0
+     VALIDMAX        (CDF_REAL4/3): 65534.0, 65534.0, 65534.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Epoch_MAG (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Time since 0 AD"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/57): "Interval centered time tag rounded to nearest millisecond"
+
+Nelectrons (No: 4) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Electron number density from SWEA on the STEREO-A spacecraft."
+     DEPEND_0        (CDF_CHAR/10): "Epoch_SWEA"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "Electron number density "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/2): "Ne"
+     UNITS           (CDF_CHAR/6): "cnts/s"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): inf
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/32): "TJK made ignore_data - see TEXT "
+
+Ve (No: 5) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Electron velocity from SWEA in STEREO-A HGRTN coordinates"
+     DEPEND_0        (CDF_CHAR/10): "Epoch_SWEA"
+     DEPEND_1        (CDF_CHAR/9): "Ve_LABL_1"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "Electron velocity in STAHGRTN"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/9): "Ve_LABL_1"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/3): -inf, -inf, -inf
+     VALIDMAX        (CDF_REAL4/3): inf, inf, inf
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/58): "TJK made ignore_data as SWEA calcs. of moments are flawed "
+
+Ve_LABL_1 (No: 6) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Ve_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/9): "Ve_LABL_1"
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Pe (No: 7) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Electron pressure tensor from SWEA in STEREO-A HGRTN coordinates"
+     DEPEND_0        (CDF_CHAR/10): "Epoch_SWEA"
+     DEPEND_1        (CDF_CHAR/9): "Pe_LABL_1"
+     DICT_KEY        (CDF_CHAR/8): "pressure"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/36): "Electron pressure tensor in STAHGRTN"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/9): "Pe_LABL_1"
+     UNITS           (CDF_CHAR/7): "eV/cm^3"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+25
+     VALIDMAX        (CDF_REAL4/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/58): "TJK made ignore_data as SWEA calcs. of moments are flawed "
+
+Pe_LABL_1 (No: 8) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Pe_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/9): "Pe_LABL_1"
+     FORMAT          (CDF_CHAR/2): "a7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+He (No: 9) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Electron heat flux from SWEA in STEREO-A HGRTN coordinates"
+     DEPEND_0        (CDF_CHAR/10): "Epoch_SWEA"
+     DEPEND_1        (CDF_CHAR/9): "He_LABL_1"
+     DICT_KEY        (CDF_CHAR/11): "temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "Electron heat flux in STAHGRTN"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/9): "He_LABL_1"
+     UNITS           (CDF_CHAR/9): "eV/cm^2/s"
+     VALIDMIN        (CDF_REAL4/3): -inf, -inf, -inf
+     VALIDMAX        (CDF_REAL4/3): inf, inf, inf
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/58): "TJK made ignore_data as SWEA calcs. of moments are flawed "
+
+He_LABL_1 (No: 10) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "He_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/9): "He_LABL_1"
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+V0 (No: 11) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "SWEA V0"
+     DEPEND_0        (CDF_CHAR/10): "Epoch_SWEA"
+     DICT_KEY        (CDF_CHAR/5): "power"
+     FIELDNAM        (CDF_CHAR/7): "SWEA V0"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/2): "V0"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+MagAz (No: 12) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "Magnetic field azimuth in SWEA coordinates"
+     DEPEND_0        (CDF_CHAR/10): "Epoch_SWEA"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     FIELDNAM        (CDF_CHAR/42): "Magnetic field azimuth in SWEA coordinates"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/11): "MagAz(SWEA)"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_REAL4/1): -360.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+MagEl (No: 13) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Magnetic field elevation in SWEA coordinates"
+     DEPEND_0        (CDF_CHAR/10): "Epoch_SWEA"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     FIELDNAM        (CDF_CHAR/44): "Magnetic field elevation in SWEA coordinates"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/11): "MagEl(SWEA)"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_REAL4/1): -360.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWEAPAD (No: 14) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Electron Pitch Angle Distribution in SWEA coordinates"
+     DEPEND_0        (CDF_CHAR/10): "Epoch_SWEA"
+     DEPEND_1        (CDF_CHAR/14): "SWEAPAD_Energy"
+     DEPEND_2        (CDF_CHAR/17): "SWEAPAD_Deflector"
+     DEPEND_3        (CDF_CHAR/13): "SWEAPAD_Anode"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/33): "Electron Pitch Angle Distribution"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/14): "SWEAPAD_LABL_1"
+     LABL_PTR_2      (CDF_CHAR/14): "SWEAPAD_LABL_2"
+     LABL_PTR_3      (CDF_CHAR/14): "SWEAPAD_LABL_3"
+     UNITS           (CDF_CHAR/11): "cnts/cm^2/s"
+     VALIDMIN        (CDF_REAL4/1): -inf
+     VALIDMAX        (CDF_REAL4/1): inf
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/58): "TJK made ignore_data as SWEA calcs. of moments are flawed "
+
+STEUns (No: 15) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Non-solar electron spectrum from STE-U (upstream)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/36): "Non-solar upstream electron spectrum"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/13): "STEUns_LABL_1"
+     UNITS           (CDF_CHAR/11): "cnts/cm^2/s"
+     VALIDMIN        (CDF_REAL4/1): -inf
+     VALIDMAX        (CDF_REAL4/1): inf
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/58): "TJK made ignore_data as SWEA calcs. of moments are flawed "
+
+STEUns_LABL_1 (No: 16) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "STEUns_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/10): "STE_LABL_1"
+     FORMAT          (CDF_CHAR/2): "a6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+STEUs (No: 17) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "Solar electron spectrum from STE-U (upstream)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "Solar upstream electron spectrum"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/13): "STEUns_LABL_1"
+     UNITS           (CDF_CHAR/11): "cnts/cm^2/s"
+     VALIDMIN        (CDF_REAL4/1): -inf
+     VALIDMAX        (CDF_REAL4/1): inf
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     VAR_NOTES       (CDF_CHAR/58): "TJK made ignore_data as SWEA calcs. of moments are flawed "
+
+STED (No: 18) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "Electron spectrum from STE-D (downstream)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/28): "Downstream electron spectrum"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/13): "STEUns_LABL_1"
+     UNITS           (CDF_CHAR/11): "cnts/cm^2/s"
+     VALIDMIN        (CDF_REAL4/1): -inf
+     VALIDMAX        (CDF_REAL4/1): inf
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SWEAPAD_Energy (No: 19) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "SWEA PAD energy bins"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     FIELDNAM        (CDF_CHAR/14): "SWEAPAD_Energy"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL8/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL8/2): 1.0e+10, 1.0e+10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWEAPAD_Deflector (No: 20) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "SWEA PAD Deflector Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/17): "SWEAPAD_Deflector"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/9): "Deflector"
+     UNITS           (CDF_CHAR/6): "number"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 6.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWEAPAD_Anode (No: 21) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "SWEA PAD Anode Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/13): "SWEAPAD_Anode"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/5): "Anode"
+     UNITS           (CDF_CHAR/6): "Number"
+     VALIDMIN        (CDF_REAL8/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL8/2): 10.0, 10.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Epoch_SEP (No: 22) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Time since 0 AD"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/57): "Interval centered time tag rounded to nearest millisecond"
+
+SEP_SW_Version (No: 23) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "SEP Beacon Software Version Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/14): "SEP SW Version"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/14): "SEP SW Version"
+     UNITS           (CDF_CHAR/6): "Number"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+HETLiveTime (No: 24) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "SEP/HET Livetime"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "HET Livetime"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/12): "HET Livetime"
+     UNITS           (CDF_CHAR/1): "s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+STE_Energy (No: 25) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Center of STE Spectra Energy Bins"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     FIELDNAM        (CDF_CHAR/18): "STE Spectra Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/13): "STEUns_LABL_1"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+STE_Low_Energy (No: 26) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "Low Edge of STE Spectra Energy Bins"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     FIELDNAM        (CDF_CHAR/24): "STE Spectra Lower Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/13): "STEUns_LABL_1"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+STE_High_Energy (No: 27) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "High Edge of STE Spectra Energy Bins"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     FIELDNAM        (CDF_CHAR/25): "STE Spectra Higher Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/13): "STEUns_LABL_1"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWEAPAD_LABL_1 (No: 28) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "SWEAPAD_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/14): "SWEAPAD_LABL_1"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+SWEAPAD_LABL_2 (No: 29) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "SWEAPAD_LABL_2"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/14): "SWEAPAD_LABL_2"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+SWEAPAD_LABL_3 (No: 30) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "SWEAPAD_LABL_3"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/14): "SWEAPAD_LABL_3"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+LETLiveTime (No: 31) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "---> SEP/LET Livetime"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "LET Livetime"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/12): "LET Livetime"
+     UNITS           (CDF_CHAR/1): "s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+LETTrigRate (No: 32) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "---> LET Number of Front-end Triggers"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "LET Trig Rate"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/13): "LET Trig Rate"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+LETHazRate (No: 33) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "---> LET Number of events with hazard flag"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "LET Hazard Rate"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/15): "LET Hazard Rate"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+LETAcceptRate (No: 34) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "---> LET Number of accepted events"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/23): "LET Accepted Event Rate"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/15): "LET Accept Rate"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+LETCodeOK (No: 35) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "---> LET Code OK. Internal code check, 1=good, 0=bad"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "LET Code OK"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/11): "LET Code OK"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+LETHeaterDutyCycle (No: 36) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "---> LET Heater Duty Cycle"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "LET Heater Duty Cycle"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/14): "LET Duty Cycle"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+LETLeakConv (No: 37) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "---> LET Leakage Current Balance, 1=ok, 0=bad"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "LET Leakage Current Balance"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/13): "LET Leak Conv"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+LETDyThState (No: 38) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/77): "---> LET Dynamic Thresholding State, 0=normal, 1,2,3=higher threshold setting"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "LET Dynamic Thresholding"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/13): "LET Leak Conv"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+LETMinute (No: 39) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "---> LET Minute Counter - rolls over at 60"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "LET Minute Counter"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/18): "LET Minute Counter"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 60
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+SEPTStatus (No: 40) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "---> SEPT Status Code"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "SEPT Status Code"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/11): "SEPT Status"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/219): "Bit 0 , if set, indicates overflow in SEP channel 0 above (lowest energy electon channel)..Bit 1, if set, indicates overflow in channel 1..Bit 19, if set, indicates overflow in channel 19..Bits 20 and higher are spares."
+
+ISCStatus (No: 41) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "---> Spacecraft Status code"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "ISCStatus"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/9): "SC Status"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+InterfaceActive (No: 42) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "---> Instrument Activity Code"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "Interface Activity"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/14): "Interface Code"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+SWEAModeID (No: 43) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "---> SWEA Mode ID"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "SWEA Mode ID"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/9): "SWEA Mode"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+STEModeID (No: 44) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "---> STE Mode ID"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "STE Mode ID"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/8): "STE Mode"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Epoch_SWEA (No: 45) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Time since 0 AD"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/57): "Interval centered time tag rounded to nearest millisecond"
+
+MAGHKP (No: 46) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "---> MAG HKP Status Code"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "MAG Status"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/7): "MAG HKP"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+HETElectronFlux (No: 47) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "HET Electron Flux between 0.7 and 4 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "HET Electron Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/17): "HET Electron Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+HETProtonFlux (No: 48) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "---> HET Proton Flux measured in 3 energy channels"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/14): "HET3EnergyBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "HET Proton Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/16): "HET3FluxEnergies"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/3): -1.0e+25, -1.0e+25, -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/3): 1.0e+25, 1.0e+25, 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+HET3EnergyBins (No: 49) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "HET Energy Bin Numbers (for 3 bin products)"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/14): "HET3EnergyBins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/14): "HET Energy Bin"
+     UNITS           (CDF_CHAR/3): "bin"
+     VALIDMIN        (CDF_UINT4/3): 0, 0, 0
+     VALIDMAX        (CDF_UINT4/3): 10, 10, 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+HETHeFlux (No: 50) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "---> HET He Flux measured in 3 energy channels"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/14): "HET3EnergyBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "HET He Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/16): "HET3FluxEnergies"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/3): -1.0e+25, -1.0e+25, -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/3): 1.0e+25, 1.0e+25, 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+HET3FluxEnergies (No: 51) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "HET Flux Energies for 3 bin products"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/26): "HET Flux Energies - 3 bins"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+HETCNOFlux (No: 52) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "---> HET CNO Flux in 2 energy bins"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/14): "HET2EnergyBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "HET CNO Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/16): "HET2FluxEnergies"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/2): -1.0e+25, -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/2): 1.0e+25, 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+HET2EnergyBins (No: 53) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "HET Energy Bin Numbers for 2 bins"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/31): "HET Energy Bin Numbers - 2 bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/21): "HET Energy Bin Number"
+     UNITS           (CDF_CHAR/3): "bin"
+     VALIDMIN        (CDF_UINT4/2): 0, 0
+     VALIDMAX        (CDF_UINT4/2): 10, 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+HET2FluxEnergies (No: 54) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "HET2FluxEnergies"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/16): "HET2FluxEnergies"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+HETFeFlux (No: 55) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "---> HET Fe Flux between 52 and 74 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "HET Fe Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/11): "HET Fe Flux"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SITHeFlux (No: 56) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "SIT He Flux in 4 energy bins"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/13): "SITEnergyBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "SIT He Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/15): "SITFluxEnergies"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SITEnergyBins (No: 57) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "SIT Energy Bin Numbers"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/15): "SIT Energy Bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/21): "SIT Energy Bin Number"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SITFluxEnergies (No: 58) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "SIT Flux Energies"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/17): "SIT Flux Energies"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+SITCNOFlux (No: 59) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "---> SIT CNO Flux in 4 energy bins"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/13): "SITEnergyBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "SIT CNO Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/15): "SITFluxEnergies"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SITFeFlux (No: 60) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "---> SIT Fe Flux in 4 energy bins"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/13): "SITEnergyBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "SIT Fe Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/15): "SITFluxEnergies"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+LETProtonFlux (No: 61) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/85): "LET Proton Flux in 4 bins (middle 2 have same energy, but different angular coverage)"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/13): "LETProtonBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "LET Proton Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/15): "LETProtonLabels"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+LETProtonBins (No: 62) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "LET Proton Bin Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/15): "LET Proton Bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/14): "LET Proton Bin"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+LETProtonLabels (No: 63) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "LET Proton Labels"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/17): "LET Proton Labels"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+LET4HeFlux (No: 64) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/102): "---> LET 4He Flux in 5 bins. Bins 1,2 and 3,4 have same energy coverage but different angular coverage"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/10): "LET4HeBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "LET 4He Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/12): "LET4HeLabels"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+LET4HeBins (No: 65) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "LET 4He Bin Numbers"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/12): "LET 4He Bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/11): "LET 4He Bin"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+LET3HeFlux (No: 66) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "---> LET 3He Flux in 2 energies (full 260 deg coverage)"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/10): "LET3HeBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "LET 3He Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/12): "LET3HeLabels"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/2): -1.0e+25, -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/2): 1.0e+25, 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+LET4HeLabels (No: 67) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "LET 4He Labels"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/14): "LET 4He Labels"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+LET3HeBins (No: 68) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "LET 3He Bin Numbers"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/12): "LET 3He Bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/10): "Bin Number"
+     VALIDMIN        (CDF_UINT4/2): 0, 0
+     VALIDMAX        (CDF_UINT4/2): 10, 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+LET3HeLabels (No: 69) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "LET3HeLabels"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/12): "LET3HeLabels"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+LETCNOFlux (No: 70) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "---> LET CNO Flux in 3 energy bins"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/10): "LETCNOBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "LET CNO Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/12): "LETCNOLabels"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/3): -1.0e+25, -1.0e+25, -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/3): 1.0e+25, 1.0e+25, 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+LETCNOBins (No: 71) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "LET CNO Bin Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/12): "LET CNO Bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/10): "Bin Number"
+     VALIDMIN        (CDF_UINT4/3): 0, 0, 0
+     VALIDMAX        (CDF_UINT4/3): 10, 10, 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+LETFeFlux (No: 72) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "---> LET Fe Flux in 4 energy bins"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/9): "LETFeBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "LET Fe Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/11): "LETFeLabels"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+LETCNOLabels (No: 73) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "LET CNO Labels"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/14): "LET CNO Labels"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+LETFeBins (No: 74) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "LET Fe Bin Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/11): "LET Fe Bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/3): "Bin"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+LETFeLabels (No: 75) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "LET Fe Labels"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/13): "LET Fe Labels"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+SEPTElectronFlux (No: 76) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "SEPT Electron Flux (see labels for binning)"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/16): "SEPTElectronBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "SEPT Electron Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/18): "SEPTElectronLabels"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SEPTElectronBins (No: 77) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "SEPT Electron Bin Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/18): "SEPT Electron Bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/3): "bin"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SEPTElectronLabels (No: 78) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "SEPT Electron Labels"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/20): "SEPT Electron Labels"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+SEPTIonFlux (No: 79) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "SEPT Ion Flux (see labels for binning)"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/11): "SEPTIonBins"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "SEPT Ion Flux"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/13): "SEPTIonLabels"
+     UNITS           (CDF_CHAR/21): "1/cm^2-s-ster-MeV/nuc"
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+25
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+25
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SEPTIonBins (No: 80) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "SEPT Ion Bin Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/13): "SEPT Ion Bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/3): "bin"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SEPTIonLabels (No: 81) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "SEPTIonLabels"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/13): "SEPTIonLabels"
+     FORMAT          (CDF_CHAR/4): "a129"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+HETElectronCnts (No: 82) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "HET Electron Counts (0.7 - 4 MeV)"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "HET Electron Counts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/17): "HET Electron Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1410065408
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+HETProtonCnts (No: 83) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "---> HET Proton Counts (in 3 energy bins)"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/14): "HET3EnergyBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "HET Proton Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/16): "HET3FluxEnergies"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/3): 0, 0, 0
+     VALIDMAX        (CDF_UINT4/3): 1000000000, 1000000000, 1000000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+HETCNOCnts (No: 84) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "---> HET CNO Counts (in 2 energy bins)"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/10): "HETCNOFlux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "HET CNO Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/16): "HET2FluxEnergies"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/2): 0, 0
+     VALIDMAX        (CDF_UINT4/2): 1410065408, 1410065408
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+HETFeCnts (No: 85) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "---> HET Fe Cnts (52 - 74 MeV/nuc)"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "HET Fe Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/11): "HET Fe Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SITHeCnts (No: 86) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "SIT He Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/13): "SITEnergyBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "SIT He Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/15): "SITFluxEnergies"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1410065408
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SITCNOCnts (No: 87) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "---> SIT CNO Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/13): "SITEnergyBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "SIT CNO Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/15): "SITFluxEnergies"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SITFeCnts (No: 88) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> SIT Fe Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/13): "SITEnergyBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "SIT Fe Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/15): "SITFluxEnergies"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+LETProtonCnts (No: 89) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "LET Proton Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/13): "LETProtonBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "LET Proton Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/15): "LETProtonLabels"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+LET4HeCnts (No: 90) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "---> LET 4He Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/10): "LET4HeBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "LET 4He Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/12): "LET4HeLabels"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+LET3HeCnts (No: 91) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "---> LET 3He Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/10): "LET3HeBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "LET 3He Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/12): "LET3HeLabels"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/2): 0, 0
+     VALIDMAX        (CDF_UINT4/2): 1410065408, 1410065408
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+LETCNOCnts (No: 92) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "---> LET CNO Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/10): "LETCNOBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "LET CNO Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/12): "LETCNOLabels"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/3): 0, 0, 0
+     VALIDMAX        (CDF_UINT4/3): 1410065408, 1410065408, 1410065408
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+LETFeCnts (No: 93) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> LET Fe Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/9): "LETFeBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "LET Fe Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/11): "LETFeLabels"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SEPTElectronCnts (No: 94) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "SEPT Electron Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/16): "SEPTElectronBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "SEPT Electron Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/18): "SEPTElectronLabels"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1215752192
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SEPTIonCnts (No: 95) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "SEPT Ion Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/11): "SEPTIonBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "SEPT Ion Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/13): "SEPTIonLabels"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+HETHeCnts (No: 96) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "HET He Counts"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DEPEND_1        (CDF_CHAR/14): "HET3EnergyBins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "HET He Cnts"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABL_PTR_1      (CDF_CHAR/16): "HET3FluxEnergies"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/3): 0, 0, 0
+     VALIDMAX        (CDF_UINT4/3): 1410065408, 1410065408, 1410065408
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+HETMode (No: 97) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "HET mode flag (0 = normal, 1 = high rate)"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     FIELDNAM        (CDF_CHAR/13): "HET Mode Flag"
+     FILLVAL         (CDF_BYTE/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/8): "HET Mode"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SFSEPTElectrons (No: 98) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "Summary Flux SEPT Electrons from 0.035 to 0.065 MeV summed in all directions"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "Summary Flux SEPT Electrons"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/13): "Electron Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SFHETElectrons (No: 99) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "---> Summary Flux HET Electrons from 0.7 to 4 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "Summary Flux HET Electrons"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/13): "Electron Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFSEPTIons1 (No: 100) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "---> Summary Flux SEPT Ions from 0.137 to 0.623 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "Summary Flux SEPT Ions 1"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "Ion Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFSEPTIons2 (No: 101) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "---> Summary Flux SEPT Ions from 0.623 to 2.22 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "Summary Flux SEPT Ions 2"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "Ion Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFLETProtons (No: 102) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "---> Summary Flux LET Protons from 2.2 to 12 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "Summary Flux LET Protons"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/11): "Proton Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFHETProtons (No: 103) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "---> Summary Flux HET Protons from 13 to 100 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "Summary Flux HET Protons"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/11): "Proton Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFSITHe (No: 104) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "---> Summary Flux SIT Helium from 0.12 to 1.08 Mev/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "Summary Flux SIT He"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/11): "Helium Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFSITCNO (No: 105) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "---> Summary Flux SIT CNO from 0.12 to 1.08 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/20): "Summary Flux SIT CNO"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "CNO Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFSITFe (No: 106) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "---> Summary Flux SIT Fe from 0.12 to 1.08 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "Summary Flux SIT Fe"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "Fe Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFLETHe (No: 107) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "---> Summary Flux LET Helium from 4 to 12 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "Summary Flux LET He"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/11): "Helium Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFLETCNO (No: 108) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "---> Summary Flux LET CNO from 4 to 12 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/20): "Summary Flux LET CNO"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "CNO Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SFLETFe (No: 109) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "---> Summary Flux LET Fe from 4 to 12 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "Summary Flux LET Fe"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "Fe Flux"
+     UNITS           (CDF_CHAR/17): "1/cm^2-s-ster-MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+100
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+SCSEPTElectrons (No: 110) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Summary Counts SEPT Electrons from 0.035 to 0.065 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "Summary Counts SEPT Electrons"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/13): "Electron Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCHETElectrons (No: 111) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "---> Summary Counts HET Electrons from 0.7 to 4 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/28): "Summary Counts HET Electrons"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/13): "Electron Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCSEPTIons1 (No: 112) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "---> Summary Counts SEPT Ions from 0.137 to 0.623 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "Summary Counts SEPT Ions 1"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/8): "Ion Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCSEPTIons2 (No: 113) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "---> Summary Counts SEPT Ions from 0.623 to 2.22 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "Summary Counts SEPT Ions 2"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/8): "Ion Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCLETProtons (No: 114) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "---> Summary Counts LET Protons from 2.2 to 12 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "Summary Counts LET Protons"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/11): "Proton Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCHETProtons (No: 115) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "---> Summary Counts HET Protons from 13 to 100 MeV"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "Summary Counts HET Protons"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/11): "Proton Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCSITHe (No: 116) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "---> Summary Counts SIT Helium from 0.12 to 1.08 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "Summary Counts SIT He"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/11): "Helium Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCSITCNO (No: 117) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "---> Summary Counts SIT CNO from 0.12 to 1.08 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "Summary Counts SIT CNO"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/8): "CNO Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCSITFe (No: 118) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "---> Summary Counts SIT Fe from 0.12 to 1.08 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "Summary Counts SIT Fe"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/7): "Fe Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCLETHe (No: 119) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "---> Summary Counts LET Helium from 4 to 12 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "Summary Counts LET He"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/11): "Helium Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCLETCNO (No: 120) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "---> Summary Counts LET CNO from 4 to 12 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "Summary Counts LET CNO"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/8): "CNO Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCLETFe (No: 121) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "---> Summary Counts LET Fe from 4 to 12 MeV/nuc"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_SEP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "Summary Counts LET Fe"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/7): "Fe Cnts"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

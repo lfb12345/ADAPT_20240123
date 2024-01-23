@@ -1,0 +1,362 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ge_h2_cpi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ge_h2_cpi_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     9
+NumAttrs:     41 (18 global, 23 variable)
+Compression:  None
+
+Global Attributes (18 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"GEOTAIL>Geomagnetic Tail"
+Data_type (1 entry):
+	0 (CDF_CHAR/42): 	"H2>Solar Wind Plasma Distribution Function"
+Descriptor (1 entry):
+	0 (CDF_CHAR/40): 	"CPI>Comprehensive Plasma Instrumentation"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+TITLE (1 entry):
+	0 (CDF_CHAR/53): 	"Geotail CPI Solar Wind Analyzer Distribution Function"
+TEXT (106 entries):
+	0 (CDF_CHAR/58): 	"      GEOTAIL Prelaunch Report April 1992, SES-TD-92-007SY"
+	1 (CDF_CHAR/1): 	" "
+	2 (CDF_CHAR/67): 	"The Solar Wind Analyzer of the Comprehensive Plasma Instrumentation"
+	3 (CDF_CHAR/73): 	"(CPI-SW) is described by Frank et al., [J. Geomagn. Geoelect., Volume 46,"
+	4 (CDF_CHAR/69): 	"pp. 23-37, 1994].  See also http://www-pi.physics.uiowa.edu/www/cpi/."
+	5 (CDF_CHAR/1): 	" "
+	6 (CDF_CHAR/64): 	"Three dimensional ion velocity distributions, f(v), are given at"
+	7 (CDF_CHAR/73): 	"approximately 2.4 minute intervals.  Ion values of f(v) are tabulated in:"
+	8 (CDF_CHAR/1): 	" "
+	9 (CDF_CHAR/71): 	"  (12 detector fields of view) * (21 Spin Sectors) * (64 E/Q Passbands)"
+	10 (CDF_CHAR/1): 	" "
+	11 (CDF_CHAR/68): 	"Thus there are 16,128 samples for ions given approximately once each"
+	12 (CDF_CHAR/75): 	"2.4 minutes.  The values of f(v) are in log(base10) with units (s**3/cm**6)"
+	13 (CDF_CHAR/67): 	"computed with the assumption that the ions are protons.  Angles are"
+	14 (CDF_CHAR/70): 	"specified in right-handed spacecraft coordinates with Z along the spin"
+	15 (CDF_CHAR/70): 	"axis and X toward the sun.  If the response is less than the one-count"
+	16 (CDF_CHAR/59): 	"threshold of the sensors the value given for f(v) is -31.0."
+	17 (CDF_CHAR/1): 	" "
+	18 (CDF_CHAR/68): 	"The 12 detector fields-of-view (FOV) include particles with velocity"
+	19 (CDF_CHAR/60): 	"vectors directed into the following ranges of Theta and Phi."
+	20 (CDF_CHAR/1): 	" "
+	21 (CDF_CHAR/36): 	"              Angular Coverage, Ions"
+	22 (CDF_CHAR/36): 	"              ______________________"
+	23 (CDF_CHAR/33): 	"    Detector    Theta         Phi"
+	24 (CDF_CHAR/34): 	"     FOV        Range        Range"
+	25 (CDF_CHAR/36): 	"              (degrees)    (degrees)"
+	26 (CDF_CHAR/36): 	"    _______   _________    _________"
+	27 (CDF_CHAR/35): 	"      1        60 -  66    -8  -  7"
+	28 (CDF_CHAR/35): 	"      2        65 -  71    -7  -  6"
+	29 (CDF_CHAR/35): 	"      3        70 -  76    -6  -  5"
+	30 (CDF_CHAR/35): 	"      4        75 -  81    -5  -  4"
+	31 (CDF_CHAR/35): 	"      5        79 -  86    -4  -  3"
+	32 (CDF_CHAR/35): 	"      6        84 -  91    -3  -  2"
+	33 (CDF_CHAR/35): 	"      7        89 -  96    -3  -  2"
+	34 (CDF_CHAR/35): 	"      8        94 - 101    -4  -  3"
+	35 (CDF_CHAR/35): 	"      9        99 - 105    -5  -  4"
+	36 (CDF_CHAR/35): 	"     10       104 - 110    -6  -  5"
+	37 (CDF_CHAR/35): 	"     11       109 - 115    -7  -  6"
+	38 (CDF_CHAR/35): 	"     12       114 - 120    -8  -  7"
+	39 (CDF_CHAR/1): 	" "
+	40 (CDF_CHAR/73): 	"The azimuth angles of particle velocity vectors are the Phi angles listed"
+	41 (CDF_CHAR/59): 	"above offset by the rotation angles of the 21 spin sectors."
+	42 (CDF_CHAR/1): 	" "
+	43 (CDF_CHAR/27): 	"     Spin    Rotation Angle"
+	44 (CDF_CHAR/28): 	"    Sector   Range (degrees)"
+	45 (CDF_CHAR/27): 	"    ______   ______________"
+	46 (CDF_CHAR/22): 	"       1        114.50"
+	47 (CDF_CHAR/22): 	"       2        120.74"
+	48 (CDF_CHAR/22): 	"       3        126.97"
+	49 (CDF_CHAR/22): 	"       4        137.00"
+	50 (CDF_CHAR/22): 	"       5        143.24"
+	51 (CDF_CHAR/22): 	"       6        149.47"
+	52 (CDF_CHAR/22): 	"       7        159.50"
+	53 (CDF_CHAR/22): 	"       8        165.74"
+	54 (CDF_CHAR/22): 	"       9        171.97"
+	55 (CDF_CHAR/22): 	"      10        182.00"
+	56 (CDF_CHAR/22): 	"      11        188.24"
+	57 (CDF_CHAR/22): 	"      12        194.47"
+	58 (CDF_CHAR/22): 	"      13        204.50"
+	59 (CDF_CHAR/22): 	"      14        210.74"
+	60 (CDF_CHAR/22): 	"      15        216.97"
+	61 (CDF_CHAR/22): 	"      16        227.00"
+	62 (CDF_CHAR/22): 	"      17        233.24"
+	63 (CDF_CHAR/22): 	"      18        239.47"
+	64 (CDF_CHAR/22): 	"      19        249.50"
+	65 (CDF_CHAR/22): 	"      20        255.74"
+	66 (CDF_CHAR/22): 	"      21        261.97"
+	67 (CDF_CHAR/1): 	" "
+	68 (CDF_CHAR/64): 	"The 64 E/Q passbands used to sample f(v) are centered on the E/Q"
+	69 (CDF_CHAR/70): 	"values listed below.  Each passband has (Delta E)/E approximately 0.1."
+	70 (CDF_CHAR/1): 	" "
+	71 (CDF_CHAR/63): 	"    Passband    E/Q (Volts)             Passband    E/Q (Volts)"
+	72 (CDF_CHAR/63): 	"    ________    ___________             ________    ___________"
+	73 (CDF_CHAR/61): 	"        1          144.3                   33          1023.1"
+	74 (CDF_CHAR/61): 	"        2          153.4                   34          1087.7"
+	75 (CDF_CHAR/61): 	"        3          163.0                   35          1156.4"
+	76 (CDF_CHAR/61): 	"        4          173.3                   36          1229.4"
+	77 (CDF_CHAR/61): 	"        5          184.3                   37          1307.0"
+	78 (CDF_CHAR/61): 	"        6          195.9                   38          1389.5"
+	79 (CDF_CHAR/61): 	"        7          208.3                   39          1477.2"
+	80 (CDF_CHAR/61): 	"        8          221.4                   40          1570.5"
+	81 (CDF_CHAR/61): 	"        9          235.4                   41          1669.7"
+	82 (CDF_CHAR/61): 	"       10          250.3                   42          1775.1"
+	83 (CDF_CHAR/61): 	"       11          266.1                   43          1887.1"
+	84 (CDF_CHAR/61): 	"       12          282.9                   44          2006.3"
+	85 (CDF_CHAR/61): 	"       13          300.7                   45          2132.9"
+	86 (CDF_CHAR/61): 	"       14          319.7                   46          2267.6"
+	87 (CDF_CHAR/61): 	"       15          339.9                   47          2410.8"
+	88 (CDF_CHAR/61): 	"       16          361.4                   48          2563.0"
+	89 (CDF_CHAR/61): 	"       17          384.2                   49          2724.8"
+	90 (CDF_CHAR/61): 	"       18          408.4                   50          2896.8"
+	91 (CDF_CHAR/61): 	"       19          434.2                   51          3079.7"
+	92 (CDF_CHAR/61): 	"       20          461.6                   52          3274.1"
+	93 (CDF_CHAR/61): 	"       21          490.8                   53          3480.8"
+	94 (CDF_CHAR/61): 	"       22          521.8                   54          3700.5"
+	95 (CDF_CHAR/61): 	"       23          554.7                   55          3934.2"
+	96 (CDF_CHAR/61): 	"       24          589.7                   56          4182.5"
+	97 (CDF_CHAR/61): 	"       25          626.9                   57          4446.6"
+	98 (CDF_CHAR/61): 	"       26          666.5                   58          4727.3"
+	99 (CDF_CHAR/61): 	"       27          708.6                   59          5025.8"
+	100 (CDF_CHAR/61): 	"       28          753.3                   60          5343.1"
+	101 (CDF_CHAR/61): 	"       29          800.9                   61          5680.4"
+	102 (CDF_CHAR/61): 	"       30          851.5                   62          6039.0"
+	103 (CDF_CHAR/61): 	"       31          905.2                   63          6420.3"
+	104 (CDF_CHAR/61): 	"       32          962.4                   64          6825.6"
+	105 (CDF_CHAR/1): 	" "
+MODS (2 entries):
+	0 (CDF_CHAR/35): 	"First Delivery version, 29-JUL-1998"
+	1 (CDF_CHAR/35): 	"Final Delivery version, 18-AUG-1998"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0322"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"GE_H2_CPI_19980508_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"GE_H2_CPI"
+Logical_source_description (2 entries):
+	0 (CDF_CHAR/59): 	"Geotail Comprehensive Plasma Inst., 45s SWA Dist. Functions"
+	1 (CDF_CHAR/62): 	"Resolution Solar Wind Analyzer (CPI/SWA) Distribution Function"
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"L. Frank"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"U. Iowa"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/7): 	"Geotail"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/7): 	"Geotail"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+FILLVAL
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DISPLAY_TYPE
+VAR_NOTES
+AVG_TYPE
+
+Variable Information (0 rVariable, 9 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+F_i                   CDF_REAL4/1	3:[12,64,21]	T/TTT
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+detectors             CDF_INT4/1	1:[12]	F/T
+energy_steps          CDF_REAL4/1	1:[64]	F/T
+angular_sectors       CDF_REAL4/1	1:[21]	F/T
+
+
+Variable (9 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/30): "Time, centered, in NSSDC Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 08-Sep-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 20:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 08-Sep-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 20:00:00.000
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/9): "CDF Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/16): "time>NSSDC_Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Time (PB5)"
+     CATDESC         (CDF_CHAR/31): "Distribution Function Time, PB5"
+     VALIDMIN        (CDF_INT4/3): 1992, 275, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 365, 72000000
+     SCALEMIN        (CDF_INT4/3): 1992, 275, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 365, 72000000
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/8): "time>PB5"
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+F_i (No: 2) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/36): "SWA Ion Distribution Function, Log10"
+     CATDESC         (CDF_CHAR/81): "Log10 Ion Dist. Function (SWA) at 64 energies, 12 polar angles, 21 azimuth angles"
+     VALIDMIN        (CDF_REAL4/1): -27.0
+     VALIDMAX        (CDF_REAL4/1): -15.0
+     SCALEMIN        (CDF_REAL4/1): -27.0
+     SCALEMAX        (CDF_REAL4/1): -15.0
+     FILLVAL         (CDF_REAL4/1): -31.0
+     LABLAXIS        (CDF_CHAR/6): "F(v)_i"
+     UNITS           (CDF_CHAR/12): "(s**3/cm**6)"
+     FORMAT          (CDF_CHAR/4): "F8.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "particle_flux>"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "detectors"
+     DEPEND_2        (CDF_CHAR/12): "energy_steps"
+     DEPEND_3        (CDF_CHAR/15): "angular_sectors"
+
+label_time (No: 3) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     CATDESC         (CDF_CHAR/15): "PB5 Time Labels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>time"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+unit_time (No: 4) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     CATDESC         (CDF_CHAR/20): "PB5 Time Label units"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/11): "label>units"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+format_time (No: 5) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     CATDESC         (CDF_CHAR/45): "FORTRAN print formats for the PB5 Time values"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+detectors (No: 6) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Polar Detector Center Angle"
+     CATDESC         (CDF_CHAR/38): "Analyzer's Polar Detector Center Angle"
+     VALIDMIN        (CDF_INT4/1): 63
+     VALIDMAX        (CDF_INT4/1): 117
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 180
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/9): "Polar Ang"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/14): "position>angle"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/50): "See TEXT description for full angular definitions "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+energy_steps (No: 7) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Center Energy per Charge"
+     CATDESC         (CDF_CHAR/73): "Center Value of the Energy per Charge (E/Q) for each step of the analyzer"
+     VALIDMIN        (CDF_REAL4/1): 144.3
+     VALIDMAX        (CDF_REAL4/1): 66825.6
+     SCALEMIN        (CDF_REAL4/1): 144.3
+     SCALEMAX        (CDF_REAL4/1): 66825.6
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "E/Q"
+     UNITS           (CDF_CHAR/5): "Volts"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/15): "position>energy"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+angular_sectors (No: 8) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Azimuthal Sector Center Angle"
+     CATDESC         (CDF_CHAR/40): "Analyzer's Azimuthal Sector Center Angle"
+     VALIDMIN        (CDF_REAL4/1): 114.5
+     VALIDMAX        (CDF_REAL4/1): 261.97
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "Azim Ang"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/14): "position>angle"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/50): "See TEXT description for full angular definitions "
+     AVG_TYPE        (CDF_CHAR/1): " "
+

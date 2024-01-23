@@ -1,0 +1,195 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ia_k0_enf_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ia_k0_enf_00000000_v01.cdf
+Version:      2.7.2
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     5
+NumAttrs:     36 (18 global, 18 variable)
+Compression:  None
+
+Global Attributes (18 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/41): 	"INTERBALL-AURORAL>Interball Auroral Probe"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/29): 	"ENF>SKA3 electron number flux"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/64): 	"Interball Auroral Probe SKA3, electron number flux, E=20-40 keV "
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"created Sep 1998"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0326"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IA_K0_ENF_19970308_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IA_K0_ENF"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/96): 	"Interball Auroral Probemeasurements of spectra and anisotropy of electrons SKA-3, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/54): 	"Yu. Galperin, R. Kovrazhkin,  A. Kuzmin,  F. Shuiskaya"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/15): 	"IKI RAN, Russia"
+Mission_group (1 entry):
+	0 (CDF_CHAR/9): 	"Interball"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+TEXT (2 entries):
+	0 (CDF_CHAR/247): 	"Measurements of spectra and anisotropy of electrons witin energy ranges 20-40 keV from two time-of-flight detectors EM-1-1 and EM-1-2. The field of view of these detectors are directed oppositely and perpendicular to the satellite  rotation axis. "
+	1 (CDF_CHAR/58): 	"Data description:  http://www.iki.rssi.ru/inte rball.html "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/52): 	"spase://NASA/NumericalData/Interball-2/SK3/KP/PT120S"
+
+Variable Attributes (18 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DICT_KEY
+CATDESC
+SCALETYP
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 5 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Trp                   CDF_INT4/1	0:[]	T/  
+E1                    CDF_REAL4/1	0:[]	T/  
+E2                    CDF_REAL4/1	0:[]	T/  
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (5 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 08-Mar-1997 00:01:00.000
+     SCALEMAX        (CDF_EPOCH/1): 08-Mar-1997 11:29:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Trp (No: 1) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Temporal resolution"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 100
+     SCALEMIN        (CDF_INT4/1): 4
+     SCALEMAX        (CDF_INT4/1): 8
+     LABLAXIS        (CDF_CHAR/19): "Temporal resolution"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/10): "flag>mode "
+     CATDESC         (CDF_CHAR/72): "Temporal resolution parameter 0.1-0.8 s smaller value means slower mode."
+     SCALETYP        (CDF_CHAR/4): "log "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E1 (No: 2) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "counts/s, EM-1-1"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1000000
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 5.6
+     LABLAXIS        (CDF_CHAR/8): "counts/s"
+     UNITS           (CDF_CHAR/4): "cnts"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     CATDESC         (CDF_CHAR/27): "electrons counts/s,  EM-1-1"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E2 (No: 3) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "counts/s, EM-1-2"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1000000
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 150.0
+     LABLAXIS        (CDF_CHAR/8): "counts/s"
+     UNITS           (CDF_CHAR/4): "cnts"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     CATDESC         (CDF_CHAR/27): "electrons counts/s,  EM-1-2"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gap_Flag (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag : 0 no gap before this point, 1-5 gap reason"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

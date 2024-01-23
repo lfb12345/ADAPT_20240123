@@ -1,0 +1,398 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/bar_3d_l2_fspc_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     bar_3d_l2_fspc_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     16
+NumAttrs:     41 (22 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     0
+
+Global Attributes (22 attributes)
+=========================================
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_type (1 entry):
+	0 (CDF_CHAR/10): 	"l2>Level-2"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"Robyn Millan"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/17): 	"Dartmouth College"
+Mission_group (1 entry):
+	0 (CDF_CHAR/8): 	"Balloons"
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"LWS>Living With a Star>BARREL"
+Source_name (1 entry):
+	0 (CDF_CHAR/6): 	"bar_3D"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"10"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/26): 	"http://barreldata.ucsc.edu"
+	1 (CDF_CHAR/69): 	"https://spdf.gsfc.nasa.gov/pub/data/barrel/Campaigns_and_launches.txt"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/32): 	"BARREL Data Repository and Tools"
+	1 (CDF_CHAR/29): 	"BARREL Campaigns and Launches"
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/86): 	"Access to all releases of BARREL data and links to the Science Operation Center tools."
+	1 (CDF_CHAR/7): 	"List of"
+Generation_date (1 entry):
+	0 (CDF_CHAR/8): 	"20150819"
+Generated_by (1 entry):
+	0 (CDF_CHAR/20): 	"BARREL CDF Generator"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/254): 	"BARREL will make all its scientific data products quickly and publicly available but all users are expected to read and follow the "BARREL Mission Data Usage Policy" which can be found here: http://www.dartmouth.edu/~barrel/documents/data.use.policy.pdf."
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/58): 	"Fast time resolution (50ms) Bremsstrahlung X-ray spectrum."
+TEXT (1 entry):
+	0 (CDF_CHAR/98): 	"Fast time resolution Bremsstrahlung X-ray spectrum from NaI Scintillator, four channels at 20 MHz."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/37): 	"Electron Precipitation Bremsstrahlung"
+Descriptor (1 entry):
+	0 (CDF_CHAR/17): 	"FSPC>Fast Spectra"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/4): 	"50ms"
+Logical_source (1 entry):
+	0 (CDF_CHAR/14): 	"bar_3D_l2_fspc"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/27): 	"bar_3D_l2_fspc_20150819_v10"
+
+Variable Attributes (19 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+UNITS
+SCALETYP
+VALIDMIN
+VALIDMAX
+FILLVAL
+LABLAXIS
+MONOTON
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+DEPEND_0
+FORMAT
+DISPLAY_TYPE
+VAR_NOTES
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+
+Variable Information (0 rVariable, 16 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+FrameGroup            CDF_UINT4/1	0:[]	T/  
+Quality               CDF_UINT4/1	0:[]	T/  
+FSPC1a                CDF_INT4/1	0:[]	T/  
+cnt_error1a           CDF_FLOAT/1	0:[]	T/  
+FSPC1b                CDF_INT4/1	0:[]	T/  
+cnt_error1b           CDF_FLOAT/1	0:[]	T/  
+FSPC1c                CDF_INT4/1	0:[]	T/  
+cnt_error1c           CDF_FLOAT/1	0:[]	T/  
+FSPC2                 CDF_INT4/1	0:[]	T/  
+cnt_error2            CDF_FLOAT/1	0:[]	T/  
+FSPC3                 CDF_INT4/1	0:[]	T/  
+cnt_error3            CDF_FLOAT/1	0:[]	T/  
+FSPC4                 CDF_INT4/1	0:[]	T/  
+cnt_error4            CDF_FLOAT/1	0:[]	T/  
+FSPC_Edges            CDF_FLOAT/1	1:[7]	T/T
+
+
+Variable (16 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/2): "ns"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_TT2000/1): 2009-09-19T00:00:05.978849280
+     VALIDMAX        (CDF_TT2000/1): 2019-10-15T09:04:54.724999936
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotation Earth Geoid"
+
+FrameGroup (No: 1) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "FrameGroup"
+     CATDESC         (CDF_CHAR/17): "DPU Frame Counter"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967294
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/5): "Frame"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I10"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Quality (No: 2) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "Quality"
+     CATDESC         (CDF_CHAR/17): "Data Quality Flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/17): "0 means no issues"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967294
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/1): "Q"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I10"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/41): "32bit flag used to indicate data quality."
+
+FSPC1a (No: 3) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "FSPC1a"
+     CATDESC         (CDF_CHAR/25): "Fast spectra (50ms) ch. 1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 65535
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/7): "FSPC 1a"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Rebinned, divided by energy bin widths and adjusted to /sec time scale."
+     DELTA_PLUS_VAR  (CDF_CHAR/11): "cnt_error1a"
+     DELTA_MINUS_VAR (CDF_CHAR/11): "cnt_error1a"
+
+cnt_error1a (No: 4) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "cnt_error1a"
+     CATDESC         (CDF_CHAR/40): "Count error based on Poisson statistics."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Count Error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/40): "Error only valid for large count values."
+
+FSPC1b (No: 5) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "FSPC1b"
+     CATDESC         (CDF_CHAR/25): "Fast spectra (50ms) ch. 1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 65535
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/7): "FSPC 1b"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Rebinned, divided by energy bin widths and adjusted to /sec time scale."
+     DELTA_PLUS_VAR  (CDF_CHAR/11): "cnt_error1b"
+     DELTA_MINUS_VAR (CDF_CHAR/11): "cnt_error1b"
+
+cnt_error1b (No: 6) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "cnt_error1b"
+     CATDESC         (CDF_CHAR/40): "Count error based on Poisson statistics."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Count Error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/40): "Error only valid for large count values."
+
+FSPC1c (No: 7) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "FSPC1c"
+     CATDESC         (CDF_CHAR/25): "Fast spectra (50ms) ch. 1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 65535
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/7): "FSPC 1c"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Rebinned, divided by energy bin widths and adjusted to /sec time scale."
+     DELTA_PLUS_VAR  (CDF_CHAR/11): "cnt_error1c"
+     DELTA_MINUS_VAR (CDF_CHAR/11): "cnt_error1c"
+
+cnt_error1c (No: 8) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "cnt_error1c"
+     CATDESC         (CDF_CHAR/40): "Count error based on Poisson statistics."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Count Error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/40): "Error only valid for large count values."
+
+FSPC2 (No: 9) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "FSPC2"
+     CATDESC         (CDF_CHAR/25): "Fast spectra (50ms) ch. 2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 65535
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/6): "FSPC 2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Rebinned, divided by energy bin widths and adjusted to /sec time scale."
+     DELTA_PLUS_VAR  (CDF_CHAR/10): "cnt_error2"
+     DELTA_MINUS_VAR (CDF_CHAR/10): "cnt_error2"
+
+cnt_error2 (No: 10) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "cnt_error2"
+     CATDESC         (CDF_CHAR/40): "Count error based on Poisson statistics."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Count Error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/40): "Error only valid for large count values."
+
+FSPC3 (No: 11) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "FSPC3"
+     CATDESC         (CDF_CHAR/25): "Fast spectra (50ms) ch. 3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 65535
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/6): "FSPC 3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Rebinned, divided by energy bin widths and adjusted to /sec time scale."
+     DELTA_PLUS_VAR  (CDF_CHAR/10): "cnt_error3"
+     DELTA_MINUS_VAR (CDF_CHAR/10): "cnt_error3"
+
+cnt_error3 (No: 12) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "cnt_error3"
+     CATDESC         (CDF_CHAR/40): "Count error based on Poisson statistics."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Count Error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/40): "Error only valid for large count values."
+
+FSPC4 (No: 13) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "FSPC4"
+     CATDESC         (CDF_CHAR/25): "Fast spectra (50ms) ch. 4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 65535
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/6): "FSPC 4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/71): "Rebinned, divided by energy bin widths and adjusted to /sec time scale."
+     DELTA_PLUS_VAR  (CDF_CHAR/10): "cnt_error4"
+     DELTA_MINUS_VAR (CDF_CHAR/10): "cnt_error4"
+
+cnt_error4 (No: 14) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "cnt_error4"
+     CATDESC         (CDF_CHAR/40): "Count error based on Poisson statistics."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/9): "cnts/50ms"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Count Error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/40): "Error only valid for large count values."
+
+FSPC_Edges (No: 15) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "FSPC_Edges"
+     CATDESC         (CDF_CHAR/32): "Fast Spectrum Channel Boundaries"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/3): "keV"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "FSPC_Edges"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     VAR_NOTES       (CDF_CHAR/281): "Each element of the array represents the boundaries that separate each energy channel. That is, FSPC1 lies between elements 0 and 1, FSPC2 between 1 and 2, FSPC3 between 2 and 3, and FSPC4 between 3 and 4. These energy levels are not standardized and is calculated for each record."
+

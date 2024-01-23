@@ -1,0 +1,257 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ibex_h3_ena_lo_r03_ct_rate_analysis_7day_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ibex_h3_ena_lo_r03_ct_rate_analysis_7day_00000000_v01.cdf
+Version:      3.5.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     61 (26 global, 35 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     -1
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/25): 	"HEX>Heliophysics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"IBEX>Interstellar Boundary Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/25): 	"H3> Flux Distribution Map"
+Descriptor (1 entry):
+	0 (CDF_CHAR/27): 	"ENA> Energetic Neutral Atom"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+PI_name (1 entry):
+	0 (CDF_CHAR/20): 	"Dr. David J. McComas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/20): 	"Princeton University"
+TEXT (14 entries):
+	0 (CDF_CHAR/289): 	"1: The Interstellar Boundary Explorer (IBEX) has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 16 releases of IBEX-HI and/or IBEX-LO data covering 2009-2022. "
+	1 (CDF_CHAR/580): 	"2: This data set is from the Release 3, 7.5 days cadence, IBEX-Lo data for the years 2009 - 2010 contains data used in the publication of Moebius et al., 2012, Interstellar Gas Flow Parameters Derived from IBEX-Lo Observations in 2009 and 2010 Analytical Analysis and Bzowski et al., 2012, Neutral interstellar helium parameters based on IBEX-Lo observations and test particle calculations. The data are the 6 degree resolution corrected histogram data and the observation time periods in one csv file for each orbit for both the angular fit analysis and the count rate analysis. "
+	2 (CDF_CHAR/219): 	"3: Additional publications: Bzowski et al., 2012, Neutral interstellar helium parameters based on IBEX-Lo observations and test particle calculations; and Hlond et al., 2012, Precision Pointing of IBEX-Lo Observations. "
+	3 (CDF_CHAR/980): 	"4: Data Selection: In order to determine accurately the interstellar gas flow vector, the pointing of IBEX-Lo has to be known to about 0.1 degree accuracy for the observations used in this analysis. It is demonstrated that the pointing of the IBEX-Lo star sensor and of the spacecraft star tracker agree within this prescribed accuracy for time periods of simultaneous good observations (Hlond et al., 2012). The data used from time periods when the IBEX star tracker, which provides precision pointing information for the routine data processing, was operating within its specifications for all analysis that requires exact pointing knowledge, such as the evaluation of the flow distributions in latitude. However, the determination of the ISM flow maximum in ecliptic longitude only requires the use of the count rates, obtained over plus-minus 3 sigma of the angular distribution from the latitude peak position, as a function of longitude, so this requirement can be relaxed. "
+	4 (CDF_CHAR/723): 	"5: During the analysis, it was found that the data transfer through the CEU that formats the information for the telemetry slows down because of the total traffic across the interface and the computational load event rates that exceed about 10 counts/s, as observed during the He ISM flow peak. This slow down produces a modulation in the high-resolution data according to the accumulation scheme into 6 deg sectors. Therefore, the only data integrated 6-deg sector for He used in this analysis. In addition, IBEX-Lo detects background electrons, which are identified as invalid events by the TOF spectrometer, but they have to be removed by the CEU, which adds to its load and the slow down when electron rates increase.  "
+	5 (CDF_CHAR/260): 	"6: For this analysis, a list of valid time periods was compiled for the ISM flow analysis that is used throughout this paper and also in the analysis by Bzowski et al. (2012). Excluded from this list are time periods, for which the following conditions apply: "
+	6 (CDF_CHAR/171): 	"7: IBEX is close to the magnetosphere, where IBEX-Lo observes high count rates of magnetospheric ENAs and ions, based on angular ranges outside the ISM flow distribution. "
+	7 (CDF_CHAR/137): 	"8: The Moon is in the IBEX FoV. These times are taken from the ISOC command files, which contain special commanding for the star sensor. "
+	8 (CDF_CHAR/357): 	"9: The electron rates for IBEX-Lo are high. These times are identified in the IBEX-Lo TOF count rates, when the otherwise very stable base count rate outside the ISM flow direction is exceeded by more than a factor of 1.6 (safely above any stochastic fluctuations of the base count rate, but low enough to indicate any significant electron rate increases). "
+	9 (CDF_CHAR/128): 	"10: The star tracker function has been impaired. This affects the determination of the ISM peak location and width in latitude. "
+	10 (CDF_CHAR/798): 	"11: No further culling for increased background counts (routinely performed for suprathermal ENA observations (McComas et al. 2009b) is necessary for ISM flow observations because of the concentrated angular distributions at much higher rates. The angular distribution analysis, in general, is performed on much shorter .good. time periods than the count rate analysis because nominal operation of the star tracker is required. Because the rate analysis requires contiguous time sections of fixed length to achieve approximately comparable counting statistics for each data point, very small portions at the beginning or end of the .good. time intervals may be unused, which accounts for the occasional foreshortening of the .good. time intervals for the rate analysis at the beginning or the end. "
+	11 (CDF_CHAR/139): 	"12: McComas, D. J., et al. (2017), Seven Years of Imaging the Global Heliosphere with IBEX, Astrophys. J. Supp. Ser., 229(2), 41 (32 pp.), "
+	12 (CDF_CHAR/40): 	"http://doi.org/10.3847/1538-4365/aa66d8 "
+	13 (CDF_CHAR/199): 	"This particular data set is denoted in the original ascii files in https://ibex.princeton.edu/DataRelease3 as Interstellar Gas Flow Parameters Accumulated Count Data Used in the Count Rate Analysis. "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"IBEX"
+Logical_source (1 entry):
+	0 (CDF_CHAR/40): 	"ibex_h3_ena_lo_r03_ct_rate_analysis_7day"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/53): 	"ibex_h3_ena_lo_r03_ct_rate_analysis_7day_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/38): 	"IBEX-Hi Release 3; Count Rate analysis"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/16): 	"7.5 days cadence"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/184): 	"The IBEX Release 3 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data. "
+Generated_by (1 entry):
+	0 (CDF_CHAR/13): 	"Sonya Lyatsky"
+Generation_date (1 entry):
+	0 (CDF_CHAR/23): 	"Sun Sep 8 17:08:02 2019"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University. "
+MODS (1 entry):
+	0 (CDF_CHAR/1069): 	"The latest Release 16 data extends through Map 22 and contains modications and updates of Maps 1-2 from Release 2, Maps 1-6 from Release 4, and Maps 1-10 from Release 7, maps 1-14 from Release 10, maps 15-22 from Release 16. The present CDF data set was converted from the originally archived data in ascii list format but otherwise includes no changes in the data. The original data are given in 30 rows for Solar Ecliptic Latitude and 60 columns for Solar Ecliptic East Longitude. The accompanying documentation described the row latitude data as starting from the north Ecliptic pole (+90 degrees) and decreasing in value to the south Ecliptic pole (-90 degrees). During preparation of the data set in CDF format, SPDF discovered that the correct order was increasing from row 1 for the South Ecliptic pole to row 30 for the north Ecliptic pole. East longitude is defined correctly for the column order but we have instead used west longitude to better represent the outward-looking viewpoint from IBEX to the outer heliosphere as typically used in IBEX team plots. "
+ADID_ref (0 entry):
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/55): 	"IBEX Mission, Instrument, and Data Release Descriptions"
+	1 (CDF_CHAR/40): 	"IBEX Data Release 3, Count Rate analysis"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/47): 	"IBEX The Interstellar Boundary Explorer mission"
+	1 (CDF_CHAR/20): 	"IBEX Data Release 3 "
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/27): 	"https://ibex.princeton.edu/"
+	1 (CDF_CHAR/38): 	"https://ibex.princeton.edu/DataRelease"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/68): 	"spase://VSPO/NumericalData/IBEX/H3/ENA/Lo/R03/CTRateAnalysis/1AU/7dy"
+
+Variable Attributes (35 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Epoch2                CDF_EPOCH/1	0:[]	T/  
+Start_GPS_time        CDF_REAL8/1	0:[]	T/  
+End_GPS_time          CDF_REAL8/1	0:[]	T/  
+Bin_Number            CDF_UINT2/1	1:[30]	F/T
+Bin_Center            CDF_REAL4/1	1:[30]	F/T
+Counts                CDF_REAL4/1	1:[30]	T/T
+
+
+Variable (7 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "CDF epoch start time"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/14): "CDF Epoch Time"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/33): "day-month-year hour:minute:second"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+Epoch2 (No: 1) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "CDF epoch end time"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/14): "CDF Epoch Time"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/33): "day-month-year hour:minute:second"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+Start_GPS_time (No: 2) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Start GPS Time."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "Start GPS Time"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F19.7"
+     LABLAXIS        (CDF_CHAR/14): "Start GPS Time"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+End_GPS_time (No: 3) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "End GPS Time."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "End GPS Time"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F19.7"
+     LABLAXIS        (CDF_CHAR/12): "End GPS Time"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Bin_Number (No: 4) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Solar Ecliptic Latitude Bin Number"
+     FIELDNAM        (CDF_CHAR/34): "Solar Ecliptic Latitude Bin Number"
+     FILLVAL         (CDF_UINT2/1): 65534
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/1): "#"
+     LABL_PTR_1      (CDF_CHAR/8): "Latitude"
+     UNITS           (CDF_CHAR/10): "Bin Number"
+     VALIDMIN        (CDF_UINT2/1): 1
+     VALIDMAX        (CDF_UINT2/1): 30
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/213): "Solar Ecliptic Latitude Bin Number corresponding to six-degree latitudinal increments of the current IBEX-Lo viewing sector. There are 30 angular bins in Solar Ecliptic Latitude (NPR) covering from 0 to 180 degree"
+
+Bin_Center (No: 5) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "Bin Center"
+     FIELDNAM        (CDF_CHAR/10): "Bin Center"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/8): "Latitude"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/96): "Latitude value corresponds to the mid-point of six-degree latitudinal IBEX-Lo NEP viewing sector"
+
+Counts (No: 6) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "H ENA Total Counts "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Bin_Center"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/33): "ENA Total Counts at the given bin"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.2"
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

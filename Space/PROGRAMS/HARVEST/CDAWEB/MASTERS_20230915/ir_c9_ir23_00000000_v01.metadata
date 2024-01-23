@@ -1,0 +1,277 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ir_c9_ir23_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ir_c9_ir23_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     9
+NumzVars:     0
+NumAttrs:     46 (26 global, 20 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"CDAW-9; AMPTE/IRM; Plasma+Magnetometer; 30s;      "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9B             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"AMPTE/IRM "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"Plasm+Magn"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"30 s      "
+MODS (1 entry):
+	0 (CDF_CHAR/28): 	"Converted to CDAWeb Feb 2000"
+TEXT (4 entries):
+	0 (CDF_CHAR/30): 	"Derived from IR23 in CDAW9 DB."
+	1 (CDF_CHAR/28): 	"Data for CDAW9 event B only."
+	2 (CDF_CHAR/80): 	"Times are for midpoint of 30-s averages.  Angles are in GSE coords.             "
+	3 (CDF_CHAR/231): 	"AMPTE/IRM 30-s averages of plasma data (for protons) and magnetic field data are available only for the interval 0:30 - 2:30 on 860403.  Angles are expressed in the GSE system.  The UT times are for the midpoints of each interval. "
+Descriptor (1 entry):
+	0 (CDF_CHAR/42): 	"IR23> AMPTE/IRM; Plasma+Magnetometer 30s; "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>cdaw9"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/12): 	"IR>AMPTE/IRM"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"Baumjohann"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/26): 	"Baumjohann and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"AMPTE"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"ir_c9_ir23"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"ir_c9_ir23_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/46): 	"Ir  AMPTE/IRM; Plasma+Magnetometer 30s;  cdaw9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/5): 	"AMPTE"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+
+Variable Information (9 rVariables, 0 zVariable)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+IR23DENP              CDF_REAL4/1	0:[]	T/  
+IR23TEMP              CDF_REAL4/1	0:[]	T/  
+IR23PVEL              CDF_REAL4/1	0:[]	T/  
+IR23PELV              CDF_REAL4/1	0:[]	T/  
+IR23PAZV              CDF_REAL4/1	0:[]	T/  
+IR23BMAG              CDF_REAL4/1	0:[]	T/  
+IR23BEL               CDF_REAL4/1	0:[]	T/  
+IR23BAZ               CDF_REAL4/1	0:[]	T/  
+
+
+Variable (9 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 02-Apr-1986 18:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 03-Apr-1986 10:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+IR23DENP (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Proton Density      "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.875
+     SCALEMIN        (CDF_REAL8/1): 0.01
+     SCALEMAX        (CDF_REAL8/1): 1.0
+     UNITS           (CDF_CHAR/20): "/cc                 "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Density                          "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Proton Dens"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR23TEMP (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Proton Temperature  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.64062
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 150.0
+     UNITS           (CDF_CHAR/20): "1.e6 K              "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Temperature                      "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Proton Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR23PVEL (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Proton Bulk Speed   "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.98828
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 500.0
+     UNITS           (CDF_CHAR/20): "km/s                "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Bulk Speed                       "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Proton BulkSpd"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR23PELV (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Velocity Elevation  "
+     VALIDMIN        (CDF_REAL4/1): -3.35156
+     VALIDMAX        (CDF_REAL4/1): 3.35156
+     SCALEMIN        (CDF_REAL8/1): -90.0
+     SCALEMAX        (CDF_REAL8/1): 90.0
+     UNITS           (CDF_CHAR/20): "deg                 "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "Velocity Elevation Angle (GSE)          "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "GSE Velocity Elev"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR23PAZV (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Velocity Azimuth    "
+     VALIDMIN        (CDF_REAL4/1): -3.60156
+     VALIDMAX        (CDF_REAL4/1): 3.60156
+     SCALEMIN        (CDF_REAL8/1): -180.0
+     SCALEMAX        (CDF_REAL8/1): 180.0
+     UNITS           (CDF_CHAR/20): "deg                 "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "Velocity Azimuth Angle (GSE)            "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "GSE Veloc Az"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR23BMAG (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "B-Field Magnitude   "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.64062
+     SCALEMIN        (CDF_REAL8/1): 70.0
+     SCALEMAX        (CDF_REAL8/1): 170.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "B-Field Magnitude                       "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "B Total"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR23BEL  (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "B-Field Elev.       "
+     VALIDMIN        (CDF_REAL4/1): -3.35156
+     VALIDMAX        (CDF_REAL4/1): 3.35156
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 60.0
+     UNITS           (CDF_CHAR/20): "deg                 "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "B-Field Elevation Angle (GSE)           "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "GSE B Elevation"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+IR23BAZ  (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "B-Field azimuth     "
+     VALIDMIN        (CDF_REAL4/1): -3.60156
+     VALIDMAX        (CDF_REAL4/1): 3.60156
+     SCALEMIN        (CDF_REAL8/1): -160.0
+     SCALEMAX        (CDF_REAL8/1): -100.0
+     UNITS           (CDF_CHAR/20): "deg                 "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "B-Field Azimuth Angle (GSE)             "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "GSE B Az"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+

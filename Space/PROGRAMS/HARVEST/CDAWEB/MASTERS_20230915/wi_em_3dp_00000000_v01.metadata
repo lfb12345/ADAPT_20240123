@@ -1,0 +1,312 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_em_3dp_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_em_3dp_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     1
+NumzVars:     12
+NumAttrs:     45 (26 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (26 attributes)
+=========================================
+Data_type (1 entry):
+	0 (CDF_CHAR/82): 	"EM>EESA (On-Board) Electron Plasma Moments @ Spin Resolution (version 3), Wind 3DP"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/138): 	"Electron Plasma moments (computed on-board) (NOT CORRECTED FOR S/C POTENTIAL) @ 3 second (spin) resolution (version 3), EESA LOW, Wind 3DP"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+TEXT (1 entry):
+	0 (CDF_CHAR/89): 	"Wind 3dp, EESA LOW 1 spin resolution Plasma ( electron ) moments (computed on spacecraft)"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"R. Lin/S. Bale"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/11): 	"UC Berkeley"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_CHAR/33): 	"!___Interplanetary Data near 1 AU"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/23): 	"3DP>3-D PLASMA ANALYZER"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0143"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/30): 	"Version 3 Product, August 2005"
+Time_resolution (0 entry):
+Link_text (2 entries):
+	0 (CDF_CHAR/1): 	" "
+	1 (CDF_CHAR/9): 	"Wind 3DP "
+Link_title (2 entries):
+	0 (CDF_CHAR/48): 	"Caveats for the correct use of Wind 3DP datasets"
+	1 (CDF_CHAR/49): 	"home page at UCB (with plotting and digital data)"
+HTTP_link (2 entries):
+	0 (CDF_CHAR/64): 	"https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/wind3dp_caveats.pdf"
+	1 (CDF_CHAR/37): 	"http://sprg.ssl.berkeley.edu/wind3dp/"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"wi_em_3dp"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"wi_em_3dp_00000000_v01"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/52): 	"Wind_3DP_Plasma-Moments-Electron-Onboard-EM_3sec_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/43): 	"spase://NASA/NumericalData/Wind/3DP/EM/PT3S"
+
+Variable Attributes (19 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_NOTES
+DICT_KEY
+VAR_TYPE
+FORM_PTR
+FORMAT
+UNIT_PTR
+UNITS
+SCAL_PTR
+SCALETYP
+FILLVAL
+LABLAXIS
+VALIDMIN
+VALIDMAX
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_1
+LABL_PTR_1
+
+Variable Information (1 rVariable, 12 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+SPIN                  CDF_INT2/1	0:[]	T/  
+E_DENS                CDF_FLOAT/1	0:[]	T/  
+E_VELS                CDF_FLOAT/1	1:[3]	T/T
+E_TENS                CDF_FLOAT/1	1:[6]	T/T
+E_TEMP                CDF_FLOAT/1	0:[]	T/  
+E_Q                   CDF_FLOAT/1	1:[3]	T/T
+GAP                   CDF_INT2/1	0:[]	T/  
+VALID                 CDF_INT2/1	0:[]	T/  
+E_VELS_LABL_1         CDF_CHAR/23	1:[3]	F/T
+E_Q_LABL_1            CDF_CHAR/23	1:[3]	F/T
+E_TENS_LABL_1         CDF_CHAR/26	1:[6]	F/T
+TIME                  CDF_DOUBLE/1	0:[]	T/  
+
+
+Variable (13 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/14): "Time, Centered"
+     VAR_NOTES       (CDF_CHAR/62): "Time is centered, confirmed for 3DP by P.Schroeder 2005 Nov 07"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e12.0"
+     UNITS           (CDF_CHAR/2): "ms"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.999
+
+SPIN (No: 0) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Spin Count"
+     CATDESC         (CDF_CHAR/19): "On-board spin count"
+     DICT_KEY        (CDF_CHAR/6): "Number"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i6"
+     UNITS           (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/10): "Spin_Count"
+     VALIDMIN        (CDF_INT2/1): -32768
+     VALIDMAX        (CDF_INT2/1): 32767
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+E_DENS (No: 1) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Electron number density"
+     CATDESC         (CDF_CHAR/61): "Electron number density (not corrected for any s/c potential)"
+     VAR_NOTES       (CDF_CHAR/234): "Per Lynn Wilson Jan2015:  These results cannot take the spacecraft potential into account.  Wind does not measure the spacecraft potential actively, so it cannot perform this correction onboard and the results have many uncertainties."
+     DICT_KEY        (CDF_CHAR/7): "density"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     UNITS           (CDF_CHAR/5): "#/cm3"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "UNCOR_Dens_Electn"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+E_VELS (No: 2) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Electron velocity vector"
+     CATDESC         (CDF_CHAR/35): "---> Electron velocity vector (GSE)"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): -4000.0, -4000.0, -4000.0
+     VALIDMAX        (CDF_FLOAT/3): 4000.0, 4000.0, 4000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/13): "E_VELS_LABL_1"
+
+E_TENS (No: 3) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "E_TENS"
+     CATDESC         (CDF_CHAR/79): "---> Residual Variance in Electron Velocity (6 components in instrument coords)"
+     VAR_NOTES       (CDF_CHAR/283): "Per Lynn Wilson Jan2015:  This is in one of two units. It is calculated as the pressure tensor divided by the number density.  In the decommutation source code, they say the units are (km/s)^2.  In some of the other moment analysis software, the pressure is in units of [eV cm^(-3)]."
+     DICT_KEY        (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "e11.5"
+     UNITS           (CDF_CHAR/8): "(km/s)^2"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/6): -1.0e+07, -1.0e+07, -1.0e+07, -1.0e+07, -1.0e+07, -1.0e+07
+     VALIDMAX        (CDF_FLOAT/6): 1.0e+07, 1.0e+07, 1.0e+07, 1.0e+07, 1.0e+07, 1.0e+07
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/13): "E_TENS_LABL_1"
+
+E_TEMP (No: 4) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Electron temperature"
+     CATDESC         (CDF_CHAR/25): "---> Electron temperature"
+     DICT_KEY        (CDF_CHAR/11): "temperature"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "UNCOR_Temp_Elect"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+E_Q (No: 5) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Electron Heat Flux (Q)"
+     CATDESC         (CDF_CHAR/27): "---> Electron Heat Flux (Q)"
+     VAR_NOTES       (CDF_CHAR/262): "Per Lynn Wilson Jan2015:  This is the vector form of the electron heat flux.  It should have units of either [(km/s)^3 cm^(-3)] or [eV km/s cm^(-3)] .  I am guessing the former due to the .VV units used above, since this is usually given the structure tag .NVVV."
+     DICT_KEY        (CDF_CHAR/1): "Q"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+     UNITS           (CDF_CHAR/13): "(km/s)^3/cm^3"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): -1.0e+10, -1.0e+10, -1.0e+10
+     VALIDMAX        (CDF_FLOAT/3): 1.0e+10, 1.0e+10, 1.0e+10
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/10): "E_Q_LABL_1"
+
+GAP (No: 6) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "GAP"
+     CATDESC         (CDF_CHAR/26): "Gap flag (0=no gap, 1=gap)"
+     DICT_KEY        (CDF_CHAR/3): "GAP"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i1"
+     UNITS           (CDF_CHAR/10): "(0=No Gap)"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/8): "Gap_Flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+VALID (No: 7) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "VALID"
+     CATDESC         (CDF_CHAR/33): "Data quality flag (1=good, 0=bad)"
+     DICT_KEY        (CDF_CHAR/5): "VALID"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i1"
+     UNITS           (CDF_CHAR/8): "(1=good)"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/7): "DQ_Flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+E_VELS_LABL_1 (No: 8) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "E_VELS_LABL_1"
+     CATDESC         (CDF_CHAR/13): "E_VELS_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a23"
+
+E_Q_LABL_1 (No: 9) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "E_Q_LABL_1"
+     CATDESC         (CDF_CHAR/10): "E_Q_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a23"
+
+E_TENS_LABL_1 (No: 10) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "E_TENS_LABL_1"
+     CATDESC         (CDF_CHAR/13): "E_TENS_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a26"
+
+TIME (No: 11) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/28): "Unix Time (since 1970/01/01)"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "e12.0"
+     UNITS           (CDF_CHAR/19): "ms since 1970/01/01"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Unix Time"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 1.0e+13
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+

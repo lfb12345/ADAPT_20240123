@@ -1,0 +1,210 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/new_horizons_swap_pickup-ions-histogram_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     new_horizons_swap_pickup-ions-histogram_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     34 (18 global, 16 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (18 attributes)
+=========================================
+Generated_by (1 entry):
+	0 (CDF_CHAR/34): 	"Heather Elliott and Joey Mukherjee"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Project (1 entry):
+	0 (CDF_CHAR/16): 	"NF>New Frontiers"
+Source_name (1 entry):
+	0 (CDF_CHAR/7): 	"NH>SWAP"
+Descriptor (1 entry):
+	0 (CDF_CHAR/28): 	"SWAP>Solar Wind Around Pluto"
+Data_type (1 entry):
+	0 (CDF_CHAR/25): 	"VS>Validated Summary Data"
+PI_name (1 entry):
+	0 (CDF_CHAR/16): 	"David J. McComas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"Princeton"
+TEXT (3 entries):
+	0 (CDF_CHAR/58): 	"Data from New Horizons Solar Wind Around Pluto instrument."
+	1 (CDF_CHAR/143): 	"Elliott, H. A., D. J. McComas, P. Valek, G. Nicolaou, S. Weidner, and G. Livadiotis (2016), ApJS, 223(2), 1-21, doi:10.3847/0067-0049/223/2/19."
+	2 (CDF_CHAR/156): 	"McComas, D. et al. (2008), The Solar Wind Around Pluto (SWAP) Instrument Aboard New Horizons, Space Sci Rev, 140(1), 261-313, doi:10.1007/s11214-007-9205-3."
+Caveats (4 entries):
+	0 (CDF_CHAR/65): 	"THe histogram data set is before the culling described in McComas"
+	1 (CDF_CHAR/75): 	"et al. (2017), for times when the solar wind speed varied over the ~24 hour"
+	2 (CDF_CHAR/67): 	"period by >1% (~13% of the samples) or when the PUI fitting routine"
+	3 (CDF_CHAR/65): 	"experienced a failing (see McComas et al. 2017 for more details)."
+References (2 entries):
+	0 (CDF_CHAR/72): 	"McComas, D. J., Zirnstein, E. J., Bzowski, M., et al. 2017, ApJS, 233, 8"
+	1 (CDF_CHAR/54): 	"Vasyliunas, V. M., & Siscoe, G. L. 1976, JGR, 81, 1247"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Mission_group (1 entry):
+	0 (CDF_CHAR/12): 	"New Horizons"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	1 (CDF_CHAR/17): 	"Particles (space)"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/38): 	"Data from New Horizons SWAP instrument"
+Logical_source (1 entry):
+	0 (CDF_CHAR/39): 	"new_horizons_swap_pickup-ions-histogram"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/17): 	"new_horizons_swap"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/83): 	"spase://NASA/NumericalData/NewHorizons/SWAP/PickupIonHistogram/ValidatedSummary/P1D"
+
+Variable Attributes (16 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+FILLVAL
+UNITS
+SI_CONVERSION
+FORMAT
+CATDESC
+VAR_TYPE
+DISPLAY_TYPE
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+LABLAXIS
+DEPEND_0
+DEPEND_1
+SCALETYP
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+Epoch_MINUS           CDF_INT8/1	0:[]	F/  
+Epoch_PLUS            CDF_INT8/1	0:[]	T/  
+nh_swap_energy_bins   CDF_REAL4/1	1:[64]	F/T
+nh_swap_distance_to_sun CDF_REAL4/1	0:[]	T/  
+nh_swap_histogram     CDF_REAL4/1	1:[64]	T/T
+nh_swap_histogram_uncertainties CDF_REAL4/1	1:[64]	T/T
+
+
+Variable (7 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Timing Information"
+     VALIDMIN        (CDF_CHAR/29): "2001-01-01T00:00:00.000000000"
+     VALIDMAX        (CDF_CHAR/29): "2020-01-01T00:00:00.000000000"
+     FILLVAL         (CDF_TT2000/1): 2000-01-01T00:00:00.000000000
+     UNITS           (CDF_CHAR/2): "ms"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     FORMAT          (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/10): "Start time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DELTA_MINUS_VAR (CDF_CHAR/11): "Epoch_MINUS"
+     DELTA_PLUS_VAR  (CDF_CHAR/10): "Epoch_PLUS"
+
+Epoch_MINUS (No: 1) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Delta start time"
+     VALIDMIN        (CDF_INT8/1): 0
+     VALIDMAX        (CDF_INT8/1): 1
+     UNITS           (CDF_CHAR/2): "ms"
+     SI_CONVERSION   (CDF_CHAR/10): "1.0e-3 > s"
+     FORMAT          (CDF_CHAR/2): "I2"
+     CATDESC         (CDF_CHAR/16): "Delta start time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/4): "None"
+
+Epoch_PLUS (No: 2) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Delta start time"
+     VALIDMIN        (CDF_INT8/1): 0
+     VALIDMAX        (CDF_INT8/1): 999999999
+     FILLVAL         (CDF_INT8/1): -9223372036854775808
+     UNITS           (CDF_CHAR/2): "ns"
+     SI_CONVERSION   (CDF_CHAR/10): "1.0e-3 > s"
+     FORMAT          (CDF_CHAR/3): "I20"
+     CATDESC         (CDF_CHAR/16): "Delta start time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/4): "None"
+
+nh_swap_energy_bins (No: 3) (Recs: 1)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Electron Volts"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 8000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/4): "eV/q"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     FORMAT          (CDF_CHAR/4): "F5.2"
+     CATDESC         (CDF_CHAR/20): "NH SWAP: Energy Bins"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/4): "None"
+
+nh_swap_distance_to_sun (No: 4) (Recs: 0)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Distance to Sun in AU"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/2): "AU"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     FORMAT          (CDF_CHAR/4): "F4.2"
+     CATDESC         (CDF_CHAR/30): "NH SWAP: Distance to Sun in AU"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "Time_Series"
+     LABLAXIS        (CDF_CHAR/15): "Distance to Sun"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+nh_swap_histogram (No: 5) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Count Rate [Hz] in eV/q"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+09
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/2): "Hz"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     CATDESC         (CDF_CHAR/42): "NH SWAP: Histogram Count Rate [Hz] in eV/q"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/21): "Coincident Count Rate"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/19): "nh_swap_energy_bins"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+nh_swap_histogram_uncertainties (No: 6) (Recs: 0)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "Uncertainties for the Count Rates [Hz]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-05
+     VALIDMAX        (CDF_REAL4/1): 1.0e+09
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/2): "Hz"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     CATDESC         (CDF_CHAR/50): "NH SWAP: 1-sigma uncertainties for the count rates"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     LABLAXIS        (CDF_CHAR/13): "Uncertainties"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/19): "nh_swap_energy_bins"
+     SCALETYP        (CDF_CHAR/3): "log"
+

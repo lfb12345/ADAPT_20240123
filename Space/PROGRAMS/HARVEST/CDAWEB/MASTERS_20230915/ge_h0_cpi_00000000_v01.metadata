@@ -1,0 +1,270 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ge_h0_cpi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ge_h0_cpi_00000000_v01.cdf
+Version:      3.5.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     10
+NumAttrs:     39 (18 global, 21 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (18 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"GEOTAIL>Geomagnetic Tail"
+Data_type (1 entry):
+	0 (CDF_CHAR/25): 	"H0>SWA Definitive Moments"
+Descriptor (1 entry):
+	0 (CDF_CHAR/40): 	"CPI>Comprehensive Plasma Instrumentation"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"6"
+TITLE (1 entry):
+	0 (CDF_CHAR/11): 	"Geotail CPI"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0091"
+TEXT (1 entry):
+	0 (CDF_CHAR/432): 	"Version 6 data processing replaced version 5 processing for data after March 10, 2006, when the CPI team started using 64 energy steps per spectrum instead of the previously used 32 steps per spectrum.  The change was made to ensure that even for very cold flows, the spectrum would have a sufficient number of significant points to derive moments.  The change resulted in 96s spectra and 96s-resolution moments, vs. 48s previously."
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"GE_H0_CPI_00000000_V06"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"GE_H0_CPI"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/98): 	"Plasma Moments, Definitive Geotail CPI/SWA (Comprehensive Plasma Instrument / Solar Wind Analyzer)"
+PI_name (1 entry):
+	0 (CDF_CHAR/38): 	"L. Frank, W. Patterson and K. Ackerson"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"U. Iowa"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/7): 	"Geotail"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/31): 	"Geotail_CPI_Plasma-H0_45sec_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/48): 	"spase://JAXA/NumericalData/Geotail/CPI/SWA/PT48S"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+VAR_NOTES
+AVG_TYPE
+
+Variable Information (0 rVariable, 10 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+SW_V                  CDF_REAL4/1	1:[3]	T/T
+SW_Vc                 CDF_REAL4/1	1:[3]	T/T
+SW_T                  CDF_REAL4/1	0:[]	T/  
+SW_P_Den              CDF_REAL4/1	0:[]	T/  
+SW_Pressure           CDF_REAL4/1	0:[]	T/  
+label_v3              CDF_CHAR/22	1:[3]	F/T
+label_v3c             CDF_CHAR/14	1:[3]	F/T
+cartesian3            CDF_CHAR/1	1:[3]	F/T
+v_units               CDF_CHAR/4	1:[3]	F/T
+
+
+Variable (10 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/30): "Time, centered, in NSSDC Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 08-Sep-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 20:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 08-Sep-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 20:00:00.000
+     LABLAXIS        (CDF_CHAR/9): "CDF Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/16): "time>NSSDC_Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+SW_V (No: 1) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Ion Bulk Flow Velocity"
+     CATDESC         (CDF_CHAR/72): "Ion Bulk Flow Velocity (H only when in solar wind), GSE polar components"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 1200.0, 180.0, 360.0
+     SCALEMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/3): 1200.0, 180.0, 360.0
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/22): "velocity>Ion_bulk_flow"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/8): "label_v3"
+     UNIT_PTR        (CDF_CHAR/7): "v_units"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "label_v3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+SW_Vc (No: 2) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Ion Bulk Flow Velocity"
+     CATDESC         (CDF_CHAR/81): "---> Ion Bulk Flow Velocity (H only when in solar wind), GSE cartesian components"
+     VALIDMIN        (CDF_REAL4/3): -1400.0, -1400.0, -1400.0
+     VALIDMAX        (CDF_REAL4/3): 1400.0, 1400.0, 1400.0
+     SCALEMIN        (CDF_REAL4/3): -1400.0, -1400.0, -1400.0
+     SCALEMAX        (CDF_REAL4/3): 1400.0, 1400.0, 1400.0
+     UNITS           (CDF_CHAR/6): "km/sec"
+     FORMAT          (CDF_CHAR/4): "F7.0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/19): "velocity>H_bulkflow"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/9): "label_v3c"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "cartesian3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/23): "From 5 deg angular bins"
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+SW_T (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Ion Average Temperature"
+     CATDESC         (CDF_CHAR/39): "Ion Average Kinetic Temperature, scalar"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     SCALEMIN        (CDF_REAL4/1): 10000.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+07
+     LABLAXIS        (CDF_CHAR/8): "Ion Temp"
+     UNITS           (CDF_CHAR/6): "Kelvin"
+     FORMAT          (CDF_CHAR/4): "f7.0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/51): "calculated by integrating the distribution function"
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+SW_P_Den (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Ion Number Density"
+     CATDESC         (CDF_CHAR/18): "Ion Number Density"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     LABLAXIS        (CDF_CHAR/11): "Ion Density"
+     UNITS           (CDF_CHAR/3): "/cc"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/18): "density>Ion_number"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/166): "Assuming no helium (0.3 - several hundred) if the density is less than 0.3/cc the higher moments (VEL,TEMP) shall not be used because of the poor counting statistics."
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+SW_Pressure (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Total Ion Pressure (CPI/SWA)"
+     CATDESC         (CDF_CHAR/56): "Total Ion Pressure (from H measured and adding 5% alphas"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0001
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/18): "Total Ion Pressure"
+     UNITS           (CDF_CHAR/3): "nPa"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/9): "pressure>"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/208): "Assuming Vp = Va, P = C * Np * mp * Vp*Vp * [1 + 4(.05)]. mp = 1.67 * 10^(-27), C = 10^(21), Np in #/cc, Vp in km/s. Pressure not provided for density less than 0.3/cc because of the poor counting statistics."
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+label_v3 (No: 6) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for velocity"
+     CATDESC         (CDF_CHAR/25): "Label for 3 comp velocity"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/373): "Theta: polar angle in GSE coordinates -- 0 = flow toward north ecliptic pole (positive vz), 90 = flow in spin plane (within 2 degrees of ecliptic), 180 = flow toward south pole (negative vz).    Phi: azimuthal angle -- 0 = flow toward sun  (positive vx), 90 = flow toward dusk  (positive vy), 180 = flow away from sun  (negative vx), 270 = flow toward dawn   (negative vy) "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+label_v3c (No: 7) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for velocity"
+     CATDESC         (CDF_CHAR/25): "Label for 3 comp velocity"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+cartesian3 (No: 8) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Dimension Label"
+     CATDESC         (CDF_CHAR/15): "Dimension Label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/18): "position>direction"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+v_units (No: 9) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for velocity"
+     CATDESC         (CDF_CHAR/18): "Units for velocity"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+

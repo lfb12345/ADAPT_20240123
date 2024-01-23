@@ -1,0 +1,684 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/aimp2_mag_82sec_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     aimp2_mag_82sec_00000000_v01.cdf
+Version:      3.7.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     40
+NumAttrs:     52 (25 global, 27 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/8): 	"Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/39): 	"aimp2>Anchored IMP 2/Explorer 35/Imp-e "
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/5): 	"82sec"
+Descriptor (1 entry):
+	0 (CDF_CHAR/16): 	"mag>Magnetometer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"C.P. Sonett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA Ames"
+TEXT (2 entries):
+	0 (CDF_CHAR/474): 	"This data set was created at GSFC/SPDF in 2010.  Nand Lal did the initial conversion of NSSDC data set SPHE-00615 (67-070A-04B) from IBM/7094 binary to ASCII, and then Joe King and Natalia Papitashvili created the final version.  The original data set, from the NASA/GSFC magnetometer (N.F. Ness, PI), has both 5.12s values and averages of these values taken over spacecraft sequences of 81.92s duration.  The 5.12s data are presently (July, 2010) in NSSDC's offline archive"
+	1 (CDF_CHAR/580): 	"For magnetic field data, only precisions limited to instrumental uncertainties were retained in the final version described herein (i.e., 0.01 nT). Data words have been resequenced to carry time tags, field data in geophysical coordinates, spacecraft position data in GSE, GSM, and SSE coordinates, and finally all other data from original records.  Decimal days (wherein 12N, UT, on Jan. 1 is 0.5) have been replaced by Day-of-year (wherein Jan. 1 is 1), and fractional minutes have been replaced by integer minutes and seconds.  Formats given below include spaces between words."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"IMP (All)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Logical_source (1 entry):
+	0 (CDF_CHAR/15): 	"aimp2_mag_82sec"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/28): 	"aimp2_mag_82sec_00000000_v03"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/81): 	"Magnetic Field, 82 second averaged data, Anchored IMP 2 (aka Explorer 35 or IMP-E"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"82 second"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Link_text (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Link_title (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_link (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (27 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+ALLOW_BIN
+
+Variable Information (0 rVariable, 40 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+fldMAG                CDF_REAL4/1	0:[]	T/  
+stdDevfldMAG          CDF_REAL4/1	0:[]	T/  
+GSE_Bxyz              CDF_REAL4/1	1:[3]	T/T
+GSE_Bxyz_labl         CDF_CHAR/8	1:[3]	F/T
+GSE_Bxyz_stDev        CDF_REAL4/1	1:[3]	T/T
+GSE_Bxyz_stDev_labl   CDF_CHAR/14	1:[3]	F/T
+GSE_B_lat_azim        CDF_REAL4/1	1:[2]	T/T
+GSE_B_lat_azim_labl   CDF_CHAR/12	1:[2]	F/T
+GSM_Byz               CDF_REAL4/1	1:[2]	T/T
+GSM_Byz_labl          CDF_CHAR/8	1:[2]	F/T
+GSE_xyz               CDF_REAL4/1	1:[3]	T/T
+GSE_xyz_labl          CDF_CHAR/7	1:[3]	F/T
+GSM_yz                CDF_REAL4/1	1:[2]	T/T
+GSM_yz_labl           CDF_CHAR/7	1:[2]	F/T
+SSE_xyz               CDF_REAL4/1	1:[3]	T/T
+SSE_xyz_labl          CDF_CHAR/7	1:[3]	F/T
+sc_spin_period        CDF_REAL4/1	0:[]	T/  
+optical_aspect_time   CDF_REAL4/1	0:[]	T/  
+GSE_spin_axis_RA_dec  CDF_REAL4/1	1:[2]	T/T
+GSE_RA_dec_labl       CDF_CHAR/19	1:[2]	F/T
+GSM_spin_axis_RA_dec  CDF_REAL4/1	1:[2]	T/T
+GSM_RA_dec_labl       CDF_CHAR/19	1:[2]	F/T
+Fratio                CDF_INT4/1	0:[]	T/   sRecords.PREV
+PAYLOAD_Bxyz          CDF_REAL4/1	1:[3]	T/T
+PAYLOAD_Bxyz_labl     CDF_CHAR/12	1:[3]	F/T
+PAYLOAD_Bxyz_stDev    CDF_REAL4/1	1:[3]	T/T
+PAYLOAD_Bxyz_stDev_labl CDF_CHAR/18	1:[3]	F/T
+PAYLOAD_B_lat_azim    CDF_REAL4/1	1:[2]	T/T
+PAYLOAD_B_lat_azim_labl CDF_CHAR/16	1:[2]	F/T
+Cratio                CDF_INT4/1	0:[]	T/   sRecords.PREV
+dataQualityFlag       CDF_INT4/1	0:[]	T/   sRecords.PREV
+experimentFlags       CDF_INT4/1	1:[2]	T/T
+experimentFlags_labl  CDF_CHAR/17	1:[2]	F/T
+numPoints             CDF_INT4/1	0:[]	T/   sRecords.PREV
+seqNum                CDF_INT4/1	0:[]	T/   sRecords.PREV
+seqID                 CDF_INT4/1	0:[]	T/   sRecords.PREV
+cartesian             CDF_CHAR/1	1:[3]	F/T
+cartesianyz           CDF_CHAR/1	1:[2]	F/T
+indexvar14            CDF_INT2/1	1:[2]	F/T
+
+
+Variable (40 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "CDF time standard. Time of last data sequence in the 15.36-second average."
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/30): "Epoch (Last data in 15-s avg.)"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 30-Oct-1973 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 10-Jun-2000 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+fldMAG (No: 1) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Field Magnitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "Field Magnitude"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABLAXIS        (CDF_CHAR/15): "Field Magnitude"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+08
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+stdDevfldMAG (No: 2) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Standard Dev Field Magnitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "stdDev field mag"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABLAXIS        (CDF_CHAR/15): "stDev field mag"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+08
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+GSE_Bxyz (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "GSE Bx By Bz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     FIELDNAM        (CDF_CHAR/10): "Bxyz (GSE)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     LABL_PTR_1      (CDF_CHAR/13): "GSE_Bxyz_labl"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+GSE_Bxyz_labl (No: 4) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "GSE_Bxyz_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/13): "GSE_Bxyz_labl"
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+GSE_Bxyz_stDev (No: 5) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "GSE Bx By Bz stDev"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     FIELDNAM        (CDF_CHAR/16): "Bxyz (GSE) stDev"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABL_PTR_1      (CDF_CHAR/19): "GSE_Bxyz_stDev_labl"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+GSE_Bxyz_stDev_labl (No: 6) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "GSE_Bxyz_stDev_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/19): "GSE_Bxyz_stDev_labl"
+     FORMAT          (CDF_CHAR/3): "a14"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+GSE_B_lat_azim (No: 7) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "GSE B Lat & Azim"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "cartesianyz"
+     FIELDNAM        (CDF_CHAR/18): "B Lat & Azim (GSE)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     LABL_PTR_1      (CDF_CHAR/19): "GSE_B_lat_azim_labl"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+GSE_B_lat_azim_labl (No: 8) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "GSE_B_lat_azim_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/19): "GSE_B_lat_azim_labl"
+     FORMAT          (CDF_CHAR/3): "a12"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+GSM_Byz (No: 9) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "GSM By Bz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "cartesianyz"
+     FIELDNAM        (CDF_CHAR/9): "Byz (GSM)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     LABL_PTR_1      (CDF_CHAR/12): "GSM_Byz_labl"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+GSM_Byz_labl (No: 10) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "GSM_Byz_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/12): "GSM_Byz_labl"
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+GSE_xyz (No: 11) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "GSE x y z"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     FIELDNAM        (CDF_CHAR/9): "xyz (GSE)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     LABL_PTR_1      (CDF_CHAR/12): "GSE_xyz_labl"
+     UNITS           (CDF_CHAR/2): "Re"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+GSE_xyz_labl (No: 12) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "GSE_xyz_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/12): "GSE_xyz_labl"
+     FORMAT          (CDF_CHAR/2): "a7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+GSM_yz (No: 13) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "GSM y z"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "cartesianyz"
+     FIELDNAM        (CDF_CHAR/8): "yz (GSM)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     LABL_PTR_1      (CDF_CHAR/11): "GSM_yz_labl"
+     UNITS           (CDF_CHAR/2): "Re"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+GSM_yz_labl (No: 14) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "GSM_yz_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/11): "GSM_yz_labl"
+     FORMAT          (CDF_CHAR/2): "a7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+SSE_xyz (No: 15) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "SSE x y z"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     FIELDNAM        (CDF_CHAR/9): "xyz (SSE)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     LABL_PTR_1      (CDF_CHAR/12): "SSE_xyz_labl"
+     UNITS           (CDF_CHAR/11): "lunar radii"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/201): "SSE coordinates are Selenocentric Solar Ecliptic, having its X axis from the moon to the sun and Z axis normal to the ecliptic plane, positive northward.  Components are given in units of lunar radii. "
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SSE_xyz_labl (No: 16) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "SSE_xyz_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/12): "SSE_xyz_labl"
+     FORMAT          (CDF_CHAR/2): "a7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+sc_spin_period (No: 17) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "Spacecraft spin period"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "S/C spin period"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/15): "S/C spin period"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+optical_aspect_time (No: 18) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Optical aspect time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "opt aspect time"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/19): "optical aspect time"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+08
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+GSE_spin_axis_RA_dec (No: 19) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "GSE Spin axis RA & Dec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "cartesianyz"
+     FIELDNAM        (CDF_CHAR/23): "SpinAxis RA & Dec (GSE)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABL_PTR_1      (CDF_CHAR/25): "GSE_spin_axis_RA_dec_labl"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/60): "RA&Dec means right ascension and declination. J1950 is used."
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+GSE_RA_dec_labl (No: 20) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "GSE_spin_axis_RA_dec_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/25): "GSE_spin_axis_RA_dec_labl"
+     FORMAT          (CDF_CHAR/3): "a19"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+GSM_spin_axis_RA_dec (No: 21) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "GSM Spin axis RA & Dec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "cartesianyz"
+     FIELDNAM        (CDF_CHAR/23): "SpinAxis RA & Dec (GSM)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABL_PTR_1      (CDF_CHAR/25): "GSM_spin_axis_RA_dec_labl"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/60): "RA&Dec means right ascension and declination. J1950 is used."
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+GSM_RA_dec_labl (No: 22) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "GSM_spin_axis_RA_dec_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/25): "GSM_spin_axis_RA_dec_labl"
+     FORMAT          (CDF_CHAR/3): "a19"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Fratio (No: 23) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "F ratio"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "F ratio"
+     FILLVAL         (CDF_INT4/1): 9
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/7): "F ratio"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): -10000
+     VALIDMAX        (CDF_INT4/1): 10000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/115): "F Ratio is {(RMS standard deviation in sequence-averaged field magnitude)/(sequence averaged field magnitude)}*100."
+
+PAYLOAD_Bxyz (No: 24) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "PAYLOAD Bx By Bz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     FIELDNAM        (CDF_CHAR/14): "Bxyz (PAYLOAD)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     LABL_PTR_1      (CDF_CHAR/17): "PAYLOAD_Bxyz_labl"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+PAYLOAD_Bxyz_labl (No: 25) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "PAYLOAD_Bxyz_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/17): "PAYLOAD_Bxyz_labl"
+     FORMAT          (CDF_CHAR/3): "a12"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+PAYLOAD_Bxyz_stDev (No: 26) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "PAYLOAD Bx By Bz stDev"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     FIELDNAM        (CDF_CHAR/20): "Bxyz (PAYLOAD) stDev"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABL_PTR_1      (CDF_CHAR/23): "PAYLOAD_Bxyz_stDev_labl"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+PAYLOAD_Bxyz_stDev_labl (No: 27) (Recs: 1)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "PAYLOAD_Bxyz_stDev_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/23): "PAYLOAD_Bxyz_stDev_labl"
+     FORMAT          (CDF_CHAR/3): "a18"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+PAYLOAD_B_lat_azim (No: 28) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "PAYLOAD B Lat & Azim"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "cartesianyz"
+     FIELDNAM        (CDF_CHAR/22): "B Lat & Azim (PAYLOAD)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     LABL_PTR_1      (CDF_CHAR/23): "PAYLOAD_B_lat_azim_labl"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+08, -1.0e+08, -1.0e+08
+     VALIDMAX        (CDF_REAL4/3): 1.0e+08, 1.0e+08, 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+PAYLOAD_B_lat_azim_labl (No: 29) (Recs: 1)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "PAYLOAD_B_lat_azim_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/23): "PAYLOAD_B_lat_azim_labl"
+     FORMAT          (CDF_CHAR/3): "a16"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Cratio (No: 30) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "C ratio"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "C ratio"
+     FILLVAL         (CDF_INT4/1): 9
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/7): "C ratio"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): -10000
+     VALIDMAX        (CDF_INT4/1): 10000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/98): "C Ratio is {[RMS(BxSE) + RMS(BySE) + RMS(BzSE)]/[SQRT(<BxSE>**2 + <BySE>**2 + <BzSE>**2)]}* 100/3."
+
+dataQualityFlag (No: 31) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "data quality flags"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "data quality"
+     FILLVAL         (CDF_INT4/1): -99999
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/12): "data quality"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): -1000
+     VALIDMAX        (CDF_INT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/81): "Data quality flags relate to spacecraft clock readings.  A value of zero is best."
+
+experimentFlags (No: 32) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "experiment flags"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "indexvar2"
+     FIELDNAM        (CDF_CHAR/16): "experiment flags"
+     FILLVAL         (CDF_INT4/1): -99999
+     FORMAT          (CDF_CHAR/2): "i3"
+     LABL_PTR_1      (CDF_CHAR/16): "experiment flags"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/3): -1000, -1000, -1000
+     VALIDMAX        (CDF_INT4/3): 1000, 1000, 1000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/136): "Experiment flags capture: the sensor flip state; whether normal, flipping, or calibrating; and the sensitivity level (+/-24 nT or 64 nT)"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+experimentFlags_labl (No: 33) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "experimentFlags_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/20): "experimentFlags_labl"
+     FORMAT          (CDF_CHAR/3): "a17"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+numPoints (No: 34) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "# of points in avgs"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "#points"
+     FILLVAL         (CDF_INT4/1): -999
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/11): "# of points"
+     VALIDMIN        (CDF_INT4/1): -1000
+     VALIDMAX        (CDF_INT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+seqNum (No: 35) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "Sequence # (clock)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "seq#"
+     FILLVAL         (CDF_INT4/1): -9999
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/4): "seq#"
+     VALIDMIN        (CDF_INT4/1): -1
+     VALIDMAX        (CDF_INT4/1): 1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+seqID (No: 36) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "sequence ID"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "seq ID"
+     FILLVAL         (CDF_INT4/1): -9
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/6): "seq ID"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 9999
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+cartesian (No: 37) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/9): "cartesian"
+     FORMAT          (CDF_CHAR/2): "a2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+cartesianyz (No: 38) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "cartesianyz"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/11): "cartesianyz"
+     FORMAT          (CDF_CHAR/2): "a2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+indexvar14 (No: 39) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/9): "indexvar2"
+     LABLAXIS        (CDF_UCHAR/9): "indexvar2"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 2
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+

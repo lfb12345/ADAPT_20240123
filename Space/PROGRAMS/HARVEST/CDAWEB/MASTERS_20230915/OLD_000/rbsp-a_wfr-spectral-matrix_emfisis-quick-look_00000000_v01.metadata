@@ -1,0 +1,705 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/rbsp-a_wfr-spectral-matrix_emfisis-quick-look_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     rbsp-a_wfr-spectral-matrix_emfisis-quick-look_00000000_v01.cdf
+Version:      3.5.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     33
+NumAttrs:     58 (28 global, 30 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (28 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/32): 	"RBSP>Radiation Belt Storm Probes"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"RBSPA>Radiation Belt Storm Probes A"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"L2>Level 2 Data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/75): 	"EMFISIS>Electric and Magnetic Field Instrument Suite and Integrated Science"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_descriptor_datatype"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Craig Kletzing"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/18): 	"University of Iowa"
+TEXT (1 entry):
+	0 (CDF_CHAR/255): 	"Three Axis Electric Field (EU, EV, EW) and Three Axis Magnetic field (BU, BV, BW)  cross spectral matrix,  6 diagonal components and 15 off-diagonal components.Frequency range: 10 kHz to 487kHz..82 Frequency Bins.Cadence: 1 spectra per 6 seconds (survey)."
+Instrument_type (3 entries):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+	1 (CDF_CHAR/23): 	"Electric Fields (space)"
+	2 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/23): 	"Van Allen Probes (RBSP)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/45): 	"rbsp-a_wfr-spectral-matrix_emfisis-quick-look"
+Logical_file_id (1 entry):
+	13 (CDF_CHAR/65): 	"rbsp-a_WFR-spectral-matrix_emfisis-quick-look_20121231_v1.2.2.cdf"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/19): 	"WFR Spectral Matrix"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"6 seconds"
+Rules_of_use (1 entry):
+	16 (CDF_CHAR/806): 	"From the Data Use Policy: http://emfisis.physics.uiowa.edu/data/use_policy Invite to be on the authorship: *The Principal Investigator, or his/her designate, of the team that generated the data *Any other contributors and scientists (from your team or other tems) who significantly contributed to the specific work described in your publication Allow any members of the author list to request to have their name removed from the publication authorship list as they so choose. Notify the PI of the team that produced the data that you are working on a paper and the topic of the paper well before circulating a first draft. Circulate a copy to all co-authors at least two weeks before you intend to submit and be willing to wait on submission if there are concerns raised by a member of the instrument team."
+Generated_by (1 entry):
+	0 (CDF_CHAR/26): 	"wfr_spectra_calibrator.pro"
+Generation_date (1 entry):
+	0 (CDF_CHAR/8): 	"01/08/13"
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/12): 	"EMFISIS data"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/7): 	"EMFISIS"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/33): 	"http://emfisis.physics.uiowa.edu/"
+RBSP_APID (1 entry):
+	0 (CDF_CHAR/5): 	"0x2b2"
+RBSP_dataType (1 entry):
+	0 (CDF_CHAR/17): 	"WFRspectralMatrix"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+
+Variable Attributes (30 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+FORM_PTR
+VIRTUAL
+FUNCTION
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+AVG_TYPE
+
+Variable Information (0 rVariable, 33 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+BuBu                  CDF_REAL4/1	1:[65]	T/T
+BvBv                  CDF_REAL4/1	1:[65]	T/T
+BwBw                  CDF_REAL4/1	1:[65]	T/T
+EuEu                  CDF_REAL4/1	1:[65]	T/T
+EvEv                  CDF_REAL4/1	1:[65]	T/T
+EwEw                  CDF_REAL4/1	1:[65]	T/T
+WFR_bins              CDF_UINT2/1	1:[65]	T/T
+WFR_bandwidth         CDF_REAL4/1	1:[65]	T/T
+WFR_frequencies       CDF_REAL4/1	1:[65]	T/T
+WFR_frequencies_Fixed CDF_REAL4/1	1:[65]	F/T
+BuBv                  CDF_REAL4/1	2:[2,65]	T/TT
+BuBw                  CDF_REAL4/1	2:[2,65]	T/TT
+BuEu                  CDF_REAL4/1	2:[2,65]	T/TT
+BuEv                  CDF_REAL4/1	2:[2,65]	T/TT
+BuEw                  CDF_REAL4/1	2:[2,65]	T/TT
+BvEu                  CDF_REAL4/1	2:[2,65]	T/TT
+BvEv                  CDF_REAL4/1	2:[2,65]	T/TT
+BvEw                  CDF_REAL4/1	2:[2,65]	T/TT
+BwEu                  CDF_REAL4/1	2:[2,65]	T/TT
+BwEv                  CDF_REAL4/1	2:[2,65]	T/TT
+BwEw                  CDF_REAL4/1	2:[2,65]	T/TT
+EuEv                  CDF_REAL4/1	2:[2,65]	T/TT
+EuEw                  CDF_REAL4/1	2:[2,65]	T/TT
+EvEw                  CDF_REAL4/1	2:[2,65]	T/TT
+BvBw                  CDF_REAL4/1	2:[2,65]	T/TT
+TotalPowerB           CDF_FLOAT/1	1:[65]	T/T
+TotalPowerE           CDF_FLOAT/1	1:[65]	T/T
+LWEzGainW             CDF_BYTE/1	0:[]	T/  
+LWExEyGainUV          CDF_BYTE/1	0:[]	T/  
+SCMGain               CDF_BYTE/1	0:[]	T/  
+SPTT                  CDF_TT2000/1	0:[]	T/  
+APID                  CDF_UINT2/1	0:[]	T/  
+
+
+Variable (33 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Default time"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:57.999000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+BuBu (No: 1) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "BuBu"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BuBu"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "BuBu_amplitude"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+BvBv (No: 2) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "BvBv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BvBv"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "BVBv_amplitude"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+BwBw (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "BwBw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BwBw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "BwBw_amplitude"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+EuEu (No: 4) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "EuEu"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "EuEu"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "EuEu_amplitude"
+     UNITS           (CDF_CHAR/10): "V^2/m^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+EvEv (No: 5) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "EvEv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "EvEv"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "EvEv_amplitude"
+     UNITS           (CDF_CHAR/10): "V^2/m^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+EwEw (No: 6) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "EwEw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "EwEw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "EwEw_amplitude"
+     UNITS           (CDF_CHAR/10): "V^2/m^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+WFR_bins (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "WFR_bins"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     FIELDNAM        (CDF_CHAR/8): "WFR_bins"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/14): "Number of Bins"
+     UNITS           (CDF_CHAR/8): "constant"
+     VALIDMIN        (CDF_UINT2/1): 1
+     VALIDMAX        (CDF_UINT2/1): 100
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+WFR_bandwidth (No: 8) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "WFR_bandwidth"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     FIELDNAM        (CDF_CHAR/13): "WFR_bandwidth"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/13): "Bin Bandwidth"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 486968.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+WFR_frequencies (No: 9) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "WFR frequency spectrum"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/15): "WFR_frequencies"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 12000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+WFR_frequencies_Fixed (No: 10) (Recs: 1)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "WFR frequency spectrum"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/15): "WFR_frequencies"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 12000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+BuBv (No: 11) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BuBv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BuBv"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BuBw (No: 12) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BuBw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BuBw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BuEu (No: 13) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BuEu"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BuEu"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/9): "nT*V/m/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BuEv (No: 14) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BuEv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BuEv"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/9): "nT*V/m/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BuEw (No: 15) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BuEw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BuEw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/9): "nT*V/m/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BvEu (No: 16) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BvEu"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BvEu"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/9): "nT*V/m/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BvEv (No: 17) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BvEv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BvEv"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/9): "nT*V/m/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BvEw (No: 18) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BvEw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BvEw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/9): "nT*V/m/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BwEu (No: 19) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BwEu"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BwEu"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/9): "nT*V/m/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BwEv (No: 20) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BwEv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BwEv"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/9): "nT*V/m/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BwEw (No: 21) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BwEw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BwEw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/9): "nT*V/m/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+EuEv (No: 22) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] EuEv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "EuEv"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/10): "V^2/m^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+EuEw (No: 23) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] EuEw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "EuEw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/10): "V^2/m^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+EvEw (No: 24) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] EvEw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "EvEw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/10): "V^2/m^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+BvBw (No: 25) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "[Complex] BvBw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_2        (CDF_CHAR/15): "WFR_frequencies"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/4): "BvBw"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/69): "Complex number (real + imaginary) .Depend 1 0 -  Real, 1 - Imagninary"
+
+TotalPowerB (No: 26) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "[VV] Sum of BuBu, BvBv, and BwBw"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     DICT_KEY        (CDF_CHAR/4): "flag"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "TotalPowerB"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     LABLAXIS        (CDF_CHAR/17): "TPowerB_amplitude"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/10): "sum_values"
+     COMPONENT_0     (CDF_CHAR/4): "BuBu"
+     COMPONENT_1     (CDF_CHAR/4): "BvBv"
+     COMPONENT_2     (CDF_CHAR/4): "BwBw"
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+TotalPowerE (No: 27) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "[VV] Sum of EuEu, EvEv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/21): "WFR_frequencies_Fixed"
+     DICT_KEY        (CDF_CHAR/4): "flag"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "TotalPowerE"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     LABLAXIS        (CDF_CHAR/17): "TPowerE_amplitude"
+     UNITS           (CDF_CHAR/10): "V^2/m^2/Hz"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/10): "sum_values"
+     COMPONENT_0     (CDF_CHAR/4): "EuEu"
+     COMPONENT_1     (CDF_CHAR/4): "EvEv"
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+LWEzGainW (No: 28) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "LWEzGainW"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/9): "LWEzGainW"
+     FILLVAL         (CDF_BYTE/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/190): "Attenuator select indicator for W axis.  0 - Off, 1 - On.   Switches in a 19 dB attenuator.   L2 and greater data has the attenuator gains folded into data to provide correct science units. "
+
+LWExEyGainUV (No: 29) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "LWExEyGainUV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "LWExEyGainUV"
+     FILLVAL         (CDF_BYTE/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/194): "Attenuator select indicator for U and V axis.  0 - Off, 1 - On.   Switches in a 19 dB attenuator.  L2 and greater data has the attenuator gains folded into data to provide correct science units."
+
+SCMGain (No: 30) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "SCMGain"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/7): "SCMGain"
+     FILLVAL         (CDF_BYTE/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/186): "Attenuator select indicator for MSC.  0 - Off, 1 - On.   Switches in a 19 dB attenuator.  L2 and greater data has the attenuator gains folded into data to provide correct science units. "
+
+SPTT (No: 31) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "Sun Pulse Time Tag"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:57.999000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+APID (No: 32) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "APID"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/4): "APID"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/4): "APID"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 703
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

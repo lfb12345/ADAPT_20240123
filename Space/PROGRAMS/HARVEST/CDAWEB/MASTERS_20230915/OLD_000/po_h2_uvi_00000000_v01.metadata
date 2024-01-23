@@ -1,0 +1,1270 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_h2_uvi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_h2_uvi_00000000_v01.cdf
+Version:      3.6.2
+
+Common Data Format (CDF)
+(C) Copyright 1990-2016 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     70
+NumzVars:     0
+NumAttrs:     53 (30 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (30 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/34): 	"UVI Level-1 Image and Housekeeping"
+Data_type (1 entry):
+	0 (CDF_CHAR/33): 	"H2>Level-1 Full Resolution Images"
+CREATED         (1 entry):
+	0 (CDF_CHAR/25): 	"Thu Mar  8 12:22:34 2001."
+LEVEL-0 SOURCE  (1 entry):
+	0 (CDF_CHAR/41): 	"/cdrom/cdrom0/data/po/uvi/lz/98043001.dat"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+SW_VERSION      (1 entry):
+	0 (CDF_CHAR/26): 	"@(#)l0tol1.c.1.40 07/15/99"
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+	1 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/45): 	"Polar UVI Level-1 Full Resolution Imager Data"
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"ISTP"
+TEXT (4 entries):
+	0 (CDF_CHAR/30): 	"Primary UVI team data products"
+	1 (CDF_CHAR/81): 	"CDAWeb displayed images have time-tags shifted 51 seconds back from nominal Epoch"
+	2 (CDF_CHAR/78): 	"This corrects that H2 Epochs are telemetry times, not centered collection time"
+	3 (CDF_CHAR/102): 	"51 seconds is an approximate, typical correction.  Exact values depend on modes and transition status."
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"G. Parks"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/13): 	"U. Washington"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/22): 	"UVI>ULTRAVIOLET IMAGER"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Link_text (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/42): 	"Initial work at SPDF 3/20-x/xx/2001 by REM"
+Time_resolution (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"po_h2_uvi"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"po_h2_uvi_00000000_v01"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/24): 	"Polar_UVI_fullres_h2_cdf"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_NOTES
+CATDESC
+DICT_KEY
+VAR_TYPE
+FORM_PTR
+FORMAT
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_2
+DEPEND_1
+COMPONENT_0
+VIRTUAL
+FUNCTION
+ALLOW_BIN
+
+Variable Information (70 rVariables, 0 zVariable)
+===========================================================
+INT_IMAGE             CDF_UINT2/1	2:[228,200]	T/TT
+INT_IMAGE_51          CDF_UINT2/1	2:[228,200]	T/TT
+INT_IMAGE_LargeF      CDF_UINT2/1	2:[228,200]	T/TT
+INT_IMAGE_LF51        CDF_UINT2/1	2:[228,200]	T/TT
+INT_IMAGE_Movie       CDF_UINT2/1	2:[228,200]	T/TT
+INT_IMAGE_Movie51     CDF_UINT2/1	2:[228,200]	T/TT
+row                   CDF_REAL4/1	2:[228,200]	F/TF
+col                   CDF_REAL4/1	2:[228,200]	F/FT
+EPOCH                 CDF_EPOCH/1	2:[228,200]	T/FF
+EPOCH_51              CDF_EPOCH/1	2:[228,200]	T/FF
+SC_DATE               CDF_UINT4/1	2:[228,200]	T/FF
+SC_TIME               CDF_FLOAT/1	2:[228,200]	T/FF
+MCP                   CDF_FLOAT/1	2:[228,200]	T/FF
+BASEPLATE             CDF_FLOAT/1	2:[228,200]	T/FF
+PRIDET                CDF_FLOAT/1	2:[228,200]	T/FF
+SECDET                CDF_FLOAT/1	2:[228,200]	T/FF
+OPTBENCH              CDF_FLOAT/1	2:[228,200]	T/FF
+SC_BAFFLE             CDF_FLOAT/1	2:[228,200]	T/FF
+RADIATOR              CDF_FLOAT/1	2:[228,200]	T/FF
+SC_STKHSE             CDF_FLOAT/1	2:[228,200]	T/FF
+SC_STKELE             CDF_FLOAT/1	2:[228,200]	T/FF
+METERPNL              CDF_FLOAT/1	2:[228,200]	T/FF
+TOPPNL                CDF_FLOAT/1	2:[228,200]	T/FF
+SECSENSPNL            CDF_FLOAT/1	2:[228,200]	T/FF
+BOTTOMPNL             CDF_FLOAT/1	2:[228,200]	T/FF
+BAFFLE                CDF_FLOAT/1	2:[228,200]	T/FF
+FWMOTOR               CDF_FLOAT/1	2:[228,200]	T/FF
+CCD                   CDF_FLOAT/1	2:[228,200]	T/FF
+DETCASE               CDF_FLOAT/1	2:[228,200]	T/FF
+STKHSE                CDF_FLOAT/1	2:[228,200]	T/FF
+STKELE                CDF_FLOAT/1	2:[228,200]	T/FF
+HVPS_TEMP             CDF_FLOAT/1	2:[228,200]	T/FF
++5V                   CDF_FLOAT/1	2:[228,200]	T/FF
++5I                   CDF_FLOAT/1	2:[228,200]	T/FF
++15V                  CDF_FLOAT/1	2:[228,200]	T/FF
+-15V                  CDF_FLOAT/1	2:[228,200]	T/FF
++15I                  CDF_FLOAT/1	2:[228,200]	T/FF
+-15I                  CDF_FLOAT/1	2:[228,200]	T/FF
+SUSPECT               CDF_UINT4/1	2:[228,200]	T/FF
+SYSTEM                CDF_UINT1/1	2:[228,200]	T/FF
+FILTER                CDF_UINT1/1	2:[228,200]	T/FF
+MIRPOS                CDF_UINT1/1	2:[228,200]	T/FF
+DOORPOS               CDF_UINT1/1	2:[228,200]	T/FF
+GAIN                  CDF_UINT1/1	2:[228,200]	T/FF
+HVPSEN                CDF_UINT1/1	2:[228,200]	T/FF
+UVIMODE               CDF_UINT1/1	2:[228,200]	T/FF
+FRAMERATE             CDF_UINT1/1	2:[228,200]	T/FF
+OBSEQNUM              CDF_UINT1/1	2:[228,200]	T/FF
+SEQSTEP               CDF_UINT1/1	2:[228,200]	T/FF
+RECORD                CDF_UINT1/1	2:[228,200]	T/FF
+LOOP                  CDF_UINT1/1	2:[228,200]	T/FF
+ITIME                 CDF_UINT1/1	2:[228,200]	T/FF
+UVITLM                CDF_UINT1/1	2:[228,200]	T/FF
+SAFEING               CDF_UINT1/1	2:[228,200]	T/FF
+PFLCK                 CDF_UINT1/1	2:[228,200]	T/FF
+IMGNUM                CDF_UINT1/1	2:[228,200]	T/FF
+TBLNUM                CDF_UINT1/1	2:[228,200]	T/FF
+NFRM                  CDF_UINT1/1	2:[228,200]	T/FF
+NSPIN                 CDF_UINT1/1	2:[228,200]	T/FF
+NFRMSUM               CDF_UINT1/1	2:[228,200]	T/FF
+NIMAGE                CDF_UINT1/1	2:[228,200]	T/FF
+NROWS                 CDF_UINT1/1	2:[228,200]	T/FF
+STARTROW              CDF_UINT1/1	2:[228,200]	T/FF
+RESOLUTION            CDF_UINT1/1	2:[228,200]	T/FF
+PAD                   CDF_UINT1/1	2:[228,200]	T/FF
+PAD1                  CDF_UINT2/1	2:[228,200]	T/FF
+INTEGTIME             CDF_UINT2/1	2:[228,200]	T/FF
+SPINDELT              CDF_UINT2/1	2:[228,200]	T/FF
+MAJDELT               CDF_UINT2/1	2:[228,200]	T/FF
+SPINRATE              CDF_UINT2/1	2:[228,200]	T/FF
+
+
+Variable (70 variables)
+=========================================
+
+INT_IMAGE   (No: 0) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "CCD Raw Pixle Values"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_UINT2/1): 20
+     VALIDMAX        (CDF_UINT2/1): 65535
+     CATDESC         (CDF_CHAR/70): "UVI FUV Image, CCD pixel values (small format, no grid, no time-shift)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/16): "CCD Pixel Values"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+     DEPEND_2        (CDF_CHAR/3): "col"
+     DEPEND_1        (CDF_CHAR/3): "row"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+INT_IMAGE_51 (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "CCD Raw Pixle Values"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_UINT2/1): 20
+     VALIDMAX        (CDF_UINT2/1): 65535
+     CATDESC         (CDF_CHAR/99): "UVI FUV Image, CCD pixel values (small format, no grid, CDAWeb times +-6 sec) - USE NOISE REJECTION"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/16): "CCD Pixel Values"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH_51"
+     DEPEND_2        (CDF_CHAR/3): "col"
+     DEPEND_1        (CDF_CHAR/3): "row"
+     COMPONENT_0     (CDF_CHAR/11): "INT_IMAGE  "
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+INT_IMAGE_LargeF (No: 2) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "CCD Raw Pixel Values"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_UINT2/1): 20
+     VALIDMAX        (CDF_UINT2/1): 65535
+     CATDESC         (CDF_CHAR/70): "UVI FUV Image, CCD pixel values (large format, no grid, no time shift)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/16): "CCD Pixel Values"
+     DISPLAY_TYPE    (CDF_CHAR/19): "image>THUMBSIZE>166"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+     DEPEND_2        (CDF_CHAR/3): "col"
+     DEPEND_1        (CDF_CHAR/3): "row"
+     COMPONENT_0     (CDF_CHAR/11): "INT_IMAGE  "
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+INT_IMAGE_LF51 (No: 3) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "CCD Raw Pixel Values"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_UINT2/1): 20
+     VALIDMAX        (CDF_UINT2/1): 65535
+     CATDESC         (CDF_CHAR/99): "UVI FUV Image, CCD pixel values (large format, no grid, CDAWeb times +-6 sec) - USE NOISE REJECTION"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/16): "CCD Pixel Values"
+     DISPLAY_TYPE    (CDF_CHAR/19): "image>THUMBSIZE>166"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH_51"
+     DEPEND_2        (CDF_CHAR/3): "col"
+     DEPEND_1        (CDF_CHAR/3): "row"
+     COMPONENT_0     (CDF_CHAR/11): "INT_IMAGE  "
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+INT_IMAGE_Movie (No: 4) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "CCD Raw Pixel Values"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_UINT2/1): 20
+     VALIDMAX        (CDF_UINT2/1): 65535
+     CATDESC         (CDF_CHAR/63): "UVI FUV Image, CCD pixel values (movie, no grid, no time shift)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/16): "CCD Pixel Values"
+     DISPLAY_TYPE    (CDF_CHAR/5): "movie"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+     DEPEND_2        (CDF_CHAR/3): "col"
+     DEPEND_1        (CDF_CHAR/3): "row"
+     COMPONENT_0     (CDF_CHAR/11): "INT_IMAGE  "
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+INT_IMAGE_Movie51 (No: 5) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "CCD Raw Pixel Values"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_UINT2/1): 20
+     VALIDMAX        (CDF_UINT2/1): 65535
+     CATDESC         (CDF_CHAR/92): "UVI FUV Image, CCD pixel values (movie, no grid, CDAWeb times +-6 sec) - USE NOISE REJECTION"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/16): "CCD Pixel Values"
+     DISPLAY_TYPE    (CDF_CHAR/5): "movie"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH_51"
+     DEPEND_2        (CDF_CHAR/3): "col"
+     DEPEND_1        (CDF_CHAR/3): "row"
+     COMPONENT_0     (CDF_CHAR/11): "INT_IMAGE  "
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+row (No: 6) (Recs: 1)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Row Number"
+     UNITS           (CDF_CHAR/5): "pixel"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 228.0
+     CATDESC         (CDF_CHAR/10): "Row Number"
+     DICT_KEY        (CDF_CHAR/12): "position>row"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "Row"
+
+col (No: 7) (Recs: 1)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Column Number"
+     UNITS           (CDF_CHAR/5): "pixel"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 200.0
+     CATDESC         (CDF_CHAR/13): "Column Number"
+     DICT_KEY        (CDF_CHAR/15): "position>column"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Column"
+
+EPOCH       (No: 8) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "EPOCH      "
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2021 00:00:00.000
+     CATDESC         (CDF_CHAR/39): "Timestamp of first major frame of image"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "f16.2"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+
+EPOCH_51 (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "EPOCH_51"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2021 00:00:00.000
+     CATDESC         (CDF_CHAR/39): "Timestamp of first major frame of image"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "f16.2"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     COMPONENT_0     (CDF_CHAR/11): "EPOCH      "
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/7): "add_51s"
+
+SC_DATE     (No: 10) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SC_DATE    "
+     UNITS           (CDF_CHAR/4): "Days"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 10000
+     CATDESC         (CDF_CHAR/32): "Spacecraft truncated Julian date"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/3): "I10"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/22): "Julian Date from 10/95"
+
+SC_TIME     (No: 11) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "SC_TIME"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 86000.0
+     CATDESC         (CDF_CHAR/7): "sc_time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "ms of day"
+
+MCP         (No: 12) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "MCP        "
+     UNITS           (CDF_CHAR/5): "volts"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 5000.0
+     CATDESC         (CDF_CHAR/26): "Microchannel plate voltage"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/20): "MicroChan Plate Volt"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+BASEPLATE   (No: 13) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "BASEPLATE  "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -25.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/21): "Baseplate temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "BasePlate Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+PRIDET      (No: 14) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "PRIDET     "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -25.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/40): "Primary detector electronics temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "PrimDetElec Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SECDET      (No: 15) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SECDET     "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -25.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/42): "Secondary detector electronics temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "SecDetElec Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+OPTBENCH    (No: 16) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "OPTBENCH   "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -20.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/25): "Optical bench temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "OptBench Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SC_BAFFLE   (No: 17) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SC_BAFFLE  "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -60.0
+     VALIDMAX        (CDF_FLOAT/1): 150.0
+     CATDESC         (CDF_CHAR/31): "Baffle temperature (spacecraft)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "SC Baffle Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+RADIATOR    (No: 18) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "RADIATOR   "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -110.0
+     VALIDMAX        (CDF_FLOAT/1): 60.0
+     CATDESC         (CDF_CHAR/20): "Radiator temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "Radiator Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SC_STKHSE   (No: 19) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SC_STKHSE  "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -30.0
+     VALIDMAX        (CDF_FLOAT/1): 50.0
+     CATDESC         (CDF_CHAR/38): "Stack housing temperature (spacecraft)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "StkHousing Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SC_STKELE   (No: 20) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SC_STKELE  "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -30.0
+     VALIDMAX        (CDF_FLOAT/1): 50.0
+     CATDESC         (CDF_CHAR/42): "Stack electronics temperature (spacecraft)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "StkElec Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+METERPNL    (No: 21) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "METERPNL   "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -20.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/26): "Metering panel temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "MeterPanel Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+TOPPNL      (No: 22) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "TOPPNL     "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -20.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/21): "Top panel temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "TopPanel Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SECSENSPNL  (No: 23) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SECSENSPNL "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -20.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/34): "Secondary sensor panel temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "SecSensPanel Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+BOTTOMPNL   (No: 24) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "BOTTOMPNL  "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -20.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/24): "Bottom panel temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "BottomPan Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+BAFFLE      (No: 25) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "BAFFLE     "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -60.0
+     VALIDMAX        (CDF_FLOAT/1): 150.0
+     CATDESC         (CDF_CHAR/32): "Baffle temperature (operational)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "Baffle Temp (op)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+FWMOTOR     (No: 26) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "FWMOTOR    "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -20.0
+     VALIDMAX        (CDF_FLOAT/1): 40.0
+     CATDESC         (CDF_CHAR/30): "Filter wheel motor temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "FiltWheelMot Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+CCD         (No: 27) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "CCD        "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 50.0
+     CATDESC         (CDF_CHAR/15): "CCD temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "CCD Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+DETCASE     (No: 28) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "DETCASE    "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -25.0
+     VALIDMAX        (CDF_FLOAT/1): 50.0
+     CATDESC         (CDF_CHAR/25): "Detector case temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "DetCase Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+STKHSE      (No: 29) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "STKHSE     "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -30.0
+     VALIDMAX        (CDF_FLOAT/1): 50.0
+     CATDESC         (CDF_CHAR/39): "Stack housing temperature (operational)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "StkHous Temp(op)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+STKELE      (No: 30) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "STKELE     "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -30.0
+     VALIDMAX        (CDF_FLOAT/1): 50.0
+     CATDESC         (CDF_CHAR/43): "Stack electronics temperature (operational)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "StkElec Temp(op)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+HVPS_TEMP   (No: 31) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "HVPS_TEMP  "
+     UNITS           (CDF_CHAR/6): "deg. C"
+     VALIDMIN        (CDF_FLOAT/1): -25.0
+     VALIDMAX        (CDF_FLOAT/1): 50.0
+     CATDESC         (CDF_CHAR/37): "High voltage power supply temperature"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "HVPowerSupp Temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
++5V         (No: 32) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "+5V        "
+     UNITS           (CDF_CHAR/5): "volts"
+     VALIDMIN        (CDF_FLOAT/1): 4.3
+     VALIDMAX        (CDF_FLOAT/1): 5.8
+     CATDESC         (CDF_CHAR/18): "+5 voltage monitor"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "+5 VoltMon"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
++5I         (No: 33) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "+5I        "
+     UNITS           (CDF_CHAR/5): "mAMPS"
+     VALIDMIN        (CDF_FLOAT/1): 350.0
+     VALIDMAX        (CDF_FLOAT/1): 650.0
+     CATDESC         (CDF_CHAR/18): "+5 current monitor"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "+5 Curr Mon"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
++15V        (No: 34) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "+15V       "
+     UNITS           (CDF_CHAR/5): "volts"
+     VALIDMIN        (CDF_FLOAT/1): 13.0
+     VALIDMAX        (CDF_FLOAT/1): 16.0
+     CATDESC         (CDF_CHAR/19): "+15 voltage monitor"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "+15 Volt Mon"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+-15V        (No: 35) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "-15V       "
+     UNITS           (CDF_CHAR/5): "volts"
+     VALIDMIN        (CDF_FLOAT/1): -16.0
+     VALIDMAX        (CDF_FLOAT/1): -13.0
+     CATDESC         (CDF_CHAR/19): "-15 voltage monitor"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "-15 Volt Mon"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
++15I        (No: 36) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "+15I       "
+     UNITS           (CDF_CHAR/5): "mAMPS"
+     VALIDMIN        (CDF_FLOAT/1): 60.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     CATDESC         (CDF_CHAR/19): "+15 current monitor"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "+15 Curr Mon"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+-15I        (No: 37) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "-15I       "
+     UNITS           (CDF_CHAR/5): "mAMPS"
+     VALIDMIN        (CDF_FLOAT/1): 40.0
+     VALIDMAX        (CDF_FLOAT/1): 150.0
+     CATDESC         (CDF_CHAR/19): "-15 current monitor"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "-15 Curr Mon"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SUSPECT     (No: 38) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SUSPECT    "
+     UNITS           (CDF_CHAR/16): "(0=OK,1=Suspect)"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 20
+     VAR_NOTES       (CDF_CHAR/15): "0=OK  1=Suspect"
+     CATDESC         (CDF_CHAR/42): "Data quality suspect flag (0=OK,1=Suspect)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT4/1): 255
+     LABLAXIS        (CDF_CHAR/7): "DQ Flag"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SYSTEM      (No: 39) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SYSTEM     "
+     UNITS           (CDF_CHAR/18): "(0=prime,1=second)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     VAR_NOTES       (CDF_CHAR/22): "0=PRIMARY, 1=SECONDARY"
+     CATDESC         (CDF_CHAR/9): "System ID"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/9): "System ID"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+FILTER      (No: 40) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "FILTER     "
+     UNITS           (CDF_CHAR/26): "0-7=H/04/56/HS/HL/SO/SH/U)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 7
+     CATDESC         (CDF_CHAR/70): "UVI Filter (0=HOME 1=1304 2=1356 3=LBHS 4=LBHL 5=SOLR 6=SHUTTER 7=UNK)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/10): "Filter No."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+MIRPOS      (No: 41) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "MIRPOS     "
+     UNITS           (CDF_CHAR/14): "(0=NOT,1=FULL)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     CATDESC         (CDF_CHAR/37): "Mirror position (0=NOTFULL 1=FULLEXT)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/15): "Mirror Position"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+DOORPOS     (No: 42) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "DOORPOS    "
+     UNITS           (CDF_CHAR/20): "(0-3=U/FULL/OPEN/CL)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 3
+     CATDESC         (CDF_CHAR/55): "Aperture door position (0=UNK 1=FULLEX 2=OPEN 3=CLOSED)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/16): "ApeDoor Position"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+GAIN        (No: 43) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "GAIN       "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 232
+     CATDESC         (CDF_CHAR/9): "Gain step"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/9): "Gain Step"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+HVPSEN      (No: 44) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "HVPSEN     "
+     UNITS           (CDF_CHAR/16): "(0=dis,1=enable)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     CATDESC         (CDF_CHAR/55): "High voltage power supply enable (0=DISABLED 1=ENABLED)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/15): "HV Power Enable"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+UVIMODE     (No: 45) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "UVIMODE    "
+     UNITS           (CDF_CHAR/22): "(0-3=U/NORM/STAR/IDLE)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 100
+     CATDESC         (CDF_CHAR/67): "Instrument operating mode (0=UNK 1=NORMAL 2=STAR 3=IDLE 64-67=SYNC)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/11): "UVI Op Mode"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+FRAMERATE   (No: 46) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "FRAMERATE  "
+     UNITS           (CDF_CHAR/14): "# major frames"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 4
+     VAR_NOTES       (CDF_CHAR/7): "1, 2, 4"
+     CATDESC         (CDF_CHAR/42): "Actual integration period (# major frames)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/18): "Integration Period"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+OBSEQNUM    (No: 47) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "OBSEQNUM   "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 64
+     CATDESC         (CDF_CHAR/27): "Observation sequence number"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/11): "Obs Seq No."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SEQSTEP     (No: 48) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SEQSTEP    "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 20
+     CATDESC         (CDF_CHAR/20): "Sequence step number"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "Seq Step No."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+RECORD      (No: 49) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "RECORD     "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 232
+     CATDESC         (CDF_CHAR/51): "Number of images to record with current gain/filter"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/20): "No. Images to Record"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+LOOP        (No: 50) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "LOOP       "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 64
+     CATDESC         (CDF_CHAR/34): "Sequence pass count (loop counter)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i6"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "Seq Pass Count"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+ITIME       (No: 51) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "ITIME      "
+     UNITS           (CDF_CHAR/14): "# major frames"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 6
+     VAR_NOTES       (CDF_CHAR/13): "1, 2, 4, 5, 6"
+     CATDESC         (CDF_CHAR/43): "Nominal integration period (# major frames)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/20): "Nom Integration Time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+UVITLM      (No: 52) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "UVITLM     "
+     UNITS           (CDF_CHAR/21): "(0-3=Sci/Man/Con/Eng)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 3
+     CATDESC         (CDF_CHAR/69): "UVI Telemetry Mode (0=Science 1=Maneuver 2=Contingency 3=Engineering)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "UVI Telem Mode"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SAFEING     (No: 53) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SAFEING    "
+     UNITS           (CDF_CHAR/17): "(0=Dis 1=Enabled)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     CATDESC         (CDF_CHAR/39): "Safe mode enable (0=Disabled 1=Enabled)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/16): "Safe Mode Enable"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+PFLCK       (No: 54) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "PFLCK      "
+     UNITS           (CDF_CHAR/19): "(0=Lock 1=Out lock)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     CATDESC         (CDF_CHAR/39): "Platform Lock (0=Locked  1=Out of lock)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "Platform Lock"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+IMGNUM      (No: 55) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "IMGNUM     "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 2
+     VAR_NOTES       (CDF_CHAR/3): "1,2"
+     CATDESC         (CDF_CHAR/12): "Image number"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/9): "Image No."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+TBLNUM      (No: 56) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "TBLNUM     "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 100
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/17): "Mode table in use"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/10): "Mode Table"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+NFRM        (No: 57) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "NFRM       "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 10
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/25): "# frames summed for image"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/17): "No Frames / Image"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+NSPIN       (No: 58) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "NSPIN      "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 100
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/34): "# spin pulse per image acquisition"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/15): "# Spins / Image"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+NFRMSUM     (No: 59) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "NFRMSUM    "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 100
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/18): "# of frames to sum"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/15): "# Frames to Sum"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+NIMAGE      (No: 60) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "NIMAGE     "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 20
+     VAR_NOTES       (CDF_CHAR/3): "1,2"
+     CATDESC         (CDF_CHAR/29): "# images every 4 major frames"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/17): "# Images/4 Frames"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+NROWS       (No: 61) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "NROWS      "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 228
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/25): "# detector rows per image"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/16): "# Det Rows/Image"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+STARTROW    (No: 62) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "STARTROW   "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 16
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/21): "Starting detector row"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "Start Det Row"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+RESOLUTION  (No: 63) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "RESOLUTION "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 3
+     VAR_NOTES       (CDF_CHAR/5): "1,2,3"
+     CATDESC         (CDF_CHAR/32): "# detector rows per line readout"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i4"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/14): "# DetRows/Line"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+PAD         (No: 64) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "PAD        "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/17): "Structure padding"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i6"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/5): "# Pad"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+PAD1        (No: 65) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "PAD1       "
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65535
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/17): "Structure padding"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/3): "i10"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/6): "# Pad1"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+INTEGTIME   (No: 66) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "INTEGTIME  "
+     UNITS           (CDF_CHAR/5): "ms/10"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 20000
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/26): "Integration time = msec/10"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/3): "i10"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/16): "Integration Time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SPINDELT    (No: 67) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SPINDELT   "
+     UNITS           (CDF_CHAR/4): "ms/2"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 20000
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Delta time offset from spin pulse=msec/2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/3): "i10"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/22): "DeltaT from Spin Pulse"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+MAJDELT     (No: 68) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "MAJDELT    "
+     UNITS           (CDF_CHAR/5): "ms/10"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 20000
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/44): "Delta time from top of major frame 1=msec/10"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/3): "i10"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/16): "DeltaT Top Frame"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+
+SPINRATE    (No: 69) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SPINRATE   "
+     UNITS           (CDF_CHAR/4): "ms/2"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 20000
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/27): "Spacecraft spin rate=msec/2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/3): "i10"
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/12): "SC spin rate"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/11): "EPOCH      "
+

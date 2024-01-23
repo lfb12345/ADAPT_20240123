@@ -1,0 +1,839 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/a2_k0_mpa_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     a2_k0_mpa_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     39
+NumzVars:     0
+NumAttrs:     48 (23 global, 25 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (23 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/17): 	"LANL MPA LANL-02A"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/44): 	"Lanl-02A>Los Alamos National Laboratory 2002"
+Descriptor (1 entry):
+	0 (CDF_CHAR/34): 	"MPA>Magnetospheric plasma analyzer"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"2"
+TEXT (31 entries):
+	0 (CDF_CHAR/71): 	"This file contains numerical moments computed from measurements of the "
+	1 (CDF_CHAR/62): 	"Los Alamos Magnetospheric Plasma Analyzer (MPA) [Bame et al., "
+	2 (CDF_CHAR/33): 	"Rev. Sci. Inst., in press 1993]. "
+	3 (CDF_CHAR/73): 	"The moments are presented in s/c coordinates: the z-axis is aligned with "
+	4 (CDF_CHAR/69): 	"the spin axis, which points radially toward the center of the Earth; "
+	5 (CDF_CHAR/76): 	"the x-axis is in the plane containing the spacecraft spin axis and the spin "
+	6 (CDF_CHAR/70): 	"axis of the Earth, with +X generally northward; and the y-axis points "
+	7 (CDF_CHAR/72): 	"generally eastward. Polar angles are measured relative to the spin axis "
+	8 (CDF_CHAR/75): 	"(+Z), and azimuthal angles are measured around the z-axis, with zero along "
+	9 (CDF_CHAR/64): 	"the +X direction. The moments are computed for three 'species': "
+	10 (CDF_CHAR/78): 	"lop (low-ener. ions, ~1eV/e-~130eV/e); hip (hi-ener. ions, ~130eV/e-~45keV/e);"
+	11 (CDF_CHAR/75): 	" alle (electrons, ~30eV - ~45keV ). The electron measurements are obtained "
+	12 (CDF_CHAR/68): 	"21.5 secs after the ion measurements. Epoch is the measurement time "
+	13 (CDF_CHAR/72): 	"appropriate for the ions. The moments are computed after the fluxes are "
+	14 (CDF_CHAR/76): 	"corrected for background and s/c potential. Algorithms for these corrections"
+	15 (CDF_CHAR/76): 	" are relatively unsophisticated, so the moments are suspect during times of "
+	16 (CDF_CHAR/74): 	"high background and/or high spacecraft potential. Because the determined  "
+	17 (CDF_CHAR/74): 	"spacecraft potential is not very precise, the magnitude of the low-energy "
+	18 (CDF_CHAR/75): 	"ion flow velocity is probably not accurate, but the flow direction is well "
+	19 (CDF_CHAR/71): 	"determined.  Tperp and Tpara are obtained from diagonalization of the  "
+	20 (CDF_CHAR/71): 	"3-dimensional temperature matrix, with the parallel direction assigned "
+	21 (CDF_CHAR/62): 	"to the eigenvalue which is most different from the other two. "
+	22 (CDF_CHAR/75): 	"The corresponding eigenvector is the symmetry axis of the distribution and "
+	23 (CDF_CHAR/75): 	"should be equivalent to the magnetic field direction. The eigenvalue ratio "
+	24 (CDF_CHAR/77): 	"Tperp/Tmid, which is provided for each species, is a measure of the symmetry "
+	25 (CDF_CHAR/77): 	"of the distribution and should be ~1.0 for a good determination. Several of  "
+	26 (CDF_CHAR/78): 	"the parameters have a fairly high daily dynamic range and for survey purposes "
+	27 (CDF_CHAR/71): 	"are best displayed logarithmically. These parameters are indicated by  "
+	28 (CDF_CHAR/68): 	"non-zero 'SCALEMIN' values in this file. A quality flag value of 1  "
+	29 (CDF_CHAR/60): 	"indicates that the values are suspect because of unreliable "
+	30 (CDF_CHAR/15): 	"location info. "
+MODS (7 entries):
+	0 (CDF_CHAR/35): 	"Created SEP 1992 Modified JAN 1993 "
+	1 (CDF_CHAR/46): 	"Electron time tags removed Mag Latitude added "
+	2 (CDF_CHAR/37): 	"Local time added Post Gap flag added "
+	3 (CDF_CHAR/42): 	"Ratio variables changed Modified SEP 1994 "
+	4 (CDF_CHAR/44): 	"Changes noted in mail message from M.Kessel "
+	5 (CDF_CHAR/26): 	"New Dict keys added sep95 "
+	6 (CDF_CHAR/57): 	"Added new global attr. and variables from M.Kessel Oct 98"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0099"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"a2_k0_mpa_00000000_v01.cdf"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"a2_k0_mpa"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/55): 	"LANL 2002 Magnetospheric Plasma Analyzer Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Mike Henderson"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/4): 	"LANL"
+Mission_group (2 entries):
+	0 (CDF_CHAR/4): 	"LANL"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/39): 	"LANL2002_MPA_Key-Parameters-K0_1min_cdf"
+Link_text (2 entries):
+	0 (CDF_CHAR/1): 	" "
+	1 (CDF_CHAR/1): 	" "
+Link_title (2 entries):
+	0 (CDF_CHAR/44): 	"Accessing more recent LANL SOPA and MPA data"
+	1 (CDF_CHAR/86): 	"More LANL geosynchronous Magnetospheric Plasma Analyzer (MPA) information and plots at"
+HTTP_link (2 entries):
+	0 (CDF_CHAR/50): 	"https://cdaweb.gsfc.nasa.gov/Recent_LANL_Data.html"
+	1 (CDF_CHAR/52): 	"http://nis-www.lanl.gov/nis-projects/mpa/index.shtml"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/46): 	"spase://NASA/NumericalData/LANL/2002/MPA/PT87S"
+
+Variable Attributes (25 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+CATDESC
+UNITS
+UNIT_PTR
+LABL_PTR_1
+MONOTON
+FORMAT
+FORM_PTR
+FILLVAL
+DEPEND_0
+DEPEND_1
+OFFSET_0
+VAR_TYPE
+DICT_KEY
+LABLAXIS
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+FUNCTION
+COMPONENT_0
+VIRTUAL
+
+Variable Information (39 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	2:[2,3]	T/FF
+Time_PB5              CDF_INT4/1	2:[2,3]	T/FT
+dens_lop              CDF_REAL4/1	2:[2,3]	T/FF
+vel_lop               CDF_REAL4/1	2:[2,3]	T/FT
+temp_lop              CDF_REAL4/1	2:[2,3]	T/TF
+tratio_lop            CDF_REAL4/1	2:[2,3]	T/FF
+dens_hip              CDF_REAL4/1	2:[2,3]	T/FF
+vel_hip               CDF_REAL4/1	2:[2,3]	T/FT
+temp_hip              CDF_REAL4/1	2:[2,3]	T/TF
+theta_phi_hip         CDF_REAL4/1	2:[2,3]	T/TF
+tratio_hip            CDF_REAL4/1	2:[2,3]	T/FF
+dens_e                CDF_REAL4/1	2:[2,3]	T/FF
+temp_e                CDF_REAL4/1	2:[2,3]	T/TF
+theta_phi_e           CDF_REAL4/1	2:[2,3]	T/TF
+tratio_e              CDF_REAL4/1	2:[2,3]	T/FF
+sc_pot                CDF_REAL4/1	2:[2,3]	T/FF
+bkgd                  CDF_REAL4/1	2:[2,3]	T/FF
+sc_pos_geo            CDF_REAL4/1	2:[2,3]	T/FT
+sc_pos_mag            CDF_REAL4/1	2:[2,3]	T/FT
+qual_flag             CDF_INT4/1	2:[2,3]	T/FF
+gap_flag              CDF_INT4/1	2:[2,3]	T/FF
+label_time            CDF_CHAR/27	2:[2,3]	F/FT
+unit_time             CDF_CHAR/4	2:[2,3]	F/FT
+format_time           CDF_CHAR/2	2:[2,3]	F/FT
+offset_time           CDF_REAL8/1	2:[2,3]	F/FF
+label_pos_l           CDF_CHAR/15	2:[2,3]	F/FT
+unit_pos_l            CDF_CHAR/11	2:[2,3]	F/FT
+angle_pos_l           CDF_CHAR/19	2:[2,3]	F/FT
+label_possyn_l        CDF_CHAR/15	2:[2,3]	F/FT
+unit_possyn_l         CDF_CHAR/11	2:[2,3]	F/FT
+angle_possyn_l        CDF_CHAR/19	2:[2,3]	F/FT
+label_pos_m           CDF_CHAR/11	2:[2,3]	F/FT
+unit_pos_m            CDF_CHAR/11	2:[2,3]	F/FT
+angle_pos_m           CDF_CHAR/21	2:[2,3]	F/FT
+label_theta_phi       CDF_CHAR/13	2:[2,3]	F/TF
+label_vel             CDF_CHAR/6	2:[2,3]	F/FT
+Cartesian             CDF_CHAR/1	2:[2,3]	F/FT
+label_temp            CDF_CHAR/5	2:[2,3]	F/TF
+sc_pos_syngci         CDF_REAL4/1	2:[2,3]	T/FT
+
+
+Variable (39 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     CATDESC         (CDF_CHAR/56): "Time of proton collection (electrons 21.5 seconds later)"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_INT4/3): 1992, 214, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 86399000
+     SCALEMIN        (CDF_INT4/3): 1992, 214, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 366, 86399000
+     CATDESC         (CDF_CHAR/56): "Time of proton collection (electrons 21.5 seconds later)"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+dens_lop (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "partial density low-E p"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     CATDESC         (CDF_CHAR/47): "Partial density of low energy ions (1-130 eV/e)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "low p dens"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+vel_lop (No: 3) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "velocity vector low-E p"
+     VALIDMIN        (CDF_REAL4/3): -2000.0, -2000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     SCALEMIN        (CDF_REAL4/3): -100.0, -100.0, -100.0
+     SCALEMAX        (CDF_REAL4/3): 100.0, 100.0, 100.0
+     CATDESC         (CDF_CHAR/64): "Velocity, 3 comp. in s/c coord., of low energy ions (1-130 eV/e)"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     LABL_PTR_1      (CDF_CHAR/9): "label_vel"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Cartesian"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+temp_lop (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "temperature low-E p"
+     VALIDMIN        (CDF_REAL4/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/2): 50000.0, 50000.0
+     SCALEMIN        (CDF_REAL4/2): 0.1, 0.1
+     SCALEMAX        (CDF_REAL4/2): 100.0, 100.0
+     CATDESC         (CDF_CHAR/63): "Temperatures, parallel & perp. for low energy ions (1-130 eV/e)"
+     UNITS           (CDF_CHAR/2): "ev"
+     LABL_PTR_1      (CDF_CHAR/10): "label_temp"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "label_temp"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+tratio_lop (No: 5) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/44): "Ratio of temperature eigenvalues for low-E p"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     CATDESC         (CDF_CHAR/49): "Ratio Tperp/Tmid for low energy ions (1-130 eV/e)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "Tper/Tmid"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+dens_hip (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "partial density high-E e"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     CATDESC         (CDF_CHAR/50): "Partial density of high energy ions (.13-45 keV/e)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "hi p dens"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+vel_hip (No: 7) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "velocity vector high-E p"
+     VALIDMIN        (CDF_REAL4/3): -2000.0, -2000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     SCALEMIN        (CDF_REAL4/3): -200.0, -200.0, -200.0
+     SCALEMAX        (CDF_REAL4/3): 200.0, 200.0, 200.0
+     CATDESC         (CDF_CHAR/67): "Velocity, 3 comp. in s/c coord., of high energy ions (.13-45 keV/e)"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     LABL_PTR_1      (CDF_CHAR/9): "label_vel"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Cartesian"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+temp_hip (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "temperature high-E p"
+     VALIDMIN        (CDF_REAL4/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/2): 50000.0, 50000.0
+     SCALEMIN        (CDF_REAL4/2): 100.0, 100.0
+     SCALEMAX        (CDF_REAL4/2): 100000.0, 100000.0
+     CATDESC         (CDF_CHAR/66): "Temperatures, parallel & perp. for high energy ions (.13-45 keV/e)"
+     UNITS           (CDF_CHAR/2): "ev"
+     LABL_PTR_1      (CDF_CHAR/10): "label_temp"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "label_temp"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+theta_phi_hip (No: 9) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "polar,azim ang high-E p symm axis"
+     VALIDMIN        (CDF_REAL4/2): 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/2): 180.0, 90.0
+     SCALEMIN        (CDF_REAL4/2): 0.0, -90.0
+     SCALEMAX        (CDF_REAL4/2): 180.0, 90.0
+     CATDESC         (CDF_CHAR/83): "Proton symmetry axis: polar ang. relative to Earth direction, azim. ang. from north"
+     UNITS           (CDF_CHAR/3): "deg"
+     LABL_PTR_1      (CDF_CHAR/15): "label_theta_phi"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "label_theta_phi"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+tratio_hip (No: 10) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/44): "Ratio of temperature eigenvalue for high-E p"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     CATDESC         (CDF_CHAR/53): "Ratio Tperp/Tmid for high energy ions, (.13-45 keV/e)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "Tper/Tmid"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+dens_e (No: 11) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "partial density electrons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     CATDESC         (CDF_CHAR/43): "Partial density of electrons (.03-45 keV/q)"
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     OFFSET_0        (CDF_CHAR/11): "offset_time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "elec dens"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+temp_e (No: 12) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "temperature electrons"
+     VALIDMIN        (CDF_REAL4/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/2): 50000.0, 50000.0
+     SCALEMIN        (CDF_REAL4/2): 100.0, 100.0
+     SCALEMAX        (CDF_REAL4/2): 100000.0, 100000.0
+     CATDESC         (CDF_CHAR/59): "Temperatures, parallel & perp. for electrons (.03-45 keV/q)"
+     UNITS           (CDF_CHAR/2): "ev"
+     LABL_PTR_1      (CDF_CHAR/10): "label_temp"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "label_temp"
+     OFFSET_0        (CDF_CHAR/11): "offset_time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+theta_phi_e (No: 13) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "polar,azim ang e symm axis"
+     VALIDMIN        (CDF_REAL4/2): 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/2): 180.0, 90.0
+     SCALEMIN        (CDF_REAL4/2): 0.0, -90.0
+     SCALEMAX        (CDF_REAL4/2): 180.0, 90.0
+     CATDESC         (CDF_CHAR/84): "Electron symmetry axis: polar ang. relative to Earth direction azim. ang. from north"
+     UNITS           (CDF_CHAR/3): "deg"
+     LABL_PTR_1      (CDF_CHAR/15): "label_theta_phi"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "label_theta_phi"
+     OFFSET_0        (CDF_CHAR/11): "offset_time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+tratio_e (No: 14) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/46): "Ratio of temperature eigenvalues for electrons"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     CATDESC         (CDF_CHAR/45): "Ratio Tperp/Tmid for electrons (.03-45 keV/q)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     OFFSET_0        (CDF_CHAR/11): "offset_time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "Tper/Tmid"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+sc_pot (No: 15) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "spacecraft potential"
+     VALIDMIN        (CDF_REAL4/1): -20000.0
+     VALIDMAX        (CDF_REAL4/1): 0.0
+     SCALEMIN        (CDF_REAL4/1): -10000.0
+     SCALEMAX        (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/20): "Spacecraft potential"
+     UNITS           (CDF_CHAR/5): "volts"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "S/C poten."
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+bkgd (No: 16) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "background count rate"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     CATDESC         (CDF_CHAR/21): "Background count rate"
+     UNITS           (CDF_CHAR/7): "cts/9ms"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/7): "Backgrd"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+sc_pos_geo (No: 17) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/42): "S/C position, Polar Geographic coordinates"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -90.0, -180.0
+     VALIDMAX        (CDF_REAL4/3): 10.0, 90.0, 180.0
+     SCALEMIN        (CDF_REAL4/3): 0.0, -90.0, -180.0
+     SCALEMAX        (CDF_REAL4/3): 10.0, 90.0, 180.0
+     CATDESC         (CDF_CHAR/54): "S/C position, Geographic coordinates (radius,lat,long)"
+     UNIT_PTR        (CDF_CHAR/10): "unit_pos_l"
+     LABL_PTR_1      (CDF_CHAR/11): "label_pos_l"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "angle_pos_l"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+sc_pos_mag (No: 18) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/39): "S/C position polar magnetic coordinates"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -90.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 10.0, 90.0, 24.0
+     SCALEMIN        (CDF_REAL4/3): 0.0, -20.0, 0.0
+     SCALEMAX        (CDF_REAL4/3): 10.0, 20.0, 24.0
+     CATDESC         (CDF_CHAR/52): "S/C position, Magnetic coordinates (radius,mlat,mlt)"
+     UNIT_PTR        (CDF_CHAR/10): "unit_pos_m"
+     LABL_PTR_1      (CDF_CHAR/11): "label_pos_m"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "angle_pos_m"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+qual_flag (No: 19) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "data qual flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 10
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 10
+     CATDESC         (CDF_CHAR/49): "Data quality flag, 0 = ok, 1 = Results unreliable"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I6"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "Qual Flag"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+gap_flag (No: 20) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "data gap flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 10
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 10
+     CATDESC         (CDF_CHAR/49): "Data gap flag, 0 = No Gap, 10 = No data available"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I6"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "Gap Flag"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 21) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 22) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 23) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Format for Time_PB5                     "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+offset_time (No: 24) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Time offset for electron measurements"
+     VALIDMIN        (CDF_REAL8/1): 21500.0
+     VALIDMAX        (CDF_REAL8/1): 21500.0
+     SCALEMIN        (CDF_REAL8/1): 21500.0
+     SCALEMAX        (CDF_REAL8/1): 21500.0
+     CATDESC         (CDF_CHAR/84): "Time offset for electron measurements, electron time 21.5 seconds after that of ions"
+     UNITS           (CDF_CHAR/2): "ms"
+     FORMAT          (CDF_CHAR/4): "f8.1"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "T offset"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_pos_l (No: 25) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/52): "Label for s/c position, polar Geographic coordinates"
+     CATDESC         (CDF_CHAR/52): "Label for s/c position, polar Geographic coordinates"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_pos_l (No: 26) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for sc_pos_l"
+     CATDESC         (CDF_CHAR/40): "Units for sc_pos_l                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+angle_pos_l (No: 27) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/42): "Components in polar geographic coordinates"
+     CATDESC         (CDF_CHAR/42): "Components in polar geographic coordinates"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/17): "ISTP>vector>polar"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_possyn_l (No: 28) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/45): "Label for s/c position, polar GCI coordinates"
+     CATDESC         (CDF_CHAR/45): "Label for s/c position, polar GCI coordinates"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_possyn_l (No: 29) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Units for sc_possyn_l"
+     CATDESC         (CDF_CHAR/37): "Units for sc_possyn_l                "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+angle_possyn_l (No: 30) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/42): "Components in polar geographic coordinates"
+     CATDESC         (CDF_CHAR/42): "Components in polar geographic coordinates"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/17): "ISTP>vector>polar"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_pos_m (No: 31) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/44): "Label for s/c position, magnetic coordinates"
+     CATDESC         (CDF_CHAR/44): "Label for s/c position, magnetic coordinates"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_pos_m (No: 32) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for sc_pos_m"
+     CATDESC         (CDF_CHAR/40): "Units for sc_pos_m                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+angle_pos_m (No: 33) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "Components in magnetic coordinates"
+     CATDESC         (CDF_CHAR/37): "Components in magnetic coordinates   "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/17): "ISTP>vector>polar"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_theta_phi (No: 34) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "Label for theta,phi field values"
+     CATDESC         (CDF_CHAR/40): "Label for theta,phi field values        "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_vel (No: 35) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Label for velocity vector"
+     CATDESC         (CDF_CHAR/40): "Label for velocity vector               "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Cartesian (No: 36) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Components in cartesian coord."
+     CATDESC         (CDF_CHAR/40): "Components in cartesian coord.          "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/21): "ISTP>vector>cartesian"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_temp (No: 37) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "parallel/perpendicular temp"
+     CATDESC         (CDF_CHAR/40): "Parallel/perpendicular temp             "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+sc_pos_syngci (No: 38) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/39): "S/C position, Cartesian GCI coordinates"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     SCALEMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     SCALEMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     CATDESC         (CDF_CHAR/86): "[SPECIALIZED USE ONLY] [Computed 3-min vector] S/C position, GCI coordinates (X, Y, Z)"
+     UNIT_PTR        (CDF_CHAR/13): "unit_possyn_l"
+     LABL_PTR_1      (CDF_CHAR/14): "label_possyn_l"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "angle_possyn_l"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/55): "position>spacecraft_geocentric_celestial_inertial_X_Y_Z"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "TIME_SERIES"
+     VAR_NOTES       (CDF_CHAR/172): "This is a virtual variable generated by read_myCDF w/ useof the data in the sc_pos_geo variable and a conversion routinespecified in the function attribute, namely conv_pos"
+     FUNCTION        (CDF_CHAR/8): "conv_pos"
+     COMPONENT_0     (CDF_CHAR/10): "sc_pos_geo"
+     VIRTUAL         (CDF_CHAR/4): "true"
+

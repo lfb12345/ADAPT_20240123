@@ -1,0 +1,278 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/polar_hydra_moments-14sec_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     polar_hydra_moments-14sec_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     11
+NumAttrs:     36 (19 global, 17 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"Polar>Polar Plasma Laboratory"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/34): 	"moments-14sec>High Resolution data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"HYDRA>Fast Plasma Analyzer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"2"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/34): 	"polar_hydra_moments-14sec_00000000"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"J. Scudder"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"U of Iowa"
+TEXT (7 entries):
+	0 (CDF_CHAR/74): 	"Reference: HYDRA is a 3-Dimensional Electron and Ion Hot Plasma Instrument"
+	1 (CDF_CHAR/64): 	"for the Polar Spacecraft of the GGS Mission, J. Scudder et al., "
+	2 (CDF_CHAR/72): 	"Space Sci. Rev., 71,459-495, Feb. 1995. http://www-st.physics.uiowa.edu "
+	3 (CDF_CHAR/71): 	"This data set contains survey electron and proton moments for density, "
+	4 (CDF_CHAR/62): 	"bulk velocity (GSM), temperature: parallel, perpendicular, at "
+	5 (CDF_CHAR/48): 	"13.8-second resolution as determined (0-20keV). "
+	6 (CDF_CHAR/59): 	"Higher quality data products may be available from the P.I."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"Polar"
+Logical_source (1 entry):
+	0 (CDF_CHAR/25): 	"polar_hydra_moments-14sec"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/57): 	"Polar Fast Plasma Analyzer 13.8 second Resolution Moments"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/46): 	"Information on recent changes to the data set "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/48): 	"(data for all variables is not always available)"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/108): 	"https://cdaweb.gsfc.nasa.gov/pub/data/polar/hydra/moments-14sec/Polar_hydra_moments-14second_information.txt"
+Time resolution (1 entry):
+	0 (CDF_CHAR/12): 	"13.8 seconds"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/52): 	"spase://NASA/NumericalData/POLAR/HYDRA/Moments/PT14S"
+
+Variable Attributes (17 attributes)
+=========================================
+FIELDNAM
+VAR_TYPE
+CATDESC
+VAR_NOTES
+LABLAXIS
+LABL_PTR_1
+UNITS
+DEPEND_0
+DEPEND_1
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+SCALETYP
+FILLVAL
+FORMAT
+DISPLAY_TYPE
+
+Variable Information (0 rVariable, 11 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+DENSITY_ELE           CDF_FLOAT/1	0:[]	T/  
+BULK_VELOCITY_ELE     CDF_FLOAT/1	1:[3]	T/T
+U_ele_GSM             CDF_CHAR/10	1:[3]	F/T
+TPARL_ELE             CDF_FLOAT/1	0:[]	T/  
+TPERP_ELE             CDF_FLOAT/1	0:[]	T/  
+DENSITY_ION           CDF_FLOAT/1	0:[]	T/  
+BULK_VELOCITY_ION     CDF_FLOAT/1	1:[3]	T/T
+U_ion_GSM             CDF_CHAR/10	1:[3]	F/T
+TPARL_ION             CDF_FLOAT/1	0:[]	T/  
+TPERP_ION             CDF_FLOAT/1	0:[]	T/  
+
+
+Variable (11 variables)
+=========================================
+
+EPOCH (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Time since 0 AD"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/22): "Interval centered time"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 05-Apr-1996 00:00:16.007
+     VALIDMAX        (CDF_EPOCH/1): 05-Apr-1996 20:35:35.803
+     FILLVAL         (CDF_FLOAT/1): 01-Jan-0000 00:00:00.000
+
+DENSITY_ELE (No: 1) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron Density"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/23): "Electron Moment Density"
+     LABLAXIS        (CDF_CHAR/5): "n ele"
+     UNITS           (CDF_CHAR/4): "#/cc"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     SCALEMIN        (CDF_FLOAT/1): 0.01
+     SCALEMAX        (CDF_FLOAT/1): 1000.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+BULK_VELOCITY_ELE (No: 2) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Electron Moment Bulk Velocity "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/30): "Electron Bulk_Velocity in km/s"
+     VAR_NOTES       (CDF_CHAR/33): "Defined for S/C Potential < 20eV."
+     LABL_PTR_1      (CDF_CHAR/9): "U_ele_GSM"
+     UNITS           (CDF_CHAR/4): "km/s"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALEMIN        (CDF_FLOAT/1): -3000.0
+     SCALEMAX        (CDF_FLOAT/1): 3000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E8.0"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+U_ele_GSM (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "LABEL for Electron Bulk Velocity "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/33): "LABEL for Electron Bulk Velocity "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+TPARL_ELE (No: 4) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Electron Tparl"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/42): "Electron Moment Parallel Mean Energy in eV"
+     LABLAXIS        (CDF_CHAR/9): "Tparl ele"
+     UNITS           (CDF_CHAR/2): "eV"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     SCALEMIN        (CDF_FLOAT/1): 1.0
+     SCALEMAX        (CDF_FLOAT/1): 20000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+TPERP_ELE (No: 5) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Electron Tperp"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/47): "Electron Moment Perpendicular Mean Energy in eV"
+     LABLAXIS        (CDF_CHAR/9): "Tperp ele"
+     UNITS           (CDF_CHAR/2): "eV"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     SCALEMIN        (CDF_FLOAT/1): 1.0
+     SCALEMAX        (CDF_FLOAT/1): 20000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+DENSITY_ION (No: 6) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Ion Density"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/18): "Ion Moment Density"
+     LABLAXIS        (CDF_CHAR/5): "n ion"
+     UNITS           (CDF_CHAR/4): "#/cc"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     SCALEMIN        (CDF_FLOAT/1): 0.01
+     SCALEMAX        (CDF_FLOAT/1): 1000.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+BULK_VELOCITY_ION (No: 7) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Ion Moment Bulk Velocity "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/25): "Ion Bulk_Velocity in km/s"
+     VAR_NOTES       (CDF_CHAR/33): "Defined for S/C Potential < 20eV."
+     LABL_PTR_1      (CDF_CHAR/9): "U_ion_GSM"
+     UNITS           (CDF_CHAR/4): "km/s"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALEMIN        (CDF_FLOAT/1): -3000.0
+     SCALEMAX        (CDF_FLOAT/1): 3000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E8.0"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+U_ion_GSM (No: 8) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "LABEL for Ion Bulk Velocity "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/28): "LABEL for Ion Bulk Velocity "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+TPARL_ION (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Ion Tparl"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/37): "Ion Moment Parallel Mean Energy in eV"
+     LABLAXIS        (CDF_CHAR/9): "Tparl ion"
+     UNITS           (CDF_CHAR/2): "eV"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     SCALEMIN        (CDF_FLOAT/1): 1.0
+     SCALEMAX        (CDF_FLOAT/1): 20000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+TPERP_ION (No: 10) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Ion Tperp"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/42): "Ion Moment Perpendicular Mean Energy in eV"
+     LABLAXIS        (CDF_CHAR/9): "Tperp ion"
+     UNITS           (CDF_CHAR/2): "eV"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     SCALEMIN        (CDF_FLOAT/1): 1.0
+     SCALEMAX        (CDF_FLOAT/1): 20000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+

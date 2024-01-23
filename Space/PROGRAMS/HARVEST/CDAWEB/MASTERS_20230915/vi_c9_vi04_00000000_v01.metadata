@@ -1,0 +1,257 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/vi_c9_vi04_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     vi_c9_vi04_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     46 (26 global, 20 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"20-s Viking Electric Field, CDAW 9A               "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW 9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"Viking    "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"Elec Field"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"20 s      "
+TEXT (2 entries):
+	0 (CDF_CHAR/36): 	"Derived from VI04 in CDAW9 database."
+	1 (CDF_CHAR/105): 	"Data for all CDAW9 eventst A-E                                                                           "
+MODS (1 entry):
+	0 (CDF_CHAR/97): 	"Converted to CDAWeb Feb 2000                                                                     "
+Descriptor (1 entry):
+	0 (CDF_CHAR/56): 	"VI04> 20-s Viking Electric Field, CDAW 9A               "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>CDAW9"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"VI>Viking"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"Lindqvist"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/25): 	"Lindqvist and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"vi_c9_vi04"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"vi_c9_vi04_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/60): 	"Vi  20-s Viking Electric Field, CDAW 9A                CDAW9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+VI04E1                CDF_REAL4/1	0:[]	T/  
+VI04E2                CDF_REAL4/1	0:[]	T/  
+VI04ENSA              CDF_REAL4/1	0:[]	T/  
+VI04ENIO              CDF_REAL4/1	0:[]	T/  
+VI04SDEV              CDF_REAL4/1	0:[]	T/  
+VI04VFG               CDF_REAL4/1	0:[]	T/  
+VI04PHI               CDF_REAL4/1	0:[]	T/  
+
+
+Variable (8 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+VI04E1   (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E parallel B        "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): -30.0
+     SCALEMAX        (CDF_REAL8/1): 30.0
+     UNITS           (CDF_CHAR/20): "mV/m                "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "E in spin plane, along B projection     "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "E-field || B"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI04E2   (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E perpendicular B   "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): -50.0
+     SCALEMAX        (CDF_REAL8/1): 50.0
+     UNITS           (CDF_CHAR/20): "mV/m                "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "E field in spin plane, positive to dusk "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "E-field perp B"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI04ENSA (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E north, spacecraft "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): -40.0
+     SCALEMAX        (CDF_REAL8/1): 40.0
+     UNITS           (CDF_CHAR/20): "mV/m                "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "N (geomag) Electric field at satellite  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "E-North @ Viking"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI04ENIO (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E north, ionosphere "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): -100.0
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/20): "mV/m                "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "N (geomag) Elec fld mapped to ionosphere"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/18): "E-north map Ionos."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI04SDEV (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Std. Dev. of E      "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/20): "mV/m                "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "Standard deviation of electric field    "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "Stnd Dev E"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI04VFG  (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "V Floating Ground   "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): -15.0
+     SCALEMAX        (CDF_REAL8/1): 5.0
+     UNITS           (CDF_CHAR/20): "Volts               "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "Approx. floating ground potential       "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "Floating Grnd V"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI04PHI  (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Angle Spin-to-B     "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): -30.0
+     SCALEMAX        (CDF_REAL8/1): 30.0
+     UNITS           (CDF_CHAR/20): "Degrees             "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "Angle between spin plane and mag field  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Angle Spin-B"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+

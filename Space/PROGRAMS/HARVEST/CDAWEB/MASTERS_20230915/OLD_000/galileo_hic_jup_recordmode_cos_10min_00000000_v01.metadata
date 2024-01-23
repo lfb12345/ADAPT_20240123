@@ -1,0 +1,1242 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/galileo_hic_jup_recordmode_cos_10min_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     galileo_hic_jup_recordmode_cos_10min_00000000_v01.cdf
+Version:      3.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     53
+NumAttrs:     57 (28 global, 29 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (28 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"GMM>Galileo Millenium Mission"
+Source_name (1 entry):
+	0 (CDF_CHAR/23): 	"Galileo>Galileo Orbiter"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"M0>10 minute resolution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/21): 	"HIC>Heavy Ion Counter"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/15): 	"Edward C. Stone"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/34): 	"California Institute of Technology"
+TEXT (173 entries):
+	0 (CDF_CHAR/772): 	"1: The Galileo Heavy Ion Counter (HIC) is included on the Galileo spacecraft to monitor energy spectra at 6->=200 MeV/nucleon of energetic heavy ions in the jovian magnetosphere. HIC consists of two solid state telescopes, Low Energy Telescope B (LET-B) and Low Energy Telescope E (LET-E), respectively measuring lower and higher energy ions. LET-B and LET-E each have four  (LB-1-LB-4) and five (LE-1-LE-5) vertically stacked detectors. Weighted sums of energy deposits in selected detectors of LET-B and LET-E must exceed 9.6 MeV for a valid heavy ion event and for filtering out of magnetospheric radiation background from electrons and protons. LET-E is more heavily shielded than LET-A. Details of the HIC sensors and science operations are in Garrard et al. (1992). "
+	1 (CDF_CHAR/413): 	"2: This data set includes 10-minute average fluxes and counts of carbon, oxygen, and sulfur energetic ions. Since there are often few if any counts at this sampling rate, sufficient data are provided for computing of longer time averages. The averages are from basic sampling periods of two seconds during record-mode periods of maximum time resolution, e.g. for moon flybys and special magnetospheric intervals. "
+	2 (CDF_CHAR/596): 	"3: Each data record consists of the start and stop date-time in fractional days of year, total number of event samples, flux in #/cm2-s-sr for C, O, or S ions in eight energy channels, and the corresponding counts in those channels. Channel 1 and 2 data are from LET-B, while channels 3-8 are from LET-E. The energy channels have different minimum-maximum energies for each of the three ions. As per Table II of Garrard et al. (1992), the energy channels (1-8) come from different combinations of detectors in LET-B and LET-E: LET-B (1-2), LET-E DBL (3), LET-E TPL (4-5), and LET-E WDSTP (6-8).  "
+	3 (CDF_CHAR/68): 	"4: The energy channels are defined in MeV/nucleon units as follows: "
+	4 (CDF_CHAR/24): 	"------------------------"
+	5 (CDF_CHAR/6): 	"Carbon"
+	6 (CDF_CHAR/21): 	"Channel 1: 7.60-14.00"
+	7 (CDF_CHAR/22): 	"Channel 2: 14.00-31.80"
+	8 (CDF_CHAR/22): 	"Channel 3: 25.00-28.80"
+	9 (CDF_CHAR/22): 	"Channel 4: 27.40-29.60"
+	10 (CDF_CHAR/22): 	"Channel 5: 29.60-34.40"
+	11 (CDF_CHAR/22): 	"Channel 6: 47.40-58.80"
+	12 (CDF_CHAR/22): 	"Channel 7: 58.80-74.40"
+	13 (CDF_CHAR/23): 	"Channel 8: 74.40-103.40"
+	14 (CDF_CHAR/24): 	"------------------------"
+	15 (CDF_CHAR/6): 	"Oxygen"
+	16 (CDF_CHAR/22): 	"Channel 1:  8.60-16.40"
+	17 (CDF_CHAR/22): 	"Channel 2: 16.40-37.00"
+	18 (CDF_CHAR/22): 	"Channel 3: 29.20-31.80"
+	19 (CDF_CHAR/22): 	"Channel 4: 31.60-36.80"
+	20 (CDF_CHAR/22): 	"Channel 5: 36.80-54.80"
+	21 (CDF_CHAR/22): 	"Channel 6: 51.60-64.80"
+	22 (CDF_CHAR/22): 	"Channel 7: 64.80-84.00"
+	23 (CDF_CHAR/23): 	"Channel 8: 84.00-118.00"
+	24 (CDF_CHAR/24): 	"------------------------"
+	25 (CDF_CHAR/6): 	"Sulfur"
+	26 (CDF_CHAR/22): 	"Channel 1: 11.20-21.60"
+	27 (CDF_CHAR/22): 	"Channel 2: 21.60-52.20"
+	28 (CDF_CHAR/22): 	"Channel 3: 41.00-46.00"
+	29 (CDF_CHAR/22): 	"Channel 4: 44.00-51.60"
+	30 (CDF_CHAR/22): 	"Channel 5: 51.60-75.20"
+	31 (CDF_CHAR/22): 	"Channel 6: 70.40-88.40"
+	32 (CDF_CHAR/23): 	"Channel 7: 88.40-118.60"
+	33 (CDF_CHAR/24): 	"Channel 8: 118.60-170.00"
+	34 (CDF_CHAR/24): 	"------------------------"
+	35 (CDF_CHAR/229): 	"5: Record-Mode Resolution Data Coverage. Record-mode coverage indicates time periods that were recorded in LPW format. Not all HIC data files span entire recorded interval. The flybys description is given in the following format:"
+	36 (CDF_CHAR/117): 	"Orbit; ID; Start Time; Duration(min); Jupiter Range(Rj); Local Time (hours); S3 WLON(deg); (*Note: described below)  "
+	37 (CDF_CHAR/24): 	"------------------------"
+	38 (CDF_CHAR/14): 	"6: Io Flybys: "
+	39 (CDF_CHAR/58): 	"I00; IO; 95-12-07 15:21; 184; 5.4-7.7; 10.6-12.3; 204-290 "
+	40 (CDF_CHAR/61): 	"I24; IO; 99-10-11 03:42; 66; 5.7-6.0; 10.1-10.9; 59-87; (*2) "
+	41 (CDF_CHAR/19): 	"I25; IO; N/A; (*1) "
+	42 (CDF_CHAR/53): 	"I27; IO; 00-02-22 13:04; 81; 5.9-6.0; 8.4-9.4; 64-97 "
+	43 (CDF_CHAR/51): 	"I31; IO; 01-08-06 04:25; 64; 5.9; 3.9-4.7; 145-171 "
+	44 (CDF_CHAR/55): 	"I32; IO; 01-10-16 01:06; 73; 5.9-6.1; 4.8-5.7; 253-283 "
+	45 (CDF_CHAR/19): 	"I33; IO; N/A; (*1) "
+	46 (CDF_CHAR/24): 	"------------------------"
+	47 (CDF_CHAR/18): 	"7: Europa Flybys: "
+	48 (CDF_CHAR/58): 	"E04; EUR; 96-12-19 06:33; 51; 9.4-9.5; 16.6-16.9; 147-173 "
+	49 (CDF_CHAR/59): 	"E06; EUR; 97-02-20 16:37; 312; 9.5-9.1; 12.8-14.8; 326-125 "
+	50 (CDF_CHAR/59): 	"E11; EUR; 97-11-06 20:09; 162; 9.0-9.4; 10.8-11.9; 211-294 "
+	51 (CDF_CHAR/58): 	"E12; EUR; 97-12-16 11:42; 46; 9.4-9.6; 14.5-14.8; 107-131 "
+	52 (CDF_CHAR/58): 	"E14; EUR; 98-03-29 13:05; 55; 9.4-9.6; 14.3-14.7; 176-204 "
+	53 (CDF_CHAR/57): 	"E15; EUR; 98-05-31 20:42; 61; 9.4-9.6; 9.9-10.3; 277-308 "
+	54 (CDF_CHAR/20): 	"E16; EUR; N/A; (*1) "
+	55 (CDF_CHAR/19): 	"E18; EUR; N/A; (*1)"
+	56 (CDF_CHAR/57): 	"E19; EUR; 99-02-01 01:49; 50; 9.2-9.4; 9.7-10.0; 245-270 "
+	57 (CDF_CHAR/55): 	"E26; EUR; 00-01-03 17:29; 61; 9.2-9.7; 2.8-3.1; 346-18 "
+	58 (CDF_CHAR/24): 	"------------------------"
+	59 (CDF_CHAR/20): 	"8: Ganymede Flybys: "
+	60 (CDF_CHAR/60): 	"G01; GAN; 96-06-27 06:07; 45; 14.9-15.2; 11.2-11.3; 163-188 "
+	61 (CDF_CHAR/60): 	"G02; GAN; 96-09-06 18:32; 56; 14.8-15.2; 10.7-10.9; 143-174 "
+	62 (CDF_CHAR/57): 	"G07; GAN; 97-04-05 06:44; 56; 14.8-15.2; 19.7-19.8; 5-37 "
+	63 (CDF_CHAR/58): 	"G08; GAN; 97-05-07 15:36; 46; 14.8-15.1; 8.1-8.2; 276-302 "
+	64 (CDF_CHAR/56): 	"G28; GAN; 00-05-20 09:40; 60; 14.7-15.3; 0.7-0.8; 335-9 "
+	65 (CDF_CHAR/59): 	"G29; GAN; 00-12-28 07:57; 57; 14.7-15.2; 23.9-0.0; 205-237 "
+	66 (CDF_CHAR/24): 	"------------------------"
+	67 (CDF_CHAR/20): 	"9: Callisto Flybys: "
+	68 (CDF_CHAR/55): 	"C03; CALL; 96-11-04 13:15; 45; 26.1-26.4; 7.8; 231-258 "
+	69 (CDF_CHAR/53): 	"C09; CALL; 97-06-25 13:25; 46; 26.1-26.4; 5.5; 47-74 "
+	70 (CDF_CHAR/59): 	"C10; CALL; 97-09-16 23:49; 60; 26.0-26.4; 5.0-5.1; 318-354 "
+	71 (CDF_CHAR/59): 	"C30; CALL; 01-05-25 11:09; 36; 26.2-26.5; 13.1-13.2; 68-89 "
+	72 (CDF_CHAR/24): 	"------------------------"
+	73 (CDF_CHAR/20): 	"10: Amalthea Flyby: "
+	74 (CDF_CHAR/56): 	"34; AMA; 02-11-05 02:44; 231; 6.2-2.3; 6.4-3.0; 102-149 "
+	75 (CDF_CHAR/24): 	"------------------------"
+	76 (CDF_CHAR/25): 	"11: Inner Magnetosphere: "
+	77 (CDF_CHAR/58): 	"J00; PJOV; 95-12-07 23:22; 124; 4.0-5.2; 18.4-20.5; 18-62 "
+	78 (CDF_CHAR/19): 	"I24; TOR; N/A (*1) "
+	79 (CDF_CHAR/56): 	"I32; TOR; 01-10-15 22:55; 33; 5.8-5.9; 3.0-3.4; 198-211 "
+	80 (CDF_CHAR/58): 	"I25; TOR; 99-11-25 21:07; 174; 5.9-7.0; 5.1-7.0; 336-53 2 "
+	81 (CDF_CHAR/57): 	"A34; PSX7; 02-11-05 01:05; 90; 6.3-7.7; 17.7-18.2; 24-70 "
+	82 (CDF_CHAR/58): 	"C23; PJOV; 99-09-14 14:36; 412; 6.5-7.7; 6.1-10.3; 52-239 "
+	83 (CDF_CHAR/58): 	"C21; PJOV; 99-07-01 23:53; 113; 7.6-8.2; 7.4-8.3; 247-301 "
+	84 (CDF_CHAR/57): 	"C22; PJOV; 99-08-12 08:18; 288; 7.3-7.6; 8.4-11.0; 225-0 "
+	85 (CDF_CHAR/29): 	"E11; EQX; (see E11 EUR) (*3) "
+	86 (CDF_CHAR/59): 	"I32; RAMP; 01-10-15 15:31; 115; 7.8-8.9; 22.9-23.7; 354-52 "
+	87 (CDF_CHAR/54): 	"C10; EQX; 97-09-18 22:34; 46; 9.2; 12.5-12.8; 102-125 "
+	88 (CDF_CHAR/55): 	"C20; PJOV; 99-05-03 15:59; 122; 9.4; 10.0-10.8; 45-106 "
+	89 (CDF_CHAR/56): 	"A34; PSX6; 02-11-04 21:48; 45; 10.3; 17.0-17.1; 285-300 "
+	90 (CDF_CHAR/24): 	"------------------------"
+	91 (CDF_CHAR/26): 	"12: Middle Magnetosphere: "
+	92 (CDF_CHAR/60): 	"C09; TAR; 97-06-28 13:50; 61; 18.1-18.5; 18.1-18.2; 324-359 "
+	93 (CDF_CHAR/58): 	"C03; TAR; 96-11-05 07:04; 40; 19.3-19.0; 8.9-9.0; 140-163 "
+	94 (CDF_CHAR/58): 	"G08; QRS; 97-05-06 13:00; 129; 25.0-25.8; 5.9-6.0; 63-140 "
+	95 (CDF_CHAR/55): 	"G01; PSX; 96-06-30 02:00; 46; 27.2-27.5; 22.8; 292-319 "
+	96 (CDF_CHAR/56): 	"A34; PSX2; 02-11-03 15:28; 45; 29.4-29.0; 15.6; 276-303 "
+	97 (CDF_CHAR/56): 	"A34; PSX1; 02-11-03 10:38; 45; 31.8-31.4; 15.5; 102-132 "
+	98 (CDF_CHAR/60): 	"G02; PSX; 96-09-11 02:38; 40; 39.2-39.4; 23.8-23.9; 121-145 "
+	99 (CDF_CHAR/54): 	"G07; PSX; 97-03-30 18:49; 46; 46.2-46.4; 4.8; 125-152 "
+	100 (CDF_CHAR/24): 	"------------------------"
+	101 (CDF_CHAR/17): 	"13: Magnetotail: "
+	102 (CDF_CHAR/49): 	"C09; DSK1; 97-07-04 14:09; 118; 64; 22.1; 99-170 "
+	103 (CDF_CHAR/49): 	"C09; DSK2; 97-07-14 10:03; 45; 107; 23.2; 357-25 "
+	104 (CDF_CHAR/49): 	"E18; DSK; 98-12-10 19:36; 288; 109; 22.5; 285-98 "
+	105 (CDF_CHAR/48): 	"C09; DSK3; 97-07-23 13:11; 46; 129; 23.7; 18-45 "
+	106 (CDF_CHAR/52): 	"C09; DAWN; 97-08-23 14:07; 122; 130; 0.9-1.0; 17-90 "
+	107 (CDF_CHAR/47): 	"C09; APJ; 97-08-07 11:06; 101; 143; 0.3; 30-91 "
+	108 (CDF_CHAR/24): 	"------------------------"
+	109 (CDF_CHAR/124): 	"14: The ID element is derived from the SEF identifier for the recorded observation. The recording identifiers translate to: "
+	110 (CDF_CHAR/31): 	"IO, GAN, EUR, CALL -satellites "
+	111 (CDF_CHAR/27): 	"PSX -plasma sheet crossing "
+	112 (CDF_CHAR/26): 	"TAR -trans-auroral region "
+	113 (CDF_CHAR/29): 	"QRS -quarter rotation survey "
+	114 (CDF_CHAR/41): 	"DSK -dusk side of orbit (see local time) "
+	115 (CDF_CHAR/42): 	"DAWN -dawn side of orbit (see local time) "
+	116 (CDF_CHAR/13): 	"APJ -apojove "
+	117 (CDF_CHAR/14): 	"TOR -Io torus "
+	118 (CDF_CHAR/31): 	"EQX -magnetic equator crossing "
+	119 (CDF_CHAR/15): 	"PJOV -perijove "
+	120 (CDF_CHAR/18): 	"RAMP -outer torus "
+	121 (CDF_CHAR/54): 	"These designations were defined by the sequence team. "
+	122 (CDF_CHAR/24): 	"------------------------"
+	123 (CDF_CHAR/11): 	"15: Notes: "
+	124 (CDF_CHAR/55): 	"(*1) = Recording lost due to spacecraft safing/anomaly "
+	125 (CDF_CHAR/69): 	"(*2) = Stats given for primary observation interval only, data file. "
+	126 (CDF_CHAR/51): 	"includes additional intervals of 'ridealong' data. "
+	127 (CDF_CHAR/61): 	"(*3) = E11 EUR and EQU are continuous and listed as a single "
+	128 (CDF_CHAR/13): 	"observation. "
+	129 (CDF_CHAR/24): 	"------------------------"
+	130 (CDF_CHAR/216): 	"16: Satellite Flyby Characteristics. Listing of the various satellite closest approach times and the location of the spacecraft, relative to the satellite at these times. Satellite encounters with recorded data only."
+	131 (CDF_CHAR/71): 	"Satellite Planetocentric Coordinates is given in the following format: "
+	132 (CDF_CHAR/113): 	"Orbit; Moon; C/A Time; Satellite range in Moon Rm (km); Planetocentric Coordinates: Lat(deg); E Lon(deg); (*Note)"
+	133 (CDF_CHAR/24): 	"------------------------"
+	134 (CDF_CHAR/48): 	"0 IO; 95-12-07 17:45:58; 1.50; -9.6; 258.9 (*W) "
+	135 (CDF_CHAR/48): 	"24 IO; 99-10-11 04:33:03; 1.34; 4.5; 135.9 (*U) "
+	136 (CDF_CHAR/49): 	"27 IO; 00-02-22 13:46:41; 1.11; 18.5; 157.4 (*U) "
+	137 (CDF_CHAR/49): 	"31 IO; 01-08-06 04:59:21; 1.11; 77.5; 187.7 (*P) "
+	138 (CDF_CHAR/50): 	"32 IO; 01-10-16 01:23:21; 1.10; -78.5; 135.3 (*P) "
+	139 (CDF_CHAR/49): 	"33 IO; 02-01-17 14:08:28; 1.06; -43.5; 41.8 (*F) "
+	140 (CDF_CHAR/24): 	"------------------------"
+	141 (CDF_CHAR/49): 	"4 EUR; 96-12-19 06:52:58; 1.45; -1.7; 322.4 (*F) "
+	142 (CDF_CHAR/49): 	"6 EUR; 97-02-20 17:06:10; 1.38; -17.0; 34.7 (*F) "
+	143 (CDF_CHAR/50): 	"11 EUR; 97-11-06 20:31:44; 2.31; 25.7; 218.7 (*F) "
+	144 (CDF_CHAR/50): 	"12 EUR; 97-12-16 12:03:20; 1.13; -8.7; 134.4 (*U) "
+	145 (CDF_CHAR/50): 	"14 EUR; 98-03-29 13:21:05; 2.06; 12.2; 131.2 (*U) "
+	146 (CDF_CHAR/50): 	"15 EUR; 98-05-31 21:12:57; 2.62; 15.0; 225.4 (*W) "
+	147 (CDF_CHAR/49): 	"19 EUR; 99-02-01 02:19:50; 1.93; 30.5; 28.1 (*U) "
+	148 (CDF_CHAR/50): 	"26 EUR; 00-01-03 17:59:43; 1.22; -47.1; 83.4 (*U) "
+	149 (CDF_CHAR/24): 	"------------------------"
+	150 (CDF_CHAR/49): 	"1 GAN; 96-06-27 06:29:07; 1.32; 30.4; 246.7 (*W) "
+	151 (CDF_CHAR/48): 	"2 GAN; 96-09-06 18:59:34; 1.10; 79.3; 236.4 (*P)"
+	152 (CDF_CHAR/48): 	"7 GAN; 97-04-05 07:09:58; 2.18; 55.8; 270.4 (*W)"
+	153 (CDF_CHAR/47): 	"8 GAN; 97-05-07 15:56:10 1.61; 28.3; 84.8 (*U) "
+	154 (CDF_CHAR/49): 	"28 GAN; 00-05-20 10:10:10 1.31; -19.0; 92.4 (*U) "
+	155 (CDF_CHAR/49): 	"29 GAN; 00-12-28 08:25:27 1.89; 62.2; 269.0 (*P) "
+	156 (CDF_CHAR/24): 	"------------------------"
+	157 (CDF_CHAR/50): 	"3 CALL; 96-11-04 13:34:28; 1.47; 13.2; 282.3 (*W) "
+	158 (CDF_CHAR/49): 	"9 CALL; 97-06-25 13:47:50; 1.17; 2.0; 101.0 (*U) "
+	159 (CDF_CHAR/50): 	"10 CALL; 97-09-17 00:18:55; 1.22; 4.6; 281.3 (*W) "
+	160 (CDF_CHAR/51): 	"30 CALL; 01-05-25 11:23:58; 1.06; 13.6; 254.6 (*W) "
+	161 (CDF_CHAR/24): 	"------------------------"
+	162 (CDF_CHAR/51): 	"34 AMA; 02-11-05 06:18:40; 2.89; -47.7; 74.8; (*U) "
+	163 (CDF_CHAR/24): 	"------------------------"
+	164 (CDF_CHAR/55): 	"17: Moon and its Radius in km: Amalthea 86.2; Io 1818; "
+	165 (CDF_CHAR/43): 	"Europa 1560 ; Ganymede 2634; Callisto 2409 "
+	166 (CDF_CHAR/24): 	"------------------------"
+	167 (CDF_CHAR/54): 	"18: Notes: Negative latitudes are southern hemisphere,"
+	168 (CDF_CHAR/57): 	"(*U) = upstream; (*F) = flank; (*W) = wake; (*P) = polar "
+	169 (CDF_CHAR/24): 	"------------------------"
+	170 (CDF_CHAR/125): 	"19: Garrard, T. L., N. Gehrels, and E. C. Stone, The Galileo Heavy Element Monitor, Space Science Review, 60, 305-315, 1992. "
+	171 (CDF_CHAR/33): 	"The Galileo Heavy Element Monitor"
+	172 (CDF_CHAR/43): 	"http://www.srl.caltech.edu/galileo/HIC.html"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/7): 	"Galileo"
+Logical_source (1 entry):
+	0 (CDF_CHAR/36): 	"Galileo_HIC_Jup_recordmode_cos_10min"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/49): 	"Galileo_HIC_Jup_recordmode_cos_10min_00000000_v01"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/113): 	"Galileo Orbiter 10-min Resolution  Jupiter Heavy Ion Differential Flux Spectra; The Galileo Heavy Element Monitor"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/6): 	"10 min"
+Rules_of_use (0 entry):
+Generated_by (1 entry):
+	0 (CDF_CHAR/13): 	"Sonya Lyatsky"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/103): 	"Please acknowledge the Principal Investigator, Dr. Edward C. Stone, California Institute of Technology "
+MODS (1 entry):
+	1 (CDF_CHAR/1): 	" "
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/33): 	"The Galileo Heavy Element Monitor"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/33): 	"The Galileo Heavy Element Monitor"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/43): 	"http://www.srl.caltech.edu/galileo/HIC.html"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/66): 	"spase://VSPO/NumericalData/GalileoOrbiter/HIC/JupiterCOSFlux/10min"
+
+Variable Attributes (29 attributes)
+=========================================
+FIELDNAM
+CATDESC
+FILLVAL
+LABLAXIS
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+VAR_NOTES
+MONOTON
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+DEPEND_0
+FORMAT
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DISPLAY_TYPE
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+ALT_CDAWEB_DEPEND_1
+ALT_CDAWEB_DEPEND_2
+ALT_CDAWEB_DEPEND_3
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+
+Variable Information (0 rVariable, 53 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+DOY1                  CDF_REAL4/1	0:[]	T/  
+DOY2                  CDF_REAL4/1	0:[]	T/  
+Orbit                 CDF_REAL4/1	0:[]	T/  
+SampleNumber          CDF_REAL4/1	0:[]	T/  
+F01_C                 CDF_REAL4/1	0:[]	T/  
+F02_C                 CDF_REAL4/1	0:[]	T/  
+F03_C                 CDF_REAL4/1	0:[]	T/  
+F04_C                 CDF_REAL4/1	0:[]	T/  
+F05_C                 CDF_REAL4/1	0:[]	T/  
+F06_C                 CDF_REAL4/1	0:[]	T/  
+F07_C                 CDF_REAL4/1	0:[]	T/  
+F08_C                 CDF_REAL4/1	0:[]	T/  
+C01_C                 CDF_REAL4/1	0:[]	T/  
+C02_C                 CDF_REAL4/1	0:[]	T/  
+C03_C                 CDF_REAL4/1	0:[]	T/  
+C04_C                 CDF_REAL4/1	0:[]	T/  
+C05_C                 CDF_REAL4/1	0:[]	T/  
+C06_C                 CDF_REAL4/1	0:[]	T/  
+C07_C                 CDF_REAL4/1	0:[]	T/  
+C08_C                 CDF_REAL4/1	0:[]	T/  
+F01_O                 CDF_REAL4/1	0:[]	T/  
+F02_O                 CDF_REAL4/1	0:[]	T/  
+F03_O                 CDF_REAL4/1	0:[]	T/  
+F04_O                 CDF_REAL4/1	0:[]	T/  
+F05_O                 CDF_REAL4/1	0:[]	T/  
+F06_O                 CDF_REAL4/1	0:[]	T/  
+F07_O                 CDF_REAL4/1	0:[]	T/  
+F08_O                 CDF_REAL4/1	0:[]	T/  
+C01_O                 CDF_REAL4/1	0:[]	T/  
+C02_O                 CDF_REAL4/1	0:[]	T/  
+C03_O                 CDF_REAL4/1	0:[]	T/  
+C04_O                 CDF_REAL4/1	0:[]	T/  
+C05_O                 CDF_REAL4/1	0:[]	T/  
+C06_O                 CDF_REAL4/1	0:[]	T/  
+C07_O                 CDF_REAL4/1	0:[]	T/  
+C08_O                 CDF_REAL4/1	0:[]	T/  
+F01_S                 CDF_REAL4/1	0:[]	T/  
+F02_S                 CDF_REAL4/1	0:[]	T/  
+F03_S                 CDF_REAL4/1	0:[]	T/  
+F04_S                 CDF_REAL4/1	0:[]	T/  
+F05_S                 CDF_REAL4/1	0:[]	T/  
+F06_S                 CDF_REAL4/1	0:[]	T/  
+F07_S                 CDF_REAL4/1	0:[]	T/  
+F08_S                 CDF_REAL4/1	0:[]	T/  
+C01_S                 CDF_REAL4/1	0:[]	T/  
+C02_S                 CDF_REAL4/1	0:[]	T/  
+C03_S                 CDF_REAL4/1	0:[]	T/  
+C04_S                 CDF_REAL4/1	0:[]	T/  
+C05_S                 CDF_REAL4/1	0:[]	T/  
+C06_S                 CDF_REAL4/1	0:[]	T/  
+C07_S                 CDF_REAL4/1	0:[]	T/  
+C08_S                 CDF_REAL4/1	0:[]	T/  
+
+
+Variable (53 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/10): "Start Time"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+     TIME_SCALE      (CDF_CHAR/24): "Spacecraft Event Time UT"
+     REFERENCE_POSITION (CDF_CHAR/26): "Galileo Orbiter Spacecraft"
+     FORMAT          (CDF_CHAR/14): "CDF Epoch Time"
+
+DOY1 (No: 1) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Day of the Year; Start "
+     CATDESC         (CDF_CHAR/22): "Day of the Year; Start"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "Day of the Year "
+     UNITS           (CDF_CHAR/20): "Fraction of the year"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 367.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+DOY2 (No: 2) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Day of the Year; End"
+     CATDESC         (CDF_CHAR/20): "Day of the Year; End"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "Day of the Year"
+     UNITS           (CDF_CHAR/20): "Fraction of the year"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 367.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Orbit (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Orbit Number"
+     CATDESC         (CDF_CHAR/12): "Orbit Number"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/1): "#"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+SampleNumber (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Number of Samples"
+     CATDESC         (CDF_CHAR/17): "Number of Samples"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/1): "#"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F01_C (No: 5) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Carbon for Energy Interval 1"
+     CATDESC         (CDF_CHAR/106): "10 minute average fluxes for Carbon in particles/(cm^2 sr s MeV/n) for Energy interval 1: 7.60-14.00 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Carbon ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F02_C (No: 6) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Carbon for Energy Interval 2"
+     CATDESC         (CDF_CHAR/107): "10 minute average fluxes for Carbon in particles/(cm^2 sr s MeV/n) for Energy interval 2: 14.00-31.80 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Carbon ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F03_C (No: 7) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Carbon for Energy Interval 3"
+     CATDESC         (CDF_CHAR/107): "10 minute average fluxes for Carbon in particles/(cm^2 sr s MeV/n) for Energy interval 3: 25.00-28.80 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Carbon ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F04_C (No: 8) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Carbon for Energy Interval 4"
+     CATDESC         (CDF_CHAR/107): "10 minute average fluxes for Carbon in particles/(cm^2 sr s MeV/n) for Energy interval 4: 27.40-29.60 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Carbon ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F05_C (No: 9) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Carbon for Energy Interval 5"
+     CATDESC         (CDF_CHAR/107): "10 minute average fluxes for Carbon in particles/(cm^2 sr s MeV/n) for Energy interval 5: 29.60-34.40 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Carbon ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F06_C (No: 10) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Carbon for Energy Interval 6"
+     CATDESC         (CDF_CHAR/107): "10 minute average fluxes for Carbon in particles/(cm^2 sr s MeV/n) for Energy interval 6: 47.40-58.80 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Carbon ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F07_C (No: 11) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Carbon for Energy Interval 7"
+     CATDESC         (CDF_CHAR/107): "10 minute average fluxes for Carbon in particles/(cm^2 sr s MeV/n) for Energy interval 7: 58.80-74.40 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Carbon ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F08_C (No: 12) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Carbon for Energy Interval 8"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Carbon in particles/(cm^2 sr s MeV/n) for Energy interval 8: 74.40-103.40 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Carbon ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C01_C (No: 13) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Carbon for Energy Interval 1"
+     CATDESC         (CDF_CHAR/85): "10 minute accumulated event counts for Carbon for Energy interval 1: 7.60-14.00 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/105): "This data set includes 10 minute counts for Carbon ions accumulated from two-second record-mode samples ."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C02_C (No: 14) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Carbon for Energy Interval 2"
+     CATDESC         (CDF_CHAR/86): "10 minute accumulated event counts for Carbon for Energy interval 2: 14.00-31.80 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Carbon ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C03_C (No: 15) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Carbon for Energy Interval 3"
+     CATDESC         (CDF_CHAR/86): "10 minute accumulated event counts for Carbon for Energy interval 3: 25.00-28.80 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Carbon ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C04_C (No: 16) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Carbon for Energy Interval 4"
+     CATDESC         (CDF_CHAR/86): "10 minute accumulated event counts for Carbon for Energy interval 4: 27.40-29.60 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Carbon ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C05_C (No: 17) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Carbon for Energy Interval 1"
+     CATDESC         (CDF_CHAR/86): "10 minute accumulated event counts for Carbon for Energy interval 5: 29.60-34.40 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Carbon ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C06_C (No: 18) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Carbon for Energy Interval 1"
+     CATDESC         (CDF_CHAR/86): "10 minute accumulated event counts for Carbon for Energy interval 6: 47.40-58.80 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Carbon ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C07_C (No: 19) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Carbon for Energy Interval 1"
+     CATDESC         (CDF_CHAR/86): "10 minute accumulated event counts for Carbon for Energy interval 7: 58.80-74.40 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Carbon ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C08_C (No: 20) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Carbon for Energy Interval 1"
+     CATDESC         (CDF_CHAR/87): "10 minute accumulated event counts for Carbon for Energy interval 8: 74.40-103.40 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Carbon ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F01_O (No: 21) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Oxygen for Energy Interval 1"
+     CATDESC         (CDF_CHAR/107): "10 minute average fluxes for Oxygen in particles/(cm^2 sr s MeV/n) for Energy interval 1: 8.60-16.40 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Oxygen ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F02_O (No: 22) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Oxygen for Energy Interval 2"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Oxygen in particles/(cm^2 sr s MeV/n) for Energy interval 2: 16.40-37.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Oxygen ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F03_O (No: 23) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Oxygen for Energy Interval 3"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Oxygen in particles/(cm^2 sr s MeV/n) for Energy interval 3: 29.20-32.80 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Oxygen ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F04_O (No: 24) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Oxygen for Energy Interval 4"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Oxygen in particles/(cm^2 sr s MeV/n) for Energy interval 4: 31.60-36.80 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "F04_O"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Oxygen ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F05_O (No: 25) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Oxygen for Energy Interval 5"
+     CATDESC         (CDF_CHAR/109): "10 minute average fluxes for Oxygen in particles/(cm^2 sr s MeV/n) for Energy interval 5: 36.80-54.80 MeV/n  "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Oxygen ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F06_O (No: 26) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Oxygen for Energy Interval 6"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Oxygen in particles/(cm^2 sr s MeV/n) for Energy interval 6: 51.60-64.80 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Oxygen ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F07_O (No: 27) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Oxygen for Energy Interval 7"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Oxygen in particles/(cm^2 sr s MeV/n) for Energy interval 7: 64.80-84.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "F07_O"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Oxygen ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F08_O (No: 28) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Oxygen for Energy Interval 8"
+     CATDESC         (CDF_CHAR/109): "10 minute average fluxes for Oxygen in particles/(cm^2 sr s MeV/n) for Energy interval 8: 84.00-118.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Oxygen ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C01_O (No: 29) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Oxygen for Energy Interval 1"
+     CATDESC         (CDF_CHAR/86): "10 minute accumulated event counts for Oxygen for Energy interval 1: 8.60-16.40 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Oxygen ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C02_O (No: 30) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Oxygen for Energy Interval 2"
+     CATDESC         (CDF_CHAR/87): "10 minute accumulated event counts for Oxygen for Energy interval 2: 16.40-37.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Oxygen ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C03_O (No: 31) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Oxygen for Energy Interval 3"
+     CATDESC         (CDF_CHAR/87): "10 minute accumulated event counts for Oxygen for Energy interval 3: 29.20-32.80 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Oxygen ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C04_O (No: 32) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Oxygen for Energy Interval 4"
+     CATDESC         (CDF_CHAR/87): "10 minute accumulated event counts for Oxygen for Energy interval 4: 31.60-36.80 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Oxygen ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C05_O (No: 33) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Oxygen for Energy Interval 5"
+     CATDESC         (CDF_CHAR/88): "10 minute accumulated event counts for Oxygen for Energy interval 5: 36.80-54.80 MeV/n  "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Oxygen ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C06_O (No: 34) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Oxygen for Energy Interval 6"
+     CATDESC         (CDF_CHAR/86): "10 minute accumulated event counts for Oxygen for Energy interval 6: 51.60-64.80 MeV/n"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Oxygen ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C07_O (No: 35) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Oxygen for Energy Interval 7"
+     CATDESC         (CDF_CHAR/87): "10 minute accumulated event counts for Oxygen for Energy interval 7: 64.80-84.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Oxygen ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C08_O (No: 36) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Oxygen for Energy Interval 8"
+     CATDESC         (CDF_CHAR/88): "10 minute accumulated event counts for Oxygen for Energy interval 8: 84.00-118.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Oxygen ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F01_S (No: 37) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Sulfur for Energy Interval 1"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Sulfur in particles/(cm^2 sr s MeV/n) for Energy interval 1: 11.20-21.60 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Sulfur ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F02_S (No: 38) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Sulfur for Energy Interval 2"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Sulfur in particles/(cm^2 sr s MeV/n) for Energy interval 2: 21.60-52.20 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Sulfur ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F03_S (No: 39) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Sulfur for Energy Interval 3"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Sulfur in particles/(cm^2 sr s MeV/n) for Energy interval 3: 41.00-46.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Sulfur ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F04_S (No: 40) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Sulfur for Energy Interval 4"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Sulfur in particles/(cm^2 sr s MeV/n) for Energy interval 4: 44.00-51.60 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Sulfur ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F05_S (No: 41) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Sulfur for Energy Interval 5"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Sulfur in particles/(cm^2 sr s MeV/n) for Energy interval 5: 51.60-75.20 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Sulfur ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F06_S (No: 42) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Sulfur for Energy Interval 6"
+     CATDESC         (CDF_CHAR/108): "10 minute average fluxes for Sulfur in particles/(cm^2 sr s MeV/n) for Energy interval 6: 70.40-88.40 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Sulfur ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F07_S (No: 43) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Sulfur for Energy Interval 7"
+     CATDESC         (CDF_CHAR/109): "10 minute average fluxes for Sulfur in particles/(cm^2 sr s MeV/n) for Energy interval 7: 88.40-118.60 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Sulfur ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F08_S (No: 44) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Average Fluxes for Sulfur for Energy Interval 8"
+     CATDESC         (CDF_CHAR/110): "10 minute average fluxes for Sulfur in particles/(cm^2 sr s MeV/n) for Energy interval 8: 118.60-170.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Fluxes"
+     UNITS           (CDF_CHAR/19): "#/(cm^2 sr s MeV/n)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/166): "This data set includes 10 minute average differential fluxes for Sulfur ions accumulated from two-second record-mode samples in units of particles/(cm^2 sr s MeV/n)  "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C01_S (No: 45) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Sulfur for Energy Interval 1"
+     CATDESC         (CDF_CHAR/87): "10 minute accumulated event counts for Sulfur for Energy interval 1: 11.20-21.60 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Sulfur ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C02_S (No: 46) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Sulfur for Energy Interval 2"
+     CATDESC         (CDF_CHAR/87): "10 minute accumulated event counts for Sulfur for Energy interval 2: 21.60-52.20 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Sulfur ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C03_S (No: 47) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Sulfur for Energy Interval 3"
+     CATDESC         (CDF_CHAR/88): "10 minute accumulated event counts for Sulfur for Energy interval  3: 41.00-46.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Sulfur ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C04_S (No: 48) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Sulfur for Energy Interval 4"
+     CATDESC         (CDF_CHAR/88): "10 minute accumulated event counts for Sulfur for Energy interval  4: 44.00-51.60 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Sulfur ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C05_S (No: 49) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Sulfur for Energy Interval 5"
+     CATDESC         (CDF_CHAR/87): "10 minute accumulated event counts for Sulfur for Energy interval 5: 51.60-75.20 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Sulfur ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C06_S (No: 50) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Sulfur for Energy Interval 6"
+     CATDESC         (CDF_CHAR/87): "10 minute accumulated event counts for Sulfur for Energy interval 6: 70.40-88.40 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Sulfur ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C07_S (No: 51) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Sulfur for Energy Interval 7"
+     CATDESC         (CDF_CHAR/81): "10 minute accumulated event counts for Sulfur for Energy interval 7: 88.40-118.60"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Sulfur ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+C08_S (No: 52) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/57): "Accumulated Event Counts for Sulfur for Energy Interval 8"
+     CATDESC         (CDF_CHAR/89): "10 minute accumulated event counts for Sulfur for Energy interval 8: 118.60-170.00 MeV/n "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Counts"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "This data set includes 10 minute counts for Sulfur ions accumulated from two-second record-mode samples "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+

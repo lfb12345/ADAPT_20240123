@@ -1,0 +1,680 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_fld_l2_dfb_wf_vdc_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_fld_l2_dfb_wf_vdc_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     38
+NumAttrs:     43 (25 global, 18 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/44): 	"PSP FIELDS DFB Single Ended Voltage Waveform"
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"PSP"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Solar Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/22): 	"PSP>Parker Solar Probe"
+Descriptor (1 entry):
+	0 (CDF_CHAR/61): 	"DFB_WF_VDC>Digital Fields Board Single Ended Voltage Waveform"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"L2>Level 2 Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (10 entries):
+	0 (CDF_CHAR/66): 	"PSP FIELDS Digital Fields Board (DFB), Single Ended Voltage data. "
+	1 (CDF_CHAR/213): 	"The DFB is the low frequency (< 75 kHz) component of the FIELDS experiment on the Parker Solar Probe spacecraft [1]. For a full description of the FIELDS experiment, see [2]. For a description of the DFB, see [3]."
+	2 (CDF_CHAR/156): 	"DFB continuous waveform data consist of time-series data from various FIELDS sensors. These data have been filtered by both analog and digital filters [3]. "
+	3 (CDF_CHAR/1186): 	"The Level 2 data products contained in this data file have been calibrated for (i) DFB in-band gain, (ii) DFB analog filter gain/phase response, (iii) DFB digital filter phase response, and (iv) the search coil preamplifier gain/phase response (when applicable). Calibrations for the FIELDS digital filter gain response have not been implemented, but the required convolution kernel is provided in this file.  It was decided not to apply the FIELDS digital filter gain response to the L2 data because this can introduce non-physical power at high frequencies when the non-corrected signal is dominated by noise. This effect should be examined carefully when determining spectral slopes and features at the highest frequencies. Calibrations for the FIELDS voltage sensor preamplifiers have not been implemented, as the preamplifier response is flat and equal to 1 through the DFB frequency range.  Corrections for plasma sheath impedance gain and antenna effective length have not been applied to the voltage sensor data (these corrections will be applied in Level 3 DFB data), therefore units for all voltage sensor quantities are Volts.  Units for all magnetic field quantities are nT."
+	4 (CDF_CHAR/211): 	"The Level 2 data products contained in this data file are in spacecraft coordinates (e.g. x,y,z) and in sensor coordinates (e.g. dV12, dV34 for voltage measurements, and u,v,w for the search coil magnetometer). "
+	5 (CDF_CHAR/227): 	"Time resolution for the DFB continuous waveform data can vary by multiples of 2^N.  During encounter (when PSP is within 0.25 AU of the Sun), cadence for the DFB continuous waveform data is typically 256 samples/NYsecond [2].  "
+	6 (CDF_CHAR/12): 	"References: "
+	7 (CDF_CHAR/113): 	"1. Fox, N.J., Velli, M.C., Bale, S.D. et al. Space Sci Rev (2016) 204: 7. https://doi.org/10.1007/s1121401502116 "
+	8 (CDF_CHAR/115): 	"2. Bale, S.D., Goetz, K., Harvey, P.R. et al. Space Sci Rev (2016) 204: 49. https://doi.org/10.1007/s1121401602445 "
+	9 (CDF_CHAR/129): 	"3. Malaspina, D.M., Ergun, R.E., Bolton, M. et al. (2016) JGR Space Physics, 121, 5088-5096. https://doi.org/10.1002/2016JA022344"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/34): 	"psp_fld_l2_dfb_wf_vdc_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/21): 	"psp_fld_l2_dfb_wf_vdc"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/60): 	"PSP FIELDS Level 2 DFB Single Ended Antenna Voltage Waveform"
+PI_name (1 entry):
+	0 (CDF_CHAR/38): 	"Stuart D. Bale (bale@ssl.berkeley.edu)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/37): 	"UC Berkeley Space Sciences Laboratory"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Dependencies (1 entry):
+	0 (CDF_CHAR/4): 	"None"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (1 entry):
+	0 (CDF_CHAR/10): 	"FIELDS SOC"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/36): 	"http://fields.ssl.berkeley.edu/data/"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/14): 	"PSP/FIELDS SOC"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/10): 	" Data Link"
+svn_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/104): 	"spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/Waveform/DC/SingleEndedVoltage/PT0.027306S"
+
+Variable Attributes (18 attributes)
+=========================================
+CATDESC
+COORDINATE_SYSTEM
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABL_PTR_1
+LABLAXIS
+UNITS
+VALIDMIN
+SCALEMAX
+SCALEMIN
+VALIDMAX
+VAR_TYPE
+VAR_NOTES
+MONOTON
+
+Variable Information (0 rVariable, 38 zVariables)
+===========================================================
+v1_epoch              CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V1dc CDF_FLOAT/1	0:[]	T/  
+v1_pkt_timestamp      CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V1dc_sample_rate CDF_FLOAT/1	0:[]	T/  
+v2_epoch              CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V2dc CDF_FLOAT/1	0:[]	T/  
+v2_pkt_timestamp      CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V2dc_sample_rate CDF_FLOAT/1	0:[]	T/  
+v3_epoch              CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V3dc CDF_FLOAT/1	0:[]	T/  
+v3_pkt_timestamp      CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V3dc_sample_rate CDF_FLOAT/1	0:[]	T/  
+v4_epoch              CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V4dc CDF_FLOAT/1	0:[]	T/  
+v4_pkt_timestamp      CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V4dc_sample_rate CDF_FLOAT/1	0:[]	T/  
+v5_epoch              CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V5dc CDF_FLOAT/1	0:[]	T/  
+v5_pkt_timestamp      CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_wf_V5dc_sample_rate CDF_FLOAT/1	0:[]	T/  
+digital_filter_kernel_real_293Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_imag_293Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_real_146Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_imag_146Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_real_73Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_imag_73Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_real_37Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_imag_37Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_real_18Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_imag_18Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_real_9Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_imag_9Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_real_5Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_imag_5Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_real_2Hz CDF_DOUBLE/1	1:[2048]	F/T
+digital_filter_kernel_imag_2Hz CDF_DOUBLE/1	1:[2048]	F/T
+epoch_quality_flags   CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_quality_flags CDF_UINT4/1	0:[]	T/  
+
+
+Variable (38 variables)
+=========================================
+
+v1_epoch (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Time for V1 Waveform"
+     FIELDNAM        (CDF_CHAR/8): "v1_epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V1dc (No: 1) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "L2 Electric Potential from V1"
+     DEPEND_0        (CDF_CHAR/8): "v1_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "psp_fld_l2_dfb_wf_V1dc"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/2): "V1"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -115.0
+     VALIDMAX        (CDF_FLOAT/1): 115.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+v1_pkt_timestamp (No: 2) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "Packet Time for V1 Waveform"
+     FIELDNAM        (CDF_CHAR/16): "v1_pkt_timestamp"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V1dc_sample_rate (No: 3) (Recs: 0) (Compression: GZIP.6)
+----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Sample rate assigned to V1"
+     DEPEND_0        (CDF_CHAR/16): "v1_pkt_timestamp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): "psp_fld_l2_dfb_wf_V1dc_sample_rate"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     UNITS           (CDF_CHAR/9): "Samples/s"
+     VALIDMIN        (CDF_FLOAT/1): 1.144
+     VALIDMAX        (CDF_FLOAT/1): 18750.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+v2_epoch (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Time for V2 Waveform"
+     FIELDNAM        (CDF_CHAR/8): "v2_epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V2dc (No: 5) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "L2 Electric Potential from V2"
+     DEPEND_0        (CDF_CHAR/8): "v2_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "psp_fld_l2_dfb_wf_V2dc"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/2): "V2"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -115.0
+     VALIDMAX        (CDF_FLOAT/1): 115.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+v2_pkt_timestamp (No: 6) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "Packet Time for V2 Waveform"
+     FIELDNAM        (CDF_CHAR/16): "v2_pkt_timestamp"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V2dc_sample_rate (No: 7) (Recs: 0) (Compression: GZIP.6)
+----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Sample rate assigned to V2"
+     DEPEND_0        (CDF_CHAR/16): "v2_pkt_timestamp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): "psp_fld_l2_dfb_wf_V2dc_sample_rate"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     UNITS           (CDF_CHAR/9): "Samples/s"
+     VALIDMIN        (CDF_FLOAT/1): 1.144
+     VALIDMAX        (CDF_FLOAT/1): 18750.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+v3_epoch (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Time for V3 Waveform"
+     FIELDNAM        (CDF_CHAR/8): "v3_epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V3dc (No: 9) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "L2 Electric Potential from V3"
+     DEPEND_0        (CDF_CHAR/8): "v3_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "psp_fld_l2_dfb_wf_V3dc"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/2): "V3"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -115.0
+     VALIDMAX        (CDF_FLOAT/1): 115.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+v3_pkt_timestamp (No: 10) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "Packet Time for V3 Waveform"
+     FIELDNAM        (CDF_CHAR/16): "v3_pkt_timestamp"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V3dc_sample_rate (No: 11) (Recs: 0) (Compression: GZIP.6)
+----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Sample rate assigned to V3"
+     DEPEND_0        (CDF_CHAR/16): "v3_pkt_timestamp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): "psp_fld_l2_dfb_wf_V3dc_sample_rate"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     UNITS           (CDF_CHAR/9): "Samples/s"
+     VALIDMIN        (CDF_FLOAT/1): 1.144
+     VALIDMAX        (CDF_FLOAT/1): 18750.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+v4_epoch (No: 12) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Time for V4 Waveform"
+     FIELDNAM        (CDF_CHAR/8): "v4_epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V4dc (No: 13) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "L2 Electric Potential from V4"
+     DEPEND_0        (CDF_CHAR/8): "v4_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "psp_fld_l2_dfb_wf_V4dc"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/2): "V4"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -115.0
+     VALIDMAX        (CDF_FLOAT/1): 115.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+v4_pkt_timestamp (No: 14) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "Packet Time for V4 Waveform"
+     FIELDNAM        (CDF_CHAR/16): "v4_pkt_timestamp"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V4dc_sample_rate (No: 15) (Recs: 0) (Compression: GZIP.6)
+----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Sample rate assigned to V4"
+     DEPEND_0        (CDF_CHAR/16): "v4_pkt_timestamp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): "psp_fld_l2_dfb_wf_V4dc_sample_rate"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     UNITS           (CDF_CHAR/9): "Samples/s"
+     VALIDMIN        (CDF_FLOAT/1): 1.144
+     VALIDMAX        (CDF_FLOAT/1): 18750.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+v5_epoch (No: 16) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Time for V5 Waveform"
+     FIELDNAM        (CDF_CHAR/8): "v5_epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V5dc (No: 17) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "L2 Electric Potential from V5"
+     DEPEND_0        (CDF_CHAR/8): "v5_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "psp_fld_l2_dfb_wf_V5dc"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/2): "V5"
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_FLOAT/1): -115.0
+     VALIDMAX        (CDF_FLOAT/1): 115.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+v5_pkt_timestamp (No: 18) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "Packet Time for V5 Waveform"
+     FIELDNAM        (CDF_CHAR/16): "v5_pkt_timestamp"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_wf_V5dc_sample_rate (No: 19) (Recs: 0) (Compression: GZIP.6)
+----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Sample rate assigned to V5"
+     DEPEND_0        (CDF_CHAR/16): "v5_pkt_timestamp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): "psp_fld_l2_dfb_wf_V5dc_sample_rate"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     UNITS           (CDF_CHAR/9): "Samples/s"
+     VALIDMIN        (CDF_FLOAT/1): 1.144
+     VALIDMAX        (CDF_FLOAT/1): 18750.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_real_293Hz (No: 20) (Recs: 1)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Kernel (real part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/32): "digital_filter_kernel_real_293Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/4): "Real"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.609047
+     VALIDMAX        (CDF_DOUBLE/1): 1.79443
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_imag_293Hz (No: 21) (Recs: 1)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Kernel (imaginary part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/32): "digital_filter_kernel_imag_293Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/9): "Imaginary"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.609047
+     VALIDMAX        (CDF_DOUBLE/1): 1.79443
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_real_146Hz (No: 22) (Recs: 1)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Kernel (real part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/32): "digital_filter_kernel_real_146Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/4): "Real"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.605936
+     VALIDMAX        (CDF_DOUBLE/1): 1.79063
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_imag_146Hz (No: 23) (Recs: 1)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Kernel (imaginary part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/32): "digital_filter_kernel_imag_146Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/9): "Imaginary"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.605936
+     VALIDMAX        (CDF_DOUBLE/1): 1.79063
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_real_73Hz (No: 24) (Recs: 1)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Kernel (real part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/31): "digital_filter_kernel_real_73Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/4): "Real"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.606339
+     VALIDMAX        (CDF_DOUBLE/1): 1.79112
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_imag_73Hz (No: 25) (Recs: 1)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Kernel (imaginary part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/31): "digital_filter_kernel_imag_73Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/9): "Imaginary"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.606339
+     VALIDMAX        (CDF_DOUBLE/1): 1.79112
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_real_37Hz (No: 26) (Recs: 1)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Kernel (real part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/31): "digital_filter_kernel_real_37Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/4): "Real"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.608624
+     VALIDMAX        (CDF_DOUBLE/1): 1.79391
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_imag_37Hz (No: 27) (Recs: 1)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Kernel (imaginary part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/31): "digital_filter_kernel_imag_37Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/9): "Imaginary"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.608624
+     VALIDMAX        (CDF_DOUBLE/1): 1.79391
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_real_18Hz (No: 28) (Recs: 1)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Kernel (real part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/31): "digital_filter_kernel_real_18Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/4): "Real"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.606737
+     VALIDMAX        (CDF_DOUBLE/1): 1.79161
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_imag_18Hz (No: 29) (Recs: 1)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Kernel (imaginary part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/31): "digital_filter_kernel_imag_18Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/9): "Imaginary"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.606737
+     VALIDMAX        (CDF_DOUBLE/1): 1.79161
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_real_9Hz (No: 30) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Kernel (real part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/30): "digital_filter_kernel_real_9Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/4): "Real"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.605374
+     VALIDMAX        (CDF_DOUBLE/1): 1.78994
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_imag_9Hz (No: 31) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Kernel (imaginary part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/30): "digital_filter_kernel_imag_9Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/9): "Imaginary"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.605374
+     VALIDMAX        (CDF_DOUBLE/1): 1.78994
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_real_5Hz (No: 32) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Kernel (real part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/30): "digital_filter_kernel_real_5Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/4): "Real"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.607338
+     VALIDMAX        (CDF_DOUBLE/1): 1.79234
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_imag_5Hz (No: 33) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Kernel (imaginary part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/30): "digital_filter_kernel_imag_5Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/9): "Imaginary"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.607338
+     VALIDMAX        (CDF_DOUBLE/1): 1.79234
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_real_2Hz (No: 34) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Kernel (real part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/30): "digital_filter_kernel_real_2Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/4): "Real"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.616511
+     VALIDMAX        (CDF_DOUBLE/1): 1.80354
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+digital_filter_kernel_imag_2Hz (No: 35) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Kernel (imaginary part) needed to correct for digital filter response"
+     FIELDNAM        (CDF_CHAR/30): "digital_filter_kernel_imag_2Hz"
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/9): "Imaginary"
+     UNITS           (CDF_CHAR/8): "Vin/Vout"
+     VALIDMIN        (CDF_DOUBLE/1): -0.616511
+     VALIDMAX        (CDF_DOUBLE/1): 1.80354
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+epoch_quality_flags (No: 36) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "Time for the FIELDS quality flag"
+     FIELDNAM        (CDF_CHAR/19): "epoch_quality_flags"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2019-05-07T06:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2019-05-07T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_quality_flags (No: 37) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "FIELDS quality flag"
+     DEPEND_0        (CDF_CHAR/19): "epoch_quality_flags"
+     FIELDNAM        (CDF_CHAR/13): "quality_flags"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/4): "flag"
+     UNITS           (CDF_CHAR/4): "None"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 255
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/990): "FIELDS quality flags. This is a bitwise variable, meaning that multiple flags can be set for a single time, by adding flag values. Current flagged values are: 1: FIELDS antenna bias sweep, 2: PSP thruster firing, 4: SCM Calibration, 8: PSP rotations for MAG calibration (MAG rolls), 16: FIELDS MAG calibration sequence, 32: SWEAP SPC in electron mode, 64: PSP Solar limb sensor (SLS) test. 128: PSP spacecraft is off umbra pointing. 256: High frequency noise affecting RFS and TDS receivers. 512: Antennas driven towards the FIELDS power supply rails. A value of zero corresponds to no set flags. Not all flags are relevant to all FIELDS data products, refer to notes in the CDF metadata and on the FIELDS SOC website for information on how the various flags impact FIELDS data. For more information on the quality flags describing high frequency noise and antennas driven to the rails, see release notes for PSP/FIELDS releases 8 and 9. Additional flagged items may be added in the future."
+

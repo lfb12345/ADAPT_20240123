@@ -1,0 +1,366 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/de1_6sec_magagms_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     de1_6sec_magagms_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     16
+NumAttrs:     44 (18 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (18 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/35): 	"DE-1 Magnetometer 6 second gms data"
+Project (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/54): 	"Space Physics>Magnetospheric  Ionospheric Interactions"
+Descriptor (1 entry):
+	0 (CDF_CHAR/15): 	"6sec> 6 second "
+Data_type (1 entry):
+	0 (CDF_CHAR/75): 	"magagms> Magnetic Field Observations Triaxial Fluxgate Magnetometer (MAG-A)"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Text (8 entries):
+	0 (CDF_CHAR/671): 	"Dynamics Explorer 1 spacecraft was one of two satellites in the Dynamics Explorer program.  The DE-1 and DE-2 satellites were launched by the same vehicle so that their orbits would be coplanar, allowing two-point measurements along magnetic field lines, for the purpose of studying coupling between the magnetosphere, ionosphere, and upper atmosphere.  The DE-1 orbit was highly elliptical with an apogee of 4.35 Re and a perigee of 500 km whereas the DE-2 spacecraft was placed in a much lower 300 x 1000 km altitude orbit. DE-1 was spin stabilized with its spin axis normal to the plane of the orbit. DE-2 was three axis stabilized with one face being nadir oriented. "
+	1 (CDF_CHAR/1132): 	"The study of field-aligned currents and MHD waves were the primary objectives of the DE-1/2 magnetometer investigation. Comparison of the magnetometer data with measurements of precipitating charged particles yielded new information on the field-aligned current carriers.  In combination with the electric field measurements, it was possible to determine the vertical Poynting Flux of electromagnetic energy flowing between the magnetosphere and ionosphere and to separate small-scale field-aligned currents from MHD waves through the evaluation of the local ratio of the electric to magnetic field amplitudes in these perturbations. The field-aligned current measurements and neutral atmosphere observations also provided an opportunity for investigating atmosphere-magnetosphere coupling and assessing the total rate of energy transfer into the upper atmosphere.  Finally, the DE-1/2 magnetometer investigation provided a vital service in so far as a knowledge of magnetic field direction and intensity is essential to any number of space plasma science investigations utilizing the various DE-1/2 particles and fields data sets. "
+	2 (CDF_CHAR/1727): 	"The DE-1 magnetic field (MAG-A) 6-second average resolution data set consists of averages of the high resolution triaxial fluxgate measurements taken every 62.5 msec (i.e., 16 vectors/second).  The MAG-A data set consists of the three components of the model magnetic field and difference field, B-Radial (Br), B-Theta (Bth), and B-Phi (Bph), in *old* Geomagnetic Spherical (GMS) Coordinates, and the difference field in local *new* Geographic Spherical (GGS) and Geomagnetic Spherical (GMS) Coordinates, respectively, and the difference field in local magnetic coordinates (b-para, b-parp1, b-parp2).  The R, Theta and Phi axes are positive in the directions of increasing radial distance from the center of the Earth (i.e., outward), increasing magnetic colatitude (i.e., southward) and increasing azimuth angle (i.e., magnetic east). The reference for the MAGSAT magnetic field model is Langel et al., Geophys. Res. Lett., 7, 793, 1980. The following Orbit Attitude (OA) parameters are also included in the data set: altitude, geographic latitude and longitude, magnetic local time, and invariant latitude. The data are provided in daily files in ASCII format. [updated by Robert.M.Candey@nasa.gov, 2006 Jan 17, per email dated Date: Thu, 18 Feb 99 17:08:59 JST From: iyemori@swdcgw.kugi.kyoto-u.ac.jp (Toshihiko_Iyemori)] As described in Farthing et al. (1981), the DE-1 magnetometer had a digital resolution of +1.5 nT in its low altitude, least sensitive mode. Two higher sensitivity modes were used at higher altitudes with digital resolutions of +0.25 nT and +0.02 nT, respectively. The data set consists of daily files from 81258 to 91049 in ASCII format. Each file contains all of the data available for a given day. "
+	3 (CDF_CHAR/1210): 	"The dominant source of error in the DE-1 magnetic field measurements is the uncertainty in the attitude of the spacecraft. The DE-1 spacecraft was designed to an attitude uncertainty specification of about 0.3 degree which appears to have been met much of the time. As a rule of thumb each 0.1 degree in attitude uncertainty near perigee corresponds to an error of approximately 100 nT in each component of the field when the magnetic field measured at the sensors is transferred to an inertial frame of reference or a model field is transferred into the 0spacecraft frame and subtracted from the measured field.  For this reason it is common for the residual, or delta-B field obtained by subtracting the model field at low altitudes (i.e., high fields) to show a gradual shift of several 100 nT from the start of a passage across the polar cap to the other side.  (These slow shifts in the baselines of the vector field components do not affect most scientific analyses, e.g., field-aligned current measurements, but they can be effectively dealt with through modeling if need be.  At higher altitudes the ambient field intensity is less and the uncertainty due to attitude errors is correspondingly smaller."
+	4 (CDF_CHAR/496): 	"The absolute accuracy of the DE-1 total magnetic field measurement has also been evaluated through comparison with the precision vector/scalar magnetic field observatories located on the ground which are used to monitor the geomagnetic field. On the basis of such cross-comparisons utilizing DE-1 perigee data over the life of the mission, R. Langel (private communication, 1994) found excellent agreement between the MAG-A and ground-based observatory scalar data sets at the 20 to 40 nT level. "
+	5 (CDF_CHAR/156): 	"In using any unfamiliar data set, caution is advised and tests to screen out instrumental artifacts should be devised before reaching important conclusions."
+	6 (CDF_CHAR/1410): 	"De-spinning high sensitivity, boom mounted vector magnetometer data in high fields (i.e., >1000 nT) frequently results in a readily observable residual signal at the spin period and its harmonics. In the case of the DE-1 magnetometer measurements, the dominant causes of residual spin tone were found to be small (0.1 to 0.01%) changes in the instrument scale factors and boom bending of up to several tenths of a degree in response to varying thermal inputs due to orbit/attitude driven changes in solar illumination (e.g., seasonal variations, eclipses, etc.). These effects were minimized through an orbit by orbit calibration procedure which analyzed the residual spin tone around apogee and perigee and adjusted the scale factors and sensor attitude accordingly. Even after these in-flight calibration activities, residual spin tone signals in the MAG-A data with amplitudes of tens of nanotesla are common in high fields around perigee. The most probable cause of these residuals is the transverse field dependence of fluxgate magnetometers in high fields which was not well-appreciated at the time that DE-1/2 magnetometers were designed and calibrated in the late 1970's. As discussed by Luhr et al. (1995) in regards to the magnetometer on the low altitude, spin stabilized Freja spacecraft, this non-linear effect can easily produce the residual spin frequency signals present in the MAG-A data set. "
+	7 (CDF_CHAR/170): 	"The MLT and ILAT algorithms were supplied by M. Sugiura (PI for the Magnetometer Investigation) prior to launch and used in the generation of the Orbit-Attitude database."
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0241"
+Logical_source (1 entry):
+	0 (CDF_CHAR/16): 	"de1_6sec_magagms"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/29): 	"de1_6sec_magagms_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/43): 	"DE-1 Magnetometer (MAG-A) 6 second GMS Data"
+PI_name (1 entry):
+	0 (CDF_CHAR/20): 	"Dr. Masahisa Sugiura"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"SPMS-00565"
+Mission_group (3 entries):
+	0 (CDF_CHAR/17): 	"Dynamics Explorer"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/40): 	"spase://NASA/NumericalData/DE1/MAGA/PT6S"
+
+Variable Attributes (26 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+MONOTON
+FILLVAL
+CATDESC
+VAR_TYPE
+DICT_KEY
+UNIT_PTR
+LABL_PTR_1
+LABL_PTR_2
+FORM_PTR
+LABLAXIS
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+
+Variable Information (0 rVariable, 16 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+brGEO                 CDF_REAL4/1	0:[]	T/  
+bthGEO                CDF_REAL4/1	0:[]	T/  
+bphGEO                CDF_REAL4/1	0:[]	T/  
+bpara                 CDF_REAL4/1	0:[]	T/  
+bparp1                CDF_REAL4/1	0:[]	T/  
+bparp2                CDF_REAL4/1	0:[]	T/  
+brGMS                 CDF_REAL4/1	0:[]	T/  
+bthGMS                CDF_REAL4/1	0:[]	T/  
+bphGMS                CDF_REAL4/1	0:[]	T/  
+glon                  CDF_REAL4/1	0:[]	T/  
+glat                  CDF_REAL4/1	0:[]	T/  
+ilat                  CDF_REAL4/1	0:[]	T/  
+mlt                   CDF_REAL4/1	0:[]	T/  
+alt                   CDF_REAL4/1	0:[]	T/  
+flag                  CDF_INT2/1	0:[]	T/  
+
+
+Variable (16 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Time since 0 A.D.(vefi)"
+     VALIDMIN        (CDF_EPOCH/1): 15-Sep-1981 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 18-Feb-1991 23:59:59.999
+     SCALEMIN        (CDF_EPOCH/1): 16-Sep-1981 05:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 18-Feb-1991 10:00:00.000
+     UNITS           (CDF_CHAR/8): "ms (UT) "
+     FORMAT          (CDF_CHAR/8): "F14.0   "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/43): "NSSDC standard-reference time value. (vefi)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+brGEO (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Br-Model (GEO)"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+07
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/3): "nT "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/73): "Radial-Component of reference magnetic field (MAGSAT model) in GEO coord."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "Br-Model(GEO)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+bthGEO (No: 2) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Bth-Model (GEO)"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+07
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/3): "nT "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/19): "Theta-Component ..."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/14): "Bth-Model(GEO)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+bphGEO (No: 3) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Bph-Model (GEO)"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+07
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/3): "nT "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/17): "Phi-Component ..."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/14): "Bph-Model(GEO)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+bpara (No: 4) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "B_para-Diff (LMG)"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+07
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/3): "nT "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/78): "Parallel Component of Difference Magnetic Field in Local Magnetic (LMG) Coord."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/15): "Bpara-Diff(LMG)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+bparp1 (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "B_perp1-Diff (LMG)"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+07
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/3): "nT "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/30): "Perpendicular(1) Component ..."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/16): "Bperp1-Diff(LMG)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+bparp2 (No: 6) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "B_perp2-Diff (LMG)"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+07
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/3): "nT "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/31): "Perpendicular(2) Component  ..."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/16): "Bperp2-Diff(LMG)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+brGMS (No: 7) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Br-Diff (GMS)"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+07
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/3): "nT "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/59): "Radial-Component of Difference Magnetic Field in GMS coord."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/12): "Br-Diff(GMS)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+bthGMS (No: 8) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Bth-Diff (GMS)"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+07
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/3): "nT "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/22): "Theta-Component of ..."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "Bth-Diff(GMS)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+bphGMS (No: 9) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Bph-Diff (GMS)"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+07
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/3): "nT "
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/20): "Phi-Component of ..."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "Bph-Diff(GMS)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+glon (No: 10) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geographic Longitude"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/20): "Geographic Longitude"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/8): "Geo Long"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+glat (No: 11) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Geographic Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/19): "Geographic Latitude"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/8): "Geo Lati"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+ilat (No: 12) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Invariant Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/18): "Invariant Latitude"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/7): "Inv Lat"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     VAR_NOTES       (CDF_CHAR/170): "The MLT and ILAT algorithms were supplied by M. Sugiura (PI for the Magnetometer Investigation) prior to launch and used in the generation of the Orbit-Attitude database."
+
+mlt (No: 13) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Mag. Local Time"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     UNITS           (CDF_CHAR/2): "hr"
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/19): "Magnetic Local Time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/3): "MLT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     VAR_NOTES       (CDF_CHAR/170): "The MLT and ILAT algorithms were supplied by M. Sugiura (PI for the Magnetometer Investigation) prior to launch and used in the generation of the Orbit-Attitude database."
+
+alt (No: 14) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Altitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/14): "Altitude in km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/8): "Altitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+flag (No: 15) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "error code"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 99
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i2"
+     FILLVAL         (CDF_INT2/1): -1
+     CATDESC         (CDF_CHAR/45): "error code ( =0 : no error in data reduction)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/10): "error code"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+

@@ -1,0 +1,795 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/im_k0_sip_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     im_k0_sip_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     33
+NumzVars:     0
+NumAttrs:     65 (28 global, 37 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (28 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"IMAGE"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/28): 	"IMAGE>Magnetopause to Aurora"
+Data_type (1 entry):
+	0 (CDF_CHAR/17): 	"K0>Key Parameters"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/118): 	"Proton Auroral Images @ 1218A, Key Parameters, IMAGE Far UltraViolet (FUV) Spectrographic Imaging camera Protons (SIP)"
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"S. Mende"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/15): 	"UC/Berkeley/SSL"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+TEXT_supplement_1 (2 entries):
+	0 (CDF_CHAR/24): 	"SKT version 24-July-2000"
+	1 (CDF_CHAR/91): 	"Mende et al: Far Ultraviolet Imaging from the IMAGE Spacecraft,Space Sciences Review 1999  "
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/35): 	"SIP>Proton Auroral Images at 1218 A"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"im_k0_sip_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"im_k0_sip"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/5): 	"IMAGE"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+TEXT (1 entry):
+	0 (CDF_CHAR/7): 	"Protons"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+ADID_ref (0 entry):
+Rules_of_use (0 entry):
+Generated_by (1 entry):
+	0 (CDF_CHAR/7): 	"fuvcdfg"
+MODS (0 entry):
+Time_resolution (0 entry):
+Link_text (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/35): 	"IMAGE_FUV-SIP_Key-Parameters-K0_cdf"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/45): 	"spase://NASA/DisplayData/IMAGE/FUV/SIP/PT124S"
+
+Variable Attributes (37 attributes)
+=========================================
+FIELDNAM
+UNITS
+VALIDMIN
+VALIDMAX
+DESCRIP
+VAR_NOTES
+CATDESC
+DISPLAY_TYPE
+FILLVAL
+LABLAXIS
+FORMAT
+VAR_TYPE
+DICT_KEY
+DEPEND_0
+DEPEND_1
+DEPEND_2
+VIRTUAL
+FUNCTION
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+COMPONENT_3
+COMPONENT_4
+COMPONENT_5
+COMPONENT_6
+COMPONENT_7
+COMPONENT_8
+COMPONENT_9
+COMPONENT_10
+COMPONENT_11
+COMPONENT_12
+COMPONENT_13
+ALLOW_BIN
+
+Variable Information (33 rVariables, 0 zVariable)
+===========================================================
+INSTRUMENT_ID         CDF_UCHAR/6	2:[128,128]	F/FF
+Z128_D1               CDF_INT2/1	2:[128,128]	F/TF
+Z128                  CDF_INT2/1	2:[128,128]	F/FT
+SI_PIXELS             CDF_INT2/1	2:[128,128]	T/TT
+SI_PIXELS_L           CDF_INT2/1	2:[128,128]	T/TT
+SI_PIXELS_V           CDF_INT2/1	2:[128,128]	T/TT
+SI_PIXELS_M           CDF_INT2/1	2:[128,128]	T/TT
+SI_PIXELS_LOG         CDF_FLOAT/1	2:[128,128]	T/TT
+SI_PIXELS_L_LOG       CDF_FLOAT/1	2:[128,128]	T/TT
+SI_PIXELS_LOG_M       CDF_FLOAT/1	2:[128,128]	T/TT
+SI_PIXELS_V_LOG       CDF_INT2/1	2:[128,128]	T/TT
+SI_PIXELS_M_LOG       CDF_FLOAT/1	2:[128,128]	T/TT
+EPOCH                 CDF_EPOCH/1	2:[128,128]	T/FF
+SPIN                  CDF_INT4/1	2:[128,128]	T/FF
+DATA_QUAL             CDF_INT2/1	2:[128,128]	T/FF
+RADIUS                CDF_FLOAT/1	2:[128,128]	T/FF
+HV                    CDF_FLOAT/1	2:[128,128]	T/FF
+FOVSCALE              CDF_INT2/1	2:[128,128]	T/FF
+SPINPHASE             CDF_FLOAT/1	2:[128,128]	T/FF
+SV_X                  CDF_DOUBLE/1	2:[128,128]	T/FF
+SV_Y                  CDF_DOUBLE/1	2:[128,128]	T/FF
+SV_Z                  CDF_DOUBLE/1	2:[128,128]	T/FF
+ORB_X                 CDF_DOUBLE/1	2:[128,128]	T/FF
+ORB_Y                 CDF_DOUBLE/1	2:[128,128]	T/FF
+ORB_Z                 CDF_DOUBLE/1	2:[128,128]	T/FF
+HFOV                  CDF_DOUBLE/1	2:[128,128]	F/FF
+VFOV                  CDF_DOUBLE/1	2:[128,128]	F/FF
+INST_AZIMUTH          CDF_DOUBLE/1	2:[128,128]	F/FF
+INST_CO_ELEVATION     CDF_DOUBLE/1	2:[128,128]	F/FF
+INST_ROLL             CDF_DOUBLE/1	2:[128,128]	F/FF
+SCSV_X                CDF_DOUBLE/1	2:[128,128]	T/FF
+SCSV_Y                CDF_DOUBLE/1	2:[128,128]	T/FF
+SCSV_Z                CDF_DOUBLE/1	2:[128,128]	T/FF
+
+
+Variable (33 variables)
+=========================================
+
+INSTRUMENT_ID (No: 0) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Label"
+     UNITS           (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/25): "Name of FUV subinstrument"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     FORMAT          (CDF_CHAR/2): "a6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Z128_D1 (No: 1) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "WIC ImAxis"
+     UNITS           (CDF_CHAR/6): "pixels"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 16384
+     DESCRIP         (CDF_CHAR/17): "array for DEPEND1"
+     CATDESC         (CDF_CHAR/18): "FUV/SIP Image Axis"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/14): "SIP Image Axis"
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+
+Z128 (No: 2) (Recs: 1)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "WIC ImAxis"
+     UNITS           (CDF_CHAR/6): "pixels"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 16384
+     DESCRIP         (CDF_CHAR/17): "array for DEPEND2"
+     CATDESC         (CDF_CHAR/18): "FUV/SIP Image Axis"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/14): "SIP Image Axis"
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+
+SI_PIXELS (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Proton Image, Raw Cnts @ 1218A"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 8192
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (12 bits)"
+     CATDESC         (CDF_CHAR/102): "FUV/SIP Proton Images @1218A (raw cnts, no grid, small format, linear scale) - use CDAWeb noise filter"
+     DISPLAY_TYPE    (CDF_CHAR/18): "image>THUMBSIZE>50"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/27): "FUV/SIP Raw Pixel Prtn Cnts"
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z128_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z128"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SI_PIXELS_L (No: 4) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Proton Image, Raw Cnts @ 1218A"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 8192
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (12 bits)"
+     CATDESC         (CDF_CHAR/59): " ---> FUV/SIP Proton Images @1218A, as above (large format)"
+     DISPLAY_TYPE    (CDF_CHAR/19): "image>THUMBSIZE>166"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/27): "FUV/SIP Raw Pixel Prtn Cnts"
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z128_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z128"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/9): "SI_PIXELS"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SI_PIXELS_V (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Proton Image, Raw Cnts @ 1218A"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 8192
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (12 bits)"
+     CATDESC         (CDF_CHAR/114): "[DO NOT USE] FUV/SIP Proton Images @1218A (raw cnts, mapped, large format, linear scale) - use CDAWeb noise filter"
+     DISPLAY_TYPE    (CDF_CHAR/9): "fuv_image"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/27): "FUV/SIP Raw Pixel Prtn Cnts"
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z128_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z128"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/9): "SI_PIXELS"
+     COMPONENT_1     (CDF_CHAR/5): "ORB_X"
+     COMPONENT_2     (CDF_CHAR/5): "ORB_Y"
+     COMPONENT_3     (CDF_CHAR/5): "ORB_Z"
+     COMPONENT_4     (CDF_CHAR/4): "VFOV"
+     COMPONENT_5     (CDF_CHAR/4): "HFOV"
+     COMPONENT_6     (CDF_CHAR/8): "FOVSCALE"
+     COMPONENT_7     (CDF_CHAR/6): "SCSV_X"
+     COMPONENT_8     (CDF_CHAR/6): "SCSV_Y"
+     COMPONENT_9     (CDF_CHAR/6): "SCSV_Z"
+     COMPONENT_10    (CDF_CHAR/4): "SV_X"
+     COMPONENT_11    (CDF_CHAR/4): "SV_Y"
+     COMPONENT_12    (CDF_CHAR/4): "SV_Z"
+     COMPONENT_13    (CDF_CHAR/9): "SPINPHASE"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SI_PIXELS_M (No: 6) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Proton Image, Raw Cnts @ 1218A"
+     UNITS           (CDF_CHAR/14): "Raw Pixel Cnts"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 8192
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (12 bits)"
+     CATDESC         (CDF_CHAR/42): " ---> [DO NOT USE] As above (movie format)"
+     DISPLAY_TYPE    (CDF_CHAR/9): "fuv_movie"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/27): "FUV/SIP Raw Pixel Prtn Cnts"
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z128_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z128"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/9): "SI_PIXELS"
+     COMPONENT_1     (CDF_CHAR/5): "ORB_X"
+     COMPONENT_2     (CDF_CHAR/5): "ORB_Y"
+     COMPONENT_3     (CDF_CHAR/5): "ORB_Z"
+     COMPONENT_4     (CDF_CHAR/4): "VFOV"
+     COMPONENT_5     (CDF_CHAR/4): "HFOV"
+     COMPONENT_6     (CDF_CHAR/8): "FOVSCALE"
+     COMPONENT_7     (CDF_CHAR/6): "SCSV_X"
+     COMPONENT_8     (CDF_CHAR/6): "SCSV_Y"
+     COMPONENT_9     (CDF_CHAR/6): "SCSV_Z"
+     COMPONENT_10    (CDF_CHAR/4): "SV_X"
+     COMPONENT_11    (CDF_CHAR/4): "SV_Y"
+     COMPONENT_12    (CDF_CHAR/4): "SV_Z"
+     COMPONENT_13    (CDF_CHAR/9): "SPINPHASE"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SI_PIXELS_LOG (No: 7) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Proton Image, Log10(Raw Cnts) @ 1218A"
+     UNITS           (CDF_CHAR/21): "Log10(Raw Pixel Cnts)"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 4.0
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (12 bits)"
+     CATDESC         (CDF_CHAR/69): "FUV/SIP Proton Images @ 1218A, (no grid, small format, log10 scaling)"
+     DISPLAY_TYPE    (CDF_CHAR/18): "image>THUMBSIZE>50"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/24): "FUV/SIP Log10(Prtn Cnts)"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z128_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z128"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/13): "convert_log10"
+     COMPONENT_0     (CDF_CHAR/9): "SI_PIXELS"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SI_PIXELS_L_LOG (No: 8) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Proton Image, Log10(Raw Cnts) @ 1218A"
+     UNITS           (CDF_CHAR/21): "Log10(Raw Pixel Cnts)"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 4.0
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (12 bits)"
+     CATDESC         (CDF_CHAR/29): " ---> As above (large format)"
+     DISPLAY_TYPE    (CDF_CHAR/19): "image>THUMBSIZE>166"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/24): "FUV/SIP Log10(Prtn Cnts)"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z128_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z128"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/13): "convert_log10"
+     COMPONENT_0     (CDF_CHAR/9): "SI_PIXELS"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SI_PIXELS_LOG_M (No: 9) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Proton Image, Log10(Raw Cnts) @ 1218A"
+     UNITS           (CDF_CHAR/21): "Log10(Raw Pixel Cnts)"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 4.0
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (12 bits)"
+     CATDESC         (CDF_CHAR/29): " ---> As above (movie format)"
+     DISPLAY_TYPE    (CDF_CHAR/5): "movie"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/24): "FUV/SIP Log10(Prtn Cnts)"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z128_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z128"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/13): "convert_log10"
+     COMPONENT_0     (CDF_CHAR/9): "SI_PIXELS"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SI_PIXELS_V_LOG (No: 10) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Proton Image, Log10(Raw Cnts) @ 1218A"
+     UNITS           (CDF_CHAR/22): "Log10 (Raw Pixel Cnts)"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 8192
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (12 bits)"
+     CATDESC         (CDF_CHAR/90): "[DO NOT USE] FUV/SIP Proton Images @1218A (raw cnts, mapped, large format, log10 scaling) "
+     DISPLAY_TYPE    (CDF_CHAR/9): "fuv_image"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/27): "FUV/SIP Raw Pixel Prtn Cnts"
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z128_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z128"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/13): "convert_log10"
+     COMPONENT_0     (CDF_CHAR/9): "SI_PIXELS"
+     COMPONENT_1     (CDF_CHAR/5): "ORB_X"
+     COMPONENT_2     (CDF_CHAR/5): "ORB_Y"
+     COMPONENT_3     (CDF_CHAR/5): "ORB_Z"
+     COMPONENT_4     (CDF_CHAR/4): "VFOV"
+     COMPONENT_5     (CDF_CHAR/4): "HFOV"
+     COMPONENT_6     (CDF_CHAR/8): "FOVSCALE"
+     COMPONENT_7     (CDF_CHAR/6): "SCSV_X"
+     COMPONENT_8     (CDF_CHAR/6): "SCSV_Y"
+     COMPONENT_9     (CDF_CHAR/6): "SCSV_Z"
+     COMPONENT_10    (CDF_CHAR/4): "SV_X"
+     COMPONENT_11    (CDF_CHAR/4): "SV_Y"
+     COMPONENT_12    (CDF_CHAR/4): "SV_Z"
+     COMPONENT_13    (CDF_CHAR/9): "SPINPHASE"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SI_PIXELS_M_LOG (No: 11) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Proton Image, Log10(Raw Cnts) @ 1218A"
+     UNITS           (CDF_CHAR/22): "Log10 (Raw Pixel Cnts)"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 4.0
+     DESCRIP         (CDF_CHAR/26): "raw pixel values (12 bits)"
+     CATDESC         (CDF_CHAR/42): " ---> [DO NOT USE] As above (movie format)"
+     DISPLAY_TYPE    (CDF_CHAR/9): "fuv_movie"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/24): "FUV/SIP Log10(Prtn Cnts)"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "photon_flux"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/7): "Z128_D1"
+     DEPEND_2        (CDF_CHAR/4): "Z128"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCTION        (CDF_CHAR/13): "convert_log10"
+     COMPONENT_0     (CDF_CHAR/9): "SI_PIXELS"
+     COMPONENT_1     (CDF_CHAR/5): "ORB_X"
+     COMPONENT_2     (CDF_CHAR/5): "ORB_Y"
+     COMPONENT_3     (CDF_CHAR/5): "ORB_Z"
+     COMPONENT_4     (CDF_CHAR/4): "VFOV"
+     COMPONENT_5     (CDF_CHAR/4): "HFOV"
+     COMPONENT_6     (CDF_CHAR/8): "FOVSCALE"
+     COMPONENT_7     (CDF_CHAR/6): "SCSV_X"
+     COMPONENT_8     (CDF_CHAR/6): "SCSV_Y"
+     COMPONENT_9     (CDF_CHAR/6): "SCSV_Z"
+     COMPONENT_10    (CDF_CHAR/4): "SV_X"
+     COMPONENT_11    (CDF_CHAR/4): "SV_Y"
+     COMPONENT_12    (CDF_CHAR/4): "SV_Z"
+     COMPONENT_13    (CDF_CHAR/9): "SPINPHASE"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+EPOCH (No: 12) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "EPOCH     "
+     UNITS           (CDF_CHAR/9): "date/time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1999 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2010 00:00:00.000
+     DESCRIP         (CDF_CHAR/37): "UT Snapshot Time (center of interval)"
+     CATDESC         (CDF_CHAR/4): "Time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "  "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+
+SPIN (No: 13) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Spin_Number"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 65535
+     DESCRIP         (CDF_CHAR/25): "FUV-generated Spin Number"
+     CATDESC         (CDF_CHAR/33): "SIP spin number (time_equivalent)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/11): "Spin Number"
+     FORMAT          (CDF_CHAR/2): "I4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+DATA_QUAL (No: 14) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "SIP Quality parameter (1=Good, 2=Bad)"
+     UNITS           (CDF_CHAR/16): " (1=Good, 2=Bad)"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 8
+     DESCRIP         (CDF_CHAR/23): "1=Good Data, 2=Bad Data"
+     CATDESC         (CDF_CHAR/41): "FUV/SIP Quality parameter (1=Good, 2=Bad)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/11): "WIC quality"
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+RADIUS (No: 15) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Radius"
+     UNITS           (CDF_CHAR/11): "Earth radii"
+     VALIDMIN        (CDF_FLOAT/1): 1.0
+     VALIDMAX        (CDF_FLOAT/1): 9.0
+     DESCRIP         (CDF_CHAR/34): "Distance from COE at start of Spin"
+     CATDESC         (CDF_CHAR/25): "IMAGE Geocentric Distance"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "Geocentric Dist"
+     FORMAT          (CDF_CHAR/4): "F4.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/24): "position>radial_distance"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+HV (No: 16) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "HV_PHOS"
+     UNITS           (CDF_CHAR/5): "volts"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 4200.0
+     DESCRIP         (CDF_CHAR/10): "HV setting"
+     CATDESC         (CDF_CHAR/23): "SIP Phospher HV voltage"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "WIC Phosphor HV"
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+FOVSCALE (No: 17) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "FOVSCALE"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 4
+     DESCRIP         (CDF_CHAR/16): "FOV Scale Factor"
+     CATDESC         (CDF_CHAR/24): "expansion factor for FOV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/9): "FOV_scale"
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+SPINPHASE (No: 18) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "SPINPHASE"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     DESCRIP         (CDF_CHAR/17): "Spin Phase Angle "
+     CATDESC         (CDF_CHAR/16): "Spin phase angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "Spin Phase"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+SV_X (No: 19) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "GCI_X"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     DESCRIP         (CDF_CHAR/29): "GCI X coordinate of spin axis"
+     VAR_NOTES       (CDF_CHAR/48): "direction of true spin axis at WIC Snapshot Time"
+     CATDESC         (CDF_CHAR/81): "orientation direction cosine X (direction of true spin axis at SIP Snapshot Time)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "SV_X"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+SV_Y (No: 20) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "GCI_Y"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     DESCRIP         (CDF_CHAR/29): "GCI Y coordinate of spin axis"
+     VAR_NOTES       (CDF_CHAR/48): "direction of true spin axis at WIC Snapshot Time"
+     CATDESC         (CDF_CHAR/81): "orientation direction cosine Y (direction of true spin axis at SIP Snapshot Time)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "SV_Y"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+SV_Z (No: 21) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "GCI_Z"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     DESCRIP         (CDF_CHAR/29): "GCI Z coordinate of spin axis"
+     VAR_NOTES       (CDF_CHAR/48): "direction of true spin axis at WIC Snapshot Time"
+     CATDESC         (CDF_CHAR/28): "oriention direction cosine Z"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "SV_Z"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+ORB_X (No: 22) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "ORB_X"
+     UNITS           (CDF_CHAR/2): "Km"
+     VALIDMIN        (CDF_DOUBLE/1): -58000.0
+     VALIDMAX        (CDF_DOUBLE/1): 58000.0
+     DESCRIP         (CDF_CHAR/36): "GCI X coordinate of Orbiter Position"
+     VAR_NOTES       (CDF_CHAR/36): "Spacecraft Position at Snapshot Time"
+     CATDESC         (CDF_CHAR/25): "geocentric position GCI X"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "ORB_X"
+     FORMAT          (CDF_CHAR/4): "F5.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+ORB_Y (No: 23) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "ORB_Y"
+     UNITS           (CDF_CHAR/2): "Km"
+     VALIDMIN        (CDF_DOUBLE/1): -58000.0
+     VALIDMAX        (CDF_DOUBLE/1): 58000.0
+     DESCRIP         (CDF_CHAR/36): "GCI Y coordinate of Orbiter Position"
+     VAR_NOTES       (CDF_CHAR/36): "Spacecraft Position at Snapshot Time"
+     CATDESC         (CDF_CHAR/25): "geocentric position GCI Y"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "ORB_Y"
+     FORMAT          (CDF_CHAR/4): "F5.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+ORB_Z (No: 24) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "ORB_Z"
+     UNITS           (CDF_CHAR/2): "Km"
+     VALIDMIN        (CDF_DOUBLE/1): -58000.0
+     VALIDMAX        (CDF_DOUBLE/1): 58000.0
+     DESCRIP         (CDF_CHAR/36): "GCI Z coordinate of Orbiter Position"
+     VAR_NOTES       (CDF_CHAR/36): "Spacecraft Position at Snapshot Time"
+     CATDESC         (CDF_CHAR/25): "geocentric position GCI Z"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "ORB_Z"
+     FORMAT          (CDF_CHAR/4): "F5.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+HFOV (No: 25) (Recs: 1)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "HFOV"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     DESCRIP         (CDF_CHAR/24): "Horizontal Field of View"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/2): "  "
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+VFOV (No: 26) (Recs: 1)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "VFOV"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     DESCRIP         (CDF_CHAR/22): "Vertical Field of View"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/2): "  "
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+INST_AZIMUTH (No: 27) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "INST_AZIMUTH"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     DESCRIP         (CDF_CHAR/52): "Angular Offset between SI12 center and Spacecraft +X"
+     VAR_NOTES       (CDF_CHAR/49): "(Phi) flight software uses 315, analysis uses 45 "
+     CATDESC         (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/2): "  "
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+INST_CO_ELEVATION (No: 28) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "INST_CO_ELEVATION"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     DESCRIP         (CDF_CHAR/46): "Tilt of Instrument Vertical from Spacecraft +Z"
+     VAR_NOTES       (CDF_CHAR/8): "(Theta) "
+     CATDESC         (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/2): "  "
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+INST_ROLL (No: 29) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "INST_ROLL"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_DOUBLE/1): -180.0
+     VALIDMAX        (CDF_DOUBLE/1): 180.0
+     DESCRIP         (CDF_CHAR/37): "3rd Euler angle Instrument-Spacecraft"
+     VAR_NOTES       (CDF_CHAR/8): "(Omega) "
+     CATDESC         (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/2): "  "
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+SCSV_X (No: 30) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "SCSV_X"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     DESCRIP         (CDF_CHAR/46): "X-coordinate of Spin Axis in Spacecraft System"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/46): "X-coordinate of Spin Axis in Spacecraft System"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "SCSV_X"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+SCSV_Y (No: 31) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "SCSV_Y"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     DESCRIP         (CDF_CHAR/46): "Y-coordinate of Spin Axis in Spacecraft System"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/46): "Y-coordinate of Spin Axis in Spacecraft System"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "SCSV_Y"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+
+SCSV_Z (No: 32) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "SCSV_Z"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_DOUBLE/1): -1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     DESCRIP         (CDF_CHAR/46): "Z-coordinate of Spin Axis in Spacecraft System"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/46): "Z-coordinate of Spin Axis in Spacecraft System"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "SCSV_Z"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+

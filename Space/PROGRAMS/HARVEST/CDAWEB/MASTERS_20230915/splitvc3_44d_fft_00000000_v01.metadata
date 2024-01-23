@@ -1,0 +1,265 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/splitvc3_44d_fft_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     splitvc3_44d_fft_00000000_v01.cdf
+Version:      2.7.2
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2004 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     13
+NumAttrs:     37 (25 global, 12 variable)
+Compression:  None
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_UCHAR/74): 	"THEMIS>Time History of Events and Macroscale Interactions during Substorms"
+Source_name (1 entry):
+	0 (CDF_UCHAR/74): 	"THEMIS>Time History of Events and Macroscale Interactions during Substorms"
+Discipline (1 entry):
+	0 (CDF_UCHAR/22): 	"Magnetospheric Physics"
+Data_type (1 entry):
+	0 (CDF_UCHAR/13): 	"L0>Level Zero"
+Descriptor (1 entry):
+	0 (CDF_UCHAR/23): 	"Spectra, particle burst"
+Data_version (1 entry):
+	0 (CDF_UCHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_UCHAR/28): 	"J. Bonnell & V. Angelopoulos"
+PI_affiliation (1 entry):
+	0 (CDF_UCHAR/13): 	"U C, Berkeley"
+TEXT (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+Mission_group (1 entry):
+	0 (CDF_UCHAR/6): 	"THEMIS"
+Logical_source (1 entry):
+	0 (CDF_UCHAR/16): 	"splitvc3_44d_fft"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/29): 	"splitvc3_44d_fft_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_UCHAR/28): 	"44d: Spectra, particle burst"
+TIME_RESOLUTION (1 entry):
+	0 (CDF_UCHAR/1): 	" "
+RULES_OF_USE (0 entry):
+GENERATED_BY (1 entry):
+	0 (CDF_UCHAR/8): 	"Berkeley"
+GENERATION_DATE (0 entry):
+ACKNOWLEDGEMENT (1 entry):
+	0 (CDF_UCHAR/1): 	" "
+MODS (0 entry):
+ADID_ref (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/1): 	" "
+Link_text (1 entry):
+	0 (CDF_CHAR/2): 	"* "
+Link_title (1 entry):
+	0 (CDF_CHAR/36): 	"THEMIS Mission home page at Berkeley"
+HTTP_link (1 entry):
+	0 (CDF_CHAR/49): 	" http://sprg.ssl.berkeley.edu/themis/noFlash.html"
+
+Variable Attributes (12 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+FILLVAL
+FORMAT
+LABLAXIS
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 13 zVariables)
+===========================================================
+pkt_seq               CDF_UINT2/1	0:[]	T/  
+pkt_time_sec          CDF_UINT4/1	0:[]	T/  
+pkt_time_subsec       CDF_UINT2/1	0:[]	T/  
+pkt_config_bytes      CDF_UINT1/1	1:[4]	T/T
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+samp_time_sec         CDF_UINT4/1	0:[]	T/  
+samp_time_subsec      CDF_UINT2/1	0:[]	T/  
+fft1                  CDF_UINT1/1	1:[64]	T/T
+fft2                  CDF_UINT1/1	1:[64]	T/T
+fft3                  CDF_UINT1/1	1:[64]	T/T
+fft4                  CDF_UINT1/1	1:[64]	T/T
+spectra_num           CDF_INT2/1	1:[64]	F/T
+counts                CDF_INT2/1	1:[4]	F/T
+
+
+Variable (13 variables)
+=========================================
+
+pkt_seq (No: 0) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "pkt_seq"
+     CATDESC         (CDF_CHAR/7): "pkt_seq"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "pkt_seq"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+pkt_time_sec (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "pkt_time_sec"
+     CATDESC         (CDF_CHAR/12): "pkt_time_sec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "pkt_time_sec"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+pkt_time_subsec (No: 2) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "pkt_time_subsec"
+     CATDESC         (CDF_CHAR/15): "pkt_time_subsec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "pkt_time_subsec"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+pkt_config_bytes (No: 3) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "pkt_config_bytes"
+     CATDESC         (CDF_CHAR/16): "pkt_config_bytes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "counts"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "pkt_config_bytes"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Epoch (No: 4) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+samp_time_sec (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "base_time"
+     CATDESC         (CDF_CHAR/21): "Time since Jan.1 2001"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     UNITS           (CDF_CHAR/7): "seconds"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+samp_time_subsec (No: 6) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "sub_seconds"
+     CATDESC         (CDF_CHAR/11): "Sub Seconds"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     UNITS           (CDF_CHAR/15): "1/65536 seconds"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+fft1 (No: 7) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "FFT1"
+     CATDESC         (CDF_CHAR/4): "FFT1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "spectra_num"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/4): "FFT1"
+     UNITS           (CDF_CHAR/8): "FFT unit"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 95
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+fft2 (No: 8) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "FFT2"
+     CATDESC         (CDF_CHAR/4): "FFT2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "spectra_num"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/4): "FFT2"
+     UNITS           (CDF_CHAR/8): "FFT unit"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 96
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+fft3 (No: 9) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "FFT3"
+     CATDESC         (CDF_CHAR/4): "FFT3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "spectra_num"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/4): "FFT3"
+     UNITS           (CDF_CHAR/8): "FFT unit"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 174
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+fft4 (No: 10) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "FFT4"
+     CATDESC         (CDF_CHAR/4): "FFT4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "spectra_num"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/4): "FFT4"
+     UNITS           (CDF_CHAR/8): "FFT unit"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 174
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+spectra_num (No: 11) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "spectra_num"
+     CATDESC         (CDF_CHAR/14): "Spectra number"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "I2"
+     UNITS           (CDF_CHAR/6): "sp num"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 64
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+counts (No: 12) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "counts"
+     CATDESC         (CDF_CHAR/26): "index for pkt_config_bytes"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/6): "counts"
+     UNITS           (CDF_CHAR/5): "units"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 4
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+

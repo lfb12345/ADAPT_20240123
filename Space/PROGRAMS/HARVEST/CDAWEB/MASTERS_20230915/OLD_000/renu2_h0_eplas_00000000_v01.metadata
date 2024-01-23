@@ -1,0 +1,139 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/renu2_h0_eplas_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     renu2_h0_eplas_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     2
+NumAttrs:     48 (25 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_descriptor_yyyyMMdd"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"H0>High Time Resolution"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/31): 	"H0 - RENU2 EPLAS Electron Flux."
+Mission_group (1 entry):
+	0 (CDF_CHAR/16): 	"Sounding Rockets"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/27): 	"University of New Hampshire"
+Source_name (1 entry):
+	0 (CDF_CHAR/47): 	"RENU2>Rocket Experiment for Neutral Upwelling 2"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"renu2"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"Marc Lessard"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/11): 	"RENU2 EPLAS"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Descriptor (1 entry):
+	0 (CDF_CHAR/32): 	"EPLAS>Electron Plasma Instrument"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Acknowledgement (0 entry):
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/5): 	"RENU2"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/47): 	"spase://NASA/NumericalData/RENU2/EPLAS/PT0.042S"
+Generated_by (1 entry):
+	0 (CDF_CHAR/12): 	"Mark Chutter"
+Rules_of_use (0 entry):
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/37): 	"http://mirl.sr.unh.edu/projects_renu2"
+LINK_TEXT (0 entry):
+MODS (0 entry):
+Time_resolution (1 entry):
+	0 (CDF_CHAR/14): 	"42 millisecond"
+Logical_source (1 entry):
+	0 (CDF_CHAR/14): 	"renu2_h0_eplas"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/27): 	"renu2_h0_eplas_00000000_v01"
+
+Variable Attributes (23 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DICT_KEY
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+MONOTON
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+VAR_NOTES
+DISPLAY_TYPE
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+SCAL_PTR
+DEPEND_1
+TIME_BASE
+TIME_SCALE
+
+Variable Information (0 rVariable, 2 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+electron_flux         CDF_FLOAT/1	0:[]	T/  
+
+
+Variable (2 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "interval centered time"
+     DICT_KEY        (CDF_CHAR/11): "time>TT2000"
+     FIELDNAM        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2015-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2016-12-31T23:59:59.999999999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+
+electron_flux (No: 1) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "electron energy flux summed over sweep of energies"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/20): "electron energy flux"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "total electron flux"
+     UNITS           (CDF_CHAR/6): "mW/m^2"
+     VALIDMIN        (CDF_REAL4/1): -2.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+

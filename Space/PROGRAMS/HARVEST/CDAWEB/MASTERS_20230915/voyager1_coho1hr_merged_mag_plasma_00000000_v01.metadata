@@ -1,0 +1,726 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/voyager1_coho1hr_merged_mag_plasma_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     voyager1_coho1hr_merged_mag_plasma_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     35
+NumAttrs:     56 (27 global, 29 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/8): 	"VOYAGER1"
+Project (1 entry):
+	0 (CDF_CHAR/8): 	"VOYAGER1"
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+	1 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/19): 	"VOYAGER1> Voyager 1"
+Data_type (1 entry):
+	0 (CDF_CHAR/43): 	"COHO1HR>1 Hour Time Resolution from cohoweb"
+Descriptor (1 entry):
+	0 (CDF_CHAR/64): 	"MAG_PLASMA>Merged Trajectory, Magnetic Field, Plasma, and Fluxes"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generated_by (0 entry):
+Generation_date (0 entry):
+TEXT (31 entries):
+	0 (CDF_CHAR/86): 	"The  main science objectives for the VOYAGER interplanetary mission are as   follows: "
+	1 (CDF_CHAR/109): 	"- investigate the structure of the solar wind magnetic fields and plasma in the inner and outer heliosphere; "
+	2 (CDF_CHAR/161): 	"- conduct long term study of heliospheric evolution during different phases of the twenty-two year solar magnetic cycle and the eleven-year solar activity cycle;"
+	3 (CDF_CHAR/143): 	"- study the long term solar modulation and determine the elemental and isotopic abundances of galactic cosmic ray particles in the heliosphere;"
+	4 (CDF_CHAR/160): 	"- measure  radial gradients, spectra, and nuclear abundances of the anomalous component of cosmic rays  from  acceleration at the solar wind termination shock; "
+	5 (CDF_CHAR/131): 	"- investigate local particle acceleration in the interplanetary medium from solar flare shocks and corotating interaction regions; "
+	6 (CDF_CHAR/68): 	"- study propagation of solar energetic particles in the heliosphere."
+	7 (CDF_CHAR/148): 	"This directory contains hourly averages of parameters for the interplanetary magnetic field, solar wind plasma and spacecraft trajectory coordinates"
+	8 (CDF_CHAR/142): 	"VOYAGER-1 data have been reprocessed to ensure a uniformity of content and coordinate systems relative to data from other deep-space missions:"
+	9 (CDF_CHAR/102): 	" - All spacecraft trajectory data were transformed to a Heliographic Inertial (HGI) coordinate system."
+	10 (CDF_CHAR/114): 	"- calculation of the RTN Cartesian components of interplanetary magnetic field from the RTN spherical components: "
+	11 (CDF_CHAR/36): 	"         BR=|B|*cos(THETA)*cos(PHI) "
+	12 (CDF_CHAR/36): 	"         BT=|B|*cos(THETA)*sin(PHI) "
+	13 (CDF_CHAR/36): 	"         BN=|B|*sin(THETA)          "
+	14 (CDF_CHAR/68): 	"where THETA - spherical RTN latitude, PHI- spherical RTN longtitude "
+	15 (CDF_CHAR/99): 	"- calculation of RTN Spherical components of the solar wind velocity from RTN cartesian components:"
+	16 (CDF_CHAR/37): 	"         V = (Vr^2 + Vt^2 + Vn^2)^0.5"
+	17 (CDF_CHAR/25): 	"         THETA=asin(Vn/V)"
+	18 (CDF_CHAR/24): 	"         PHI=atan(Vt/Vr)"
+	19 (CDF_CHAR/67): 	"where THETA - spherical RTN latitude, PHI- spherical RTN longtitude"
+	20 (CDF_CHAR/69): 	"- calculation of given thermal speed Vth into temperature T (Kelvin):"
+	21 (CDF_CHAR/35): 	"         T=60.5*Vth^2 (Vth in km/s)"
+	22 (CDF_CHAR/138): 	"- merging of trajectory coordinates, magnetic field data, and plasma data files into a single annual file VY1_YR.DAT, where YR is the year"
+	23 (CDF_CHAR/322): 	"- Data gaps were filled with dummy numbers for the missing hours or entire days to make all files of equal length.  The character \'9\' is used to fill all fields for missing data according to their format, e.g. \' 9999.9\' for a field with the FORTRAN format F7.1. Note that format F7.1 below really means (1X,F6.1),etc.a"
+	24 (CDF_CHAR/54): 	"Notes on Voyager 1 and 2 Magnetometer Data After 1989."
+	25 (CDF_CHAR/1215): 	"  At the time of experiment proposal, it was expected that the required accuracy of the measurements would be 0.1 nT, determined by the combined noise of the sensors and the spacecraft field.  The spacecraft magnetic field at the outboard magnetic field sensor, referred to as the primary unit, was expected to be 0.2 nT and highly variable, consistent with current estimates. Hence, the dual magnetometer design (Ness et al., 1971; Behannon et al. 1977).  At distances > 40 AU, the heliospheric magnetic fields are generally much weaker than 0.4 nT; the average magnetic field strength near 40 AU and 85 AU is ..0.15 nT and ..0.05 nT, respectively. The use of roll calibrations lasting ..6 hours permits determination of the effective zero levels for the two independent magnetic axes that are perpendicular to the roll axis (which is nearly parallel to the radius vector to the Sun) at intervals of ..3 months. There is no roll calibration for the third magnetic axis. Comparison of the two derived magnetic vectors from the two magnetometers permits validation of the primary magnetometer data with an accuracy of 0.02 nT - 0.05 nT. further informaion look at https://omniweb.gsfc.nasa.gov/coho/html/cw_data.html"
+	26 (CDF_CHAR/718): 	"The Heliographic Inertial (HGI) coordinates are Sun-centered and inertially fixed with respect to an X-axis directed along the intersection line of the ecliptic and solar equatorial planes.  The solar equator plane is inclined at 7.25 degrees from the ecliptic.  This direction was towards ecliptic longitude of 74.36 degrees on 1 January 1900 at 1200 UT; because of precession of the celestial equator, this longitude increases by 1.4 degrees/century. The Z axis is directed perpendicular and northward from the solar equator, and the  Y-axis completes the right-handed set. This system differs from the usual  heliographic  coordinates  (e.g. Carrington longitudes) which are fixed in the frame of the rotating Sun. "
+	27 (CDF_CHAR/359): 	"The RTN system is fixed at a spacecraft (or the planet). The R axis is  directed radially away from the Sun, the T axis is the cross product of the solar rotation axis and the R axis, and the N axis is the cross product of R and T.  At zero Heliographic Latitude when the spacecraft is in the solar equatorial plane the N and solar rotation axes are parallel."
+	28 (CDF_CHAR/247): 	"Hour averages of the interplanetary solar wind data from, and hourly heliocentric coordinates of, Voyager1/2 and other interplanetary spacecraft may be also be accessed and plotted on-line through the COHOWeb service  http://cohoweb.gsfc.nasa.gov/"
+	29 (CDF_CHAR/413): 	"Acknowledgement: Use of these data in publications should be accompanied at minimum by acknowledgements of the National Space Science Data Center and the responsible Principal Investigator defined in the experiment documentation provided here.  Citation of NSSDC's Coordinated Heliospheric Observations (COHO) data base would also be appreciated, so that other potential users will be made aware of this service. "
+	30 (CDF_CHAR/119): 	"For questions about this data set, please contact: Dr. N. Papitashvili, natalia.e.papitashvili@nasa.gov, GSFC-Code 672 "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/47): 	"voyager1_coho1hr_merged_mag_plasma_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/34): 	"voyager1_coho1hr_merged_mag_plasma"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/71): 	"Merged hourly magnetic field, plasma, proton fluxes, and ephemeris data"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Norman F. Ness"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/25): 	"Bartol Research Institute"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/7): 	"Voyager"
+	1 (CDF_UCHAR/24): 	"!___Interplanetary Data "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/6): 	"1 hour"
+Web_site (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/244): 	" Please acknowledge the Principal Investigator, Norman F. Ness of the Bartol Research Institute, University of Delaware, and the NASA National Space Science Data Center (NSSDC) for usage of data from this site in publications and presentations."
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/12): 	"COHO dataset"
+	1 (CDF_CHAR/49): 	"Additional analysis tools for these data from the"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/13): 	"Documentation"
+	1 (CDF_CHAR/15): 	"COHOWeb service"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/52): 	"https://omniweb.gsfc.nasa.gov/coho/html/cw_data.html"
+	1 (CDF_CHAR/29): 	"https://omniweb.gsfc.nasa.gov"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/50): 	"spase://NASA/NumericalData/Voyager1/MAGandPLS/PT1H"
+
+Variable Attributes (29 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+LABL_PTR_2
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+LABLAXIS
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+SCAL_PTR
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+FUNCTION
+VIRTUAL
+COMPONENT_0
+
+Variable Information (0 rVariable, 35 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+heliocentricDistance  CDF_REAL4/1	0:[]	T/  
+heliographicLatitude  CDF_REAL4/1	0:[]	T/  
+heliographicLongitude CDF_REAL4/1	0:[]	T/  
+ABS_B                 CDF_REAL4/1	0:[]	T/  
+F                     CDF_REAL4/1	0:[]	T/  
+BR                    CDF_REAL4/1	0:[]	T/  
+br_uncertainty        CDF_FLOAT/1	0:[]	T/  
+BT                    CDF_REAL4/1	0:[]	T/  
+bt_uncertainty        CDF_FLOAT/1	0:[]	T/  
+BN                    CDF_REAL4/1	0:[]	T/  
+bn_uncertainty        CDF_FLOAT/1	0:[]	T/  
+V                     CDF_REAL4/1	0:[]	T/  
+elevAngle             CDF_REAL4/1	0:[]	T/  
+azimuthAngle          CDF_REAL4/1	0:[]	T/  
+protonDensity         CDF_REAL4/1	0:[]	T/  
+protonTemp            CDF_REAL4/1	0:[]	T/  
+protonFlux1_LECP      CDF_REAL4/1	0:[]	T/  
+protonFlux2_LECP      CDF_REAL4/1	0:[]	T/  
+protonFlux3_LECP      CDF_REAL4/1	0:[]	T/  
+protonFlux1_CRS       CDF_REAL4/1	0:[]	T/  
+protonFlux2_CRS       CDF_REAL4/1	0:[]	T/  
+protonFlux3_CRS       CDF_REAL4/1	0:[]	T/  
+protonFlux4_CRS       CDF_REAL4/1	0:[]	T/  
+protonFlux5_CRS       CDF_REAL4/1	0:[]	T/  
+protonFlux6_CRS       CDF_REAL4/1	0:[]	T/  
+protonFlux7_CRS       CDF_REAL4/1	0:[]	T/  
+protonFlux8_CRS       CDF_REAL4/1	0:[]	T/  
+protonFlux9_CRS       CDF_REAL4/1	0:[]	T/  
+protonFlux10_CRS      CDF_REAL4/1	0:[]	T/  
+protonFlux11_CRS      CDF_REAL4/1	0:[]	T/  
+protonFlux12_CRS      CDF_REAL4/1	0:[]	T/  
+protonFlux13_CRS      CDF_REAL4/1	0:[]	T/  
+protonFlux14_CRS      CDF_REAL4/1	0:[]	T/  
+protonFlux15_CRS      CDF_REAL4/1	0:[]	T/  
+
+
+Variable (35 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/27): "Time, beginning of interval"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1996 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1996 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     UNITS           (CDF_CHAR/2): "ms"
+     FORMAT          (CDF_CHAR/5): "E14.8"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+
+heliocentricDistance (No: 1) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Heliocentric Distance"
+     CATDESC         (CDF_CHAR/21): "Heliocentric Distance"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99999.0
+     UNITS           (CDF_CHAR/2): "AU"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/13): "Voyager1_Dist"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+heliographicLatitude (No: 2) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "HGI Latitude"
+     CATDESC         (CDF_CHAR/93): "HelioGraphic Inertial (HGI) latitude of the spacecraft position at the start of data interval"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/7): "HGI_Lat"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+heliographicLongitude (No: 3) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "HGI Longitude"
+     CATDESC         (CDF_CHAR/95): "HelioGraphic Inertial (HGI) longitude of the spacecraft position at the start of data interval "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/8): "HGI_Long"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+ABS_B (No: 4) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Field Magnitude Avg."
+     CATDESC         (CDF_CHAR/52): "B Field Magnitude (average of fine scale magnitudes)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "Field Magnitude Avg."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+F (No: 5) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Magnitude of Average Field"
+     CATDESC         (CDF_CHAR/52): "Magnitude of Average Field, sqrt(Bx^2+By^2+Bz^2), nT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/26): "Magnitude of Average Field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+BR (No: 6) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "BR (RTN)"
+     CATDESC         (CDF_CHAR/71): "BR in RTN (Radial-Tangential-Normal) coordinate system (w/ uncertainty)"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/8): "BR_(RTN)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "br_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "br_uncertainty"
+
+br_uncertainty (No: 7) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "br_uncertainty"
+     CATDESC         (CDF_CHAR/14): "BR_uncertainty"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f4.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/14): "BR_uncertainty"
+     FUNCTION        (CDF_CHAR/15): "error_bar_array"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/2): "BR"
+
+BT (No: 8) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "BT (RTN)"
+     CATDESC         (CDF_CHAR/44): "BT in RTN coordinate system (w/ uncertainty)"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/8): "BT_(RTN)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "bt_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "bt_uncertainty"
+
+bt_uncertainty (No: 9) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "bt_uncertainty"
+     CATDESC         (CDF_CHAR/14): "BT_uncertainty"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f4.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/14): "BT_uncertainty"
+     FUNCTION        (CDF_CHAR/15): "error_bar_array"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/2): "BT"
+
+BN (No: 10) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "BN (RTN)"
+     CATDESC         (CDF_CHAR/44): "BN in RTN coordinate system (w/ uncertainty)"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/8): "BN_(RTN)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "bn_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "bn_uncertainty"
+
+bn_uncertainty (No: 11) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "bn_uncertainty"
+     CATDESC         (CDF_CHAR/14): "BN_uncertainty"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f4.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/14): "BN_uncertainty"
+     FUNCTION        (CDF_CHAR/15): "error_bar_array"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/2): "BN"
+
+V (No: 12) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Bulk Flow Speed"
+     CATDESC         (CDF_CHAR/15): "Bulk Flow Speed"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1200.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/15): "Bulk Flow Speed"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+elevAngle (No: 13) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "elevation Angle "
+     CATDESC         (CDF_CHAR/52): "THETA - elevation angle of the velocity vector (RTN)"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "Deg"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/15): "elevation Angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+azimuthAngle (No: 14) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "azimuth Angle "
+     CATDESC         (CDF_CHAR/48): "PHI - azimuth angle of the velocity vector (RTN)"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "Deg"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/13): "azimuth Angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonDensity (No: 15) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Proton density"
+     CATDESC         (CDF_CHAR/14): "Proton density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/4): "n/cc"
+     FORMAT          (CDF_CHAR/4): "f9.5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/14): "SW_proton_dens"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonTemp (No: 16) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton temperature"
+     CATDESC         (CDF_CHAR/71): "Proton Temperature (calculated from thermal speed width T=60.5*Vth*Vth)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     UNITS           (CDF_CHAR/5): "deg K"
+     FORMAT          (CDF_CHAR/4): "f9.0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/18): "Radial_proton_temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux1_LECP (No: 17) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H 0.57-1.78 MeV, LECP"
+     CATDESC         (CDF_CHAR/46): "Proton Flux 0.57 - 1.78 energy bins, MeV, LECP"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999900.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/21): "H 0.57-1.78 MeV, LECP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux2_LECP (No: 18) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H 3.40-17.6 MeV, LECP"
+     CATDESC         (CDF_CHAR/46): "Proton Flux 3.40 - 17.6 energy bins, MeV, LECP"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999900.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/21): "H 3.40-17.6 MeV, LECP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux3_LECP (No: 19) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H 22.0-31.0 MeV, LECP"
+     CATDESC         (CDF_CHAR/46): "Proton Flux 22.0 - 31.0 energy bins, MeV, LECP"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999900.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/21): "H 22.0-31.0 MeV, LECP"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux1_CRS (No: 20) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "H 3.000-4.600 MeV, CRS"
+     CATDESC         (CDF_CHAR/54): "Proton Flux 3.000 - 4.600 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/22): "H 3.000-4.600 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux2_CRS (No: 21) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "H 4.600-6.200 MeV, CRS"
+     CATDESC         (CDF_CHAR/54): "Proton Flux 4.600 - 6.200 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/22): "H 4.600-6.200 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux3_CRS (No: 22) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "H 6.200-7.700 MeV, CRS"
+     CATDESC         (CDF_CHAR/54): "Proton Flux 6.200 - 7.700 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/22): "H 6.200-7.700 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux4_CRS (No: 23) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "H 7.700-12.800 MeV, CRS"
+     CATDESC         (CDF_CHAR/55): "Proton Flux 7.700 - 12.800 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/23): "H 7.700-12.800 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux5_CRS (No: 24) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "H 12.800-17.900 MeV, CRS"
+     CATDESC         (CDF_CHAR/56): "Proton Flux 12.800 - 17.900 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/24): "H 12.800-17.900 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux6_CRS (No: 25) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "H 17.900-30.000 MeV, CRS"
+     CATDESC         (CDF_CHAR/56): "Proton Flux 17.900 - 30.000 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/24): "H 17.900-30.000 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux7_CRS (No: 26) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "H 30.000-48.000 MeV, CRS"
+     CATDESC         (CDF_CHAR/54): "Proton Flux 30.000-48.000 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/24): "H 30.000-48.000 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux8_CRS (No: 27) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "H 48.000-56.000 MeV, CRS"
+     CATDESC         (CDF_CHAR/56): "Proton Flux 48.000 - 56.000 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/24): "H 48.000-56.000 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux9_CRS (No: 28) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "H 74.471-83.661 MeV, CRS"
+     CATDESC         (CDF_CHAR/56): "Proton Flux 74.471 - 83.661 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/24): "H 74.471-83.661 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux10_CRS (No: 29) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "H 132.834-154.911 MeV, CRS"
+     CATDESC         (CDF_CHAR/58): "Proton Flux 132.834 - 154.911 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/26): "H 132.834-154.911 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux11_CRS (No: 30) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "H 154.911-174.866 MeV, CRS"
+     CATDESC         (CDF_CHAR/58): "Proton Flux 154.911 - 174.866 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/26): "H 154.911-174.866 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux12_CRS (No: 31) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "H 174.866-187.713 MeV, CRS"
+     CATDESC         (CDF_CHAR/58): "Proton Flux 174.866 - 187.713 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/26): "H 174.866-187.713 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux13_CRS (No: 32) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "H 187.713-220.475 MeV, CRS"
+     CATDESC         (CDF_CHAR/58): "Proton Flux 187.713 - 220.475 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/26): "H 187.713-220.475 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux14_CRS (No: 33) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "H 220.475-270.050 MeV, CRS"
+     CATDESC         (CDF_CHAR/58): "Proton Flux 220.475 - 270.050 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/26): "H 220.475-270.050 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux15_CRS (No: 34) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "H 270.050-346.034 MeV, CRS"
+     CATDESC         (CDF_CHAR/58): "Proton Flux 270.050 - 346.034 energy bins, MeV, CRS (6-hr)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 999998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/28): "H 270.050 - 346.034 MeV, CRS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+

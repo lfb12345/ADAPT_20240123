@@ -1,0 +1,312 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/thg_l2_mag_hris_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     thg_l2_mag_hris_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     11
+NumAttrs:     58 (26 global, 32 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/6): 	"THEMIS"
+Source_name (1 entry):
+	0 (CDF_CHAR/40): 	"THG_L2>FALCON - Ground Based Observatory"
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+	1 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/3): 	"MAG"
+Descriptor (1 entry):
+	0 (CDF_CHAR/22): 	"HRIS>Hrisis, Minnesota"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"Peter Chi"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/18): 	"UCLA, USAF Academy"
+TEXT (1 entry):
+	0 (CDF_CHAR/30): 	"ASAFA Ground Based Observatory"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/47): 	"Ground-Based Magnetometers, Riometers, Sounders"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"THEMIS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/15): 	"thg_l2_mag_hris"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/28): 	"thg_l2_mag_hris_20130203_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/125): 	"Lower latitude chain (Lat 45.6, Long 267.0), Ground-based Vector Magnetic Field at Hrisis, Minnesota, 0.5 sec, Falcon network"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/4): 	"0.5s"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/28): 	"Open Data for Scientific Use"
+Generated_by (1 entry):
+	0 (CDF_CHAR/10): 	"THEMIS SOC"
+Generation_date (1 entry):
+	0 (CDF_CHAR/10): 	"2016-11-02"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/24): 	"NASA Contract NAS5-02099"
+MODS (1 entry):
+	0 (CDF_CHAR/15): 	"Rev- 2006-08-16"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/34): 	"Magnetic data from 2007 to present"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/17): 	"THEMIS GBO portal"
+	1 (CDF_CHAR/22): 	"FALCON Mag data portal"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/themis"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/67): 	"spase://NASA/NumericalData/THEMIS/Ground/Harris/Magnetometer/PT0.5S"
+
+Variable Attributes (32 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+DEPEND_TIME
+DEPEND_EPOCH0
+station_latitude
+station_longitude
+
+Variable Information (0 rVariable, 11 zVariables)
+===========================================================
+thg_mag_hris          CDF_REAL4/1	1:[3]	T/T
+thg_magh_hris         CDF_REAL4/1	1:[3]	T/T
+thg_magd_hris         CDF_REAL4/1	1:[3]	T/T
+thg_magz_hris         CDF_REAL4/1	1:[3]	T/T
+thg_mag_hris_unit     CDF_CHAR/2	1:[3]	F/T
+thg_mag_hris_labl     CDF_CHAR/18	1:[3]	F/T
+thg_mag_hris_compno   CDF_INT4/1	1:[3]	F/T
+thg_mag_hris_time     CDF_REAL8/1	0:[]	T/  
+thg_mag_hris_epoch    CDF_EPOCH/1	0:[]	T/  
+thg_mag_hris_epoch0   CDF_EPOCH/1	0:[]	F/  
+range_epoch           CDF_EPOCH/1	0:[]	T/  
+
+
+Variable (11 variables)
+=========================================
+
+thg_mag_hris (No: 0) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "Magnetic field B in HDZ vector components"
+     DEPEND_0        (CDF_CHAR/18): "thg_mag_hris_epoch"
+     DEPEND_1        (CDF_CHAR/19): "thg_mag_hris_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "B in HDZ Components"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABL_PTR_1      (CDF_CHAR/17): "thg_mag_hris_labl"
+     UNIT_PTR        (CDF_CHAR/17): "thg_mag_hris_unit"
+     VALIDMIN        (CDF_REAL4/3): -60000.0, -60000.0, -60000.0
+     VALIDMAX        (CDF_REAL4/3): 60000.0, 60000.0, 60000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_TIME     (CDF_CHAR/17): "thg_mag_hris_time"
+     DEPEND_EPOCH0   (CDF_CHAR/19): "thg_mag_hris_epoch0"
+     station_latitude (CDF_FLOAT/1): 45.59
+     station_longitude (CDF_FLOAT/1): 267.0
+
+thg_magh_hris (No: 1) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "---> H - Local magnetic North component of B"
+     DEPEND_0        (CDF_CHAR/18): "thg_mag_hris_epoch"
+     DEPEND_1        (CDF_CHAR/19): "thg_mag_hris_compno"
+     DISPLAY_TYPE    (CDF_CHAR/30): "time_series>y=thg_magh_hris(0)"
+     FIELDNAM        (CDF_CHAR/16): "H component of B"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/18): "Magnetic North - H"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -60000.0
+     VALIDMAX        (CDF_REAL4/1): 60000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/12): "thg_mag_hris"
+     DEPEND_TIME     (CDF_CHAR/17): "thg_mag_hris_time"
+     DEPEND_EPOCH0   (CDF_CHAR/19): "thg_mag_hris_epoch0"
+     station_latitude (CDF_FLOAT/1): 45.59
+     station_longitude (CDF_FLOAT/1): 267.0
+
+thg_magd_hris (No: 2) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "---> E - Local magnetic East component of B"
+     DEPEND_0        (CDF_CHAR/18): "thg_mag_hris_epoch"
+     DEPEND_1        (CDF_CHAR/19): "thg_mag_hris_compno"
+     DISPLAY_TYPE    (CDF_CHAR/30): "time_series>y=thg_magd_hris(1)"
+     FIELDNAM        (CDF_CHAR/16): "E component of B"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/17): "Magnetic East - E"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -60000.0
+     VALIDMAX        (CDF_REAL4/1): 60000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/12): "thg_mag_hris"
+     DEPEND_TIME     (CDF_CHAR/17): "thg_mag_hris_time"
+     DEPEND_EPOCH0   (CDF_CHAR/19): "thg_mag_hris_epoch0"
+     station_latitude (CDF_FLOAT/1): 45.59
+     station_longitude (CDF_FLOAT/1): 267.0
+
+thg_magz_hris (No: 3) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "---> Z - Local vertical down component of B"
+     DEPEND_0        (CDF_CHAR/18): "thg_mag_hris_epoch"
+     DEPEND_1        (CDF_CHAR/19): "thg_mag_hris_compno"
+     DISPLAY_TYPE    (CDF_CHAR/30): "time_series>y=thg_magz_hris(2)"
+     FIELDNAM        (CDF_CHAR/16): "Z component of B"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/17): "Vertical Down - Z"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -60000.0
+     VALIDMAX        (CDF_REAL4/1): 60000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/12): "thg_mag_hris"
+     DEPEND_TIME     (CDF_CHAR/17): "thg_mag_hris_time"
+     DEPEND_EPOCH0   (CDF_CHAR/19): "thg_mag_hris_epoch0"
+     station_latitude (CDF_FLOAT/1): 45.59
+     station_longitude (CDF_FLOAT/1): 267.0
+
+thg_mag_hris_unit (No: 4) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "thg_mag_hris_unit"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/17): "thg_mag_hris_unit"
+     FORMAT          (CDF_CHAR/2): "a2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thg_mag_hris_labl (No: 5) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "thg_mag_hris_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/17): "thg_mag_hris_labl"
+     FORMAT          (CDF_CHAR/3): "a18"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thg_mag_hris_compno (No: 6) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "HDZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/20): "HDZ Component Number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABL_PTR_1      (CDF_CHAR/17): "thg_mag_hris_labl"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thg_mag_hris_time (No: 7) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "thg_mag_hris_time,.UTC, in seconds since 01-Jan-1970 00:00:00"
+     FIELDNAM        (CDF_CHAR/17): "thg_mag_hris_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+thg_mag_hris_epoch (No: 8) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "thg_mag_hris_epoch"
+     FIELDNAM        (CDF_CHAR/18): "thg_mag_hris_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/19): "thg_mag_hris_epoch0"
+     COMPONENT_1     (CDF_CHAR/17): "thg_mag_hris_time"
+
+thg_mag_hris_epoch0 (No: 9) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "EPOCH0 of THEMIS TIME BASE"
+     FIELDNAM        (CDF_CHAR/19): "thg_mag_hris_epoch0"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     UNITS           (CDF_CHAR/4): "msec"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1900 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/29): "EPOCH of 01-Jan-1970 00:00:00"
+
+range_epoch (No: 10) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "range_epoch"
+     FIELDNAM        (CDF_CHAR/11): "range_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/4): "msec"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+

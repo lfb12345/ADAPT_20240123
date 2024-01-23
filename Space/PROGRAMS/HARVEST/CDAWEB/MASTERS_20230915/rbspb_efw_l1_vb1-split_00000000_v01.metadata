@@ -1,0 +1,168 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/rbspb_efw_l1_vb1-split_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     rbspb_efw_l1_vb1-split_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     5
+NumAttrs:     40 (23 global, 17 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+Logical_source (1 entry):
+	0 (CDF_CHAR/22): 	"rbspb_efw_l1_vb1-split"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"J. R. Wygant"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/28): 	"Open Data for Scientific Use"
+Generation_date (1 entry):
+	0 (CDF_CHAR/19): 	"2021:10:21T16:45:43"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+ADID_ref (0 entry):
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/42): 	"rbspb_efw_l1_vb1-split_20120906T000000_v03"
+Parent_00 (1 entry):
+	0 (CDF_CHAR/32): 	"efw_rbspb_0008_247_01.ptp [0:63]"
+Spice_kernels (1 entry):
+	0 (CDF_CHAR/54): 	"rbspa_sclk_0422.tsc, rbspb_sclk_0428.tsc, naif0010.tls"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/50): 	"http://rbsp.space.umn.edu http://athena.jhuapl.edu"
+Data_version (1 entry):
+	0 (CDF_CHAR/3): 	"v03"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"RBSP"
+Data_type (1 entry):
+	0 (CDF_CHAR/3): 	"vb1"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Source_name (1 entry):
+	0 (CDF_CHAR/34): 	"rbspb>Radiation Belt Storm Probe B"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/23): 	"University of Minnesota"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/3): 	"UTC"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/173): 	"This work was supported by Van Allen Probes (RBSP) EFW funding provided by JHU/APL Contract No. 922613 under NASA's Prime Contract No. NNN06AA01C; EFW PI, J. R. Wygant, UMN."
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+	1 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Generated_by (1 entry):
+	0 (CDF_CHAR/8): 	"RBSP SOC"
+Descriptor (1 entry):
+	0 (CDF_CHAR/10): 	"l1>L1 DATA"
+Project (1 entry):
+	0 (CDF_CHAR/32): 	"RBSP>Radiation Belt Storm Probes"
+
+Variable Attributes (17 attributes)
+=========================================
+MONOTON
+FIELDNAM
+VALIDMIN
+DICT_KEY
+VAR_TYPE
+SCALETYP
+FILLVAL
+UNITS
+CATDESC
+VALIDMAX
+FORMAT
+DEPEND_1
+LABL_PTR_1
+DEPEND_0
+UNIT_PTR
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 5 zVariables)
+===========================================================
+epoch                 CDF_EPOCH16/1	0:[]	T/  
+vb1                   CDF_INT2/1	1:[6]	T/T
+vb1_labl              CDF_CHAR/2	1:[6]	F/T
+vb1_unit              CDF_CHAR/3	1:[6]	F/T
+vb1_compno            CDF_INT2/1	1:[6]	F/T
+
+
+Variable (5 variables)
+=========================================
+
+epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FIELDNAM        (CDF_CHAR/9): "Time, UTC"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-2009 00:00:00.000.000.000.000
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     UNITS           (CDF_CHAR/16): "ps (pico-second)"
+     CATDESC         (CDF_CHAR/9): "Time, UTC"
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2100 00:00:00.000.000.000.000
+     VAR_NOTES       (CDF_CHAR/89): "Epoch tagged at the center of each interval, resolution can be from 1/16,384 to 1/512 sec"
+
+vb1 (No: 1) (Recs: 0) (Compression: GZIP.6)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "EFW Sensor Voltages, ADC Units"
+     VALIDMIN        (CDF_INT2/3): -32768, -32768, -32768
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/48): "EFW Sensor Voltages, V1 to V6 (+/-X, +/-Y, +/-Z)"
+     VALIDMAX        (CDF_INT2/3): 32767, 32767, 32767
+     FORMAT          (CDF_CHAR/2): "i8"
+     DEPEND_1        (CDF_CHAR/10): "vb1_compno"
+     LABL_PTR_1      (CDF_CHAR/8): "vb1_labl"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     UNIT_PTR        (CDF_CHAR/8): "vb1_unit"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+vb1_labl (No: 2) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "vb1_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/8): "vb1_labl"
+     FORMAT          (CDF_CHAR/2): "A2"
+
+vb1_unit (No: 3) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "vb1_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/8): "vb1_unit"
+     FORMAT          (CDF_CHAR/3): "a20"
+
+vb1_compno (No: 4) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Sensor coordinate number"
+     VALIDMIN        (CDF_INT2/3): 1, 1, 1
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_INT2/1): -128
+     CATDESC         (CDF_CHAR/16): "Component Number"
+     VALIDMAX        (CDF_INT2/3): 3, 3, 3
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABL_PTR_1      (CDF_CHAR/8): "vb1_labl"
+

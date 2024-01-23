@@ -1,0 +1,297 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sta_l1_impact_burst_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sta_l1_impact_burst_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     12
+NumAttrs:     49 (26 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/28): 	"STP>Solar Terrestrial Probes"
+Source_name (1 entry):
+	0 (CDF_CHAR/71): 	"STA>Solar Terrestrial Relations Observatory Ahead of the Sun-Earth Line"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/10): 	"L1>Level 1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/27): 	"IMPACT_BURST>Burst Criteria"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"J. Luhmann"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"UCB/SSL"
+TEXT (1 entry):
+	0 (CDF_CHAR/98): 	"The file contains burst criteria values from the IMPACT instrument on the STEREO Ahead spacecraft."
+Instrument_type (3 entries):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	1 (CDF_CHAR/12): 	"Housekeeping"
+	3 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"STEREO"
+Logical_source (1 entry):
+	0 (CDF_CHAR/28): 	"sta_l1_impact_burst-criteria"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/32): 	"sta_l1_impact_burst_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/35): 	"STEREO Ahead IMPACT Burst Criteria."
+Time_resolution (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/50): 	"Experiment and Data descriptions for STEREO/IMPACT"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/21): 	"STEREO/IMPACT PI Site"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/impact"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/56): 	"spase://NASA/NumericalData/STEREO-A/IMPACT/Burst/L1/PT2S"
+
+Variable Attributes (23 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 12 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+BurstTableID          CDF_UINT1/1	0:[]	T/  
+SWEAModeID            CDF_UINT1/1	0:[]	T/  
+STEModeID             CDF_UINT1/1	0:[]	T/  
+SWEARate              CDF_UINT1/1	0:[]	T/  
+STERate               CDF_UINT1/1	0:[]	T/  
+MAGDelB               CDF_UINT1/1	0:[]	T/  
+PLASTICDelV           CDF_UINT1/1	0:[]	T/  
+SWAVESNTDS            CDF_UINT1/1	0:[]	T/  
+SWAVESPlasma          CDF_UINT1/1	0:[]	T/  
+SWAVESHFR1            CDF_UINT1/1	0:[]	T/  
+SWAVESHFR2            CDF_UINT1/1	0:[]	T/  
+
+
+Variable (12 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Time since 0 AD"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/26): "Interval-centered time tag"
+
+BurstTableID (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "ID of the IMPACT Burst Table"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "Burst Table ID"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/14): "Burst Table ID"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SWEAModeID (No: 2) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "ID of the SWEA instrument's mode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "SWEA Mode ID"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/12): "SWEA Mode ID"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+STEModeID (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "ID of the STE instrument's mode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "STE Mode ID"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/11): "STE Mode ID"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SWEARate (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Scaled SWEA count rate used in burst criteria calculation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "SWEA Rate"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/16): "Scaled SWEA Rate"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+STERate (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Scaled STE LLD rate used in burst criteria calculation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "STE Rate"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/15): "Scaled STE Rate"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+MAGDelB (No: 6) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "Scaled MAG delta B value used in burst criteria calculation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "MAG Delta B"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/17): "Scaled MAG DeltaB"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+PLASTICDelV (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Scaled PLASTIC delta V value used in burst criteria calculation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "PLASTIC Delta V"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/21): "Scaled PLASTIC DeltaV"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SWAVESNTDS (No: 8) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "Scaled SWAVES NTDS value used in burst criteria calculation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "SWAVES NTDS"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/18): "Scaled SWAVES NTDS"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SWAVESPlasma (No: 9) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "Scaled SWAVES plasma power value used in burst criteria calculation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "SWAVES Plasma Power"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/26): "Scaled SWAVES Plasma Power"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SWAVESHFR1 (No: 10) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Scaled SWAVES HFR1 power value used in burst criteria calculation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "SWAVES HFR1"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/24): "Scaled SWAVES HFR1 Power"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SWAVESHFR2 (No: 11) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Scaled SWAVES HFR2 power value used in burst criteria calculation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "SWAVES HFR2"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/24): "Scaled SWAVES HFR2 Power"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

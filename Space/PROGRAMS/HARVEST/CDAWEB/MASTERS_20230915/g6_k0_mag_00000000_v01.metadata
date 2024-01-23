@@ -1,0 +1,428 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/g6_k0_mag_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     g6_k0_mag_00000000_v01.cdf
+Version:      3.5.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     16
+NumzVars:     0
+NumAttrs:     45 (21 global, 24 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (21 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/53): 	"Beta version NOAA/SEL GOES_6 CDF Format, Magnetometer"
+PROJECT (1 entry):
+	0 (CDF_CHAR/43): 	"ISTP>InternationalSolar-Terrestrial Physics"
+DISCIPLINE (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+SOURCE_NAME (1 entry):
+	0 (CDF_CHAR/58): 	"GOES_6>Geostationary Operational Environmental Satellite 6"
+DESCRIPTOR (1 entry):
+	0 (CDF_CHAR/16): 	"MAG>Magnetometer"
+DATA_TYPE (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+DATA_VERSION (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (10 entries):
+	0 (CDF_CHAR/105): 	"The NOAA GOES satellites include 2 sensors: an Energetic Particle Sensor (EPS), and a Magnetometer (MAG)."
+	1 (CDF_CHAR/88): 	"The satellites are geostationary. For older satellites, inclination may be up to 15 deg."
+	2 (CDF_CHAR/31): 	"Data sometimes contains errors."
+	3 (CDF_CHAR/68): 	"The EPS data are 5-min. averages, the MAG data are 1-min. averages. "
+	4 (CDF_CHAR/101): 	"B s/c has undeterm. errors in x,y B field for GSM and GSE is missing while corrections are developed."
+	5 (CDF_CHAR/136): 	"The NOAA Space Environment Lab (SEL), Space Environ. Services Center (SESC) uses this data in real time for forecasting and monitoring. "
+	6 (CDF_CHAR/95): 	"Reference: GOES Spacecraft OperationsManual, Volume I, May 1980, Hughes RefNo. D5150 SCG 00169R"
+	7 (CDF_CHAR/104): 	"GOES-8, with 3 electron sensors should launch in early 93: the IE variables will be defined post-launch."
+	8 (CDF_CHAR/121): 	"For additional info., contact Dave Bouwer, NOAA/SEL, Mail Code R/E/SE, 325 Broadway, Boulder, CO 80303 USA (303)497-3899."
+	9 (CDF_CHAR/49): 	"SELVAX::DBOUWER or dbouwer@selvax.sel.bldrdoc.gov"
+MODS (1 entry):
+	0 (CDF_CHAR/52): 	" Version 2.0: 1st operational version,-db, 15 Dec 92"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0096"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"G6_K0_MAG_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"G6_K0_MAG"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/34): 	"GOES-6 Magnetometer Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"R. Zwickl"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/8): 	"NOAA SEL"
+Mission_group (2 entries):
+	0 (CDF_CHAR/4): 	"GOES"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"sphe-00295"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/36): 	"GOES6_Mag_Key-Parameters-K0_1min_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/43): 	"spase://NOAA/NumericalData/GOES/6/MAG/PT60S"
+
+Variable Attributes (24 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+AVG_KEY
+FILLVAL
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+CATDESC
+SCALETYP
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+ALLOW_BIN
+
+Variable Information (16 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	1:[3]	T/F
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+B_GSE_c               CDF_REAL4/1	1:[3]	T/T
+B_GSM_c               CDF_REAL4/1	1:[3]	T/T
+B_lcl_c               CDF_REAL4/1	1:[3]	T/T
+SC_pos_se             CDF_REAL4/1	1:[3]	T/T
+SC_pos_sm             CDF_REAL4/1	1:[3]	T/T
+MGF_stat              CDF_INT2/1	1:[3]	T/F
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+B_flag                CDF_INT2/1	1:[3]	T/T
+cartesian_label       CDF_CHAR/1	1:[3]	F/T
+label_2               CDF_CHAR/2	1:[3]	F/T
+SC_flag               CDF_INT2/1	1:[3]	T/F
+MGF_rsrvd             CDF_INT2/1	1:[3]	T/F
+
+
+Variable (16 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Time, centered"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1974 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2000 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Time, centered"
+     VALIDMIN        (CDF_INT4/3): 1974, 1, 0
+     VALIDMAX        (CDF_INT4/3): 2010, 365, 8639900
+     SCALEMIN        (CDF_INT4/3): 1992, 214, 0
+     SCALEMAX        (CDF_INT4/3): 2000, 366, 8639900
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "label_time"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+B_GSE_c (No: 2) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Magnetic Field (GSE)"
+     VALIDMIN        (CDF_REAL4/3): -600.0, -600.0, -600.0
+     VALIDMAX        (CDF_REAL4/3): 600.0, 600.0, 600.0
+     SCALEMIN        (CDF_REAL4/3): -600.0, -600.0, -600.0
+     SCALEMAX        (CDF_REAL4/3): 600.0, 600.0, 600.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/15): "cartesian_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "cartesian_label"
+     CATDESC         (CDF_CHAR/40): "Magnetic Field, Cartesian GSE components"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/38): "This variable not available for GOES-6"
+
+B_GSM_c (No: 3) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Magnetic Field (GSM)"
+     VALIDMIN        (CDF_REAL4/3): -600.0, -600.0, -600.0
+     VALIDMAX        (CDF_REAL4/3): 600.0, 600.0, 600.0
+     SCALEMIN        (CDF_REAL4/3): -600.0, -600.0, -600.0
+     SCALEMAX        (CDF_REAL4/3): 600.0, 600.0, 600.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/15): "cartesian_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "cartesian_label"
+     CATDESC         (CDF_CHAR/40): "Magnetic Field, Cartesian GSM components"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/38): "This variable not available for GOES-6"
+
+B_lcl_c (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Magnetic Field (SEL)"
+     VALIDMIN        (CDF_REAL4/3): -600.0, -600.0, -600.0
+     VALIDMAX        (CDF_REAL4/3): 600.0, 600.0, 600.0
+     SCALEMIN        (CDF_REAL4/3): -600.0, -600.0, -600.0
+     SCALEMAX        (CDF_REAL4/3): 600.0, 600.0, 600.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/7): "label_2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "label_2"
+     CATDESC         (CDF_CHAR/44): "Magnetic Field, local spacecraft coordinates"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/57): "Spacecraft coordinates (PEN), P=north,  E=earth, N=normal"
+
+SC_pos_se (No: 5) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "s/c position GSE"
+     VALIDMIN        (CDF_REAL4/3): -50000.0, -50000.0, -50000.0
+     VALIDMAX        (CDF_REAL4/3): 50000.0, 50000.0, 50000.0
+     SCALEMIN        (CDF_REAL4/3): -50000.0, -50000.0, -50000.0
+     SCALEMAX        (CDF_REAL4/3): 50000.0, 50000.0, 50000.0
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "F7.0"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/15): "cartesian_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "cartesian_label"
+     CATDESC         (CDF_CHAR/39): "s/c position, Cartesian GSE coordinates"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/15): "orbit>coord=gse"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SC_pos_sm (No: 6) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "s/c position GSM"
+     VALIDMIN        (CDF_REAL4/3): -50000.0, -50000.0, -50000.0
+     VALIDMAX        (CDF_REAL4/3): 50000.0, 50000.0, 50000.0
+     SCALEMIN        (CDF_REAL4/3): -50000.0, -50000.0, -50000.0
+     SCALEMAX        (CDF_REAL4/3): 50000.0, 50000.0, 50000.0
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "F7.0"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/15): "cartesian_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "cartesian_label"
+     CATDESC         (CDF_CHAR/39): "s/c position, Cartesian GSM coordinates"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/15): "orbit>coord=gsm"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+MGF_stat (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "MGF Instrument Status"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 3
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 3
+     LABLAXIS        (CDF_CHAR/12): "Inst. Status"
+     UNITS           (CDF_CHAR/13): "Integer Table"
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_INT2/1): -32768
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/89): "MGF Instrument Status indicator: 0=OK, 1=minor problems, 2=major problems, 3=missing data"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 8) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/18): "Label for Time_PB5"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 9) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/18): "Units for Time_PB5"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 10) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/19): "Format for Time_PB5"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+B_flag (No: 11) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post-Gap Flag"
+     VALIDMIN        (CDF_INT2/3): 0, 0, 0
+     VALIDMAX        (CDF_INT2/3): 3, 3, 3
+     SCALEMIN        (CDF_INT2/3): 0, 0, 0
+     SCALEMAX        (CDF_INT2/3): 3, 3, 3
+     LABLAXIS        (CDF_CHAR/6): "B flag"
+     UNITS           (CDF_CHAR/13): "Integer Table"
+     FORMAT          (CDF_CHAR/2): "I1"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_INT2/1): -32768
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "label_2"
+     CATDESC         (CDF_CHAR/41): "Post-Gap Flag,ISTP Definitions (0=no gap)"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+cartesian_label (No: 12) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Label, Cartesian system"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/21): "ISTP>vector>cartesian"
+     CATDESC         (CDF_CHAR/40): "Label, Cartesian system                 "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_2 (No: 13) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/45): "Label, magnetic field H in local s/c coords. "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/88): "Label, magnetic field H in local spacecraft coordinates: Nominal: p-north,e-arth,n-ormal"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SC_flag (No: 14) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Satl. Loc. Post-gap flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 3
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 3
+     LABLAXIS        (CDF_CHAR/13): "S/C Pos. Flag"
+     UNITS           (CDF_CHAR/13): "Integer Table"
+     FORMAT          (CDF_CHAR/2): "I1"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_INT2/1): -32768
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/55): "Post-gap flag s/c position, ISTP Definitions (0=no gap)"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+MGF_rsrvd (No: 15) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "RESERVED-TBD"
+     VALIDMIN        (CDF_INT2/1): -32768
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): -32768
+     SCALEMAX        (CDF_INT2/1): 32767
+     LABLAXIS        (CDF_CHAR/3): "TBD"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_INT2/1): -32768
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/33): "Reserved variable-TBD application"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

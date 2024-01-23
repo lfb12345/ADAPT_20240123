@@ -1,0 +1,354 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/zs_c9_zsym_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     zs_c9_zsym_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     14
+NumAttrs:     47 (26 global, 21 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"Sym, Asym. Magnet. Dst; mid-lat; 1-min; CDAW-9    "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"Gnd.MidLat"
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"Magnetom. "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"1 m       "
+MODS (1 entry):
+	0 (CDF_CHAR/103): 	"converted to CDAWeb Feb 2000                                                                           "
+TEXT (3 entries):
+	0 (CDF_CHAR/30): 	"Derived from ZSYM in CDAW9 DB."
+	1 (CDF_CHAR/29): 	"Data for all CDAW9 events A-E"
+	2 (CDF_CHAR/45): 	"5 mid-latitude stations.  Provisional values."
+Descriptor (1 entry):
+	0 (CDF_CHAR/46): 	"ZSYM> Sym, Asym. Magnet. Dst; mid-lat; 1-min  "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>cdaw9"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/10): 	"ZS>Indices"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/7): 	"Iyemori"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/23): 	"Iyemore and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/47): 	"Ground-Based Magnetometers, Riometers, Sounders"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"zs_c9_zsym"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"zs_c9_zsym_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/50): 	"Zs  Sym, Asym. Magnet. Dst; mid-lat; 1-min   cdaw9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+LABL_PTR_1
+
+Variable Information (0 rVariable, 14 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+ZSYMHDST              CDF_REAL4/1	0:[]	T/  
+ZSYMDDST              CDF_REAL4/1	0:[]	T/  
+ZSYMHASY              CDF_REAL4/1	0:[]	T/  
+ZSYMDASY              CDF_REAL4/1	0:[]	T/  
+ZSYMHSTA              CDF_REAL4/1	1:[5]	T/T
+ZSYMDSTA              CDF_REAL4/1	1:[5]	T/T
+ZSYMGLON              CDF_REAL4/1	1:[5]	F/T
+ZSYMGLAT              CDF_REAL4/1	1:[5]	F/T
+ZSYMGMLN              CDF_REAL4/1	1:[5]	F/T
+ZSYMGMLT              CDF_REAL4/1	1:[5]	F/T
+ZSYMNAME              CDF_CHAR/8	1:[5]	F/T
+ZSYMCODE              CDF_CHAR/4	1:[5]	F/T
+ZSYMINDX              CDF_INT4/1	1:[5]	F/T
+
+
+Variable (14 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1986 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+ZSYMHDST (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H Dst               "
+     VALIDMIN        (CDF_REAL4/1): -10.9073
+     VALIDMAX        (CDF_REAL4/1): 7.75531
+     SCALEMIN        (CDF_REAL8/1): -100.0
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F8.1    "
+     CATDESC         (CDF_CHAR/40): "H Dst (symmetric)     Tf                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "H Dst"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+ZSYMDDST (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "D Dst               "
+     VALIDMIN        (CDF_REAL4/1): -10.9073
+     VALIDMAX        (CDF_REAL4/1): 7.75531
+     SCALEMIN        (CDF_REAL8/1): -100.0
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F8.1    "
+     CATDESC         (CDF_CHAR/40): "D Dst (symmetric)     Tf                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "D Dst"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+ZSYMHASY (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H Asymmetric        "
+     VALIDMIN        (CDF_REAL4/1): -10.9073
+     VALIDMAX        (CDF_REAL4/1): 7.75531
+     SCALEMIN        (CDF_REAL8/1): -100.0
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F8.1    "
+     CATDESC         (CDF_CHAR/40): "H Asymmetric Disturb. Tf                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "H Asym"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+ZSYMDASY (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "D Asymmetric        "
+     VALIDMIN        (CDF_REAL4/1): -10.9073
+     VALIDMAX        (CDF_REAL4/1): 7.75531
+     SCALEMIN        (CDF_REAL8/1): -100.0
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F8.1    "
+     CATDESC         (CDF_CHAR/40): "D Asymmetric Disturb. Tf                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "D Asym"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+ZSYMHSTA (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H asymmetric--sta   "
+     VALIDMIN        (CDF_REAL4/1): -10.9073
+     VALIDMAX        (CDF_REAL4/1): 7.75531
+     SCALEMIN        (CDF_REAL8/1): -100.0
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/29): "H Asym (nT)                  "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "H Asym., Selected Sta TT                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     LABL_PTR_1      (CDF_CHAR/8): "ZSYMNAME"
+
+ZSYMDSTA (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "D asymmetric--sta   "
+     VALIDMIN        (CDF_REAL4/1): -10.9073
+     VALIDMAX        (CDF_REAL4/1): 7.75531
+     SCALEMIN        (CDF_REAL8/1): -100.0
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/29): "D Asym (nT)                  "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "D Asym., Selected Sta TT                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     LABL_PTR_1      (CDF_CHAR/8): "ZSYMNAME"
+
+ZSYMGLON (No: 7) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geographic Longitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.85156
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 360.0
+     UNITS           (CDF_CHAR/20): "Deg                 "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "Geographic Longitude  -T                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "GeogLong"
+
+ZSYMGLAT (No: 8) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geographic Latitude "
+     VALIDMIN        (CDF_REAL4/1): -3.35156
+     VALIDMAX        (CDF_REAL4/1): 3.35156
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 90.0
+     UNITS           (CDF_CHAR/20): "Deg                 "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "Geographic Latitude   -T                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "GeogLat"
+
+ZSYMGMLN (No: 9) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geomagnet. Longitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.85156
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 360.0
+     UNITS           (CDF_CHAR/20): "Deg                 "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "Geomagnetic Longitude -T                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Goemag Long"
+
+ZSYMGMLT (No: 10) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geomagnetic Latitude"
+     VALIDMIN        (CDF_REAL4/1): -3.35156
+     VALIDMAX        (CDF_REAL4/1): 3.35156
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 90.0
+     UNITS           (CDF_CHAR/20): "Deg                 "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "Geomagnetic Latitude  -T                "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "Geomag Lat"
+
+ZSYMNAME (No: 11) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Station Name        "
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 0.0
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 0.0
+     UNITS           (CDF_CHAR/20): "--                  "
+     FORMAT          (CDF_CHAR/8): "A8      "
+     CATDESC         (CDF_CHAR/40): "Station Name          -T                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+ZSYMCODE (No: 12) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Station Code        "
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 0.0
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 0.0
+     UNITS           (CDF_CHAR/20): "--                  "
+     FORMAT          (CDF_CHAR/8): "A4      "
+     CATDESC         (CDF_CHAR/40): "Station Code          -T                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+ZSYMINDX (No: 13) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Station Index No.   "
+     VALIDMIN        (CDF_INT4/1): 1072693248
+     VALIDMAX        (CDF_INT4/1): 1075052544
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 5.0
+     UNITS           (CDF_CHAR/20): "--                  "
+     FORMAT          (CDF_CHAR/8): "I2      "
+     CATDESC         (CDF_CHAR/40): "Station Index No.     -T                "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/13): "Station Index"
+

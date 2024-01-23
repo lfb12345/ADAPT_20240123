@@ -1,0 +1,647 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sta_l2_magplasma_1m_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sta_l2_magplasma_1m_00000000_v01.cdf
+Version:      3.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     35
+NumAttrs:     54 (28 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (28 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/28): 	"STP>Solar Terrestrial Probes"
+Source_name (1 entry):
+	0 (CDF_CHAR/67): 	"STA>Solar Terrestrial Relations Observatory . of the Sun-Earth Line"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/64): 	"l2-magplasma-1m>Level-2 combined Mag and Plasma 1-minute average"
+Descriptor (1 entry):
+	0 (CDF_CHAR/72): 	"impact>In-situ Measurements of Particles and CME Transients_Magnetometer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"J. Luhmann"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"UCB/SSL"
+TEXT (1 entry):
+	0 (CDF_CHAR/165): 	"The file contains Level 2 magnetic field vectors from the IMPACT/MAG instrument and solar wind parameters from the PLASTIC instrument on the STEREO Ahead spacecraft."
+Instrument_type (2 entries):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+	1 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"STEREO"
+Logical_source (1 entry):
+	0 (CDF_CHAR/16): 	"STA_L2_MAGPLA_1m"
+Logical_L0source (1 entry):
+	0 (CDF_CHAR/10): 	"STA_L1_MAG"
+Logical_Plastic (1 entry):
+	0 (CDF_CHAR/24): 	"STA_L2_PLA_1DMax_1min_20"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/19): 	"STA_L2_MAGPLASMA_1m"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/73): 	"STEREO Ahead IMPACT/MAG Magnetic Field and PLASTIC Solar Wind Plasma Data"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/12): 	"00:01:00.000"
+Rules_of_use (0 entry):
+Generated_by (1 entry):
+	0 (CDF_CHAR/10): 	"magpla2cdf"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/281): 	"Started from March 1, 2020, the calculation formula for Variable Dynamic_Pressure has been changed from using Variable Vp_RTN (solar wind proton speed) to using Variable Vp (proton bulk speed) in response to that no sensible value of Vp_RTN has been available since the above date."
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/50): 	"Experiment and Data descriptions for STEREO/IMPACT"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/21): 	"STEREO/IMPACT PI Site"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/impact"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/53): 	"spase://NASA/NumericalData/STEREO-A/MAGPLASMA/L2/PT1M"
+
+Variable Attributes (26 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 35 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+FILTER_VALUE          CDF_REAL4/1	0:[]	F/  
+BFIELDRTN             CDF_FLOAT/1	1:[3]	T/T
+BTOTAL                CDF_FLOAT/1	0:[]	T/  
+CART_COMPNO           CDF_FLOAT/1	1:[3]	F/T
+B_RTN_LABL_1          CDF_CHAR/7	1:[3]	F/T
+HAE                   CDF_FLOAT/1	1:[3]	T/T
+HEE                   CDF_FLOAT/1	1:[3]	T/T
+HEEQ                  CDF_FLOAT/1	1:[3]	T/T
+CARR                  CDF_FLOAT/1	1:[3]	T/T
+RTN                   CDF_FLOAT/1	1:[3]	T/T
+R                     CDF_FLOAT/1	0:[]	T/  
+CART_LABL_1           CDF_CHAR/7	1:[4]	F/T
+CART_LABL_2           CDF_CHAR/7	1:[3]	F/T
+CART_LABL_3           CDF_CHAR/7	1:[1]	F/T
+Np                    CDF_FLOAT/1	0:[]	T/  
+Vp                    CDF_FLOAT/1	0:[]	T/  
+Tp                    CDF_FLOAT/1	0:[]	T/  
+Vth                   CDF_FLOAT/1	0:[]	T/  
+Vr_Over_V_RTN         CDF_FLOAT/1	0:[]	T/  
+Vt_Over_V_RTN         CDF_FLOAT/1	0:[]	T/  
+Vn_Over_V_RTN         CDF_FLOAT/1	0:[]	T/  
+Vp_RTN                CDF_FLOAT/1	0:[]	T/  
+Entropy               CDF_FLOAT/1	0:[]	T/  
+Beta                  CDF_FLOAT/1	0:[]	T/  
+Total_Pressure        CDF_FLOAT/1	0:[]	T/  
+Cone_Angle            CDF_FLOAT/1	0:[]	T/  
+Clock_Angle           CDF_FLOAT/1	0:[]	T/  
+Magnetic_Pressure     CDF_FLOAT/1	0:[]	T/  
+Dynamic_Pressure      CDF_FLOAT/1	0:[]	T/  
+HAE_LABL_1            CDF_CHAR/6	1:[3]	F/T
+HEE_LABL_1            CDF_CHAR/6	1:[3]	F/T
+HEEQ_LABL_1           CDF_CHAR/7	1:[3]	F/T
+CARR_LABL_1           CDF_CHAR/7	1:[3]	F/T
+RTN_LABL_1            CDF_CHAR/6	1:[3]	F/T
+
+
+Variable (35 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Time since 0 AD"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2006 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2156 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/26): "Interval-centered time tag"
+
+FILTER_VALUE (No: 1) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/186): "If the total B field is greater than this value, that data point is filtered out and the B field replaced with fill values. It is expected that such values are spurious and non-physical."
+     FIELDNAM        (CDF_CHAR/12): "FILTER_VALUE"
+     FILLVAL         (CDF_REAL4/1): 100.0
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+BFIELDRTN (No: 2) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "Magnetic field vector in RTN coordinates from the IMPACT/MAG instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "CART_COMPNO"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "B Field in RTN"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/12): "B_RTN_LABL_1"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -100000.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+BTOTAL (No: 3) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "Total magnetic field from the IMPACT/MAG instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "B Field"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/6): "Btotal"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -100000.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+CART_COMPNO (No: 4) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Comp No 1"
+     FIELDNAM        (CDF_CHAR/9): "Comp No 1"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "Comp No 1"
+     VALIDMIN        (CDF_FLOAT/3): 1.0, 1.0, 1.0
+     VALIDMAX        (CDF_FLOAT/3): 3.0, 3.0, 3.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+B_RTN_LABL_1 (No: 5) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "CART_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/11): "CART_LABL_1"
+     FORMAT          (CDF_CHAR/2): "a7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+HAE (No: 6) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "Distance from Sun; N distance above the Sun' rotational equator. T should be zero."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "CART_COMPNO"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "Position HAE"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/10): "HAE_LABL_1"
+     UNITS           (CDF_CHAR/2): "AU"
+     VALIDMIN        (CDF_FLOAT/1): -10.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+HEE (No: 7) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Heliocentric Earth Ecliptic."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "CART_COMPNO"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/3): "HEE"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/10): "HEE_LABL_1"
+     UNITS           (CDF_CHAR/2): "AU"
+     VALIDMIN        (CDF_FLOAT/1): -10.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+HEEQ (No: 8) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "Heliocentric Earth Equatorial."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "CART_COMPNO"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "HEEQ"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/11): "HEEQ_LABL_1"
+     UNITS           (CDF_CHAR/2): "AU"
+     VALIDMIN        (CDF_FLOAT/1): -10.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+CARR (No: 9) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Carrington. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "CART_COMPNO"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "CARR"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/11): "CARR_LABL_1"
+     UNITS           (CDF_CHAR/2): "AU"
+     VALIDMIN        (CDF_FLOAT/1): -10.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+RTN (No: 10) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Radial-Tangential-Normal"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "CART_COMPNO"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "POSITION IN RTN"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/10): "RTN_LABL_1"
+     UNITS           (CDF_CHAR/2): "AU"
+     VALIDMIN        (CDF_FLOAT/1): -10.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+R (No: 11) (Recs: 0)
+-
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "Distance of STEREO from the the Sun."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "POSITION IN RTN"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/5): "R_RTN"
+     LABL_PTR_1      (CDF_CHAR/1): "R"
+     UNITS           (CDF_CHAR/2): "AU"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+CART_LABL_1 (No: 12) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "CART_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/11): "CART_LABL_1"
+     FORMAT          (CDF_CHAR/2): "a7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+CART_LABL_2 (No: 13) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "CART_LABL_2"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/11): "CART_LABL_2"
+     FORMAT          (CDF_CHAR/2): "a7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+CART_LABL_3 (No: 14) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "CART_LABL_3"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/11): "CART_LABL_3"
+     FORMAT          (CDF_CHAR/2): "a7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Np (No: 15) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "Solar wind proton number density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "Density"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/2): "Np"
+     UNITS           (CDF_CHAR/5): "1/cm3"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vp (No: 16) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "Proton Bulk Speed from the PLASTIC instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "Bulk Speed"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/5): "Speed"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_FLOAT/1): 200.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Tp (No: 17) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "Proton Temperature from the PLASTIC instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "Temperature"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/11): "Temperature"
+     UNITS           (CDF_CHAR/5): "deg_K"
+     VALIDMIN        (CDF_FLOAT/1): 1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vth (No: 18) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Proton Thermal Speed from the PLASTIC instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "Thermal_Speed"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/13): "Thermal_Speed"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vr_Over_V_RTN (No: 19) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Direction cosine of radial velocity from the PLASTIC instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "Proton radial velocity"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/8): "Vr/V RTN"
+     UNITS           (CDF_CHAR/2): "Na"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vt_Over_V_RTN (No: 20) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Direction cosine tangential velocity from the PLASTIC instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "Vt/V RTN"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/8): "Vt/V RTN"
+     UNITS           (CDF_CHAR/2): "Na"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vn_Over_V_RTN (No: 21) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Direction cosine of normal velocity from the PLASTIC instrument."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "Vn/V RTN"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/8): "Vn/V RTN"
+     UNITS           (CDF_CHAR/2): "Na"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Vp_RTN (No: 22) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "Solar Wind Proton Speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "Vp_RTN"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/6): "Vp RTN"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Entropy (No: 23) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "Entropy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "Entropy"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/7): "Entropy"
+     UNITS           (CDF_CHAR/2): "Na"
+     VALIDMIN        (CDF_FLOAT/1): -10.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Beta (No: 24) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "Beta"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "Beta"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/4): "Beta"
+     UNITS           (CDF_CHAR/2): "Na"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Total_Pressure (No: 25) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "Total Pressure"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "Total Pressure"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/14): "Total Pressure"
+     UNITS           (CDF_CHAR/3): "pPa"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Cone_Angle (No: 26) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "Cone Angle"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "Cone Angle"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/10): "Cone Angle"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Clock_Angle (No: 27) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Clock Angle"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "Clock Angle"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/11): "Clock Angle"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_FLOAT/1): -360.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Magnetic_Pressure (No: 28) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "Magnetic Pressure"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "Magnetic Pressure"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/17): "Magnetic Pressure"
+     UNITS           (CDF_CHAR/3): "pPa"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Dynamic_Pressure (No: 29) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Dynamic Pressure"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "Dynamic Pressure"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+30
+     FORMAT          (CDF_CHAR/5): "E11.4"
+     LABLAXIS        (CDF_CHAR/17): "Dynanmic Pressure"
+     UNITS           (CDF_CHAR/3): "nPa"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+HAE_LABL_1 (No: 30) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "HAE_LABL_1"
+     FIELDNAM        (CDF_CHAR/10): "HAE_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/10): "HAE_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+HEE_LABL_1 (No: 31) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "HEE_LABL_1"
+     FIELDNAM        (CDF_CHAR/10): "HEE_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/10): "HEE_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+HEEQ_LABL_1 (No: 32) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "HEEQ_LABL_1"
+     FIELDNAM        (CDF_CHAR/11): "HEEQ_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/11): "HEEQ_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+CARR_LABL_1 (No: 33) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "CARR_LABL_1"
+     FIELDNAM        (CDF_CHAR/11): "CARR_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/11): "CARR_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+RTN_LABL_1 (No: 34) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "RTN_LABL_1"
+     FIELDNAM        (CDF_CHAR/10): "RTN_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/10): "RTN_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

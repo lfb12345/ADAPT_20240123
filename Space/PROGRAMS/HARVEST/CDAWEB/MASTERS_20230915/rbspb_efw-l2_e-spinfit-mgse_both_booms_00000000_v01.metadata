@@ -1,0 +1,859 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/rbspb_efw-l2_e-spinfit-mgse_both_booms_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     rbspb_efw-l2_e-spinfit-mgse_both_booms_00000000_v01.cdf
+Version:      3.6.1
+
+Common Data Format (CDF)
+(C) Copyright 1990-2015 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     51
+NumAttrs:     55 (25 global, 30 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"rbsp"
+Source_name (1 entry):
+	0 (CDF_CHAR/31): 	"RBSPB>Van Allen Probes (RBSP) B"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Descriptor (1 entry):
+	0 (CDF_CHAR/34): 	"EFW-L2>Electric Field and Waves L2"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"J. R. Wygant"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/23): 	"University of Minnesota"
+TEXT (7 entries):
+	0 (CDF_CHAR/327): 	"CDAWeb interface derived data on Fri Jun 14 15:33:16 EDT 2013. Contacts:  Tami.J.Kovalick@nasa.gov, Rita.C.Johnson@nasa.gov. Spinfit DC electric field estimates in the M-GSE coordinate system - see the EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for a description of the spin fit algorithm and the M-GSE coordinate system."
+	1 (CDF_CHAR/297): 	"One 2D vector estimate of the E-field is computed at a cadence of once per spin period (typ. 10.7 to 11.1 s) using the survey E-field data product - the potential difference between EFW sensors V1 and V2 (E12) or V3 and V4 (E34) sampled at a nominal rate of 32 samp/s with a resolution of 16 bits."
+	2 (CDF_CHAR/268): 	"The X-component of the E-field estimate, corresponding to the axial component in the spacecraft coordinate system, is set to zero in this data product.  See the EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for a discussion of this convention for this data product."
+	3 (CDF_CHAR/378): 	"The VxB electric field in the spacecraft frame due to orbital motion of the spacecraft around the Earth as computed from the spacecraft orbital velocity and measured B-field in the spacraft frame has been subtracted from the measured electric field, and so the data product is in the quasi-inertial frame equivalent to GSE (i.e. it is NOT in the corotation frame of the Earth!)."
+	4 (CDF_CHAR/289): 	"Each spin fit is time-tagged with the time corresponding to the middle of the spin of data that went into the spin fit algorithm; in other words, if a given spin covers the interval [t1, t2), then the spin fit E-field estimate associated with that spin is given the time tag 0.5*(t1 + t2)."
+	5 (CDF_CHAR/212): 	"The root mean square residual between the data included in the fit and the resulting best-fit model, sigma, and the final number of points included in the spin fit, npts, are also provided at spin-period cadence."
+	6 (CDF_CHAR/80): 	"The nominal dynamic range of the E-field estimate is +/- 1 V/m in any component."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/23): 	"Van Allen Probes (RBSP)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/28): 	"rbsp-b_e-spinfit-mgse_efw-l2"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/70): 	"DERIVED FROM: Spinfit DC Electric Field estimates in M-GSE coordinates"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/3): 	"UTC"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/321): 	"Open Data for Scientific Use; please see EFW "Rules of the Road" (http://rbsp.space.umn.edu/data_policy.html) for details of the Van Allen Probes Mission and EFW Instrument "Rules of the Road", and the EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for details of and caveats on instrument performance and data quality."
+Generated_by (1 entry):
+	0 (CDF_CHAR/12): 	"RBSP-EFW SOC"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/163): 	"This work was supported by Van Allen Probes (RBSP) EFW funding provided by JHU/APL Contract No. TBD under NASA's Prime Contract No. TBD; EFW PI, J. R. Wygant, UMN."
+MODS (1 entry):
+	0 (CDF_CHAR/22): 	"v01:  initial version."
+ADID_ref (1 entry):
+	0 (CDF_CHAR/3): 	"n/a"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Data_type (1 entry):
+	0 (CDF_CHAR/46): 	"e-spinfit-mgse>Spinfit DC Efield in MGSE Coord"
+Generation_date (1 entry):
+	0 (CDF_CHAR/108): 	"Fiducial UTC YYYY:MM:DDTHH:MM:SS (NOTE:  to be filled in by the L2 generation process prior to final write)."
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/32): 	"EFW home page at Minnesota with "
+	1 (CDF_CHAR/16): 	"Van Allen Probes"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/42): 	"Daily Summary Plots and additional L2 data"
+	1 (CDF_CHAR/68): 	"Science Gateway (including Mission Rules of the Road for Data Usage)"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/25): 	"http://rbsp.space.umn.edu"
+	1 (CDF_CHAR/27): 	"http://rbspgway.jhuapl.edu/"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/55): 	"rbsp-b_efw-l2_e-spinfit-mgse_both_booms_l2_00000000_v01"
+
+Variable Attributes (30 attributes)
+=========================================
+CATDESC
+FIELDNAM
+VALIDMIN
+VALIDMAX
+FILLVAL
+UNITS
+VAR_TYPE
+DICT_KEY
+SCALETYP
+MONOTON
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+FORMAT
+LABL_PTR_1
+UNIT_PTR
+LABLAXIS
+VAR_NOTES
+FORM_PTR
+SCAL_PTR
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+DEPEND_2
+DEPEND_3
+
+Variable Information (0 rVariable, 51 zVariables)
+===========================================================
+epoch                 CDF_EPOCH16/1	0:[]	T/  
+epoch_e               CDF_EPOCH16/1	0:[]	T/  
+epoch_v               CDF_EPOCH16/1	0:[]	T/  
+epoch_hsk             CDF_EPOCH16/1	0:[]	T/  
+efield_spinfit_vxb_edotb_mgse_e12 CDF_REAL4/1	1:[3]	T/T
+efield_spinfit_vxb_edotb_mgse_e34 CDF_REAL4/1	1:[3]	T/T
+density_v12           CDF_REAL4/1	0:[]	T/  
+density_v34           CDF_REAL4/1	0:[]	T/  
+sfit_compno           CDF_INT4/1	1:[3]	F/T
+VxB_mgse              CDF_REAL4/1	1:[3]	T/T
+efield_coro_mgse      CDF_REAL4/1	1:[3]	T/T
+orbit_num             CDF_REAL4/1	0:[]	T/  
+vel_gse               CDF_REAL4/1	1:[3]	T/T
+pos_gse               CDF_REAL4/1	1:[3]	T/T
+angle_Ey_Ez_Bo        CDF_REAL4/1	1:[2]	T/T
+mlt                   CDF_REAL4/1	0:[]	T/  
+mlat                  CDF_REAL4/1	0:[]	T/  
+lshell                CDF_REAL4/1	0:[]	T/  
+spinaxis_gse          CDF_REAL4/1	1:[3]	T/T
+flags_all             CDF_INT2/1	1:[20]	T/T
+flags_charging_bias_eclipse CDF_REAL4/1	1:[3]	T/T
+bias_current          CDF_REAL4/1	1:[6]	T/T
+epoch_qual            CDF_EPOCH16/1	0:[]	T/  
+efw_qual_compno       CDF_INT2/1	1:[20]	F/T
+vsvy_maxval           CDF_REAL4/1	0:[]	F/  
+e_maxval              CDF_REAL4/1	0:[]	F/  
+epara_maxval          CDF_REAL4/1	0:[]	F/  
+EFW_QUAL_GOOD         CDF_INT2/1	0:[]	F/  
+EFW_QUAL_UNK          CDF_INT2/1	0:[]	F/  
+EFW_QUAL_NR           CDF_INT2/1	0:[]	F/  
+efw_qual_labl         CDF_CHAR/19	1:[20]	F/T
+metavar1              CDF_CHAR/4	1:[3]	F/T
+vsvy_vavg             CDF_REAL4/1	1:[3]	T/T
+metavar3              CDF_CHAR/9	1:[3]	F/T
+metavar0              CDF_CHAR/11	1:[3]	F/T
+metavar2              CDF_CHAR/11	1:[3]	F/T
+Vsvy_LABL_1           CDF_CHAR/27	1:[6]	F/T
+metavar4              CDF_CHAR/20	1:[3]	F/T
+metavar5              CDF_CHAR/20	1:[3]	F/T
+bfield_labl           CDF_CHAR/20	1:[3]	F/T
+bfield_minus_model_mgse_LABL_1 CDF_CHAR/38	1:[3]	F/T
+pos_gse_LABL_1        CDF_CHAR/22	1:[3]	F/T
+vel_gse_LABL_1        CDF_CHAR/22	1:[3]	F/T
+angle_Ey_Ez_Bo_LABL_1 CDF_CHAR/29	1:[2]	F/T
+bias_current_LABL_1   CDF_CHAR/27	1:[6]	F/T
+vsvy_vavg_LABL_1      CDF_CHAR/24	1:[3]	F/T
+vsvy_vavg_UNIT        CDF_CHAR/22	1:[3]	F/T
+metavar_vcoro         CDF_CHAR/11	1:[3]	F/T
+vel_coro_mgse_UNIT    CDF_CHAR/26	1:[3]	F/T
+efield_mgse_LABL_1    CDF_CHAR/26	1:[3]	F/T
+flag_labl             CDF_CHAR/13	1:[3]	F/T
+
+
+Variable (51 variables)
+=========================================
+
+epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Time, UTC"
+     FIELDNAM        (CDF_CHAR/9): "Time, UTC"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-2009 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2100 00:00:00.000.000.000.000
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     UNITS           (CDF_CHAR/3): "UTC"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+epoch_e (No: 1) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Time, UTC"
+     FIELDNAM        (CDF_CHAR/9): "Time, UTC"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-2009 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2100 00:00:00.000.000.000.000
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     UNITS           (CDF_CHAR/3): "UTC"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_NOTES       (CDF_CHAR/19): "32 S/s epoch values"
+
+epoch_v (No: 2) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Time, UTC"
+     FIELDNAM        (CDF_CHAR/9): "Time, UTC"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-2009 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2100 00:00:00.000.000.000.000
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     UNITS           (CDF_CHAR/3): "UTC"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_NOTES       (CDF_CHAR/19): "16 S/s epoch values"
+
+epoch_hsk (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Configuration (HSK) timetags, UTC"
+     FIELDNAM        (CDF_CHAR/33): "Configuration (HSK) timetags, UTC"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-2009 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2100 00:00:00.000.000.000.000
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     UNITS           (CDF_CHAR/4): "msec"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     LABLAXIS        (CDF_CHAR/9): "hdr_epoch"
+     VAR_NOTES       (CDF_CHAR/59): "Configuration timetags. Used for BEB and DFB config values."
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+efield_spinfit_vxb_edotb_mgse_e12 (No: 4) (Recs: 0)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "Einertial spinfit"
+     FIELDNAM        (CDF_CHAR/9): "Einertial"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/11): "sfit_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar0"
+     UNIT_PTR        (CDF_CHAR/8): "metavar1"
+     LABLAXIS        (CDF_CHAR/11): "E - Vsc x B"
+     VAR_NOTES       (CDF_CHAR/161): "Spin-fit electric field in the MGSE coordinate system (Vsc x B subtracted) derived from the EFW e12 (V1-V2) data product. Spin axis component derived from E*B=0."
+
+efield_spinfit_vxb_edotb_mgse_e34 (No: 5) (Recs: 0)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "Einertial spinfit"
+     FIELDNAM        (CDF_CHAR/9): "Einertial"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/11): "sfit_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar0"
+     UNIT_PTR        (CDF_CHAR/8): "metavar1"
+     LABLAXIS        (CDF_CHAR/11): "E - Vsc x B"
+     VAR_NOTES       (CDF_CHAR/161): "Spin-fit electric field in the MGSE coordinate system (Vsc x B subtracted) derived from the EFW e34 (V3-V4) data product. Spin axis component derived from E*B=0."
+
+density_v12 (No: 6) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "density"
+     FIELDNAM        (CDF_CHAR/7): "density"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "density"
+     VAR_NOTES       (CDF_CHAR/408): "Density estimation from sc potential, determined from the form density = A1*exp(b*x)+A2*exp(c*x), where x=(V1 + V2)/2, where the constants are found by comparison to upper hybrid line from EMFISIS. The fit is updated approximately monthly. For a more accurate density (or verification) for a specific time period contact the EFW team. Values below 10cm-3 and above 3000 cm-3 are untrustworthy and are removed"
+
+density_v34 (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "density"
+     FIELDNAM        (CDF_CHAR/7): "density"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/4): "cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "density"
+     VAR_NOTES       (CDF_CHAR/408): "Density estimation from sc potential, determined from the form density = A1*exp(b*x)+A2*exp(c*x), where x=(V3 + V4)/2, where the constants are found by comparison to upper hybrid line from EMFISIS. The fit is updated approximately monthly. For a more accurate density (or verification) for a specific time period contact the EFW team. Values below 10cm-3 and above 3000 cm-3 are untrustworthy and are removed"
+
+sfit_compno (No: 8) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Spin-fit E-field component number"
+     FIELDNAM        (CDF_CHAR/11): "sfit_compno"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/9): "Comp No 1"
+     VAR_NOTES       (CDF_CHAR/33): "Spin-fit E-field component number"
+
+VxB_mgse (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "Vsc x B"
+     FIELDNAM        (CDF_CHAR/7): "Vsc x B"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/11): "sfit_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar3"
+     UNIT_PTR        (CDF_CHAR/8): "metavar1"
+     LABLAXIS        (CDF_CHAR/7): "Vsc x B"
+     VAR_NOTES       (CDF_CHAR/103): "Electric field due to VxB, where V is spacecraft velocity and B is the measured ambient magnetic field."
+
+efield_coro_mgse (No: 10) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Corotation Efield (MGSE)		"
+     FIELDNAM        (CDF_CHAR/5): "Ecoro"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/11): "sfit_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar2"
+     UNIT_PTR        (CDF_CHAR/8): "metavar1"
+     LABLAXIS        (CDF_CHAR/5): "Ecoro"
+     VAR_NOTES       (CDF_CHAR/161): "Corotation Efield calculated from Omega x R x B in MGSE coord. Omega is the Earth's spin axis vector and R is the vector from the Earth's center to the satellite"
+
+orbit_num (No: 11) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "orbit_num"
+     FIELDNAM        (CDF_CHAR/9): "orbit_num"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/1): "#"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/1): "#"
+     VAR_NOTES       (CDF_CHAR/12): "orbit number"
+
+vel_gse (No: 12) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "vel_gse"
+     FIELDNAM        (CDF_CHAR/7): "vel_gse"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+30, -1.0e+30, -1.0e+30
+     VALIDMAX        (CDF_REAL4/3): 1.0e+30, 1.0e+30, 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/14): "vel_gse_LABL_1"
+     LABLAXIS        (CDF_CHAR/7): "pos_gse"
+
+pos_gse (No: 13) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "pos_gse"
+     FIELDNAM        (CDF_CHAR/7): "pos_gse"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+30, -1.0e+30, -1.0e+30
+     VALIDMAX        (CDF_REAL4/3): 1.0e+30, 1.0e+30, 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/14): "pos_gse_LABL_1"
+     LABLAXIS        (CDF_CHAR/7): "pos_gse"
+
+angle_Ey_Ez_Bo (No: 14) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "angle_Ey_Ez_Bo"
+     FIELDNAM        (CDF_CHAR/14): "angle_Ey_Ez_Bo"
+     VALIDMIN        (CDF_REAL4/2): -1.0e+30, -1.0e+30
+     VALIDMAX        (CDF_REAL4/2): 1.0e+30, 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/21): "angle_Ey_Ez_Bo_LABL_1"
+     LABLAXIS        (CDF_CHAR/14): "angle_Ey_Ez_Bo"
+     VAR_NOTES       (CDF_CHAR/135): "Angle b/t the Ey(Ez) MGSE spinplane directions and the background magnetic field. Used to test when the E*B=0 assumption is appropriate"
+
+mlt (No: 15) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/3): "mlt"
+     FIELDNAM        (CDF_CHAR/3): "mlt"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/3): "mlt"
+
+mlat (No: 16) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "mlat"
+     FIELDNAM        (CDF_CHAR/4): "mlat"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/4): "mlat"
+
+lshell (No: 17) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/6): "lshell"
+     FIELDNAM        (CDF_CHAR/6): "lshell"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "lshell"
+
+spinaxis_gse (No: 18) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "L_vector"
+     FIELDNAM        (CDF_CHAR/8): "L_vector"
+     VALIDMIN        (CDF_REAL4/3): -1.0, -1.0, -1.0
+     VALIDMAX        (CDF_REAL4/3): 1.0, 1.0, 1.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar5"
+     LABLAXIS        (CDF_CHAR/8): "L_vector"
+
+flags_all (No: 19) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/183): "An array that indicates a global estimate of EFW data quality, as well as a breakdown of observatory and instrument-level data quality issues that impact the global quality estimate.."
+     FIELDNAM        (CDF_CHAR/22): "EFW Data Quality Flags"
+     VALIDMIN        (CDF_INT2/1): -10000
+     VALIDMAX        (CDF_INT2/1): 10000
+     FILLVAL         (CDF_INT2/1): -32768
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/15): "efw_qual_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABL_PTR_1      (CDF_CHAR/13): "efw_qual_labl"
+     LABLAXIS        (CDF_CHAR/11): "sfit12_qual"
+     VAR_NOTES       (CDF_CHAR/1110): "The quality of EFW data products can be affected by a variety of observatory and instrument-level conditions.  efw_qual is a collection of flags that show the estimate of each of these contributors over time.  ..See the EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for a detailed description of the determination and meaning of each of the elements of efw_qual...If the value of a particular element of efw_qual is not relevant to the quality of a particular data product, it shall receive the value EFW_QUAL_NR (typ. -2)...If the value of a particular element of efw_qual is relevant to the quality of a particular data product but is not known at the time lf L2 data production, it shall receive the value EFW_QUAL_DUNNO (typ. -1)...A quality value of EFW_QUAL_GOOD (typ. 0) indicates that there are no known issues with the data product due to that particular element of efw_qual...The quality values are meant to be conservative, and values other than EFW_QUAL_GOOD should lead the user back to a member of the EFW instrument team for discussion and advice on the nature of the data quality as needed.."
+
+flags_charging_bias_eclipse (No: 20) (Recs: 0)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "flags_charging_bias_eclipse"
+     FIELDNAM        (CDF_CHAR/27): "flags_charging_bias_eclipse"
+     VALIDMIN        (CDF_REAL4/3): -100000.0, -100000.0, -100000.0
+     VALIDMAX        (CDF_REAL4/3): 100000.0, 100000.0, 100000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/9): "flag_labl"
+     LABLAXIS        (CDF_CHAR/27): "flags_charging_bias_eclipse"
+     VAR_NOTES       (CDF_CHAR/29): "charging, bias, eclipse flags"
+
+bias_current (No: 21) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "bias_current"
+     FIELDNAM        (CDF_CHAR/12): "bias_current"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/2): "nA"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/19): "bias_current_LABL_1"
+     LABLAXIS        (CDF_CHAR/12): "bias_current"
+
+epoch_qual (No: 22) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Timetags for elements of efw_qual."
+     FIELDNAM        (CDF_CHAR/9): "Time, UTC"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-2009 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2100 00:00:00.000.000.000.000
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     UNITS           (CDF_CHAR/3): "UTC"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_NOTES       (CDF_CHAR/195): "The elements of efw_qual are determined on a fixed cadence regardless of the nominal cadence of the individual L2 data products, and epoch_qual provides storage for those fixed-cadence time tags."
+
+efw_qual_compno (No: 23) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Component numbers for EFW data quality flags, efw_qual."
+     FIELDNAM        (CDF_CHAR/28): "EFW Quality Flags Components"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 20
+     FILLVAL         (CDF_INT2/1): -32768
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/9): "Comp No 1"
+     VAR_NOTES       (CDF_CHAR/6): "none.."
+
+vsvy_maxval (No: 24) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/155): "The maximum magnitude of the sensor potential relative to SC potential at which the sensor preamp likely to be saturated during nominal biasing conditions."
+     FIELDNAM        (CDF_CHAR/42): "Nominal Sensor Saturation Voltage (Volts) "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 225.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/5): "Volts"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/11): "vsvy_maxval"
+     VAR_NOTES       (CDF_CHAR/293): "If the magnitude of a given sensor potential exceeds vsvy_maxval then the corresponding element of efw_qual (v1_saturation .. v6-saturation) shall be set to indicate that state.  vsvy_maxval is set in the L1>L2 processing scripts, and shall be copied into this variable during L2 CDF creation."
+
+e_maxval (No: 25) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/154): "The maximum magnitude of any component of the E-field estimate at which one could expect instrumental effects to dominate, rather than geophysical fields."
+     FIELDNAM        (CDF_CHAR/28): "Nominal Maximum of E (mV/m) "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/4): "mV/m"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "e_maxval"
+     VAR_NOTES       (CDF_CHAR/287): "If the magnitude of an component of the spinfit E_field estimate exceeds e_maxval then the corresponding element of efw_qual (e_magnitude shall be set to indicate that state.  e_maxval is set in the L1>L2 processing scripts, and shall be copied into this variable during L2 CDF creation."
+
+epara_maxval (No: 26) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/144): "The maximum magnitude of the parallel component of E at which one could expect instrumental effects to dominate, rather than geophysical fields."
+     FIELDNAM        (CDF_CHAR/37): "Nominal Maximum of E-Parallel (mV/m) "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/4): "mV/m"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/12): "epara_maxval"
+     VAR_NOTES       (CDF_CHAR/323): "If the magnitude of the parallel (to local B) component of the spinfit E-field estimate exceeds epara_maxval then the corresponding element of efw_qual (epara_magnitude) shall be set to indicate that state.  epara_maxval is set in the L1>L2 processing scripts, and shall be copied into this variable during L2 CDF creation."
+
+EFW_QUAL_GOOD (No: 27) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/78): "EFW_QUAL_GOOD is the value of an element of efw_qual that indicates good data."
+     FIELDNAM        (CDF_CHAR/13): "EFW_QUAL_GOOD"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 1
+     FILLVAL         (CDF_INT2/1): -32768
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/13): "EFW_QUAL_GOOD"
+     VAR_NOTES       (CDF_CHAR/140): "EFW_QUAL_GOOD is the value (typ. 0) an element of efw_qual takes when the data quality is determined to be good according to that criterion."
+
+EFW_QUAL_UNK (No: 28) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/90): "EFW_QUAL_UNK is the value of an element of efw_qual that indicates the quality is unknown."
+     FIELDNAM        (CDF_CHAR/12): "EFW_QUAL_UNK"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     FILLVAL         (CDF_INT2/1): -32768
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/12): "EFW_QUAL_UNK"
+     VAR_NOTES       (CDF_CHAR/140): "EFW_QUAL_UNK is the value (typ. -1) an element of efw_qual takes when the data quality is determined to be good according to that criterion."
+
+EFW_QUAL_NR (No: 29) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/151): "EFW_QUAL_NR is the value of an element of efw_qual that indicates that that particular element of efw_qual is not relevant for the given data product.."
+     FIELDNAM        (CDF_CHAR/11): "EFW_QUAL_NR"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     FILLVAL         (CDF_INT2/1): -32768
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/12): "EFW_QUAL_UNK"
+     VAR_NOTES       (CDF_CHAR/154): "EFW_QUAL_NR is the value (typ. -2) an element of efw_qual takes when the criterion represented by that element is not relevant for the given data product."
+
+efw_qual_labl (No: 30) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Descriptive labels for each of the elements of efw_qual."
+     FIELDNAM        (CDF_CHAR/23): "EFW Quality Flag Labels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A26"
+     LABLAXIS        (CDF_CHAR/17): "sfit12_qual_flags"
+     VAR_NOTES       (CDF_CHAR/151): "See the EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for detailed description of the determination and meaning of each of the elements of efw_qual."
+
+metavar1 (No: 31) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "Metadata for variable e12_spinfit_mgse and possibly other variables."
+     FIELDNAM        (CDF_CHAR/8): "metavar1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a4"
+     LABLAXIS        (CDF_CHAR/11): "sfit12_labl"
+
+vsvy_vavg (No: 32) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "vsvy_vavg"
+     FIELDNAM        (CDF_CHAR/9): "vsvy_vavg"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/11): "sfit_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/16): "vsvy_vavg_LABL_1"
+     UNIT_PTR        (CDF_CHAR/14): "vsvy_vavg_UNIT"
+     LABLAXIS        (CDF_CHAR/7): "Vsc x B"
+     VAR_NOTES       (CDF_CHAR/40): "Average of opposing antenna potentials. "
+
+metavar3 (No: 33) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "Metadata for variable vxb_spinfit_mgse and possibly other variables."
+     FIELDNAM        (CDF_CHAR/8): "metavar3"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a10"
+     LABLAXIS        (CDF_CHAR/11): "sfit12_labl"
+
+metavar0 (No: 34) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "Metadata for variable e12_spinfit_mgse and possibly other variables."
+     FIELDNAM        (CDF_CHAR/8): "metavar0"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a14"
+     LABLAXIS        (CDF_CHAR/11): "sfit12_labl"
+
+metavar2 (No: 35) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "Metadata for variable vxb_spinfit_mgse and possibly other variables."
+     FIELDNAM        (CDF_CHAR/8): "metavar2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a10"
+     LABLAXIS        (CDF_CHAR/11): "sfit12_labl"
+
+Vsvy_LABL_1 (No: 36) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Vsvy_LABL_1"
+     FIELDNAM        (CDF_CHAR/11): "Vsvy_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A28"
+     LABLAXIS        (CDF_CHAR/19): "bias_current_LABL_1"
+
+metavar4 (No: 37) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "metavar4"
+     FIELDNAM        (CDF_CHAR/8): "metavar4"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/8): "metavar4"
+
+metavar5 (No: 38) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "metavar5"
+     FIELDNAM        (CDF_CHAR/8): "metavar5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/8): "metavar5"
+
+bfield_labl (No: 39) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "bfield_labl"
+     FIELDNAM        (CDF_CHAR/11): "bfield_labl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/11): "bfield_labl"
+
+bfield_minus_model_mgse_LABL_1 (No: 40) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "bfield_minus_model_mgse_LABL_1"
+     FIELDNAM        (CDF_CHAR/30): "bfield_minus_model_mgse_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A39"
+     LABLAXIS        (CDF_CHAR/30): "bfield_minus_model_mgse_LABL_1"
+
+pos_gse_LABL_1 (No: 41) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "pos_gse_LABL_1"
+     FIELDNAM        (CDF_CHAR/14): "pos_gse_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A23"
+     LABLAXIS        (CDF_CHAR/14): "pos_gse_LABL_1"
+
+vel_gse_LABL_1 (No: 42) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "vel_gse_LABL_1"
+     FIELDNAM        (CDF_CHAR/14): "vel_gse_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A23"
+     LABLAXIS        (CDF_CHAR/14): "vel_gse_LABL_1"
+
+angle_Ey_Ez_Bo_LABL_1 (No: 43) (Recs: 1)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "angle_Ey_Ez_Bo_LABL_1"
+     FIELDNAM        (CDF_CHAR/21): "angle_Ey_Ez_Bo_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A30"
+     LABLAXIS        (CDF_CHAR/21): "angle_Ey_Ez_Bo_LABL_1"
+
+bias_current_LABL_1 (No: 44) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "bias_current_LABL_1"
+     FIELDNAM        (CDF_CHAR/19): "bias_current_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A28"
+     LABLAXIS        (CDF_CHAR/19): "bias_current_LABL_1"
+
+vsvy_vavg_LABL_1 (No: 45) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "vsvy_vavg_LABL_1"
+     FIELDNAM        (CDF_CHAR/16): "vsvy_vavg_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A25"
+     LABLAXIS        (CDF_CHAR/16): "vsvy_vavg_LABL_1"
+
+vsvy_vavg_UNIT (No: 46) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "vsvy_vavg_UNIT"
+     FIELDNAM        (CDF_CHAR/14): "vsvy_vavg_UNIT"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A23"
+     LABLAXIS        (CDF_CHAR/14): "vsvy_vavg_UNIT"
+
+metavar_vcoro (No: 47) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Metadata for variable Vcoro and possibly other variables."
+     FIELDNAM        (CDF_CHAR/8): "metavar2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a10"
+     LABLAXIS        (CDF_CHAR/11): "sfit12_labl"
+
+vel_coro_mgse_UNIT (No: 48) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "vel_coro_mgse_UNIT"
+     FIELDNAM        (CDF_CHAR/18): "vel_coro_mgse_UNIT"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A27"
+     LABLAXIS        (CDF_CHAR/18): "vel_coro_mgse_UNIT"
+
+efield_mgse_LABL_1 (No: 49) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "efield_mgse_LABL_1"
+     FIELDNAM        (CDF_CHAR/18): "efield_mgse_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A27"
+     LABLAXIS        (CDF_CHAR/18): "efield_mgse_LABL_1"
+
+flag_labl (No: 50) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "flag_labl"
+     FIELDNAM        (CDF_CHAR/9): "flag_labl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/9): "flag_labl"
+

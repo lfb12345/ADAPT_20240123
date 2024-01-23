@@ -1,0 +1,338 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/it_k0_mfi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     it_k0_mfi_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     13
+NumAttrs:     42 (19 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"INTERBALL-TAIL>Interball tail probe"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/23): 	"MFI>Magnetic Field Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/33): 	"Tail Probe MIF-M/PRAM Instruments"
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"created Feb 1996"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0248"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IT_K0_MFI_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IT_K0_MFI"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/51): 	"Interball Tail probe Magnetic Field, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"S.Romanov"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/58): 	"Space Research Inst., Russian Acad. Sci., Moscow, Russia. "
+Mission_group (2 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	2 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+TEXT_supplement_1 (3 entries):
+	0 (CDF_CHAR/135): 	"Magnetic field vector is averaged from 4 Hz or 1 Hz data.  Fill values are used instead of Y, Z components if attitude data are absent "
+	1 (CDF_CHAR/128): 	"Spectral amplitudes in ranges 1-4 Hz and 600-850 Hz are measured with the use of filter bank by fluxgate and search-coil sensors"
+	2 (CDF_CHAR/55): 	"Full description: http://www.iki.rssi.ru/interball.html"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/40): 	"Interball-Tail_MFI_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/50): 	"spase://NASA/NumericalData/Interball-1/MIFM/PT120S"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DICT_KEY
+CATDESC
+DEPEND_1
+LABL_PTR_1
+SCALETYP
+SCAL_PTR
+AVG_TYPE
+UNIT_PTR
+FORM_PTR
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 13 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+B_GSE                 CDF_REAL4/1	1:[3]	T/T
+B_GSM                 CDF_REAL4/1	1:[3]	T/T
+B_abs                 CDF_REAL4/1	0:[]	T/  
+Mf                    CDF_REAL4/1	1:[2]	T/T
+SF_B                  CDF_UINT1/1	0:[]	T/  
+SF_Mf                 CDF_UINT1/1	0:[]	T/  
+label_B_GSE           CDF_CHAR/8	1:[3]	F/T
+label_B_GSM           CDF_CHAR/8	1:[3]	F/T
+label_Mf              CDF_CHAR/19	1:[2]	F/T
+cartesian             CDF_CHAR/1	1:[3]	F/T
+Freq_Mf               CDF_REAL4/1	1:[2]	F/T
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (13 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 27-Oct-1995 00:01:00.000
+     SCALEMAX        (CDF_EPOCH/1): 27-Oct-1995 23:59:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+B_GSE (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Magnetic Field in GSE frame"
+     VALIDMIN        (CDF_REAL4/3): -300.0, -300.0, -300.0
+     VALIDMAX        (CDF_REAL4/3): 300.0, 300.0, 300.0
+     SCALEMIN        (CDF_REAL4/3): -3.82, -1.19, -2.47
+     SCALEMAX        (CDF_REAL4/3): 15.68, 4.96, 6.69
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/25): "magnetic_field>GSE_vector"
+     CATDESC         (CDF_CHAR/37): "Magnetic Field, 3 coord cartesian GSE"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     LABL_PTR_1      (CDF_CHAR/11): "label_B_GSE"
+     AVG_TYPE        (CDF_CHAR/11): "time_series"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/44): "2 min. average, ASPI MIF-M/PRAM magnetometer"
+
+B_GSM (No: 2) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Magnetic Field in GSM frame"
+     VALIDMIN        (CDF_REAL4/3): -300.0, -300.0, -300.0
+     VALIDMAX        (CDF_REAL4/3): 300.0, 300.0, 300.0
+     SCALEMIN        (CDF_REAL4/3): -3.82, 0.01, -3.23
+     SCALEMAX        (CDF_REAL4/3): 15.68, 5.06, 6.79
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/25): "magnetic_field>GSM_vector"
+     CATDESC         (CDF_CHAR/37): "Magnetic Field, 3 coord cartesian GSM"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     LABL_PTR_1      (CDF_CHAR/11): "label_B_GSM"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/44): "2 min. average, ASPI MIF-M/PRAM magnetometer"
+
+B_abs (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Magnetic Field absolute value"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 600.0
+     SCALEMIN        (CDF_REAL4/1): 3.26
+     SCALEMAX        (CDF_REAL4/1): 16.09
+     LABLAXIS        (CDF_CHAR/1): "B"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "magnetic_field>total"
+     CATDESC         (CDF_CHAR/37): "Magnetic Field absolute value, scalar"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/44): "2 min. average, ASPI MIF-M/PRAM magnetometer"
+
+Mf (No: 4) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Magnetic Field Fluctuations"
+     VALIDMIN        (CDF_REAL4/2): 0.002, 1.0e-06
+     VALIDMAX        (CDF_REAL4/2): 50.0, 0.03
+     SCALEMIN        (CDF_REAL4/2): 0.00167, 3.42e-05
+     SCALEMAX        (CDF_REAL4/2): 0.0208, 4.77e-05
+     UNITS           (CDF_CHAR/11): "nT/sqrt(Hz)"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/29): "magnetic_field>wave_amplitude"
+     CATDESC         (CDF_CHAR/52): "Magnetic Field Fluctuations at 2 freq (2 and 725 Hz)"
+     DEPEND_1        (CDF_CHAR/7): "Freq_Mf"
+     LABL_PTR_1      (CDF_CHAR/8): "label_Mf"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/3): "RMS"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/81): "2 min average of spectral amplitudes  in two ranges, ASPI MIF-M/PRAM magnetometer"
+
+SF_B (No: 5) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "SF, magnetic field"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 15
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 15
+     LABLAXIS        (CDF_CHAR/2): "SF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/25): "Status of PRAM experiment"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/37): "Standard values used, see description"
+
+SF_Mf (No: 6) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "SF, spectral amplitudes"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 20
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 20
+     LABLAXIS        (CDF_CHAR/2): "SF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/15): "PRAM mode coded"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/72): "Flag values: 10 - data OK, 11 - mode with no amplitude values available "
+
+label_B_GSE (No: 7) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Label for GSE magnetic field"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/28): "Label for GSE magnetic field"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_B_GSM (No: 8) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Label for GSM magnetic field"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/28): "Label for GSM magnetic field"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_Mf (No: 9) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Label for mag. field spectrum"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/29): "Label for mag. field spectrum"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+cartesian (No: 10) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Dimension cartesian Label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/14): "label>position"
+     CATDESC         (CDF_CHAR/25): "Dimension cartesian Label"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Freq_Mf (No: 11) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "Frequency for mag. field spectrum"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/2): "Hz"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     CATDESC         (CDF_CHAR/46): "2 Frequencies for B spectrum (1-4, 600-850 Hz)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/57): "middle frequencies given, real ranges are 1-4, 600-850 Hz"
+
+Gap_Flag (No: 12) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag : 0 no gap before this point, 1-5 gap reason"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+

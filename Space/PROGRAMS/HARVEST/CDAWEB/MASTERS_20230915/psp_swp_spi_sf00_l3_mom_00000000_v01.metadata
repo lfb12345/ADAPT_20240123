@@ -1,0 +1,918 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_swp_spi_sf00_l3_mom_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_swp_spi_sf00_l3_mom_00000000_v01.cdf
+Version:      3.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     55
+NumAttrs:     41 (24 global, 17 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (24 attributes)
+=========================================
+Acknowledgement (0 entry):
+Project (1 entry):
+	0 (CDF_CHAR/22): 	"LWS>Living With a Star"
+Source_name (1 entry):
+	0 (CDF_CHAR/22): 	"PSP>Parker Solar Probe"
+TITLE (1 entry):
+	0 (CDF_CHAR/36): 	"PSP/SWEAP/SPAN Electron and Ion Data"
+Discipline (1 entry):
+	0 (CDF_CHAR/30): 	"Heliospheric Physics>Particles"
+Descriptor (1 entry):
+	0 (CDF_CHAR/95): 	"PSP/SWEAP/SPAN>Parker Solar Probe/Solar Wind Electrons Alphas and Protons/Solar Probe ANalyzers"
+Data_type (1 entry):
+	0 (CDF_CHAR/34): 	">Solar Wind Particle Distributions"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/64): 	"http://sprg.ssl.berkeley.edu/data/psp/pub/sci/sweap/description/"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"psp_swp_spi_sf00_L3_mom"
+Logical_source (1 entry):
+	0 (CDF_CHAR/23): 	"psp_swp_spi_sf00_l3_mom"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/222): 	"Partial moments of the Proton distribution function in the SPAN-Ion instrument, PSP spacecraft, and RTN coordinate systems. User should be aware that the full ion distribution is typically NOT in the FOV of the instrument."
+Sensor (1 entry):
+	0 (CDF_CHAR/3): 	"spi"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"J. Kasper"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/17): 	"Univ. of Michigan"
+IPI_name (1 entry):
+	0 (CDF_CHAR/34): 	"D. Larson (davin@ssl.berkeley.edu)"
+IPI_affiliation (1 entry):
+	0 (CDF_CHAR/39): 	"U.C. Berkeley Space Sciences Laboratory"
+IPI_email (1 entry):
+	0 (CDF_CHAR/22): 	"davin@ssl.berkeley.edu"
+InstrumentLead_name (1 entry):
+	0 (CDF_CHAR/7): 	"R. Livi"
+InstrumentLead_email (1 entry):
+	0 (CDF_CHAR/18): 	"rlivi@berkeley.edu"
+InstrumentLead_affiliation (1 entry):
+	0 (CDF_CHAR/39): 	"U.C. Berkeley Space Sciences Laboratory"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	1 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+
+Variable Attributes (17 attributes)
+=========================================
+CATDESC
+FIELDNAM
+LABLAXIS
+UNITS
+VAR_TYPE
+DISPLAY_TYPE
+DEPEND_0
+FORMAT
+FILLVAL
+VALIDMIN
+VALIDMAX
+SCALETYP
+DICT_KEY
+MONOTON
+VAR_NOTES
+DEPEND_1
+LABL_PTR_1
+
+Variable Information (0 rVariable, 55 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+TIME                  CDF_DOUBLE/1	0:[]	T/  
+MET                   CDF_DOUBLE/1	0:[]	T/  
+APID                  CDF_UINT2/1	0:[]	T/  
+SEQN                  CDF_UINT2/1	0:[]	T/  
+SEQN_DELTA            CDF_UINT2/1	0:[]	T/  
+SEQN_GROUP            CDF_UINT1/1	0:[]	T/  
+PKT_SIZE              CDF_UINT4/1	0:[]	T/  
+SOURCE_APID           CDF_UINT2/1	0:[]	T/  
+SOURCE_HASH           CDF_UINT4/1	0:[]	T/  
+COMPR_RATIO           CDF_FLOAT/1	0:[]	T/  
+NDAT                  CDF_UINT4/1	0:[]	T/  
+DATASIZE              CDF_UINT4/1	0:[]	T/  
+LTCSNNNN_BITS         CDF_UINT1/1	0:[]	T/  
+ARCH_BITS             CDF_UINT1/1	0:[]	T/  
+MODE2_ORI             CDF_UINT2/1	0:[]	T/  
+MODE2                 CDF_UINT2/1	0:[]	T/  
+F0                    CDF_UINT2/1	0:[]	T/  
+STATUS_BITS           CDF_UINT1/1	0:[]	T/  
+PEAK_BIN              CDF_UINT1/1	0:[]	T/  
+PRODUCT_BITS          CDF_UINT1/1	0:[]	T/  
+NUM_TOTAL             CDF_UINT4/1	0:[]	T/  
+NUM_ACCUM             CDF_UINT4/1	0:[]	T/  
+TIME_TOTAL            CDF_DOUBLE/1	0:[]	T/  
+TIME_ACCUM            CDF_DOUBLE/1	0:[]	T/  
+CNTS                  CDF_FLOAT/1	0:[]	T/  
+GAP                   CDF_UINT1/1	0:[]	T/  
+QUALITY_FLAG          CDF_UINT2/1	0:[]	T/  
+DENS                  CDF_FLOAT/1	0:[]	T/  
+VEL_INST              CDF_FLOAT/1	1:[3]	T/T
+Vxyz_inst_label       CDF_CHAR/7	1:[3]	F/T
+VEL_SC                CDF_FLOAT/1	1:[3]	T/T
+Vxyz_sc_label         CDF_CHAR/5	1:[3]	F/T
+VEL_RTN_SUN           CDF_FLOAT/1	1:[3]	T/T
+Vxyz_rtn_label        CDF_CHAR/6	1:[3]	F/T
+T_TENSOR_INST         CDF_FLOAT/1	1:[6]	T/T
+Txyz_label            CDF_CHAR/3	1:[6]	F/T
+TEMP                  CDF_FLOAT/1	0:[]	T/  
+EFLUX_VS_ENERGY       CDF_FLOAT/1	1:[32]	T/T
+EFLUX_VS_THETA        CDF_FLOAT/1	1:[8]	T/T
+EFLUX_VS_PHI          CDF_FLOAT/1	1:[8]	T/T
+ENERGY_VALS           CDF_FLOAT/1	1:[32]	T/T
+THETA_VALS            CDF_FLOAT/1	1:[8]	T/T
+PHI_VALS              CDF_FLOAT/1	1:[8]	T/T
+SUN_DIST              CDF_DOUBLE/1	0:[]	T/  
+VENUS_DIST            CDF_DOUBLE/1	0:[]	T/  
+SC_VEL_RTN_SUN        CDF_DOUBLE/1	1:[3]	T/T
+SC_Vxyz_rtn_label     CDF_CHAR/9	1:[3]	F/T
+QUAT_SC_TO_RTN        CDF_DOUBLE/1	1:[4]	T/T
+Q_rtn_label           CDF_CHAR/2	1:[4]	F/T
+MAGF_SC               CDF_FLOAT/1	1:[3]	T/T
+Bxyz_sc_label         CDF_CHAR/5	1:[3]	F/T
+MAGF_INST             CDF_FLOAT/1	1:[3]	T/T
+Bxyz_inst_label       CDF_CHAR/7	1:[3]	F/T
+ROTMAT_SC_INST        CDF_FLOAT/1	2:[3,3]	F/TT
+
+
+Variable (55 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Time at middle of sample"
+     FIELDNAM        (CDF_CHAR/21): "Time in TT2000 format"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "F24.1"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:58.999000000
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+TIME (No: 1) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Time at middle of sample"
+     FIELDNAM        (CDF_CHAR/18): "Time in UTC format"
+     LABLAXIS        (CDF_CHAR/9): "Unix Time"
+     UNITS           (CDF_CHAR/1): "s"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "F24.7"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     VALIDMIN        (CDF_DOUBLE/1): 1.2623e+09
+     VALIDMAX        (CDF_DOUBLE/1): 4.10244e+09
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DICT_KEY        (CDF_CHAR/8): "time>UTC"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+MET (No: 2) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/3): "MET"
+     FIELDNAM        (CDF_CHAR/3): "MET"
+     LABLAXIS        (CDF_CHAR/3): "MET"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+APID (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "APID"
+     FIELDNAM        (CDF_CHAR/4): "APID"
+     LABLAXIS        (CDF_CHAR/4): "APID"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SEQN (No: 4) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "SEQN"
+     FIELDNAM        (CDF_CHAR/4): "SEQN"
+     LABLAXIS        (CDF_CHAR/4): "SEQN"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SEQN_DELTA (No: 5) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "SEQN_DELTA"
+     FIELDNAM        (CDF_CHAR/10): "SEQN_DELTA"
+     LABLAXIS        (CDF_CHAR/10): "SEQN_DELTA"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SEQN_GROUP (No: 6) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "SEQN_GROUP"
+     FIELDNAM        (CDF_CHAR/10): "SEQN_GROUP"
+     LABLAXIS        (CDF_CHAR/10): "SEQN_GROUP"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+PKT_SIZE (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "PKT_SIZE"
+     FIELDNAM        (CDF_CHAR/8): "PKT_SIZE"
+     LABLAXIS        (CDF_CHAR/8): "PKT_SIZE"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SOURCE_APID (No: 8) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "SOURCE_APID"
+     FIELDNAM        (CDF_CHAR/11): "SOURCE_APID"
+     LABLAXIS        (CDF_CHAR/11): "SOURCE_APID"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SOURCE_HASH (No: 9) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "SOURCE_HASH"
+     FIELDNAM        (CDF_CHAR/11): "SOURCE_HASH"
+     LABLAXIS        (CDF_CHAR/11): "SOURCE_HASH"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+COMPR_RATIO (No: 10) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "COMPR_RATIO"
+     FIELDNAM        (CDF_CHAR/11): "COMPR_RATIO"
+     LABLAXIS        (CDF_CHAR/11): "COMPR_RATIO"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+NDAT (No: 11) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "NDAT"
+     FIELDNAM        (CDF_CHAR/4): "NDAT"
+     LABLAXIS        (CDF_CHAR/4): "NDAT"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+DATASIZE (No: 12) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "DATASIZE"
+     FIELDNAM        (CDF_CHAR/8): "DATASIZE"
+     LABLAXIS        (CDF_CHAR/8): "DATASIZE"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+LTCSNNNN_BITS (No: 13) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "LTCSNNNN_BITS"
+     FIELDNAM        (CDF_CHAR/13): "LTCSNNNN_BITS"
+     LABLAXIS        (CDF_CHAR/13): "LTCSNNNN_BITS"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+ARCH_BITS (No: 14) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "ARCH_BITS"
+     FIELDNAM        (CDF_CHAR/9): "ARCH_BITS"
+     LABLAXIS        (CDF_CHAR/9): "ARCH_BITS"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+MODE2_ORI (No: 15) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "MODE2_ORI"
+     FIELDNAM        (CDF_CHAR/9): "MODE2_ORI"
+     LABLAXIS        (CDF_CHAR/9): "MODE2_ORI"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+MODE2 (No: 16) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "MODE2"
+     FIELDNAM        (CDF_CHAR/5): "MODE2"
+     LABLAXIS        (CDF_CHAR/5): "MODE2"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+F0 (No: 17) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/2): "F0"
+     FIELDNAM        (CDF_CHAR/2): "F0"
+     LABLAXIS        (CDF_CHAR/2): "F0"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+STATUS_BITS (No: 18) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "STATUS_BITS"
+     FIELDNAM        (CDF_CHAR/11): "STATUS_BITS"
+     LABLAXIS        (CDF_CHAR/11): "STATUS_BITS"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+PEAK_BIN (No: 19) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "PEAK_BIN"
+     FIELDNAM        (CDF_CHAR/8): "PEAK_BIN"
+     LABLAXIS        (CDF_CHAR/8): "PEAK_BIN"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+PRODUCT_BITS (No: 20) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "PRODUCT_BITS"
+     FIELDNAM        (CDF_CHAR/12): "PRODUCT_BITS"
+     LABLAXIS        (CDF_CHAR/12): "PRODUCT_BITS"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+NUM_TOTAL (No: 21) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "NUM_TOTAL"
+     FIELDNAM        (CDF_CHAR/9): "NUM_TOTAL"
+     LABLAXIS        (CDF_CHAR/9): "NUM_TOTAL"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+NUM_ACCUM (No: 22) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "NUM_ACCUM"
+     FIELDNAM        (CDF_CHAR/9): "NUM_ACCUM"
+     LABLAXIS        (CDF_CHAR/9): "NUM_ACCUM"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+TIME_TOTAL (No: 23) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "TIME_TOTAL"
+     FIELDNAM        (CDF_CHAR/10): "TIME_TOTAL"
+     LABLAXIS        (CDF_CHAR/10): "TIME_TOTAL"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+TIME_ACCUM (No: 24) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "TIME_ACCUM"
+     FIELDNAM        (CDF_CHAR/10): "TIME_ACCUM"
+     LABLAXIS        (CDF_CHAR/10): "TIME_ACCUM"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+CNTS (No: 25) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "CNTS"
+     FIELDNAM        (CDF_CHAR/4): "CNTS"
+     LABLAXIS        (CDF_CHAR/4): "CNTS"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+GAP (No: 26) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/3): "GAP"
+     FIELDNAM        (CDF_CHAR/3): "GAP"
+     LABLAXIS        (CDF_CHAR/3): "GAP"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I20"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+QUALITY_FLAG (No: 27) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Quality Flag"
+     FIELDNAM        (CDF_CHAR/12): "Quality Flag"
+     LABLAXIS        (CDF_CHAR/12): "Quality Flag"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I10"
+     FILLVAL         (CDF_UINT2/1): 65535
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65534
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/561): "The quality flag is a two-byte unsigned integer (CDF_UINT2) with its least significant bit (Bit 0) indicating: Counter Overflow, Bit 1: Survey Snapshot ON (not applicable to archive products), Bit 2: Alternate Energy Table, Bit 3: Spoiler Test, Bit 4: Attenuator Engaged, Bit 5: Highest Archive Rate, Bit 6: No Targeted Sweep, Bit 7: SPAN-Ion New Mass Table (not applicable to electrons), Bit 8: Over-deflection, Bit 9: Archive Snapshot ON, Bit 10: Bad Energy Table, Bit 11: MCP Test, Bit 12: Survey Available, Bit 13: ُArchive Available, Bits 14-15: Reserved."
+
+DENS (No: 28) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "Partial Moment Density"
+     FIELDNAM        (CDF_CHAR/7): "Density"
+     LABLAXIS        (CDF_CHAR/7): "Density"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     SCALETYP        (CDF_CHAR/3): "log"
+
+VEL_INST (No: 29) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Partial Moment Velocity in Instrument Coordinates"
+     FIELDNAM        (CDF_CHAR/21): "Velocity (Instrument)"
+     LABLAXIS        (CDF_CHAR/8): "Vx;Vy;Vz"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/19): "In instrument frame"
+     LABL_PTR_1      (CDF_CHAR/15): "Vxyz_inst_label"
+
+Vxyz_inst_label (No: 30) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Velocity label in instrument frame"
+     FIELDNAM        (CDF_CHAR/34): "Velocity label in instrument frame"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A7"
+
+VEL_SC (No: 31) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Partial Moment Velocity in Spacecraft Coordinates"
+     FIELDNAM        (CDF_CHAR/21): "Velocity (Spacecraft)"
+     LABLAXIS        (CDF_CHAR/8): "Vx;Vy;Vz"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/52): "In spacecraft frame, spacecraft velocity NOT removed"
+     LABL_PTR_1      (CDF_CHAR/13): "Vxyz_sc_label"
+
+Vxyz_sc_label (No: 32) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "SC Velocity label"
+     FIELDNAM        (CDF_CHAR/17): "SC Velocity label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A5"
+
+VEL_RTN_SUN (No: 33) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "Partial Moment Velocity in RTN Coordinates and Sun reference frame"
+     FIELDNAM        (CDF_CHAR/18): "Velocity (RTN_SUN)"
+     LABLAXIS        (CDF_CHAR/8): "Vx;Vy;Vz"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/41): "In Sun frame, spacecraft velocity removed"
+     LABL_PTR_1      (CDF_CHAR/14): "Vxyz_rtn_label"
+
+Vxyz_rtn_label (No: 34) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "RTN Velocity label"
+     FIELDNAM        (CDF_CHAR/18): "RTN Velocity label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A6"
+
+T_TENSOR_INST (No: 35) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Partial Moment Temperature Tensor in instrument frame"
+     FIELDNAM        (CDF_CHAR/31): "Temperature Tensor (Instrument)"
+     LABLAXIS        (CDF_CHAR/23): "Txx;Tyy;Tzz;Txy;Txz;Tyz"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/19): "In instrument frame"
+     LABL_PTR_1      (CDF_CHAR/10): "Txyz_label"
+
+Txyz_label (No: 36) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "Moment Temp label"
+     FIELDNAM        (CDF_CHAR/17): "Moment Temp label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A3"
+
+TEMP (No: 37) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Average of Trace of Partial Moment Temperature Tensor"
+     FIELDNAM        (CDF_CHAR/11): "Temperature"
+     LABLAXIS        (CDF_CHAR/11): "Temperature"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+EFLUX_VS_ENERGY (No: 38) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Differential Energy Flux vs Energy"
+     FIELDNAM        (CDF_CHAR/15): "Eflux vs Energy"
+     LABLAXIS        (CDF_CHAR/15): "Eflux vs Energy"
+     UNITS           (CDF_CHAR/16): "eV/cm2-s-ster-eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+16
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_1        (CDF_CHAR/11): "ENERGY_VALS"
+
+EFLUX_VS_THETA (No: 39) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Differential Energy Flux vs Theta"
+     FIELDNAM        (CDF_CHAR/14): "Eflux vs Theta"
+     LABLAXIS        (CDF_CHAR/14): "Eflux vs Theta"
+     UNITS           (CDF_CHAR/16): "eV/cm2-s-ster-eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+16
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_1        (CDF_CHAR/10): "THETA_VALS"
+
+EFLUX_VS_PHI (No: 40) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "Differential Energy Flux vs Phi"
+     FIELDNAM        (CDF_CHAR/12): "Eflux vs Phi"
+     LABLAXIS        (CDF_CHAR/12): "Eflux vs Phi"
+     UNITS           (CDF_CHAR/16): "eV/cm2-s-ster-eV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+16
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_1        (CDF_CHAR/8): "PHI_VALS"
+
+ENERGY_VALS (No: 41) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/6): "Energy"
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.01
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     SCALETYP        (CDF_CHAR/3): "log"
+
+THETA_VALS (No: 42) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "Elevation Angle in instrument coordinates"
+     FIELDNAM        (CDF_CHAR/16): "Instrument Theta"
+     LABLAXIS        (CDF_CHAR/15): "Elevation Angle"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+PHI_VALS (No: 43) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "Azimuth Angle in instrument coordinates"
+     FIELDNAM        (CDF_CHAR/14): "Instrument Phi"
+     LABLAXIS        (CDF_CHAR/13): "Azimuth Angle"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SUN_DIST (No: 44) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "Spacecraft Distance to the Sun"
+     FIELDNAM        (CDF_CHAR/12): "Sun Distance"
+     LABLAXIS        (CDF_CHAR/12): "Sun Distance"
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+09
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+VENUS_DIST (No: 45) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Spacecraft Distance to Venus"
+     FIELDNAM        (CDF_CHAR/14): "Venus Distance"
+     LABLAXIS        (CDF_CHAR/14): "Venus Distance"
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+09
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SC_VEL_RTN_SUN (No: 46) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Spacecraft Velocity in RTN Coordinates and Sun reference frame"
+     FIELDNAM        (CDF_CHAR/29): "Spacecraft Velocity (RTN_SUN)"
+     LABLAXIS        (CDF_CHAR/8): "Vx;Vy;Vz"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/12): "In Sun frame"
+     LABL_PTR_1      (CDF_CHAR/17): "SC_Vxyz_rtn_label"
+
+SC_Vxyz_rtn_label (No: 47) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "RTN Velocity label"
+     FIELDNAM        (CDF_CHAR/18): "RTN Velocity label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A9"
+
+QUAT_SC_TO_RTN (No: 48) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Quaternion for Rotating from Spacecraft to RTN Coordinates"
+     FIELDNAM        (CDF_CHAR/10): "Quaternion"
+     LABLAXIS        (CDF_CHAR/11): "Q1;Q2;Q3;Q4"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABL_PTR_1      (CDF_CHAR/11): "Q_rtn_label"
+
+Q_rtn_label (No: 49) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Q RTN label"
+     FIELDNAM        (CDF_CHAR/11): "Q RTN label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A2"
+
+MAGF_SC (No: 50) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "Magnetic Field in Spacecraft Coordinates"
+     FIELDNAM        (CDF_CHAR/27): "Magnetic Field (Spacecraft)"
+     LABLAXIS        (CDF_CHAR/8): "Bx;By;Bz"
+     UNITS           (CDF_CHAR/2): "nT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/19): "In spacecraft frame"
+     LABL_PTR_1      (CDF_CHAR/13): "Bxyz_sc_label"
+
+Bxyz_sc_label (No: 51) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Magnetic field label"
+     FIELDNAM        (CDF_CHAR/20): "Magnetic field label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A5"
+
+MAGF_INST (No: 52) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "Magnetic Field in Instrument Coordinates"
+     FIELDNAM        (CDF_CHAR/27): "Magnetic Field (Instrument)"
+     LABLAXIS        (CDF_CHAR/8): "Bx;By;Bz"
+     UNITS           (CDF_CHAR/2): "nT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/19): "In instrument frame"
+     LABL_PTR_1      (CDF_CHAR/15): "Bxyz_inst_label"
+
+Bxyz_inst_label (No: 53) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "Magnetic field Instrument coordinate label"
+     FIELDNAM        (CDF_CHAR/20): "Magnetic field label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A7"
+
+ROTMAT_SC_INST (No: 54) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Rotation Matrix from Spacecraft to Instrument Coordinates"
+     FIELDNAM        (CDF_CHAR/15): "Rotation Matrix"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+30
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+30
+     SCALETYP        (CDF_CHAR/6): "linear"
+

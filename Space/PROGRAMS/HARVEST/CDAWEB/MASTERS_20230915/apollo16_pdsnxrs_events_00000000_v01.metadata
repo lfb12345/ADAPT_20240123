@@ -1,0 +1,879 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/apollo16_pdsnxrs_events_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     apollo16_pdsnxrs_events_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     46
+NumAttrs:     41 (29 global, 12 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (29 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/6): 	"Apollo"
+Source_name (1 entry):
+	0 (CDF_CHAR/50): 	"apollo16>Apollo 16 X-Ray Fluorescence Spectrometer"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/37): 	"pdsnxrs>PDS Normal X-Ray Spectrometer"
+Descriptor (1 entry):
+	0 (CDF_CHAR/19): 	"events>Event Counts"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/13): 	"Isidore Adler"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"Apollo"
+Logical_source (1 entry):
+	0 (CDF_CHAR/23): 	"apollo16_pdsnxrs_events"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/53): 	"Apollo 16 Lunar Surface X-Ray measurements from orbit"
+PDS_VERSION_ID (1 entry):
+	0 (CDF_CHAR/4): 	"PDS3"
+RECORD_TYPE (1 entry):
+	0 (CDF_CHAR/14): 	""FIXED_LENGTH""
+RECORD_BYTES (1 entry):
+	0 (CDF_CHAR/3): 	"295"
+FILE_RECORDS (1 entry):
+	0 (CDF_CHAR/5): 	"24577"
+^TABLE (1 entry):
+	0 (CDF_CHAR/27): 	""A16C_XRFS_72_NORMAL_1.TAB""
+DATA_SET_ID (1 entry):
+	0 (CDF_CHAR/40): 	""A16C-L-XRFS-2-SURFACE-XRAY-COUNTS-V1.0""
+INSTRUMENT_HOST_NAME (1 entry):
+	0 (CDF_CHAR/26): 	""APOLLO 16 COMMAND MODULE""
+INSTRUMENT_NAME (1 entry):
+	0 (CDF_CHAR/33): 	""X-RAY FLUORESCENCE SPECTROMETER""
+PRODUCT_ID (1 entry):
+	0 (CDF_CHAR/32): 	""A16_XRFS_72_NORMAL_MODE-200612""
+PRODUCT_NAME (1 entry):
+	0 (CDF_CHAR/41): 	""APOLLO 16 XRSF, NORMAL MODE XRAY COUNTS""
+PRODUCT_CREATION_TIME (1 entry):
+	0 (CDF_CHAR/19): 	"2006-12-29T21:00:00"
+TARGET_NAME (1 entry):
+	0 (CDF_CHAR/6): 	""MOON""
+START_TIME (1 entry):
+	0 (CDF_CHAR/19): 	"1972-04-20T01:58:00"
+STOP_TIME (1 entry):
+	0 (CDF_CHAR/19): 	"1972-04-24T19:25:00"
+TEXT (1 entry):
+	0 (CDF_CHAR/1380): 	""Table of event counts from the Apollo 16     X-Ray Fluorescence Spectrometer for all channels of the three     proportional counters (unfiltered, magnesium filter, aluminum filter)     for the lunar surface and all channels of the solar monitor.  The     spectrometer was set to normal modes (INSTRUMENT_MODE values of 14 or     96) with with all three lunar detectors measuring the same energy     ranges.      The values give the measurement mode of the instrument, time, orbit,     spacecraft position and orientation, and event counts, normally for     8-second intervals, for the three proportional lunar counters and the     solar monitor.  The normal energy range for the first seven channels     of the three lunar-surface counters (detector #1 - unfiltered,     detector #2 - magnesium filter, and detector #3 - aluminum filter) was     between 0.75 and 2.75 keV broken into seven equal intervals:     0.75-1.04, 1.04-1.32, 1.32-1.61, 1.61-1.89, 1.89-2.18, 2.18-2.46, and     2.46-2.75 keV.  The solar monitor (detector #4) measured the range     from approximately 1 to 3 keV, divided into seven equal intervals.  In     all four detectors, an eighth channel recorded all X-ray events with     energies higher than the upper level.      The solar monitor data from Apollo 16 were considered usable.  There     were no saturation effects as found in the Apollo 15 data.""
+
+Variable Attributes (12 attributes)
+=========================================
+VALIDMIN
+VALIDMAX
+FILLVAL
+VAR_NOTES
+CATDESC
+FIELDNAM
+LABLAXIS
+FORMAT
+DEPEND_0
+VAR_TYPE
+DISPLAY_TYPE
+UNITS
+
+Variable Information (0 rVariable, 46 zVariables)
+===========================================================
+INSTRUMENT_MODE       CDF_INT4/1	0:[]	T/  
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+GROUND_ELAPSED_TIME   CDF_DOUBLE/1	0:[]	T/  
+LUNAR_ORBIT_NUMBER    CDF_DOUBLE/1	0:[]	T/  
+SC_SELENOGRAPHIC_LATITUDE CDF_DOUBLE/1	0:[]	T/  
+SC_SELENOGRAPHIC_LONGITUDE CDF_DOUBLE/1	0:[]	T/  
+SC_ALTITUDE           CDF_DOUBLE/1	0:[]	T/  
+SC_PITCH_ANGLE        CDF_DOUBLE/1	0:[]	T/  
+SC_YAW_ANGLE          CDF_DOUBLE/1	0:[]	T/  
+SC_ROLL_ANGLE         CDF_DOUBLE/1	0:[]	T/  
+DETECTOR_1_CHANNEL_1_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_1_CHANNEL_2_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_1_CHANNEL_3_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_1_CHANNEL_4_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_1_CHANNEL_5_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_1_CHANNEL_6_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_1_CHANNEL_7_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_1_CHANNEL_8_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_1_NON_XRAY_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_2_CHANNEL_1_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_2_CHANNEL_2_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_2_CHANNEL_3_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_2_CHANNEL_4_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_2_CHANNEL_5_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_2_CHANNEL_6_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_2_CHANNEL_7_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_2_CHANNEL_8_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_2_NON_XRAY_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_3_CHANNEL_1_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_3_CHANNEL_2_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_3_CHANNEL_3_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_3_CHANNEL_4_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_3_CHANNEL_5_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_3_CHANNEL_6_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_3_CHANNEL_7_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_3_CHANNEL_8_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_3_NON_XRAY_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_4_CHANNEL_1_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_4_CHANNEL_2_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_4_CHANNEL_3_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_4_CHANNEL_4_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_4_CHANNEL_5_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_4_CHANNEL_6_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_4_CHANNEL_7_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_4_CHANNEL_8_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+DETECTOR_4_NON_XRAY_EVENT_COUNT CDF_INT4/1	0:[]	T/  
+
+
+Variable (46 variables)
+=========================================
+
+INSTRUMENT_MODE (No: 0) (Recs: 0)
+---------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 16
+     VALIDMAX        (CDF_INT4/1): 96
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/819): "Measurement mode of the X-Ray Spectrometer:        14 : Indicates normal mode, the three lunar surface detectors             measuring the external input of energies above 0.75 keV or the             solar monitor measuring external inputs above 1.0 keV.         96 : Indicates normal calibration mode, where the Magnesium K alpha             and Fe55 calibration sources were rotated into the field of             view of lunar surface detectors 1, 2, and 3.        144 : Indicates the same as normal mode 14 except the energy range             and all range boundaries for lunar surface detector 1 channels             have been doubled.        224 : Indicates the same spectral range as mode 144 but the lunar             surface detectors 1, 2, and 3 were measuring K alpha and Fe55             calibration sources."
+     CATDESC         (CDF_CHAR/694): "Measurement mode of the X-Ray Spectrometer: 14 : Indicates normal mode, the three lunar surface detectors measuring the external input of energies above 0.75 keV or the solar monitor measuring external inputs above 1.0 keV. 96 : Indicates normal calibration mode, where the Magnesium K alpha and Fe55 calibration sources were rotated into the field of view of lunar surface detectors 1, 2, and 3. 144 : Indicates the same as normal mode 14 except the energy range and all range boundaries for lunar surface detector 1 channels have been doubled. 224 : Indicates the same spectral range as mode 144 but the lunar surface detectors 1, 2, and 3 were measuring K alpha and Fe55 calibration sources."
+     FIELDNAM        (CDF_CHAR/22): "Measurement mode of..."
+     LABLAXIS        (CDF_CHAR/22): "Measurement mode of..."
+     FORMAT          (CDF_CHAR/2): "I3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Epoch (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     VALIDMIN        (CDF_EPOCH/1): 20-Apr-1972 01:58:02.500
+     VALIDMAX        (CDF_EPOCH/1): 24-Apr-1972 17:49:30.189
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/145): "Ground elapsed time in seconds (time since launch of Apollo 16 at 17:54:00 UT on 16 April 1972) of the midpoint of the count accumulation period."
+     FIELDNAM        (CDF_CHAR/22): "Ground elapsed time..."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+GROUND_ELAPSED_TIME (No: 2) (Recs: 0)
+-------------------
+Attribute Entries:
+     VALIDMIN        (CDF_DOUBLE/1): 288242.0
+     VALIDMAX        (CDF_DOUBLE/1): 690930.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/157): "Ground elapsed time in seconds (time since launch       of Apollo 16 at 17:54:00 UT on 16 April 1972) of the midpoint of       the count accumulation period."
+     CATDESC         (CDF_CHAR/145): "Ground elapsed time in seconds (time since launch of Apollo 16 at 17:54:00 UT on 16 April 1972) of the midpoint of the count accumulation period."
+     FIELDNAM        (CDF_CHAR/22): "Ground elapsed time..."
+     LABLAXIS        (CDF_CHAR/22): "Ground elapsed time..."
+     FORMAT          (CDF_CHAR/5): "F11.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/7): "SECONDS"
+
+LUNAR_ORBIT_NUMBER (No: 3) (Recs: 0)
+------------------
+Attribute Entries:
+     VALIDMIN        (CDF_DOUBLE/1): 3.7
+     VALIDMAX        (CDF_DOUBLE/1): 60.7
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/53): "Lunar orbit number, to the nearest tenth of an orbit."
+     CATDESC         (CDF_CHAR/53): "Lunar orbit number, to the nearest tenth of an orbit."
+     FIELDNAM        (CDF_CHAR/22): "Lunar orbit number,..."
+     LABLAXIS        (CDF_CHAR/22): "Lunar orbit number,..."
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+SC_SELENOGRAPHIC_LATITUDE (No: 4) (Recs: 0)
+-------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_DOUBLE/1): -10.56
+     VALIDMAX        (CDF_DOUBLE/1): 10.55
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/112): "Subspacecraft selenographic latitude in degrees       from 90 to -90 at the midpoint of the accumulation period."
+     CATDESC         (CDF_CHAR/106): "Subspacecraft selenographic latitude in degrees from 90 to -90 at the midpoint of the accumulation period."
+     FIELDNAM        (CDF_CHAR/16): "Subspacecraft..."
+     LABLAXIS        (CDF_CHAR/16): "Subspacecraft..."
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/7): "DEGREES"
+
+SC_SELENOGRAPHIC_LONGITUDE (No: 5) (Recs: 0)
+--------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_DOUBLE/1): -179.95
+     VALIDMAX        (CDF_DOUBLE/1): 180.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/121): "Subspacecraft selenographic longitude in degrees        east from 180 to -180 at the midpoint of the accumulation period."
+     CATDESC         (CDF_CHAR/114): "Subspacecraft selenographic longitude in degrees east from 180 to -180 at the midpoint of the accumulation period."
+     FIELDNAM        (CDF_CHAR/16): "Subspacecraft..."
+     LABLAXIS        (CDF_CHAR/16): "Subspacecraft..."
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/7): "DEGREES"
+
+SC_ALTITUDE (No: 6) (Recs: 0)
+-----------
+Attribute Entries:
+     VALIDMIN        (CDF_DOUBLE/1): 19.56
+     VALIDMAX        (CDF_DOUBLE/1): 124.37
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/151): "Spacecraft altitude in km assuming mean circular       Moon (i.e. no terrain corrections).  The equatorial radius of the moon       is roughly 1738 km."
+     CATDESC         (CDF_CHAR/138): "Spacecraft altitude in km assuming mean circular Moon (i.e. no terrain corrections). The equatorial radius of the moon is roughly 1738 km."
+     FIELDNAM        (CDF_CHAR/22): "Spacecraft altitude..."
+     LABLAXIS        (CDF_CHAR/22): "Spacecraft altitude..."
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/10): "KILOMETERS"
+
+SC_PITCH_ANGLE (No: 7) (Recs: 0)
+--------------
+Attribute Entries:
+     VALIDMIN        (CDF_DOUBLE/1): -180.0
+     VALIDMAX        (CDF_DOUBLE/1): 180.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/34): "Spacecraft pitch angle in degrees."
+     CATDESC         (CDF_CHAR/34): "Spacecraft pitch angle in degrees."
+     FIELDNAM        (CDF_CHAR/19): "Spacecraft pitch..."
+     LABLAXIS        (CDF_CHAR/19): "Spacecraft pitch..."
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/7): "DEGREES"
+
+SC_YAW_ANGLE (No: 8) (Recs: 0)
+------------
+Attribute Entries:
+     VALIDMIN        (CDF_DOUBLE/1): -62.34
+     VALIDMAX        (CDF_DOUBLE/1): 51.91
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/32): "Spacecraft yaw angle in degrees."
+     CATDESC         (CDF_CHAR/32): "Spacecraft yaw angle in degrees."
+     FIELDNAM        (CDF_CHAR/23): "Spacecraft yaw angle..."
+     LABLAXIS        (CDF_CHAR/23): "Spacecraft yaw angle..."
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/7): "DEGREES"
+
+SC_ROLL_ANGLE (No: 9) (Recs: 0)
+-------------
+Attribute Entries:
+     VALIDMIN        (CDF_DOUBLE/1): -179.77
+     VALIDMAX        (CDF_DOUBLE/1): 179.89
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/33): "Spacecraft roll angle in degrees."
+     CATDESC         (CDF_CHAR/33): "Spacecraft roll angle in degrees."
+     FIELDNAM        (CDF_CHAR/18): "Spacecraft roll..."
+     LABLAXIS        (CDF_CHAR/18): "Spacecraft roll..."
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/7): "DEGREES"
+
+DETECTOR_1_CHANNEL_1_EVENT_COUNT (No: 10) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1294
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/143): "Event count for channel 1 (0.75-1.04 keV) of lunar       detector 1 (unfiltered). In modes 144 and 224 the energy range is       1.50-2.08 keV."
+     CATDESC         (CDF_CHAR/131): "Event count for channel 1 (0.75-1.04 keV) of lunar detector 1 (unfiltered). In modes 144 and 224 the energy range is 1.50-2.08 keV."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_1_CHANNEL_2_EVENT_COUNT (No: 11) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 468
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/143): "Event count for channel 2 (1.04-1.32 keV) of lunar       detector 1 (unfiltered). In modes 144 and 224 the energy range is       2.08-2.64 keV."
+     CATDESC         (CDF_CHAR/131): "Event count for channel 2 (1.04-1.32 keV) of lunar detector 1 (unfiltered). In modes 144 and 224 the energy range is 2.08-2.64 keV."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_1_CHANNEL_3_EVENT_COUNT (No: 12) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 864
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/143): "Event count for channel 3 (1.32-1.61 keV) of lunar       detector 1 (unfiltered). In modes 144 and 224 the energy range is       2.64-3.22 keV."
+     CATDESC         (CDF_CHAR/131): "Event count for channel 3 (1.32-1.61 keV) of lunar detector 1 (unfiltered). In modes 144 and 224 the energy range is 2.64-3.22 keV."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_1_CHANNEL_4_EVENT_COUNT (No: 13) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 828
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/142): "Event count for channel 4 (1.61-1.89 keV) of lunar       detector 1 (unfiltered). In modes 144 and 224 the energy range is       3.22-3.78keV."
+     CATDESC         (CDF_CHAR/130): "Event count for channel 4 (1.61-1.89 keV) of lunar detector 1 (unfiltered). In modes 144 and 224 the energy range is 3.22-3.78keV."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_1_CHANNEL_5_EVENT_COUNT (No: 14) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 432
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/143): "Event count for channel 5 (1.89-2.18 keV) of lunar       detector 1 (unfiltered). In modes 144 and 224 the energy range is       3.78-4.36 keV."
+     CATDESC         (CDF_CHAR/131): "Event count for channel 5 (1.89-2.18 keV) of lunar detector 1 (unfiltered). In modes 144 and 224 the energy range is 3.78-4.36 keV."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_1_CHANNEL_6_EVENT_COUNT (No: 15) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 157
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/143): "Event count for channel 6 (2.18-2.46 keV) of lunar       detector 1 (unfiltered). In modes 144 and 224 the energy range is       4.36-4.92 keV."
+     CATDESC         (CDF_CHAR/131): "Event count for channel 6 (2.18-2.46 keV) of lunar detector 1 (unfiltered). In modes 144 and 224 the energy range is 4.36-4.92 keV."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_1_CHANNEL_7_EVENT_COUNT (No: 16) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 131
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/143): "Event count for channel 7 (2.46-2.75 keV) of lunar       detector 1 (unfiltered). In modes 144 and 224 the energy range is       4.92-5.50 keV."
+     CATDESC         (CDF_CHAR/131): "Event count for channel 7 (2.46-2.75 keV) of lunar detector 1 (unfiltered). In modes 144 and 224 the energy range is 4.92-5.50 keV."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_1_CHANNEL_8_EVENT_COUNT (No: 17) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2441
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/145): "Event count for channel 8 (above 2.75 keV) of lunar       detector 1 (unfiltered). In modes 144 and 224 the energy range is above       5.50 keV."
+     CATDESC         (CDF_CHAR/133): "Event count for channel 8 (above 2.75 keV) of lunar detector 1 (unfiltered). In modes 144 and 224 the energy range is above 5.50 keV."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_1_NON_XRAY_EVENT_COUNT (No: 18) (Recs: 0)
+-------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5354
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/75): "Event count of all non X-ray events for lunar       detector 1 (unfiltered)"
+     CATDESC         (CDF_CHAR/69): "Event count of all non X-ray events for lunar detector 1 (unfiltered)"
+     FIELDNAM        (CDF_CHAR/21): "Event count of all..."
+     LABLAXIS        (CDF_CHAR/21): "Event count of all..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_2_CHANNEL_1_EVENT_COUNT (No: 19) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 425
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/87): "Event count for channel 1 (0.75-1.04 keV) of lunar       detector 2 (magnesium filter)."
+     CATDESC         (CDF_CHAR/81): "Event count for channel 1 (0.75-1.04 keV) of lunar detector 2 (magnesium filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_2_CHANNEL_2_EVENT_COUNT (No: 20) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 217
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/87): "Event count for channel 2 (1.04-1.32 keV) of lunar       detector 2 (magnesium filter)."
+     CATDESC         (CDF_CHAR/81): "Event count for channel 2 (1.04-1.32 keV) of lunar detector 2 (magnesium filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_2_CHANNEL_3_EVENT_COUNT (No: 21) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 149
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/87): "Event count for channel 3 (1.32-1.61 keV) of lunar       detector 2 (magnesium filter)."
+     CATDESC         (CDF_CHAR/81): "Event count for channel 3 (1.32-1.61 keV) of lunar detector 2 (magnesium filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_2_CHANNEL_4_EVENT_COUNT (No: 22) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 88
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/87): "Event count for channel 4 (1.61-1.89 keV) of lunar       detector 2 (magnesium filter)."
+     CATDESC         (CDF_CHAR/81): "Event count for channel 4 (1.61-1.89 keV) of lunar detector 2 (magnesium filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_2_CHANNEL_5_EVENT_COUNT (No: 23) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 50
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/87): "Event count for channel 5 (1.89-2.18 keV) of lunar       detector 2 (magnesium filter)."
+     CATDESC         (CDF_CHAR/81): "Event count for channel 5 (1.89-2.18 keV) of lunar detector 2 (magnesium filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_2_CHANNEL_6_EVENT_COUNT (No: 24) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 90
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/87): "Event count for channel 6 (1.89-2.18 keV) of lunar       detector 2 (magnesium filter)."
+     CATDESC         (CDF_CHAR/81): "Event count for channel 6 (1.89-2.18 keV) of lunar detector 2 (magnesium filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_2_CHANNEL_7_EVENT_COUNT (No: 25) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 92
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/87): "Event count for channel 7 (2.46-2.75 keV) of lunar       detector 2 (magnesium filter)."
+     CATDESC         (CDF_CHAR/81): "Event count for channel 7 (2.46-2.75 keV) of lunar detector 2 (magnesium filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_2_CHANNEL_8_EVENT_COUNT (No: 26) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2098
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/88): "Event count for channel 8 (above 2.75 keV) of lunar       detector 2 (magnesium filter)."
+     CATDESC         (CDF_CHAR/82): "Event count for channel 8 (above 2.75 keV) of lunar detector 2 (magnesium filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_2_NON_XRAY_EVENT_COUNT (No: 27) (Recs: 0)
+-------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5230
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/82): "Event count of all non X-ray events for lunar       detector 2 (magnesium filter)."
+     CATDESC         (CDF_CHAR/76): "Event count of all non X-ray events for lunar detector 2 (magnesium filter)."
+     FIELDNAM        (CDF_CHAR/21): "Event count of all..."
+     LABLAXIS        (CDF_CHAR/21): "Event count of all..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_3_CHANNEL_1_EVENT_COUNT (No: 28) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 813
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/86): "Event count for channel 1 (0.75-1.04 keV) of lunar       detector 3 (aluminum filter)."
+     CATDESC         (CDF_CHAR/80): "Event count for channel 1 (0.75-1.04 keV) of lunar detector 3 (aluminum filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_3_CHANNEL_2_EVENT_COUNT (No: 29) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 266
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/86): "Event count for channel 2 (1.04-1.32 keV) of lunar       detector 3 (aluminum filter)."
+     CATDESC         (CDF_CHAR/80): "Event count for channel 2 (1.04-1.32 keV) of lunar detector 3 (aluminum filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_3_CHANNEL_3_EVENT_COUNT (No: 30) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 233
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/86): "Event count for channel 3 (1.32-1.61 keV) of lunar       detector 3 (aluminum filter)."
+     CATDESC         (CDF_CHAR/80): "Event count for channel 3 (1.32-1.61 keV) of lunar detector 3 (aluminum filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_3_CHANNEL_4_EVENT_COUNT (No: 31) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 129
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/86): "Event count for channel 4 (1.61-1.89 keV) of lunar       detector 3 (aluminum filter)."
+     CATDESC         (CDF_CHAR/80): "Event count for channel 4 (1.61-1.89 keV) of lunar detector 3 (aluminum filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_3_CHANNEL_5_EVENT_COUNT (No: 32) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 44
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/86): "Event count for channel 5 (1.89-2.18 keV) of lunar       detector 3 (aluminum filter)."
+     CATDESC         (CDF_CHAR/80): "Event count for channel 5 (1.89-2.18 keV) of lunar detector 3 (aluminum filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_3_CHANNEL_6_EVENT_COUNT (No: 33) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 60
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/86): "Event count for channel 6 (2.18-2.46 keV) of lunar       detector 3 (aluminum filter)."
+     CATDESC         (CDF_CHAR/80): "Event count for channel 6 (2.18-2.46 keV) of lunar detector 3 (aluminum filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_3_CHANNEL_7_EVENT_COUNT (No: 34) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 67
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/86): "Event count for channel 7 (2.46-2.75 keV) of lunar       detector 3 (aluminum filter)."
+     CATDESC         (CDF_CHAR/80): "Event count for channel 7 (2.46-2.75 keV) of lunar detector 3 (aluminum filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_3_CHANNEL_8_EVENT_COUNT (No: 35) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1470
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/87): "Event count for channel 8 (above 2.75 keV) of lunar       detector 3 (aluminum filter)."
+     CATDESC         (CDF_CHAR/81): "Event count for channel 8 (above 2.75 keV) of lunar detector 3 (aluminum filter)."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_3_NON_XRAY_EVENT_COUNT (No: 36) (Recs: 0)
+-------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 15658
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/81): "Event count of all non X-ray events for lunar       detector 3 (aluminum filter)."
+     CATDESC         (CDF_CHAR/75): "Event count of all non X-ray events for lunar detector 3 (aluminum filter)."
+     FIELDNAM        (CDF_CHAR/21): "Event count of all..."
+     LABLAXIS        (CDF_CHAR/21): "Event count of all..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_4_CHANNEL_1_EVENT_COUNT (No: 37) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1405
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/69): "Event count for channel 1 (1.00-1.29 keV) of       the solar monitor."
+     CATDESC         (CDF_CHAR/63): "Event count for channel 1 (1.00-1.29 keV) of the solar monitor."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_4_CHANNEL_2_EVENT_COUNT (No: 38) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2833
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/69): "Event count for channel 2 (1.29-1.57 keV) of       the solar monitor."
+     CATDESC         (CDF_CHAR/63): "Event count for channel 2 (1.29-1.57 keV) of the solar monitor."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_4_CHANNEL_3_EVENT_COUNT (No: 39) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 65307
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/69): "Event count for channel 3 (1.57-1.86 keV) of       the solar monitor."
+     CATDESC         (CDF_CHAR/63): "Event count for channel 3 (1.57-1.86 keV) of the solar monitor."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_4_CHANNEL_4_EVENT_COUNT (No: 40) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1468
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/70): " Event count for channel 4 (1.86-2.14 keV) of       the solar monitor."
+     CATDESC         (CDF_CHAR/63): "Event count for channel 4 (1.86-2.14 keV) of the solar monitor."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_4_CHANNEL_5_EVENT_COUNT (No: 41) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 65300
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/69): "Event count for channel 5 (2.14-2.43 keV) of       the solar monitor."
+     CATDESC         (CDF_CHAR/63): "Event count for channel 5 (2.14-2.43 keV) of the solar monitor."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_4_CHANNEL_6_EVENT_COUNT (No: 42) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 8278
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/69): "Event count for channel 6 (2.43-2.71 keV) of       the solar monitor."
+     CATDESC         (CDF_CHAR/63): "Event count for channel 6 (2.43-2.71 keV) of the solar monitor."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_4_CHANNEL_7_EVENT_COUNT (No: 43) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 8257
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/69): "Event count for channel 7 (2.71-3.00 keV) of       the solar monitor."
+     CATDESC         (CDF_CHAR/63): "Event count for channel 7 (2.71-3.00 keV) of the solar monitor."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_4_CHANNEL_8_EVENT_COUNT (No: 44) (Recs: 0)
+--------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 878
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/70): "Event count for channel 8 (above 3.00 keV) of       the solar monitor."
+     CATDESC         (CDF_CHAR/64): "Event count for channel 8 (above 3.00 keV) of the solar monitor."
+     FIELDNAM        (CDF_CHAR/18): "Event count for..."
+     LABLAXIS        (CDF_CHAR/18): "Event count for..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+
+DETECTOR_4_NON_XRAY_EVENT_COUNT (No: 45) (Recs: 0)
+-------------------------------
+Attribute Entries:
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1889
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_NOTES       (CDF_CHAR/64): "Event count of all non X-ray events for the       solar monitor."
+     CATDESC         (CDF_CHAR/58): "Event count of all non X-ray events for the solar monitor."
+     FIELDNAM        (CDF_CHAR/21): "Event count of all..."
+     LABLAXIS        (CDF_CHAR/21): "Event count of all..."
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     UNITS           (CDF_CHAR/19): "KILO-ELECTRON VOLTS"
+

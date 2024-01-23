@@ -1,0 +1,1652 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/mms4_fpi_fast_l2_des-momsaux_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     mms4_fpi_fast_l2_des-momsaux_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     77
+NumAttrs:     86 (47 global, 39 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (47 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"STP>Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/27): 	"MMS4>MMS Satellite Number 4"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/19): 	"fast_l2_des-momsaux"
+Descriptor (1 entry):
+	0 (CDF_CHAR/31): 	"DES>Dual Electron Spectrometers"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/41): 	"source_descriptor_datatype_yyyyMMddHHmmss"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/18): 	"J. Burch, B. Giles"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/10): 	"SwRI, GSFC"
+TEXT (1 entry):
+	0 (CDF_CHAR/1223): 	"FPI usually operates in Fast Survey (FS) Mode in the MMS Region Of Interest (ROI) for the current Mission Phase. Data are taken at burst (30/150 ms for DES/DIS) resolution in this mode. Data are also made available at survey (4.5 s) resolution. Per mission design, not all burst-resolution data are downlinked, but all survey data are downlinked. Planning around calibration activities, avoidance of Earth radiation belts, etc, when possible, FPI usually operates in Slow Survey (SS) Mode (60 s resolution) outside of ROI. This product contains partial moments that come from performing the standard moment integrals over a limited portion of velocity space. The resulting quantities are named similarly to their corresponding standard moments, but are decorated with 'part' to differentiate. For example, density_part is the density moment integrated from a particular energy step to infinity. These partial moments are formed from the indicated data type (DES/DIS burst, FS or SS). For convenience, some additional parameters are included to augment those most commonly found in a moments product of this sort, plus time-stamps and other annotation characterizing the state of the instrument system at the indicated time."
+Instrument_type (2 entries):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	1 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/3): 	"MMS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/28): 	"mms4_fpi_fast_l2_des-momsaux"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/89): 	"MMS Satellite Number 4 Dual Electron Spectrometer FastSurvey-resolution auxiliary moments"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/11): 	"4.5 seconds"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/104): 	"See FPI Version Release Notes (https://lasp.colorado.edu/mms/sdc/public/datasets/fpi/) for rules of use."
+Generated_by (1 entry):
+	0 (CDF_CHAR/27): 	"FPI ITF, NASA/GSFC Code 673"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_site (1 entry):
+	0 (CDF_CHAR/3): 	"ITF"
+Acknowledgement (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (4 entries):
+	0 (CDF_CHAR/13): 	"MMS home page"
+	1 (CDF_CHAR/23): 	"SMART package home page"
+	2 (CDF_CHAR/19): 	"Science Data Center"
+	3 (CDF_CHAR/12): 	"FPI overview"
+LINK_TITLE (4 entries):
+	0 (CDF_CHAR/7): 	"at GSFC"
+	1 (CDF_CHAR/7): 	"at SWRI"
+	2 (CDF_CHAR/7): 	"at LASP"
+	3 (CDF_CHAR/7): 	"at NASA"
+HTTP_LINK (4 entries):
+	0 (CDF_CHAR/24): 	"http://mms.gsfc.nasa.gov"
+	1 (CDF_CHAR/25): 	"http://mms.space.swri.edu"
+	2 (CDF_CHAR/32): 	"http://lasp.colorado.edu/mms/sdc"
+	3 (CDF_CHAR/69): 	"http://www.nasa.gov/mission_pages/mms/spacecraft/instruments.html#fpi"
+Skeleton_version (1 entry):
+	0 (CDF_CHAR/17): 	"$Revision: 9524 $"
+Skeleton_revdate (1 entry):
+	0 (CDF_CHAR/53): 	"$Date: 2021-03-09 13:14:05 -0500 (Tue, 09 Mar 2021) $"
+Correction_table_name (1 entry):
+	0 (CDF_CHAR/41): 	"mms4_des_fast_f1ct_v29-0669_0688_p3-5.cdf"
+Correction_table_rev (1 entry):
+	0 (CDF_CHAR/4): 	"7825"
+Correction_table_scaling_factor (1 entry):
+	0 (CDF_CHAR/7): 	"0.80000"
+Energy_table_name (1 entry):
+	0 (CDF_CHAR/20): 	"energies_des_3-5.txt"
+Dead_time_correction (1 entry):
+	0 (CDF_CHAR/6): 	"100 ns"
+Magnetic_field_filenames (1 entry):
+	0 (CDF_CHAR/75): 	"mms4_fgm_srvy_l2_20170209_v5.89.0.cdf mms4_fgm_srvy_l2_20170210_v5.89.0.cdf"
+Spacecraft_potential_filenames (1 entry):
+	0 (CDF_CHAR/97): 	"mms4_edp_fast_l2_scpot_20170209000000_v2.7.0.cdf mms4_edp_fast_l2_scpot_20170210000000_v2.7.0.cdf"
+Spacecraft_potential_scaling_factor (1 entry):
+	0 (CDF_CHAR/3): 	"1.0"
+Spacecraft_potential_offset (1 entry):
+	0 (CDF_CHAR/3): 	"0.0"
+Photoelectron_model_filenames (1 entry):
+	0 (CDF_CHAR/42): 	"mms_fpi_fast_l2_des-bgdist_v1.1.0_p3-5.cdf"
+Photoelectron_model_scaling_factor (1 entry):
+	0 (CDF_CHAR/9): 	"0.3500000"
+Photoelectron_filter (1 entry):
+	0 (CDF_CHAR/3): 	"Off"
+Low_energy_extrapolation (1 entry):
+	0 (CDF_CHAR/8): 	"Disabled"
+High_energy_extrapolation (1 entry):
+	0 (CDF_CHAR/7): 	"Enabled"
+Spacecraft_attitude_filenames (1 entry):
+	0 (CDF_CHAR/31): 	"MMS4_DEFATT_2017040_2017041.V00"
+Lower_energy_integration_limit (1 entry):
+	0 (CDF_CHAR/7): 	"10.00eV"
+Upper_energy_integration_limit (1 entry):
+	0 (CDF_CHAR/10): 	"30000.00eV"
+Energy_e0 (1 entry):
+	0 (CDF_CHAR/8): 	"100.00eV"
+Scp_energy_fraction (1 entry):
+	0 (CDF_CHAR/6): 	"1.00eV"
+Skymap_avgN (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+
+Variable Attributes (39 attributes)
+=========================================
+ABSOLUTE_ERROR
+CATDESC
+COORDINATE_SYSTEM
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+FORM_PTR
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+LEAP_SECONDS_INCLUDED
+MONOTON
+REFERENCE_POSITION
+RELATIVE_ERROR
+REPRESENTATION_1
+REPRESENTATION_2
+REPRESENTATION_3
+RESOLUTION
+SCALETYP
+SCAL_PTR
+SI_CONVERSION
+TENSOR_ORDER
+TIME_BASE
+TIME_SCALE
+TO_COORDINATE_SYSTEM
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_NOTES
+VAR_TYPE
+
+Variable Information (0 rVariable, 77 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+Epoch_plus_var        CDF_REAL4/1	0:[]	F/  
+Epoch_minus_var       CDF_REAL4/1	0:[]	F/  
+mms4_des_errorflags_fast CDF_UINT4/1	0:[]	T/  
+mms4_des_numberdensity_part_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_bulkv_part_dbcs_fast CDF_REAL4/1	2:[32,3]	T/TT
+mms4_des_bulkv_part_gse_fast CDF_REAL4/1	2:[32,3]	T/TT
+mms4_des_prestensor_part_dbcs_fast CDF_REAL4/1	3:[32,3,3]	T/TTT
+mms4_des_prestensor_part_gse_fast CDF_REAL4/1	3:[32,3,3]	T/TTT
+mms4_des_temptensor_part_dbcs_fast CDF_REAL4/1	3:[32,3,3]	T/TTT
+mms4_des_temptensor_part_gse_fast CDF_REAL4/1	3:[32,3,3]	T/TTT
+mms4_des_temppara_part_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_tempperp_part_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_part_index_fast CDF_UINT2/1	0:[]	T/  
+mms4_des_energy_fast  CDF_REAL4/1	1:[32]	T/T
+mms4_des_energy_delta_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_bhat_dbcs_fast CDF_REAL8/1	1:[3]	T/T
+mms4_des_gse_xform_fast CDF_REAL4/1	2:[3,3]	T/TT
+mms4_des_bulkv_dbcs_label_fast CDF_CHAR/7	1:[3]	F/T
+mms4_des_bulkv_gse_label_fast CDF_CHAR/6	1:[3]	F/T
+mms4_des_cartrep_fast CDF_CHAR/1	1:[3]	F/T
+mms4_des_magrep_fast  CDF_CHAR/1	1:[4]	F/T
+mms4_des_compressionloss_fast CDF_UINT1/1	0:[]	F/  
+mms4_des_startdelphi_count_fast CDF_UINT2/1	0:[]	T/  
+mms4_des_startdelphi_angle_fast CDF_REAL4/1	0:[]	T/  
+mms4_des_pitchangdist_lowen_fast CDF_REAL4/1	1:[30]	T/T
+mms4_des_pitchangdist_miden_fast CDF_REAL4/1	1:[30]	T/T
+mms4_des_pitchangdist_highen_fast CDF_REAL4/1	1:[30]	T/T
+mms4_des_energyspectr_px_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_energyspectr_mx_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_energyspectr_py_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_energyspectr_my_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_energyspectr_pz_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_energyspectr_mz_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_energyspectr_par_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_energyspectr_anti_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_energyspectr_perp_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_energyspectr_omni_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_numberdensity_fast CDF_REAL4/1	0:[]	T/  
+mms4_des_numberdensity_err_fast CDF_REAL4/1	0:[]	T/  
+mms4_des_densityextrapolation_low_fast CDF_REAL4/1	0:[]	T/  
+mms4_des_densityextrapolation_high_fast CDF_REAL4/1	0:[]	T/  
+mms4_des_bulkv_dbcs_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_bulkv_spintone_dbcs_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_bulkv_gse_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_bulkv_spintone_gse_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_bulkv_err_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_prestensor_dbcs_fast CDF_REAL4/1	2:[3,3]	T/TT
+mms4_des_prestensor_gse_fast CDF_REAL4/1	2:[3,3]	T/TT
+mms4_des_prestensor_err_fast CDF_REAL4/1	2:[3,3]	T/TT
+mms4_des_temptensor_dbcs_fast CDF_REAL4/1	2:[3,3]	T/TT
+mms4_des_temptensor_gse_fast CDF_REAL4/1	2:[3,3]	T/TT
+mms4_des_temptensor_err_fast CDF_REAL4/1	2:[3,3]	T/TT
+mms4_des_heatq_dbcs_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_heatq_gse_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_heatq_err_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_alpha_fast   CDF_REAL4/1	1:[30]	F/T
+mms4_des_alpha_delta_fast CDF_REAL4/1	1:[30]	F/T
+mms4_des_temppara_fast CDF_REAL4/1	0:[]	T/  
+mms4_des_tempperp_fast CDF_REAL4/1	0:[]	T/  
+mms4_des_bulkv_spintone_dbcs_label_fast CDF_CHAR/16	1:[3]	F/T
+mms4_des_bulkv_spintone_gse_label_fast CDF_CHAR/15	1:[3]	F/T
+mms4_des_bulkv_err_label_fast CDF_CHAR/6	1:[3]	F/T
+mms4_des_heatq_dbcs_label_fast CDF_CHAR/7	1:[3]	F/T
+mms4_des_heatq_gse_label_fast CDF_CHAR/6	1:[3]	F/T
+mms4_des_heatq_err_label_fast CDF_CHAR/6	1:[3]	F/T
+mms4_des_scpot_mean_fast CDF_REAL4/1	0:[]	T/  
+mms4_des_scpot_max_fast CDF_REAL4/1	0:[]	T/  
+mms4_des_fpibentpipe_dsc_fast CDF_REAL4/1	1:[4]	T/T
+mms4_des_fpib_gse_srvy_fast CDF_REAL4/1	1:[4]	T/T
+mms4_des_fpib_dmpa_srvy_fast CDF_REAL4/1	1:[4]	T/T
+mms4_des_pos_gse_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_pos_gsm_fast CDF_REAL4/1	1:[3]	T/T
+mms4_des_numberdensity_int_fast CDF_REAL4/1	1:[32]	T/T
+mms4_des_numberflux_int_dbcs_fast CDF_REAL4/1	2:[32,3]	T/TT
+mms4_des_prestensor_int_dbcs_fast CDF_REAL4/1	3:[32,3,3]	T/TTT
+mms4_des_ugrid_int_fast CDF_REAL4/1	1:[32]	T/T
+
+
+Variable (77 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "Nanoseconds since J2000"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "Epoch_plus_var"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "Epoch_minus_var"
+     FIELDNAM        (CDF_CHAR/9): "Time tags"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-9>s"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2099-12-31T23:59:59.000000000
+     VAR_NOTES       (CDF_CHAR/69): "MMS4 FPI/DES survey data begin-time; derived from survey packet time."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Epoch_plus_var (No: 1) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "MMS4 FPI/DES epoch plus var"
+     FIELDNAM        (CDF_CHAR/27): "MMS4 FPI/DES epoch plus var"
+     FORMAT          (CDF_CHAR/4): "F4.2"
+     SI_CONVERSION   (CDF_CHAR/5): "1.0>s"
+     UNITS           (CDF_CHAR/1): "s"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 4.5
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Epoch_minus_var (No: 2) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "MMS4 FPI/DES epoch minus var"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES epoch minus var"
+     FORMAT          (CDF_CHAR/4): "F4.2"
+     SI_CONVERSION   (CDF_CHAR/5): "1.0>s"
+     UNITS           (CDF_CHAR/1): "s"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 4.5
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_errorflags_fast (No: 3) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "MMS4 FPI/DES vector of data-quality indicators at survey-start time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): "MMS4 FPI/DES dataQuality errorFlags"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/8): "errFlags"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     UNITS           (CDF_CHAR/18): "32-bit error flags"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967294
+     VAR_NOTES       (CDF_CHAR/705): "Value of zero signifies no quality errors. For non-zero values: Bit-0 = manually flagged interval, Bit-1 = overcounting/saturation effects likely present in skymap, Bit-2 = reported spacecraft potential above 20V, Bit-3 = invalid/unavailable spacecraft potential, Bit-4 = significant (>10%) cold plasma (<10eV) component, Bit-5 = significant (>25%) hot plasma (>30keV) component, Bit-6 = high sonic Mach number (v/vth > 2.5), Bit-7 = low calculated density (n_DES < 0.05 cm^-3), Bit-8 = bentPipe magnetic field used instead of srvy l2pre magnetic field, Bit-10 = no internally generated photoelectron correction applied, Bit-11 = compression pipeline error, Bit-12 = spintone calculation error (DBCS only)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_numberdensity_part_fast (No: 4) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "MMS4 FPI/DES partial electron number density during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): "MMS4 FPI/DES partial number density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/1): "N"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1e6>m^-3"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_bulkv_part_dbcs_fast (No: 5) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/77): "MMS4 FPI/DES partial electron bulk-velocity vector in DBCS during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "MMS4 FPI/DES DBCS partial bulk v"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_2      (CDF_CHAR/30): "mms4_des_bulkv_dbcs_label_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): -110000.0
+     VALIDMAX        (CDF_REAL4/1): 110000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_bulkv_part_gse_fast (No: 6) (Recs: 0) (Compression: GZIP.6)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "MMS4 FPI/DES partial electron bulk-velocity vector in GSE during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/31): "MMS4 FPI/DES GSE partial bulk v"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_2      (CDF_CHAR/29): "mms4_des_bulkv_gse_label_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): -110000.0
+     VALIDMAX        (CDF_REAL4/1): 110000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_prestensor_part_dbcs_fast (No: 7) (Recs: 0) (Compression: GZIP.6)
+----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "MMS4 FPI/DES partial electron pressure tensor in DBCS during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "MMS4 FPI/DES DBCS partial pres tensor"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "P_DBCS"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_3      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_3 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/9): "1.0e-9>Pa"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/3): "nPa"
+     VALIDMIN        (CDF_REAL4/1): -100000.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_NOTES       (CDF_CHAR/109): "The 3x3 matrix is represented as: Row1) Pxx Pxy Pxz, Row2) Pyx Pyy Pyz, Row3) Pzx Pzy Pzz. Note that Pij=Pji."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_prestensor_part_gse_fast (No: 8) (Recs: 0) (Compression: GZIP.6)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "MMS4 FPI/DES partial electron pressure tensor in GSE during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/36): "MMS4 FPI/DES GSE partial pres tensor"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "P_GSE"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_3      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_3 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/9): "1.0e-9>Pa"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/3): "nPa"
+     VALIDMIN        (CDF_REAL4/1): -100000.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_NOTES       (CDF_CHAR/109): "The 3x3 matrix is represented as: Row1) Pxx Pxy Pxz, Row2) Pyx Pyy Pyz, Row3) Pzx Pzy Pzz. Note that Pij=Pji."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_temptensor_part_dbcs_fast (No: 9) (Recs: 0) (Compression: GZIP.6)
+----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/75): "MMS4 FPI/DES partial electron temperature tensor in DBCS during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "MMS4 FPI/DES DBCS partial temp tensor"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "T_DBCS"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_3      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_3 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "11604.50520>K"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): -30000.0
+     VALIDMAX        (CDF_REAL4/1): 30000.0
+     VAR_NOTES       (CDF_CHAR/109): "The 3x3 matrix is represented as: Row1) Txx Txy Txz, Row2) Tyx Tyy Tyz, Row3) Tzx Tzy Tzz. Note that Tij=Tji."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_temptensor_part_gse_fast (No: 10) (Recs: 0) (Compression: GZIP.6)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "MMS4 FPI/DES partial electron temperature tensor in GSE during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/36): "MMS4 FPI/DES GSE partial temp tensor"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "T_GSE"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_3      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_3 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "11604.50520>K"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): -30000.0
+     VALIDMAX        (CDF_REAL4/1): 30000.0
+     VAR_NOTES       (CDF_CHAR/109): "The 3x3 matrix is represented as: Row1) Txx Txy Txz, Row2) Tyx Tyy Tyz, Row3) Tzx Tzy Tzz. Note that Tij=Tji."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_temppara_part_fast (No: 11) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "MMS4 FPI/DES partial electron parallel temperature during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "MMS4 FPI4/DES partial tempPara"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "eT_para"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "11604.50520>K"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_tempperp_part_fast (No: 12) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "MMS4 FPI/DES partial electron perpendicular temperature during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "MMS4 FPI4/DES partial tempPerp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "eT_perp"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "11604.50520>K"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_part_index_fast (No: 13) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "MMS4 FPI/DES recommended energy index for partial moments during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/23): "MMS4 FPI/DES part_index"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/10): "part_index"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     UNITS           (CDF_CHAR/4): "0-31"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 31
+     VAR_NOTES       (CDF_CHAR/43): "Recommended energy index during this survey"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energy_fast (No: 14) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "MMS4 FPI/DES fast survey sky-map energies"
+     DELTA_PLUS_VAR  (CDF_CHAR/26): "mms4_des_energy_delta_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/26): "mms4_des_energy_delta_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/19): "MMS4 FPI/DES energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/22): "lowest included energy"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/15): "1.6021773E-19>J"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 30000.0
+     VAR_NOTES       (CDF_CHAR/80): "Geometric mean of parity 0 and parity 1 energies in the 64-step FPI energy table"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_energy_delta_fast (No: 15) (Recs: 0)
+--------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "MMS4 FPI/DES fast survey sky-map delta energies"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/25): "MMS4 FPI/DES delta energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/12): "delta energy"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/15): "1.6021773E-19>J"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 5000.0
+     VAR_NOTES       (CDF_CHAR/192): "Note that the deltas are provided to indicate that FPI is reporting the energy bin centers. These do not necessarily reflect the energy bandwidth that is sampled by FPI at a given energy step."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_bhat_dbcs_fast (No: 16) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "MMS4 FPI/DES unit vector mag field"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "MMS4 FPI/DES BHAT DBCS"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-9>T"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -110000.0
+     VALIDMAX        (CDF_REAL4/1): 110000.0
+     VAR_NOTES       (CDF_CHAR/170): "Unit vector magnetic field direction used for pitch angle determination. This data is derived from the MMS Fluxgate Magnetometers data and is included for reference only."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_gse_xform_fast (No: 17) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "MMS4 FPI/DES gse transformation matrix"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): "MMS4 FPI/DES gse transform matrix"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     TO_COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): -110000.0
+     VALIDMAX        (CDF_REAL4/1): 110000.0
+     VAR_NOTES       (CDF_CHAR/36): "Matrix used to transform dbcs to gse"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_bulkv_dbcs_label_fast (No: 18) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "MMS/FPI DBCS velocity label"
+     FIELDNAM        (CDF_CHAR/27): "MMS/FPI DBCS velocity label"
+     FORMAT          (CDF_CHAR/2): "A7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_bulkv_gse_label_fast (No: 19) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "MMS/FPI GSE velocity label"
+     FIELDNAM        (CDF_CHAR/26): "MMS/FPI GSE velocity label"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_cartrep_fast (No: 20) (Recs: 1)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "MMS/FPI cartesian representation variable"
+     FIELDNAM        (CDF_CHAR/32): "MMS/FPI cartesian representation"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_magrep_fast (No: 21) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "MMS/FPI cartesian representation variable with magnitude"
+     FIELDNAM        (CDF_CHAR/47): "MMS/FPI cartesian representation with magnitude"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_compressionloss_fast (No: 22) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/70): "MMS4 FPI/DES compression lossless/lossy indicator at survey-start time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "MMS4 FPI/DES compression flag"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I1"
+     LABLAXIS        (CDF_CHAR/12): "compressFlag"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     UNITS           (CDF_CHAR/4): "0, 1"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     VAR_NOTES       (CDF_CHAR/55): "FPI/DES compression loss indicator, 0=lossless, 1=lossy"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_startdelphi_count_fast (No: 23) (Recs: 0) (Compression: GZIP.6)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "MMS4 FPI/DES Del-Phi (obs spin-phase) count at survey-start time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "MMS4 FPI/DES start Del-Phi count"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/4): "I4.4"
+     LABLAXIS        (CDF_CHAR/10): "DelPhi_cnt"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     UNITS           (CDF_CHAR/14): "del-phi counts"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 5761
+     VAR_NOTES       (CDF_CHAR/196): "Nominally, spin-phase counts range over [0000, 5759] cnts.  Each count represents 1/16 deg of observatory spin-phase.  Zero spin-phase angle indicates obs +X-axis aligned with the sun-sensor axis."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_startdelphi_angle_fast (No: 24) (Recs: 0) (Compression: GZIP.6)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "MMS4 FPI/DES Del-Phi (obs spin-phase) angle at survey-start time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "MMS4 FPI/DES start Del-Phi angle"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/10): "DelPhi_ang"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/16): "0.0174532925>rad"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_NOTES       (CDF_CHAR/191): "Nominally, spin-phase angles range over [0, 360) deg.  Each count represents 1/16 deg of observatory spin-phase.  Zero spin-phase angle indicates obs +X-axis aligned with the sun-sensor axis."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_pitchangdist_lowen_fast (No: 25) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "MMS4 FPI/DES electron pitch-angle distribution for "low" energies during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/19): "mms4_des_alpha_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/31): "MMS4 FPI/DES pitchAngDist_lowEn"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "PAD_low"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/188): "Low energy bin: energy steps 0-10 (of total steps 0-31). Pitch-angle bin size: 6 deg. Note that pitch angles are calculated in the spacecraft frame; i.e., not shifted by the bulk velocity."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_pitchangdist_miden_fast (No: 26) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "MMS4 FPI/DES electron pitch-angle distribution for "mid" energies during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/19): "mms4_des_alpha_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/31): "MMS4 FPI/DES pitchAngDist_midEn"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "PAD_mid"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/189): "Mid energy bin: energy steps 11-20 (of total steps 0-31). Pitch-angle bin size: 6 deg. Note that pitch angles are calculated in the spacecraft frame; i.e., not shifted by the bulk velocity."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_pitchangdist_highen_fast (No: 27) (Recs: 0) (Compression: GZIP.6)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/85): "MMS4 FPI/DES electron pitch-angle distribution for "high" energies during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/19): "mms4_des_alpha_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/32): "MMS4 FPI/DES pitchAngDist_highEn"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "PAD_high"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/190): "High energy bin: energy steps 21-31 (of total steps 0-31). Pitch-angle bin size: 6 deg. Note that pitch angles are calculated in the spacecraft frame; i.e., not shifted by the bulk velocity."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_px_fast (No: 28) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "MMS4 FPI/DES electron energy spectrum "near" +X_DBCS during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES energySpectr_pX"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "DEF_px"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/251): "Differential energy flux by energy bin, averaged (weighted by solid angle) over particles whose DBCS flow direction is within 45 degrees (polar and azimuthal) of the +x axis (instrument look angles: 45deg <= theta < 135deg and 135deg <= phi < 225deg)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_mx_fast (No: 29) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "MMS4 FPI/DES electron energy spectrum "near" -X_DBCS during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES energySpectr_mX"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "DEF_mx"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/257): "Differential energy flux by energy bin, averaged (weighted by solid angle) over particles whose DBCS flow direction is within 45 degrees (polar and azimuthal) of the -x axis (instrument look angles: 45deg <= theta < 135deg and phi >= 315deg or phi < 45deg)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_py_fast (No: 30) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "MMS4 FPI/DES electron energy spectrum "near" +Y_DBCS during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES energySpectr_pY"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "DEF_py"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/251): "Differential energy flux by energy bin, averaged (weighted by solid angle) over particles whose DBCS flow direction is within 45 degrees (polar and azimuthal) of the +y axis (instrument look angles: 45deg <= theta < 135deg and 225deg <= phi < 315deg)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_my_fast (No: 31) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "MMS4 FPI/DES electron energy spectrum "near" -Y_DBCS during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES energySpectr_mY"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "DEF_my"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/250): "Differential energy flux by energy bin, averaged (weighted by solid angle) over particles whose DBCS flow direction is within 45 degrees (polar and azimuthal) of the -y axis (instrument look angles: 45deg <= theta < 135deg and 45deg <= phi < 135deg)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_pz_fast (No: 32) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "MMS4 FPI/DES electron energy spectrum "near" +Z_DBCS during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES energySpectr_pZ"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "DEF_pz"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/250): "Differential energy flux by energy bin, averaged (weighted by solid angle) over particles whose DBCS flow direction is within 45 degrees (polar and azimuthal) of the +z axis (instrument look angles: 135deg <= theta < 180deg and 0deg <= phi < 360deg)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_mz_fast (No: 33) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "MMS4 FPI/DES electron energy spectrum "near" -Z_DBCS during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES energySpectr_mZ"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "DEF_mz"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/247): "Differential energy flux by energy bin, averaged (weighted by solid angle) over particles whose DBCS flow direction is within 45 degrees (polar and azimuthal) of the -z axis (instrument look angles: 0deg <= theta < 45deg and 0deg <= phi < 360deg)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_par_fast (No: 34) (Recs: 0) (Compression: GZIP.6)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/88): "MMS4 FPI/DES electron energy parallel to the magnetic field direction during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/29): "MMS4 FPI/DES energySpectr_par"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "DEF_par"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/201): "Differential energy flux by energy bin, averaged (weighted by solid angle) over particles whose DBCS flow direction (not instrument look direction) is within 30 degrees of the magnetic field direction."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_anti_fast (No: 35) (Recs: 0) (Compression: GZIP.6)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/93): "MMS4 FPI/DES electron energy anti-parallel to the magnetic field direction during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/30): "MMS4 FPI/DES energySpectr_anti"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/12): "DEF_anti-par"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/202): "Differential energy flux by energy bin, averaged (weighted by solid angle) over particles whose DBCS flow direction (not instrument look direction) is within 150 degrees of the magnetic field direction."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_perp_fast (No: 36) (Recs: 0) (Compression: GZIP.6)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/93): "MMS4 FPI/DES electron energy perpendicular to the magnetic field direction during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/30): "MMS4 FPI/DES energySpectr_perp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "DEF_perp"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/205): "Differential energy flux by energy bin, averaged (weighted by solid angle) over particles whose DBCS flow direction (not instrument look direction) is within 60-120 degrees of the magnetic field direction."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_energyspectr_omni_fast (No: 37) (Recs: 0) (Compression: GZIP.6)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "MMS4 FPI/DES omni-directional electron energy spectrum during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/20): "mms4_des_energy_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/30): "MMS4 FPI/DES energySpectr_omni"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "DEF_omni"
+     SCALETYP        (CDF_CHAR/3): "log"
+     SI_CONVERSION   (CDF_CHAR/20): "1.e4>m^-2 s^-1 sr^-1"
+     UNITS           (CDF_CHAR/19): "keV/(cm^2 s sr keV)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/110): "Differential energy flux by energy bin, averaged (weighted by solid angle) over all directions (flow or look)."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_numberdensity_fast (No: 38) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "MMS4 FPI/DES electron number density during this survey"
+     DELTA_PLUS_VAR  (CDF_CHAR/31): "mms4_des_numberdensity_err_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/31): "mms4_des_numberdensity_err_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/27): "MMS4 FPI/DES number density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/1): "N"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1e6>m^-3"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_numberdensity_err_fast (No: 39) (Recs: 0) (Compression: GZIP.6)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "MMS4 FPI/DES electron number density error during this survey"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): "MMS4 FPI/DES number density error"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "N_err"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1e6>m^-3"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_densityextrapolation_low_fast (No: 40) (Recs: 0) (Compression: GZIP.6)
+--------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/91): "MMS4 FPI/DES estimated (via extrapolation to 0) contribution to density integral below 10eV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/40): "MMS4 FPI/DES density extrapolation (low)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/1): "N"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1e6>m^-3"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_densityextrapolation_high_fast (No: 41) (Recs: 0) (Compression: GZIP.6)
+---------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/99): "MMS4 FPI/DES estimated (via extrapolation to infinity) contribution to density integral above 30keV"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/41): "MMS4 FPI/DES density extrapolation (high)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/1): "N"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1e6>m^-3"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_bulkv_dbcs_fast (No: 42) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "MMS4 FPI/DES electron bulk-velocity vector in DBCS during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "mms4_des_bulkv_err_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "mms4_des_bulkv_err_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "MMS4 FPI/DES DBCS bulk v"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/30): "mms4_des_bulkv_dbcs_label_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): -110000.0
+     VALIDMAX        (CDF_REAL4/1): 110000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_bulkv_spintone_dbcs_fast (No: 43) (Recs: 0) (Compression: GZIP.6)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/88): "MMS4 FPI/DES electron bulk-velocity estimated spintone vector in DBCS during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): "MMS4 FPI/DES DBCS bulk v spintone"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/39): "mms4_des_bulkv_spintone_dbcs_label_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): -110000.0
+     VALIDMAX        (CDF_REAL4/1): 110000.0
+     VAR_NOTES       (CDF_CHAR/212): "Estimated systematic error (positive or negative) in spin-plane bulk velocity (km/s) due to imperfect sensor suite flat-fielding. This can be subtracted from bulk velocity to obtain the corrected velocity vector."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_bulkv_gse_fast (No: 44) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "MMS4 FPI/DES electron bulk-velocity vector in GSE during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "mms4_des_bulkv_err_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "mms4_des_bulkv_err_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/23): "MMS4 FPI/DES GSE bulk v"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "mms4_des_bulkv_gse_label_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): -110000.0
+     VALIDMAX        (CDF_REAL4/1): 110000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_bulkv_spintone_gse_fast (No: 45) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/87): "MMS4 FPI/DES electron bulk-velocity estimated spintone vector in GSE during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "MMS4 FPI/DES GSE bulk v spintone"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/38): "mms4_des_bulkv_spintone_gse_label_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): -110000.0
+     VALIDMAX        (CDF_REAL4/1): 110000.0
+     VAR_NOTES       (CDF_CHAR/212): "Estimated systematic error (positive or negative) in spin-plane bulk velocity (km/s) due to imperfect sensor suite flat-fielding. This can be subtracted from bulk velocity to obtain the corrected velocity vector."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_bulkv_err_fast (No: 46) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "MMS4 FPI/DES electron bulk-velocity error vector during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/25): "MMS4 FPI/DES bulk v error"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "mms4_des_bulkv_err_label_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 220000.0
+     VAR_NOTES       (CDF_CHAR/60): "Error can be applied to either DBCS or GSE coordinate system"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_prestensor_dbcs_fast (No: 47) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "MMS4 FPI/DES electron pressure tensor in DBCS during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DELTA_PLUS_VAR  (CDF_CHAR/28): "mms4_des_prestensor_err_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/28): "mms4_des_prestensor_err_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "MMS4 FPI/DES DBCS pres tensor"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "P_DBCS"
+     LABL_PTR_1      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/9): "1.0e-9>Pa"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/3): "nPa"
+     VALIDMIN        (CDF_REAL4/1): -100000.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_NOTES       (CDF_CHAR/109): "The 3x3 matrix is represented as: Row1) Pxx Pxy Pxz, Row2) Pyx Pyy Pyz, Row3) Pzx Pzy Pzz. Note that Pij=Pji."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_prestensor_gse_fast (No: 48) (Recs: 0) (Compression: GZIP.6)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "MMS4 FPI/DES electron pressure tensor in GSE during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DELTA_PLUS_VAR  (CDF_CHAR/28): "mms4_des_prestensor_err_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/28): "mms4_des_prestensor_err_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES GSE pres tensor"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "P_GSE"
+     LABL_PTR_1      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/9): "1.0e-9>Pa"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/3): "nPa"
+     VALIDMIN        (CDF_REAL4/1): -100000.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_NOTES       (CDF_CHAR/109): "The 3x3 matrix is represented as: Row1) Pxx Pxy Pxz, Row2) Pyx Pyy Pyz, Row3) Pzx Pzy Pzz. Note that Pij=Pji."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_prestensor_err_fast (No: 49) (Recs: 0) (Compression: GZIP.6)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "MMS4 FPI/DES electron pressure tensor error during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/23): "MMS4 FPI/DES Pres error"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "P_err"
+     LABL_PTR_1      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/9): "1.0e-9>Pa"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/3): "nPa"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 200000.0
+     VAR_NOTES       (CDF_CHAR/60): "Error can be applied to either DBCS or GSE coordinate system"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_temptensor_dbcs_fast (No: 50) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "MMS4 FPI/DES electron temperature tensor in DBCS during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DELTA_PLUS_VAR  (CDF_CHAR/28): "mms4_des_temptensor_err_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/28): "mms4_des_temptensor_err_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "MMS4 FPI/DES DBCS temp tensor"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "T_DBCS"
+     LABL_PTR_1      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "11604.50520>K"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): -30000.0
+     VALIDMAX        (CDF_REAL4/1): 30000.0
+     VAR_NOTES       (CDF_CHAR/109): "The 3x3 matrix is represented as: Row1) Txx Txy Txz, Row2) Tyx Tyy Tyz, Row3) Tzx Tzy Tzz. Note that Tij=Tji."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_temptensor_gse_fast (No: 51) (Recs: 0) (Compression: GZIP.6)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "MMS4 FPI/DES electron temperature tensor in GSE during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DELTA_PLUS_VAR  (CDF_CHAR/28): "mms4_des_temptensor_err_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/28): "mms4_des_temptensor_err_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES GSE temp tensor"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "T_GSE"
+     LABL_PTR_1      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "11604.50520>K"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): -30000.0
+     VALIDMAX        (CDF_REAL4/1): 30000.0
+     VAR_NOTES       (CDF_CHAR/109): "The 3x3 matrix is represented as: Row1) Txx Txy Txz, Row2) Tyx Tyy Tyz, Row3) Tzx Tzy Tzz. Note that Tij=Tji."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_temptensor_err_fast (No: 52) (Recs: 0) (Compression: GZIP.6)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "MMS4 FPI/DES electron temperature tensor error during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/28): "MMS4 FPI/DES DBCS temp error"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/5): "T_err"
+     LABL_PTR_1      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     LABL_PTR_2      (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     REPRESENTATION_2 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "11604.50520>K"
+     TENSOR_ORDER    (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 60000.0
+     VAR_NOTES       (CDF_CHAR/60): "Error can be applied to either DBCS or GSE coordinate system"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_heatq_dbcs_fast (No: 53) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "MMS4 FPI/DES electron heat-flux vector in DBCS during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "mms4_des_heatq_err_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "mms4_des_heatq_err_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/23): "MMS4 FPI/DES DBCS heatq"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/30): "mms4_des_heatq_dbcs_label_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "1.0e-3>W m^-2"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/6): "mW/m^2"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+08
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_heatq_gse_fast (No: 54) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "MMS4 FPI/DES electron heat-flux vector in GSE during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "mms4_des_heatq_err_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "mms4_des_heatq_err_fast"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "MMS4 FPI/DES GSE heatq"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "mms4_des_heatq_gse_label_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "1.0e-3>W m^-2"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/6): "mW/m^2"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+08
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_heatq_err_fast (No: 55) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "MMS4 FPI/DES electron heat-flux error vector during this survey"
+     COORDINATE_SYSTEM (CDF_CHAR/34): "DBCS>Despun Body Coordinate System"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "MMS4 FPI/DES heatq error"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "mms4_des_heatq_err_label_fast"
+     REPRESENTATION_1 (CDF_CHAR/21): "mms4_des_cartrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "1.0e-3>W m^-2"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/6): "mW/m^2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.0e+08
+     VAR_NOTES       (CDF_CHAR/60): "Error can be applied to either DBCS or GSE coordinate system"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_alpha_fast (No: 56) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "MMS4 FPI/DES fast survey sky-map pitch angles"
+     DELTA_PLUS_VAR  (CDF_CHAR/25): "mms4_des_alpha_delta_fast"
+     DELTA_MINUS_VAR (CDF_CHAR/25): "mms4_des_alpha_delta_fast"
+     FIELDNAM        (CDF_CHAR/18): "MMS4 FPI/DES alpha"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "pitch_ang"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/16): "0.0174532925>rad"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_NOTES       (CDF_CHAR/70): "Pitch-angles angles used in pitch angle spectrograms (bent Pipe field)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_alpha_delta_fast (No: 57) (Recs: 1)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "MMS4 FPI/DES fast survey sky-map pitch angle deltas"
+     FIELDNAM        (CDF_CHAR/24): "MMS4 FPI/DES alpha delta"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/15): "delta pitch_ang"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/16): "0.0174532925>rad"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     VAR_NOTES       (CDF_CHAR/18): "Pitch angle deltas"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms4_des_temppara_fast (No: 58) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "MMS4 FPI/DES electron parallel temperature during this BP"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "MMS4 FPI4/DES tempPara"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "eT_para"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "11604.50520>K"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_tempperp_fast (No: 59) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "MMS4 FPI/DES electron perpendicular temperature during this BP"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "MMS4 FPI4/DES tempPerp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "eT_perp"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/13): "11604.50520>K"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_bulkv_spintone_dbcs_label_fast (No: 60) (Recs: 1)
+---------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "MMS/FPI DBCS velocity spintone label"
+     FIELDNAM        (CDF_CHAR/36): "MMS/FPI DBCS velocity spintone label"
+     FORMAT          (CDF_CHAR/3): "A16"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_bulkv_spintone_gse_label_fast (No: 61) (Recs: 1)
+--------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "MMS/FPI GSE velocity spintone label"
+     FIELDNAM        (CDF_CHAR/35): "MMS/FPI GSE velocity spintone label"
+     FORMAT          (CDF_CHAR/3): "A15"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_bulkv_err_label_fast (No: 62) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "MMS/FPI err velocity label"
+     FIELDNAM        (CDF_CHAR/26): "MMS/FPI err velocity label"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_heatq_dbcs_label_fast (No: 63) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "MMS/FPI DBCS heat flux label"
+     FIELDNAM        (CDF_CHAR/28): "MMS/FPI DBCS heat flux label"
+     FORMAT          (CDF_CHAR/2): "A7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_heatq_gse_label_fast (No: 64) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "MMS/FPI GSE heat flux label"
+     FIELDNAM        (CDF_CHAR/27): "MMS/FPI GSE heat flux label"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_heatq_err_label_fast (No: 65) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "MMS/FPI err heat flux label"
+     FIELDNAM        (CDF_CHAR/27): "MMS/FPI err heat flux label"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms4_des_scpot_mean_fast (No: 66) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "MMS4 FPI/DES S/C potential mean"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "MMS4 FPI4/DES scpot_mean"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/19): "FPI4/DES scpot_mean"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/79): "Average spacecraft potential during this FP used to shift the measure energies."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_scpot_max_fast (No: 67) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "MMS4 FPI/DES S/C potential max"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/23): "MMS4 FPI4/DES scpot_max"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "FPI4/DES scpot_max"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     UNITS           (CDF_CHAR/1): "V"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_NOTES       (CDF_CHAR/112): "Maximum spacecraft potential during this FP used to exclude energies containing spacecraft photoelectron fluxes."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_fpibentpipe_dsc_fast (No: 68) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "MMS4 FPI/DES Mag data X,Y,Z,Norm DSC  components [nT] at survey-start time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/59): "MMS4 FPI/DES bent-pipe Mag data, X,Y,Z,Norm  DSC components"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "FPI4/DES B_DSC"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-9>T"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_NOTES       (CDF_CHAR/35): "X, Y, Z are unit vector components."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_fpib_gse_srvy_fast (No: 69) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Magnetic field vector X,Y,Z, and magnitude B"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/54): "Magnetic field vector in GSE plus Btotal (8 or 16 S/s)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.5"
+     LABLAXIS        (CDF_CHAR/19): "mms4_des_b_gse_srvy"
+     REPRESENTATION_1 (CDF_CHAR/20): "mms4_des_magrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-9>T"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/4): -17000.0, -17000.0, -17000.0, -0.0
+     VALIDMAX        (CDF_REAL4/4): 17000.0, 17000.0, 17000.0, 17000.0
+     VAR_NOTES       (CDF_CHAR/50): "Averaged survey magnetic field data during this FP"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_fpib_dmpa_srvy_fast (No: 70) (Recs: 0) (Compression: GZIP.6)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Magnetic field vector X,Y,Z, and magnitude B"
+     COORDINATE_SYSTEM (CDF_CHAR/32): "DMPA>Despun Major Principle Axis"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Magnetic field vector in DMPA plus Btotal (8 or 16 S/s)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.5"
+     LABLAXIS        (CDF_CHAR/20): "mms4_des_b_dmpa_srvy"
+     REPRESENTATION_1 (CDF_CHAR/20): "mms4_des_magrep_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-9>T"
+     TENSOR_ORDER    (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/4): -17000.0, -17000.0, -17000.0, -0.0
+     VALIDMAX        (CDF_REAL4/4): 17000.0, 17000.0, 17000.0, 17000.0
+     VAR_NOTES       (CDF_CHAR/152): "Averaged survey magnetic field data during this FP. DMPA coordinates are within 3 deg from DBCS coordinates and are used for pitch-angle determination. "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_pos_gse_fast (No: 71) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "Position in GSE coordinates, 30 second"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "mms4_des_pos_gse"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/16): "mms4_des_pos_gse"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_pos_gsm_fast (No: 72) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "Position in GSM coordinates, 30 second"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "mms4_des_pos_gsm"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/16): "mms4_des_pos_gsm"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_numberdensity_int_fast (No: 73) (Recs: 0) (Compression: GZIP.6)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "MMS4 number density integrands"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/23): "mms4_des_ugrid_int_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "mms4_des_numberdensity_int"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/26): "mms4_des_numberdensity_int"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_NOTES       (CDF_CHAR/72): "Integrand terms used in normalized energy integration for number density"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_numberflux_int_dbcs_fast (No: 74) (Recs: 0) (Compression: GZIP.6)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "number flux"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/23): "mms4_des_ugrid_int_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): "mms4_des_numberflux_int_dbcs_fast"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/33): "mms4_des_numberflux_int_dbcs_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/12): "km/s * cm^-3"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_NOTES       (CDF_CHAR/69): "Integrand terms used in normalized energy integration for number flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_prestensor_int_dbcs_fast (No: 75) (Recs: 0) (Compression: GZIP.6)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "MMS4 pressure tensor integrands"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/23): "mms4_des_ugrid_int_fast"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): "mms4_des_prestensor_int_dbcs_fast"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/33): "mms4_des_prestensor_int_dbcs_fast"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/8): "erg/cm^3"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_NOTES       (CDF_CHAR/111): "Integrand terms used in normalized energy integration for pressure tensor (L2 bulk velocity taken into account)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+mms4_des_ugrid_int_fast (No: 76) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/78): "Normalized energies (E/(E+E0)) used in numerical integration of plasma moments"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "mms4_des_ugrid_int"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "mms4_des_ugrid_int"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/5): "eV/eV"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+08
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+

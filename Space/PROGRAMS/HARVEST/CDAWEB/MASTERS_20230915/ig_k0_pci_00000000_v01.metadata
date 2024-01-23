@@ -1,0 +1,223 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ig_k0_pci_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ig_k0_pci_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     6
+NumAttrs:     37 (20 global, 17 variable)
+Compression:  None
+
+Global Attributes (20 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/34): 	"INTERBALL-GROUND>Ground Based Data"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/24): 	"PCI>PC Geomagnetic Index"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/24): 	"Polar Cap Activity Index"
+TEXT (2 entries):
+	0 (CDF_CHAR/78): 	"References:     1.Troshichev O.A. et al, Planet.Space Sci.,   36, 1095, 1988. "
+	1 (CDF_CHAR/90): 	"2.Vennerstrom S. et al,  Report UAG-103, World Data Center A for STP, Boulder, April 1994 "
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"created Mar 1996"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0250"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IG_K0_PCI_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IG_K0_PCI"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/50): 	"Interball Polar Cap Activity Index, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"V.Sergeev "
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/66): 	"Institute of physics Univ. of St.-Peterburg St.-Peterburg, Russia "
+Mission_group (2 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/47): 	"Ground-Based Magnetometers, Riometers, Sounders"
+TEXT_supplement_1 (6 entries):
+	0 (CDF_CHAR/148): 	"PC-index is an empirical magnetic activity index based on data from single near-pole station (Thule or Vostok for N or S hemispheres, respectively)."
+	1 (CDF_CHAR/159): 	"Its derivation procedure is optimized to achieve the best correlation of  PC-index with the solar wind electric field (SWEF) magnitude ( v*B*sin(teta/2)**2 ). "
+	2 (CDF_CHAR/321): 	"The averaged horizontal magnetic disturbance vector (quiet  value subtracted) is projected onto the optimal direction (defined  empirically for each UT hour and each season based on the best correlation  with the SWEF) and, after normalization to the equivalent value  of SWEF, it gives the PC-index (expressed in mV/m). "
+	3 (CDF_CHAR/226): 	"Although PC-index is  formally expressed in mV/m, it actually represents the  measure of magnetic activity, the normalization procedure (to SWEF)  helps to reduce the seasonal/diurnal effects to facilitate the intercomparison."
+	4 (CDF_CHAR/252): 	"The resolution of the northern cap PC-index is 5 min and of the one from southern cap - 15 min. However, one time scale with the 5 min step is used for both indices and each  15 min averaged value of southern index is, hence, repeated for three times. "
+	5 (CDF_CHAR/55): 	"Full description: http://www.iki.rssi.ru/interball.html"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/42): 	"Interball-Ground_PCI_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/66): 	"spase://NASA/NumericalData/Interball/PC_Index/KeyParameter/K0/PT5M"
+
+Variable Attributes (17 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DICT_KEY
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 6 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+PC_Vostok             CDF_REAL4/1	0:[]	T/  
+PC_Thule              CDF_REAL4/1	0:[]	T/  
+Flag_Vostok           CDF_UINT1/1	0:[]	T/  
+Flag_Thule            CDF_UINT1/1	0:[]	T/  
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (6 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 07-Aug-1995 00:02:30.000
+     SCALEMAX        (CDF_EPOCH/1): 13-Aug-1995 23:57:30.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+PC_Vostok (No: 1) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Southern PC index, 'Vostok'"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     SCALEMIN        (CDF_REAL4/1): -5.0
+     SCALEMAX        (CDF_REAL4/1): 15.0
+     LABLAXIS        (CDF_CHAR/3): "PCS"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "F5.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/30): "number>magnetic_activity_index"
+     CATDESC         (CDF_CHAR/52): "Southern Polar Cap magnetic activity index, 'Vostok'"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/69): "15 min averaged value of southern index is repeated for three times. "
+
+PC_Thule (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Nothern PC index, 'Thule'"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     SCALEMIN        (CDF_REAL4/1): -5.0
+     SCALEMAX        (CDF_REAL4/1): 15.0
+     LABLAXIS        (CDF_CHAR/3): "PCN"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "F5.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/30): "number>magnetic_activity_index"
+     CATDESC         (CDF_CHAR/50): "Nothern Polar Cap magnetic activity index, 'Thule'"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/17): "5 min. resolution"
+
+Flag_Vostok (No: 3) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Status Flag, PCS"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 5
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 5
+     LABLAXIS        (CDF_CHAR/6): "FLag_S"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/64): "Status Flag, PCS : 0-good data, 2-missing data, 5 - data delayed"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Flag_Thule (No: 4) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Status Flag, PCN"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 5
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 5
+     LABLAXIS        (CDF_CHAR/6): "Flag_N"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/64): "Status Flag, PCN : 0-good data, 2-missing data, 5 - data delayed"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gap_Flag (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag : 0 no gap before this point, 1-5 gap reason"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

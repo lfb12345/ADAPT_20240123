@@ -1,0 +1,263 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_sosp_3dp_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_sosp_3dp_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     1
+NumzVars:     8
+NumAttrs:     48 (26 global, 22 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (26 attributes)
+=========================================
+Data_type (1 entry):
+	0 (CDF_CHAR/43): 	"SOSP>SST Open Proton Omnidirectional Fluxes"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/83): 	"Proton omnidirectional fluxes 70 keV - 6.8 MeV, often at 24 sec, SST Open, Wind 3DP"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+TEXT (5 entries):
+	0 (CDF_CHAR/67): 	"Wind 3dp, SST Open energetic Proton omni directional energy spectra"
+	1 (CDF_CHAR/830): 	"General Notes per Lynn Wilson Jan 2015:  The solid-state telescope (SST) for Wind 3DP electrons returns a velocity distribution function containing 7 energy bins and 48 solid-angle bins.  The automated CDF routine appears to remove all the following solid-angle bins: [7,8,9,15,31,32,33] = sun/anti-sun look directions, and [20,21,22,23,44,45,46,47] = low geometry factor bins (also correspond to the SST Thick anti-coincidence detector bins).  The sun/anti-sun directions are removed to avoid X-ray and EUV contamination, which is often seen during solar flares.  The onset looks exactly like the GOES X-ray observations, which is kind of fun but not what we want to look at.  Unfortunately, these look directions can correspond to the magnetic field direction, which can limit the times when we would like to examine SEP events."
+	2 (CDF_CHAR/436): 	"General Notes per Lynn Wilson Jan 2015:   Note that SST Open (e.g., wi_sopd_3dp_00000000_v01.cdf) software removes the following additional solid-angle bins:  [0,1,24,25] = noisy.  Additionally, SST Open has 9 energy channels from ~70 keV to ~6.7 or 7.1 MeV, depending on the mode the instrument is in.  It does not appear that the routine mk_sosp_cdf.pro removes any of these ...bad... look directions, so that should be noted as well."
+	3 (CDF_CHAR/235): 	"General Notes per Lynn Wilson Jan 2015:  Inside the radiation belts, both Foil and Open saturate and suffer from penetrating particles.  The instruments are not shielded, so they can only provide relative changes when in these regions."
+	4 (CDF_CHAR/187): 	"General Notes per Lynn Wilson Jan 2015:  The data below all look like they are in units of number flux or # cm-2 s-1 sr-1 eV-1.  I believe the CDAWeb  units are correct for most of these."
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"R. Lin/S. Bale"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/11): 	"UC Berkeley"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/23): 	"3DP>3-D PLASMA ANALYZER"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0143"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+MODS (0 entry):
+Time_resolution (0 entry):
+Link_text (2 entries):
+	0 (CDF_CHAR/1): 	" "
+	1 (CDF_CHAR/9): 	"Wind 3DP "
+Link_title (2 entries):
+	0 (CDF_CHAR/48): 	"Caveats for the correct use of Wind 3DP datasets"
+	1 (CDF_CHAR/49): 	"home page at UCB (with plotting and digital data)"
+HTTP_link (2 entries):
+	0 (CDF_CHAR/64): 	"https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/wind3dp_caveats.pdf"
+	1 (CDF_CHAR/37): 	"http://sprg.ssl.berkeley.edu/wind3dp/"
+Logical_source (1 entry):
+	0 (CDF_CHAR/11): 	"wi_sosp_3dp"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/24): 	"wi_sosp_3dp_00000000_v01"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/4): 	"Wind"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/53): 	"spase://NASA/NumericalData/Wind/3DP/SST_Open/SP/PT24S"
+
+Variable Attributes (22 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_NOTES
+DICT_KEY
+VAR_TYPE
+FORM_PTR
+FORMAT
+UNIT_PTR
+UNITS
+SCAL_PTR
+SCALETYP
+FILLVAL
+LABLAXIS
+VALIDMIN
+VALIDMAX
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_1
+LABL_PTR_1
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (1 rVariable, 8 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+FLUX                  CDF_FLOAT/1	1:[9]	T/T
+FLUX_STACKED          CDF_FLOAT/1	1:[9]	T/T
+FLUX_SIMPLE           CDF_FLOAT/1	1:[9]	T/T
+ENERGY                CDF_FLOAT/1	1:[9]	T/T
+ENERGY_filled         CDF_FLOAT/1	1:[9]	T/T
+APPROX_ENERGY_LABELS  CDF_CHAR/25	1:[9]	F/T
+FLUX_ENERGY_LABL      CDF_CHAR/30	1:[9]	F/T
+TIME                  CDF_DOUBLE/1	0:[]	T/  
+
+
+Variable (9 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/14): "Time, Centered"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e12.0"
+     UNITS           (CDF_CHAR/2): "ms"
+     FILLVAL         (CDF_DOUBLE/1): NaN
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2030 23:59:59.999
+
+FLUX (No: 0) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton Number Flux"
+     CATDESC         (CDF_CHAR/87): "Proton number flux 70 keV - 6.8 MeV as a function of energy in 9 channels (spectrogram)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/18): " #/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_REAL4/1): nan
+     LABLAXIS        (CDF_CHAR/14): "Proton_No_Flux"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-07
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+
+FLUX_STACKED (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton Number Flux"
+     CATDESC         (CDF_CHAR/22): "---> As a stacked plot"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/18): " #/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_REAL4/1): nan
+     LABLAXIS        (CDF_CHAR/14): "Proton_No_Flux"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-07
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     DISPLAY_TYPE    (CDF_CHAR/40): "stack_plot>NOBAR>y=FLUX, z=ENERGY_filled"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_SIMPLE (No: 2) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton Number Flux"
+     CATDESC         (CDF_CHAR/26): "---> As simple time series"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/18): " #/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_REAL4/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-07
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     LABL_PTR_1      (CDF_CHAR/16): "FLUX_ENERGY_LABL"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+ENERGY (No: 3) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Proton energy"
+     CATDESC         (CDF_CHAR/33): "---> Time-varying proton energies"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 40000.0
+     VALIDMAX        (CDF_FLOAT/1): 8.0e+06
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/20): "APPROX_ENERGY_LABELS"
+
+ENERGY_filled (No: 4) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     CATDESC         (CDF_CHAR/47): "---> Time-varying proton energies in 9 channels"
+     VAR_NOTES       (CDF_CHAR/43): "Uses fixed-sparse to fill in nan'd energies"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 30000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/20): "APPROX_ENERGY_LABELS"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/10): "fix_sparse"
+     COMPONENT_0     (CDF_CHAR/6): "ENERGY"
+
+APPROX_ENERGY_LABELS (No: 5) (Recs: 1)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "APPROX_ENERGY_LABELS"
+     CATDESC         (CDF_CHAR/20): "APPROX_ENERGY_LABELS"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a25"
+
+FLUX_ENERGY_LABL (No: 6) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Flux labels by energy"
+     CATDESC         (CDF_CHAR/21): "Flux labels by energy"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a30"
+
+TIME (No: 7) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "UNIX  time"
+     CATDESC         (CDF_CHAR/40): "UNIX time; seconds since January 1, 1970"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "g12.0"
+     UNITS           (CDF_CHAR/16): "sec since 1-1-70"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.5e+13
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+

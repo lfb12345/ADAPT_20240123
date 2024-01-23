@@ -1,0 +1,306 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ia_k0_epi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ia_k0_epi_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     10
+NumAttrs:     37 (19 global, 18 variable)
+Compression:  None
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/41): 	"INTERBALL-AURORAL>Interball Auroral Probe"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/47): 	"EPI>Auroral Probe Energetic Particle Instrument"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/39): 	"Auroral Probe Energetic Particle Fluxes"
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"created Apr 1997"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0247"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IA_K0_EPI_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IA_K0_EPI"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/63): 	"Interball Auroral Energetic Particle Instruments, KeyParameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/15): 	"DOK-2: K.Kudela"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/77): 	"DOK-2: Institute of experimental physics Slovak Acad. Sci., Kosize, Slovakia "
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+TEXT_supplement_1 (2 entries):
+	0 (CDF_CHAR/139): 	"Energetic particle fluxesin three energy rangesfrom several sensors. Data areaveraged in 2 min.intervals Status flags show instrument mode."
+	1 (CDF_CHAR/55): 	"Full description: http://www.iki.rssi.ru/interball.html"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/43): 	"Interball-Auroral_EPI_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/54): 	"spase://NASA/NumericalData/Interball-2/DOK2A/KP/PT120S"
+
+Variable Attributes (18 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DICT_KEY
+CATDESC
+SCALETYP
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 10 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Fe1                   CDF_REAL4/1	0:[]	T/  
+Fe2                   CDF_REAL4/1	0:[]	T/  
+Fp1                   CDF_REAL4/1	0:[]	T/  
+Fp2                   CDF_REAL4/1	0:[]	T/  
+SF_Fe1                CDF_UINT1/1	0:[]	T/  
+SF_Fe2                CDF_UINT1/1	0:[]	T/  
+SF_Fp1                CDF_UINT1/1	0:[]	T/  
+SF_Fp2                CDF_UINT1/1	0:[]	T/  
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (10 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 31-Oct-1994 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Oct-1994 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Fe1 (No: 1) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Electron Flux, 26-29 keV"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/18): "e- Flux, 26-29 keV"
+     UNITS           (CDF_CHAR/16): "no/cm^2/s/keV/st"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     CATDESC         (CDF_CHAR/60): "Electron Flux, 26-29 keV (DOK-2 firstelectron sensor, fixed)"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/90): "sensor offset at an angle 180 deg withrespect to the sunward directed spacecraft spin axis"
+
+Fe2 (No: 2) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Electron Flux, 25-28 keV"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/18): "e- Flux, 25-28 keV"
+     UNITS           (CDF_CHAR/16): "no/cm^2/s/keV/st"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     CATDESC         (CDF_CHAR/60): "Electron Flux, 25-28 keV (DOK-2 firstelectron sensor, fixed)"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/90): "sensor offset at an angle 180 deg withrespect to the sunward directed spacecraft spin axis"
+
+Fp1 (No: 3) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Proton Flux, 18-24 keV"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/17): "P Flux, 18-24 keV"
+     UNITS           (CDF_CHAR/16): "no/cm^2/s/keV/st"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/17): "particle_flux>ion"
+     CATDESC         (CDF_CHAR/57): "Proton Flux, 18-24 keV (DOK-2 first proton sensor, fixed)"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/90): "sensor offset at an angle 180 deg withrespect to the sunward directed spacecraft spin axis"
+
+Fp2 (No: 4) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Proton Flux, 20-26 keV"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/24): "P Flux, 20-26 keV (Scan)"
+     UNITS           (CDF_CHAR/16): "no/cm^2/s/keV/st"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/17): "particle_flux>ion"
+     CATDESC         (CDF_CHAR/57): "Proton Flux, 20-26 keV (DOK-2 second proton sensor, scan)"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/183): "The value is taken from the sensorthat can scan the angle's interval 45-180deg or can be fixed at angles 45, 90,135, 180 deg. with respect to the sunward directed spacecraft spin axis"
+
+SF_Fe1 (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "SF, DOK-2 1st electron range"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 30
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 30
+     LABLAXIS        (CDF_CHAR/2): "SF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/54): "Status Flag: energy and positioncoded, see description"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/412): "Standard flags are used in the case ofdata absence. SFs are set to 11-15 and21-25 for all valid data values ofeach parameter. Most significant digit (1- low or 2 - high) indicates level of the energy threshold. Higher energy threshold will be used only in case ofdegradation of a sensor. Less significant digit indicates sensor orientation ( 1, 2, 3, 4, 5 correspondrespectively to 45, 90, 135, 180 deg.and scan)"
+
+SF_Fe2 (No: 6) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "SF, DOK-2 2nd electron range"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 30
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 30
+     LABLAXIS        (CDF_CHAR/2): "SF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/54): "Status Flag: energy and positioncoded, see description"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/412): "Standard flags are used in the case ofdata absence. SFs are set to 11-15 and21-25 for all valid data values ofeach parameter. Most significant digit (1- low or 2 - high) indicates level of the energy threshold. Higher energy threshold will be used only in case ofdegradation of a sensor. Less significant digit indicates sensor orientation ( 1, 2, 3, 4, 5 correspondrespectively to 45, 90, 135, 180 deg.and scan)"
+
+SF_Fp1 (No: 7) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "SF, DOK-2 1st proton sensor"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 30
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 30
+     LABLAXIS        (CDF_CHAR/2): "SF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/55): "Status Flag: energy and position coded, see description"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/413): "Standard flags are used in the case ofdata absence. SFs are set to 11-15 and21-25 for all valid data values of each parameter. Most significant digit (1- low or 2 - high) indicates level of the energy threshold. Higher energy threshold will be used only in case ofdegradation of a sensor. Less significant digit indicates sensor orientation ( 1, 2, 3, 4, 5 correspondrespectively to 45, 90, 135, 180 deg.and scan)"
+
+SF_Fp2 (No: 8) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "SF, DOK-2 2nd proton sensor"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 30
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 30
+     LABLAXIS        (CDF_CHAR/2): "SF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/55): "Status Flag: energy and position coded, see description"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/413): "Standard flags are used in the case ofdata absence. SFs are set to 11-15 and21-25 for all valid data values of each parameter. Most significant digit (1- low or 2 - high) indicates level of the energy threshold. Higher energy threshold will be used only in case ofdegradation of a sensor. Less significant digit indicates sensor orientation ( 1, 2, 3, 4, 5 correspondrespectively to 45, 90, 135, 180 deg.and scan)"
+
+Gap_Flag (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag (0 no gap before this point, 1-5 gap reason)"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

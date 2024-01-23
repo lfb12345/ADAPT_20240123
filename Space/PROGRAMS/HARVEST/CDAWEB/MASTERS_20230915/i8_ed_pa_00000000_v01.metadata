@@ -1,0 +1,243 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/i8_ed_pa_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     i8_ed_pa_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     6
+NumzVars:     0
+NumAttrs:     49 (28 global, 21 variable)
+Compression:  None
+
+Global Attributes (28 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/38): 	"CDAW-9; IMP-8; Plasma Analyzer; 60 sec"
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/7): 	"CDAW-9A"
+PLATFORM (1 entry):
+	0 (CDF_CHAR/5): 	"IMP-8"
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/15): 	"Plasma Analyzer"
+TIMERES  (1 entry):
+	0 (CDF_CHAR/6): 	"60 sec"
+TEXT (6 entries):
+	0 (CDF_CHAR/80): 	"These CDFs contain the IMP-8 proton plasma data.  Temperatures are expressed as "
+	1 (CDF_CHAR/80): 	"thermal velocity; to convert to Kelvin, multiply (value in km/sec) squared, by 6"
+	2 (CDF_CHAR/80): 	"0.1.  Flow angles are with respect to the s/c axes. The IMP-8 s/c is in the sola"
+	3 (CDF_CHAR/80): 	"r wind for Events A, B, and E, and in the magnetosphere for Event C.  During Eve"
+	4 (CDF_CHAR/80): 	"nt D, IMP-8 crossed the bow shock from the magnetosheath into the solar wind at "
+	5 (CDF_CHAR/9): 	"14 h UT. "
+TEXT_supplement_1  (1 entry):
+	0 (CDF_CHAR/79): 	"This separate enhanced skeleton made 20-NOV-95 by NSSDC for a CDAWeb interface."
+MODS (1 entry):
+	0 (CDF_CHAR/2): 	"  "
+Project (1 entry):
+	0 (CDF_CHAR/41): 	"CDAW-9>Coordinated Data Analysis Workshop"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/46): 	"I8>IMP-8: Interplanetary Monitoring Platform 8"
+Descriptor (1 entry):
+	0 (CDF_CHAR/18): 	"PA>Plasma Analyzer"
+Data_type (1 entry):
+	0 (CDF_CHAR/13): 	"ED>Event Data"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/21): 	"i8_ed_pa_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/8): 	"i8_ed_pa"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/29): 	"I8 Plasma Analyzer Event Data"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"H. Bridge"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"MIT"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"IMP (All)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Time_resolution (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/9): 	"IMP (All)"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+UNITS
+CATDESC
+SCALEMIN
+SCALEMAX
+FORMAT
+MONOTON 
+SCALETYP
+LABLAXIS
+DISPLAY_TYPE
+VAR_TYPE
+DICT_KEY
+AVG_TYPE
+FILLVAL
+DEPEND_0
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+VAR_NOTES
+
+Variable Information (6 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+IJ02BVEL              CDF_REAL4/1	0:[]	T/  
+IJ02TVEL              CDF_REAL4/1	0:[]	T/  
+IJ02PDEN              CDF_REAL4/1	0:[]	T/  
+IJ02NSFA              CDF_REAL4/1	0:[]	T/  
+IJ02EWFA              CDF_REAL4/1	0:[]	T/  
+
+
+Variable (6 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Time since 0 A.D."
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     UNITS           (CDF_CHAR/17): "milliseconds (UT)"
+     CATDESC         (CDF_CHAR/36): "NSSDC standard-reference time value."
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     FORMAT          (CDF_CHAR/6): "E21.14"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/14): "Universal Time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/16): "time>nssdc_epoch"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+
+IJ02BVEL (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Plasma Bulk Vel"
+     VALIDMIN        (CDF_REAL4/1): 300.0
+     VALIDMAX        (CDF_REAL4/1): 700.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     CATDESC         (CDF_CHAR/20): "Plasma Bulk Velocity"
+     SCALEMIN        (CDF_REAL4/1): 400.0
+     SCALEMAX        (CDF_REAL4/1): 550.0
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/16): "Solar Wind Speed"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/28): "velocity>velocity>solar wind"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     FILLVAL         (CDF_REAL4/1): 0.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+IJ02TVEL (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Plasma Therm Vel"
+     VALIDMIN        (CDF_REAL4/1): 10.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     CATDESC         (CDF_CHAR/23): "Plasma Thermal Velocity"
+     SCALEMIN        (CDF_REAL4/1): 20.0
+     SCALEMAX        (CDF_REAL4/1): 60.0
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/16): "Plasma Therm Vel"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/25): "velocity>velocity>thermal"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     FILLVAL         (CDF_REAL4/1): 0.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+IJ02PDEN (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Plasma density"
+     VALIDMIN        (CDF_REAL4/1): 0.5
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     UNITS           (CDF_CHAR/7): "1/cm**3"
+     CATDESC         (CDF_CHAR/14): "Plasma density"
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/18): "Solar Wind Density"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/22): "current>density>plasma"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     FILLVAL         (CDF_REAL4/1): 0.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+IJ02NSFA (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "N/S flow angle"
+     VALIDMIN        (CDF_REAL4/1): -60.0
+     VALIDMAX        (CDF_REAL4/1): 60.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     CATDESC         (CDF_CHAR/40): "N/S flow angle (+ from S)w.r.t spin axis"
+     SCALEMIN        (CDF_REAL4/1): -10.0
+     SCALEMAX        (CDF_REAL4/1): 25.0
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/14): "N/S flow angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     FILLVAL         (CDF_REAL4/1): 0.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+IJ02EWFA (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "E/W flow angle"
+     VALIDMIN        (CDF_REAL4/1): -60.0
+     VALIDMAX        (CDF_REAL4/1): 60.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     CATDESC         (CDF_CHAR/25): "E/W flow angle (+ from W)"
+     SCALEMIN        (CDF_REAL4/1): -5.0
+     SCALEMAX        (CDF_REAL4/1): 50.0
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/14): "E/W flow angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     AVG_TYPE        (CDF_CHAR/13): "angle_degrees"
+     FILLVAL         (CDF_REAL4/1): 0.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+

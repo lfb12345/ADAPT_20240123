@@ -1,0 +1,424 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/pioneervenus_coho1hr_merged_mag_plasma_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     pioneervenus_coho1hr_merged_mag_plasma_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     19
+NumAttrs:     48 (25 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/12): 	"PioneerVenus"
+Source_name (1 entry):
+	0 (CDF_CHAR/12): 	"PioneerVenus"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/43): 	"COHO1HR>1 Hour Time Resolution from cohoweb"
+Descriptor (1 entry):
+	0 (CDF_CHAR/55): 	"MAGPLASMA>Merged Trajectory, Magnetic Field, and Plasma"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/61): 	"Dr. T. C. Russell (magnetic field), Dr. Aaron Barnes (plasma)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/15): 	"UCLA, NASA/Ames"
+TEXT (14 entries):
+	0 (CDF_CHAR/467): 	"PIONEER VENUS ORBITER (PVO) was the first orbiter mission designed to conduct a comprehensive and long term investigation of the planet Venus.  PVO measured the detailed structure of the upper atmosphere and ionosphere of Venus and investigated the interaction of the solar wind magnetic field and plasma with the venusian ionosphere. Over the years 1978-1992 PVO provided nearly continuous measurements of the solar wind from its highly eccentric orbit around Venus."
+	1 (CDF_CHAR/51): 	"PI of magnetic field data: Dr. T. C. Russell, UCLA."
+	2 (CDF_CHAR/118): 	"PI of plasma data: Dr. Aaron Barnes, Ames Research Center, NASA. plasma data were provided by Dr. P. Gazis, Ames,NASA."
+	3 (CDF_CHAR/482): 	"For the hourly resolution records, thePVO directory contains files with hourly averages for selected parameters of the interplanetary magnetic field (1978-12-05 - 1988-08-07) solar wind plasma (1978-12-05 - 1992-10-08) and the spacecraft trajectory (1978-12-05 - 1992-12-31) in RTN, and in Venus-centered (1978-12-05 - 1988-08-07) coordinates.  These were data taken from time intervals when the spacecraft was outside the bow shock of the venusian ionosphere and in the solar wind."
+	4 (CDF_CHAR/51): 	"Time Coverage of merged files: 78-12-05 - 92-12-31."
+	5 (CDF_CHAR/136): 	"PVO data have been reprocessed to ensure a uniformity of content and coordinate systems relative to data from other deep-space missions:"
+	6 (CDF_CHAR/101): 	"- All spacecraft trajectory data were transformed to a Heliographic Inertial (HGI) coordinate system."
+	7 (CDF_CHAR/86): 	"- calculation of RTN components of interplanetary magnetic field from VSO coordinates."
+	8 (CDF_CHAR/141): 	"- merging of trajectory coordinates, magnetic field data, and plasma data files into a single annual file PVO_YR.ascii, where YR is the year;"
+	9 (CDF_CHAR/321): 	"- Data gaps were filled with dummy numbers for the missing hours or entire days to make all files of equal length.  The character \'9\' is used to fill all fields for missing data according to their format, e.g. \' 9999.9\' for a field with the FORTRAN format F7.1. Note that format F7.1 below really means (1X,F6.1),etc."
+	10 (CDF_CHAR/715): 	"The Heliographic Inertial (HGI) coordinates are Sun-centered and inertially fixed with respect to an X-axis  directed along the intersection line of the ecliptic and solar equatorial planes.  The solar equator plane is inclined at 7.25 degrees from the ecliptic. This direction was towards ecliptic longitude of 74.36 degrees on 1 January 1900 at 1200 UT; because of precession of the celestial equator, this longitude increases by 1.4 degrees/century. The Z axis is directed perpendicular and northward from the solar equator, and the Y-axis completes the right-handed set.  This system differs from the usual heliographic coordinates  (e.g. Carrington longitudes) which are fixed in the frame of the rotating Sun."
+	11 (CDF_CHAR/359): 	"The RTN system is fixed at a spacecraft (or the planet). The R axis is directed radially away from  the Sun, the T axis is the cross product of the solar rotation axis and the R axis, and the N axis is the cross product of R and T.  At zero Heliographic Latitude when the spacecraft is in the solar equatorial plane the N and solar rotation axes are parallel."
+	12 (CDF_CHAR/322): 	"Venus Solar Orbital (VSO) coordinates are defined with respect to the orbital plane of Venus which is tilted about two degrees from the Ecliptic.  The VSO system is Venus-centered with the X axis towards the Sun, the Z axis northward and perpendicular to the orbital plane, and the Y axis completing the right hand system."
+	13 (CDF_CHAR/256): 	"Acknowledgement: Hour averages of the interplanetary solar wind data from, and hourly heliocentric coordinates of, PVO and other interplanetary spacecraft may be also be accessed and plotted on-line through the COHOWeb service http://cohoweb.gsfc.nasa.gov/"
+Instrument_type (3 entries):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+	1 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	2 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/7): 	"Pioneer"
+	1 (CDF_UCHAR/35): 	"!___Interplanetary Data not at 1 AU"
+Logical_source (1 entry):
+	0 (CDF_CHAR/38): 	"PioneerVenus_coho1hr_merged_mag_plasma"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/51): 	"PioneerVenus_coho1hr_merged_mag_plasma_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/67): 	"PioneerVenus merged hourly magnetic field, plasma and ephermis data"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/6): 	"1 hour"
+Rules_of_use (0 entry):
+Generated_by (1 entry):
+	0 (CDF_CHAR/18): 	"King/Papatashvilli"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/14): 	"COHOWeb System"
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/12): 	"COHO dataset"
+	1 (CDF_CHAR/49): 	"Additional analysis tools for these data from the"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/13): 	"Documentation"
+	1 (CDF_CHAR/15): 	"COHOWeb service"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/52): 	"https://omniweb.gsfc.nasa.gov/coho/html/cw_data.html"
+	1 (CDF_CHAR/28): 	"http://cohoweb.gsfc.nasa.gov"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/61): 	"spase://NASA/NumericalData/PioneerVenusOrbiter/MAGandPLS/PT1H"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 19 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+X_VSO                 CDF_REAL4/1	0:[]	T/  
+Y_VSO                 CDF_REAL4/1	0:[]	T/  
+Z_VSO                 CDF_REAL4/1	0:[]	T/  
+radialDistance        CDF_REAL4/1	0:[]	T/  
+heliographicLatitude  CDF_REAL4/1	0:[]	T/  
+heliographicLongitude CDF_REAL4/1	0:[]	T/  
+BX_VSO                CDF_REAL4/1	0:[]	T/  
+BY_VSO                CDF_REAL4/1	0:[]	T/  
+BZ_VSO                CDF_REAL4/1	0:[]	T/  
+BR                    CDF_REAL4/1	0:[]	T/  
+BT                    CDF_REAL4/1	0:[]	T/  
+BN                    CDF_REAL4/1	0:[]	T/  
+B                     CDF_REAL4/1	0:[]	T/  
+flowSpeed             CDF_REAL4/1	0:[]	T/  
+elevAngle             CDF_REAL4/1	0:[]	T/  
+azimuthAngle          CDF_REAL4/1	0:[]	T/  
+protonDensity         CDF_REAL4/1	0:[]	T/  
+protonTemp            CDF_REAL4/1	0:[]	T/  
+
+
+Variable (19 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+X_VSO (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "X VSO"
+     CATDESC         (CDF_CHAR/48): "X in VSO (Venus Solar Orbital) coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/7): "X_(VSO)"
+     UNITS           (CDF_CHAR/2): "RV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Y_VSO (No: 2) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Y VSO"
+     CATDESC         (CDF_CHAR/26): "Y in VSO coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/7): "Y_(VSO)"
+     UNITS           (CDF_CHAR/2): "RV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+Z_VSO (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Z VSO"
+     CATDESC         (CDF_CHAR/26): "Z in VSO coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/7): "Z_(VSO)"
+     UNITS           (CDF_CHAR/2): "RV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+radialDistance (No: 4) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Radial Distance"
+     CATDESC         (CDF_CHAR/33): "Radial Distance from Sun to Venus"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/15): "Radial Distance"
+     UNITS           (CDF_CHAR/2): "Au"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+heliographicLatitude (No: 5) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "HGI Latitude"
+     CATDESC         (CDF_CHAR/36): "HelioGraphic Inertial (HGI) latitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/7): "HGI_Lat"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+heliographicLongitude (No: 6) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "HGI Longitude"
+     CATDESC         (CDF_CHAR/13): "HGI longitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/8): "HGI_Long"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+BX_VSO (No: 7) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "BX VSO"
+     CATDESC         (CDF_CHAR/49): "BX in VSO (Venus Solar Orbital) coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/8): "BX_(VSO)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+BY_VSO (No: 8) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "BY VSO"
+     CATDESC         (CDF_CHAR/27): "BY in VSO coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/8): "BY_(VSO)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+BZ_VSO (No: 9) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "BZ VSO"
+     CATDESC         (CDF_CHAR/27): "BZ in VSO coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/8): "BZ_(VSO)"
+     UNITS           (CDF_CHAR/2): "RV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+BR (No: 10) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "BR (RTN)"
+     CATDESC         (CDF_CHAR/54): "BR in RTN (Radial-Tangential-Normal) coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/8): "BR_(RTN)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+BT (No: 11) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "BT (RTN)"
+     CATDESC         (CDF_CHAR/27): "BT in RTN coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/8): "BT_(RTN)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+BN (No: 12) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "BN (RTN)"
+     CATDESC         (CDF_CHAR/27): "BN in RTN coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/8): "BN_(RTN)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+B (No: 13) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/1): "B"
+     CATDESC         (CDF_CHAR/58): "B-Field magnitude (average of fine scale field magnitudes)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/1): "B"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+flowSpeed (No: 14) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Bulk flow speed"
+     CATDESC         (CDF_CHAR/17): "Proton flow speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/15): "Bulk flow speed"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+elevAngle (No: 15) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "elevation angle"
+     CATDESC         (CDF_CHAR/44): "Proton flow elevation angle / latitude (RTN)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/15): "elevation angle"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+azimuthAngle (No: 16) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "azimuth angle"
+     CATDESC         (CDF_CHAR/43): "Proton flow azimuth angle / longitude (RTN)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/13): "azimuth angle"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+protonDensity (No: 17) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Plasma proton density"
+     CATDESC         (CDF_CHAR/14): "Proton density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.4"
+     LABLAXIS        (CDF_CHAR/21): "Plasma proton density"
+     UNITS           (CDF_CHAR/4): "n/cc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+protonTemp (No: 18) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Plasma proton Temperature"
+     CATDESC         (CDF_CHAR/18): "Proton Temperature"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.0"
+     LABLAXIS        (CDF_CHAR/25): "Plasma proton Temperature"
+     UNITS           (CDF_CHAR/5): "deg K"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+

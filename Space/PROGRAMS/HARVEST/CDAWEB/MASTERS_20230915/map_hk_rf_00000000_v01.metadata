@@ -1,0 +1,312 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/map_hk_rf_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     map_hk_rf_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     13
+NumAttrs:     38 (17 global, 21 variable)
+Compression:  None
+
+Global Attributes (17 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_UCHAR/33): 	"MAP>Microwave Anisotropy Platform"
+Discipline (1 entry):
+	0 (CDF_UCHAR/12): 	"Astrophysics"
+Source_name (1 entry):
+	0 (CDF_UCHAR/33): 	"MAP>Microwave Anisotropy Platform"
+Data_version (1 entry):
+	0 (CDF_UCHAR/1): 	"1"
+ADID_ref (1 entry):
+	0 (CDF_UCHAR/3): 	"tbs"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/22): 	"map_hk_rf_00000000_v01"
+Data_type (1 entry):
+	0 (CDF_UCHAR/15): 	"HK>Housekeeping"
+Descriptor (1 entry):
+	0 (CDF_UCHAR/25): 	"RF>Radio Frequency System"
+TEXT (1 entry):
+	0 (CDF_UCHAR/3): 	"tbs"
+MODS (1 entry):
+	0 (CDF_UCHAR/3): 	"tbs"
+Logical_source (1 entry):
+	0 (CDF_UCHAR/9): 	"MAP_HK_RF"
+Logical_source_description (1 entry):
+	0 (CDF_UCHAR/6): 	"MAP RF"
+PI_name (1 entry):
+	0 (CDF_UCHAR/19): 	"Dr. Charles Bennett"
+PI_affiliation (1 entry):
+	0 (CDF_UCHAR/27): 	"Goddard Space Flight Center"
+Instrument_type (1 entry):
+	0 (CDF_UCHAR/12): 	"Housekeeping"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/3): 	"MAP"
+	1 (CDF_UCHAR/30): 	"!___Astronomy and Astrophysics"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/3): 	"MAP"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+MONOTON
+DEPEND_0
+DEPEND_1
+FILLVAL
+VAR_TYPE
+DICT_KEY
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 13 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+XAXRAGC               CDF_REAL4/1	0:[]	T/  
+XBXRAGC               CDF_REAL4/1	0:[]	T/  
+XARCV20VCNV           CDF_REAL4/1	0:[]	T/  
+XBRCV20VCNV           CDF_REAL4/1	0:[]	T/  
+XAXMT20VCNV           CDF_REAL4/1	0:[]	T/  
+XBXMT20VCNV           CDF_REAL4/1	0:[]	T/  
+XAXMRFPWR             CDF_REAL4/1	0:[]	T/  
+XBXMRFPWR             CDF_REAL4/1	0:[]	T/  
+XAXMTPWRSTEMP         CDF_REAL4/1	0:[]	T/  
+XBXMTPWRSTEMP         CDF_REAL4/1	0:[]	T/  
+XARFAMPTEMP           CDF_REAL4/1	0:[]	T/  
+XBRFAMPTEMP           CDF_REAL4/1	0:[]	T/  
+
+
+Variable (13 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/16): "Orbit Epoch Time"
+     VALIDMIN        (CDF_DOUBLE/1): 01-Jul-1992 08:53:20.000
+     VALIDMAX        (CDF_DOUBLE/1): 01-Jan-2021 06:00:00.000
+     SCALEMIN        (CDF_DOUBLE/1): 6.28772e+13
+     SCALEMAX        (CDF_DOUBLE/1): 6.37767e+13
+     LABLAXIS        (CDF_UCHAR/5): "Epoch"
+     UNITS           (CDF_UCHAR/2): "ms"
+     MONOTON         (CDF_UCHAR/8): "INCREASE"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/10): "time>Epoch"
+     CATDESC         (CDF_UCHAR/16): "Orbit Epoch Time"
+
+XAXRAGC (No: 1) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/10): "Rcvr A AGC"
+     VALIDMIN        (CDF_FLOAT/1): -140.0
+     VALIDMAX        (CDF_FLOAT/1): -60.0
+     SCALEMIN        (CDF_FLOAT/1): -140.0
+     SCALEMAX        (CDF_FLOAT/1): -60.0
+     LABLAXIS        (CDF_UCHAR/5): "AGC A"
+     UNITS           (CDF_UCHAR/5): "volts"
+     FORMAT          (CDF_UCHAR/4): "F8.2"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/14): "Receiver A AGC"
+
+XBXRAGC (No: 2) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/10): "Rcvr B AGC"
+     VALIDMIN        (CDF_FLOAT/1): -140.0
+     VALIDMAX        (CDF_FLOAT/1): -60.0
+     SCALEMIN        (CDF_FLOAT/1): -140.0
+     SCALEMAX        (CDF_FLOAT/1): -60.0
+     LABLAXIS        (CDF_UCHAR/5): "AGC B"
+     UNITS           (CDF_UCHAR/5): "volts"
+     FORMAT          (CDF_UCHAR/4): "F8.2"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/14): "Receiver B AGC"
+
+XARCV20VCNV (No: 3) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/14): "Receiver A 20V"
+     VALIDMIN        (CDF_FLOAT/1): 15.0
+     VALIDMAX        (CDF_FLOAT/1): 25.0
+     SCALEMIN        (CDF_FLOAT/1): 15.0
+     SCALEMAX        (CDF_FLOAT/1): 25.0
+     LABLAXIS        (CDF_UCHAR/8): "RCVA 20V"
+     UNITS           (CDF_UCHAR/5): "volts"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/32): "Receiver A +20V converter output"
+
+XBRCV20VCNV (No: 4) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/14): "Receiver B 20V"
+     VALIDMIN        (CDF_FLOAT/1): 15.0
+     VALIDMAX        (CDF_FLOAT/1): 25.0
+     SCALEMIN        (CDF_FLOAT/1): 15.0
+     SCALEMAX        (CDF_FLOAT/1): 25.0
+     LABLAXIS        (CDF_UCHAR/8): "RCVB 20V"
+     UNITS           (CDF_UCHAR/5): "volts"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/32): "Receiver B +20V converter output"
+
+XAXMT20VCNV (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/17): "Transmitter A 20V"
+     VALIDMIN        (CDF_FLOAT/1): 15.0
+     VALIDMAX        (CDF_FLOAT/1): 25.0
+     SCALEMIN        (CDF_FLOAT/1): 15.0
+     SCALEMAX        (CDF_FLOAT/1): 25.0
+     LABLAXIS        (CDF_UCHAR/8): "XMTA 20V"
+     UNITS           (CDF_UCHAR/5): "volts"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/35): "Transmitter A +20V converter output"
+
+XBXMT20VCNV (No: 6) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/17): "Transmitter B 20V"
+     VALIDMIN        (CDF_FLOAT/1): 15.0
+     VALIDMAX        (CDF_FLOAT/1): 25.0
+     SCALEMIN        (CDF_FLOAT/1): 15.0
+     SCALEMAX        (CDF_FLOAT/1): 25.0
+     LABLAXIS        (CDF_UCHAR/8): "XMTB 20V"
+     UNITS           (CDF_UCHAR/5): "volts"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/35): "Transmitter B +20V converter output"
+
+XAXMRFPWR (No: 7) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/20): "Transmitter A RF Pwr"
+     VALIDMIN        (CDF_FLOAT/1): 30.0
+     VALIDMAX        (CDF_FLOAT/1): 45.0
+     SCALEMIN        (CDF_FLOAT/1): 30.0
+     SCALEMAX        (CDF_FLOAT/1): 45.0
+     LABLAXIS        (CDF_UCHAR/7): "XMTA RF"
+     UNITS           (CDF_UCHAR/5): "volts"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/28): "Transmitter A RF power level"
+
+XBXMRFPWR (No: 8) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/20): "Transmitter B RF Pwr"
+     VALIDMIN        (CDF_FLOAT/1): 30.0
+     VALIDMAX        (CDF_FLOAT/1): 45.0
+     SCALEMIN        (CDF_FLOAT/1): 30.0
+     SCALEMAX        (CDF_FLOAT/1): 45.0
+     LABLAXIS        (CDF_UCHAR/7): "XMTB RF"
+     UNITS           (CDF_UCHAR/5): "volts"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/28): "Transmitter B RF power level"
+
+XAXMTPWRSTEMP (No: 9) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/21): "Transmitter A PS Temp"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 60.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 60.0
+     LABLAXIS        (CDF_UCHAR/8): "XMTAPS T"
+     UNITS           (CDF_UCHAR/1): "C"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/45): "Transmitter A output power supply temperature"
+
+XBXMTPWRSTEMP (No: 10) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/21): "Transmitter B PS Temp"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 60.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 60.0
+     LABLAXIS        (CDF_UCHAR/8): "XMTBPS T"
+     UNITS           (CDF_UCHAR/1): "C"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/45): "Transmitter B output power supply temperature"
+
+XARFAMPTEMP (No: 11) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/17): "RF Power Amp Temp"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 60.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 60.0
+     LABLAXIS        (CDF_UCHAR/8): "XMTBPS T"
+     UNITS           (CDF_UCHAR/1): "C"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/32): "RF A power amplifier temperature"
+
+XBRFAMPTEMP (No: 12) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/19): "RF A Power Amp Temp"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 60.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 60.0
+     LABLAXIS        (CDF_UCHAR/8): "XMTBPS T"
+     UNITS           (CDF_UCHAR/1): "C"
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/32): "RF B power amplifier temperature"
+

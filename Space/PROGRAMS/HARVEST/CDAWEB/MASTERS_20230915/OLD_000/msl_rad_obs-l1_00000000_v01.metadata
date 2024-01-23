@@ -1,0 +1,3279 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/msl_rad_obs-l1_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     msl_rad_obs-l1_00000000_v01.cdf
+Version:      3.9.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     133
+NumAttrs:     86 (47 global, 39 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (47 attributes)
+=========================================
+Standard_data_product_id (1 entry):
+	0 (CDF_CHAR/7): 	"RAD_RDR"
+Product_type (1 entry):
+	0 (CDF_CHAR/4): 	"DATA"
+Product_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Instrument_host_name (1 entry):
+	0 (CDF_CHAR/23): 	"MARS SCIENCE LABORATORY"
+Instrument_host_id (1 entry):
+	0 (CDF_CHAR/3): 	"MSL"
+Mission_name (1 entry):
+	0 (CDF_CHAR/23): 	"MARS SCIENCE LABORATORY"
+Target_name (1 entry):
+	0 (CDF_CHAR/4): 	"MARS"
+Target_type (1 entry):
+	0 (CDF_CHAR/6): 	"PLANET"
+Instrument_name (1 entry):
+	0 (CDF_CHAR/29): 	"RADIATION ASSESSMENT DETECTOR"
+Instrument_id (1 entry):
+	0 (CDF_CHAR/3): 	"RAD"
+Producer_id (1 entry):
+	0 (CDF_CHAR/7): 	"GWEIGLE"
+Producer_full_name (1 entry):
+	0 (CDF_CHAR/13): 	"GERALD WEIGLE"
+Git_commit (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Software_version (1 entry):
+	0 (CDF_CHAR/22): 	"CDFwrite version:3.7.0"
+RDR_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Start_sol (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Start_time (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Stop_time (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Spacecraft_clock_start_count (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Spacecraft_clock_stop_count (1 entry):
+	0 (CDF_CHAR/1): 	" "
+File_records (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/45): 	"The RAD instrument is described in detail in "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/20): 	"Hassler et al (2014)"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/59): 	"https://link.springer.com/article/10.1007/s11214-012-9913-1"
+Note (1 entry):
+	0 (CDF_CHAR/253): 	"This *cdf file contains observations taken from the Mars Science Laboratory Radiation Assessment Detector (RAD) for the mission elapsed. This file is in CDF form and the data have undergone calibration and decompression from the binary MSL RAD EDR data."
+Description (1 entry):
+	0 (CDF_CHAR/567): 	"This file contains data from RAD_RDR: Radiation Assessment Detector on the Mars Science Laboratory (MSL). There is one sols worth of observations where each observation can have four types of data: (1) Counters, (2) Histograms, (3) Dosimetry, and (4) PHA data. These data are organized in a hierarchical fashion in which some observations may not have all four types. These are described in the data object sections. For additional information and details concerning data organization, science meaning, etc., please refer to the Data Set Catalog, MSLRAD_RDR_DS.CAT.1 "
+Quality_flag_note (1 entry):
+	0 (CDF_CHAR/136): 	"Dataset contains all data, however data is flagged (FLAGGED_DATA) if there are quality issues(cmds > 2, DAN firing, data corruption, &c."
+Duration_note (1 entry):
+	0 (CDF_CHAR/859): 	"A RAD instrument observation is the 'sampling period', for each observation there are variables DURATION and ALIVE_TIME that both are indicators of the length of the observation.  Though similar, they have slightly different meanings, the DURATION (a coarse timer with 1 sec res) is the period from when RAD began acquiring data, until RAD stopped taking data.  The ALIVE_TIME (10us res) is based on how many seconds the hardware was able to accept incoming particles. ALIVE_TIME has a companion variable DEAD_TIME, which indicates how many seconds the hardware was 'busy' processing (and hence cannot accept an incoming particle).  In most nominal cases, the most accurate what to determine the observations active period is ALIVE_TIME + DEAD_TIME.   There can be exceptions, if the ALIVE_TIME counter maxxed out.  In those cases the DURATION would be used. "
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/12): 	"SwRI-Boulder"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"D. Hassler"
+Project (1 entry):
+	0 (CDF_CHAR/27): 	"MSL>Mars Science Laboratory"
+Source_name (1 entry):
+	0 (CDF_CHAR/3): 	"MSL"
+TEXT (1 entry):
+	0 (CDF_CHAR/394): 	"The Radiation Assessment Detector (RAD) and its data products are described in detail in the literature (Hassler et al., 2012). Each RAD observation contains the following: (1) Instrument counters, (2) Neutral particle count histograms in detectors D and E, (3) LET count histograms, (4) Absorbed dose rate in detectors B and E, (5) High-cadence dose rate in B and E (16 rates per observation)."
+Mission_group (1 entry):
+	0 (CDF_CHAR/29): 	"Mars Science Laboratory (MSL)"
+Data_type (1 entry):
+	0 (CDF_CHAR/6): 	"obs-l1"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Descriptor (1 entry):
+	0 (CDF_CHAR/33): 	"RAD>Radiation Assessment Detector"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Generated_by (1 entry):
+	0 (CDF_CHAR/54): 	"Big Head Endian (BHE) for Southwest Research Institute"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (Space)"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/14): 	"msl_rad_obs-l1"
+Logical_source (1 entry):
+	0 (CDF_CHAR/14): 	"msl_rad_obs-l1"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/102): 	"Please acknowledge the RAD Principal Investigator Dr. Hassler of Southwest Research Institute Boulder."
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/135): 	"The RAD data are archived as fully citable data. Please consult the RAD team for further details on processing and usage of these data."
+Time_resolution (1 entry):
+	0 (CDF_CHAR/137): 	"RAD accumulates nominally acquires data in a 16 min observational cadence. During times of high count rates this cadence switches to 8in."
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/42): 	"MSL/RAD Level 1 observational counter data"
+
+Variable Attributes (39 attributes)
+=========================================
+FILLVAL
+Level
+LABLAXIS
+UNITS
+VALIDMIN
+VALIDMAX
+FORMAT
+Datatype
+VAR_TYPE
+DISPLAY_TYPE
+FIELDNAM
+DB
+DEPEND_0
+CATDESC
+SFORMAT
+SCALETYP
+DEPEND_1
+BIN_OFFSET
+ORIGINAL_SIZE
+LOGICAL_CHANNEL
+FAST_DAC
+SLOW_DAC
+INPUT_GAIN
+SLOW_SHAPER
+FAST_SHAPER
+ENABLE_FAST
+ENABLE_SLOW
+LOGIC
+INSPECT_MASK
+REQUIRE_MASK
+READOUT_MASK
+PRIORITY
+TOO
+COMPRESS
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+COMPARE_VAL
+
+Variable Information (0 rVariable, 133 zVariables)
+===========================================================
+ALIVE_TIME            CDF_FLOAT/1	0:[]	T/  
+DEAD_TIME             CDF_FLOAT/1	0:[]	T/  
+DURATION              CDF_UINT2/1	0:[]	T/  
+START_TEMPERATURE     CDF_FLOAT/1	0:[]	T/  
+FSW_XSUM              CDF_UINT4/1	0:[]	T/  
+EVIL_XSUM             CDF_UINT4/1	0:[]	T/  
+SETUP_XSUM            CDF_UINT4/1	0:[]	T/  
+TEMP_XSUM             CDF_UINT4/1	0:[]	T/  
+OBS_ID                CDF_UINT4/1	0:[]	T/  
+BEGIN_SCLK            CDF_UINT4/1	0:[]	T/  
+END_SCLK              CDF_UINT4/1	0:[]	T/  
+BEGIN_UTC             CDF_CHAR/80	0:[]	T/  
+END_UTC               CDF_CHAR/80	0:[]	T/  
+BEGIN_MARS            CDF_CHAR/80	0:[]	T/  
+END_MARS              CDF_CHAR/80	0:[]	T/  
+SOL                   CDF_UINT2/1	0:[]	T/  
+BEGIN_SOL             CDF_DOUBLE/1	0:[]	T/  
+END_SOL               CDF_DOUBLE/1	0:[]	T/  
+ROVER_LAT             CDF_DOUBLE/1	0:[]	T/  
+ROVER_LONG            CDF_DOUBLE/1	0:[]	T/  
+ROVER_ELEVATION       CDF_DOUBLE/1	0:[]	T/  
+ROVER_AZMITH          CDF_DOUBLE/1	0:[]	T/  
+ROVER_ZENITH          CDF_DOUBLE/1	0:[]	T/  
+ROVER_TILT            CDF_FLOAT/1	0:[]	T/  
+SOLAR_ZENITH          CDF_DOUBLE/1	0:[]	T/  
+SOLAR_LONG            CDF_DOUBLE/1	0:[]	T/  
+SOLAR_MODE            CDF_UINT1/1	0:[]	T/  
+DAN_POWERED           CDF_UINT1/1	0:[]	T/  
+EDR_FILENAME          CDF_CHAR/80	0:[]	T/  
+FAST_TRIG_COUNT       CDF_UINT4/1	0:[]	T/  
+LET_A1_f              CDF_DOUBLE/1	1:[52]	T/T
+LET_A1                CDF_DOUBLE/1	1:[52]	T/T
+LET_A2_f              CDF_DOUBLE/1	1:[52]	T/T
+LET_A2                CDF_DOUBLE/1	1:[52]	T/T
+LET_BIN_ENERGY        CDF_DOUBLE/1	1:[52]	T/T
+CHANNEL_COUNTERS_FAST_02 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_02 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_03 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_03 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_04 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_04 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_05 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_05 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_06 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_06 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_07 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_07 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_08 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_08 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_09 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_09 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_10 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_10 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_11 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_11 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_12 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_12 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_13 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_13 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_14 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_14 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_15 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_15 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_16 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_16 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_17 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_17 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_18 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_18 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_19 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_19 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_20 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_20 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_21 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_21 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_22 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_22 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_23 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_23 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_24 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_24 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_25 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_25 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_26 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_26 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_27 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_27 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_28 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_28 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_29 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_29 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_30 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_30 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_31 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_31 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_32 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_32 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_FAST_33 CDF_UINT4/1	0:[]	T/  
+CHANNEL_COUNTERS_SLOW_33 CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_0       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_1       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_2       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_3       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_4       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_5       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_6       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_7       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_8       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_9       CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_10      CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_11      CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_12      CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_13      CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_14      CDF_UINT4/1	0:[]	T/  
+MATCH_COUNTER_15      CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_0        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_1        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_2        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_3        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_4        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_5        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_6        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_7        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_8        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_9        CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_10       CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_11       CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_12       CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_13       CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_14       CDF_UINT4/1	0:[]	T/  
+READ_COUNTER_15       CDF_UINT4/1	0:[]	T/  
+FLAGGED_DATA          CDF_CHAR/80	0:[]	T/  
+EPOCH                 CDF_TT2000/1	0:[]	T/  
+
+
+Variable (133 variables)
+=========================================
+
+ALIVE_TIME (No: 0) (Recs: 0) (Compression: GZIP.1)
+----------
+Attribute Entries:
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     Level           (CDF_INT8/2): 1, 2
+     LABLAXIS        (CDF_CHAR/10): "Alive Time"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 5000.0
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     Datatype        (CDF_CHAR/9): "CDF_FLOAT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): "Alive Time of detector electronics"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): "Actual instrument observation time"
+
+DEAD_TIME (No: 1) (Recs: 0) (Compression: GZIP.1)
+---------
+Attribute Entries:
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Dead Time"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 5000.0
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     Datatype        (CDF_CHAR/9): "CDF_FLOAT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): "Dead Time of detector electronics"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/54): "Amount of time hardware could not accept a new trigger"
+
+DURATION (No: 2) (Recs: 0) (Compression: GZIP.1)
+--------
+Attribute Entries:
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/16): "Observation Time"
+     UNITS           (CDF_CHAR/7): "seconds"
+     VALIDMIN        (CDF_UINT2/1): 1
+     VALIDMAX        (CDF_UINT2/1): 2000
+     FORMAT          (CDF_CHAR/2): "I4"
+     Datatype        (CDF_CHAR/9): "CDF_UINT2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/23): "Duration of Observation"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/63): "Total duration of the observation including dead and alive time"
+
+START_TEMPERATURE (No: 3) (Recs: 0) (Compression: GZIP.1)
+-----------------
+Attribute Entries:
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Temperature"
+     UNITS           (CDF_CHAR/1): "C"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     Datatype        (CDF_CHAR/9): "CDF_FLOAT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/50): "Temperature at the start of observation acquistion"
+     DB              (CDF_CHAR/24): "Housekeeping.beginTemps1"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/39): "Temperature at beginning of observation"
+
+FSW_XSUM (No: 4) (Recs: 0) (Compression: GZIP.1)
+--------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "FSW Xsum"
+     UNITS           (CDF_CHAR/2): "NA"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "FSW checksum"
+     DB              (CDF_CHAR/25): "Housekeeping.CodeChecksum"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/28): "RAD Flight Software checksum"
+
+EVIL_XSUM (No: 5) (Recs: 0) (Compression: GZIP.1)
+---------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/10): "Table Xsum"
+     UNITS           (CDF_CHAR/2): "NA"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "EVIL Table checksum"
+     DB              (CDF_CHAR/30): "Housekeeping.evilTableChecksum"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/19): "EVIL Table checksum"
+
+SETUP_XSUM (No: 6) (Recs: 0) (Compression: GZIP.1)
+----------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/10): "Table Xsum"
+     UNITS           (CDF_CHAR/2): "NA"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/20): "Setup table checksum"
+     DB              (CDF_CHAR/32): "Housekeeping.configTableChecksum"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/20): "Setup Table checksum"
+
+TEMP_XSUM (No: 7) (Recs: 0) (Compression: GZIP.1)
+---------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/10): "Table Xsum"
+     UNITS           (CDF_CHAR/2): "NA"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "Temperature table checksum"
+     DB              (CDF_CHAR/30): "Housekeeping.tempTableChecksum"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/37): "Temperature adjustment table checksum"
+
+OBS_ID (No: 8) (Recs: 0) (Compression: GZIP.1)
+------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/14): "Observation ID"
+     UNITS           (CDF_CHAR/2): "ID"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/23): "Database observation ID"
+     DB              (CDF_CHAR/25): "Observation.observationID"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/41): "Observation id in database as primary key"
+
+BEGIN_SCLK (No: 9) (Recs: 0) (Compression: GZIP.1)
+----------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/4): "Sclk"
+     UNITS           (CDF_CHAR/7): "Seconds"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/36): "SC clock at beginning of observation"
+     DB              (CDF_CHAR/21): "Observation.beginSCLK"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/44): "Spacecraft Clock at beginning of observation"
+
+END_SCLK (No: 10) (Recs: 0) (Compression: GZIP.1)
+--------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/4): "Sclk"
+     UNITS           (CDF_CHAR/7): "Seconds"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "SC clock at end of observation"
+     DB              (CDF_CHAR/19): "Observation.endSCLK"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/38): "Spacecraft Clock at end of observation"
+
+BEGIN_UTC (No: 11) (Recs: 0) (Compression: GZIP.1)
+---------
+Attribute Entries:
+     LABLAXIS        (CDF_CHAR/3): "UTC"
+     UNITS           (CDF_CHAR/4): "Time"
+     FORMAT          (CDF_CHAR/3): "a81"
+     Datatype        (CDF_CHAR/8): "CDF_CHAR"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     FIELDNAM        (CDF_CHAR/27): "UTC at start of observation"
+     DB              (CDF_CHAR/20): "Observation.beginUTC"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/32): "UTC time at start of observation"
+     SFORMAT         (CDF_CHAR/17): "YYYYmmDD_HH%MM%SS"
+
+END_UTC (No: 12) (Recs: 0) (Compression: GZIP.1)
+-------
+Attribute Entries:
+     LABLAXIS        (CDF_CHAR/3): "UTC"
+     UNITS           (CDF_CHAR/4): "Time"
+     FORMAT          (CDF_CHAR/3): "a81"
+     Datatype        (CDF_CHAR/8): "CDF_CHAR"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     FIELDNAM        (CDF_CHAR/25): "UTC at end of observation"
+     DB              (CDF_CHAR/18): "Observation.endUTC"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/30): "UTC time at end of observation"
+     SFORMAT         (CDF_CHAR/17): "YYYYmmDD_HH%MM%SS"
+
+BEGIN_MARS (No: 13) (Recs: 0) (Compression: GZIP.1)
+----------
+Attribute Entries:
+     LABLAXIS        (CDF_CHAR/15): "Mars Local Time"
+     UNITS           (CDF_CHAR/4): "Time"
+     FORMAT          (CDF_CHAR/3): "a81"
+     Datatype        (CDF_CHAR/8): "CDF_CHAR"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     FIELDNAM        (CDF_CHAR/39): "Mars Local Time at start of observation"
+     DB              (CDF_CHAR/30): "Observation.beginMarsLocalTime"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/39): "Mars local time at start of observation"
+     SFORMAT         (CDF_CHAR/8): "HH:MM:SS"
+
+END_MARS (No: 14) (Recs: 0) (Compression: GZIP.1)
+--------
+Attribute Entries:
+     LABLAXIS        (CDF_CHAR/15): "Mars Local Time"
+     UNITS           (CDF_CHAR/4): "Time"
+     FORMAT          (CDF_CHAR/3): "a81"
+     Datatype        (CDF_CHAR/8): "CDF_CHAR"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     FIELDNAM        (CDF_CHAR/37): "Mars local time at end of observation"
+     DB              (CDF_CHAR/28): "Observation.endMarsLocalTime"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/37): "Mars local time at end of observation"
+     SFORMAT         (CDF_CHAR/8): "HH:MM:SS"
+
+SOL (No: 15) (Recs: 0) (Compression: GZIP.1)
+---
+Attribute Entries:
+     FILLVAL         (CDF_UINT2/1): 65535
+     LABLAXIS        (CDF_CHAR/3): "Sol"
+     UNITS           (CDF_CHAR/3): "Sol"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 9999
+     FORMAT          (CDF_CHAR/2): "I5"
+     Datatype        (CDF_CHAR/9): "CDF_UINT2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "Mars Sol"
+     DB              (CDF_CHAR/15): "Observation.sol"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/11): "Martian Sol"
+
+BEGIN_SOL (No: 16) (Recs: 0) (Compression: GZIP.1)
+---------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Start Sol"
+     UNITS           (CDF_CHAR/3): "Sol"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 9999.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): "Precise Sol at start of observation"
+     DB              (CDF_CHAR/27): "Observation.beginSolPrecise"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): "Precise Sol at start of observation"
+
+END_SOL (No: 17) (Recs: 0) (Compression: GZIP.1)
+-------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "End Sol"
+     UNITS           (CDF_CHAR/3): "Sol"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 9999.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): "Precise Sol at end of observation"
+     DB              (CDF_CHAR/25): "Observation.endSolPrecise"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): "Precise Sol at end of observation"
+
+ROVER_LAT (No: 18) (Recs: 0) (Compression: GZIP.1)
+---------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "Latitude"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "Rover Latitude"
+     DB              (CDF_CHAR/10): "Common.lat"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/14): "Rover Latitude"
+
+ROVER_LONG (No: 19) (Recs: 0) (Compression: GZIP.1)
+----------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Longitude"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_DOUBLE/1): -180.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "Rover Longitude"
+     DB              (CDF_CHAR/10): "Common.lon"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/15): "Rover Longitude"
+
+ROVER_ELEVATION (No: 20) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Elevation"
+     UNITS           (CDF_CHAR/6): "Meters"
+     VALIDMIN        (CDF_DOUBLE/1): -5000.0
+     VALIDMAX        (CDF_DOUBLE/1): 9999.0
+     FORMAT          (CDF_CHAR/4): "f9.3"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "Rover Elevation"
+     DB              (CDF_CHAR/16): "Common.elevation"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/15): "Rover Elevation"
+
+ROVER_AZMITH (No: 21) (Recs: 0) (Compression: GZIP.1)
+------------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Azmith"
+     UNITS           (CDF_CHAR/7): "radians"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "Rover Azmith"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/32): "Rover Azmith Where to get this??"
+
+ROVER_ZENITH (No: 22) (Recs: 0) (Compression: GZIP.1)
+------------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Zenith"
+     UNITS           (CDF_CHAR/7): "radians"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/18): "Rover Zenith angle"
+     DB              (CDF_CHAR/23): "Common.roverZenithAngle"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/18): "Rover Zenith angle"
+
+ROVER_TILT (No: 23) (Recs: 0) (Compression: GZIP.1)
+----------
+Attribute Entries:
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "Tilt"
+     UNITS           (CDF_CHAR/7): "radians"
+     VALIDMIN        (CDF_FLOAT/1): -10.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     Datatype        (CDF_CHAR/9): "CDF_FLOAT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "Rover Tilt Angle"
+     DB              (CDF_CHAR/21): "Common.roverTiltAngle"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/16): "Rover Tilt Angle"
+
+SOLAR_ZENITH (No: 24) (Recs: 0) (Compression: GZIP.1)
+------------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Solar Zenith"
+     UNITS           (CDF_CHAR/7): "radians"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "Solar Zenith"
+     DB              (CDF_CHAR/21): "Common.sunZenithAngle"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/12): "Solar Zenith"
+
+SOLAR_LONG (No: 25) (Recs: 0) (Compression: GZIP.1)
+----------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "Solar Longitude"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_DOUBLE/1): -180.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "Solar Longitude"
+     DB              (CDF_CHAR/21): "Common.solarLongitude"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/15): "Solar Longitude"
+
+SOLAR_MODE (No: 26) (Recs: 0) (Compression: GZIP.1)
+----------
+Attribute Entries:
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/10): "Solar Mode"
+     UNITS           (CDF_CHAR/3): "T/F"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     FORMAT          (CDF_CHAR/2): "I1"
+     Datatype        (CDF_CHAR/9): "CDF_UINT1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "Is RAD in Solar  Mode"
+     DB              (CDF_CHAR/16): "Common.solarMode"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/50): "Did RAD detect a solar event during intialization?"
+
+DAN_POWERED (No: 27) (Recs: 0) (Compression: GZIP.1)
+-----------
+Attribute Entries:
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/11): "Dan Powered"
+     UNITS           (CDF_CHAR/3): "T/F"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     FORMAT          (CDF_CHAR/2): "I1"
+     Datatype        (CDF_CHAR/9): "CDF_UINT1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/36): "Is DAN powered on during observation"
+     DB              (CDF_CHAR/13): "Common.dan_on"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/46): "True if DAN was enabled during RAD observation"
+
+EDR_FILENAME (No: 28) (Recs: 0) (Compression: GZIP.1)
+------------
+Attribute Entries:
+     LABLAXIS        (CDF_CHAR/8): "Filename"
+     UNITS           (CDF_CHAR/2): "NA"
+     FORMAT          (CDF_CHAR/3): "a80"
+     Datatype        (CDF_CHAR/8): "CDF_CHAR"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/36): "Source filename for this observation"
+     DB              (CDF_CHAR/17): "EDR_File.filename"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/44): "EDR filename that contained this observation"
+
+FAST_TRIG_COUNT (No: 29) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/13): "Fast Triggers"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/2): "I8"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "Fast Triggers triggered on RAD"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/40): "How many fast triggers hardware detected"
+
+LET_A1_f (No: 30) (Recs: 0) (Compression: GZIP.1)
+--------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "LET A1"
+     UNITS           (CDF_CHAR/14): "counts (good Q"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/17): "LET in A1 silicon"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/45): "[Quality filtered] LET in A1 silicon detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_1        (CDF_CHAR/14): "LET_BIN_ENERGY"
+     BIN_OFFSET      (CDF_INT8/1): 18
+     ORIGINAL_SIZE   (CDF_INT8/1): 52
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/6): "LET_A1"
+     COMPONENT_1     (CDF_CHAR/12): "FLAGGED_DATA"
+     COMPARE_VAL     (CDF_CHAR/1): " "
+
+LET_A1 (No: 31) (Recs: 0) (Compression: GZIP.1)
+------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "LET A1"
+     UNITS           (CDF_CHAR/14): "counts (All Q)"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/17): "LET in A1 silicon"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/40): "[All quality] LET in A1 silicon detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_1        (CDF_CHAR/14): "LET_BIN_ENERGY"
+     BIN_OFFSET      (CDF_INT8/1): 18
+     ORIGINAL_SIZE   (CDF_INT8/1): 52
+
+LET_A2_f (No: 32) (Recs: 0) (Compression: GZIP.1)
+--------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "LET A2"
+     UNITS           (CDF_CHAR/15): "counts (good Q)"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/17): "LET in A2 silicon"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/45): "[Quality filtered] LET in A2 silicon detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_1        (CDF_CHAR/14): "LET_BIN_ENERGY"
+     BIN_OFFSET      (CDF_INT8/1): 18
+     ORIGINAL_SIZE   (CDF_INT8/1): 52
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/6): "LET_A2"
+     COMPONENT_1     (CDF_CHAR/12): "FLAGGED_DATA"
+     COMPARE_VAL     (CDF_CHAR/1): " "
+
+LET_A2 (No: 33) (Recs: 0) (Compression: GZIP.1)
+------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "LET A2"
+     UNITS           (CDF_CHAR/14): "counts (All Q)"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+06
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/17): "LET in A2 silicon"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/40): "[All quality] LET in A2 silicon detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_1        (CDF_CHAR/14): "LET_BIN_ENERGY"
+     BIN_OFFSET      (CDF_INT8/1): 18
+     ORIGINAL_SIZE   (CDF_INT8/1): 52
+
+LET_BIN_ENERGY (No: 34) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     Level           (CDF_INT8/2): 1, 2
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/10): "keV/micron"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 45000.0
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     Datatype        (CDF_CHAR/10): "CDF_DOUBLE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/9): "Bin Start"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/30): "Energy at the start of the bin"
+     BIN_OFFSET      (CDF_INT8/1): 18
+     ORIGINAL_SIZE   (CDF_INT8/1): 52
+
+CHANNEL_COUNTERS_FAST_02 (No: 35) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "F2H"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 0 (F2H)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 0 (F2H)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 0
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 99
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_02 (No: 36) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "F2H"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 0 (F2H)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 0 (F2H)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 0
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 99
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_03 (No: 37) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EL"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Fast channel 1 (EL)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Fast channel 1 (EL)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 1
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 95
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_03 (No: 38) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EL"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Slow channel 1 (EL)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Slow channel 1 (EL)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 1
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 95
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_04 (No: 39) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EN"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Fast channel 2 (EN)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Fast channel 2 (EN)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 2
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 111
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 0
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_04 (No: 40) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EN"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Slow channel 2 (EN)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Slow channel 2 (EN)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 2
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 111
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 0
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_05 (No: 41) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EM"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Fast channel 3 (EM)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Fast channel 3 (EM)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 3
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 103
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_05 (No: 42) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EM"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Slow channel 3 (EM)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Slow channel 3 (EM)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 3
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 103
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_06 (No: 43) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EI"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Fast channel 4 (EI)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Fast channel 4 (EI)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 4
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 98
+     INPUT_GAIN      (CDF_INT8/1): 2
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_06 (No: 44) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EI"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Slow channel 4 (EI)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Slow channel 4 (EI)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 4
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 98
+     INPUT_GAIN      (CDF_INT8/1): 2
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_07 (No: 45) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EH"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Fast channel 5 (EH)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Fast channel 5 (EH)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 5
+     FAST_DAC        (CDF_INT8/1): 107
+     SLOW_DAC        (CDF_INT8/1): 117
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 3
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_SLOW_07 (No: 46) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EH"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Slow channel 5 (EH)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Slow channel 5 (EH)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 5
+     FAST_DAC        (CDF_INT8/1): 107
+     SLOW_DAC        (CDF_INT8/1): 117
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 3
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_FAST_08 (No: 47) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EU"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Fast channel 6 (EU)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Fast channel 6 (EU)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 6
+     FAST_DAC        (CDF_INT8/1): 141
+     SLOW_DAC        (CDF_INT8/1): 144
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_08 (No: 48) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "EU"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Slow channel 6 (EU)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Slow channel 6 (EU)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 6
+     FAST_DAC        (CDF_INT8/1): 141
+     SLOW_DAC        (CDF_INT8/1): 144
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_09 (No: 49) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DL"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Fast channel 7 (DL)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Fast channel 7 (DL)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 7
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 179
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_09 (No: 50) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DL"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Slow channel 7 (DL)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Slow channel 7 (DL)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 7
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 179
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_10 (No: 51) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DN"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Fast channel 8 (DN)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Fast channel 8 (DN)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 8
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 186
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_10 (No: 52) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DN"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Slow channel 8 (DN)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Slow channel 8 (DN)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 8
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 186
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_11 (No: 53) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DM"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Fast channel 9 (DM)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Fast channel 9 (DM)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 9
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 179
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 0
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_11 (No: 54) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DM"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/33): " Triggers for Slow channel 9 (DM)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/33): " Triggers for Slow channel 9 (DM)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 9
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 179
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 0
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_12 (No: 55) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DI"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 10 (DI)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 10 (DI)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 10
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 87
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_12 (No: 56) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DI"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 10 (DI)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 10 (DI)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 10
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 87
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_13 (No: 57) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DH"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 11 (DH)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 11 (DH)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 11
+     FAST_DAC        (CDF_INT8/1): 99
+     SLOW_DAC        (CDF_INT8/1): 118
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_SLOW_13 (No: 58) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DH"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 11 (DH)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 11 (DH)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 11
+     FAST_DAC        (CDF_INT8/1): 99
+     SLOW_DAC        (CDF_INT8/1): 118
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_FAST_14 (No: 59) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DU"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 12 (DU)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 12 (DU)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 12
+     FAST_DAC        (CDF_INT8/1): 106
+     SLOW_DAC        (CDF_INT8/1): 102
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_14 (No: 60) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "DU"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 12 (DU)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 12 (DU)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 12
+     FAST_DAC        (CDF_INT8/1): 106
+     SLOW_DAC        (CDF_INT8/1): 102
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_15 (No: 61) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "CL"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 13 (CL)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 13 (CL)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 13
+     FAST_DAC        (CDF_INT8/1): 96
+     SLOW_DAC        (CDF_INT8/1): 191
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_SLOW_15 (No: 62) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "CL"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 13 (CL)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 13 (CL)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 13
+     FAST_DAC        (CDF_INT8/1): 96
+     SLOW_DAC        (CDF_INT8/1): 191
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_FAST_16 (No: 63) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "CM"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 14 (CM)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 14 (CM)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 14
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 141
+     INPUT_GAIN      (CDF_INT8/1): 2
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_16 (No: 64) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "CM"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 14 (CM)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 14 (CM)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 14
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 141
+     INPUT_GAIN      (CDF_INT8/1): 2
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_17 (No: 65) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "CH"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 15 (CH)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 15 (CH)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 15
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 126
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_17 (No: 66) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "CH"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 15 (CH)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 15 (CH)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 15
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 126
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_18 (No: 67) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "CU"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 16 (CU)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 16 (CU)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 16
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 117
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 2
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_18 (No: 68) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "CU"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 16 (CU)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 16 (CU)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 16
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 117
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 2
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_19 (No: 69) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "C2L"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 17 (C2L)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 17 (C2L)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 17
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 119
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 2
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_SLOW_19 (No: 70) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "C2L"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 17 (C2L)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 17 (C2L)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 17
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 119
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 2
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_FAST_20 (No: 71) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "C2H"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 18 (C2H)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 18 (C2H)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 18
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 183
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_20 (No: 72) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "C2H"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 18 (C2H)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 18 (C2H)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 18
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 183
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_21 (No: 73) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "BL"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 19 (BL)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 19 (BL)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 19
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 113
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_21 (No: 74) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "BL"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 19 (BL)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 19 (BL)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 19
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 113
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_22 (No: 75) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "BM"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 20 (BM)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 20 (BM)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 20
+     FAST_DAC        (CDF_INT8/1): 128
+     SLOW_DAC        (CDF_INT8/1): 143
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_SLOW_22 (No: 76) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "BM"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 20 (BM)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 20 (BM)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 20
+     FAST_DAC        (CDF_INT8/1): 128
+     SLOW_DAC        (CDF_INT8/1): 143
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_FAST_23 (No: 77) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "BH"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 21 (BH)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 21 (BH)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 21
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 125
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_23 (No: 78) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "BH"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 21 (BH)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 21 (BH)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 21
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 125
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_24 (No: 79) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "BU"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Fast channel 22 (BU)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Fast channel 22 (BU)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 22
+     FAST_DAC        (CDF_INT8/1): 104
+     SLOW_DAC        (CDF_INT8/1): 90
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 3
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_SLOW_24 (No: 80) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/2): "BU"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/34): " Triggers for Slow channel 22 (BU)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/34): " Triggers for Slow channel 22 (BU)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 22
+     FAST_DAC        (CDF_INT8/1): 104
+     SLOW_DAC        (CDF_INT8/1): 90
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 3
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 1
+
+CHANNEL_COUNTERS_FAST_25 (No: 81) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A2L"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 23 (A2L)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 23 (A2L)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 23
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 136
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_25 (No: 82) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A2L"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 23 (A2L)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 23 (A2L)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 23
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 136
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_26 (No: 83) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A2M"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 24 (A2M)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 24 (A2M)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 24
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 143
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_26 (No: 84) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A2M"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 24 (A2M)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 24 (A2M)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 24
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 143
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_27 (No: 85) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A2H"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 25 (A2H)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 25 (A2H)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 25
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 115
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_27 (No: 86) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A2H"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 25 (A2H)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 25 (A2H)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 25
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 115
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_28 (No: 87) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A2U"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 26 (A2U)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 26 (A2U)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 26
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 93
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_28 (No: 88) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A2U"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 26 (A2U)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 26 (A2U)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 26
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 93
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 2
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_29 (No: 89) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A1L"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 27 (A1L)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 27 (A1L)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 27
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 133
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_29 (No: 90) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A1L"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 27 (A1L)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 27 (A1L)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 27
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 133
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_30 (No: 91) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A1M"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 28 (A1M)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 28 (A1M)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 28
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 131
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_30 (No: 92) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A1M"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 28 (A1M)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 28 (A1M)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 28
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 131
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_31 (No: 93) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A1H"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 29 (A1H)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 29 (A1H)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 29
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 111
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_31 (No: 94) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A1H"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 29 (A1H)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 29 (A1H)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 29
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 111
+     INPUT_GAIN      (CDF_INT8/1): 0
+     SLOW_SHAPER     (CDF_INT8/1): 3
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_32 (No: 95) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A1U"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 30 (A1U)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 30 (A1U)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 30
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 104
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_32 (No: 96) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "A1U"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 30 (A1U)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 30 (A1U)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 30
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 104
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 1
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_FAST_33 (No: 97) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "F1L"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Fast channel 31 (F1L)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Fast channel 31 (F1L)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 31
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 101
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 0
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+CHANNEL_COUNTERS_SLOW_33 (No: 98) (Recs: 0) (Compression: GZIP.1)
+------------------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/3): "F1L"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): " Triggers for Slow channel 31 (F1L)"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/35): " Triggers for Slow channel 31 (F1L)"
+     LOGICAL_CHANNEL (CDF_INT8/1): 31
+     FAST_DAC        (CDF_INT8/1): 255
+     SLOW_DAC        (CDF_INT8/1): 101
+     INPUT_GAIN      (CDF_INT8/1): 3
+     SLOW_SHAPER     (CDF_INT8/1): 0
+     FAST_SHAPER     (CDF_INT8/1): 0
+     ENABLE_FAST     (CDF_INT8/1): 1
+     ENABLE_SLOW     (CDF_INT8/1): 0
+
+MATCH_COUNTER_0 (No: 99) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 0"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 0"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/66): "Particle events that matched  for index 0 [A1U and BU and not C2L]"
+     LOGIC           (CDF_CHAR/24): "[A1U and BU and not C2L]"
+     INSPECT_MASK    (CDF_CHAR/6): "0x4202"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x202"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_1 (No: 100) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 1"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 1"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/66): "Particle events that matched  for index 1 [A2U and BU and not C2L]"
+     LOGIC           (CDF_CHAR/24): "[A2U and BU and not C2L]"
+     INSPECT_MASK    (CDF_CHAR/6): "0x4220"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x220"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_2 (No: 101) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 2"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 2"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/54): "Particle events that matched  for index 2 [A1M and BM]"
+     LOGIC           (CDF_CHAR/12): "[A1M and BM]"
+     INSPECT_MASK    (CDF_CHAR/5): "0x808"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x808"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_3 (No: 102) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 3"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 3"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/54): "Particle events that matched  for index 3 [A2M and BM]"
+     LOGIC           (CDF_CHAR/12): "[A2M and BM]"
+     INSPECT_MASK    (CDF_CHAR/5): "0x880"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x880"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_4 (No: 103) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 4"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 4"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/46): "Particle events that matched  for index 4 [BU]"
+     LOGIC           (CDF_CHAR/4): "[BU]"
+     INSPECT_MASK    (CDF_CHAR/5): "0x200"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x200"
+     READOUT_MASK    (CDF_CHAR/6): "0x1fba"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_5 (No: 104) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 5"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 5"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/53): "Particle events that matched  for index 5 [EH and EI]"
+     LOGIC           (CDF_CHAR/11): "[EH and EI]"
+     INSPECT_MASK    (CDF_CHAR/9): "0xc000000"
+     REQUIRE_MASK    (CDF_CHAR/9): "0xc000000"
+     READOUT_MASK    (CDF_CHAR/10): "0x6c000000"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_6 (No: 105) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 6"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 6"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/118): "Particle events that matched  for index 6 [not F1L and not BU and not C2H and not C2L and not CU and EH and EI and EM]"
+     LOGIC           (CDF_CHAR/76): "[not F1L and not BU and not C2H and not C2L and not CU and EH and EI and EM]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x9c00e201"
+     REQUIRE_MASK    (CDF_CHAR/10): "0x1c000000"
+     READOUT_MASK    (CDF_CHAR/10): "0xec04e001"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_7 (No: 106) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 7"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 7"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/111): "Particle events that matched  for index 7 [not F1L and not BU and not C2H and not C2L and not CU and DH and DI]"
+     LOGIC           (CDF_CHAR/69): "[not F1L and not BU and not C2H and not C2L and not CU and DH and DI]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x8030e201"
+     REQUIRE_MASK    (CDF_CHAR/8): "0x300000"
+     READOUT_MASK    (CDF_CHAR/10): "0x81b4e001"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_8 (No: 107) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 8"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 8"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/125): "Particle events that matched  for index 8 [not F1L and not BU and not C2H and not C2L and not CU and DH and DI and EH and EI]"
+     LOGIC           (CDF_CHAR/83): "[not F1L and not BU and not C2H and not C2L and not CU and DH and DI and EH and EI]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x8c30e201"
+     REQUIRE_MASK    (CDF_CHAR/9): "0xc300000"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb4e001"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_9 (No: 108) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 9"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "Particle events that matched  index 9"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/53): "Particle events that matched  for index 9 [DM and DL]"
+     LOGIC           (CDF_CHAR/11): "[DM and DL]"
+     INSPECT_MASK    (CDF_CHAR/9): "0x1400000"
+     REQUIRE_MASK    (CDF_CHAR/9): "0x1400000"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_10 (No: 109) (Recs: 0) (Compression: GZIP.1)
+----------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 10"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/38): "Particle events that matched  index 10"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/151): "Particle events that matched  for index 10 [not F1L and not A1U and not A2U and BU and not BH and not C2H and not C2L and not CU and not DH and not EH]"
+     LOGIC           (CDF_CHAR/108): "[not F1L and not A1U and not A2U and BU and not BH and not C2H and not C2L and not CU and not DH and not EH]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x8410e623"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x200"
+     READOUT_MASK    (CDF_CHAR/6): "0x1e00"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_11 (No: 110) (Recs: 0) (Compression: GZIP.1)
+----------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 11"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/38): "Particle events that matched  index 11"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/76): "Particle events that matched  for index 11 [A2U and BU and CU and DH and EH]"
+     LOGIC           (CDF_CHAR/33): "[A2U and BU and CU and DH and EH]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x84108220"
+     REQUIRE_MASK    (CDF_CHAR/10): "0x84108220"
+     READOUT_MASK    (CDF_CHAR/3): "0x0"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_12 (No: 111) (Recs: 0) (Compression: GZIP.1)
+----------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 12"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/38): "Particle events that matched  index 12"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/100): "Particle events that matched  for index 12 [not A1U and not A2U and not BU and not CU and DH and EH]"
+     LOGIC           (CDF_CHAR/57): "[not A1U and not A2U and not BU and not CU and DH and EH]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x84108222"
+     REQUIRE_MASK    (CDF_CHAR/10): "0x84100000"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_13 (No: 112) (Recs: 0) (Compression: GZIP.1)
+----------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 13"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/38): "Particle events that matched  index 13"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/80): "Particle events that matched  for index 13 [A2U and BU and CU and DH and not EH]"
+     LOGIC           (CDF_CHAR/37): "[A2U and BU and CU and DH and not EH]"
+     INSPECT_MASK    (CDF_CHAR/9): "0x4108220"
+     REQUIRE_MASK    (CDF_CHAR/8): "0x108220"
+     READOUT_MASK    (CDF_CHAR/3): "0x0"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_14 (No: 113) (Recs: 0) (Compression: GZIP.1)
+----------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 14"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/38): "Particle events that matched  index 14"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/82): "Particle events that matched  for index 14 [not A1M and not A2M and BM and not CM]"
+     LOGIC           (CDF_CHAR/39): "[not A1M and not A2M and BM and not CM]"
+     INSPECT_MASK    (CDF_CHAR/7): "0x20888"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x800"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+MATCH_COUNTER_15 (No: 114) (Recs: 0) (Compression: GZIP.1)
+----------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 15"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/38): "Particle events that matched  index 15"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/45): "Particle events that matched  for index 15 NA"
+     LOGIC           (CDF_CHAR/2): "NA"
+     INSPECT_MASK    (CDF_CHAR/3): "0x0"
+     REQUIRE_MASK    (CDF_CHAR/3): "0x0"
+     READOUT_MASK    (CDF_CHAR/3): "0x0"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_0 (No: 115) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 0"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 0"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/84): "Particle events that were analyzed by hardware  for index 0 [A1U and BU and not C2L]"
+     LOGIC           (CDF_CHAR/24): "[A1U and BU and not C2L]"
+     INSPECT_MASK    (CDF_CHAR/6): "0x4202"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x202"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_1 (No: 116) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 1"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 1"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/84): "Particle events that were analyzed by hardware  for index 1 [A2U and BU and not C2L]"
+     LOGIC           (CDF_CHAR/24): "[A2U and BU and not C2L]"
+     INSPECT_MASK    (CDF_CHAR/6): "0x4220"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x220"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_2 (No: 117) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 2"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 2"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/72): "Particle events that were analyzed by hardware  for index 2 [A1M and BM]"
+     LOGIC           (CDF_CHAR/12): "[A1M and BM]"
+     INSPECT_MASK    (CDF_CHAR/5): "0x808"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x808"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_3 (No: 118) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 3"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 3"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/72): "Particle events that were analyzed by hardware  for index 3 [A2M and BM]"
+     LOGIC           (CDF_CHAR/12): "[A2M and BM]"
+     INSPECT_MASK    (CDF_CHAR/5): "0x880"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x880"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_4 (No: 119) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 4"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 4"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/64): "Particle events that were analyzed by hardware  for index 4 [BU]"
+     LOGIC           (CDF_CHAR/4): "[BU]"
+     INSPECT_MASK    (CDF_CHAR/5): "0x200"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x200"
+     READOUT_MASK    (CDF_CHAR/6): "0x1fba"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_5 (No: 120) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 5"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 5"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/71): "Particle events that were analyzed by hardware  for index 5 [EH and EI]"
+     LOGIC           (CDF_CHAR/11): "[EH and EI]"
+     INSPECT_MASK    (CDF_CHAR/9): "0xc000000"
+     REQUIRE_MASK    (CDF_CHAR/9): "0xc000000"
+     READOUT_MASK    (CDF_CHAR/10): "0x6c000000"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_6 (No: 121) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 6"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 6"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/136): "Particle events that were analyzed by hardware  for index 6 [not F1L and not BU and not C2H and not C2L and not CU and EH and EI and EM]"
+     LOGIC           (CDF_CHAR/76): "[not F1L and not BU and not C2H and not C2L and not CU and EH and EI and EM]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x9c00e201"
+     REQUIRE_MASK    (CDF_CHAR/10): "0x1c000000"
+     READOUT_MASK    (CDF_CHAR/10): "0xec04e001"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_7 (No: 122) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 7"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 7"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/129): "Particle events that were analyzed by hardware  for index 7 [not F1L and not BU and not C2H and not C2L and not CU and DH and DI]"
+     LOGIC           (CDF_CHAR/69): "[not F1L and not BU and not C2H and not C2L and not CU and DH and DI]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x8030e201"
+     REQUIRE_MASK    (CDF_CHAR/8): "0x300000"
+     READOUT_MASK    (CDF_CHAR/10): "0x81b4e001"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_8 (No: 123) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 8"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 8"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/143): "Particle events that were analyzed by hardware  for index 8 [not F1L and not BU and not C2H and not C2L and not CU and DH and DI and EH and EI]"
+     LOGIC           (CDF_CHAR/83): "[not F1L and not BU and not C2H and not C2L and not CU and DH and DI and EH and EI]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x8c30e201"
+     REQUIRE_MASK    (CDF_CHAR/9): "0xc300000"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb4e001"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_9 (No: 124) (Recs: 0) (Compression: GZIP.1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/7): "Index 9"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Particle events that were analyzed by hardware  index 9"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/71): "Particle events that were analyzed by hardware  for index 9 [DM and DL]"
+     LOGIC           (CDF_CHAR/11): "[DM and DL]"
+     INSPECT_MASK    (CDF_CHAR/9): "0x1400000"
+     REQUIRE_MASK    (CDF_CHAR/9): "0x1400000"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_10 (No: 125) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 10"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/56): "Particle events that were analyzed by hardware  index 10"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/169): "Particle events that were analyzed by hardware  for index 10 [not F1L and not A1U and not A2U and BU and not BH and not C2H and not C2L and not CU and not DH and not EH]"
+     LOGIC           (CDF_CHAR/108): "[not F1L and not A1U and not A2U and BU and not BH and not C2H and not C2L and not CU and not DH and not EH]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x8410e623"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x200"
+     READOUT_MASK    (CDF_CHAR/6): "0x1e00"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_11 (No: 126) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 11"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/56): "Particle events that were analyzed by hardware  index 11"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/94): "Particle events that were analyzed by hardware  for index 11 [A2U and BU and CU and DH and EH]"
+     LOGIC           (CDF_CHAR/33): "[A2U and BU and CU and DH and EH]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x84108220"
+     REQUIRE_MASK    (CDF_CHAR/10): "0x84108220"
+     READOUT_MASK    (CDF_CHAR/3): "0x0"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_12 (No: 127) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 12"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/56): "Particle events that were analyzed by hardware  index 12"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/118): "Particle events that were analyzed by hardware  for index 12 [not A1U and not A2U and not BU and not CU and DH and EH]"
+     LOGIC           (CDF_CHAR/57): "[not A1U and not A2U and not BU and not CU and DH and EH]"
+     INSPECT_MASK    (CDF_CHAR/10): "0x84108222"
+     REQUIRE_MASK    (CDF_CHAR/10): "0x84100000"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_13 (No: 128) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 13"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/56): "Particle events that were analyzed by hardware  index 13"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/98): "Particle events that were analyzed by hardware  for index 13 [A2U and BU and CU and DH and not EH]"
+     LOGIC           (CDF_CHAR/37): "[A2U and BU and CU and DH and not EH]"
+     INSPECT_MASK    (CDF_CHAR/9): "0x4108220"
+     REQUIRE_MASK    (CDF_CHAR/8): "0x108220"
+     READOUT_MASK    (CDF_CHAR/3): "0x0"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_14 (No: 129) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 14"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/56): "Particle events that were analyzed by hardware  index 14"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/100): "Particle events that were analyzed by hardware  for index 14 [not A1M and not A2M and BM and not CM]"
+     LOGIC           (CDF_CHAR/39): "[not A1M and not A2M and BM and not CM]"
+     INSPECT_MASK    (CDF_CHAR/7): "0x20888"
+     REQUIRE_MASK    (CDF_CHAR/5): "0x800"
+     READOUT_MASK    (CDF_CHAR/10): "0xedb7ffbb"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+READ_COUNTER_15 (No: 130) (Recs: 0) (Compression: GZIP.1)
+---------------
+Attribute Entries:
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/8): "Index 15"
+     UNITS           (CDF_CHAR/5): "Count"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     FORMAT          (CDF_CHAR/3): "I10"
+     Datatype        (CDF_CHAR/9): "CDF_UINT4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/56): "Particle events that were analyzed by hardware  index 15"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/63): "Particle events that were analyzed by hardware  for index 15 NA"
+     LOGIC           (CDF_CHAR/2): "NA"
+     INSPECT_MASK    (CDF_CHAR/3): "0x0"
+     REQUIRE_MASK    (CDF_CHAR/3): "0x0"
+     READOUT_MASK    (CDF_CHAR/3): "0x0"
+     PRIORITY        (CDF_CHAR/6): "0x430c"
+     TOO             (CDF_CHAR/4): "0x13"
+
+FLAGGED_DATA (No: 131) (Recs: 0) (Compression: GZIP.1)
+------------
+Attribute Entries:
+     Level           (CDF_INT8/2): 1, 2
+     LABLAXIS        (CDF_CHAR/12): "Flagged Data"
+     UNITS           (CDF_CHAR/2): "NA"
+     FORMAT          (CDF_CHAR/3): "a16"
+     Datatype        (CDF_CHAR/8): "CDF_CHAR"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FIELDNAM        (CDF_CHAR/42): "Flagged data should be removed for science"
+     DB              (CDF_CHAR/2): "NA"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/85): "Flagged data has quality issues from various sources, Commanding, DAN activity, Other"
+
+EPOCH (No: 132) (Recs: 0)
+-----
+Attribute Entries:
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     Level           (CDF_INT8/2): 1, 2
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_TT2000/1): 2005-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2035-01-01T00:00:00.000000000
+     Datatype        (CDF_CHAR/15): "CDF_TIME_TT2000"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FIELDNAM        (CDF_CHAR/12): "Epoch TT2000"
+     DB              (CDF_CHAR/2): "NA"
+     CATDESC         (CDF_CHAR/14): "Epoch time tag"
+     COMPRESS        (CDF_CHAR/5): "FALSE"
+

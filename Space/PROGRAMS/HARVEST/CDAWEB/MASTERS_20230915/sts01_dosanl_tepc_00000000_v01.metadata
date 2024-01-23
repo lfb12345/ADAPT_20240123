@@ -1,0 +1,369 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sts01_dosanl_tepc_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sts01_dosanl_tepc_00000000_v01.cdf
+Version:      2.6.7
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-1997 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     17
+NumAttrs:     47 (24 global, 23 variable)
+Compression:  None
+
+Global Attributes (24 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"ISS"
+Source_name (1 entry):
+	0 (CDF_CHAR/11): 	"STS01>STS01"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/20): 	"DOSANL>Dose Analyzed"
+Descriptor (1 entry):
+	0 (CDF_CHAR/9): 	"TEPC>TEPC"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"Juan Garza"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/8): 	"SRAG/JSC"
+TEXT (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/3): 	"ISS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/17): 	"sts01_dosanl_tepc"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/30): 	"sts01_dosanl_tepc_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/54): 	"Experiment Data, ISS STS01 TEPC (from ASCII .DOS file)"
+Time_resolution (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/57): 	"Space Radiation Analysis Group /NASA Johnson Space Center"
+MODS (0 entry):
+ADID_ref (0 entry):
+Link_text (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+
+Variable Attributes (23 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 17 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+MET                   CDF_REAL4/1	0:[]	T/  
+DOSE                  CDF_REAL4/1	0:[]	T/  
+DOSE_EQ60             CDF_REAL4/1	0:[]	T/  
+DOSE_EQ26             CDF_REAL4/1	0:[]	T/  
+JULIAN_DATE           CDF_REAL8/1	0:[]	T/  
+TIME_INTERVAL         CDF_REAL4/1	0:[]	T/  
+LONGITUDE             CDF_REAL4/1	0:[]	T/  
+LATITUDE              CDF_REAL4/1	0:[]	T/  
+LDOSE_CODE            CDF_CHAR/10	0:[]	T/  
+HDOSE_CODE            CDF_CHAR/10	0:[]	T/  
+FLAG                  CDF_CHAR/10	0:[]	T/  
+RECORD_ID             CDF_UINT4/1	0:[]	T/  
+TOD_ELAPSED           CDF_CHAR/12	0:[]	T/  
+TOD_DATE              CDF_CHAR/10	0:[]	T/  
+TOD_TIME              CDF_CHAR/10	0:[]	T/  
+TOD_JULIAN            CDF_REAL8/1	0:[]	T/  
+
+
+Variable (17 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+MET (No: 1) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "MET (M elapsed time?)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/3): "MET"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/3): "MET"
+     UNITS           (CDF_CHAR/3): "TBD"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+DOSE (No: 2) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "DOSE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "DOSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     LABLAXIS        (CDF_CHAR/4): "DOSE"
+     UNITS           (CDF_CHAR/3): "TBD"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+DOSE_EQ60 (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "DOSE_EQ60"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "DOSE_EQ60"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     LABLAXIS        (CDF_CHAR/9): "DOSE_EQ60"
+     UNITS           (CDF_CHAR/3): "TBD"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+DOSE_EQ26 (No: 4) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "DOSE_EQ26"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "DOSE_EQ26"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     LABLAXIS        (CDF_CHAR/9): "DOSE_EQ26"
+     UNITS           (CDF_CHAR/3): "TBD"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+JULIAN_DATE (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "Julian date from file"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FIELDNAM        (CDF_CHAR/21): "Julian date from File"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f14.6"
+     LABLAXIS        (CDF_CHAR/11): "Julian Date"
+     UNITS           (CDF_CHAR/8): "Frac Day"
+     VALIDMIN        (CDF_REAL4/1): 30000.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+TIME_INTERVAL (No: 6) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "TIME_INTERVAL"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "TIME_INTERVAL"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     LABLAXIS        (CDF_CHAR/13): "TIME_INTERVAL"
+     UNITS           (CDF_CHAR/3): "SEC"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+LONGITUDE (No: 7) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "LONGITUDE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "LONGITUDE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F11.3"
+     LABLAXIS        (CDF_CHAR/9): "LONGITUDE"
+     UNITS           (CDF_CHAR/3): "DEG"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+LATITUDE (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "LATITUDE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "LATITUDE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F11.3"
+     LABLAXIS        (CDF_CHAR/8): "LATITUDE"
+     UNITS           (CDF_CHAR/3): "DEG"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+LDOSE_CODE (No: 9) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "[LIST ONLY] LDOSE_CODE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "flag"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "LDOSE_CODE"
+     FORMAT          (CDF_CHAR/3): "A10"
+     LABLAXIS        (CDF_CHAR/10): "LDOSE_CODE"
+     UNITS           (CDF_CHAR/3): "N/A"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+HDOSE_CODE (No: 10) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "[List Only] HDOSE_CODE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "flag"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "HDOSE_CODE"
+     FORMAT          (CDF_CHAR/3): "a10"
+     LABLAXIS        (CDF_CHAR/10): "HDOSE_CODE"
+     UNITS           (CDF_CHAR/3): "n/a"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+FLAG (No: 11) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "[List only] Alphanumeric Flag"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "flag"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "Alphanumeric Flag"
+     FORMAT          (CDF_CHAR/3): "a10"
+     LABLAXIS        (CDF_CHAR/4): "FLAG"
+     UNITS           (CDF_CHAR/3): "n/a"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+RECORD_ID (No: 12) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "RecordID"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "RecordID"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "i6"
+     LABLAXIS        (CDF_CHAR/8): "RecordID"
+     UNITS           (CDF_CHAR/3): "n/a"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 1000000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+TOD_ELAPSED (No: 13) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "[LIST ONLY] TOD_ELAPSED"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "TOD_ELAPSED"
+     FORMAT          (CDF_CHAR/3): "A12"
+     LABLAXIS        (CDF_CHAR/11): "TOD_ELAPSED"
+     UNITS           (CDF_CHAR/3): "N/A"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+TOD_DATE (No: 14) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "[LIST ONLY] TOD_DATE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "TOD_DATE"
+     FORMAT          (CDF_CHAR/3): "A10"
+     LABLAXIS        (CDF_CHAR/8): "TOD_DATE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+TOD_TIME (No: 15) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "[LIST ONLY] TOD_TIME"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "TOD_TIME"
+     FORMAT          (CDF_CHAR/3): "A10"
+     LABLAXIS        (CDF_CHAR/8): "TOD_TIME"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+TOD_JULIAN (No: 16) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "TOD_JULIAN"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "TOD_JULIAN"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F14.6"
+     LABLAXIS        (CDF_CHAR/10): "TOD_JULIAN"
+     VALIDMIN        (CDF_REAL4/1): 20000.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+

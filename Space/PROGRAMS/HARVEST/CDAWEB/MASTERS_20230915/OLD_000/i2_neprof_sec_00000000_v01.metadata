@@ -1,0 +1,465 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/i2_neprof_sec_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     i2_neprof_sec_00000000_v01.cdf
+Version:      3.7.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     23
+NumAttrs:     30 (16 global, 14 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (16 attributes)
+=========================================
+Project (2 entries):
+	0 (CDF_CHAR/51): 	"ISIS>International Satellite for Ionosphere Studies"
+	1 (CDF_CHAR/19): 	"NSSDC>Archived Data"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/53): 	"ISIS-2>International Satellite for Ionosphere Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"NEPROF>Density Profiles"
+Descriptor (1 entry):
+	0 (CDF_CHAR/20): 	"TOPS>Topside Sounder"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"ISIS"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+TITLE (1 entry):
+	0 (CDF_CHAR/29): 	"SEC Electron Density Profiles"
+TEXT (3 entries):
+	0 (CDF_CHAR/294): 	"This data set, provided by Space Environment Corp., Logan, Utah, consists of electron density profiles for the ionosphere above the F2 maximum (topside ionosphere). The data were computed from scanned film ionograms using Jackson's method (Jackson, Proceedings of the IEEE., p. 960, June 1969)."
+	1 (CDF_CHAR/109): 	"ISIS-2 was launched on 1971-04-01 into an near-circular orbit at 1400 km with an inclination of 88.1 degrees."
+	2 (CDF_CHAR/98): 	"These ionograms were collected during overflights of the Resolute Bay telemetry station in Canada."
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"i2_neprof_sec"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"i2_neprof_sec_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/36): 	"ISIS-2 SEC Electron Density Profiles"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"J. V. Eccles"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/47): 	"Space Environment Corp. (SEC), Logan, Utah, USA"
+Source_file_directory (1 entry):
+	0 (CDF_CHAR/21): 	"JJS114/1972168_002133"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+
+Variable Attributes (14 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+DEPEND_0
+DEPEND_1
+CATDESC
+VAR_NOTES
+
+Variable Information (0 rVariable, 23 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+spacecraftID          CDF_UINT1/1	0:[]	T/  
+lon                   CDF_REAL4/1	0:[]	T/  
+lat                   CDF_REAL4/1	0:[]	T/  
+dip                   CDF_REAL4/1	0:[]	T/  
+L                     CDF_REAL4/1	0:[]	T/  
+chi                   CDF_REAL4/1	0:[]	T/  
+numDataPoints         CDF_INT2/1	0:[]	T/  
+orbitAlt              CDF_REAL4/1	0:[]	T/  
+endLat                CDF_REAL4/1	0:[]	T/  
+endLon                CDF_REAL4/1	0:[]	T/  
+endAlt                CDF_REAL4/1	0:[]	T/  
+endTime               CDF_EPOCH/1	0:[]	T/  
+height                CDF_REAL4/1	1:[32]	T/T
+density               CDF_REAL4/1	1:[32]	T/T
+log_density           CDF_REAL4/1	1:[32]	T/T
+heightLim             CDF_REAL4/1	1:[32]	T/T
+densityLim            CDF_REAL4/1	1:[32]	T/T
+Index                 CDF_INT4/1	1:[32]	T/T
+vrange                CDF_REAL4/1	1:[32]	T/T
+xtraceFreq            CDF_REAL4/1	1:[32]	T/T
+vrangeLim             CDF_REAL4/1	1:[32]	T/T
+xtraceFreqLim         CDF_REAL4/1	1:[32]	T/T
+
+
+Variable (23 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1969 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/4): "Time"
+     VAR_NOTES       (CDF_CHAR/26): "Epoch at start of ionogram"
+
+spacecraftID (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "satellite ID"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 9
+     LABLAXIS        (CDF_CHAR/6): "s/c_ID"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): 9
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/39): "sat.-ID: 1=AL1, 2=AL2, 3=ISIS1, 4=ISIS2"
+
+lon (No: 2) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "longitude"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/9): "longitude"
+     VAR_NOTES       (CDF_CHAR/30): "Longitude at start of ionogram"
+
+lat (No: 3) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/8): "latitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/8): "latitude"
+     VAR_NOTES       (CDF_CHAR/29): "Latitude at start of ionogram"
+
+dip (No: 4) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Magnetic Inclination"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/3): "dip"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/3): "dip"
+     VAR_NOTES       (CDF_CHAR/40): "Dip at start of ionogram from worldmap.f"
+
+L (No: 5) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "L value"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/7): "L value"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/7): "L value"
+     VAR_NOTES       (CDF_CHAR/44): "L value at start of ionogram from worldmap.f"
+
+chi (No: 6) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "solar zenith angle"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/3): "chi"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/28): "solar zenith angle at 100 km"
+     VAR_NOTES       (CDF_CHAR/40): "Chi at start of ionogram from worldmap.f"
+
+numDataPoints (No: 7) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "num Data Points"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 999
+     LABLAXIS        (CDF_CHAR/15): "num Data Points"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/21): "Number of Data Points"
+
+orbitAlt (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Satellite orbital altitude"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     LABLAXIS        (CDF_CHAR/8): "altitude"
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "Orbital Altitude"
+     VAR_NOTES       (CDF_CHAR/29): "Altitude at start of ionogram"
+
+endLat (No: 9) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/8): "latitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/8): "latitude"
+     VAR_NOTES       (CDF_CHAR/33): "Latitude at end of ionogram trace"
+
+endLon (No: 10) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "longitude"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/9): "longitude"
+     VAR_NOTES       (CDF_CHAR/34): "Longitude at end of ionogram trace"
+
+endAlt (No: 11) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Satellite orbital altitude"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     LABLAXIS        (CDF_CHAR/8): "altitude"
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "Orbital Altitude"
+     VAR_NOTES       (CDF_CHAR/33): "Altitude at end of ionogram trace"
+
+endTime (No: 12) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1969 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2000 00:00:00.000
+     LABLAXIS        (CDF_CHAR/8): "End Time"
+     UNITS           (CDF_CHAR/2): "ms"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/4): "Time"
+     VAR_NOTES       (CDF_CHAR/30): "Epoch at end of ionogram trace"
+
+height (No: 13) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "height"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 4000.0
+     LABLAXIS        (CDF_CHAR/6): "height"
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "height"
+     FILLVAL         (CDF_REAL4/1): -9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "Index"
+     CATDESC         (CDF_CHAR/6): "height"
+     VAR_NOTES       (CDF_CHAR/49): "True height of electron density from Jackson code"
+
+density (No: 14) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "density"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+09
+     LABLAXIS        (CDF_CHAR/7): "density"
+     UNITS           (CDF_CHAR/7): "Ne/cm-3"
+     FORMAT          (CDF_CHAR/5): "f11.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     FILLVAL         (CDF_REAL4/1): -9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "height"
+     CATDESC         (CDF_CHAR/7): "density"
+     VAR_NOTES       (CDF_CHAR/34): "Electron density from Jackson code"
+
+log_density (No: 15) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "log density"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 9.0
+     LABLAXIS        (CDF_CHAR/11): "log density"
+     UNITS           (CDF_CHAR/12): "log(Ne/cm-3)"
+     FORMAT          (CDF_CHAR/4): "f7.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "log density"
+     FILLVAL         (CDF_REAL4/1): -9.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "height"
+     CATDESC         (CDF_CHAR/7): "density"
+     VAR_NOTES       (CDF_CHAR/48): "Common log of electron density from Jackson code"
+
+heightLim (No: 16) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "height"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 4000.0
+     LABLAXIS        (CDF_CHAR/6): "height"
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "height"
+     FILLVAL         (CDF_REAL4/1): -9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "Index"
+     CATDESC         (CDF_CHAR/6): "height"
+     VAR_NOTES       (CDF_CHAR/24): "True height spread limit"
+
+densityLim (No: 17) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "density"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+09
+     LABLAXIS        (CDF_CHAR/7): "density"
+     UNITS           (CDF_CHAR/7): "Ne/cm-3"
+     FORMAT          (CDF_CHAR/5): "f11.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     FILLVAL         (CDF_REAL4/1): -9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "height"
+     CATDESC         (CDF_CHAR/7): "density"
+     VAR_NOTES       (CDF_CHAR/29): "Electron density spread limit"
+
+Index (No: 18) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Index"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 32
+     LABLAXIS        (CDF_CHAR/11): "Array Index"
+     UNITS           (CDF_CHAR/3): "raw"
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/15): "Index to arrays"
+     VAR_NOTES       (CDF_CHAR/22): "Added to enable plots."
+
+vrange (No: 19) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "virtual range"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 4000.0
+     LABLAXIS        (CDF_CHAR/13): "virtual range"
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "virtual range"
+     FILLVAL         (CDF_REAL4/1): -9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "Index"
+     CATDESC         (CDF_CHAR/13): "virtual range"
+     VAR_NOTES       (CDF_CHAR/42): "Virtual range scaled from ionogram markers"
+
+xtraceFreq (No: 20) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "x frequency"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     LABLAXIS        (CDF_CHAR/11): "x frequency"
+     UNITS           (CDF_CHAR/3): "MHz"
+     FORMAT          (CDF_CHAR/4): "f7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "x frequency"
+     FILLVAL         (CDF_REAL4/1): -9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "Index"
+     CATDESC         (CDF_CHAR/11): "x frequency"
+     VAR_NOTES       (CDF_CHAR/46): "X trace frequency scaled from ionogram markers"
+
+vrangeLim (No: 21) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "virtual range"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 4000.0
+     LABLAXIS        (CDF_CHAR/13): "virtual range"
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "virtual range"
+     FILLVAL         (CDF_REAL4/1): -9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "Index"
+     CATDESC         (CDF_CHAR/13): "virtual range"
+     VAR_NOTES       (CDF_CHAR/26): "Virtual range spread limit"
+
+xtraceFreqLim (No: 22) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "x frequency"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     LABLAXIS        (CDF_CHAR/11): "x frequency"
+     UNITS           (CDF_CHAR/3): "MHz"
+     FORMAT          (CDF_CHAR/4): "f7.4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "x frequency"
+     FILLVAL         (CDF_REAL4/1): -9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "Index"
+     CATDESC         (CDF_CHAR/11): "x frequency"
+     VAR_NOTES       (CDF_CHAR/30): "X trace frequency spread limit"
+

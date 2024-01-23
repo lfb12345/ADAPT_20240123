@@ -1,0 +1,237 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/twins_m2_ena_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     twins_m2_ena_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     9
+NumAttrs:     33 (16 global, 17 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (16 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_UCHAR/30): 	"SPDS>Space Physics Data System"
+Source_name (1 entry):
+	0 (CDF_UCHAR/56): 	"TWINS->Two Wide-angle Imaging Neutral-atom Spectrometers"
+Discipline (1 entry):
+	0 (CDF_UCHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_UCHAR/19): 	"M2->Modified Data 2"
+Descriptor (1 entry):
+	0 (CDF_UCHAR/34): 	"ENA->energetic neutral atom imager"
+Data_version (1 entry):
+	0 (CDF_UCHAR/1): 	"2"
+File_naming_convention (1 entry):
+	0 (CDF_UCHAR/43): 	"source_datatype_descriptor_yyyyMMdd_version"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/12): 	"twins_m2_ena"
+PI_name (1 entry):
+	0 (CDF_UCHAR/11): 	"R. M. Katus"
+PI_affiliation (1 entry):
+	0 (CDF_UCHAR/27): 	"Eastern Michigan University"
+TEXT (1 entry):
+	0 (CDF_UCHAR/213): 	"Katus, R. M., A. M. Keesee, E. Scime, and M. W. Liemohn (2017), Storm time equatorial magnetospheric ion temperature derived from TWINS ENA flux,J. Geophys. Res. Space Physics, 122, 3996, doi:10.1002/2016JA023824."
+Instrument_type (1 entry):
+	0 (CDF_UCHAR/48): 	"Imaging and Remote Sensing (Magnetosphere/Earth)"
+Mission_group (1 entry):
+	0 (CDF_UCHAR/5): 	"TWINS"
+Logical_source (1 entry):
+	0 (CDF_UCHAR/12): 	"twins_m2_ena"
+Logical_source_description (1 entry):
+	0 (CDF_UCHAR/85): 	"Images of plasma sheet ion temperature during storms calculated from ENA measurements"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/85): 	"spase://NASA/NumericalData/TWINS/ENA/MagnetosphericIonTemperatures/ModifiedData/PT10M"
+
+Variable Attributes (17 attributes)
+=========================================
+VALIDMAX
+VALIDMIN
+FILLVAL
+UNITS
+DISPLAY_TYPE
+CATDESC
+DEPEND_0
+TIME_BASE
+DEPEND_1
+DEPEND_2
+FIELDNAM
+FORMAT
+LABLAXIS
+VAR_TYPE
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 9 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+Ion_Temperature       CDF_DOUBLE/1	2:[160,160]	T/TT
+Ion_Temperature_flipped CDF_DOUBLE/1	2:[160,160]	T/TT
+Ion_Temperature_movie CDF_DOUBLE/1	2:[160,160]	T/TT
+Satellite             CDF_INT2/1	0:[]	T/  
+X_Axis                CDF_DOUBLE/1	1:[160]	F/T
+Y_Axis                CDF_DOUBLE/1	1:[160]	F/T
+SatLatitude           CDF_DOUBLE/1	0:[]	T/  
+SatRadialDistance     CDF_DOUBLE/1	0:[]	T/  
+
+
+Variable (9 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     VALIDMAX        (CDF_TT2000/1): 2018-01-01T00:00:00.000000000
+     VALIDMIN        (CDF_TT2000/1): 2000-01-01T00:00:00.000000000
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     UNITS           (CDF_UCHAR/11): "nanoseconds"
+     DISPLAY_TYPE    (CDF_UCHAR/11): "time_series"
+     CATDESC         (CDF_UCHAR/5): "Epoch"
+     TIME_BASE       (CDF_UCHAR/5): "J2000"
+     FIELDNAM        (CDF_UCHAR/12): "Epoch tt2000"
+     FORMAT          (CDF_UCHAR/5): "F12.2"
+     LABLAXIS        (CDF_UCHAR/5): "Epoch"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+
+Ion_Temperature (No: 1) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     UNITS           (CDF_UCHAR/5): "[keV]"
+     DISPLAY_TYPE    (CDF_UCHAR/19): "image>THUMBSIZE>166"
+     CATDESC         (CDF_UCHAR/54): "Inner Magnetospheric Ion Temperature images - original"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/6): "X_Axis"
+     DEPEND_2        (CDF_UCHAR/6): "Y_Axis"
+     FIELDNAM        (CDF_UCHAR/42): "TWINS Magnetospheric Ion Temperature [keV]"
+     FORMAT          (CDF_UCHAR/5): "F12.2"
+     LABLAXIS        (CDF_UCHAR/7): "IonTemp"
+     VAR_TYPE        (CDF_UCHAR/11): "ignore_data"
+
+Ion_Temperature_flipped (No: 2) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     UNITS           (CDF_UCHAR/5): "[keV]"
+     DISPLAY_TYPE    (CDF_UCHAR/19): "image>THUMBSIZE>166"
+     CATDESC         (CDF_UCHAR/43): "Inner Magnetospheric Ion Temperature images"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/6): "X_Axis"
+     DEPEND_2        (CDF_UCHAR/6): "Y_Axis"
+     FIELDNAM        (CDF_UCHAR/42): "TWINS Magnetospheric Ion Temperature [keV]"
+     FORMAT          (CDF_UCHAR/5): "F12.2"
+     LABLAXIS        (CDF_UCHAR/7): "IonTemp"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/12): "flip_image_4"
+     COMPONENT_0     (CDF_CHAR/15): "Ion_Temperature"
+
+Ion_Temperature_movie (No: 3) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 10000.0
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     UNITS           (CDF_UCHAR/5): "[keV]"
+     DISPLAY_TYPE    (CDF_UCHAR/5): "movie"
+     CATDESC         (CDF_UCHAR/18): "---> Movie display"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/6): "X_Axis"
+     DEPEND_2        (CDF_UCHAR/6): "Y_Axis"
+     FIELDNAM        (CDF_UCHAR/42): "TWINS Magnetospheric Ion Temperature [keV]"
+     FORMAT          (CDF_UCHAR/5): "F12.2"
+     LABLAXIS        (CDF_UCHAR/7): "IonTemp"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/23): "Ion_Temperature_flipped"
+
+Satellite (No: 4) (Recs: 0)
+---------
+Attribute Entries:
+     VALIDMAX        (CDF_INT2/1): 2
+     VALIDMIN        (CDF_INT2/1): 1
+     FILLVAL         (CDF_INT2/1): -32768
+     UNITS           (CDF_UCHAR/2): "[]"
+     DISPLAY_TYPE    (CDF_UCHAR/11): "time_series"
+     CATDESC         (CDF_UCHAR/56): "TWINS Satellite 1 or 2 Used to calculate Ion Temperature"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/56): "TWINS Satellite 1 or 2 Used to calculate Ion Temperature"
+     FORMAT          (CDF_UCHAR/2): "I2"
+     LABLAXIS        (CDF_UCHAR/3): "Sat"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+
+X_Axis (No: 5) (Recs: 1)
+------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 40.0
+     VALIDMIN        (CDF_DOUBLE/1): -60.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     UNITS           (CDF_UCHAR/4): "[Re]"
+     CATDESC         (CDF_UCHAR/40): "X - Axis in [Re] on the equatorial plane"
+     FIELDNAM        (CDF_UCHAR/66): "X Coordinates in Re on the equatorial plane. Define dependent Grid"
+     FORMAT          (CDF_UCHAR/5): "F12.2"
+     LABLAXIS        (CDF_UCHAR/6): "X_Axis"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+
+Y_Axis (No: 6) (Recs: 1)
+------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 40.0
+     VALIDMIN        (CDF_DOUBLE/1): -40.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     UNITS           (CDF_UCHAR/4): "[Re]"
+     CATDESC         (CDF_UCHAR/40): "Y - Axis in [Re] on the equatorial plane"
+     FIELDNAM        (CDF_UCHAR/66): "Y Coordinates in Re on the equatorial plane. Define dependent Grid"
+     FORMAT          (CDF_UCHAR/5): "F12.2"
+     LABLAXIS        (CDF_UCHAR/6): "Y_Axis"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+
+SatLatitude (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     UNITS           (CDF_UCHAR/7): "Degrees"
+     DISPLAY_TYPE    (CDF_UCHAR/11): "time_series"
+     CATDESC         (CDF_UCHAR/44): "TWINS Spacecraft Location Latitude [Degrees]"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/44): "TWINS Spacecraft Location Latitude [Degrees]"
+     FORMAT          (CDF_UCHAR/5): "F12.2"
+     LABLAXIS        (CDF_UCHAR/7): "SPC_Lat"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+
+SatRadialDistance (No: 8) (Recs: 0)
+-----------------
+Attribute Entries:
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     UNITS           (CDF_UCHAR/11): "Earth Radii"
+     DISPLAY_TYPE    (CDF_UCHAR/11): "time_series"
+     CATDESC         (CDF_UCHAR/46): "TWINS Spacecraft Location Radial Distance [RE]"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/46): "TWINS Spacecraft Location Radial Distance [RE]"
+     FORMAT          (CDF_UCHAR/5): "F12.2"
+     LABLAXIS        (CDF_UCHAR/7): "SPC_Rad"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+

@@ -1,0 +1,998 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sofie_level2_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sofie_level2_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     53
+NumAttrs:     40 (16 global, 24 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (16 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/12): 	"SOFIE Level2"
+DP_Type (1 entry):
+	0 (CDF_CHAR/6): 	"Level2"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"SOFIE DPC"
+Descriptor (1 entry):
+	0 (CDF_CHAR/14): 	"TBD DESCRIPTOR"
+Project (1 entry):
+	0 (CDF_CHAR/13): 	"AIM SOFIE DPC"
+Mission_group (1 entry):
+	0 (CDF_CHAR/3): 	"AIM"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/32): 	"Imaging and Remote Sensing (ITM)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/16): 	"aim_sofie_level2"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/13): 	"AIM SOFIE DPC"
+SW_Name (1 entry):
+	0 (CDF_CHAR/12): 	"Sofie Level2"
+Description (1 entry):
+	0 (CDF_CHAR/25): 	"Sofie Level2 Data Product"
+History (0 entry):
+TEXT (1 entry):
+	0 (CDF_CHAR/255): 	"All precision values are the Jacobian diagonal value in units of change in retrieved  parameter per change in a signal amount equal to the measurement noise.  At PMC altitudes this is approximately (underestimated by up to 50%) the  retrieved parameter ra"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NC_KIND (1 entry):
+	0 (CDF_CHAR/7): 	"classic"
+NC_DIMENSIONS_G (3 entries):
+	0 (CDF_CHAR/15): 	"event=UNLIMITED"
+	1 (CDF_CHAR/12): 	"altitude=736"
+	2 (CDF_CHAR/13): 	"name_size=300"
+
+Variable Attributes (24 attributes)
+=========================================
+NC_DIMENSIONS_V
+CATDESC
+VALIDMIN
+VALIDMAX
+Description_
+UNITS
+missing_value
+FILLVAL
+valid_max
+NC_ADDED
+FORMAT
+FIELDNAM
+LABLAXIS
+VAR_TYPE
+SCALETYP
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+VAR_NOTES
+TIME_BASE
+COMPONENT_0
+COMPONENT_1
+VIRTUAL
+FUNCT
+
+Variable Information (0 rVariable, 53 zVariables)
+===========================================================
+event                 CDF_INT4/1	0:[]	T/  
+Orbit                 CDF_INT4/1	0:[]	T/  
+Temperature_precision CDF_DOUBLE/1	1:[736]	T/T
+Date                  CDF_INT4/1	0:[]	T/  
+Mode                  CDF_INT4/1	0:[]	T/  
+Latitude_83km         CDF_DOUBLE/1	0:[]	T/  
+Epoch_cdf             CDF_EPOCH/1	0:[]	T/  
+time_base             CDF_EPOCH/1	0:[]	F/  
+Longitude_83km        CDF_DOUBLE/1	0:[]	T/  
+Time_83km             CDF_DOUBLE/1	0:[]	T/  
+Pressure              CDF_DOUBLE/1	1:[736]	T/T
+Temperature           CDF_DOUBLE/1	1:[736]	T/T
+Altitude              CDF_DOUBLE/1	1:[736]	F/T
+H2O_vmr               CDF_DOUBLE/1	1:[736]	T/T
+Extinction_3186_precision CDF_DOUBLE/1	1:[736]	T/T
+Extinction_3384_precision CDF_DOUBLE/1	1:[736]	T/T
+CH4_vmr               CDF_DOUBLE/1	1:[736]	T/T
+Extinction_3479_precision CDF_DOUBLE/1	1:[736]	T/T
+O3_vmr                CDF_DOUBLE/1	1:[736]	T/T
+Extinction_3064_precision CDF_DOUBLE/1	1:[736]	T/T
+NO_vmr                CDF_DOUBLE/1	1:[736]	T/T
+Extinction_0330       CDF_DOUBLE/1	1:[736]	T/T
+Extinction_0867       CDF_DOUBLE/1	1:[736]	T/T
+FOV_Lock              CDF_DOUBLE/1	0:[]	T/  
+Extinction_1037_precision CDF_DOUBLE/1	1:[736]	T/T
+Extinction_2462       CDF_DOUBLE/1	1:[736]	T/T
+Extinction_3064dv_precision CDF_DOUBLE/1	1:[736]	T/T
+Extinction_2939       CDF_DOUBLE/1	1:[736]	T/T
+Extinction_3064       CDF_DOUBLE/1	1:[736]	T/T
+Extinction_3186       CDF_DOUBLE/1	1:[736]	T/T
+Extinction_3479       CDF_DOUBLE/1	1:[736]	T/T
+Extinction_4646       CDF_DOUBLE/1	1:[736]	T/T
+Extinction_5006       CDF_DOUBLE/1	1:[736]	T/T
+Extinction_4646_precision CDF_DOUBLE/1	1:[736]	T/T
+Extinction_2462_precision CDF_DOUBLE/1	1:[736]	T/T
+Extinction_3384       CDF_DOUBLE/1	1:[736]	T/T
+Extinction_1037       CDF_DOUBLE/1	1:[736]	T/T
+O3_vmr_precision      CDF_DOUBLE/1	1:[736]	T/T
+H2O_vmr_precision     CDF_DOUBLE/1	1:[736]	T/T
+CH4_vmr_precision     CDF_DOUBLE/1	1:[736]	T/T
+Extinction_0330_precision CDF_DOUBLE/1	1:[736]	T/T
+Extinction_2939_precision CDF_DOUBLE/1	1:[736]	T/T
+Extinction_0867_precision CDF_DOUBLE/1	1:[736]	T/T
+LOS_Bearing           CDF_DOUBLE/1	0:[]	T/  
+Sun_Sensor_O3         CDF_DOUBLE/1	1:[736]	T/T
+Chan02_Difference_Extinction CDF_DOUBLE/1	1:[736]	T/T
+Time_UT               CDF_FLOAT/1	0:[]	T/  
+NO_den                CDF_DOUBLE/1	1:[736]	T/T
+Temperature_ext       CDF_DOUBLE/1	1:[736]	T/T
+Pressure_ext          CDF_DOUBLE/1	1:[736]	T/T
+RefT_Top              CDF_DOUBLE/1	0:[]	T/  
+WACCM_CO2             CDF_DOUBLE/1	1:[736]	T/T
+O3_band2              CDF_DOUBLE/1	1:[736]	T/T
+
+
+Variable (53 variables)
+=========================================
+
+event (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     CATDESC         (CDF_CHAR/12): "Event_number"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 1000000
+     LABLAXIS        (CDF_CHAR/12): "Event number"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Orbit (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     CATDESC         (CDF_CHAR/12): "Orbit_number"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 500000
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/12): "Orbit number"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Temperature_precision (No: 2) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/1): "K"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/21): "Temperature precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Date (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     CATDESC         (CDF_CHAR/25): "Date of occultation event"
+     UNITS           (CDF_CHAR/7): "YYYYDDD"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+
+Mode (No: 4) (Recs: 0)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     CATDESC         (CDF_CHAR/40): "Spacecraft occultation mode, Rise or Set"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/4): "Mode"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Latitude_83km (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     CATDESC         (CDF_CHAR/40): "geodetic latitude of 83 km tangent point"
+     VALIDMIN        (CDF_DOUBLE/1): -90.0
+     VALIDMAX        (CDF_DOUBLE/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/13): "Latitude 83km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Epoch_cdf (No: 6) (Recs: 0) (Compression: GZIP.9)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "time_inboard"
+     UNITS           (CDF_CHAR/33): "seconds since 1970-01-01 00:00:00"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FIELDNAM        (CDF_CHAR/10): "time_epoch"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/59): "Computed CDF_Epoch value: time_base+Time_83km added by SPDF"
+     TIME_BASE       (CDF_CHAR/22): "1970-01-01 00:00:00 AD"
+     COMPONENT_0     (CDF_CHAR/9): "time_base"
+     COMPONENT_1     (CDF_CHAR/9): "Time_83km"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+
+time_base (No: 7) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "time base"
+     UNITS           (CDF_CHAR/4): "msec"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     FIELDNAM        (CDF_CHAR/9): "Time_base"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/45): "EPOCH of 01-Jan-1970 00:00:00 - added by SPDF"
+
+Longitude_83km (No: 8) (Recs: 0)
+--------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 360.0
+     UNITS           (CDF_CHAR/5): "Deg E"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/14): "Longitude 83km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Time_83km (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     CATDESC         (CDF_CHAR/65): "time of 83 km measurement, Seconds since Unix Epoch (Jan 1, 1970)"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.6238e+17
+     UNITS           (CDF_CHAR/4): "msec"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     DEPEND_0        (CDF_CHAR/5): "event"
+     VAR_NOTES       (CDF_CHAR/23): "SPDF defined a validmax"
+
+Pressure (No: 10) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/37): "atmospheric pressure at tangent point"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 2000.0
+     UNITS           (CDF_CHAR/4): "mbar"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/8): "Pressure"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Temperature (No: 11) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/40): "atmospheric temperature at tangent point"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/1): "K"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/11): "Temperature"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Altitude (No: 12) (Recs: 1) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/8): "altitude"
+     CATDESC         (CDF_CHAR/22): "geodetic altitude grid"
+     VALIDMIN        (CDF_DOUBLE/1): 3.0
+     VALIDMAX        (CDF_DOUBLE/1): 150.0
+     UNITS           (CDF_CHAR/2): "km"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/8): "Altitude"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+H2O_vmr (No: 13) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/48): "water vapor volume mixing ratio at tangent point"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/3): "vmr"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/7): "H2O_vmr"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_3186_precision (No: 14) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_3186_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_3384_precision (No: 15) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_3384_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+CH4_vmr (No: 16) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/44): "methane volume mixing ratio at tangent point"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/3): "vmr"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/7): "CH4_vmr"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_3479_precision (No: 17) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_3479_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+O3_vmr (No: 18) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/42): "ozone volume mixing ratio at tangent point"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/3): "vmr"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/6): "O3_vmr"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_3064_precision (No: 19) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_3064_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+NO_vmr (No: 20) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/49): "nitric oxide volume mixing ratio at tangent point"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/3): "vmr"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/6): "NO_vmr"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_0330 (No: 21) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_0330"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_0867 (No: 22) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_0867"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+FOV_Lock (No: 23) (Recs: 0)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     Description_    (CDF_CHAR/54): "Field of view lockdown angle relative to the top edge."
+     UNITS           (CDF_CHAR/6): "arcmin"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/8): "FOV_Lock"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Extinction_1037_precision (No: 24) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_1037_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_2462 (No: 25) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_2462"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_3064dv_precision (No: 26) (Recs: 0) (Compression: GZIP.6)
+---------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/27): "Extinction_3064dv_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_2939 (No: 27) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_2939"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_3064 (No: 28) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_3064"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_3186 (No: 29) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_3186"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_3479 (No: 30) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_3479"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_4646 (No: 31) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_4646"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_5006 (No: 32) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_5006"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_4646_precision (No: 33) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_4646_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_2462_precision (No: 34) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_2462_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_3384 (No: 35) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/23): "3.384 micron extinction"
+     UNITS           (CDF_CHAR/4): "1/km"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_3384"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_1037 (No: 36) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/68): "extinction coefficient of tangent ray at the wavelength of this band"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Extinction_1037"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+O3_vmr_precision (No: 37) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/3): "vmr"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/16): "O3_vmr_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+H2O_vmr_precision (No: 38) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/3): "vmr"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/17): "H2O_vmr_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+CH4_vmr_precision (No: 39) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/3): "vmr"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/17): "CH4_vmr_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_0330_precision (No: 40) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_0330_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_2939_precision (No: 41) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_2939_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Extinction_0867_precision (No: 42) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     Description_    (CDF_CHAR/53): "Jacobian diagonal (see comments in global attributes)"
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/25): "Extinction_0867_precision"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+LOS_Bearing (No: 43) (Recs: 0)
+-----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     Description_    (CDF_CHAR/21): "Line of Sight Bearing"
+     UNITS           (CDF_CHAR/5): "deg E"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/11): "LOS_Bearing"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Sun_Sensor_O3 (No: 44) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/13): "sun sensor O3"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/3): "vmr"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/13): "Sun_Sensor_O3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Chan02_Difference_Extinction (No: 45) (Recs: 0) (Compression: GZIP.6)
+----------------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/29): "Chan 02 Difference Extinction"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/4): "1/km"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/28): "Chan02_Difference_Extinction"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Time_UT (No: 46) (Recs: 0)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     CATDESC         (CDF_CHAR/43): "UT (in Hour, without sec) at 83km altitude."
+     UNITS           (CDF_CHAR/3): "hrs"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/7): "Time UT"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+NO_den (No: 47) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/10): "NO density"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 2.687e+19
+     UNITS           (CDF_CHAR/14): "molecules/cm^3"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/6): "NO_den"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Temperature_ext (No: 48) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/44): "Temperature extended above 102km using WACCM"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     UNITS           (CDF_CHAR/1): "K"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/15): "Temperature_ext"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+Pressure_ext (No: 49) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/41): "Pressure extended above 102km using WACCM"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 2000.0
+     UNITS           (CDF_CHAR/4): "mbar"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/12): "Pressure_ext"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+RefT_Top (No: 50) (Recs: 0)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "event"
+     CATDESC         (CDF_CHAR/37): "Top altitude for T(P) from refraction"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     missing_value   (CDF_DOUBLE/1): 0.0
+     FILLVAL         (CDF_DOUBLE/1): 0.0
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/8): "RefT_Top"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+WACCM_CO2 (No: 51) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/18): "CO2 vmr from WACCM"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/9): "WACCM_CO2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+O3_band2 (No: 52) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "event,altitude"
+     CATDESC         (CDF_CHAR/13): "O3 from band2"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0
+     UNITS           (CDF_CHAR/3): "vmr"
+     missing_value   (CDF_DOUBLE/1): -1.0e+24
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+24
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     LABLAXIS        (CDF_CHAR/8): "O3_band2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/9): "Epoch_cdf"
+     DEPEND_1        (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+

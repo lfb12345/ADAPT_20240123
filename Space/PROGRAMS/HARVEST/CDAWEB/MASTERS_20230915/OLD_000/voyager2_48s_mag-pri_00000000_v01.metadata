@@ -1,0 +1,1954 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/voyager2_48s_mag-pri_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     voyager2_48s_mag-pri_00000000_v01.cdf
+Version:      3.7.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     116
+NumAttrs:     56 (27 global, 29 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/8): 	"Voyager2"
+Project (1 entry):
+	0 (CDF_CHAR/7): 	"Voyager"
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+	1 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/8): 	"Voyager2"
+Data_type (1 entry):
+	0 (CDF_CHAR/24): 	"48s>48 second resolution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/46): 	"MAG-PRI>Triaxial Fluxgate Magnetometer Primary"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generated_by (1 entry):
+	0 (CDF_CHAR/14): 	" L. F. Burlaga"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/33): 	"Detailed Description of Variables"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/45): 	"as defined for the original VMS binary format"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/105): 	"https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_48s_ascii/doc_mag_ip_vy_hires.txt"
+TEXT (7 entries):
+	0 (CDF_CHAR/2966): 	"This data set includes the Voyager spacecraft number (1 or 2), the date-time in decimal year (90.00000 is day 1 of 1990), the magnetic field strength F1 computed from high-resolution magnitudes, the elevation and azimuth angles (degrees) in heliographic (RTN) coordinates, and the magnetic field strength F2 computed from hour averages of the components. The vector components of B can be computed from F2 and the two angles. Elevation angle is the latitude angle above or below the solar equatorial plane, and azimuth angle is in the direction orbital motion around the Sun from the projection of the Sun-to-spacecraft axis into the solar equatorial plane. The Voyager MAG experiment and coordinates are further described in the following publication:  Behannon, K.W., M.H. Acuna, L.F. Burlaga, R.P. Lepping, N.F. Ness, and F.M. Neubauer, Magnetic-Field Experiment for Voyager-1 and Voyager-2, Space Science Reviews, 21 (3), 235-257, 1977...At the time of experiment proposal, it was expected that the required accuracy of the measurements would be 0.1 nT, determined by the combined noise of the sensors and the spacecraft field. The spacecraft magnetic field at the outboard magnetic field sensor, referred to as the primary unit, was expected to be 0.2 nT and highly variable, consistent with current estimates. Hence, the dual magnetometer design (Ness et al., 1971, 1973; Behannon et al. 1977). ..At distances > 40 AU, the heliospheric magnetic fields are generally much weaker than 0.4 nT; the average magnetic field strength near 40 AU and 85 AU is about 0.15 nT and 0.05 nT, respectively. The use of roll calibrations lasting about 6 hours permits determination of the effective zero levels for the two independent magnetic axes that are perpendicular to the roll axis (which is nearly parallel to the radius vector to the Sun) at intervals of about 3 months. There is no roll calibration for the third magnetic axis. Comparison of the two derived magnetic vectors from the two magnetometers permits validation of the primary magnetometer data with an accuracy of 0.02 to 0.05 nT. A discussion of the uncertainties that must be considered when using these data is given in the Appendix of Burlaga et al. [1994] and in Appendix A of Burlaga et al. [2002]. ..References: ..Behannon, K.W., M.H. Acuna, L.F. Burlaga, R.P. Lepping, N.F. Ness, and F.M. Neubauer, Magnetic-Field Experiment for Voyager-1 and Voyager-2, Space Science Reviews, 21 (3), 235-257, 1977. ..Burlaga, L.F., Merged interaction regions and large-scale magnetic field fluctuations during 1991 - Voyager-2 observations, J. Geophys. Res., 99 (A10), 19341-19350, 1994. ..Burlaga, L.F., N.F. Ness, Y.-M. Wang, and N.R. Sheeley Jr., Heliospheric magnetic field strength and polarity from 1 to 81 AU during the ascending phase of solar cycle 23, J. Geophys. Res., 107 (A11), 1410, 2002. ..Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., 76, 3564, 1971. ..Ness et al., 1973"
+	1 (CDF_CHAR/861): 	"At distances > 40 AU, the heliospheric magnetic fields are generally much weaker than 0.4 nT; the average magnetic field strength near 40 AU and 85 AU is about 0.15 nT and 0.05 nT, respectively. The use of roll calibrations lasting  about 6 hours permits determination of the effective zero levels for the two independent magnetic axes that are perpendicular to the roll axis (which is nearly parallel to the radius vector to the Sun) at intervals of about 3 months. There is no roll calibration for the third magnetic axis. Comparison of the two derived magnetic vectors from the two magnetometers permits validation of the primary magnetometer data with an accuracy of 0.02 to 0.05 nT. A discussion of the uncertainties that must be considered when using these data is given in the Appendix of Burlaga et al. [1994] and in Appendix A of Burlaga et al. [2002]."
+	2 (CDF_CHAR/199): 	"COORDINATE SYSTEMS:  Interplanetary magnetic field studies make use of two important coordinate systems, the Inertial Heliographic (IHG) coordinate system and the Heliographic (HG) coordinate system."
+	3 (CDF_CHAR/554): 	"The IHG coordinate system is use to define the spacecraft's position.  The IHG system is defined with its origin at the Sun.  There are three orthogonal axes, X(IHG), Y(IHG), and Z(IHG).  The Z(IHG) axis points northward along the Sun's  spin axis.  The X(IHG) - Y(IHG) plane lays in the solar equatorial plane.  The intersection of the solar equatorial plane with the ecliptic plane defines a line, the longitude of the ascending node, which is taken to be the X(IHG) axis. The X(IHG) axis drifts slowly with time, approximately one degree per 72 years."
+	4 (CDF_CHAR/555): 	"Magnetic field orientation is defined in relation to the spacecraft.  Drawing a line from the Sun's center (IHG origin) to the spacecraft defines the X axis of the HG coordinate system.  The HG coordinate system is defined with its origin centered at the spacecraft.  Three orthogonal axes are defined, X(HG), Y(HG), and Z(HG).  The X(HG) axis points radially away from the Sun and the Y(HG) axis is parallel to the solar equatorial plane and therefore parallel to the X(IHG)-Y(IHG) plane too.  The Z(HG) axis is chosen to complete the orthonormal triad. "
+	5 (CDF_CHAR/208): 	"An excellent reference guide with diagrams explaining the IHG and HG systems may be found in Space and Science Reviews, Volume 39 (1984), pages 255-316, MHD Processes in the Outer Heliosphere,  L. F. Burlaga."
+	6 (CDF_UCHAR/583): 	"Support data calib_flag_on, calib_flag_MF and calib_flag_offset are added to file version 2. Variable calib_flag_on consists of points where bit 4 or 5 in variable magStatus equal 1. Variable calib_flag_MF represents observations where magnetometer was in cailbration mode. Variable calib_flag_offset represent delay between data points where magnetometer was in calibration mode and data points where magStatus variable indicated calibration periods.Due to specific shape of magnetometer data profile variable calibration_flag_MF may cover larger intervals than calibration_flag_on."
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/33): 	"voyager2_48s_mag-pri_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/20): 	"voyager2_48s_mag-pri"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/54): 	"48 Second Averaged Interplanetary Magnetic Field (PRI)"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Norman F. Ness"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/25): 	"Bartol Research Institute"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/7): 	"Voyager"
+	1 (CDF_UCHAR/24): 	"!___Interplanetary Data "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"10 second"
+Web_site (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/153): 	"Please acknowledge the Principal Investigator, Norman F. Ness of the Bartol Research Institute, University of Delaware in publications and presentations."
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/49): 	"spase://VSPO/NumericalData/Voyager2/MAG/CDF/PT48S"
+
+Variable Attributes (29 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+LABL_PTR_2
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+CATDESC
+LABLAXIS
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+SCAL_PTR
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 116 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+dataID                CDF_CHAR/4	0:[]	T/  
+telemetryFormat       CDF_CHAR/4	0:[]	T/  
+SCid                  CDF_CHAR/4	0:[]	T/  
+decimalDOY            CDF_REAL8/1	0:[]	T/  
+decimalDayCnt         CDF_REAL8/1	0:[]	T/  
+timeType              CDF_CHAR/4	0:[]	T/  
+timePeriod            CDF_REAL4/1	0:[]	T/  
+min48ctr              CDF_INT2/1	0:[]	T/  
+sec48ctr              CDF_INT2/1	0:[]	T/  
+msec60ctr             CDF_INT2/1	0:[]	T/  
+magStatus             CDF_INT4/1	0:[]	T/  
+magStatusBYTE         CDF_UINT1/1	1:[32]	T/T
+magCommand            CDF_INT4/1	0:[]	T/  
+magCommandBYTE        CDF_UINT1/1	1:[32]	T/T
+DataIdInt             CDF_INT2/1	0:[]	T/  
+DataRate              CDF_INT2/1	0:[]	T/  
+dataConfidence        CDF_BYTE/1	1:[8]	T/T
+numPrimaryData        CDF_INT2/1	0:[]	T/  
+numSecondaryData      CDF_INT2/1	0:[]	T/  
+numPrimaryFull        CDF_INT2/1	0:[]	T/  
+numSecondaryFull      CDF_INT2/1	0:[]	T/  
+recNumber             CDF_INT2/1	0:[]	T/  
+numWordsRemaining     CDF_INT2/1	0:[]	T/  
+B_error               CDF_REAL4/1	0:[]	T/  
+F1                    CDF_REAL4/1	0:[]	T/  
+F2                    CDF_REAL4/1	0:[]	T/  
+B1                    CDF_REAL4/1	0:[]	T/  
+B2                    CDF_REAL4/1	0:[]	T/  
+B3                    CDF_REAL4/1	0:[]	T/  
+F1_100nt              CDF_REAL4/1	0:[]	T/  
+F2_100nt              CDF_REAL4/1	0:[]	T/  
+B1_100nt              CDF_REAL4/1	0:[]	T/  
+B2_100nt              CDF_REAL4/1	0:[]	T/  
+B3_100nt              CDF_REAL4/1	0:[]	T/  
+F1_10nt               CDF_REAL4/1	0:[]	T/  
+F2_10nt               CDF_REAL4/1	0:[]	T/  
+B1_10nt               CDF_REAL4/1	0:[]	T/  
+B2_10nt               CDF_REAL4/1	0:[]	T/  
+B3_10nt               CDF_REAL4/1	0:[]	T/  
+F1_1nt                CDF_REAL4/1	0:[]	T/  
+F2_1nt                CDF_REAL4/1	0:[]	T/  
+B1_1nt                CDF_REAL4/1	0:[]	T/  
+B2_1nt                CDF_REAL4/1	0:[]	T/  
+B3_1nt                CDF_REAL4/1	0:[]	T/  
+F1_dot1nt             CDF_REAL4/1	0:[]	T/  
+F2_dot1nt             CDF_REAL4/1	0:[]	T/  
+B1_dot1nt             CDF_REAL4/1	0:[]	T/  
+B2_dot1nt             CDF_REAL4/1	0:[]	T/  
+B3_dot1nt             CDF_REAL4/1	0:[]	T/  
+lat                   CDF_REAL4/1	0:[]	T/  
+lon                   CDF_REAL4/1	0:[]	T/  
+RMSB1                 CDF_REAL4/1	0:[]	T/  
+RMSB2                 CDF_REAL4/1	0:[]	T/  
+RMSB3                 CDF_REAL4/1	0:[]	T/  
+num9_6_averages       CDF_INT4/1	0:[]	T/  
+avg1_48               CDF_REAL4/1	0:[]	T/  
+avg2_48               CDF_REAL4/1	0:[]	T/  
+avg3_48               CDF_REAL4/1	0:[]	T/  
+norm48                CDF_REAL4/1	0:[]	T/  
+RMS1_48               CDF_REAL4/1	0:[]	T/  
+RMS2_48               CDF_REAL4/1	0:[]	T/  
+RMS3_48               CDF_REAL4/1	0:[]	T/  
+num_9_6               CDF_INT4/1	0:[]	T/  
+epicDayNav            CDF_REAL8/1	0:[]	T/  
+epicDayVec            CDF_REAL8/1	0:[]	T/  
+x                     CDF_REAL4/1	0:[]	T/  
+y                     CDF_REAL4/1	0:[]	T/  
+z                     CDF_REAL4/1	0:[]	T/  
+xvel                  CDF_REAL4/1	0:[]	T/  
+yvel                  CDF_REAL4/1	0:[]	T/  
+zvel                  CDF_REAL4/1	0:[]	T/  
+scDistance            CDF_REAL4/1	0:[]	T/  
+scLon                 CDF_REAL4/1	0:[]	T/  
+scLat                 CDF_REAL4/1	0:[]	T/  
+matrix1               CDF_REAL4/1	1:[9]	T/T
+matrix2               CDF_REAL4/1	1:[9]	T/T
+matrix3               CDF_REAL4/1	1:[9]	T/T
+labl_ptr_matrix1      CDF_CHAR/5	1:[9]	F/T
+labl_ptr_matrix2      CDF_CHAR/5	1:[9]	F/T
+labl_ptr_matrix3      CDF_CHAR/5	1:[9]	F/T
+recTypeHead           CDF_CHAR/4	0:[]	T/  
+telFmtHead            CDF_CHAR/4	0:[]	T/  
+scIDHead              CDF_CHAR/4	0:[]	T/  
+timeHead              CDF_INT2/1	1:[6]	T/T
+runYearHead           CDF_INT4/1	0:[]	T/  
+calDayHead            CDF_INT4/1	0:[]	T/  
+runMonthHead          CDF_CHAR/4	0:[]	T/  
+runDayHead            CDF_INT4/1	0:[]	T/  
+runTypeHead           CDF_CHAR/8	0:[]	T/  
+coordHead             CDF_CHAR/4	0:[]	T/  
+dataIDHead            CDF_INT2/1	1:[2]	T/T
+word32Head            CDF_INT2/1	1:[2]	T/T
+edrsysHead            CDF_BYTE/1	1:[32]	T/T
+magsysHead            CDF_BYTE/1	1:[32]	T/T
+zeroNameHead          CDF_CHAR/8	0:[]	T/  
+sensNameHead          CDF_CHAR/8	0:[]	T/  
+recTypeTrail          CDF_CHAR/4	0:[]	T/  
+telFmtTrail           CDF_CHAR/4	0:[]	T/  
+scIDTrail             CDF_CHAR/4	0:[]	T/  
+timeTrail             CDF_INT2/1	1:[6]	T/T
+runYearTrail          CDF_INT4/1	0:[]	T/  
+calDayTrail           CDF_INT4/1	0:[]	T/  
+runMonthTrail         CDF_CHAR/4	0:[]	T/  
+runDayTrail           CDF_INT4/1	0:[]	T/  
+runTypeTrail          CDF_CHAR/8	0:[]	T/  
+coordTrail            CDF_CHAR/4	0:[]	T/  
+dataIDTrail           CDF_INT2/1	1:[2]	T/T
+word32Trail           CDF_INT2/1	1:[2]	T/T
+edrsysTrail           CDF_BYTE/1	1:[32]	T/T
+magsysTrail           CDF_BYTE/1	1:[32]	T/T
+zeroNameTrail         CDF_CHAR/8	0:[]	T/  
+sensNameTrail         CDF_CHAR/8	0:[]	T/  
+calib_flag_on         CDF_BYTE/1	0:[]	T/  
+calib_flag_MF         CDF_BYTE/1	0:[]	T/  
+calib_flag_offset     CDF_BYTE/1	0:[]	T/  
+
+
+Variable (116 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1996 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1996 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     UNITS           (CDF_CHAR/2): "ms"
+     FORMAT          (CDF_CHAR/5): "E14.8"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/27): "Time, beginning of interval"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+
+dataID (No: 1) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Data Identifier"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/41): "[LIST ONLY] Data Identifier (HDR1 or LFM)"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+telemetryFormat (No: 2) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Telemetry Format"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/28): "[LIST ONLY] Telemetry Format"
+     VAR_NOTES       (CDF_CHAR/104): "ENG,CR-1,CR-2,CR-3,CR-4,CR-5,CR-6,CR-7,CR5A,GS-2,GS-3,GS-4,GS-6,GS-7,GS-8,GS10,G10A,OC-1,OC-2,UV5A,****)"
+
+SCid (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "S/C Identification"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "[LIST ONLY] S/C Identification"
+     VAR_NOTES       (CDF_CHAR/29): "FLT1,FLT2,PTM ,SIM1,SIM2,UKWN"
+
+decimalDOY (No: 4) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Decimal Day of Year"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 366.0
+     UNITS           (CDF_CHAR/8): "degrees "
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "Decimal Day of Year (Jan. 1 = 0)"
+     LABLAXIS        (CDF_CHAR/13): "DOY (Jan01=0)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+decimalDayCnt (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Decimal Day Count"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 366.0
+     UNITS           (CDF_CHAR/8): "degrees "
+     FORMAT          (CDF_CHAR/5): "F13.6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/39): "Decimal Day Count since August 20, 1977"
+     LABLAXIS        (CDF_CHAR/17): "Decimal Day Count"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+timeType (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Type"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/85): "[LIST ONLY] Time Type (SCET = spacecraft event time, ERTS = start earth receive time)"
+
+timePeriod (No: 7) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "Time period of data block (48 sec)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/34): "Time period of data block (48 sec)"
+     LABLAXIS        (CDF_CHAR/11): "Time period"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+min48ctr (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "48 Minute Counter"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/79): "48 Minute Counter (2**16 sequence counter of data at time of telemetry readout."
+     LABLAXIS        (CDF_CHAR/17): "48 Minute Counter"
+
+sec48ctr (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "48 Second Counter"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/85): "48 Second Counter (Modulo 60 sequence counter of data at time of telemetry readout.) "
+     LABLAXIS        (CDF_CHAR/17): "48 Second Counter"
+
+msec60ctr (No: 10) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "60 Millisecond Counter"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/75): "60 Millisecond Counter (Line counter of data at time of telemetry readout.)"
+     LABLAXIS        (CDF_CHAR/22): "60 Millisecond Counter"
+
+magStatus (No: 11) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "MagStatus"
+     VALIDMIN        (CDF_INT4/1): -2147483647
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "i10"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/15): "MAG Status Word"
+     LABLAXIS        (CDF_CHAR/9): "MagStatus"
+
+magStatusBYTE (No: 12) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "magstatus individual bits"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "---> magStatus individual bits  "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+magCommand (No: 13) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "MagCommand"
+     VALIDMIN        (CDF_INT4/1): -2147483647
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "i10"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/21): "---> MAG Command Word"
+     LABLAXIS        (CDF_CHAR/10): "MagCommand"
+
+magCommandBYTE (No: 14) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "magcommand individual bits"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/33): "---> magCommand individual bits  "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DataIdInt (No: 15) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Data Identifier"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 10
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Data Identifier (LFM=2,HDR1=8)"
+     LABLAXIS        (CDF_CHAR/15): "Data Identifier"
+
+DataRate (No: 16) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Data Rate"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 10
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/9): "Data Rate"
+     LABLAXIS        (CDF_CHAR/9): "Data Rate"
+     VAR_NOTES       (CDF_CHAR/114): "GS-X=0,CR-1=1,CR-2=2,CR-3=3,CR-4=4,CR-5=5,CR-6=6,CR-7=9,ENG=8,CR5A=13,UV5A=13:  CR5A and UV5A are both VIM-5 modes"
+
+dataConfidence (No: 17) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "MAG data confidence"
+     VALIDMIN        (CDF_BYTE/1): -128
+     VALIDMAX        (CDF_BYTE/1): 127
+     UNITS           (CDF_CHAR/7): "(0=OK) "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/99): "---> Data Confidence Flag (indicates reduced data confidence due to software/hardware intervention)"
+     VAR_NOTES       (CDF_CHAR/43): "Appears to be all fill data - REM 2/27/2014"
+
+numPrimaryData (No: 18) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Number of primary data words"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/28): "Number of primary data words"
+     LABLAXIS        (CDF_CHAR/28): "Number of primary data words"
+
+numSecondaryData (No: 19) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Number of Secondary data words"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i5"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Number of Secondary data words"
+     LABLAXIS        (CDF_CHAR/30): "Number of Secondary data words"
+
+numPrimaryFull (No: 20) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Number of primary Full words"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/28): "Number of primary Full words"
+     LABLAXIS        (CDF_CHAR/28): "Number of primary Full words"
+
+numSecondaryFull (No: 21) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Number of Secondary Full words"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Number of Secondary Full words"
+     LABLAXIS        (CDF_CHAR/30): "Number of Secondary Full words"
+
+recNumber (No: 22) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Record number in file"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/21): "Record number in file"
+     LABLAXIS        (CDF_CHAR/21): "Record number in file"
+
+numWordsRemaining (No: 23) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/43): "Number of words remaining in logical record"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/43): "Number of words remaining in logical record"
+     LABLAXIS        (CDF_CHAR/43): "Number of words remaining in logical record"
+
+B_error (No: 24) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "V1 Fixed B Error"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     CATDESC         (CDF_CHAR/16): "V1 Fixed B Error"
+     LABLAXIS        (CDF_CHAR/16): "V1 Fixed B Error"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/53): "Hard-coded Voy1/Voy2 component uncertainty of 0.02 nT"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/15): "error_bar_array"
+     COMPONENT_0     (CDF_CHAR/2): "F1"
+
+F1 (No: 25) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/72): "B-Magnitude by Method 1 (F1): 48 second average of 9.6 second magnitudes"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+
+F2 (No: 26) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/103): "B-Magnitude by Method 2 (F2): average derived from 48 second component averages=sqrt(B1**2+B2**2+B3**2)"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+
+B1 (No: 27) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BR"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/88): "BR (B1): 48 second average of 9.6 second averages of the B-radial component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BR (B1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+
+B2 (No: 28) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BT"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/97): "---> BT (B2): 48 second average of 9.6 second averages of the B-tangential component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BT (B2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+
+B3 (No: 29) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BN"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/93): "---> BN (B3): 48 second average of 9.6 second averages of the B-normal component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BN (B3)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+
+F1_100nt (No: 30) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/91): "[100nT plot scale] B-Magnitude by Method 1 (F1): 48 second average of 9.6 second magnitudes"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "F1"
+
+F2_100nt (No: 31) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/108): "---> B-Magnitude by Method 2 (F2): average derived from 48 second component averages=sqrt(B1**2+B2**2+B3**2)"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "F2"
+
+B1_100nt (No: 32) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BR"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/93): "---> BR (B1): 48 second average of 9.6 second averages of the B-radial component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BR (B1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B1"
+
+B2_100nt (No: 33) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BT"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/97): "---> BT (B2): 48 second average of 9.6 second averages of the B-tangential component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BT (B2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B2"
+
+B3_100nt (No: 34) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BN"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/93): "---> BN (B3): 48 second average of 9.6 second averages of the B-normal component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BN (B3)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B3"
+
+F1_10nt (No: 35) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/90): "[10nT plot scale] B-Magnitude by Method 1 (F1): 48 second average of 9.6 second magnitudes"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "F1"
+
+F2_10nt (No: 36) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/108): "---> B-Magnitude by Method 2 (F2): average derived from 48 second component averages=sqrt(B1**2+B2**2+B3**2)"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "F2"
+
+B1_10nt (No: 37) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BR"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/93): "---> BR (B1): 48 second average of 9.6 second averages of the B-radial component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BR (B1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B1"
+
+B2_10nt (No: 38) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BT"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/97): "---> BT (B2): 48 second average of 9.6 second averages of the B-tangential component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BT (B2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B2"
+
+B3_10nt (No: 39) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BN"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/93): "---> BN (B3): 48 second average of 9.6 second averages of the B-normal component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BN (B3)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B3"
+
+F1_1nt (No: 40) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/89): "[1nT plot scale] B-Magnitude by Method 1 (F1): 48 second average of 9.6 second magnitudes"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "F1"
+
+F2_1nt (No: 41) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/108): "---> B-Magnitude by Method 2 (F2): average derived from 48 second component averages=sqrt(B1**2+B2**2+B3**2)"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "F2"
+
+B1_1nt (No: 42) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BR"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/93): "---> BR (B1): 48 second average of 9.6 second averages of the B-radial component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BR (B1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B1"
+
+B2_1nt (No: 43) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BT"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/97): "---> BT (B2): 48 second average of 9.6 second averages of the B-tangential component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BT (B2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B2"
+
+B3_1nt (No: 44) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BN"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/93): "---> BN (B3): 48 second average of 9.6 second averages of the B-normal component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BN (B3)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B3"
+
+F1_dot1nt (No: 45) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F1"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 0.1
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/91): "[0.1nT plot scale] B-Magnitude by Method 1 (F1): 48 second average of 9.6 second magnitudes"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "F1"
+
+F2_dot1nt (No: 46) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "F2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 0.1
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/108): "---> B-Magnitude by Method 2 (F2): average derived from 48 second component averages=sqrt(B1**2+B2**2+B3**2)"
+     LABLAXIS        (CDF_CHAR/16): "B-Magnitude (F2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "F2"
+
+B1_dot1nt (No: 47) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BR"
+     VALIDMIN        (CDF_REAL4/1): -0.1
+     VALIDMAX        (CDF_REAL4/1): 0.1
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/93): "---> BR (B1): 48 second average of 9.6 second averages of the B-radial component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BR (B1)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B1"
+
+B2_dot1nt (No: 48) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BT"
+     VALIDMIN        (CDF_REAL4/1): -0.1
+     VALIDMAX        (CDF_REAL4/1): 0.1
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/97): "---> BT (B2): 48 second average of 9.6 second averages of the B-tangential component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BT (B2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B2"
+
+B3_dot1nt (No: 49) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "BN"
+     VALIDMIN        (CDF_REAL4/1): -0.1
+     VALIDMAX        (CDF_REAL4/1): 0.1
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/93): "---> BN (B3): 48 second average of 9.6 second averages of the B-normal component in HG coords"
+     LABLAXIS        (CDF_CHAR/7): "BN (B3)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "B_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "B_error"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "B3"
+
+lat (No: 50) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Latitudinal field angle"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/56): "---> Latitudinal field angle in HG coords= arcsin(B3/F2)"
+     LABLAXIS        (CDF_CHAR/13): "B-Latitude HG"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+lon (No: 51) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "---> Longitudinal field angle"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "---> Longitudinal field angle in HG coords = 180 - atan(B2,-B1)"
+     LABLAXIS        (CDF_CHAR/9): "B-Long HG"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+RMSB1 (No: 52) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "RMS of BR"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/9): "RMS of BR"
+     LABLAXIS        (CDF_CHAR/6): "RMS-BR"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+RMSB2 (No: 53) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "---> RMS of BT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/14): "---> RMS of BT"
+     LABLAXIS        (CDF_CHAR/6): "RMS-BT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+RMSB3 (No: 54) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "---> RMS of BN"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/14): "---> RMS of BN"
+     LABLAXIS        (CDF_CHAR/6): "RMS-BN"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+num9_6_averages (No: 55) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "---> Num 9.6 averages"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/57): "---> Number of 9.6 averages per 48 second average (0<n<5)"
+     LABLAXIS        (CDF_CHAR/19): "# 9.6s avgs per 48s"
+
+avg1_48 (No: 56) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "48 second average of s/c BR"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/27): "48 second average of s/c BR"
+     LABLAXIS        (CDF_CHAR/10): "s/c_BR_48s"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/43): "Appears to be all fill data - REM 2/27/2014"
+
+avg2_48 (No: 57) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "48 second average of s/c BT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "---> 48 second average of s/c BT"
+     LABLAXIS        (CDF_CHAR/10): "s/c_BT_48s"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/43): "Appears to be all fill data - REM 2/27/2014"
+
+avg3_48 (No: 58) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "48 second average s/c BN"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "---> 48 second average s/c BN"
+     LABLAXIS        (CDF_CHAR/10): "s/c_BN_48s"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/43): "Appears to be all fill data - REM 2/27/2014"
+
+norm48 (No: 59) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "norm of 48 sec avg"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/51): "---> Norm of 48 second s/c field component averages"
+     LABLAXIS        (CDF_CHAR/12): "s/c_Bmag_48s"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/43): "Appears to be all fill data - REM 2/27/2014"
+
+RMS1_48 (No: 60) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "RMS of 48 second averaged s/c BR"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "---> RMS of 48 second averaged s/c BR"
+     LABLAXIS        (CDF_CHAR/13): "s/c_BRrms_48s"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/43): "Appears to be all fill data - REM 2/27/2014"
+
+RMS2_48 (No: 61) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "RMS of 48 second averaged s/c BT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "---> RMS of 48 second averaged s/c BT"
+     LABLAXIS        (CDF_CHAR/13): "s/c_BTrms_48s"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/43): "Appears to be all fill data - REM 2/27/2014"
+
+RMS3_48 (No: 62) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "RMS of 48 second averaged s/c BN"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "---> RMS of 48 second averaged s/c BN"
+     LABLAXIS        (CDF_CHAR/13): "s/c_BNrms_48s"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/43): "Appears to be all fill data - REM 2/27/2014"
+
+num_9_6 (No: 63) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Numb 9.6 fld avg"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 99
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "---> Number of 9.6 s/c field averages per 48 second average (0<n<5)"
+     LABLAXIS        (CDF_CHAR/16): "Numb 9.6 fld avg"
+     VAR_NOTES       (CDF_CHAR/43): "Appears to be all fill data - REM 2/27/2014"
+
+epicDayNav (No: 64) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Epic day nav block"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/5): "F13.6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/54): "TN:  Epic day of navigation block closest to data time"
+     LABLAXIS        (CDF_CHAR/18): "Epic day nav block"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+epicDayVec (No: 65) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Epic day Vec block"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/5): "F13.6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/59): "TP:  Epic day of pointing vector block closest to data time"
+     LABLAXIS        (CDF_CHAR/18): "Epic day vec block"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+x (No: 66) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "V1 X position in IHG coords"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "AU"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/27): "V1 X position in IHG coords"
+     LABLAXIS        (CDF_CHAR/4): "Xihg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+y (No: 67) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "V1 Y position in IHG coords"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "AU"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "---> V1 Y position in IHG coords"
+     LABLAXIS        (CDF_CHAR/4): "Yihg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+z (No: 68) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "V1 Z position in IHG coords"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "AU"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "---> V1 Z position in IHG coords"
+     LABLAXIS        (CDF_CHAR/4): "Zihg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+xvel (No: 69) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "V1 X velocity in IHG coords"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/27): "V1 X velocity in IHG coords"
+     LABLAXIS        (CDF_CHAR/6): "VX_ihg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+yvel (No: 70) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "V1 Y velocity in IHG coords"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "---> V1 Y velocity in IHG coords"
+     LABLAXIS        (CDF_CHAR/6): "VY_ihg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+zvel (No: 71) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "V1 Z velocity in IHG coords"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "---> V1 Z velocity in IHG coords"
+     LABLAXIS        (CDF_CHAR/6): "VZ_ihg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+scDistance (No: 72) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "V1 distance from the Sun"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "Au"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/24): "V1 distance from the Sun"
+     LABLAXIS        (CDF_CHAR/7): "V1 Dist"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+scLon (No: 73) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "V1 longitude in IHG coords"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/7): "radians"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/43): "---> V1 longitude in IHG coords = asin(Z/R)"
+     LABLAXIS        (CDF_CHAR/11): "V1 Long_ihg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+scLat (No: 74) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "V1 latitude in IHG coords"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/7): "radians"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/42): "---> V1 latitude in IHG coords = asin(Z/R)"
+     LABLAXIS        (CDF_CHAR/10): "V1 Lat_ihg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+matrix1 (No: 75) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "matrix1"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     LABL_PTR_1      (CDF_CHAR/16): "labl_ptr_matrix1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/102): "Matrix1: transforms 3-element vector from Inertial Heliographic (IHG) to Heliographic (HG)coordinates."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/96): "Matrix 1 transforms three element vector from Inertial Heliographic to heliographic coordinates."
+
+matrix2 (No: 76) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "matrix2"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     LABL_PTR_1      (CDF_CHAR/16): "labl_ptr_matrix2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/126): "---> Matrix2: transforms 3-element vector from Earth Mean ecliptic, Equinox of 1950 (EME 50) to Heliographic (HG) coordinates."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/125): "Matrix 2 transforms three element vector from Earth Mean ecliptic, Equinox of 1950 (EME 50) to Heliographic (HG) coordinates."
+
+matrix3 (No: 77) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "matrix3"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): 999.0
+     LABL_PTR_1      (CDF_CHAR/16): "labl_ptr_matrix3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/100): "---> Matrix3: transforms 3-element vector from payload coordinates to Heliographic (HG) coordinates."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/94): "Matrix 3 transforms three element vector from payload coordinates to Heliographic coordinates."
+
+labl_ptr_matrix1 (No: 78) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "labl_ptr_matrix1"
+     FORMAT          (CDF_CHAR/2): "A5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/16): "labl_ptr_matrix1"
+     LABLAXIS        (CDF_CHAR/16): "labl_ptr_matrix1"
+
+labl_ptr_matrix2 (No: 79) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "labl_ptr_matrix2"
+     FORMAT          (CDF_CHAR/2): "A5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/16): "labl_ptr_matrix2"
+     LABLAXIS        (CDF_CHAR/16): "labl_ptr_matrix2"
+
+labl_ptr_matrix3 (No: 80) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "labl_ptr_matrix3"
+     FORMAT          (CDF_CHAR/2): "A5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/16): "labl_ptr_matrix3"
+     LABLAXIS        (CDF_CHAR/16): "labl_ptr_matrix3"
+
+recTypeHead (No: 81) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Record Type (header)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/31): "[LIST ONLY] Record Type (header"
+
+telFmtHead (No: 82) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Telemetry Format (header)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "[LIST ONLY] Telemetry Format (header)"
+
+scIDHead (No: 83) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Spacecraft ID (header)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/34): "[LIST ONLY] Spacecraft ID (header)"
+
+timeHead (No: 84) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "time (header)"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1000
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/13): "time (header)"
+     LABLAXIS        (CDF_CHAR/13): "time (header)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+runYearHead (No: 85) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "run year (header)"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 99
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/17): "run year (header)"
+     LABLAXIS        (CDF_CHAR/17): "run year (header)"
+
+calDayHead (No: 86) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "calendar day (header)"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 366
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/21): "calendar day (header)"
+     LABLAXIS        (CDF_CHAR/21): "calendar day (header)"
+
+runMonthHead (No: 87) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "run month (header)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "[LIST ONLY] run month (header)"
+
+runDayHead (No: 88) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "run day (header)"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 31
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "run day (header)"
+     LABLAXIS        (CDF_CHAR/16): "run day (header)"
+
+runTypeHead (No: 89) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "run type (header)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "[LIST ONLY] run type (header)"
+
+coordHead (No: 90) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "coord (header)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "[LIST ONLY] run type (header)"
+
+dataIDHead (No: 91) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "dataID (header)"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1000
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/15): "dataID (header)"
+     LABLAXIS        (CDF_CHAR/15): "dataID (header)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+word32Head (No: 92) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "word32 (header)"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1000
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/15): "word32 (header)"
+     LABLAXIS        (CDF_CHAR/15): "word32 (header)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+edrsysHead (No: 93) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "edrsys (header)"
+     VALIDMIN        (CDF_BYTE/1): -128
+     VALIDMAX        (CDF_BYTE/1): 127
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_BYTE/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/15): "edrsys (header)"
+     LABLAXIS        (CDF_CHAR/15): "edrsys (header)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+magsysHead (No: 94) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "magsys (header)"
+     VALIDMIN        (CDF_BYTE/1): -128
+     VALIDMAX        (CDF_BYTE/1): 127
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_BYTE/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/15): "magsys (header)"
+     LABLAXIS        (CDF_CHAR/15): "magsys (header)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+zeroNameHead (No: 95) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "zeroname (header)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "[LIST ONLY] zeroname (header)"
+
+sensNameHead (No: 96) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "sensname (header)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "[LIST ONLY] sensname (header)"
+
+recTypeTrail (No: 97) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Record Type (trailer)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "[LIST ONLY] Record Type (trailer"
+
+telFmtTrail (No: 98) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Telemetry Format (trailer)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/38): "[LIST ONLY] Telemetry Format (trailer)"
+
+scIDTrail (No: 99) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Spacecraft ID (trailer)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/35): "[LIST ONLY] Spacecraft ID (trailer)"
+
+timeTrail (No: 100) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "time (trailer)"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1000
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/14): "time (trailer)"
+     LABLAXIS        (CDF_CHAR/14): "time (trailer)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+runYearTrail (No: 101) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "run year (trailer)"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 99
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/18): "run year (trailer)"
+     LABLAXIS        (CDF_CHAR/18): "run year (trailer)"
+
+calDayTrail (No: 102) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "calendar day (trailer)"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 366
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/22): "calendar day (trailer)"
+     LABLAXIS        (CDF_CHAR/22): "calendar day (trailer)"
+
+runMonthTrail (No: 103) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "run month (trailer)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/31): "[LIST ONLY] run month (trailer)"
+
+runDayTrail (No: 104) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "run day (trailer)"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 31
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/17): "run day (trailer)"
+     LABLAXIS        (CDF_CHAR/17): "run day (trailer)"
+
+runTypeTrail (No: 105) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "run type (trailer)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "[LIST ONLY] run type (trailer)"
+
+coordTrail (No: 106) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "coord (trailer)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "[LIST ONLY] run type (trailer)"
+
+dataIDTrail (No: 107) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "dataID (trailer)"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1000
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "dataID (trailer)"
+     LABLAXIS        (CDF_CHAR/16): "dataID (trailer)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+word32Trail (No: 108) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "word32 (trailer)"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1000
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "word32 (trailer)"
+     LABLAXIS        (CDF_CHAR/16): "word32 (trailer)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+edrsysTrail (No: 109) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "edrsys (trailer)"
+     VALIDMIN        (CDF_BYTE/1): -128
+     VALIDMAX        (CDF_BYTE/1): 127
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_BYTE/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "edrsys (trailer)"
+     LABLAXIS        (CDF_CHAR/16): "edrsys (trailer)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+magsysTrail (No: 110) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "magsys (trailer)"
+     VALIDMIN        (CDF_BYTE/1): -128
+     VALIDMAX        (CDF_BYTE/1): 127
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_BYTE/1): -1
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "magsys (trailer)"
+     LABLAXIS        (CDF_CHAR/16): "magsys (trailer)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+zeroNameTrail (No: 111) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "zeroname (trailer)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "[LIST ONLY] zeroname (trailer)"
+
+sensNameTrail (No: 112) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "sensname (trailer)"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "[LIST ONLY] sensname (trailer)"
+
+calib_flag_on (No: 113) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/10): "calib_flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     UNITS           (CDF_UCHAR/4): "flag"
+     FORMAT          (CDF_UCHAR/2): "b1"
+     VAR_TYPE        (CDF_UCHAR/11): "ignore_data"
+     DICT_KEY        (CDF_UCHAR/16): "calibration flag"
+     FILLVAL         (CDF_INT2/1): -128
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/16): "calibration flag"
+     LABLAXIS        (CDF_UCHAR/4): "flag"
+     DISPLAY_TYPE    (CDF_UCHAR/11): "time_series"
+
+calib_flag_MF (No: 114) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/13): "calib_flag_MF"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     UNITS           (CDF_UCHAR/4): "flag"
+     FORMAT          (CDF_UCHAR/2): "b1"
+     VAR_TYPE        (CDF_UCHAR/11): "ignore_data"
+     DICT_KEY        (CDF_UCHAR/28): "calibration flag for MFields"
+     FILLVAL         (CDF_INT2/1): -128
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/27): "calibration flag for MField"
+     LABLAXIS        (CDF_UCHAR/11): "cal MF flag"
+     DISPLAY_TYPE    (CDF_UCHAR/11): "time_series"
+
+calib_flag_offset (No: 115) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/17): "calib_flag_offset"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 127
+     UNITS           (CDF_UCHAR/6): "points"
+     FORMAT          (CDF_UCHAR/2): "b1"
+     VAR_TYPE        (CDF_UCHAR/11): "ignore_data"
+     DICT_KEY        (CDF_UCHAR/23): "calibration flag offset"
+     FILLVAL         (CDF_INT2/1): -128
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/23): "calibration flag offset"
+     LABLAXIS        (CDF_UCHAR/15): "cal flag offset"
+     DISPLAY_TYPE    (CDF_UCHAR/11): "time_series"
+

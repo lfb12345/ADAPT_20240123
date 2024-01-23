@@ -1,0 +1,317 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/tha_l1_fge_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     tha_l1_fge_00000000_v01.cdf
+Version:      3.1.1
+
+Common Data Format (CDF)
+(C) Copyright 1990-2006 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- CDFSUPPORT@LISTSERV.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     14
+NumAttrs:     56 (25 global, 31 variable)
+Compression:  None
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/6): 	"THEMIS"
+Source_name (1 entry):
+	0 (CDF_CHAR/27): 	"THA>THEMIS-A>THEMIS Probe A"
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+	1 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/30): 	"FGE>FluxGate mag (Engineering)"
+Descriptor (1 entry):
+	0 (CDF_CHAR/10): 	"L1>Level_1"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/62): 	"V. Angelopoulos, U. Auster & K.H. Glassmeier and W. Baumjohann"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/47): 	"UCB, TUBS and IWF respectively, NASA NAS5-02099"
+TEXT (1 entry):
+	0 (CDF_CHAR/96): 	"Sensor and electronics design provided by TUBS (Glassmeier, Auster) and IWF (Baumjohann, Magnes)"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"THEMIS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"tha_l1_fge"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"tha_l1_fge_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/96): 	"Spacecraft-collected fluxgate magnetometer, Decimated TeleMetry High, Raw sensor coordinate data"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"1/4-1/128s"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/28): 	"Open Data for Scientific Use"
+Generated_by (1 entry):
+	0 (CDF_CHAR/10): 	"THEMIS SOC"
+Generation_date (1 entry):
+	0 (CDF_CHAR/10): 	"2006-09-18"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/24): 	"NASA Contract NAS5-02099"
+MODS (1 entry):
+	0 (CDF_CHAR/15): 	"Rev- 2006-09-18"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/themis"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/22): 	"THEMIS FGM sensor data"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/themis"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_descriptor_datatype"
+
+Variable Attributes (31 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+DEPEND_TIME
+DEPEND_EPOCH0
+MONOTON
+
+Variable Information (0 rVariable, 14 zVariables)
+===========================================================
+tha_fge               CDF_INT4/1	1:[3]	T/T
+tha_fge_labl          CDF_CHAR/9	1:[3]	F/T
+tha_fge_unit          CDF_CHAR/3	1:[3]	F/T
+tha_fge_compno        CDF_INT4/1	1:[3]	F/T
+tha_fge_time          CDF_REAL8/1	0:[]	T/  
+tha_fge_epoch16       CDF_EPOCH16/1	0:[]	T/  
+tha_fge_epoch0        CDF_EPOCH/1	0:[]	F/  
+range_epoch           CDF_EPOCH/1	0:[]	T/  
+tha_fge_hed           CDF_BYTE/1	1:[16]	T/T
+tha_fge_hed_dtcor     CDF_REAL8/1	0:[]	T/  
+tha_fge_hed_time      CDF_REAL8/1	0:[]	T/  
+tha_fge_hed_byteno    CDF_INT4/1	1:[16]	F/T
+tha_fge_hed_epoch16   CDF_EPOCH16/1	0:[]	T/  
+tha_fge_hed_labl      CDF_CHAR/24	1:[16]	F/T
+
+
+Variable (14 variables)
+=========================================
+
+tha_fge (No: 0) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "Magnetic field B in XYZ Sensor Coordinates"
+     DEPEND_0        (CDF_CHAR/15): "tha_fge_epoch16"
+     DEPEND_1        (CDF_CHAR/14): "tha_fge_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/38): "BXYZ Raw Sensor Coordinates, ADC units"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "i8"
+     LABL_PTR_1      (CDF_CHAR/12): "tha_fge_labl"
+     UNIT_PTR        (CDF_CHAR/12): "tha_fge_unit"
+     VALIDMIN        (CDF_INT4/3): -8388608, -8388608, -8388608
+     VALIDMAX        (CDF_INT4/3): 8388608, 8388608, 8388608
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/43): "To convert to nT multiply by 50000nT / 2^24"
+     DEPEND_TIME     (CDF_CHAR/12): "tha_fge_time"
+     DEPEND_EPOCH0   (CDF_CHAR/14): "tha_fge_epoch0"
+
+tha_fge_labl (No: 1) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "tha_fge_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/12): "tha_fge_labl"
+     FORMAT          (CDF_CHAR/2): "a9"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+tha_fge_unit (No: 2) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "tha_fge_unit"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/12): "tha_fge_unit"
+     FORMAT          (CDF_CHAR/2): "a3"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+tha_fge_compno (No: 3) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABL_PTR_1      (CDF_CHAR/12): "tha_fge_labl"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+tha_fge_time (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "tha_fgh_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     FIELDNAM        (CDF_CHAR/12): "tha_fgh_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+tha_fge_epoch16 (No: 5) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "tha_fgh_epoch16"
+     FIELDNAM        (CDF_CHAR/15): "tha_fgh_epoch16"
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-2001 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2100 23:59:59.999.999.999.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/19): "comp_themis_epoch16"
+     COMPONENT_0     (CDF_CHAR/14): "tha_fge_epoch0"
+     COMPONENT_1     (CDF_CHAR/12): "tha_fge_time"
+
+tha_fge_epoch0 (No: 6) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "EPOCH0 of THEMIS TIME BASE"
+     FIELDNAM        (CDF_CHAR/14): "tha_fgh_epoch0"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     UNITS           (CDF_CHAR/4): "msec"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1900 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/29): "EPOCH of 01-Jan-1970 00:00:00"
+
+range_epoch (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "range_epoch"
+     FIELDNAM        (CDF_CHAR/11): "range_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/4): "msec"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+tha_fge_hed (No: 8) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Packet header, configuration bytes"
+     DEPEND_0        (CDF_CHAR/19): "tha_fge_hed_epoch16"
+     DEPEND_1        (CDF_CHAR/18): "tha_fge_hed_byteno"
+     FIELDNAM        (CDF_CHAR/11): "tha_fge_hed"
+     FILLVAL         (CDF_BYTE/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABL_PTR_1      (CDF_CHAR/16): "tha_fge_hed_labl"
+     UNITS           (CDF_CHAR/4): "bits"
+     VALIDMIN        (CDF_BYTE/1): -128
+     VALIDMAX        (CDF_BYTE/1): 127
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/195): "Bytes(0:11) = time and APID information...Byte(12): XXXX YYYY (Range of X, Y)...Byte(13): ZZZZ 0TTT (Range of Z, TTT=0-5 mean 4,8,16,32,64,128Hz)...Byte(14): (fill value)...Byte(15): (fill value)"
+     DEPEND_TIME     (CDF_CHAR/16): "tha_fge_hed_time"
+     DEPEND_EPOCH0   (CDF_CHAR/14): "tha_fge_epoch0"
+
+tha_fge_hed_dtcor (No: 9) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "tha_fgh_hed_dtcorrection, UTC, in seconds"
+     FIELDNAM        (CDF_CHAR/17): "tha_fgh_hed_dtcor"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/63): "Time correction applied to _TIME data.at the L0->L1 processing."
+
+tha_fge_hed_time (No: 10) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/60): "tha_fgh_hed_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     FIELDNAM        (CDF_CHAR/16): "tha_fgh_hed_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+tha_fge_hed_byteno (No: 11) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "tha_fgh_hed_byteno"
+     FIELDNAM        (CDF_CHAR/18): "tha_fgh_hed_byteno"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/6): "ByteNo"
+     UNITS           (CDF_CHAR/2): "No"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 16
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+tha_fge_hed_epoch16 (No: 12) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "tha_fge_hed_epoch16"
+     FIELDNAM        (CDF_CHAR/19): "tha_fge_hed_epoch16"
+     FILLVAL         (CDF_EPOCH16/1): 31-Dec-9999 23:59:59.999.999.999.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH16/1): 01-Jan-2001 00:00:00.000.000.000.000
+     VALIDMAX        (CDF_EPOCH16/1): 31-Dec-2100 23:59:59.999.999.999.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/19): "comp_themis_epoch16"
+     COMPONENT_0     (CDF_CHAR/14): "tha_fge_epoch0"
+     COMPONENT_1     (CDF_CHAR/16): "tha_fge_hed_time"
+
+tha_fge_hed_labl (No: 13) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "tha_fgh_hed_labl"
+     FIELDNAM        (CDF_CHAR/16): "tha_fgh_hed_labl"
+     FORMAT          (CDF_CHAR/3): "A25"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

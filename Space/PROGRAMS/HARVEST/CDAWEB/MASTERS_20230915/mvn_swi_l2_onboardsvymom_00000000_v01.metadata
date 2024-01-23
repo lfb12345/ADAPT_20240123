@@ -1,0 +1,479 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/mvn_swi_l2_onboardsvymom_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     mvn_swi_l2_onboardsvymom_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     23
+NumAttrs:     44 (27 global, 17 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/26): 	"MAVEN SWIA Onboard Moments"
+Project (1 entry):
+	0 (CDF_CHAR/52): 	"MAVEN>Mars Atmosphere and Volatile EvolutioN Mission"
+Discipline (1 entry):
+	0 (CDF_CHAR/27): 	"Planetary Physics>Particles"
+Source_name (1 entry):
+	0 (CDF_CHAR/52): 	"MAVEN>Mars Atmosphere and Volatile EvolutioN Mission"
+Descriptor (1 entry):
+	0 (CDF_CHAR/28): 	"SWIA>Solar Wind Ion Analyzer"
+Data_type (1 entry):
+	0 (CDF_CHAR/14): 	"CAL>Calibrated"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/26): 	"MAVEN SWIA Onboard Moments"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source (1 entry):
+	0 (CDF_CHAR/24): 	"mvn_swi_l2_onboardsvymom"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/82): 	"DERIVED FROM: MAVEN SWIA (Solar Wind Ion Analyzer) Onboard Moment Survey Telemetry"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"J.S. Halekas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/6): 	"U Iowa"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"MAVEN"
+LINK_TEXT (3 entries):
+	0 (CDF_CHAR/19): 	"MAVEN Data Archive "
+	1 (CDF_CHAR/16): 	"MAVEN home page "
+	2 (CDF_CHAR/16): 	"MAVEN home page "
+LINK_TITLE (3 entries):
+	0 (CDF_CHAR/15): 	"at PDS PPI Node"
+	1 (CDF_CHAR/7): 	"at LASP"
+	2 (CDF_CHAR/11): 	"at NASA.gov"
+HTTP_LINK (3 entries):
+	0 (CDF_CHAR/68): 	"https://pds-ppi.igpp.ucla.edu/search/?sc=MAVEN&facet=SPACECRAFT_NAME"
+	1 (CDF_CHAR/36): 	"http://lasp.colorado.edu/home/maven/"
+	2 (CDF_CHAR/56): 	"https://www.nasa.gov/mission_pages/maven/main/index.html"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_collection_id (1 entry):
+	0 (CDF_CHAR/55): 	"urn:nasa:pds:maven.swia.calibrated:data.onboard_svy_mom"
+PDS_start_time (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_stop_time (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_sclk_start_count (1 entry):
+	0 (CDF_DOUBLE/1): 	3.51601e+13
+PDS_sclk_stop_count (1 entry):
+	0 (CDF_DOUBLE/1): 	3.51658e+13
+leapseconds_kernel (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Spacecraft_clock_kernel (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (17 attributes)
+=========================================
+FIELDNAM
+MONOTON
+FORMAT
+FORM_PTR
+LABLAXIS
+LABL_PTR_1
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+CATDESC
+
+Variable Information (0 rVariable, 23 zVariables)
+===========================================================
+epoch                 CDF_TT2000/1	0:[]	T/  
+time_met              CDF_DOUBLE/1	0:[]	T/  
+time_unix             CDF_DOUBLE/1	0:[]	T/  
+density               CDF_FLOAT/1	0:[]	T/  
+pressure              CDF_FLOAT/1	1:[6]	T/T
+velocity              CDF_FLOAT/1	1:[3]	T/T
+velocity_mso          CDF_FLOAT/1	1:[3]	T/T
+temperature           CDF_FLOAT/1	1:[3]	T/T
+temperature_mso       CDF_FLOAT/1	1:[3]	T/T
+atten_state           CDF_UINT1/1	0:[]	T/  
+telem_mode            CDF_UINT1/1	0:[]	T/  
+quality_flag          CDF_FLOAT/1	0:[]	T/  
+decom_flag            CDF_FLOAT/1	0:[]	T/  
+pindex                CDF_UINT1/1	1:[6]	F/T
+vindex                CDF_UINT1/1	1:[3]	F/T
+tindex                CDF_UINT1/1	1:[3]	F/T
+p_label               CDF_CHAR/8	1:[6]	F/T
+v_label               CDF_CHAR/7	1:[3]	F/T
+v_label_mso           CDF_CHAR/8	1:[3]	F/T
+t_label               CDF_CHAR/7	1:[3]	F/T
+t_label_MSO           CDF_CHAR/8	1:[3]	F/T
+t_label_mso           CDF_CHAR/8	1:[3]	F/T
+num_mom               CDF_INT2/1	0:[]	F/  
+
+
+Variable (23 variables)
+=========================================
+
+epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_TT2000/1): 2013-11-17T23:59:59.999998080
+     VALIDMAX        (CDF_TT2000/1): 2030-12-31T23:58:59.999998080
+     SCALEMIN        (CDF_TT2000/1): 2017-01-01T00:00:02.786721472
+     SCALEMAX        (CDF_TT2000/1): 2017-01-01T23:59:58.366797952
+     UNITS           (CDF_CHAR/2): "ns"
+     CATDESC         (CDF_CHAR/42): "Time, start of sample, in TT2000 time base"
+
+time_met (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "time_met"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/5): "F25.6"
+     LABLAXIS        (CDF_CHAR/10): "Time (MET)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_DOUBLE/1): 4.38005e+08
+     VALIDMAX        (CDF_DOUBLE/1): 9.78264e+08
+     SCALEMIN        (CDF_DOUBLE/1): 5.36501e+08
+     SCALEMAX        (CDF_DOUBLE/1): 5.36587e+08
+     UNITS           (CDF_CHAR/1): "s"
+     CATDESC         (CDF_CHAR/50): "Time, start of sample, in raw mission elapsed time"
+
+time_unix (No: 2) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "time_unix"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/5): "F25.6"
+     LABLAXIS        (CDF_CHAR/11): "Time (UNIX)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_DOUBLE/1): 1.38473e+09
+     VALIDMAX        (CDF_DOUBLE/1): 1.92499e+09
+     SCALEMIN        (CDF_DOUBLE/1): 1.48323e+09
+     SCALEMAX        (CDF_DOUBLE/1): 1.48332e+09
+     UNITS           (CDF_CHAR/1): "s"
+     CATDESC         (CDF_CHAR/35): "Time, start of sample, in Unix time"
+
+density (No: 3) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "density"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/7): "Density"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1000.0
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     CATDESC         (CDF_CHAR/45): "Onboard density moment, assuming 100% protons"
+
+pressure (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "pressure (IC)"
+     FORMAT          (CDF_CHAR/5): "F16.7"
+     LABLAXIS        (CDF_CHAR/13): "Pressure (IC)"
+     LABL_PTR_1      (CDF_CHAR/7): "p_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/6): "pindex"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+06
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     SCALEMIN        (CDF_FLOAT/1): -100000.0
+     SCALEMAX        (CDF_FLOAT/1): 100000.0
+     UNITS           (CDF_CHAR/8): "eV/cm^-3"
+     CATDESC         (CDF_CHAR/61): "Onboard pressure moment (Inst. Coords), assuming 100% protons"
+
+velocity (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "velocity (IC)"
+     FORMAT          (CDF_CHAR/5): "F18.7"
+     LABLAXIS        (CDF_CHAR/13): "Velocity (IC)"
+     LABL_PTR_1      (CDF_CHAR/7): "v_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/6): "vindex"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+07
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     SCALEMIN        (CDF_FLOAT/1): -1000.0
+     SCALEMAX        (CDF_FLOAT/1): 1000.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     CATDESC         (CDF_CHAR/61): "Onboard velocity moment (Inst. Coords), assuming 100% protons"
+
+velocity_mso (No: 6) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "velocity_mso"
+     FORMAT          (CDF_CHAR/5): "F18.7"
+     LABLAXIS        (CDF_CHAR/21): "Velocity Moment (MSO)"
+     LABL_PTR_1      (CDF_CHAR/11): "v_label_mso"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/6): "vindex"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+07
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     SCALEMIN        (CDF_FLOAT/1): -1000.0
+     SCALEMAX        (CDF_FLOAT/1): 1000.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     CATDESC         (CDF_CHAR/76): "Onboard velocity moment (MSO [Mars-Sun Orbit] Coords), assuming 100% protons"
+
+temperature (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "temperature"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/11): "Temperature"
+     LABL_PTR_1      (CDF_CHAR/7): "t_label"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/6): "tindex"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1000.0
+     UNITS           (CDF_CHAR/2): "eV"
+     CATDESC         (CDF_CHAR/64): "Onboard temperature moment (Inst. Coords), assuming 100% protons"
+
+temperature_mso (No: 8) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "temperature_mso"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/17): "Temperature (MSO)"
+     LABL_PTR_1      (CDF_CHAR/11): "t_label_MSO"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/6): "tindex"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1000.0
+     UNITS           (CDF_CHAR/2): "eV"
+     CATDESC         (CDF_CHAR/79): "Onboard temperature moment (MSO [Mars-Sun Orbit] Coords), assuming 100% protons"
+
+atten_state (No: 9) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "atten_state"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/16): "Attenuator State"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 1
+     VALIDMAX        (CDF_UINT1/1): 3
+     SCALEMIN        (CDF_UINT1/1): 1
+     SCALEMAX        (CDF_UINT1/1): 3
+     CATDESC         (CDF_CHAR/56): "Attenuator state, 1 = open, 2 = closed, 3 = cover closed"
+
+telem_mode (No: 10) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "telem_mode"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/14): "Telemetry Mode"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     CATDESC         (CDF_CHAR/42): "Telemetry Mode: 1 = Sheath, 0 = Solar Wind"
+
+quality_flag (No: 11) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "quality_flag"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/12): "Quality Flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     CATDESC         (CDF_CHAR/31): "Quality Flag: 0 = bad, 1 = good"
+
+decom_flag (No: 12) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "decom_flag"
+     FORMAT          (CDF_CHAR/5): "F15.7"
+     LABLAXIS        (CDF_CHAR/18): "Decommutation Flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0
+     CATDESC         (CDF_CHAR/88): "Decommutation Flag: 0 = uncertain mode/attenuator flags, 1 = known mode/attenuator flags"
+
+pindex (No: 13) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "pindex"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/6): "pindex"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -127
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 5
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 5
+     CATDESC         (CDF_CHAR/36): "pressure Index for CDF compatibility"
+
+vindex (No: 14) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "vindex"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/6): "vindex"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 2
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 2
+     CATDESC         (CDF_CHAR/36): "velocity Index for CDF compatibility"
+
+tindex (No: 15) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "tindex"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/6): "tindex"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 2
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 2
+     CATDESC         (CDF_CHAR/39): "temperature Index for CDF compatibility"
+
+p_label (No: 16) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "p_label"
+     FORMAT          (CDF_CHAR/2): "A8"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/43): "Pressure Tensor Label for CDF compatibility"
+
+v_label (No: 17) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "v_label"
+     FORMAT          (CDF_CHAR/2): "A7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Velocity Label for CDF compatibility"
+
+v_label_mso (No: 18) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "v_label"
+     FORMAT          (CDF_CHAR/2): "A8"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Velocity Label for CDF compatibility"
+
+t_label (No: 19) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "t_label"
+     FORMAT          (CDF_CHAR/2): "A7"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/39): "Energy Axis Label for CDF compatibility"
+
+t_label_MSO (No: 20) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "t_label_MSO"
+     FORMAT          (CDF_CHAR/2): "A8"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/39): "Energy Axis Label for CDF compatibility"
+
+t_label_mso (No: 21) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "t_label"
+     FORMAT          (CDF_CHAR/2): "A8"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/39): "Energy Axis Label for CDF compatibility"
+
+num_mom (No: 22) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "num_mom"
+     FORMAT          (CDF_CHAR/2): "I7"
+     LABLAXIS        (CDF_CHAR/7): "num_mom"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32767
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 21600
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 21600
+     CATDESC         (CDF_CHAR/29): "Number of Moment Sets in File"
+

@@ -1,0 +1,742 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_k0_pwi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_k0_pwi_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     30
+NumzVars:     0
+NumAttrs:     50 (26 global, 24 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/14): 	"POLAR PWI KPGS"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"PWI>Plasma Wave Instrument"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (3 entries):
+	0 (CDF_CHAR/149): 	"Reference:..Gurnett, D.A. et al, The Polar plasma wave instrument, Space Science Reviews, Vol. 71, pp. 597-622, 1995.GURNETT@IOWAVE.physics.uiowa.edu"
+	1 (CDF_CHAR/279): 	"Note:..The electron ion and cyclotron frequencies are derived from the following:  Fce = 0.028 kHz*B, where B is the magnitude of the ambient magnetic field measured in nT.  Fcp = Fce/1837 in kHz.  FcO+ = Fcp/16 in kHz.  All frequencies in the key parameters are converted to Hz."
+	2 (CDF_CHAR/760): 	"Since the SFR frequency steps vary with the mode, the measured SFR frequencies will be mapped to a fixed array of 160 approximately logarithmically spaced frequency values, 32 frequency values for each of the five SFR channels.  In the log mode, the 64 frequency steps of the fourth and fifth frequency channels will be mapped to 32 frequency steps each, using geometric averaging.  In the linear mode, the 448 linearly spaced frequency steps of the five frequency channels will be mapped to the fixed array of 160 logarithmically spaced frequency values using a windowing technique.  The magnetic and electric field values corresponding to each SFR frequency step will be similarly mapped to 160-point fixed arrays corresponding to the mapped frequency array."
+MODS (1 entry):
+	0 (CDF_CHAR/41): 	"Created Sept 1992, modified by JT 2/15/96"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0171"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"po_k0_pwi_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"po_k0_pwi"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/42): 	"Polar Plasma Wave Instrument Key Parameter"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"D. Gurnett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"U. Iowa"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"5-minute"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"spms-00224"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/36): 	"Polar_PWI_Key-Parameters-K0_1min_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/57): 	"spase://NASA/NumericalData/POLAR/PWI/KeyParameters/PT300S"
+
+Variable Attributes (24 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+SCALETYP
+UNITS
+LABL_PTR_1
+LABLAXIS
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+FORMAT
+FILLVAL
+AVG_TYPE
+DICT_KEY
+DISPLAY_TYPE
+VIRTUAL
+FUNCTION
+COMPONENT_0
+VAR_NOTES
+
+Variable Information (30 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	2:[3,160]	T/FF
+Time_PB5              CDF_INT4/1	2:[3,160]	T/TF
+Fce                   CDF_REAL4/1	2:[3,160]	T/FF
+Fcp                   CDF_REAL4/1	2:[3,160]	T/FF
+FcO                   CDF_REAL4/1	2:[3,160]	T/FF
+MLAT                  CDF_REAL4/1	2:[3,160]	T/FF
+EDMLT                 CDF_REAL4/1	2:[3,160]	T/FF
+L_Shell               CDF_REAL4/1	2:[3,160]	T/FF
+GR_DIST               CDF_REAL4/1	2:[3,160]	T/FF
+SFRA_Av_E             CDF_REAL4/1	2:[3,160]	T/FT
+SFRA_Av_M             CDF_REAL4/1	2:[3,160]	T/FT
+SFRB_Av_E             CDF_REAL4/1	2:[3,160]	T/FT
+SFRB_Av_M             CDF_REAL4/1	2:[3,160]	T/FT
+SFRA_Pk_E             CDF_REAL4/1	2:[3,160]	T/FT
+SFRA_Pk_M             CDF_REAL4/1	2:[3,160]	T/FT
+SFRB_Pk_E             CDF_REAL4/1	2:[3,160]	T/FT
+SFRB_Pk_M             CDF_REAL4/1	2:[3,160]	T/FT
+Frequency             CDF_REAL4/1	2:[3,160]	F/FT
+SFR_MODE              CDF_INT4/1	2:[3,160]	T/FF
+SFRA_Antenna          CDF_INT4/1	2:[3,160]	T/FF
+SFRB_Antenna          CDF_INT4/1	2:[3,160]	T/FF
+MLATV                 CDF_REAL4/1	2:[3,160]	T/FF
+EDMLTV                CDF_REAL4/1	2:[3,160]	T/FF
+L_ShellV              CDF_REAL4/1	2:[3,160]	T/FF
+GR_DISTV              CDF_REAL4/1	2:[3,160]	T/FF
+DATA_QUALITY          CDF_INT4/1	2:[3,160]	T/FF
+POST_GAP_FLAG         CDF_INT4/1	2:[3,160]	T/FF
+label_time            CDF_CHAR/27	2:[3,160]	F/TF
+unit_time             CDF_CHAR/4	2:[3,160]	F/TF
+format_time           CDF_CHAR/2	2:[3,160]	F/TF
+
+
+Variable (30 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/34): "Time, beginning of 5-min. interval"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/30): "Time, start of 5-min. interval"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/3): 1992, 214, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 365, 0
+     SCALEMIN        (CDF_INT4/3): 1992, 214, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 365, 8640000
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/8): "time>PB5"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Fce (No: 2) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Electron Cyclotron Frequency"
+     CATDESC         (CDF_CHAR/36): "Electron Cyclotron Frequency, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 10.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     SCALEMIN        (CDF_REAL4/1): 10.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+06
+     UNITS           (CDF_CHAR/2): "Hz"
+     LABLAXIS        (CDF_CHAR/3): "Fce"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/18): "frequency>electron"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Fcp (No: 3) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Proton Cyclotron Frequency"
+     CATDESC         (CDF_CHAR/34): "Proton Cyclotron Frequency, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0055
+     VALIDMAX        (CDF_REAL4/1): 550.0
+     SCALEMIN        (CDF_REAL4/1): 0.0055
+     SCALEMAX        (CDF_REAL4/1): 550.0
+     UNITS           (CDF_CHAR/2): "Hz"
+     LABLAXIS        (CDF_CHAR/3): "Fcp"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/16): "frequency>proton"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FcO (No: 4) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Oxygen Cyclotron Frequency"
+     CATDESC         (CDF_CHAR/34): "Oxygen Cyclotron Frequency, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0005
+     VALIDMAX        (CDF_REAL4/1): 35.0
+     SCALEMIN        (CDF_REAL4/1): 0.0005
+     SCALEMAX        (CDF_REAL4/1): 35.0
+     UNITS           (CDF_CHAR/2): "Hz"
+     LABLAXIS        (CDF_CHAR/3): "FcO"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/16): "frequency>oxygen"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+MLAT (No: 5) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Magnetic Latitude"
+     CATDESC         (CDF_CHAR/25): "Magnetic Latitude, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/7): "Degrees"
+     LABLAXIS        (CDF_CHAR/4): "MLAT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/26): "position>magnetic_latitude"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+EDMLT (No: 6) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Magnetic Local Time"
+     CATDESC         (CDF_CHAR/27): "Magnetic Local Time, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 24.0
+     UNITS           (CDF_CHAR/5): "Hours"
+     LABLAXIS        (CDF_CHAR/5): "EDMLT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/28): "position>magnetic_local_time"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+L_Shell (No: 7) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "McIlwain Parameter"
+     CATDESC         (CDF_CHAR/26): "McIlwain Parameter, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/1): "L"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/8): "position"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GR_DIST (No: 8) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Geocentric Radial Distance"
+     CATDESC         (CDF_CHAR/34): "Geocentric Radial Distance, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "Re"
+     LABLAXIS        (CDF_CHAR/2): "Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/24): "position>radial_distance"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRA_Av_E (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Elec. Field Averages/SFR A"
+     CATDESC         (CDF_CHAR/51): "Avg. Elec. Field at 160 freq., 25-800000 Hz (SFR A)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-18
+     VALIDMAX        (CDF_REAL4/1): 1.0e-06
+     SCALEMIN        (CDF_REAL4/1): 1.0e-18
+     SCALEMAX        (CDF_REAL4/1): 1.0e-06
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/11): "(V/M)**2/Hz"
+     LABLAXIS        (CDF_CHAR/9): "SFRA_Av_E"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRA_Av_M (No: 10) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Mag. Field Averages/SFR A"
+     CATDESC         (CDF_CHAR/50): "Avg. Mag. Field at 160 freq., 25-800000 Hz (SFR A)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-14
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-14
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/11): "(V/M)**2/Hz"
+     LABLAXIS        (CDF_CHAR/9): "SFRA_Av_M"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRB_Av_E (No: 11) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Elec. Field Averages/SFR B"
+     CATDESC         (CDF_CHAR/51): "Avg. Elec. Field at 160 freq., 25-800000 Hz (SFR B)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-18
+     VALIDMAX        (CDF_REAL4/1): 1.0e-06
+     SCALEMIN        (CDF_REAL4/1): 1.0e-18
+     SCALEMAX        (CDF_REAL4/1): 1.0e-06
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/8): "nT**2/Hz"
+     LABLAXIS        (CDF_CHAR/9): "SFRB_Av_E"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRB_Av_M (No: 12) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Mag. Field Averages/SFR B"
+     CATDESC         (CDF_CHAR/50): "Avg. Mag. Field at 160 freq., 25-800000 Hz (SFR B)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-14
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-14
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/8): "nT**2/Hz"
+     LABLAXIS        (CDF_CHAR/9): "SFRB_Av_M"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRA_Pk_E (No: 13) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Elec. Field Peaks/SFR A"
+     CATDESC         (CDF_CHAR/50): "Pk. Elec. Field at 160 freq., 25-800000 Hz (SFR A)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-18
+     VALIDMAX        (CDF_REAL4/1): 1.0e-06
+     SCALEMIN        (CDF_REAL4/1): 1.0e-18
+     SCALEMAX        (CDF_REAL4/1): 1.0e-06
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/11): "(V/M)**2/Hz"
+     LABLAXIS        (CDF_CHAR/9): "SFRA_Pk_E"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRA_Pk_M (No: 14) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Mag. Field Peaks/SFR A"
+     CATDESC         (CDF_CHAR/49): "Pk. Mag. Field at 160 freq., 25-800000 Hz (SFR A)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-14
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-14
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/8): "nT**2/Hz"
+     LABLAXIS        (CDF_CHAR/9): "SFRA_Pk_M"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRB_Pk_E (No: 15) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Elec. Field Peaks/SFR B"
+     CATDESC         (CDF_CHAR/50): "Pk. Elec. Field at 160 freq., 25-800000 Hz (SFR B)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-18
+     VALIDMAX        (CDF_REAL4/1): 1.0e-06
+     SCALEMIN        (CDF_REAL4/1): 1.0e-18
+     SCALEMAX        (CDF_REAL4/1): 1.0e-06
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/11): "(V/M)**2/Hz"
+     LABLAXIS        (CDF_CHAR/9): "SFRB_Pk_E"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRB_Pk_M (No: 16) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Mag. Field Peaks/SFR B"
+     CATDESC         (CDF_CHAR/49): "Pk. Mag. Field at 160 freq., 25-800000 Hz (SFR B)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-14
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-14
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/8): "nT**2/Hz"
+     LABLAXIS        (CDF_CHAR/9): "SFRB_Pk_M"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Frequency (No: 17) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Frequencies"
+     CATDESC         (CDF_CHAR/31): "Frequencies, 160 (26-800000) Hz"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_REAL4/1): 26.77
+     VALIDMAX        (CDF_REAL4/1): 794453.0
+     SCALEMIN        (CDF_REAL4/1): 26.77
+     SCALEMAX        (CDF_REAL4/1): 794453.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/2): "Hz"
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "F10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/21): "frequency>spectrogram"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFR_MODE (No: 18) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Instrument Mode for SFR"
+     CATDESC         (CDF_CHAR/44): "Instrument Mode (SFR)  0=Log, 1=Lin, 2=Mixed"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     SCALEMIN        (CDF_INT4/1): -1
+     SCALEMAX        (CDF_INT4/1): 3
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "SFR_mode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I11"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRA_Antenna (No: 19) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Antenna for SFR A"
+     CATDESC         (CDF_CHAR/44): "Antenna (SFRA) 0 = Eu, 1 = Ez, 2 = L, 3 = Bz"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 3
+     SCALEMIN        (CDF_INT4/1): -1
+     SCALEMAX        (CDF_INT4/1): 4
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "SFRA_Ant"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SFRB_Antenna (No: 20) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Antenna for SFR B"
+     CATDESC         (CDF_CHAR/41): "Antenna (SFRB) 0 = Eu 1 = Ev 2 = Ez 3 = L"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 3
+     SCALEMIN        (CDF_INT4/1): -1
+     SCALEMAX        (CDF_INT4/1): 4
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "SFRB_Ant"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+MLATV (No: 21) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Magnetic LatitudeV"
+     CATDESC         (CDF_CHAR/42): "Time axis label: Magnetic Latitude, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/7): "Degrees"
+     LABLAXIS        (CDF_CHAR/4): "MLAT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/26): "position>magnetic_latitude"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/4): "MLAT"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+EDMLTV (No: 22) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Magnetic Local TimeV"
+     CATDESC         (CDF_CHAR/44): "Time axis label: Magnetic Local Time, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 24.0
+     UNITS           (CDF_CHAR/5): "Hours"
+     LABLAXIS        (CDF_CHAR/5): "EDMLT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/28): "position>magnetic_local_time"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/5): "EDMLT"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+L_ShellV (No: 23) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "McIlwain ParameterV"
+     CATDESC         (CDF_CHAR/43): "Time axis label: McIlwain Parameter, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/1): "L"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/8): "position"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/7): "L_Shell"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GR_DISTV (No: 24) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Geocentric Radial DistanceV"
+     CATDESC         (CDF_CHAR/51): "Time axis label: Geocentric Radial Distance, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "Re"
+     LABLAXIS        (CDF_CHAR/2): "Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/24): "position>radial_distance"
+     DISPLAY_TYPE    (CDF_CHAR/9): "time_text"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/7): "GR_DIST"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DATA_QUALITY (No: 25) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Data Quality Flag"
+     CATDESC         (CDF_CHAR/47): "Data Quality Flag0 = Green, 1 = Yellow, 2 = Red"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     SCALEMIN        (CDF_INT4/1): -1
+     SCALEMAX        (CDF_INT4/1): 3
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "DATA_QUAL"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I11"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+POST_GAP_FLAG (No: 26) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Number of missing frames"
+     CATDESC         (CDF_CHAR/55): "Number of missing frames preceding current Major Frame "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 9392
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 9393
+     UNITS           (CDF_CHAR/10): "Maj Frames"
+     LABLAXIS        (CDF_CHAR/8): "POST_GAP"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I11"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 27) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for PB5 Time"
+     CATDESC         (CDF_CHAR/18): "Label for PB5 Time"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/10): "label>time"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 28) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for PB5 Time"
+     CATDESC         (CDF_CHAR/18): "Units for PB5 Time"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A4"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/10): "label>unit"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 29) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Formats for PB5 Time"
+     CATDESC         (CDF_CHAR/20): "Formats for PB5 Time"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

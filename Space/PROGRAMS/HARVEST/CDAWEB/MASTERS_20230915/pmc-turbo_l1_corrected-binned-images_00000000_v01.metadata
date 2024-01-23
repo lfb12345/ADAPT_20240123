@@ -1,0 +1,549 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/pmc-turbo_l1_corrected-binned-images_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     pmc-turbo_l1_corrected-binned-images_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     18
+NumAttrs:     56 (24 global, 32 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (24 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"PMC Turbo>Polar Mesospheric Cloud Turbulence"
+Source_name (1 entry):
+	0 (CDF_CHAR/44): 	"PMC Turbo>Polar Mesospheric Cloud Turbulence"
+Data_type (1 entry):
+	0 (CDF_CHAR/26): 	"L1>Corrected Binned Images"
+Descriptor (1 entry):
+	0 (CDF_CHAR/11): 	"PMC Cameras"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/36): 	"pmc_turbo_l1_corrected-binned-images"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"David Fritts"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/8): 	"GATS inc"
+TEXT (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+Discipline (1 entry):
+	0 (CDF_CHAR/49): 	"Heliophysics>Mesosphere and Thermosphere Dynamics"
+Logical_source (1 entry):
+	0 (CDF_CHAR/36): 	"pmc-turbo_l1_corrected_binned_images"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/37): 	"PMC Turbo corrected and binned images"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/38): 	"PMC Turbo experiment described in the "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/24): 	"PMC Turbo overview paper"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/36): 	"https://doi.org/10.1029/2019JD030298"
+Mission_group (1 entry):
+	0 (CDF_CHAR/8): 	"Balloons"
+summary (1 entry):
+	0 (CDF_CHAR/106): 	"PMC-Turbo images, flatfielded, with 10-minute moving window subtracted. Downsampled with 4x4 pixel binning"
+history (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NCO (1 entry):
+	0 (CDF_CHAR/95): 	"netCDF Operators version 4.9.5 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)"
+_NCProperties (1 entry):
+	0 (CDF_CHAR/34): 	"version=2,netcdf=4.7.4,hdf5=1.10.6"
+NC_KIND (1 entry):
+	0 (CDF_CHAR/22): 	"netCDF-4 classic model"
+NC_DIMENSIONS_G (4 entries):
+	0 (CDF_CHAR/15): 	"Times=UNLIMITED"
+	1 (CDF_CHAR/16): 	"Camera_numbers=7"
+	2 (CDF_CHAR/11): 	"x_pixel=808"
+	3 (CDF_CHAR/12): 	"y_pixel=1216"
+
+Variable Attributes (32 attributes)
+=========================================
+NC_DIMENSIONS_V
+NC_DEFLATE
+NC_SHUFFLE
+NC_STORAGE
+NC_CHUNKSIZES
+UNITS
+CATDESC
+DISPLAY_TYPE
+FIELDNAM
+VAR_TYPE
+DEPEND_0
+FILLVAL
+VALIDMIN
+VALIDMAX
+FORMAT
+LABLAXIS
+MD5
+DEPEND_1
+DEPEND_2
+DEPEND_3
+LABL_PTR_1
+LABL_PTR_2
+NC_ADDED
+SCALETYP
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+VAR_NOTES
+ALLOW_BIN
+ARR_INDEX
+ARR_DIM
+
+Variable Information (0 rVariable, 18 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+time_base             CDF_EPOCH/1	0:[]	F/  
+Azimuth               CDF_FLOAT/1	0:[]	T/  
+Camera_numbers        CDF_INT2/1	1:[7]	F/T
+Exposure              CDF_FLOAT/1	1:[7]	T/T
+Imgs                  CDF_INT2/1	3:[7,808,1216]	T/TTT
+Imgs_cam1             CDF_INT2/1	2:[808,1216]	T/TT
+Imgs_cam1_mv          CDF_INT2/1	2:[808,1216]	T/TT
+Imgs_cam2             CDF_INT2/1	2:[808,1216]	T/TT
+Imgs_cam2_mv          CDF_INT2/1	2:[808,1216]	T/TT
+Imgs_cam3             CDF_INT2/1	2:[808,1216]	T/TT
+Imgs_cam3_mv          CDF_INT2/1	2:[808,1216]	T/TT
+Time                  CDF_DOUBLE/1	0:[]	T/  
+x_pixel_index         CDF_INT2/1	1:[808]	F/T
+y_pixel_index         CDF_INT2/1	1:[1216]	F/T
+Times                 CDF_INT1/1	0:[]	T/  
+x_pixel               CDF_INT1/1	1:[808]	F/T
+y_pixel               CDF_INT1/1	1:[1216]	F/T
+
+
+Variable (18 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0) (Compression: GZIP.9)
+-----
+Attribute Entries:
+     UNITS           (CDF_CHAR/4): "msec"
+     CATDESC         (CDF_CHAR/12): "time_inboard"
+     FIELDNAM        (CDF_CHAR/10): "time_epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/9): "time_base"
+     COMPONENT_1     (CDF_CHAR/4): "Time"
+     VAR_NOTES       (CDF_CHAR/90): "Epoch (msecs since 0) are computed time_base + Time(seconds since time_base) added by SPDF"
+
+time_base (No: 1) (Recs: 1)
+---------
+Attribute Entries:
+     UNITS           (CDF_CHAR/4): "msec"
+     CATDESC         (CDF_CHAR/9): "time base"
+     FIELDNAM        (CDF_CHAR/9): "Time_base"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     VAR_NOTES       (CDF_CHAR/45): "EPOCH of 01-Jan-1970 00:00:00 - added by SPDF"
+
+Azimuth (No: 2) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "Times"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 1
+     UNITS           (CDF_CHAR/7): "Radians"
+     CATDESC         (CDF_CHAR/44): "Radians CW from north (as viewed from above)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "Azimuth"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 6.0
+     FORMAT          (CDF_CHAR/4): "F7.0"
+     LABLAXIS        (CDF_CHAR/13): "Exposure Time"
+     MD5             (CDF_CHAR/32): "eefdc5548fea689943e20616aed270a0"
+
+Camera_numbers (No: 3) (Recs: 1) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/14): "Camera_numbers"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 7
+     UNITS           (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/134): "Cameras numbered 1 to 3 right-to-left (narrow FOV) and 4 to 7 left-to-right (wide FOV). See Fritts 2019overview paper for more details"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/14): "Camera numbers"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 99
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/13): "Camera Number"
+     MD5             (CDF_CHAR/32): "6ed1caf81c5c937978d9cb056ac2f732"
+
+Exposure (No: 4) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/20): "Times,Camera_numbers"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 7
+     UNITS           (CDF_CHAR/12): "microseconds"
+     CATDESC         (CDF_CHAR/22): "Exposure time of image"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "Exposure Time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.0e+07
+     MD5             (CDF_CHAR/32): "ee50348bb290e1fd928a843100171a11"
+     DEPEND_1        (CDF_CHAR/14): "Camera_numbers"
+
+Imgs (No: 5) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/36): "Times,Camera_numbers,x_pixel,y_pixel"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/4): 1, 7, 808, 1216
+     UNITS           (CDF_CHAR/29): "Uncalibrated brightness units"
+     CATDESC         (CDF_CHAR/113): "PMC Turbo optical images. Taken with Kodak 16070 CCD and Hoya #25A red filter [4-d variable - NO PLOT, see below]"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/6): "Images"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     MD5             (CDF_CHAR/32): "d41d8cd98f00b204e9800998ecf8427e"
+     DEPEND_1        (CDF_CHAR/14): "Camera_numbers"
+     DEPEND_2        (CDF_CHAR/13): "x_pixel_index"
+     DEPEND_3        (CDF_CHAR/13): "y_pixel_index"
+     LABL_PTR_1      (CDF_CHAR/6): "Height"
+     LABL_PTR_2      (CDF_CHAR/5): "Width"
+
+Imgs_cam1 (No: 6) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/36): "Times,Camera_numbers,x_pixel,y_pixel"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/4): 1, 7, 808, 1216
+     UNITS           (CDF_CHAR/29): "Uncalibrated brightness units"
+     CATDESC         (CDF_CHAR/89): "Camera 1 - PMC Turbo optical images. Taken with Kodak 16070 CCD and Hoya #25A red filter."
+     DISPLAY_TYPE    (CDF_CHAR/18): "image>THUMBSIZE>40"
+     FIELDNAM        (CDF_CHAR/6): "Images"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/8): "Camera 1"
+     MD5             (CDF_CHAR/32): "d41d8cd98f00b204e9800998ecf8427e"
+     DEPEND_1        (CDF_CHAR/14): "Camera_numbers"
+     DEPEND_2        (CDF_CHAR/13): "x_pixel_index"
+     DEPEND_3        (CDF_CHAR/13): "y_pixel_index"
+     LABL_PTR_1      (CDF_CHAR/6): "Height"
+     LABL_PTR_2      (CDF_CHAR/5): "Width"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/9): "arr_slice"
+     COMPONENT_0     (CDF_CHAR/4): "Imgs"
+     VAR_NOTES       (CDF_CHAR/47): "VV - use arr_slice to get the 1st camera's data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+     ARR_INDEX       (CDF_INT4/1): 0
+     ARR_DIM         (CDF_INT4/1): 2
+
+Imgs_cam1_mv (No: 7) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/36): "Times,Camera_numbers,x_pixel,y_pixel"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/4): 1, 1, 808, 1216
+     UNITS           (CDF_CHAR/29): "Uncalibrated brightness units"
+     CATDESC         (CDF_CHAR/86): "---> 1st Camera's Movie (of above, select 3 hr., best w/ noise filter, faster display)"
+     DISPLAY_TYPE    (CDF_CHAR/5): "movie"
+     FIELDNAM        (CDF_CHAR/6): "Images"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/8): "Camera 1"
+     MD5             (CDF_CHAR/32): "9ee0c4e9aa6f99789bd3b4ec190104e9"
+     DEPEND_1        (CDF_CHAR/14): "Camera_numbers"
+     DEPEND_2        (CDF_CHAR/13): "x_pixel_index"
+     DEPEND_3        (CDF_CHAR/13): "y_pixel_index"
+     LABL_PTR_1      (CDF_CHAR/6): "Height"
+     LABL_PTR_2      (CDF_CHAR/5): "Width"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/9): "arr_slice"
+     COMPONENT_0     (CDF_CHAR/4): "Imgs"
+     VAR_NOTES       (CDF_CHAR/47): "VV - use arr_slice to get the 1st camera's data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+     ARR_INDEX       (CDF_INT4/1): 0
+     ARR_DIM         (CDF_INT4/1): 2
+
+Imgs_cam2 (No: 8) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/36): "Times,Camera_numbers,x_pixel,y_pixel"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/4): 1, 7, 808, 1216
+     UNITS           (CDF_CHAR/29): "Uncalibrated brightness units"
+     CATDESC         (CDF_CHAR/89): "Camera 2 - PMC Turbo optical images. Taken with Kodak 16070 CCD and Hoya #25A red filter."
+     DISPLAY_TYPE    (CDF_CHAR/18): "image>THUMBSIZE>40"
+     FIELDNAM        (CDF_CHAR/6): "Images"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/8): "Camera 2"
+     MD5             (CDF_CHAR/32): "d41d8cd98f00b204e9800998ecf8427e"
+     DEPEND_1        (CDF_CHAR/14): "Camera_numbers"
+     DEPEND_2        (CDF_CHAR/13): "x_pixel_index"
+     DEPEND_3        (CDF_CHAR/13): "y_pixel_index"
+     LABL_PTR_1      (CDF_CHAR/6): "Height"
+     LABL_PTR_2      (CDF_CHAR/5): "Width"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/9): "arr_slice"
+     COMPONENT_0     (CDF_CHAR/4): "Imgs"
+     VAR_NOTES       (CDF_CHAR/42): "use arr_slice to get the 2nd camera's data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+     ARR_INDEX       (CDF_INT4/1): 1
+     ARR_DIM         (CDF_INT4/1): 2
+
+Imgs_cam2_mv (No: 9) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/36): "Times,Camera_numbers,x_pixel,y_pixel"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/4): 1, 1, 808, 1216
+     UNITS           (CDF_CHAR/29): "Uncalibrated brightness units"
+     CATDESC         (CDF_CHAR/86): "---> 2nd Camera's Movie (of above, select 3 hr., best w/ noise filter, faster display)"
+     DISPLAY_TYPE    (CDF_CHAR/5): "movie"
+     FIELDNAM        (CDF_CHAR/6): "Images"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/8): "Camera 2"
+     MD5             (CDF_CHAR/32): "9ee0c4e9aa6f99789bd3b4ec190104e9"
+     DEPEND_1        (CDF_CHAR/14): "Camera_numbers"
+     DEPEND_2        (CDF_CHAR/13): "x_pixel_index"
+     DEPEND_3        (CDF_CHAR/13): "y_pixel_index"
+     LABL_PTR_1      (CDF_CHAR/6): "Height"
+     LABL_PTR_2      (CDF_CHAR/5): "Width"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/9): "arr_slice"
+     COMPONENT_0     (CDF_CHAR/4): "Imgs"
+     VAR_NOTES       (CDF_CHAR/42): "use arr_slice to get the 2nd camera's data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+     ARR_INDEX       (CDF_INT4/1): 1
+     ARR_DIM         (CDF_INT4/1): 2
+
+Imgs_cam3 (No: 10) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/36): "Times,Camera_numbers,x_pixel,y_pixel"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/4): 1, 7, 808, 1216
+     UNITS           (CDF_CHAR/29): "Uncalibrated brightness units"
+     CATDESC         (CDF_CHAR/89): "Camera 3 - PMC Turbo optical images. Taken with Kodak 16070 CCD and Hoya #25A red filter."
+     DISPLAY_TYPE    (CDF_CHAR/18): "image>THUMBSIZE>40"
+     FIELDNAM        (CDF_CHAR/6): "Images"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/8): "Camera 3"
+     MD5             (CDF_CHAR/32): "d41d8cd98f00b204e9800998ecf8427e"
+     DEPEND_1        (CDF_CHAR/14): "Camera_numbers"
+     DEPEND_2        (CDF_CHAR/13): "x_pixel_index"
+     DEPEND_3        (CDF_CHAR/13): "y_pixel_index"
+     LABL_PTR_1      (CDF_CHAR/6): "Height"
+     LABL_PTR_2      (CDF_CHAR/5): "Width"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/9): "arr_slice"
+     COMPONENT_0     (CDF_CHAR/4): "Imgs"
+     VAR_NOTES       (CDF_CHAR/42): "use arr_slice to get the 3rd camera's data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+     ARR_INDEX       (CDF_INT4/1): 2
+     ARR_DIM         (CDF_INT4/1): 2
+
+Imgs_cam3_mv (No: 11) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/36): "Times,Camera_numbers,x_pixel,y_pixel"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/4): 1, 1, 808, 1216
+     UNITS           (CDF_CHAR/29): "Uncalibrated brightness units"
+     CATDESC         (CDF_CHAR/86): "---> 3rd Camera's Movie (of above, select 3 hr., best w/ noise filter, faster display)"
+     DISPLAY_TYPE    (CDF_CHAR/5): "movie"
+     FIELDNAM        (CDF_CHAR/6): "Images"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/8): "Camera 3"
+     MD5             (CDF_CHAR/32): "9ee0c4e9aa6f99789bd3b4ec190104e9"
+     DEPEND_1        (CDF_CHAR/14): "Camera_numbers"
+     DEPEND_2        (CDF_CHAR/13): "x_pixel_index"
+     DEPEND_3        (CDF_CHAR/13): "y_pixel_index"
+     LABL_PTR_1      (CDF_CHAR/6): "Height"
+     LABL_PTR_2      (CDF_CHAR/5): "Width"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/9): "arr_slice"
+     COMPONENT_0     (CDF_CHAR/4): "Imgs"
+     VAR_NOTES       (CDF_CHAR/42): "use arr_slice to get the 3rd camera's data"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+     ARR_INDEX       (CDF_INT4/1): 2
+     ARR_DIM         (CDF_INT4/1): 2
+
+Time (No: 12) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "Times"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 1
+     UNITS           (CDF_CHAR/34): "Seconds since 1970-01-01T00:00:00Z"
+     CATDESC         (CDF_CHAR/45): "Unix time - seconds since 1970-01-01 00:00:00"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/9): "Timestamp"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     FORMAT          (CDF_CHAR/5): "F12.2"
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     MD5             (CDF_CHAR/32): "85e95b8e6fd5baab09dc2bb032e14e89"
+
+x_pixel_index (No: 13) (Recs: 1) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "x_pixel"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 808
+     UNITS           (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/20): "pixel indices x axis"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/7): "x pixel"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 808
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/7): "X Pixel"
+     MD5             (CDF_CHAR/32): "ddbe72d9ba030308e7bfc99e887d375b"
+
+y_pixel_index (No: 14) (Recs: 1) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "y_pixel"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 1216
+     UNITS           (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/20): "pixel indices y axis"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/7): "y pixel"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 1216
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/7): "Y Pixel"
+     MD5             (CDF_CHAR/32): "a4b641a14a3be741fa0c68934b112424"
+
+Times (No: 15) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "Times"
+     FIELDNAM        (CDF_CHAR/5): "Times"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT1/1): -128
+     VALIDMIN        (CDF_INT1/1): -127
+     VALIDMAX        (CDF_INT1/1): 127
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/5): "Times"
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+x_pixel (No: 16) (Recs: 1)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "x_pixel"
+     FIELDNAM        (CDF_CHAR/7): "x_pixel"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT1/1): -128
+     VALIDMIN        (CDF_INT1/1): -127
+     VALIDMAX        (CDF_INT1/1): 127
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/7): "x_pixel"
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+y_pixel (No: 17) (Recs: 1)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "y_pixel"
+     FIELDNAM        (CDF_CHAR/7): "y_pixel"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT1/1): -128
+     VALIDMIN        (CDF_INT1/1): -127
+     VALIDMAX        (CDF_INT1/1): 127
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/7): "y_pixel"
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

@@ -1,0 +1,404 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/tha_l1_scmode_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     tha_l1_scmode_00000000_v01.cdf
+Version:      3.3.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2009 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- CDFSUPPORT@LISTSERV.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     17
+NumAttrs:     56 (25 global, 31 variable)
+Compression:  None
+Checksum:     MD5
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/6): 	"THEMIS"
+Source_name (1 entry):
+	0 (CDF_CHAR/13): 	"THA> THEMIS A"
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+	1 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/22): 	"SMD> / Spacecraft Mode"
+Descriptor (1 entry):
+	0 (CDF_CHAR/24): 	"MIX> / Mixed Instruments"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/15): 	"V. Angelopoulos"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/8): 	"UCB/UCLA"
+TEXT (1 entry):
+	0 (CDF_CHAR/245): 	"Spacecraft instrument modes.  Shows definitively when the spacecraft is in slow survey, fast survey, particle burst, and wave burst modes.  Data set is sparsely populated with cadence varying depending upon the frequency of mode transitions.  
+
+"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/11): 	"Engineering"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"THEMIS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/11): 	"tha_smd_mix"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/24): 	"tha_smd_mix_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/69): 	"Spacecraft instrument modes.  Definitive spacecraft instrument modes."
+Time_resolution (1 entry):
+	0 (CDF_CHAR/7): 	"Varying"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/28): 	"Open Data for Scientific Use"
+Generated_by (1 entry):
+	0 (CDF_CHAR/13): 	"Patrick Cruce"
+Generation_date (1 entry):
+	0 (CDF_CHAR/10): 	"2009-09-21"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/24): 	"NASA Contract NAS5-02099"
+MODS (1 entry):
+	0 (CDF_CHAR/18): 	"Created-2009-09-21"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/51): 	"THEMIS Web Site, Links to most THEMIS documentation"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/6): 	"THEMIS"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/30): 	"http://themis.ssl.berkeley.edu"
+
+Variable Attributes (31 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+DEPEND_TIME
+tha_scmode_wb_time
+DEPEND_TINE
+
+Variable Information (0 rVariable, 17 zVariables)
+===========================================================
+range_epoch           CDF_EPOCH/1	0:[]	T/  
+tha_scmode_ss_epoch0  CDF_EPOCH/1	0:[]	F/  
+tha_scmode_fs_epoch0  CDF_EPOCH/1	0:[]	F/  
+tha_scmode_pb_epoch0  CDF_EPOCH/1	0:[]	F/  
+tha_scmode_wb_epoch0  CDF_EPOCH/1	0:[]	F/  
+tha_scmode_ss_time    CDF_DOUBLE/1	0:[]	T/  
+tha_scmode_fs_time    CDF_DOUBLE/1	0:[]	T/  
+tha_scmode_pb_time    CDF_DOUBLE/1	0:[]	T/  
+tha_scmode_wb_time    CDF_DOUBLE/1	0:[]	T/  
+tha_scmode_ss_epoch   CDF_EPOCH/1	0:[]	T/  
+tha_scmode_fs_epoch   CDF_EPOCH/1	0:[]	T/  
+tha_scmode_pb_epoch   CDF_EPOCH/1	0:[]	T/  
+tha_scmode_wb_epoch   CDF_EPOCH/1	0:[]	T/  
+tha_scmode_fs         CDF_UINT1/1	0:[]	T/  
+tha_scmode_pb         CDF_UINT1/1	0:[]	T/  
+tha_scmode_wb         CDF_UINT1/1	0:[]	T/  
+tha_scmode_ss         CDF_UINT1/1	0:[]	T/  
+
+
+Variable (17 variables)
+=========================================
+
+range_epoch (No: 0) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "range_epoch"
+     FIELDNAM        (CDF_CHAR/11): "range_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+tha_scmode_ss_epoch0 (No: 1) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "EPOCH0 of THEMIS time base"
+     FIELDNAM        (CDF_CHAR/20): "tha_scmode_ss_epoch0"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     VALIDMIN        (CDF_EPOCH/1): 31-Dec-1899 15:33:20.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2101 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/29): "EPOCH of 01-Jan-1970 00:00:00"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+tha_scmode_fs_epoch0 (No: 2) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "EPOCH0 of THEMIS time base"
+     FIELDNAM        (CDF_CHAR/20): "tha_scmode_fs_epoch0"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     VALIDMIN        (CDF_EPOCH/1): 31-Dec-1899 15:33:20.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2101 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/29): "EPOCH of 01-Jan-1970 00:00:00"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+tha_scmode_pb_epoch0 (No: 3) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "EPOCH0 of THEMIS time base"
+     FIELDNAM        (CDF_CHAR/20): "tha_scmode_pb_epoch0"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     VALIDMIN        (CDF_EPOCH/1): 31-Dec-1899 15:33:20.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2101 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/29): "EPOCH of 01-Jan-1970 00:00:00"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+tha_scmode_wb_epoch0 (No: 4) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "EPOCH0 of THEMIS time base"
+     FIELDNAM        (CDF_CHAR/20): "tha_scmode_wb_epoch0"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     VALIDMIN        (CDF_EPOCH/1): 31-Dec-1899 15:33:20.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2101 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/29): "EPOCH of 01-Jan-1970 00:00:00"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+tha_scmode_ss_time (No: 5) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/149): "tha_scmode_ss_time, UTC, in seconds since 01-Jan-1970 For tha_scmode_ss(slow survey).
+Cadence will be irregular depending on when mode changes occur."
+     DEPEND_0        (CDF_CHAR/19): "tha_scmode_ss_epoch"
+     FIELDNAM        (CDF_CHAR/18): "tha_scmode_ss_time"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+tha_scmode_fs_time (No: 6) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/148): "tha_scmode_fs_time, UTC, in seconds since 01-Jan-1970 For tha_scmode_fs(fast survey)
+Cadence will be irregular depending on when mode changes occur."
+     DEPEND_0        (CDF_CHAR/19): "tha_scmode_fs_epoch"
+     FIELDNAM        (CDF_CHAR/18): "tha_scmode_fs_time"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+tha_scmode_pb_time (No: 7) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/151): "tha_scmode_pb_time, UTC, in seconds since 01-Jan-1970 For tha_scmode_pb(particle burst)
+Cadence will be irregular depending on when mode changes occur."
+     DEPEND_0        (CDF_CHAR/19): "tha_scmode_pb_epoch"
+     FIELDNAM        (CDF_CHAR/18): "tha_scmode_pb_time"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+tha_scmode_wb_time (No: 8) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/147): "tha_scmode_wb_time, UTC, in seconds since 01-Jan-1970 For tha_scmode_wb(wave burst)
+Cadence will be irregular depending on when mode changes occur."
+     DEPEND_0        (CDF_CHAR/19): "tha_scmode_wb_epoch"
+     FIELDNAM        (CDF_CHAR/18): "tha_scmode_wb_time"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+tha_scmode_ss_epoch (No: 9) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "tha_scmode_ss_epoch"
+     FIELDNAM        (CDF_CHAR/19): "tha_scmode_ss_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VALIDMIN        (CDF_EPOCH/1): 31-Dec-1899 15:33:20.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2101 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/18): "tha_scmode_ss_time"
+     COMPONENT_1     (CDF_CHAR/20): "tha_scmode_ss_epoch0"
+
+tha_scmode_fs_epoch (No: 10) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "tha_scmode_fs_epoch"
+     FIELDNAM        (CDF_CHAR/19): "tha_scmode_fs_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 31-Dec-1899 15:33:20.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2101 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/18): "tha_scmode_fs_time"
+     COMPONENT_1     (CDF_CHAR/20): "tha_scmode_fs_epoch0"
+
+tha_scmode_pb_epoch (No: 11) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "tha_scmode_pb_epoch"
+     FIELDNAM        (CDF_CHAR/19): "tha_scmode_pb_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 31-Dec-1899 15:33:20.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2101 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/18): "tha_scmode_pb_time"
+     COMPONENT_1     (CDF_CHAR/20): "tha_scmode_pb_epoch0"
+
+tha_scmode_wb_epoch (No: 12) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "tha_scmode_wb_epoch"
+     FIELDNAM        (CDF_CHAR/19): "tha_scmode_wb_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 31-Dec-1899 15:33:20.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2101 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/18): "tha_scmode_wb_time"
+     COMPONENT_1     (CDF_CHAR/20): "tha_scmode_wb_epoch0"
+
+tha_scmode_fs (No: 13) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "tha_scmode_fs, fast survey mode"
+     DEPEND_0        (CDF_CHAR/19): "tha_scmode_fs_epoch"
+     FIELDNAM        (CDF_CHAR/13): "tha_scmode_fs"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/7): "FS Mode"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/248): "Indicates the time intervals where the spacecraft is in fast survey mode.  Stores a '0' at the beginning and end of each time interval where fast survey is off and stores a '1' at the beginning and end of each time interval where fast survey is on."
+     DEPEND_TIME     (CDF_CHAR/18): "tha_scmode_fs_time"
+
+tha_scmode_pb (No: 14) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "tha_scmode_pb, particle burst mode"
+     DEPEND_0        (CDF_CHAR/19): "tha_scmode_pb_epoch"
+     FIELDNAM        (CDF_CHAR/13): "tha_scmode_pb"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/7): "PB Mode"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/257): "Indicates the time intervals where the spacecraft is in particle burst mode.  Stores a '0' at the beginning and end of each time interval where particle burst is off and stores a '1' at the beginning and end of each time interval where particle burst is on."
+     DEPEND_TIME     (CDF_CHAR/18): "tha_scmode_pb_time"
+
+tha_scmode_wb (No: 15) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "tha_scmode_wb, wave burst mode"
+     DEPEND_0        (CDF_CHAR/19): "tha_scmode_wb_epoch"
+     FIELDNAM        (CDF_CHAR/13): "tha_scmode_wb"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/7): "WB Mode"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/245): "Indicates the time intervals where the spacecraft is in wave burst mode.  Stores a '0' at the beginning and end of each time interval where wave burst is off and stores a '1' at the beginning and end of each time interval where wave burst is on."
+     DEPEND_TIME     (CDF_CHAR/18): "tha_scmode_wb_time"
+
+tha_scmode_ss (No: 16) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "tha_scmode_ss, Slow Survey Mode"
+     DEPEND_0        (CDF_CHAR/19): "tha_scmode_ss_epoch"
+     FIELDNAM        (CDF_CHAR/13): "tha_scmode_ss"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/7): "SS Mode"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/243): "Indicates the time intervals where the spacecraft is in slow survey mode.  Stores a '0' at the beginning and end of each time interval where slow survey is off and stores a '1' at the beginning and end of each time interval where survey is on."
+     DEPEND_TIME     (CDF_CHAR/18): "tha_scmode_ss_time"
+

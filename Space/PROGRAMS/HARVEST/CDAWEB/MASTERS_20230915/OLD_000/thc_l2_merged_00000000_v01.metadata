@@ -1,0 +1,437 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/thc_l2_merged_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     thc_l2_merged_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     15
+NumAttrs:     67 (36 global, 31 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (36 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/6): 	"THEMIS"
+Source_name (1 entry):
+	0 (CDF_CHAR/18): 	"THC>Themis Probe B"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/6): 	"MERGED"
+Descriptor (1 entry):
+	0 (CDF_CHAR/10): 	"L2>L2 DATA"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/27): 	"N. Papatashvilli, J.H. King"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/15): 	"SPDF, NASA/GSFC"
+TITLE (1 entry):
+	0 (CDF_CHAR/49): 	"Themisc merged ESA, FGM, spacecraft position data"
+TEXT (11 entries):
+	0 (CDF_CHAR/934): 	"THEMIS-B: Electrostatic Analyzer (ESA): Electron/Ion Ground-Calculated Energy Fluxes (ions: 5 eV to 25 keV) electrons: 6 eV to 30 keV) and Moments (density, velocity, pressure, and temperature). Includes FULL, REDUCED and BURST modes. FULL: high angular resolution, low (few min) time resolution. REDUCED: degraded angular resolution, high (approx. 3 sec) time resolution. BURST: high angular resolution, high time resolution; only short bursts of data. Note that angular resolution affects moments since they are obtained integrating over the mode-specific angular distribution. Moment Data Quality flags (0: good data; non-zero flags are totals of values; 1: missing S/C potential, 2: Counter saturation, 4: Solar Wind not in Solar Wind Mode, or Solar Wind Mode, not in Solar Wind, 8: (Reduced Mode only) slow survey mode+flows, 16: electron density Gt 2*ion density, 32: ion density Gt 2*electron density, 64: Spacecraft Maneuver)."
+	1 (CDF_CHAR/651): 	"1. Retrieval of CDF files from CDAWeb of of ESA L2 'good' quality, 'full mode, 'ion plasma data [density (N), thermal speed(W), flow velocity GSE Cartesian components (Vx,Vy, Vz)], starting 9/1/2010 when the spacecraft are mostly in the moon's vicinity.  'Full mode' means as determined from 3-sec high-angular-resolution distributions taken once every 96s (Fast Survey Scan - FSS) or 384s (Slow Survey Scan - SSS), where FSS and SSS are mutually exclusively used for several contiguous hours during each of most days.  Data retrieval was followed by creation of ASCII version with N, W, and Vi, and with |V|(flow speed) as computed by us from the Vi."
+	2 (CDF_CHAR/1299): 	"1a.  Despike the plasma data.  A modest number of ESA L2 data points appear to be single-point spurious spikes.  We have attempted to delete these as follows.  We test a point using its two predecessors and two followers. We require that the 1st and last of these 5 points be within 60 mins of each other. The first two and last two points in a data segment separated from its neighbors by intervals of >60 min go untested by the algorithms discussed here.  We visually scanned output data looking for obvious spikes thereby missed, and deleted these.  Any record having a declared spike in any of its physical parameters is rejected. For a parameter value to be declared a spike, it must satisfy two criteria.   Let P represent the value of the physical parameter being tested. Define <P> as the mean value of parameter P over the 1st, 2nd, 4th, and 5th points of the current set, and let sigma(P) be the RMS deviation in this average.  The first test for a spike is to have |P-<P>| > 20 * sigma(P).  As the second test, for P = V, Vi (i = x, y, z), N, W, we require |P-<P>| > k * <P> where k = 0.1, 0.1, 0.3, 0.6 for P = V, Vi, N, W respectively.  For Themis B and C, these tests eliminated 64 and 51 96s or 384s ESA L2 points, respectively, over the interval September 3, 2010 - January 29, 2011."
+	3 (CDF_CHAR/744): 	"1b.  In addition to retrieving ESA N, W and Vi values from CDAWeb, we also retrieved the ESA ion mode flag, where the values are 0 and 1.  Zero denotes a magnetospheric mode and one a solar wind mode.  The magnetosphere mode involves taking measurements over much broader ranges in energy and look direction than for the solar wind mode.  This optimizes observations of hot, subsonic non-solar wind plasma and of cooler supersonically flowing solar wind plasma.  Usually, but not always, ESA is set to the solar wind mode when the spacecraft is in the solar wind.  Moments of ESA magnetosphere-mode data taken while in the solar wind are not reliable.  For further details, see the ESA documentation accessible through the UCB URL given above. "
+	4 (CDF_CHAR/64): 	"2. Retrieval of 1-min spacecraft position (GSE) data from SSCWeb"
+	5 (CDF_CHAR/60): 	"3. Retrieval of 29-min lunar position (GSE) data from SSCWeb"
+	6 (CDF_CHAR/239): 	"4. Calculation of moon-centered 1-min spacecraft positions by interpolating 29-min data to 1-min resolution, taking differences between the geocentric spacecraft and moon positions, and changing units from Re to Rm (Moon radii, = 1737 km)."
+	7 (CDF_CHAR/153): 	"5. Merger of geocentric and selenocentric spacecraft position data and plasma data, interpolating the 1-min position data to the times of the plasma data"
+	8 (CDF_CHAR/114): 	"6. Retrieval of CDF files of 3-sec magnetic field FGM data in GSE coordinates from CDAWeb and conversion to ASCII."
+	9 (CDF_CHAR/337): 	"7. Merger of plasma/position data and magnetic field data.  To each 96s or 384s plasma/position record, we add the 3-s magnetic field data whose time tag is closest to that of the plasma data (because, as noted above, the plasma parameters are based on high-angular-resolution ion plasma distributions each determined over three seconds."
+	10 (CDF_CHAR/370): 	"8. Creation of FTPBrowser interfaces to these data for (a) plots and listings [http://ftpbrowser.gsfc.nasa.gov/themisb_mrg.html] and (b) parameter value occurrence distributions and other statistics, with filtering [http://ftpbrowser.gsfc.nasa.gov/themisb_mrg_d.html].(These interfaces will soon be LunaSOX-accessible at https://lunasox.gsfc.nasa.gov/Data_browser.html.)"
+Logical_source_description (2 entries):
+	0 (CDF_CHAR/266): 	"This data set contains ARTEMIS P2(THEMIS C) plasma parameters from the Electrostatic Analyzer (ESA), magnetic field data from the FGM instrument, and geocentric and selenocentric spacecraft position data. The data are at 96s or 384s resolution. For more details see "
+	1 (CDF_CHAR/83): 	"https://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/00readme_themisc.txt"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+	1 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (2 entries):
+	0 (CDF_CHAR/6): 	"THEMIS"
+	1 (CDF_CHAR/7): 	"ARTEMIS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"thc_l2_merged"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"thc_l2_merged_00000000_v01"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/21): 	"96second or 384second"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/28): 	"Open Data for Scientific Use"
+Generated_by (1 entry):
+	0 (CDF_CHAR/10): 	"THEMIS SOC"
+Generation_date (1 entry):
+	0 (CDF_CHAR/24): 	"Thu Sep  4 15:07:27 2008"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/24): 	"NASA Contract NAS5-02099"
+MODS (1 entry):
+	0 (CDF_CHAR/15): 	"Rev- 2006-09-18"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+LINK_TEXT (5 entries):
+	0 (CDF_CHAR/6): 	"Merged"
+	1 (CDF_CHAR/3): 	"ESA"
+	2 (CDF_CHAR/3): 	"ESA"
+	3 (CDF_CHAR/3): 	"FGM"
+	4 (CDF_CHAR/3): 	"FGM"
+LINK_TITLE (5 entries):
+	0 (CDF_CHAR/33): 	"Data product detailed description"
+	1 (CDF_CHAR/65): 	"Instrument description including data modes, products and caveats"
+	2 (CDF_CHAR/68): 	"Processing history and the THEMIS mission website including TDAS s/w"
+	3 (CDF_CHAR/65): 	"Instrument description including data modes, products and caveats"
+	4 (CDF_CHAR/68): 	"Processing history and the THEMIS mission website including TDAS s/w"
+HTTP_LINK (5 entries):
+	0 (CDF_CHAR/83): 	"https://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/00readme_themisc.txt"
+	1 (CDF_CHAR/51): 	"http://themis.ssl.berkeley.edu/instrument_esa.shtml"
+	2 (CDF_CHAR/53): 	"http://themis.ssl.berkeley.edu/esa_proc_history.shtml"
+	3 (CDF_CHAR/51): 	"http://themis.ssl.berkeley.edu/instrument_fgm.shtml"
+	4 (CDF_CHAR/53): 	"http://themis.ssl.berkeley.edu/fgm_proc_history.shtml"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_descriptor_datatype"
+Caveats (1 entry):
+	0 (CDF_CHAR/30): 	"See THEMIS website for caveats"
+Validity (1 entry):
+	0 (CDF_CHAR/15): 	"to be validated"
+Validator (1 entry):
+	0 (CDF_CHAR/3): 	"tbd"
+Validate (1 entry):
+	0 (CDF_CHAR/38): 	"Compatible with the ISTP CDF Standards"
+Inst_mod (1 entry):
+	0 (CDF_CHAR/8): 	"THM>xxxx"
+Parents (1 entry):
+	0 (CDF_CHAR/4): 	"xxxx"
+Inst_settings (1 entry):
+	0 (CDF_CHAR/8): 	"Not used"
+Software_version (1 entry):
+	0 (CDF_CHAR/4): 	"xxxx"
+Sc_pot_source (1 entry):
+	0 (CDF_CHAR/4): 	"None"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/49): 	"spase://NASA/NumericalData/THEMIS/C/ESA.FGM/PT96S"
+
+Variable Attributes (31 attributes)
+=========================================
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+UNITS
+DEPEND_0
+VAR_TYPE
+PROPERTY
+SC_ID
+CATDESC
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+TENSOR_ORDER
+SI_CONVERSION
+LABLAXIS
+SCALETYP
+COORDINATE_SYSTEM
+DEPEND_1
+DICT_KEY
+REPRESENTATION_1
+VAR_NOTES
+LABL_PTR_1
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+AVG_TYPE
+SCALE_TYP
+MONOTON
+
+Variable Information (0 rVariable, 15 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+thc_fgs_btotal        CDF_FLOAT/1	0:[]	T/  
+thc_fgs_gse           CDF_FLOAT/1	1:[3]	T/T
+thc_peif_densityQ     CDF_REAL4/1	0:[]	T/  
+thc_peif_vthermalQ    CDF_REAL4/1	0:[]	T/  
+thc_peif_vflowspeedQ  CDF_REAL4/1	0:[]	T/  
+thc_peif_velocity_gseQ CDF_REAL4/1	1:[3]	T/T
+XYZ_GSE               CDF_REAL4/1	1:[3]	T/T
+XYZ_SSE               CDF_REAL4/1	1:[3]	T/T
+thc_fgs_compno        CDF_INT4/1	1:[3]	F/T
+thc_fgs_labl          CDF_CHAR/8	1:[3]	F/T
+thc_peif_velocity_gse_compno CDF_INT4/1	1:[3]	F/T
+thc_peif_velocity_gse_labl CDF_CHAR/21	1:[3]	F/T
+xyz_lbl               CDF_CHAR/1	1:[3]	F/T
+cartesian             CDF_CHAR/1	1:[3]	F/T
+
+
+Variable (15 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     UNITS           (CDF_CHAR/17): "DD-MMM-YYYY_hr:mm"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/10): "Epoch Time"
+     FIELDNAM        (CDF_CHAR/10): "Epoch Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2007 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2050 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-2007 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2050 23:59:59.000
+
+thc_fgs_btotal (No: 1) (Recs: 0)
+--------------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/15): "1/N SUM |B|, nT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     PROPERTY        (CDF_CHAR/6): "scalar"
+     SC_ID           (CDF_CHAR/1): "b"
+     CATDESC         (CDF_CHAR/56): "FGS (spin-resolution/~3 sec) magnetic field B magnitude "
+     FIELDNAM        (CDF_CHAR/30): "FGS-B Magnetic Field, nT units"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 25000.0
+     TENSOR_ORDER    (CDF_CHAR/1): "0"
+     SI_CONVERSION   (CDF_CHAR/6): "1e-9>T"
+     LABLAXIS        (CDF_CHAR/13): "FGS-B B_total"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     VAR_NOTES       (CDF_CHAR/22): "Units are in nanotesla"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     SCALE_TYP       (CDF_CHAR/6): "linear"
+
+thc_fgs_gse (No: 2) (Recs: 0)
+-----------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/2): "nT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     PROPERTY        (CDF_CHAR/6): "vector"
+     SC_ID           (CDF_CHAR/1): "b"
+     CATDESC         (CDF_CHAR/44): "FGS magnetic  field B in XYZ GSE Coordinates"
+     FIELDNAM        (CDF_CHAR/29): "BXYZ GSE Coordinate, nT units"
+     VALIDMIN        (CDF_FLOAT/3): -25000.0, -25000.0, -25000.0
+     VALIDMAX        (CDF_FLOAT/3): 25000.0, 25000.0, 25000.0
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SI_CONVERSION   (CDF_CHAR/6): "1e-9>T"
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     DEPEND_1        (CDF_CHAR/14): "thc_fgs_compno"
+     DICT_KEY        (CDF_CHAR/25): "magnetic_field>vector_GSE"
+     REPRESENTATION_1 (CDF_CHAR/7): "Rep_xyz"
+     VAR_NOTES       (CDF_CHAR/22): "Units are in nanotesla"
+     LABL_PTR_1      (CDF_CHAR/12): "thc_fgs_labl"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     SCALE_TYP       (CDF_CHAR/6): "linear"
+
+thc_peif_densityQ (No: 3) (Recs: 0)
+-----------------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     UNITS           (CDF_CHAR/4): "n/cc"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     PROPERTY        (CDF_CHAR/6): "scalar"
+     SC_ID           (CDF_CHAR/1): "b"
+     CATDESC         (CDF_CHAR/92): "(Good data only) ESA Full (High Angular Resolution, few minute time res.) Mode, Ion Density "
+     FIELDNAM        (CDF_CHAR/16): "N_ion Full ESA-B"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     TENSOR_ORDER    (CDF_INT4/1): 0
+     SI_CONVERSION   (CDF_CHAR/10): "1.0e6>m^-3"
+     LABLAXIS        (CDF_CHAR/16): "N_ion Full ESA-B"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+thc_peif_vthermalQ (No: 4) (Recs: 0)
+------------------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     UNITS           (CDF_CHAR/4): "km/s"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     PROPERTY        (CDF_CHAR/6): "scalar"
+     SC_ID           (CDF_CHAR/1): "b"
+     CATDESC         (CDF_CHAR/26): "-----Ion Thermal Velocity "
+     FIELDNAM        (CDF_CHAR/18): "Vth_ion Full ESA-B"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     TENSOR_ORDER    (CDF_INT4/1): 0
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     LABLAXIS        (CDF_CHAR/18): "Vth_ion Full ESA-B"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+thc_peif_vflowspeedQ (No: 5) (Recs: 0)
+--------------------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.1"
+     UNITS           (CDF_CHAR/4): "km/s"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     PROPERTY        (CDF_CHAR/6): "scalar"
+     SC_ID           (CDF_CHAR/1): "b"
+     CATDESC         (CDF_CHAR/23): "-----Plasma flow speed "
+     FIELDNAM        (CDF_CHAR/18): "Vth_ion Full ESA-B"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     TENSOR_ORDER    (CDF_INT4/1): 0
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     LABLAXIS        (CDF_CHAR/18): "Vth_ion Full ESA-B"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+thc_peif_velocity_gseQ (No: 6) (Recs: 0)
+----------------------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.1"
+     UNITS           (CDF_CHAR/4): "km/s"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     PROPERTY        (CDF_CHAR/6): "vector"
+     SC_ID           (CDF_CHAR/1): "b"
+     CATDESC         (CDF_CHAR/32): "-----Ion Velocity Vector in GSE "
+     FIELDNAM        (CDF_CHAR/26): "Ion Velocity Vector in GSE"
+     VALIDMIN        (CDF_REAL4/3): -10000.0, -10000.0, -10000.0
+     VALIDMAX        (CDF_REAL4/3): 10000.0, 10000.0, 10000.0
+     TENSOR_ORDER    (CDF_INT4/1): 1
+     SI_CONVERSION   (CDF_CHAR/12): "1.0e3>m s^-1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSE"
+     DEPEND_1        (CDF_CHAR/28): "thc_peif_velocity_gse_compno"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gse"
+     LABL_PTR_1      (CDF_CHAR/26): "thc_peif_velocity_gse_labl"
+
+XYZ_GSE (No: 7) (Recs: 0)
+-------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.3"
+     UNITS           (CDF_CHAR/2): "Re"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/36): "XYZ in GSE coordinates (time-series)"
+     FIELDNAM        (CDF_CHAR/7): "XYZ_GSE"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): -10000.0
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/1): "."
+     VAR_NOTES       (CDF_CHAR/1): "."
+     LABL_PTR_1      (CDF_CHAR/7): "xyz_lbl"
+     AVG_TYPE        (CDF_CHAR/1): "."
+     MONOTON         (CDF_CHAR/5): "FALSE"
+
+XYZ_SSE (No: 8) (Recs: 0)
+-------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.3"
+     UNITS           (CDF_CHAR/2): "Rm"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/36): "XYZ in SSE coordinates (time-series)"
+     FIELDNAM        (CDF_CHAR/7): "XYZ_SSE"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): -10000.0
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/1): "."
+     VAR_NOTES       (CDF_CHAR/1): "."
+     LABL_PTR_1      (CDF_CHAR/7): "xyz_lbl"
+     AVG_TYPE        (CDF_CHAR/1): "."
+     MONOTON         (CDF_CHAR/5): "FALSE"
+
+thc_fgs_compno (No: 9) (Recs: 1)
+--------------
+Attribute Entries:
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     FIELDNAM        (CDF_CHAR/18): "thc_fgs_dsl_compno"
+     VALIDMIN        (CDF_INT2/3): 1, 1, 1
+     VALIDMAX        (CDF_INT2/3): 3, 3, 3
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     LABL_PTR_1      (CDF_CHAR/12): "thc_fgs_labl"
+
+thc_fgs_labl (No: 10) (Recs: 1)
+------------
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/16): "thc_fgs_dsl_labl"
+     FIELDNAM        (CDF_CHAR/16): "thc_fgs_dsl_labl"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+thc_peif_velocity_gse_compno (No: 11) (Recs: 1)
+----------------------------
+Attribute Entries:
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/28): "thc_peif_velocity_gse_compno"
+     FIELDNAM        (CDF_CHAR/28): "thc_peif_velocity_gse_compno"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     DICT_KEY        (CDF_CHAR/6): "number"
+     LABL_PTR_1      (CDF_CHAR/26): "thc_peif_velocity_gse_labl"
+
+thc_peif_velocity_gse_labl (No: 12) (Recs: 1)
+--------------------------
+Attribute Entries:
+     FORMAT          (CDF_CHAR/3): "a21"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/20): "ESA Ion Velocity GSE"
+     FIELDNAM        (CDF_CHAR/20): "ESA Ion Velocity GSE"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+xyz_lbl (No: 13) (Recs: 1)
+-------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "TIME_SERIES"
+     FORMAT          (CDF_CHAR/2): "a2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/15): "Labels for XYZ."
+     FIELDNAM        (CDF_CHAR/15): "Labels for XYZ."
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): "."
+     AVG_TYPE        (CDF_CHAR/1): "."
+
+cartesian (No: 14) (Recs: 1)
+---------
+Attribute Entries:
+     DISPLAY_TYPE    (CDF_CHAR/11): "TIME_SERIES"
+     FORMAT          (CDF_CHAR/2): "a2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/30): "Components in Cartesian Coord."
+     FIELDNAM        (CDF_CHAR/30): "Components in Cartesian Coord."
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_NOTES       (CDF_CHAR/1): "."
+     AVG_TYPE        (CDF_CHAR/1): "."
+

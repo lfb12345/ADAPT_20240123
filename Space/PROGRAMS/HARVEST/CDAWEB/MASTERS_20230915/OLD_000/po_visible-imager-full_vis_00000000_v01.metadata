@@ -1,0 +1,1048 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_visible-imager-full_vis_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_visible-imager-full_vis_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     47
+NumAttrs:     43 (17 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (17 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Louis A. Frank"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/22): 	"The University of Iowa"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+Data_type (1 entry):
+	0 (CDF_CHAR/24): 	"L0>Low Resolution Images"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"VIS>Visible Imaging System"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TITLE (1 entry):
+	0 (CDF_CHAR/43): 	"ISTP Polar VIS low resolution camera images"
+TEXT (211 entries):
+	0 (CDF_CHAR/35): 	" Instrument functional description:"
+	1 (CDF_CHAR/68): 	"    The VIS is a set of three low-light-level cameras.  Two of these"
+	2 (CDF_CHAR/71): 	"    cameras share primary and some secondary optics and are designed to"
+	3 (CDF_CHAR/72): 	"    provide images of the nighttime auroral oval at visible wavelengths."
+	4 (CDF_CHAR/74): 	"    A third camera is used to monitor the directions of the fields-of-view"
+	5 (CDF_CHAR/70): 	"    of the auroral cameras with respect to the sunlit Earth and return"
+	6 (CDF_CHAR/70): 	"    global images of the auroral oval at ultraviolet wavelengths.  The"
+	7 (CDF_CHAR/69): 	"    VIS instrumentation produces an auroral image of 256 x 256 pixels"
+	8 (CDF_CHAR/72): 	"    approximately every 24 seconds dependent on the integration time and"
+	9 (CDF_CHAR/69): 	"    filter selected.  The fields-of-view of the two nighttime auroral"
+	10 (CDF_CHAR/71): 	"    cameras are 5.6 x 6.3 degrees and 2.8 x 3.3 degrees for the low and"
+	11 (CDF_CHAR/70): 	"    medium resolution cameras, respectively.  One or more Earth camera"
+	12 (CDF_CHAR/73): 	"    images of 256 x 256 pixels are produced every five minutes, depending"
+	13 (CDF_CHAR/68): 	"    on the commanded mode.  The field-of-view of the Earth camera is"
+	14 (CDF_CHAR/34): 	"    approximately 20 x 20 degrees."
+	15 (CDF_CHAR/1): 	" "
+	16 (CDF_CHAR/11): 	" Reference:"
+	17 (CDF_CHAR/75): 	"    Frank, L. A., J. B. Sigwarth, J. D. Craven, J. P. Cravens, J. S. Dolan,"
+	18 (CDF_CHAR/68): 	"        M. R. Dvorsky, J. D. Harvey, P. K. Hardebeck, and D. Muller,"
+	19 (CDF_CHAR/68): 	"        'The Visible Imaging System (VIS) for the Polar Spacecraft',"
+	20 (CDF_CHAR/57): 	"        Space Science Review, vol. 71, pp. 297-328, 1995."
+	21 (CDF_CHAR/78): 	" [Note to first-time users:  The first four variables are of primary interest."
+	22 (CDF_CHAR/79): 	"    The displayable 256 x 256 image array is in variable 3.  The correct orien-"
+	23 (CDF_CHAR/77): 	"    tation of a displayed image is explained in the description of variable 3"
+	24 (CDF_CHAR/11): 	"    below.]"
+	25 (CDF_CHAR/1): 	" "
+	26 (CDF_CHAR/22): 	" Data set description:"
+	27 (CDF_CHAR/83): 	"         The VIS low resolution camera data set comprises all low resolution camera"
+	28 (CDF_CHAR/77): 	"    images for the selected time period.  The displayable image counts are in"
+	29 (CDF_CHAR/15): 	"    variable 3."
+	30 (CDF_CHAR/71): 	"         Some coordinateinformation is included for viewer orientation."
+	31 (CDF_CHAR/73): 	"    Coordinates are calculated for a grid of 18 x 18 points corresponding"
+	32 (CDF_CHAR/75): 	"    to one pixel out of every 15 x 15 pixel block.  In addition, a rotation"
+	33 (CDF_CHAR/75): 	"    matrix and a table of distortion-correcting look direction unit vectors"
+	34 (CDF_CHAR/76): 	"    are provided for the purpose of calculating coordinates for every pixel."
+	35 (CDF_CHAR/53): 	"    See the description of variables 17 and 18 below."
+	36 (CDF_CHAR/75): 	"         To facilitate viewing of the images, a mapping of pixel value to a"
+	37 (CDF_CHAR/72): 	"    recommended color table based on the characteristics of the selected"
+	38 (CDF_CHAR/78): 	"    filter will be included with each image.  See the description of variables"
+	39 (CDF_CHAR/25): 	"    22, 23, and 24 below."
+	40 (CDF_CHAR/79): 	"         A relative intensity scale is provided by the uncompressed count table"
+	41 (CDF_CHAR/79): 	"    of variable 27.  Approximate intensity levels in kiloRayleighs are given in"
+	42 (CDF_CHAR/76): 	"    the intensity tables of variable 28.  Information on the availability of"
+	43 (CDF_CHAR/76): 	"    more precisely calibrated intensities can be found on the VIS website at"
+	44 (CDF_CHAR/54): 	"    URL http://eiger.physics.uiowa.edu/~vis/software/."
+	45 (CDF_CHAR/1): 	" "
+	46 (CDF_CHAR/23): 	" Variable descriptions:"
+	47 (CDF_CHAR/1): 	" "
+	48 (CDF_CHAR/20): 	"    1,2. Center time"
+	49 (CDF_CHAR/75): 	"        The time assigned to an image is the center time of the integration"
+	50 (CDF_CHAR/54): 	"        period within a resolution of 50 milliseconds."
+	51 (CDF_CHAR/1): 	" "
+	52 (CDF_CHAR/19): 	"    3. Image counts"
+	53 (CDF_CHAR/74): 	"        Image pixel counts range from 0 to 255.  They are stored in a two-"
+	54 (CDF_CHAR/71): 	"        dimensional 256 x 256 byte array.  Images from the Earth camera"
+	55 (CDF_CHAR/78): 	"        (sensor 0) are conventionally displayed with row 1 at the top, row 256"
+	56 (CDF_CHAR/78): 	"        at the bottom, column 1 on the left, and column 256 on the right.  The"
+	57 (CDF_CHAR/78): 	"        conventional image display for the low resolution camera (sensor 1) is"
+	58 (CDF_CHAR/76): 	"        rotated 180 degrees so that the row 1-column 1 pixel is at the lower"
+	59 (CDF_CHAR/74): 	"        right corner and the row 256-column 256 pixel is at the upper left"
+	60 (CDF_CHAR/75): 	"        corner.  When displayed in this manner, the spacecraft spin axis is"
+	61 (CDF_CHAR/75): 	"        oriented to the right in the display, the X component is defined as"
+	62 (CDF_CHAR/74): 	"        the center of the image look direction, and the Y component is the"
+	63 (CDF_CHAR/62): 	"        cross product of the spin axis and the look direction."
+	64 (CDF_CHAR/1): 	" "
+	65 (CDF_CHAR/20): 	"    4. Sensor number"
+	66 (CDF_CHAR/25): 	"        0 = Earth camera,"
+	67 (CDF_CHAR/34): 	"        1 = low resolution camera,"
+	68 (CDF_CHAR/37): 	"        2 = medium resolution camera."
+	69 (CDF_CHAR/1): 	" "
+	70 (CDF_CHAR/28): 	"    5. Half integration time"
+	71 (CDF_CHAR/72): 	"        This is half the length of the integration period for the image,"
+	72 (CDF_CHAR/33): 	"        measured in milliseconds."
+	73 (CDF_CHAR/1): 	" "
+	74 (CDF_CHAR/13): 	"    6. Filter"
+	75 (CDF_CHAR/76): 	"        Twelve filters are available for visible imaging; the filter number,"
+	76 (CDF_CHAR/80): 	"        1-12, is given here.  Ultra-violet imaging is done with one filter only,"
+	77 (CDF_CHAR/77): 	"        designated here as filter number 0.  In addition, the peak wavelength"
+	78 (CDF_CHAR/54): 	"        in Angstroms is given for the selected filter."
+	79 (CDF_CHAR/1): 	" "
+	80 (CDF_CHAR/37): 	"    7. Presumed altitude of emissions"
+	81 (CDF_CHAR/71): 	"        The presumed altitude of the emissions seen in the image varies"
+	82 (CDF_CHAR/52): 	"        with the characteristics of the filter used."
+	83 (CDF_CHAR/1): 	" "
+	84 (CDF_CHAR/26): 	"    8. Field stop position"
+	85 (CDF_CHAR/73): 	"        The field stop may partially occlude the field of view of the low"
+	86 (CDF_CHAR/74): 	"        or medium resolution cameras.  The position is given in 1.5 degree"
+	87 (CDF_CHAR/14): 	"        steps."
+	88 (CDF_CHAR/1): 	" "
+	89 (CDF_CHAR/27): 	"    9. Platform pitch angle"
+	90 (CDF_CHAR/71): 	"        This is the platform pointing angle of rotation around the spin"
+	91 (CDF_CHAR/34): 	"        axis, measured from nadir."
+	92 (CDF_CHAR/1): 	" "
+	93 (CDF_CHAR/43): 	" 10,11. Mirror elevation and azimuth angles"
+	94 (CDF_CHAR/68): 	"        For the low or medium resolution camera, the two-axis mirror"
+	95 (CDF_CHAR/75): 	"        position is given in steps measured from the instrument calibration"
+	96 (CDF_CHAR/75): 	"        switches.  The boresight of the instrument is located at step 68 in"
+	97 (CDF_CHAR/42): 	"        azimuth and step 118 in elevation."
+	98 (CDF_CHAR/1): 	" "
+	99 (CDF_CHAR/30): 	" 12,13. Geographic coordinates"
+	100 (CDF_CHAR/73): 	"        Geographic north latitude and east longitude are provided for the"
+	101 (CDF_CHAR/70): 	"        pixels at these image array locations: every 15th row starting"
+	102 (CDF_CHAR/74): 	"        with row 1 and ending with row 256, and every 15th column starting"
+	103 (CDF_CHAR/64): 	"        with column 1 and ending with column 256, for a total of"
+	104 (CDF_CHAR/33): 	"        18 x 18 coordinate pairs."
+	105 (CDF_CHAR/1): 	" "
+	106 (CDF_CHAR/53): 	" 14,15. Spacecraft position and velocity vectors, GCI"
+	107 (CDF_CHAR/65): 	"        The spacecraft position vector and velocity vector in GCI"
+	108 (CDF_CHAR/71): 	"        coordinates are for the image center time as given in variables"
+	109 (CDF_CHAR/16): 	"        1 and 2."
+	110 (CDF_CHAR/1): 	" "
+	111 (CDF_CHAR/44): 	"   16. Spacecraft spin axis unit vector, GCI"
+	112 (CDF_CHAR/1): 	" "
+	113 (CDF_CHAR/68): 	" 17,18. Image-to-GCI rotation matrix and look direction vector table"
+	114 (CDF_CHAR/79): 	"        The rotation matrix may be used with the look direction vector table to"
+	115 (CDF_CHAR/71): 	"        obtain pointing vectors in GCI coordinates for each pixel.  The"
+	116 (CDF_CHAR/79): 	"        resulting vectors may be used to calculate coordinates for the observed"
+	117 (CDF_CHAR/79): 	"        positions of the pixels.  Software for this purpose is available at URL"
+	118 (CDF_CHAR/75): 	"         http://eiger.physics.uiowa.edu/~vis/software/.  The general method"
+	119 (CDF_CHAR/33): 	"         used is described below."
+	120 (CDF_CHAR/1): 	" "
+	121 (CDF_CHAR/78): 	"        In the image coordinate system, the X axis is the center line-of-sight"
+	122 (CDF_CHAR/78): 	"        or look direction; the Y axis is the cross product of the spin axis an"
+	123 (CDF_CHAR/77): 	"        the X axis; and the Z axis is the cross product of the X axis and the"
+	124 (CDF_CHAR/75): 	"        Y axis.  When the display orientation conventions in the variable 3"
+	125 (CDF_CHAR/78): 	"        description are applied, the low resolution camera image is rotated so"
+	126 (CDF_CHAR/77): 	"        that both Earth camera and low resolution camera images are displayed"
+	127 (CDF_CHAR/69): 	"        with Y axis pointing up and Z axis pointing toward the right."
+	128 (CDF_CHAR/1): 	" "
+	129 (CDF_CHAR/70): 	"        To obtain the coordinates of the observed position of a pixel,"
+	130 (CDF_CHAR/72): 	"        calculate the intersection of the line-of-sight with the surface"
+	131 (CDF_CHAR/64): 	"        of an oblately spheroidal Earth at the altitude given as"
+	132 (CDF_CHAR/52): 	"        variable 7.  The equation of the spheroid is"
+	133 (CDF_CHAR/67): 	"            X**2/(A+ALT)**2 + Y**2/(A+ALT)**2 + Z**2/(B+ALT)**2 = 1"
+	134 (CDF_CHAR/55): 	"            where A is the Earth radius at the equator,"
+	135 (CDF_CHAR/56): 	"                  B is the Earth radius at the pole, and"
+	136 (CDF_CHAR/44): 	"                  ALT is the given altitude."
+	137 (CDF_CHAR/39): 	"        The line-of-sight equations are"
+	138 (CDF_CHAR/48): 	"            (X-SCX)/DX = (Y-SCY)/DY = (Z-SCZ)/DZ"
+	139 (CDF_CHAR/74): 	"            where (SCX,SCY,SCZ) is the spacecraft position vector GCI, and"
+	140 (CDF_CHAR/70): 	"                    (DX,DY,DZ)  is the look direction unit vector GCI."
+	141 (CDF_CHAR/68): 	"        Solve the line-of-sight equations for two variables in terms"
+	142 (CDF_CHAR/72): 	"        of the third; substitute into the spheroid equation; and use the"
+	143 (CDF_CHAR/66): 	"        quadratic formula to solve for the third variable.  Select"
+	144 (CDF_CHAR/52): 	"        the solution point closer to the spacecraft."
+	145 (CDF_CHAR/1): 	" "
+	146 (CDF_CHAR/64): 	"   19. Zenith angle of center line-of-sight at presumed altitude"
+	147 (CDF_CHAR/67): 	"        This is the angle between the geocentric vector through the"
+	148 (CDF_CHAR/66): 	"        observed point, assuming the altitude given as variable 7,"
+	149 (CDF_CHAR/65): 	"        and the reverse of the image center line-of-sight vector."
+	150 (CDF_CHAR/1): 	" "
+	151 (CDF_CHAR/36): 	"   20. Sun position unit vector, GCI"
+	152 (CDF_CHAR/1): 	" "
+	153 (CDF_CHAR/67): 	"   21. Solar zenith angle at observed point of center line-of-sight"
+	154 (CDF_CHAR/70): 	"        This is the angle of the sun from zenith at the observed point"
+	155 (CDF_CHAR/67): 	"        of the center line-of-sight, assuming the altitude given as"
+	156 (CDF_CHAR/19): 	"        variable 7."
+	157 (CDF_CHAR/1): 	" "
+	158 (CDF_CHAR/22): 	"   22. RGB color table"
+	159 (CDF_CHAR/63): 	"        This is the recommended color table to be used with the"
+	160 (CDF_CHAR/44): 	"        limits given in variables 23 and 24."
+	161 (CDF_CHAR/1): 	" "
+	162 (CDF_CHAR/41): 	" 23,24. Low and high color mapping limits"
+	163 (CDF_CHAR/67): 	"        The low and high color limits are recommended for remapping"
+	164 (CDF_CHAR/44): 	"        the color table entries, as follows:"
+	165 (CDF_CHAR/67): 	"            For pixel values less than the low limit, use the color"
+	166 (CDF_CHAR/36): 	"                at table position 1."
+	167 (CDF_CHAR/67): 	"            For pixel values greater than or equal to the low limit"
+	168 (CDF_CHAR/71): 	"                and less than or equal to the high limit, use the color"
+	169 (CDF_CHAR/65): 	"                at table position (pix-low)/(high-low) x 255 + 1."
+	170 (CDF_CHAR/71): 	"            For pixel values greater than the high limit, use the color"
+	171 (CDF_CHAR/38): 	"                at table position 256."
+	172 (CDF_CHAR/1): 	" "
+	173 (CDF_CHAR/24): 	"   25. Data quality flag"
+	174 (CDF_CHAR/63): 	"        The data quality word has bits set to 1 when the listed"
+	175 (CDF_CHAR/72): 	"        conditions are true.  Bit #31 is the most significant bit in the"
+	176 (CDF_CHAR/67): 	"        word, and it will not be used as a flag.  These are the bit"
+	177 (CDF_CHAR/20): 	"        assignments:"
+	178 (CDF_CHAR/47): 	"            bit 0 - image data frame sync error"
+	179 (CDF_CHAR/51): 	"            bit 1 - image data frame counters error"
+	180 (CDF_CHAR/47): 	"            bit 2 - image data fill frame flag."
+	181 (CDF_CHAR/1): 	" "
+	182 (CDF_CHAR/20): 	"   26. Post gap flag"
+	183 (CDF_CHAR/52): 	"        The post gap flag has these possible values:"
+	184 (CDF_CHAR/65): 	"            0 - no gap occurred immediately prior to this record,"
+	185 (CDF_CHAR/66): 	"            1 - the gap occurred because the instrument was not in"
+	186 (CDF_CHAR/74): 	"                  a mode that allowed for the production of images for the"
+	187 (CDF_CHAR/34): 	"                  selected sensor,"
+	188 (CDF_CHAR/70): 	"            2 - the gap occurred because level zero data were missing,"
+	189 (CDF_CHAR/65): 	"            3 - the gap occurred because level zero data were too"
+	190 (CDF_CHAR/42): 	"                  noisy to extract images."
+	191 (CDF_CHAR/1): 	" "
+	192 (CDF_CHAR/27): 	"   27. Expanded count table"
+	193 (CDF_CHAR/74): 	"        The image pixel counts are quasi-logarithmically compressed to the"
+	194 (CDF_CHAR/76): 	"        range 0-255.  This table gives the average of the uncompressed range"
+	195 (CDF_CHAR/75): 	"        for each compressed count value.  Table entries 1-256 correspond to"
+	196 (CDF_CHAR/45): 	"        compressed counts 0-255 respectively."
+	197 (CDF_CHAR/1): 	" "
+	198 (CDF_CHAR/23): 	"   28. Intensity tables"
+	199 (CDF_CHAR/80): 	"        For each of the twelve visible wavelength filters, approximate intensity"
+	200 (CDF_CHAR/74): 	"        levels in kiloRayleighs are given for each compressed count value."
+	201 (CDF_CHAR/79): 	"        Table entries 1-256 correspond to compressed counts 0-255 respectively."
+	202 (CDF_CHAR/80): 	"        Information on the availability of more precisely calibrated intensities"
+	203 (CDF_CHAR/77): 	"        can be found on the VIS website at URL http://eiger.physics.uiowa.edu"
+	204 (CDF_CHAR/16): 	"/~vis/software/."
+	205 (CDF_CHAR/1): 	" "
+	206 (CDF_CHAR/21): 	" Supporting software:"
+	207 (CDF_CHAR/66): 	"    Supporting software is available on the VIS website at the URL"
+	208 (CDF_CHAR/78): 	"    http://eiger.physics.uiowa.edu/~vis/software/.  Included is an IDL program"
+	209 (CDF_CHAR/72): 	"    that displays the images with the recommended color bar and provides"
+	210 (CDF_CHAR/63): 	"    approximate intensities and coordinate data for each pixel."
+MODS (1 entry):
+	0 (CDF_CHAR/19): 	"Initial development"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0000"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/39): 	"po_visible-imager-full_vis_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/26): 	"po_visible-imager-full_vis"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/50): 	"Polar Visible Imaging System (VIS) Low Res. Camera"
+
+Variable Attributes (26 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+UNITS
+UNIT_PTR
+SCALEMIN
+SCALEMAX
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+FORMAT
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+FILLVAL
+VAR_TYPE
+DICT_KEY
+DISPLAY_TYPE
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+CATDESC
+VAR_NOTES
+MONOTON
+ALLOW_BIN
+
+Variable Information (0 rVariable, 47 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+Image_Counts          CDF_UINT1/1	2:[256,256]	T/TT
+Sensor                CDF_UINT1/1	0:[]	F/  
+Int_Time_Half         CDF_REAL8/1	0:[]	T/  
+Filter                CDF_INT4/1	1:[2]	T/T
+AltF                  CDF_REAL4/1	0:[]	T/  
+Field_Stop            CDF_INT4/1	0:[]	T/  
+PPitch                CDF_INT4/1	0:[]	T/  
+Mirr_Elv              CDF_INT4/1	0:[]	T/  
+Mirr_Azm              CDF_INT4/1	0:[]	T/  
+Pix15Lat              CDF_REAL4/1	2:[18,18]	T/TT
+Pix15Lng              CDF_REAL4/1	2:[18,18]	T/TT
+SC_Pos_GCI            CDF_REAL4/1	1:[3]	T/T
+SC_Vel_GCI            CDF_REAL4/1	1:[3]	T/T
+SC_SpinV_GCI          CDF_REAL4/1	1:[3]	T/T
+Rotatn_Matrix         CDF_REAL4/1	2:[3,3]	T/TT
+Look_Dir_Vctr         CDF_REAL4/1	3:[3,256,256]	F/TTT
+V_Zenith              CDF_REAL4/1	0:[]	T/  
+Sun_Vctr              CDF_REAL4/1	1:[3]	T/T
+S_Zenith              CDF_REAL4/1	0:[]	T/  
+RGBColorTable         CDF_INT2/1	2:[3,256]	F/TT
+Limit_Lo              CDF_INT2/1	0:[]	T/  
+Limit_Hi              CDF_INT2/1	0:[]	T/  
+D_Qual                CDF_INT4/1	0:[]	T/  
+Post_Gap              CDF_INT4/1	0:[]	T/  
+ExpandedCount         CDF_REAL4/1	1:[256]	F/T
+Intens_Tables         CDF_REAL4/1	2:[256,12]	F/TT
+Headers               CDF_UINT1/1	2:[64,16]	T/TT
+label_time            CDF_CHAR/11	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+matrx_columns         CDF_CHAR/6	1:[3]	F/T
+norm_cart             CDF_CHAR/7	1:[3]	F/T
+label_vector          CDF_CHAR/10	1:[3]	F/T
+label_vel_vctr        CDF_CHAR/10	1:[3]	F/T
+label_spin_vctr       CDF_CHAR/6	1:[3]	F/T
+label_sun_vctr        CDF_CHAR/5	1:[3]	F/T
+image_row_crd         CDF_INT4/1	1:[18]	F/T
+image_col_crd         CDF_INT4/1	1:[18]	F/T
+image_row             CDF_INT4/1	1:[256]	F/T
+image_column          CDF_INT4/1	1:[256]	F/T
+header_block#         CDF_INT4/1	1:[16]	F/T
+hdr_fieldname         CDF_CHAR/30	1:[64]	F/T
+unit_filter           CDF_CHAR/9	1:[2]	F/T
+label_filter          CDF_CHAR/10	1:[2]	F/T
+format_filter         CDF_CHAR/2	1:[2]	F/T
+
+
+Variable (47 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "CENTER TIME (Epoch)"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.999
+     UNITS           (CDF_CHAR/2): "ms"
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/23): "time>epoch_center_range"
+     DELTA_PLUS_VAR  (CDF_CHAR/13): "Int_Time_Half"
+     DELTA_MINUS_VAR (CDF_CHAR/13): "Int_Time_Half"
+     CATDESC         (CDF_CHAR/24): "Image center time, Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "CENTER TIME"
+     VALIDMIN        (CDF_INT4/3): 1992, 1, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 86399999
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     SCALEMIN        (CDF_INT4/3): 1992, 1, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 366, 86399999
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/21): "time>PB5_center_range"
+     CATDESC         (CDF_CHAR/22): "Image center time, PB5"
+
+Image_Counts (No: 2) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Image Pixel Counts"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     UNITS           (CDF_CHAR/6): "Counts"
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/12): "Pixel Counts"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "image_column"
+     DEPEND_2        (CDF_CHAR/9): "image_row"
+     FILLVAL         (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/39): "photon_flux>visible_brightness_filtered"
+     DISPLAY_TYPE    (CDF_CHAR/19): "IMAGE>THUMBSIZE>166"
+     CATDESC         (CDF_CHAR/65): "256 x 256 Visible Image (quasi-logarithmically compressed counts)"
+     VAR_NOTES       (CDF_CHAR/448): "Image_Counts contains the displayable image.  The counts have been quasi-logarithmically compressed by the instrument.  Approximate uncompressed value for Image_Counts(i,j) is ExpandedCount(Image_Counts(i,j)+1).  Approximate intensity in kR is Intens_Tables( Image_Counts(i,j)+1, Filter(1) ).  The appearance of the actual count value 255 is rare.  When displaying an image,it works best to use the fill value as an overflow (i.e. brightest) value."
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+Sensor (No: 3) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Sensor"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 2
+     UNITS           (CDF_CHAR/6): "Number"
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 2
+     LABLAXIS        (CDF_CHAR/7): "Sensor#"
+     FORMAT          (CDF_CHAR/2): "I1"
+     FILLVAL         (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/22): "number>instrument_mode"
+     CATDESC         (CDF_CHAR/80): "Sensor number: 0=Earth Camera,1=Low Resolution Camera,2=Medium Resolution Camera"
+
+Int_Time_Half (No: 4) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "INTEGRATION TIME (HALF)"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 300000.0
+     UNITS           (CDF_CHAR/4): "Msec"
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 300000.0
+     LABLAXIS        (CDF_CHAR/10): "Int_Time/2"
+     FORMAT          (CDF_CHAR/4): "F7.0"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/20): "time>bin_millisecond"
+     CATDESC         (CDF_CHAR/55): "Half of the integration period measured in milliseconds"
+
+Filter (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Filter number and wavelength"
+     VALIDMIN        (CDF_INT4/2): 0, 1360
+     VALIDMAX        (CDF_INT4/2): 12, 7320
+     UNIT_PTR        (CDF_CHAR/11): "unit_filter"
+     SCALEMIN        (CDF_INT4/2): 0, 1360
+     SCALEMAX        (CDF_INT4/2): 12, 7320
+     LABL_PTR_1      (CDF_CHAR/12): "label_filter"
+     FORM_PTR        (CDF_CHAR/13): "format_filter"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "unit_filter"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/43): "wavelength>filter_visible_instrument_offset"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     CATDESC         (CDF_CHAR/52): "---> Filter number and peak wavelength in Angstroms)"
+     VAR_NOTES       (CDF_CHAR/78): "Filters #1-12 are visible wavelengths; filter #0 is UV for Earth camera images"
+
+AltF (No: 6) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Presumed Altitude of Emissions"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     UNITS           (CDF_CHAR/10): "Kilometers"
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 300.0
+     LABLAXIS        (CDF_CHAR/3): "Alt"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/25): "position>surface_altitude"
+     CATDESC         (CDF_CHAR/40): "---> Presumed altitude of emissions, km."
+
+Field_Stop (No: 7) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Field-Stop Wheel Position"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 239
+     UNITS           (CDF_CHAR/5): "Steps"
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 239
+     LABLAXIS        (CDF_CHAR/10): "Field Stop"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/32): "number>image_frame_exposure_mode"
+     CATDESC         (CDF_CHAR/53): "---> Field-stop wheel position (1 step = 1.5 degrees)"
+     VAR_NOTES       (CDF_CHAR/51): "A field stop may occultsome part of a visible image"
+
+PPitch (No: 8) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Platform Pitch Angle"
+     VALIDMIN        (CDF_INT4/1): -1800
+     VALIDMAX        (CDF_INT4/1): 1800
+     UNITS           (CDF_CHAR/10): "Degrees*10"
+     SCALEMIN        (CDF_INT4/1): -1800
+     SCALEMAX        (CDF_INT4/1): 1800
+     LABLAXIS        (CDF_CHAR/14): "Platform Pitch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/15): "angle>fov_pitch"
+     CATDESC         (CDF_CHAR/39): "---> Platform pointing angle from nadir"
+     VAR_NOTES       (CDF_CHAR/85): "Platform angle of rotation around spin axis, measured from nadir in tenths of degrees"
+
+Mirr_Elv (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Mirror Elevation Angle"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 255
+     UNITS           (CDF_CHAR/5): "Steps"
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 255
+     LABLAXIS        (CDF_CHAR/16): "Mirror Elevation"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/19): "angle>fov_elevation"
+     CATDESC         (CDF_CHAR/37): "---> Mirror pointing angle, elevation"
+     VAR_NOTES       (CDF_CHAR/70): "Mirror pointing angle out of s/c X-Y plane in steps of ~.08660 degrees"
+
+Mirr_Azm (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Mirror Azimuth Angle"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 255
+     UNITS           (CDF_CHAR/5): "Steps"
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 255
+     LABLAXIS        (CDF_CHAR/14): "Mirror Azimuth"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/17): "angle>fov_azimuth"
+     CATDESC         (CDF_CHAR/35): "---> Mirror pointing angle, azimuth"
+     VAR_NOTES       (CDF_CHAR/105): "Mirror pointing angle of rotation around spin axis, w/r/t platform position, in steps of ~.09375 degrees."
+
+Pix15Lat (No: 11) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Pixel15 N. Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/5): "N Lat"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "image_col_crd"
+     DEPEND_2        (CDF_CHAR/13): "image_row_crd"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/36): "position>geographic_latitude_surface"
+     DISPLAY_TYPE    (CDF_CHAR/19): "IMAGE>THUMBSIZE>166"
+     CATDESC         (CDF_CHAR/24): "Geographic latitude grid"
+     VAR_NOTES       (CDF_CHAR/76): "Geographic N. latitude for pixels at every 15th row and column from 1 to 256"
+
+Pix15Lng (No: 12) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Pixel15 E. Longitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     LABLAXIS        (CDF_CHAR/6): "E Long"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "image_col_crd"
+     DEPEND_2        (CDF_CHAR/13): "image_row_crd"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/37): "position>geographic_longitude_surface"
+     DISPLAY_TYPE    (CDF_CHAR/19): "IMAGE>THUMBSIZE>166"
+     CATDESC         (CDF_CHAR/25): "Geographic longitude grid"
+     VAR_NOTES       (CDF_CHAR/77): "Geographic E. longitude for pixels at every 15th row and column from 1 to 256"
+
+SC_Pos_GCI (No: 13) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Spacecraft position GCI"
+     VALIDMIN        (CDF_REAL4/1): -75000.0
+     VALIDMAX        (CDF_REAL4/1): 75000.0
+     UNITS           (CDF_CHAR/10): "Kilometers"
+     SCALEMIN        (CDF_REAL4/1): -75000.0
+     SCALEMAX        (CDF_REAL4/1): 75000.0
+     LABL_PTR_1      (CDF_CHAR/12): "label_vector"
+     FORMAT          (CDF_CHAR/4): "F8.1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "label_vector"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/30): "position>GCI_spacecraft_vector"
+     CATDESC         (CDF_CHAR/54): "GCI position vector of Polar spacecraft in kilometers."
+
+SC_Vel_GCI (No: 14) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Spacecraft velocity GCI"
+     VALIDMIN        (CDF_REAL4/1): -12.0
+     VALIDMAX        (CDF_REAL4/1): 12.0
+     UNITS           (CDF_CHAR/17): "Kilometers/second"
+     SCALEMIN        (CDF_REAL4/1): -12.0
+     SCALEMAX        (CDF_REAL4/1): 12.0
+     LABL_PTR_1      (CDF_CHAR/14): "label_vel_vctr"
+     FORMAT          (CDF_CHAR/4): "F8.4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "label_vel_vctr"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/30): "velocity>GCI_spacecraft_vector"
+     CATDESC         (CDF_CHAR/55): "---> GCI velocity vector of Polar spacecraft in km/sec."
+
+SC_SpinV_GCI (No: 15) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Spacecraft spin axis GCI"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/1): "1"
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     LABL_PTR_1      (CDF_CHAR/15): "label_spin_vctr"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "norm_cart"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/39): "position>GCI_spacecraft_attitude_vector"
+     CATDESC         (CDF_CHAR/51): "---> GCI spin axis unit vector of Polar spacecraft."
+
+Rotatn_Matrix (No: 16) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Rotation matrix"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/1): "1"
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     LABL_PTR_1      (CDF_CHAR/13): "matrx_columns"
+     LABL_PTR_2      (CDF_CHAR/9): "norm_cart"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "matrx_columns"
+     DEPEND_2        (CDF_CHAR/9): "norm_cart"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/44): "position>instrument_direction_vector_derived"
+     CATDESC         (CDF_CHAR/28): "Image-to-GCI rotation matrix"
+     VAR_NOTES       (CDF_CHAR/67): "X component is look direction,Y component is the spin axis  cross X"
+
+Look_Dir_Vctr (No: 17) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Look Direction Vectors"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/1): "1"
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     LABLAXIS        (CDF_CHAR/12): "Look Vectors"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     DEPEND_1        (CDF_CHAR/9): "norm_cart"
+     DEPEND_2        (CDF_CHAR/12): "image_column"
+     DEPEND_3        (CDF_CHAR/9): "image_row"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/53): "position>instrument_direction_component_offset_vector"
+     CATDESC         (CDF_CHAR/27): "Look direction unit vectors"
+
+V_Zenith (No: 18) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Zenith Angle of Center Line"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/6): "Zenith"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "angle>fov"
+     CATDESC         (CDF_CHAR/63): "Zenith angle of center line-of-sight at intersection with Earth"
+
+Sun_Vctr (No: 19) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Sun Vector GCI"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/1): "1"
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     LABL_PTR_1      (CDF_CHAR/14): "label_sun_vctr"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "norm_cart"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/29): "position>GCI_direction_vector"
+     CATDESC         (CDF_CHAR/26): "GCI unit vector toward sun"
+
+S_Zenith (No: 20) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Solar Zenith at Center"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/7): "Degrees"
+     SCALEMIN        (CDF_REAL4/1): -180.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/12): "Solar Zenith"
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "angle>"
+     CATDESC         (CDF_CHAR/69): "Solar zenith angle at intersection of center line-of-sight with Earth"
+
+RGBColorTable (No: 21) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "RGB Color Lookup Table"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     UNITS           (CDF_CHAR/10): "RGB levels"
+     LABLAXIS        (CDF_CHAR/11): "Color Level"
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_INT2/1): -32768
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/7): "number>"
+     CATDESC         (CDF_CHAR/22): "RGB color lookup table"
+     VAR_NOTES       (CDF_CHAR/589): "RGBColorTable should be remapped for displaying an image using the low and high limits given for each image in Limit_Lo and Limit_Hi.Image_Counts count values less than Limit_Lo use the color at table position 1.  Count values greater than Limit_Hi use the color at table position 256.  For count values greater than or equal to Limit_Lo and less than or equal to Limit_Hi, the table position is (Count-Limit_Lo)/(Limit_Hi-Limit_Lo) x 255 + 1.At the selected table position C, the color components are Red at RGBColorTable(1,C), Green at RGBColorTable(2,C), and Blue at RGBColorTable(3,C)."
+
+Limit_Lo (No: 22) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Color Limit Low"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     UNITS           (CDF_CHAR/6): "Counts"
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 255
+     LABLAXIS        (CDF_CHAR/15): "Color Limit Low"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT2/1): -32768
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/24): "number>minimum_component"
+     CATDESC         (CDF_CHAR/63): "Lower limit for remapping color table to pixel range (see TEXT)"
+
+Limit_Hi (No: 23) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Color Limit High"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     UNITS           (CDF_CHAR/6): "Counts"
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 255
+     LABLAXIS        (CDF_CHAR/16): "Color Limit High"
+     FORMAT          (CDF_CHAR/2): "I3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT2/1): -32768
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/24): "number>maximum_component"
+     CATDESC         (CDF_CHAR/63): "Upper limit for remapping color table to pixel range (see TEXT)"
+
+D_Qual (No: 24) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Data Quality Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     UNITS           (CDF_CHAR/6): "(0=OK)"
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2147483647
+     LABLAXIS        (CDF_CHAR/3): "DQF"
+     FORMAT          (CDF_CHAR/2): "Z8"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     CATDESC         (CDF_CHAR/18): "Data quality flags"
+     VAR_NOTES       (CDF_CHAR/66): "MSB will not be used as a flag; see TEXT for other bit assignments"
+
+Post_Gap (No: 25) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     UNITS           (CDF_CHAR/1): " "
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2147483647
+     LABLAXIS        (CDF_CHAR/8): "Gap Flag"
+     FORMAT          (CDF_CHAR/2): "Z8"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/34): "project standard value assignments"
+
+ExpandedCount (No: 26) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Expanded Count Table"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 4095.0
+     UNITS           (CDF_CHAR/11): "UncmpCounts"
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 4095.0
+     LABLAXIS        (CDF_CHAR/10): "Exp_Counts"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/38): "photon_flux>visible_brightness_derived"
+     CATDESC         (CDF_CHAR/69): "Expanded count table: quasi-logarithmically uncompressed pixel counts"
+     VAR_NOTES       (CDF_CHAR/194): "Image_Counts contains pixel counts which have been quasi-logarithmically compressed by the instrument.  Approximate uncompressed value forImage_Counts(i,j) is ExpandedCount(Image_Counts(i,j)+1)."
+
+Intens_Tables (No: 27) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Intensity Tables"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 600000.0
+     UNITS           (CDF_CHAR/13): "kiloRayleighs"
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 600000.0
+     LABLAXIS        (CDF_CHAR/11): "Intensities"
+     FORMAT          (CDF_CHAR/7): "1PE11.5"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/38): "photon_flux>visible_brightness_derived"
+     CATDESC         (CDF_CHAR/61): "Approximate intensity levels in kiloRayleighs for each filter"
+     VAR_NOTES       (CDF_CHAR/101): "Approximate intensity in kR for Image_Counts(i,j) isIntens_Tables( Image_Counts(i,j)+1), Filter(1) )."
+
+Headers (No: 28) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Image headers"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 255
+     UNITS           (CDF_CHAR/1): " "
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/13): "Image headers"
+     FORMAT          (CDF_CHAR/2): "I4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "hdr_fieldname"
+     DEPEND_2        (CDF_CHAR/13): "header_block#"
+     FILLVAL         (CDF_UINT1/1): 255
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/26): "source>instrument_measured"
+     CATDESC         (CDF_CHAR/18): "Image header bytes"
+
+label_time (No: 29) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Labels for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/14): "label>time_PB5"
+     CATDESC         (CDF_CHAR/19): "Labels for Time_PB5"
+
+unit_time (No: 30) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/19): "label>unit_time_PB5"
+     CATDESC         (CDF_CHAR/18): "Units for Time_PB5"
+
+format_time (No: 31) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Formats for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/14): "label>time_PB5"
+     CATDESC         (CDF_CHAR/20): "Formats for Time_PB5"
+
+matrx_columns (No: 32) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Matrix column labels"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/19): "label>column_vector"
+     CATDESC         (CDF_CHAR/25): "Labels for matrix columns"
+
+norm_cart (No: 33) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Normalized cart. coordinates"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/25): "label>cartesian_component"
+     CATDESC         (CDF_CHAR/38): "Labels for normalized cartesian vector"
+
+label_vector (No: 34) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Labels for vector"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/15): "label>component"
+     CATDESC         (CDF_CHAR/28): "Labels for vector components"
+
+label_vel_vctr (No: 35) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Labels for velocity vector"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/15): "label>component"
+     CATDESC         (CDF_CHAR/28): "Labels for vector components"
+
+label_spin_vctr (No: 36) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Labels for spin vector"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/22): "label>vector_component"
+     CATDESC         (CDF_CHAR/22): "Labels for spin vector"
+
+label_sun_vctr (No: 37) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Labels for sun vector"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/22): "label>vector_component"
+     CATDESC         (CDF_CHAR/21): "Labels for sun vector"
+
+image_row_crd (No: 38) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Image row of coordinates"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 256
+     UNITS           (CDF_CHAR/10): "Row number"
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 256
+     LABLAXIS        (CDF_CHAR/9): "Image Row"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/12): "position>row"
+     CATDESC         (CDF_CHAR/31): "Image row number of coordinates"
+
+image_col_crd (No: 39) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Image column of coordinates"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 256
+     UNITS           (CDF_CHAR/13): "Column number"
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 256
+     LABLAXIS        (CDF_CHAR/9): "Image Col"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/15): "position>column"
+     CATDESC         (CDF_CHAR/34): "Image column number of coordinates"
+
+image_row (No: 40) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Row index of image array"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 256
+     UNITS           (CDF_CHAR/10): "Row number"
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 256
+     LABLAXIS        (CDF_CHAR/9): "Image Row"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/12): "position>row"
+     CATDESC         (CDF_CHAR/16): "Image row number"
+
+image_column (No: 41) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Column index of image array"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 256
+     UNITS           (CDF_CHAR/13): "Column number"
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 256
+     LABLAXIS        (CDF_CHAR/9): "Image Col"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/15): "position>column"
+     CATDESC         (CDF_CHAR/19): "Image column number"
+
+header_block# (No: 42) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Header block number"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/15): "number>sequence"
+     CATDESC         (CDF_CHAR/19): "Header block number"
+
+hdr_fieldname (No: 43) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Header field names"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "label>name"
+     CATDESC         (CDF_CHAR/18): "Header field names"
+
+unit_filter (No: 44) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Units for Filter"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>filter"
+     CATDESC         (CDF_CHAR/16): "Units for Filter"
+
+label_filter (No: 45) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Labels for Filter"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>filter"
+     CATDESC         (CDF_CHAR/17): "Labels for Filter"
+
+format_filter (No: 46) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Formats for Filter"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>filter"
+     CATDESC         (CDF_CHAR/18): "Formats for Filter"
+

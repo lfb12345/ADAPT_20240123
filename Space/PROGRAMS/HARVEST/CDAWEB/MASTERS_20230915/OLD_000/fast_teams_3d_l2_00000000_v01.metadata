@@ -1,0 +1,1123 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/fast_teams_3d_l2_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     fast_teams_3d_l2_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     63
+NumAttrs:     57 (28 global, 29 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (28 attributes)
+=========================================
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/17): 	" open and public "
+TITLE (1 entry):
+	0 (CDF_CHAR/51): 	"FAST TEAMS Level 2 Energy-Solid Angle Distributions"
+TEXT (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+MODS (0 entry):
+Source_name (1 entry):
+	0 (CDF_CHAR/26): 	"FAST>Fast Auroral SnapshoT"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/16): 	"fast_teams_3d_l2"
+Skeleton_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (0 entry):
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"STP>Solar-Terrestrial Physics"
+Descriptor (1 entry):
+	0 (CDF_CHAR/52): 	"TEAMS> Time of Flight Energy Angle Mass Spectrometer"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/43): 	"FAST TEAMS Energy-Solid Angle Distributions"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/27): 	"University of New Hampshire"
+Generation_date (1 entry):
+	0 (CDF_CHAR/8): 	"20210303"
+spase_DatasetResourceID (0 entry):
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/27): 	"University of New Hampshire"
+HTTP_LINK (0 entry):
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"FAST"
+Software_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Data_type (1 entry):
+	0 (CDF_CHAR/28): 	"L2>Level 2 Survey Resolution"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/41): 	"source_descriptor_datatype_yyyyMMddHHmmss"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"Lynn Kistler"
+Logical_source (1 entry):
+	0 (CDF_CHAR/16): 	"fast_teams_3d_l2"
+Input_files (0 entry):
+
+Variable Attributes (29 attributes)
+=========================================
+FIELDNAM
+TIME_SCALE
+SCALEMAX
+VAR_TYPE
+VALIDMIN
+MONOTON
+TIME_BASE
+CATDESC
+UNITS
+SI_conversion
+FILLVAL
+LABLAXIS
+SCALETYP
+SCALEMIN
+VALIDMAX
+DISPLAY_TYPE
+DEPEND_0
+FORMAT
+VAR_NOTES
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+DEPEND_1
+DEPEND_2
+LABL_PTR_1
+LABL_PTR_2
+SCALETYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+
+Variable Information (0 rVariable, 63 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+Epoch_Helium          CDF_TT2000/1	0:[]	T/  
+delta_time            CDF_REAL4/1	0:[]	T/  
+delta_time_helium     CDF_REAL4/1	0:[]	T/  
+proton_distribution   CDF_FLOAT/1	2:[48,64]	T/TT
+oxygen_distribution   CDF_FLOAT/1	2:[48,64]	T/TT
+helium_distribution   CDF_FLOAT/1	2:[48,64]	T/TT
+proton_flag           CDF_UINT1/1	0:[]	T/  
+oxygen_flag           CDF_UINT1/1	0:[]	T/  
+helium_flag           CDF_UINT1/1	0:[]	T/  
+Energy                CDF_FLOAT/1	1:[48]	F/T
+angle_bin             CDF_UINT1/1	1:[64]	F/T
+angle_bin_labl        CDF_CHAR/24	1:[64]	F/T
+pitch_angle_h         CDF_FLOAT/1	1:[64]	T/T
+pitch_angle_he        CDF_FLOAT/1	1:[64]	T/T
+theta_angle           CDF_FLOAT/1	1:[64]	F/T
+dtheta                CDF_FLOAT/1	1:[64]	F/T
+phi_angle             CDF_FLOAT/1	1:[64]	F/T
+dphi                  CDF_FLOAT/1	1:[64]	F/T
+domega                CDF_FLOAT/1	1:[64]	F/T
+loss_cone_angle       CDF_FLOAT/1	1:[2]	T/T
+B_vec                 CDF_FLOAT/1	1:[3]	T/T
+label_B_Vec           CDF_CHAR/2	1:[3]	F/T
+unit_B_Vec            CDF_CHAR/2	1:[3]	F/T
+format_B_Vec          CDF_CHAR/2	1:[3]	F/T
+proton_3d_error       CDF_FLOAT/1	2:[48,64]	T/TT
+oxygen_3d_error       CDF_FLOAT/1	2:[48,64]	T/TT
+helium_3d_error       CDF_FLOAT/1	2:[48,64]	T/TT
+v_o_gei               CDF_FLOAT/1	1:[3]	T/T
+v_o_gei_labl          CDF_CHAR/24	1:[3]	F/T
+v_sc_gei              CDF_FLOAT/1	1:[3]	T/T
+v_sc_gei_labl         CDF_CHAR/24	1:[3]	F/T
+v_convect_gei         CDF_FLOAT/1	1:[3]	T/T
+v_convect_gei_labl    CDF_CHAR/24	1:[3]	F/T
+v_o_gse               CDF_FLOAT/1	1:[3]	T/T
+v_o_gse_labl          CDF_CHAR/24	1:[3]	F/T
+v_sc_gse              CDF_FLOAT/1	1:[3]	T/T
+v_sc_gse_labl         CDF_CHAR/24	1:[3]	F/T
+v_convect_gse         CDF_FLOAT/1	1:[3]	T/T
+v_convect_gse_labl    CDF_CHAR/24	1:[3]	F/T
+v_o_sm                CDF_FLOAT/1	1:[3]	T/T
+v_o_sm_labl           CDF_CHAR/24	1:[3]	F/T
+v_sc_sm               CDF_FLOAT/1	1:[3]	T/T
+v_sc_sm_labl          CDF_CHAR/24	1:[3]	F/T
+v_convect_sm          CDF_FLOAT/1	1:[3]	T/T
+v_convect_sm_labl     CDF_CHAR/24	1:[3]	F/T
+DeadTimeEn            CDF_UINT1/1	1:[48]	T/T
+DeadTimeEn_Helium     CDF_UINT1/1	1:[48]	T/T
+sc_potential          CDF_FLOAT/1	0:[]	T/  
+potential_flag        CDF_UINT1/1	0:[]	T/  
+high_potential        CDF_UINT1/1	0:[]	T/  
+dummy_orbit           CDF_UINT1/1	0:[]	F/  
+orbit_number          CDF_UINT4/1	0:[]	T/   sRecords.PREV
+fa_pos_gei            CDF_FLOAT/1	1:[3]	T/T
+fa_pos_gei_labl       CDF_CHAR/24	1:[3]	F/T
+fa_pos_gse            CDF_FLOAT/1	1:[3]	T/T
+fa_pos_gse_labl       CDF_CHAR/24	1:[3]	F/T
+fa_pos_sm             CDF_FLOAT/1	1:[3]	T/T
+fa_pos_sm_labl        CDF_CHAR/24	1:[3]	F/T
+altitude              CDF_FLOAT/1	0:[]	T/  
+invariant_latitude    CDF_FLOAT/1	0:[]	T/  
+invariant_longitude   CDF_FLOAT/1	0:[]	T/  
+mlt                   CDF_FLOAT/1	0:[]	T/  
+
+
+Variable (63 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     TIME_SCALE      (CDF_CHAR/2): "TT"
+     SCALEMAX        (CDF_TT2000/1): 2025-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     CATDESC         (CDF_CHAR/18): "sample center time"
+     UNITS           (CDF_CHAR/2): "ns"
+     SI_conversion   (CDF_CHAR/12): "1e-9>seconds"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SCALEMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:59.999999000
+     VAR_NOTES       (CDF_CHAR/18): "sample center time"
+
+Epoch_Helium (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Epoch_Helium"
+     TIME_SCALE      (CDF_CHAR/2): "TT"
+     SCALEMAX        (CDF_TT2000/1): 2025-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     CATDESC         (CDF_CHAR/18): "sample center time"
+     UNITS           (CDF_CHAR/2): "ns"
+     SI_conversion   (CDF_CHAR/12): "1e-9>seconds"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SCALEMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:59.999999000
+     VAR_NOTES       (CDF_CHAR/18): "sample center time"
+
+delta_time (No: 2) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "delta time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     CATDESC         (CDF_CHAR/36): " Sample width: end time - start time"
+     UNITS           (CDF_CHAR/3): " s "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "delta time"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_REAL4/1): 60.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G10.4"
+     VAR_NOTES       (CDF_CHAR/28): "Sample end time - start time"
+
+delta_time_helium (No: 3) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "helium delta time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     CATDESC         (CDF_CHAR/36): " Sample width: end time - start time"
+     UNITS           (CDF_CHAR/3): " s "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "helium delta time"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_REAL4/1): 60.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/12): "Epoch_helium"
+     FORMAT          (CDF_CHAR/5): "G10.4"
+     VAR_NOTES       (CDF_CHAR/28): "Sample end time - start time"
+
+proton_distribution (No: 4) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "H+ Energy-solid Angle Distribution"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/78): "H+ Energy-solid Angle Distribution (spectrograms at selected solid angle bins)"
+     UNITS           (CDF_CHAR/15): "eV/cm^2-s-sr-eV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "H+ Energy Flux"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DISPLAY_TYPE    (CDF_CHAR/242): "spectrogram>y=Energy,z=proton_distribution(*,8),z=proton_distribution(*,9),z=proton_distribution(*,10),z=proton_distribution(*,11),z=proton_distribution(*,12),z=proton_distribution(*,13),z=proton_distribution(*,14),z=proton_distribution(*,15)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/59): "Uses original 64 solid angle bins.  No frame transformation"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     DEPEND_2        (CDF_CHAR/9): "angle_bin"
+     LABL_PTR_2      (CDF_CHAR/14): "angle_bin_labl"
+
+oxygen_distribution (No: 5) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "O+ Energy-solid Angle Distribution"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/77): "O+ Energy-solid Angle Distribution(spectrograms at selected solid angle bins)"
+     UNITS           (CDF_CHAR/15): "eV/cm^2-s-sr-eV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "O+ Energy Flux"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DISPLAY_TYPE    (CDF_CHAR/242): "spectrogram>y=Energy,z=oxygen_distribution(*,8),z=oxygen_distribution(*,9),z=oxygen_distribution(*,10),z=oxygen_distribution(*,11),z=oxygen_distribution(*,12),z=oxygen_distribution(*,13),z=oxygen_distribution(*,14),z=oxygen_distribution(*,15)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/59): "Uses original 64 solid angle bins.  No frame transformation"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     DEPEND_2        (CDF_CHAR/9): "angle_bin"
+     LABL_PTR_2      (CDF_CHAR/14): "angle_bin_labl"
+
+helium_distribution (No: 6) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/35): "He+ Energy-solid Angle Distribution"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/79): "He+ Energy-solid Angle Distribution (spectrograms at selected solid angle bins)"
+     UNITS           (CDF_CHAR/15): "eV/cm^2-s-sr-eV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "He+ Energy Flux"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DISPLAY_TYPE    (CDF_CHAR/242): "spectrogram>y=Energy,z=helium_distribution(*,8),z=helium_distribution(*,9),z=helium_distribution(*,10),z=helium_distribution(*,11),z=helium_distribution(*,12),z=helium_distribution(*,13),z=helium_distribution(*,14),z=helium_distribution(*,15)"
+     DEPEND_0        (CDF_CHAR/12): "Epoch_Helium"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/59): "Uses original 64 solid angle bins.  No frame transformation"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     DEPEND_2        (CDF_CHAR/9): "angle_bin"
+     LABL_PTR_2      (CDF_CHAR/14): "angle_bin_labl"
+
+proton_flag (No: 7) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Proton_Flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     CATDESC         (CDF_CHAR/67): "Proton Flag. Non-zero values indicate that incomplete data was used"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/7): "H+ Flag"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT1/1): 16
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_NOTES       (CDF_CHAR/213): "This flag indicates that because of telemetry problems, there was no data for some angular bins.  However, a full pitch angle distribution could be constructed.  Data with nonzero flag should be used with caution."
+
+oxygen_flag (No: 8) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Oxygen_Flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     CATDESC         (CDF_CHAR/67): "Oxygen Flag. Non-zero values indicate that incomplete data was used"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/7): "O+ Flag"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT1/1): 16
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_NOTES       (CDF_CHAR/213): "This flag indicates that because of telemetry problems, there was no data for some angular bins.  However, a full pitch angle distribution could be constructed.  Data with nonzero flag should be used with caution."
+
+helium_flag (No: 9) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Helium_Flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     CATDESC         (CDF_CHAR/67): "Helium Flag. Non-zero values indicate that incomplete data was used"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/8): "He+ Flag"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT1/1): 16
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/12): "Epoch_Helium"
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_NOTES       (CDF_CHAR/213): "This flag indicates that because of telemetry problems, there was no data for some angular bins.  However, a full pitch angle distribution could be constructed.  Data with nonzero flag should be used with caution."
+
+Energy (No: 10) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMAX        (CDF_FLOAT/1): 12500.0
+     FORMAT          (CDF_CHAR/5): "G12.3"
+
+angle_bin (No: 11) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Angle_bin"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     CATDESC         (CDF_CHAR/9): "Angle_bin"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/3): "bin"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT1/1): 65
+     FORMAT          (CDF_CHAR/2): "I4"
+     VAR_NOTES       (CDF_CHAR/9): "angle bin"
+
+angle_bin_labl (No: 12) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "angle bin lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/13): "angle bin lbl"
+     FORMAT          (CDF_CHAR/2): "A3"
+
+pitch_angle_h (No: 13) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Pitch_Angle_H"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/13): "Pitch_Angle_H"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "theta"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     FORMAT          (CDF_CHAR/5): "G10.4"
+     VAR_NOTES       (CDF_CHAR/60): "Pitch angle associated with each solid angle bin for protons"
+
+pitch_angle_he (No: 14) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Pitch_Angle_He"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/14): "Pitch_Angle_He"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "theta"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     FORMAT          (CDF_CHAR/5): "G10.4"
+     VAR_NOTES       (CDF_CHAR/59): "Pitch angle associated with each solid angle bin for helium"
+
+theta_angle (No: 15) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Theta Angle"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     CATDESC         (CDF_CHAR/5): "theta"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "theta"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     FORMAT          (CDF_CHAR/5): "G10.4"
+     VAR_NOTES       (CDF_CHAR/22): "TEAMS theta angle bins"
+
+dtheta (No: 16) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Delta Theta Angle"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 22.5
+     CATDESC         (CDF_CHAR/11): "delta theta"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "delta theta"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 22.5
+     FORMAT          (CDF_CHAR/5): "G10.4"
+     VAR_NOTES       (CDF_CHAR/28): "TEAMS delta theta angle bins"
+
+phi_angle (No: 17) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Phi Angle"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/3): "phi"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "phi"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     FORMAT          (CDF_CHAR/5): "G10.4"
+     VAR_NOTES       (CDF_CHAR/20): "TEAMS phi angle bins"
+
+dphi (No: 18) (Recs: 1)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Delta Phi Angle"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 22.5
+     CATDESC         (CDF_CHAR/9): "delta phi"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "delta phi"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     FORMAT          (CDF_CHAR/5): "G10.4"
+     VAR_NOTES       (CDF_CHAR/26): "TEAMS delta phi angle bins"
+
+domega (No: 19) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Delta Omega Angle"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 0.11957
+     CATDESC         (CDF_CHAR/22): "delta omega angle bins"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "delta omega"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 0.340506
+     FORMAT          (CDF_CHAR/5): "G10.7"
+     VAR_NOTES       (CDF_CHAR/28): "TEAMS delta omega angle bins"
+
+loss_cone_angle (No: 20) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Loss_Cone_angle"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/75): "Loss Cone Angle calculating using a dipole model and 100 km mirror altitude"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "Loss Cone Angle"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G10.4"
+     VAR_NOTES       (CDF_CHAR/73): "calculated from dipole magnetic field model and mirror altitude of 100 km"
+
+B_vec (No: 21) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "B_vec"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     CATDESC         (CDF_CHAR/53): "B vector in TEAMS coordinate system with H+ time bins"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "B Vector"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 65600.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/61): "calculated from magnetic field in the TEAMS coordinate system"
+     LABL_PTR_1      (CDF_CHAR/11): "label_B_Vec"
+     FORM_PTR        (CDF_CHAR/12): "format_B_Vec"
+     UNIT_PTR        (CDF_CHAR/10): "unit_B_Vec"
+
+label_B_Vec (No: 22) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Labels for B_Vector"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/19): "Labels for B_Vector"
+     FORMAT          (CDF_CHAR/3): "A20"
+
+unit_B_Vec (No: 23) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Units for B_Vec"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/15): "Units for B_Vec"
+     FORMAT          (CDF_CHAR/2): "A3"
+
+format_B_Vec (No: 24) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Format for B_Vec"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/16): "Format for B_Vec"
+     FORMAT          (CDF_CHAR/2): "A5"
+
+proton_3d_error (No: 25) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "H+ Error"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/51): "Poisson Error in H+ energy-solid angle distribution"
+     UNITS           (CDF_CHAR/15): "eV/cm^2-s-sr-eV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "H+_error"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/51): "Poisson Error in H+ energy-solid angle distribution"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     DEPEND_2        (CDF_CHAR/9): "angle_bin"
+     LABL_PTR_2      (CDF_CHAR/14): "angle_bin_labl"
+
+oxygen_3d_error (No: 26) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "O+ Error"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/51): "Poisson Error in O+ energy-pitch angle distribution"
+     UNITS           (CDF_CHAR/15): "eV/cm^2-s-sr-eV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "O+_error"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/51): "Poisson Error in O+ energy-pitch angle distribution"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     DEPEND_2        (CDF_CHAR/9): "angle_bin"
+     LABL_PTR_2      (CDF_CHAR/14): "angle_bin_labl"
+
+helium_3d_error (No: 27) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "He+ Error"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/52): "Poisson Error in He+ energy-pitch angle distribution"
+     UNITS           (CDF_CHAR/15): "eV/cm^2-s-sr-eV"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "He+_error"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/52): "Poisson Error in He+ energy-pitch angle distribution"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     DEPEND_2        (CDF_CHAR/9): "angle_bin"
+     LABL_PTR_2      (CDF_CHAR/14): "angle_bin_labl"
+
+v_o_gei (No: 28) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "O+ Velocity in GEI in spacecraft frame"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -11.0
+     CATDESC         (CDF_CHAR/38): "O+ Velocity in GEI in spacecraft frame"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/26): "O+ Velocity, GEI, SC Frame"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 11.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/38): "O+ Velocity in GEI in spacecraft frame"
+     LABL_PTR_1      (CDF_CHAR/12): "v_o_gei_labl"
+
+v_o_gei_labl (No: 29) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "velocity o+ gei lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/19): "velocity o+ gei lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+v_sc_gei (No: 30) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Spacecraft Velocity in GEI"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -11.0
+     CATDESC         (CDF_CHAR/26): "Spacecraft Velocity in GEI"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/24): "Spacecraft Velocity, GEI"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 11.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/24): "Spacecraft Velocity, GEI"
+     LABL_PTR_1      (CDF_CHAR/13): "v_sc_gei_labl"
+
+v_sc_gei_labl (No: 31) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "velocity sc gei lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/19): "velocity sc gei lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+v_convect_gei (No: 32) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Convection Velocity in GEI"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -11.0
+     CATDESC         (CDF_CHAR/26): "Convection Velocity in GEI"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/24): "Convection Velocity, GEI"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 11.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/52): "Convection Velocity in GEI derived from  O+ velocity"
+     LABL_PTR_1      (CDF_CHAR/18): "v_convect_gei_labl"
+
+v_convect_gei_labl (No: 33) (Recs: 1)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "velocity con gei lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/20): "velocity con gei lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+v_o_gse (No: 34) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "O+ Velocity in GSE in spacecraft frame"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -11.0
+     CATDESC         (CDF_CHAR/38): "O+ Velocity in GSE in spacecraft frame"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/26): "O+ Velocity, GSE, SC Frame"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 11.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/38): "O+ Velocity in GSE in spacecraft frame"
+     LABL_PTR_1      (CDF_CHAR/12): "v_o_gse_labl"
+
+v_o_gse_labl (No: 35) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "velocity o+ gse lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/19): "velocity o+ gse lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+v_sc_gse (No: 36) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Spacecraft Velocity in GSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -11.0
+     CATDESC         (CDF_CHAR/26): "Spacecraft Velocity in GSE"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/24): "Spacecraft Velocity, GSE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 11.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/24): "Spacecraft Velocity, GSE"
+     LABL_PTR_1      (CDF_CHAR/13): "v_sc_gse_labl"
+
+v_sc_gse_labl (No: 37) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "velocity sc gse lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/19): "velocity sc gse lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+v_convect_gse (No: 38) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Convection Velocity in GSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -11.0
+     CATDESC         (CDF_CHAR/26): "Convection Velocity in GSE"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/24): "Convection Velocity, GSE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 11.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/52): "Convection Velocity in GSE derived from  O+ velocity"
+     LABL_PTR_1      (CDF_CHAR/18): "v_convect_gse_labl"
+
+v_convect_gse_labl (No: 39) (Recs: 1)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "velocity con gse lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/20): "velocity con gse lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+v_o_sm (No: 40) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "O+ Velocity in SM in spacecraft frame"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -11.0
+     CATDESC         (CDF_CHAR/37): "O+ Velocity in SM in spacecraft frame"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/25): "O+ Velocity, SM, SC Frame"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 11.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/37): "O+ Velocity in SM in spacecraft frame"
+     LABL_PTR_1      (CDF_CHAR/11): "v_o_sm_labl"
+
+v_o_sm_labl (No: 41) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "velocity o+ sm lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/18): "velocity o+ sm lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+v_sc_sm (No: 42) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Spacecraft Velocity in SM"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -11.0
+     CATDESC         (CDF_CHAR/25): "Spacecraft Velocity in SM"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/23): "Spacecraft Velocity, SM"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 11.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/23): "Spacecraft Velocity, SM"
+     LABL_PTR_1      (CDF_CHAR/12): "v_sc_sm_labl"
+
+v_sc_sm_labl (No: 43) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "velocity sc sm lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/18): "velocity sc sm lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+v_convect_sm (No: 44) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Convection Velocity in SM"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -11.0
+     CATDESC         (CDF_CHAR/25): "Convection Velocity in SM"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/23): "Convection Velocity, SM"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 11.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/51): "Convection Velocity in SM derived from  O+ velocity"
+     LABL_PTR_1      (CDF_CHAR/17): "v_convect_sm_labl"
+
+v_convect_sm_labl (No: 45) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "velocity con sm lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/19): "velocity con sm lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+DeadTimeEn (No: 46) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "H+ and O+ Deadtime flag"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     CATDESC         (CDF_CHAR/86): "H+ and O+ Deadtime flag. For each energy, indicates which deadtime algorithm was used."
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/23): "H+ and O+ Deadtime flag"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT1/1): 1
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_NOTES       (CDF_CHAR/117): "Dead time flag.  0: rate<2e5 cts/s, Standard deadtime correction used,. 1: rate>2e5 cts/s.  Use iESA to correct data."
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+
+DeadTimeEn_Helium (No: 47) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "He+ Deadtime flag"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     CATDESC         (CDF_CHAR/80): "He+ Deadtime flag. For each energy, indicates which deadtime algorithm was used."
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/17): "He+ Deadtime flag"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT1/1): 1
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/12): "Epoch_Helium"
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_NOTES       (CDF_CHAR/117): "Dead time flag.  0: rate<2e5 cts/s, Standard deadtime correction used,. 1: rate>2e5 cts/s.  Use iESA to correct data."
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+
+sc_potential (No: 48) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Spacecraft Potential"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): -60.0
+     CATDESC         (CDF_CHAR/20): "Spacecraft Potential"
+     UNITS           (CDF_CHAR/4): "Volt"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/20): "Spacecraft Potential"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 60.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.5"
+     VAR_NOTES       (CDF_CHAR/20): "Spacecraft Potential"
+
+potential_flag (No: 49) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Spacecraft Potential Flag"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     CATDESC         (CDF_CHAR/25): "Spacecraft Potential Flag"
+     UNITS           (CDF_CHAR/4): "Volt"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/25): "Spacecraft Potential Flag"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT1/1): 2
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_NOTES       (CDF_CHAR/229): "0: Data is corrected for spacecraft potential (until 2000-01-01/12:00:00), 1: No potential correction (2000-01-01/12:00:00-2003-01-01/12:00:00, 2:  Data is corrected for charging of TEAMS front aperture (after 2003-01-01/12:00:0)"
+
+high_potential (No: 50) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "Spacecraft High Potential Warning"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     CATDESC         (CDF_CHAR/33): "Spacecraft High Potential Warning"
+     UNITS           (CDF_CHAR/4): "Volt"
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/33): "Spacecraft High Potential Warning"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT1/1): 1
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_NOTES       (CDF_CHAR/48): "High Potential Warning, 0: pot>-5V, 1: pot < -5V"
+
+dummy_orbit (No: 51) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "dummy_orbit"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     CATDESC         (CDF_CHAR/29): "dummy depend for orbit_number"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/11): "orbit_dummy"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT1/1): 2
+     FORMAT          (CDF_CHAR/2): "I4"
+     VAR_NOTES       (CDF_CHAR/29): "dummy depend for orbit_number"
+
+orbit_number (No: 52) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Spacecraft Orbit Number"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_UINT4/1): 0
+     CATDESC         (CDF_CHAR/23): "Spacecraft orbit number"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/5): "Orbit"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_UINT4/1): 52000
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I8"
+     VAR_NOTES       (CDF_CHAR/12): "Orbit Number"
+
+fa_pos_gei (No: 53) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/42): "Spacecraft position, GEI coordinate System"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -12742.0
+     CATDESC         (CDF_CHAR/44): "Spacecraft position in GEI coordinate system"
+     UNITS           (CDF_CHAR/2): "km"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "Position, GEI"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 12742.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/49): "Spacecraft location in GEI coordinate system, XYZ"
+     LABL_PTR_1      (CDF_CHAR/15): "fa_pos_gei_labl"
+
+fa_pos_gei_labl (No: 54) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "fa pos gei lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/14): "fa pos gei lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+fa_pos_gse (No: 55) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/42): "Spacecraft position, GSE coordinate System"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -12742.0
+     CATDESC         (CDF_CHAR/44): "Spacecraft position in GSE coordinate system"
+     UNITS           (CDF_CHAR/2): "km"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "Position, GSE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 12742.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/49): "Spacecraft location in GSE coordinate system, XYZ"
+     LABL_PTR_1      (CDF_CHAR/15): "fa_pos_gse_labl"
+
+fa_pos_gse_labl (No: 56) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "fa pos gse lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/14): "fa pos gse lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+fa_pos_sm (No: 57) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/41): "Spacecraft position, SM coordinate System"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -12742.0
+     CATDESC         (CDF_CHAR/43): "Spacecraft position in SM coordinate system"
+     UNITS           (CDF_CHAR/2): "km"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Position, SM"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 12742.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.6"
+     VAR_NOTES       (CDF_CHAR/48): "Spacecraft location in SM coordinate system, XYZ"
+     LABL_PTR_1      (CDF_CHAR/14): "fa_pos_sm_labl"
+
+fa_pos_sm_labl (No: 58) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "fa pos sm lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/13): "fa pos sm lbl"
+     FORMAT          (CDF_CHAR/3): "A24"
+
+altitude (No: 59) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Spacecraft Altitude"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): 300.0
+     CATDESC         (CDF_CHAR/19): "Spacecraft Altitude"
+     UNITS           (CDF_CHAR/2): "km"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "Altitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 4500.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.5"
+     VAR_NOTES       (CDF_CHAR/19): "Spacecraft Altitude"
+
+invariant_latitude (No: 60) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Spacecraft Invariant Latitude"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     CATDESC         (CDF_CHAR/29): "Spacecraft Invariant Latitude"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/18): "Invariant Latitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.5"
+     VAR_NOTES       (CDF_CHAR/29): "Spacecraft Invariant Latitude"
+
+invariant_longitude (No: 61) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Spacecraft Invariant Longitude"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     CATDESC         (CDF_CHAR/30): "Spacecraft Invariant Longitude"
+     UNITS           (CDF_CHAR/6): "degree"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Invariant Longitude"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.5"
+     VAR_NOTES       (CDF_CHAR/30): "Spacecraft Invariant Longitude"
+
+mlt (No: 62) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Spacecraft Magnetic Local Time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     CATDESC         (CDF_CHAR/30): "Spacecraft Magnetic Local Time"
+     UNITS           (CDF_CHAR/2): "km"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "MLT"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMAX        (CDF_FLOAT/1): 24.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "G13.5"
+     VAR_NOTES       (CDF_CHAR/30): "Spacecraft Magnetic Local Time"
+

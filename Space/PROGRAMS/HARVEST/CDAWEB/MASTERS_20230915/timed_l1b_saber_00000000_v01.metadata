@@ -1,0 +1,1084 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/timed_l1b_saber_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     timed_l1b_saber_00000000_v01.cdf
+Version:      3.5.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     63
+NumAttrs:     51 (26 global, 25 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"TIMED"
+Source_name (1 entry):
+	0 (CDF_CHAR/64): 	"TIMED>Thermosphere+Ionosphere+Mesosphere+Energetics and Dynamics"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Mesospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/12): 	"L1B>Level 1B"
+Descriptor (1 entry):
+	0 (CDF_CHAR/68): 	"SABER>Sounding of the Atmosphere using Broadband Emission Radiometry"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/17): 	"James Russell III"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/18): 	"Hampton University"
+TEXT (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/15): 	"timed_l1b_saber"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/28): 	"timed_l1b_saber_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/75): 	"IR Radiances in 10 channels (1.27 to 17ym) from 0 to 150 km, Version 1.04, "
+Time_resolution (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+Link_text (2 entries):
+	0 (CDF_CHAR/2): 	"* "
+	1 (CDF_CHAR/2): 	"* "
+Link_title (2 entries):
+	0 (CDF_CHAR/51): 	"SABER data and experiment home page at NASA Langley"
+	1 (CDF_CHAR/36): 	"TIMED Mission Data Center at JHU/APL"
+HTTP_link (2 entries):
+	0 (CDF_CHAR/26): 	"http://saber.gats-inc.com/"
+	1 (CDF_CHAR/47): 	"http://www.timed.jhuapl.edu/scripts/mdc_home.pl"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"TIMED"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+alt_logical_source (1 entry):
+	0 (CDF_CHAR/51): 	"TIMED_SABER_IR-Radiances-20-Channels-L1B_cdf_cdaweb"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+
+Variable Attributes (25 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+VIRTUAL
+FUNCTION
+COMPONENT_0
+
+Variable Information (0 rVariable, 63 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+event                 CDF_INT2/1	0:[]	T/  
+DATE                  CDF_INT4/1	0:[]	T/  
+mode                  CDF_INT2/1	0:[]	T/  
+tpDN                  CDF_INT2/1	0:[]	T/  
+tpAD                  CDF_INT2/1	0:[]	T/  
+offsetALT             CDF_FLOAT/1	0:[]	T/  
+twistAngle            CDF_FLOAT/1	0:[]	T/  
+motionFactor          CDF_FLOAT/1	0:[]	T/  
+moonSepAngle          CDF_FLOAT/1	0:[]	T/  
+tpaltmoonSepAngle     CDF_FLOAT/1	0:[]	T/  
+solAP                 CDF_FLOAT/1	0:[]	T/  
+solKP                 CDF_FLOAT/1	0:[]	T/  
+solf10p7Daily         CDF_FLOAT/1	0:[]	T/  
+solf10p781dAvg        CDF_FLOAT/1	0:[]	T/  
+solSpotNo             CDF_INT2/1	0:[]	T/  
+scSolarZen            CDF_FLOAT/1	0:[]	T/  
+earth_sun             CDF_FLOAT/1	0:[]	T/  
+lunar_vector          CDF_FLOAT/1	2:[1401,3]	T/TT
+time                  CDF_INT4/1	1:[1401]	T/T
+sclatitude            CDF_FLOAT/1	1:[1401]	T/T
+sclongitude           CDF_FLOAT/1	1:[1401]	T/T
+scaltitude            CDF_FLOAT/1	1:[1401]	T/T
+tplatitude            CDF_FLOAT/1	1:[1401]	T/T
+tplongitude           CDF_FLOAT/1	1:[1401]	T/T
+tpaltitude            CDF_FLOAT/1	1:[1401]	T/T
+tpaltitude1           CDF_FLOAT/1	1:[1401]	T/T
+tpaltitude2           CDF_FLOAT/1	1:[1401]	T/T
+sclatitudeAVG         CDF_FLOAT/1	0:[]	T/  
+sclongitudeAVG        CDF_FLOAT/1	0:[]	T/  
+scaltitudeAVG         CDF_FLOAT/1	0:[]	T/  
+tplatitudeAVG         CDF_FLOAT/1	0:[]	T/  
+tplongitudeAVG        CDF_FLOAT/1	0:[]	T/  
+tpSolarZenAVG         CDF_FLOAT/1	0:[]	T/  
+tpSolarLTAVG          CDF_FLOAT/1	0:[]	T/  
+tpSolarZen            CDF_FLOAT/1	1:[1401]	T/T
+tpSolarLT             CDF_FLOAT/1	1:[1401]	T/T
+scanang               CDF_DOUBLE/1	1:[1401]	T/T
+rad1                  CDF_FLOAT/1	1:[1401]	T/T
+rad2                  CDF_FLOAT/1	1:[1401]	T/T
+rad3                  CDF_FLOAT/1	1:[1401]	T/T
+rad4                  CDF_FLOAT/1	1:[1401]	T/T
+rad5                  CDF_FLOAT/1	1:[1401]	T/T
+rad6                  CDF_FLOAT/1	1:[1401]	T/T
+rad7                  CDF_FLOAT/1	1:[1401]	T/T
+rad8                  CDF_FLOAT/1	1:[1401]	T/T
+rad9                  CDF_FLOAT/1	1:[1401]	T/T
+rad10                 CDF_FLOAT/1	1:[1401]	T/T
+rad6_80km             CDF_FLOAT/1	0:[]	T/  
+rad6_110km            CDF_FLOAT/1	0:[]	T/  
+rad6_140km            CDF_FLOAT/1	0:[]	T/  
+rad7_100km            CDF_FLOAT/1	0:[]	T/  
+rad7_140km            CDF_FLOAT/1	0:[]	T/  
+temperature_nmc       CDF_FLOAT/1	1:[64]	T/T
+geopotential_height_nmc CDF_FLOAT/1	1:[64]	T/T
+scattitude            CDF_FLOAT/1	2:[1401,3]	T/TT
+maxRate               CDF_FLOAT/1	0:[]	T/  
+timeMaxRate           CDF_INT4/1	0:[]	T/  
+angleMaxRate          CDF_FLOAT/1	0:[]	T/  
+ChannelName           CDF_CHAR/5	1:[10]	F/T
+sigma                 CDF_FLOAT/1	1:[10]	F/T
+Elevation             CDF_DOUBLE/1	1:[1401]	F/T
+pressure_nmc          CDF_FLOAT/1	1:[64]	F/T
+
+
+Variable (63 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+event (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/6): "event "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/6): "event "
+     FILLVAL         (CDF_INT2/1): -9
+     FORMAT          (CDF_UCHAR/2): "i4"
+     LABLAXIS        (CDF_UCHAR/6): "event "
+     UNITS           (CDF_UCHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+DATE (No: 2) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Date of observation "
+     FIELDNAM        (CDF_CHAR/20): "Date of observation "
+     FILLVAL         (CDF_INT4/1): 2001100
+     FORMAT          (CDF_CHAR/2): "i7"
+     LABLAXIS        (CDF_CHAR/20): "Date of observation "
+     UNITS           (CDF_UCHAR/2): "  "
+     VALIDMIN        (CDF_INT4/1): 1990001
+     VALIDMAX        (CDF_INT4/1): 2020365
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mode (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/35): "Instrument scan mode (down=0, up=1)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/5): "mode "
+     FILLVAL         (CDF_INT2/1): -9
+     FORMAT          (CDF_UCHAR/2): "i4"
+     LABLAXIS        (CDF_UCHAR/9): "Scan mode"
+     UNITS           (CDF_UCHAR/11): "0-down,1-up"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+tpDN (No: 4) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/84): "Phase of day at Tangent Point (0=Day 1=Night 2=Twilight(85<solar zenith angle<95)), "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/18): "Tangent Point D/N "
+     FILLVAL         (CDF_INT2/1): -9
+     FORMAT          (CDF_UCHAR/2): "i4"
+     LABLAXIS        (CDF_UCHAR/15): "TPoint d-phase "
+     UNITS           (CDF_UCHAR/15): "Day/ni/tw=0/1/2"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 2
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+tpAD (No: 5) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/56): "Orbit phase at Tangent Point (0=Ascending 1=Descending) "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/18): "Tangent Point A/D "
+     FILLVAL         (CDF_INT2/1): -9
+     FORMAT          (CDF_UCHAR/2): "i4"
+     LABLAXIS        (CDF_UCHAR/14): "TPoint o-phase"
+     UNITS           (CDF_UCHAR/12): "asc=0/desc=1"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+offsetALT (No: 6) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/29): "Altitude offset from Level 2 "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/16): "Altitude offset "
+     FILLVAL         (CDF_FLOAT/1): 0.0
+     FORMAT          (CDF_UCHAR/4): "f7.3"
+     LABLAXIS        (CDF_UCHAR/16): "Altitude offset "
+     UNITS           (CDF_UCHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): 0.1
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+twistAngle (No: 7) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/48): "Residual Twist Angle  (need more info, all fill)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/21): "Residual Twist Angle "
+     FILLVAL         (CDF_FLOAT/1): 0.0
+     FORMAT          (CDF_UCHAR/4): "f7.3"
+     LABLAXIS        (CDF_UCHAR/21): "Residual Twist Angle "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.1
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+motionFactor (No: 8) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/56): "Residual Motion Scale Factor  (need more info, all fill)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/14): "Motion Factor "
+     FILLVAL         (CDF_FLOAT/1): 1.0
+     FORMAT          (CDF_UCHAR/4): "f7.3"
+     LABLAXIS        (CDF_UCHAR/14): "Motion Factor "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.1
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+moonSepAngle (No: 9) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/29): "Separation Angle(los & moon) "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/17): "Separation Angle "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f7.3"
+     LABLAXIS        (CDF_UCHAR/17): "Separation Angle "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+tpaltmoonSepAngle (No: 10) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/32): "Tp Altitude at Separation Angle "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/20): "Tp Alt at Sep Angle "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f8.3"
+     LABLAXIS        (CDF_UCHAR/20): "Tp Alt at Sep Angle "
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): -500.0
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+solAP (No: 11) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/25): "Magnetic Ap index (daily)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/18): "Magnetic Ap index "
+     FILLVAL         (CDF_FLOAT/1): -9.0
+     FORMAT          (CDF_UCHAR/4): "f5.1"
+     LABLAXIS        (CDF_UCHAR/2): "Ap"
+     UNITS           (CDF_UCHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+solKP (No: 12) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/26): "Magnetic Kp index (3-hour)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/18): "Magnetic Kp index "
+     FILLVAL         (CDF_FLOAT/1): -9.0
+     FORMAT          (CDF_UCHAR/4): "f5.1"
+     LABLAXIS        (CDF_UCHAR/2): "Kp"
+     UNITS           (CDF_UCHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+solf10p7Daily (No: 13) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/25): "Solar F10.7 index (daily)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/13): "flux (daily) "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.7"
+     LABLAXIS        (CDF_UCHAR/5): "F10.7"
+     UNITS           (CDF_UCHAR/5): "daily"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 400.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+solf10p781dAvg (No: 14) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/36): "Solar F10.7 index (81-day)[all fill]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/22): "flux (81-day average) "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.7"
+     LABLAXIS        (CDF_UCHAR/5): "F10.7"
+     UNITS           (CDF_UCHAR/6): "81-day"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 400.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+solSpotNo (No: 15) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/33): "Zurich Sunspot Number  [all fill]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/15): "Sunspot Number "
+     FILLVAL         (CDF_INT2/1): -9
+     FORMAT          (CDF_UCHAR/2): "i4"
+     LABLAXIS        (CDF_UCHAR/14): "Sunspot Number"
+     UNITS           (CDF_UCHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 400
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+scSolarZen (No: 16) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/22): "Sc solar zenith angle "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/19): "Solar Zenith Angle "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f8.3"
+     LABLAXIS        (CDF_UCHAR/19): "Solar Zenith Angle "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+earth_sun (No: 17) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/19): "Earth-Sun distance "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/19): "Earth-Sun distance "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/19): "Earth-Sun distance "
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+lunar_vector (No: 18) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/41): "Vector to center of moon from spacecraft "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/18): "sc to moon vector "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.1"
+     LABLAXIS        (CDF_UCHAR/19): "sc to  moon vector "
+     UNITS           (CDF_UCHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): -500000.0
+     VALIDMAX        (CDF_FLOAT/1): 500000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+time (No: 19) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Time in msec since midnight "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_CHAR/5): "Time "
+     FILLVAL         (CDF_INT4/1): -999
+     FORMAT          (CDF_CHAR/2): "i8"
+     LABLAXIS        (CDF_CHAR/5): "Time "
+     UNITS           (CDF_UCHAR/4): "Msec"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 86400000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+sclatitude (No: 20) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/20): "Spacecraft latitude "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/20): "Spacecraft latitude "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.1"
+     LABLAXIS        (CDF_UCHAR/20): "Spacecraft latitude "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+sclongitude (No: 21) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/21): "Spacecraft longitude "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/21): "Spacecraft longitude "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.1"
+     LABLAXIS        (CDF_UCHAR/21): "Spacecraft longitude "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+scaltitude (No: 22) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/20): "Spacecraft altitude "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/20): "Spacecraft altitude "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f8.3"
+     LABLAXIS        (CDF_UCHAR/20): "Spacecraft altitude "
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+tplatitude (No: 23) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/23): "Tangent Point latitude "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/23): "Tangent Point latitude "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.1"
+     LABLAXIS        (CDF_UCHAR/23): "Tangent Point latitude "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+tplongitude (No: 24) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/24): "Tangent Point longitude "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/24): "Tangent Point longitude "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.1"
+     LABLAXIS        (CDF_UCHAR/24): "Tangent Point longitude "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+tpaltitude (No: 25) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/24): "Tangent Point altitude, "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "time"
+     FIELDNAM        (CDF_UCHAR/23): "Tangent Point altitude "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f8.3"
+     LABLAXIS        (CDF_UCHAR/8): "h_TPoint"
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 250.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+tpaltitude1 (No: 26) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/24): "Tangent Point altitude, "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "time"
+     FIELDNAM        (CDF_UCHAR/23): "Tangent Point altitude "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f8.3"
+     LABLAXIS        (CDF_UCHAR/8): "h_TPoint"
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 150.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "tpaltitude"
+
+tpaltitude2 (No: 27) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/24): "Tangent Point altitude, "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/4): "time"
+     FIELDNAM        (CDF_UCHAR/23): "Tangent Point altitude "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f8.3"
+     LABLAXIS        (CDF_UCHAR/8): "h_TPoint"
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "tpaltitude"
+
+sclatitudeAVG (No: 28) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/34): "Spacecraft latitude (scan-average)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/28): "Spacecraft latitude averaged"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.1"
+     LABLAXIS        (CDF_UCHAR/12): "latitude s/c"
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+sclongitudeAVG (No: 29) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/20): "---------> longitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/29): "Spacecraft longitude averaged"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.1"
+     LABLAXIS        (CDF_UCHAR/13): "longitude s/c"
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+scaltitudeAVG (No: 30) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/19): "---------> altitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/28): "Spacecraft altitude averaged"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f8.3"
+     LABLAXIS        (CDF_UCHAR/5): "h s/c"
+     UNITS           (CDF_UCHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+tplatitudeAVG (No: 31) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/37): "Tangent point latitude (scan-average)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/31): "Tangent Point latitude averaged"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.1"
+     LABLAXIS        (CDF_UCHAR/11): "Lati TPoint"
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+tplongitudeAVG (No: 32) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/23): "------------> longitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/32): "Tangent Point longitude averaged"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "f10.1"
+     LABLAXIS        (CDF_UCHAR/12): "Longi TPoint"
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+tpSolarZenAVG (No: 33) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/33): "------------> solar zenith angle "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/41): "Tangent Point solar zenith angle averaged"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f8.3"
+     LABLAXIS        (CDF_UCHAR/10): "SZA TPoint"
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+tpSolarLTAVG (No: 34) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/31): "------------> Local Solar Time "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/39): "Tangent Point local solar time averaged"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f6.3"
+     LABLAXIS        (CDF_UCHAR/10): "LST TPoint"
+     UNITS           (CDF_UCHAR/4): "hour"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 24.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+tpSolarZen (No: 35) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/56): "Tangent point solar zenith angle vs tangent point height"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/33): "Tangent Point solar zenith angle "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f8.3"
+     LABLAXIS        (CDF_UCHAR/10): "SZA TPoint"
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+tpSolarLT (No: 36) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/54): "------------> Local Solar Time vs tangent point height"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/31): "Tangent Point local solar time "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f6.3"
+     LABLAXIS        (CDF_UCHAR/10): "LST TPoint"
+     UNITS           (CDF_UCHAR/4): "hour"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 24.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+scanang (No: 37) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/18): "Mirror Scan Angle "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/18): "Mirror Scan Angle "
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     FORMAT          (CDF_UCHAR/5): "f11.5"
+     LABLAXIS        (CDF_UCHAR/18): "Mirror Scan Angle "
+     UNITS           (CDF_UCHAR/12): "milliradians"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+rad1 (No: 38) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/70): "Calibrated RADIANCE centered at 15.2um (C02-N) vs tangent point height"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "tpaltitude1"
+     FIELDNAM        (CDF_UCHAR/26): "Calibrated radiance C02-N "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/12): "R_15.2_C02-N"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 0.0001
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad2 (No: 39) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/58): "------------------> at 14.9 um (C02-W), filter technique 1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "tpaltitude1"
+     FIELDNAM        (CDF_UCHAR/38): "Calibrated radiance C02-W (channel 2) "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/13): "R_14.9_C02-W1"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 0.0001
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad3 (No: 40) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/58): "------------------> at 14.9 um (C02-W), filter technique 2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "tpaltitude1"
+     FIELDNAM        (CDF_UCHAR/38): "Calibrated radiance C02-W (channel 3) "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/13): "R_14.9_C02-W2"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 0.0001
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad4 (No: 41) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/34): "------------------> at 9.6 um (O3)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "tpaltitude2"
+     FIELDNAM        (CDF_UCHAR/23): "Calibrated radiance O3 "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/8): "R_9.6_O3"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-05
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad5 (No: 42) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/35): "------------------> at 6.9 um (H2O)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "tpaltitude2"
+     FIELDNAM        (CDF_UCHAR/24): "Calibrated radiance H2O "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/9): "R_6.9_H2O"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-05
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad6 (No: 43) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/34): "------------------> at 5.3 um (NO)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/23): "Calibrated radiance NO "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/8): "R_5.3_NO"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad7 (No: 44) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/35): "------------------> at 4.3 um (C02)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "tpaltitude"
+     FIELDNAM        (CDF_UCHAR/26): "Calibrated radiance C02-B "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/11): "R_4.3_C02-B"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 0.1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad8 (No: 45) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/32): "------------------> at 2 um (OH)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "tpaltitude2"
+     FIELDNAM        (CDF_UCHAR/25): "Calibrated radiance OH-A "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/8): "R_2_OH-A"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad9 (No: 46) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/36): "------------------> at 1.6 um (OH-B)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "tpaltitude2"
+     FIELDNAM        (CDF_UCHAR/25): "Calibrated radiance OH-B "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/10): "R_1.6_OH-B"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad10 (No: 47) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/35): "------------------> at 1.27 um (O2)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "tpaltitude1"
+     FIELDNAM        (CDF_UCHAR/23): "Calibrated radiance O2 "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/10): "R_1.27_O2 "
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad6_80km (No: 48) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/54): "Calibrated RADIANCE at 5.3 um (NO) at 80km [line plot]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/29): "Calibrated radiance NO (80km)"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/13): "R_5.3_NO 80km"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad6_110km (No: 49) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/55): "------------------> at 5.3 um (NO) at 110km [line plot]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/30): "Calibrated radiance NO (110km)"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/14): "R_5.3_NO 110km"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad6_140km (No: 50) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/55): "------------------> at 5.3 um (NO) at 140km [line plot]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/30): "Calibrated radiance NO (140km)"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/14): "R_5.3_NO 140km"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad7_100km (No: 51) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/56): "------------------> at 4.3 um (C02) at 100km [line plot]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/33): "Calibrated radiance C02-B (100km)"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/17): "R_4.3_C02-B 100km"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 0.1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+rad7_140km (No: 52) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/56): "------------------> at 4.3 um (C02) at 140km [line plot]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/33): "Calibrated radiance C02-B (140km)"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/5): "e14.5"
+     LABLAXIS        (CDF_UCHAR/17): "R_4.3_C02-B 140km"
+     UNITS           (CDF_UCHAR/11): "watts/m2/sr"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 0.1
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+temperature_nmc (No: 53) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/70): "NMC temperature vs geopotential height at tangent point (scan-average)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/23): "geopotential_height_nmc"
+     FIELDNAM        (CDF_CHAR/21): "NMC temperature at TP"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/6): "Tn_NMC"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+geopotential_height_nmc (No: 54) (Recs: 0)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "NMC geopotential height vs pressure at tangent point (scan-average)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "pressure_nmc"
+     FIELDNAM        (CDF_CHAR/16): "NMC Geopotential"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     LABLAXIS        (CDF_CHAR/10): "Geop_h_NMC"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_FLOAT/1): -10.0
+     VALIDMAX        (CDF_FLOAT/1): 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+scattitude (No: 55) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/27): "Spacecraft attitude vector "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/27): "Spacecraft attitude vector "
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_UCHAR/4): "f7.4"
+     LABLAXIS        (CDF_UCHAR/27): "Spacecraft attitude vector "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): -1.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+maxRate (No: 56) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/18): "maximum scan rate "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/18): "maximum scan rate "
+     FORMAT          (CDF_UCHAR/4): "f7.4"
+     LABLAXIS        (CDF_UCHAR/18): "maximum scan rate "
+     UNITS           (CDF_UCHAR/10): "degree/sec"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+timeMaxRate (No: 57) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/18): "maximum scan rate "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/18): "maximum scan rate "
+     FORMAT          (CDF_UCHAR/4): "f7.4"
+     LABLAXIS        (CDF_UCHAR/18): "maximum scan rate "
+     UNITS           (CDF_UCHAR/5): "msecs"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 86400000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+angleMaxRate (No: 58) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_UCHAR/39): "angle corresponds to maximum scan rate "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_UCHAR/24): "maximum scan rate angle "
+     FORMAT          (CDF_UCHAR/4): "f7.3"
+     LABLAXIS        (CDF_UCHAR/24): "maximum scan rate angle "
+     UNITS           (CDF_UCHAR/6): "degree"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+ChannelName (No: 59) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Channel Name"
+     FIELDNAM        (CDF_CHAR/12): "Channel Name"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+sigma (No: 60) (Recs: 1)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "Sigma"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/5): "Sigma"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     LABLAXIS        (CDF_CHAR/5): "Sigma"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Elevation (No: 61) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Elevation angle"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/15): "Elevation angle"
+     FILLVAL         (CDF_DOUBLE/1): -9999.0
+     FORMAT          (CDF_CHAR/5): "f11.5"
+     LABLAXIS        (CDF_CHAR/15): "Elevation angle"
+     UNITS           (CDF_CHAR/12): "milliradians"
+     VALIDMIN        (CDF_DOUBLE/1): 272.0
+     VALIDMAX        (CDF_DOUBLE/1): 468.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+pressure_nmc (No: 62) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "NMC pressure at TP descending (only 18 values used, what about the rest"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/29): "NMC pressure at TP descending"
+     FILLVAL         (CDF_FLOAT/1): -999.0
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     LABLAXIS        (CDF_CHAR/5): "p_NMC"
+     UNITS           (CDF_CHAR/4): "mbar"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+

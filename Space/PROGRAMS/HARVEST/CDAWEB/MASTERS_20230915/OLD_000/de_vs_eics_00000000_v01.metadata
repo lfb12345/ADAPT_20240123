@@ -1,0 +1,860 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/de_vs_eics_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     de_vs_eics_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     40
+NumAttrs:     50 (23 global, 27 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/30): 	"DE-1 Energetic Ion Composition"
+Project (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/54): 	"Space Physics>Magnetospheric  Ionospheric Interactions"
+Descriptor (1 entry):
+	0 (CDF_CHAR/43): 	"EICS>Energetic Ion Composition Spectrometer"
+Data_type (1 entry):
+	0 (CDF_CHAR/25): 	"VS>Validated Summary Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Text (12 entries):
+	0 (CDF_CHAR/186): 	" Data: 96 second average fluxes for H+, O+, and He+ ions in 15 energy and 14 pitch angle bins. Including data uncertainties, data quality indicators and spacecraft position information. "
+	1 (CDF_CHAR/12): 	"References: "
+	2 (CDF_CHAR/172): 	"1. Peterson, W.K., H.L. Collin, M.F. Doherty and C.M. Bjorklund, O+ and He+ restricted and extended (bi-modal) ion conic distributions, Geophys. Res.Lett., 19, 1439, 1992. "
+	3 (CDF_CHAR/198): 	"2. Collin, H.L., W.K. Peterson, J.F. Drake, and A.W. Yau, The helium components of energetic terrestrial ion upflows: Their occurrence,  morphology, and intensity, J. Geophys. Res., 93, 7558, 1988. "
+	4 (CDF_CHAR/162): 	"3. Chiu, Y.T., R.M. Robinson, H.L. Collin, S. Chakrabarti, and G.R. Gladstone, Exospheric imaging in the extreme ultraviolet, Geophys. Res. Lett., 17, 267, 1990. "
+	5 (CDF_CHAR/363): 	"4. Robinson, R.M., Y.T. Chiu, R.C. Catura, H.L. Collin, D. Garrido and R. Smith, Instrumental and observational requirements for space-based imaging of magnetospheric emissions, Instrumentation for magnetospheric Imager, Proceedings of the SPIE, The International Society for Optical Engineering,  Bellingham, Washington, S. Chakrabarti, Ed., Vol. 1744, 13, 1992."
+	6 (CDF_CHAR/312): 	"These data are are a validated sub set of the full resolution DE/EICS data set archived in native VAX/VMS format at NSSDC under the DATA_SET_NAME:  EICS_STAND_ALONE_TELEMETRY_FILE_SYSTEM. The data in this CDF are a super-set of the data used to prepare the four large scale statistical studies referenced above. "
+	7 (CDF_CHAR/335): 	"The three data quality indicators N C and A described in the documentation accompanying the EICS_STAND_ALONE_TELEMETRY_FILE_SYSTEM as well as several other data quality and mode indicators are included here.  These data indicators are described on line and are referenced from the DE project home page on the Space Physics Data System."
+	8 (CDF_CHAR/141): 	"URL: ftp://sierra.space..lockheed.com/DATA/de/DE_eics_home.html   IF Unavailable try: http://leadbelley.lanl.gov/spds/project-pages-only.html"
+	9 (CDF_CHAR/110): 	"Each physical cdf file contains data for an entire UT day.  The files have names of the form YYDDD_EICS_DE.cdf"
+	10 (CDF_CHAR/178): 	"The file naming convention includes the UT day encoded in the NASA standard YYDDD format. YY are the last two digits of the year and DDD is the day of year with January 1 = 001. "
+	11 (CDF_CHAR/360): 	"EICS data were not acquired in all 24 UT day intervals. If no input data were available for a UT day period, no CDF file was produced.  IFEICS data were available but there are no data available stisfying the input requirements for this data set for a UT day interval, the CDF file contains one record of CDF_FILL data entries for all record variable entries. "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0241"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"DE_VS_EICS"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/74): 	"DE-1 Energetic Ion Composition Spectrometer (EICS), Validated Summary Data"
+PI_name (1 entry):
+	0 (CDF_CHAR/13): 	"E. G. Shelley"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/15): 	"Lockheed Martin"
+Mission_group (3 entries):
+	0 (CDF_CHAR/17): 	"Dynamics Explorer"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/61): 	"Metadata providedby W.K. Peterson with the helpof Mona Kessel"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"DE_VS_EICS_00000000_v01"
+MODS (2 entries):
+	0 (CDF_CHAR/38): 	"Created October, 1995 by W.K. Peterson"
+	1 (CDF_CHAR/124): 	"Add Q_FLAG_FILE_CORRUPTED variable to indicate intervals for which full data quality information is not available. 10/10/95 "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/59): 	"DE1_EICS_Energetic-Ions-Validated-Summary-Data-VS_96sec_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/41): 	"spase://NASA/NumericalData/DE1/EICS/PT96S"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/8): 	" Webpage"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/9): 	"DE-1 EICS"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/57): 	"https://lasp.colorado.edu/timas/info/DE/DE_eics_home.html"
+
+Variable Attributes (27 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+MONOTON
+FILLVAL
+CATDESC
+VAR_TYPE
+DICT_KEY
+UNIT_PTR
+LABL_PTR_1
+LABL_PTR_2
+FORM_PTR
+LABLAXIS
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+ALLOW_BIN
+
+Variable Information (0 rVariable, 40 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+h_flux                CDF_REAL4/1	2:[15,14]	T/TT
+h_uncertainty         CDF_REAL4/1	2:[15,14]	T/TT
+Center_energy         CDF_REAL4/1	1:[15]	F/T
+E_delta               CDF_REAL4/1	1:[15]	F/T
+Center_pitch_angle    CDF_REAL4/1	1:[14]	F/T
+h_angle_label         CDF_CHAR/18	1:[14]	F/T
+h_uncertainty_angle_label CDF_CHAR/21	1:[14]	F/T
+o_flux                CDF_REAL4/1	2:[15,14]	T/TT
+o_uncertainty         CDF_REAL4/1	2:[15,14]	T/TT
+o_angle_label         CDF_CHAR/18	1:[14]	F/T
+o_uncertainty_angle_label CDF_CHAR/21	1:[14]	F/T
+he_flux               CDF_REAL4/1	2:[15,14]	T/TT
+he_uncertainty        CDF_REAL4/1	2:[15,14]	T/TT
+he_angle_label        CDF_CHAR/19	1:[14]	F/T
+he_uncertainty_angle_label CDF_CHAR/22	1:[14]	F/T
+INTERPOLATED_BACKGROUND CDF_REAL4/1	0:[]	T/  
+STANDARD_DEVIATION_OF_INTERPOLATED_BACKGROUND CDF_REAL4/1	0:[]	T/  
+Low_energy_cut_off    CDF_REAL4/1	0:[]	T/  
+Mode_error_flag       CDF_INT4/1	0:[]	T/  
+He_data               CDF_UINT1/1	0:[]	T/  
+N_flag                CDF_UINT1/1	0:[]	T/  
+C_flag                CDF_UINT1/1	0:[]	T/  
+A_flag                CDF_UINT1/1	0:[]	T/  
+Noisy_flag            CDF_UINT1/1	0:[]	T/  
+Short_flag            CDF_UINT1/1	0:[]	T/  
+PA_coverage_flag      CDF_UINT1/1	0:[]	T/  
+Q_FLAG_FILE_CORRUPTED CDF_UINT1/1	0:[]	T/  
+Geographic_position   CDF_REAL4/1	1:[3]	T/T
+Geomagnetic_position  CDF_REAL4/1	1:[3]	T/T
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+UNIT_PTR_GEOMAG       CDF_CHAR/3	1:[3]	F/T
+UNIT_PTR_GEO          CDF_CHAR/3	1:[3]	F/T
+FORM_PTR_GEOMAG       CDF_CHAR/4	1:[3]	F/T
+FORM_PTR_GEO          CDF_CHAR/5	1:[3]	F/T
+LABL_PTR_GEOMAG       CDF_CHAR/5	1:[3]	F/T
+LABL_PTR_GEO          CDF_CHAR/4	1:[3]	F/T
+
+
+Variable (40 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Time since 0 A.D."
+     VALIDMIN        (CDF_EPOCH/1): 15-Sep-1981 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 18-Feb-1991 23:59:59.999
+     SCALEMIN        (CDF_EPOCH/1): 16-Sep-1981 05:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 18-Feb-1991 10:00:00.000
+     UNITS           (CDF_CHAR/8): "ms (UT) "
+     FORMAT          (CDF_CHAR/8): "F14.0   "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/37): "NSSDC standard-reference time value. "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/30): "time>epoch_accumulation_center"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/85): "Center time of 96 second accumulation intervals, starting at 0 seconds of each UT day"
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Time PB5"
+     VALIDMIN        (CDF_INT4/3): 1981, 258, 0
+     VALIDMAX        (CDF_INT4/3): 1991, 49, 863999000
+     SCALEMIN        (CDF_INT4/3): 1981, 258, 18000000
+     SCALEMAX        (CDF_INT4/3): 1991, 49, 36000000
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/18): "Time PB5, centered"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/21): "time>PB5_center_range"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/85): "Center time of 96 second accumulation intervals, starting at 0 seconds of each UT day"
+
+h_flux (No: 2) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "H+ number flux"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+12
+     VALIDMAX        (CDF_REAL4/1): 1.0e+12
+     SCALEMIN        (CDF_REAL4/1): -1.0e+12
+     SCALEMAX        (CDF_REAL4/1): 1.0e+12
+     UNITS           (CDF_CHAR/18): "(cm^2-s-sr-keV)^-1"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/78): "H+ number flux, at 15 energies (~0.01 to ~20keV) and 14 pitch angles (6 shown)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/40): "particle_flux>proton_differential_number"
+     LABL_PTR_2      (CDF_CHAR/13): "h_angle_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Center_energy"
+     DEPEND_2        (CDF_CHAR/18): "Center_pitch_angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/113): "spectrogram>y=Center_energy,z=h_flux(*,1),z=h_flux(*,2),z=h_flux(*,7),z=h_flux(*,8),z=h_flux(*,13),z=h_flux(*,14)"
+     VAR_NOTES       (CDF_CHAR/384): "Negative fluxes reflect low count rates and background subtraction. The width of lowest energy channel is variable.  Pitch angle coverage is NOT uniform.  Conversion to velocity space density, calculations of density and other operations involving division by a characteristic energy are limited in accuracy by energy bands that are wide compared to the fall off of flux with energy. "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+h_uncertainty (No: 3) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/36): "Standard deviation of H+ number flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+12
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+12
+     UNITS           (CDF_CHAR/18): "(cm^2-s-sr-keV)^-1"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/83): "---> ONE Standard deviation of H+ number flux at 15 energy and 14 pitch angle bins."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/40): "particle_flux>proton_differential_number"
+     LABL_PTR_2      (CDF_CHAR/25): "h_uncertainty_angle_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Center_energy"
+     DEPEND_2        (CDF_CHAR/18): "Center_pitch_angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/155): "spectrogram>y=Center_energy,z=h_uncertainty(*,1),z=h_uncertainty(*,2),z=h_uncertainty(*,7),z=h_uncertainty(*,8),z=h_uncertainty(*,13),z=h_uncertainty(*,14)"
+     VAR_NOTES       (CDF_CHAR/147): "Uncertainly estimated from the observed total signal counts.  The width of lowest energy channel is variable.  Pitch angle coverage is NOT uniform."
+
+Center_energy (No: 4) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Energy (center)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/40): "Ion Energy, 15 channels ~0.01 to ~20 keV"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/19): "energy>band_channel"
+     LABLAXIS        (CDF_CHAR/8): "center E"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "E_delta"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "E_delta"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/467): "The first (lowest) of the 15 energy channels has a variable lower limit and center energy.  The variable Low_energy_cut_off specifies the lower limit of the lowest energy channel. The remaining 14 energy channels have fixed lower, center, and upper limits that are specified by DELTA_PLUS_VAR and DELTA_MINUS_VAR Attribute E_delta. The value in this table (0.062 keV) is the normal center energy for the lowest energy channel, i.e. when Low_energy_cut_off = 0.01 keV."
+
+E_delta (No: 5) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "50% of the FWHM Transmission Energy Band Pass. "
+     VALIDMIN        (CDF_REAL4/1): 0.075
+     VALIDMAX        (CDF_REAL4/1): 0.6
+     SCALEMIN        (CDF_REAL4/1): 0.05
+     SCALEMAX        (CDF_REAL4/1): 0.6
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/154): "Half of the instrumental Full EnergyWidth at Half Maximum Transmission, EXCEPT Low_energy_cut_off specifies the lower limit of the lowest energy channel. "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/19): "energy>band_channel"
+     LABLAXIS        (CDF_CHAR/9): "delta E/2"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/250): "The first of the 15 energy channels has a variable lower limit and center energy.   The remaining 14 energy channels have fixed lower, and upper limits that are specified by Center_energy and the DELTA_PLUS_VAR and DELTA_MINUS_VAR Attribute E_delta. "
+
+Center_pitch_angle (No: 6) (Recs: 1)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Pitch Angle"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/4): "F5.1"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/60): "Pitch Angles at the center of 14 non uniformly spaced Bins. "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "angle>pitch"
+     LABLAXIS        (CDF_CHAR/7): "P Angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/245): "Variable width Pitch Angle Bins covering 0-7.5, 7.5-15, 15-30, 30-45, 45-60, 60-75 75-90, 90-105, 105-120, 120-135, 135-150, 150-165, 165-172.5, and 172.5-180 degrees.  This provides highest angular resolution along the magnetic field direction."
+
+h_angle_label (No: 7) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/36): "Label for H+ Flux at 14 pitch angles"
+     CATDESC         (CDF_CHAR/36): "Label for H+ Flux at 14 pitch angles"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+h_uncertainty_angle_label (No: 8) (Recs: 1)
+-------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/36): "Label for H+ Flux at 14 pitch angles"
+     CATDESC         (CDF_CHAR/36): "Label for H+ Flux at 14 pitch angles"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+o_flux (No: 9) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "O+ number flux"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+12
+     VALIDMAX        (CDF_REAL4/1): 1.0e+12
+     SCALEMIN        (CDF_REAL4/1): -1.0e+12
+     SCALEMAX        (CDF_REAL4/1): 1.0e+12
+     UNITS           (CDF_CHAR/18): "(cm^2-s-sr-keV)^-1"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/78): "O+ number flux, at 15 energies (~0.01 to ~20keV) and 14 pitch angles (6 shown)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/40): "particle_flux>oxygen_differential_number"
+     LABL_PTR_2      (CDF_CHAR/13): "o_angle_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Center_energy"
+     DEPEND_2        (CDF_CHAR/18): "Center_pitch_angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/113): "spectrogram>y=Center_energy,z=o_flux(*,1),z=o_flux(*,2),z=o_flux(*,7),z=o_flux(*,8),z=o_flux(*,13),z=o_flux(*,14)"
+     VAR_NOTES       (CDF_CHAR/384): "Negative fluxes reflect low count rates and background subtraction. The width of lowest energy channel is variable.  Pitch angle coverage is NOT uniform.  Conversion to velocity space density, calculations of density and other operations involving division by a characteristic energy are limited in accuracy by energy bands that are wide compared to the fall off of flux with energy. "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+o_uncertainty (No: 10) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/36): "Standard deviation of O+ number flux"
+     VALIDMIN        (CDF_REAL4/1): -5000.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): -5000.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/24): "Ions (cm^2-s-sr-keV)^-1 "
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/83): "---> ONE Standard deviation of O+ number flux at 15 energy and 14 pitch angle bins."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/40): "particle_flux>oxygen_differential_number"
+     LABL_PTR_2      (CDF_CHAR/25): "o_uncertainty_angle_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Center_energy"
+     DEPEND_2        (CDF_CHAR/18): "Center_pitch_angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/155): "spectrogram>y=Center_energy,z=o_uncertainty(*,1),z=o_uncertainty(*,2),z=o_uncertainty(*,7),z=o_uncertainty(*,8),z=o_uncertainty(*,13),z=o_uncertainty(*,14)"
+     VAR_NOTES       (CDF_CHAR/147): "Uncertainly estimated from the observed total signal counts.  The width of lowest energy channel is variable.  Pitch angle coverage is NOT uniform."
+
+o_angle_label (No: 11) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/36): "Label for O+ Flux at 14 pitch angles"
+     CATDESC         (CDF_CHAR/36): "Label for O+ Flux at 14 pitch angles"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+o_uncertainty_angle_label (No: 12) (Recs: 1)
+-------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/36): "Label for O+ Flux at 14 pitch angles"
+     CATDESC         (CDF_CHAR/36): "Label for O+ Flux at 14 pitch angles"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+he_flux (No: 13) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "He+ number flux"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+12
+     VALIDMAX        (CDF_REAL4/1): 1.0e+12
+     SCALEMIN        (CDF_REAL4/1): -1.0e+12
+     SCALEMAX        (CDF_REAL4/1): 1.0e+12
+     UNITS           (CDF_CHAR/18): "(cm^2-s-sr-keV)^-1"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/79): "He+ number flux, at 15 energies (~0.01 to ~20keV) and 14 pitch angles (6 shown)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/55): "particle_flux>helium_singly_charged_differential_number"
+     LABL_PTR_2      (CDF_CHAR/14): "he_angle_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Center_energy"
+     DEPEND_2        (CDF_CHAR/18): "Center_pitch_angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/119): "spectrogram>y=Center_energy,z=he_flux(*,1),z=he_flux(*,2),z=he_flux(*,7),z=he_flux(*,8),z=he_flux(*,13),z=he_flux(*,14)"
+     VAR_NOTES       (CDF_CHAR/384): "Negative fluxes reflect low count rates and background subtraction. The width of lowest energy channel is variable.  Pitch angle coverage is NOT uniform.  Conversion to velocity space density, calculations of density and other operations involving division by a characteristic energy are limited in accuracy by energy bands that are wide compared to the fall off of flux with energy. "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+he_uncertainty (No: 14) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Standard deviation of He+ number flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     UNITS           (CDF_CHAR/24): "Ions (cm^2-s-sr-keV)^-1 "
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/78): "ONE Standard deviation of He+ number fluxat 15 energy and 14 pitch angle bins."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/55): "particle_flux>helium_singly_charged_differential_number"
+     LABL_PTR_2      (CDF_CHAR/26): "he_uncertainty_angle_label"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "Center_energy"
+     DEPEND_2        (CDF_CHAR/18): "Center_pitch_angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/161): "spectrogram>y=Center_energy,z=he_uncertainty(*,1),z=he_uncertainty(*,2),z=he_uncertainty(*,7),z=he_uncertainty(*,8),z=he_uncertainty(*,13),z=he_uncertainty(*,14)"
+     VAR_NOTES       (CDF_CHAR/147): "Uncertainly estimated from the observed total signal counts.  The width of lowest energy channel is variable.  Pitch angle coverage is NOT uniform."
+
+he_angle_label (No: 15) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Label for He+ Flux at 14 pitch angles"
+     CATDESC         (CDF_CHAR/37): "Label for He+ Flux at 14 pitch angles"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+he_uncertainty_angle_label (No: 16) (Recs: 1)
+--------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Label for He+ Flux at 14 pitch angles"
+     CATDESC         (CDF_CHAR/37): "Label for He+ Flux at 14 pitch angles"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+INTERPOLATED_BACKGROUND (No: 17) (Recs: 0)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Background count rate"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/17): "counts per sample"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/57): "Background count rate interpolated to center time. scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/12): "significance"
+     LABLAXIS        (CDF_CHAR/3): "Bkg"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     VAR_NOTES       (CDF_CHAR/321): "Because the backgrounddoes, at times, vary rapidly on the 96 second averaging period the background counting rate has been interpolated intime to reflect the expected background counting rate at the center of the averaging interval.  The ion flux may be time alised in regions of rapidly varying INTERPOLATED_BACKGROUND. "
+
+STANDARD_DEVIATION_OF_INTERPOLATED_BACKGROUND (No: 18) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "Standard deviation of Background"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/17): "counts per sample"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/62): "---> One standard deviation of Interpolated Background. scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/12): "significance"
+     LABLAXIS        (CDF_CHAR/9): "Bkg sigma"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/3): "rms"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     VAR_NOTES       (CDF_CHAR/90): "Determined from the total number ofbackground counts observed in the 96averaging period.  "
+
+Low_energy_cut_off (No: 19) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Low Energy Limit"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/61): "Lowest Energy above the spacecraft potential accepted. scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/19): "energy>band_channel"
+     LABLAXIS        (CDF_CHAR/8): "E cutoff"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/103): "The Center_energy of the lowest energy channel must be corrected for Low_energy_cut_off above 0.015 keV"
+
+Mode_error_flag (No: 20) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/72): "[PLOTTING NOT SUPPORTED] Combined Flags indicating mode and data quality"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 127
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 150
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I8"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/108): "Bitwise combination of  He_data,N_flag, C_flag, A_flag, Noisy_flag, Short_flag, and PA_coverage_flag. scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/24): "flag>quality_status_mode"
+     LABLAXIS        (CDF_CHAR/4): "FLAG"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     VAR_NOTES       (CDF_CHAR/1262): "This variable is displayed as a bitwisespectrogram by the idl check_cdf.pro code available from pete@willow.space.lockheed.com    Interpretation of Values: 0/1: 0=He+ data. 1=No He+ data 0/2: 0=NOT BCLIST N flag indicating that data are missing or care must be taken in processing or interpreting them. 2= N flag on. 0/4: 0=NOT BCLIST C flag indicating that data in the lowest energy channel are contaminated by extra counts from a EUV photoionization of residual gas in the input aperture. 4=C flag on. 0/8: 0=NOT BCLIST A flag indicating that full attitude are available in the full archived data file. Attitude data are not required or available for the pitch angle organized data processed into the cdf files here. 8= A flag on. 0/16: 0=Not NOISY data  Flag manually entered after scan of summary spectrogram 16= Noisy flag on. 0/32: 0=NOT TOO SHORT.  Interpretation of Noisy data and other problems was difficult from files containing less than about 7 minutes of data.  This flag was manually set from reading summary spectrograms. 32= Data interval too short.  0/64: 0=Complete pitch angle coverage determined from visual inspection of summary spectrograms 64= Incomplete pitch angle coverage. 0/128:  See Q_FLAG_FILE_CORRUPTED variable described below.  "
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+He_data (No: 21) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "He+ data available flag"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/8): "(0=good)"
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_UINT1/1): 255
+     CATDESC         (CDF_CHAR/54): "He+ data available flag 0=data for he+; 1=no he+ data "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/9): "flag>mode"
+     LABLAXIS        (CDF_CHAR/4): "0=he"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/122): "He+ fluxes are available for approximately 50% of the data intervalsin this archive.  He_data is set on a per record basis"
+
+N_flag (No: 22) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Data valid flag"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/8): "(0=good)"
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_UINT1/1): 255
+     CATDESC         (CDF_CHAR/64): "---> Data valid flag 0=good; 1=Not available or use with caution"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     LABLAXIS        (CDF_CHAR/4): "0-OK"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/438): "Some valid data may be included in the telemetry segment, but some of the data in the segment are invalid and must not be includedin long term average data sets.This is the N flag described in the EICSDATA.LIS file and other  documentation accompanying the EICS_STAND_ALONE_TELEMETRY_FILE_SYSTEM from NSSDC or on line on the DE project home page on the Space Physics Data System.  This flag is set on a telemetryinterval (segment) basis. "
+
+C_flag (No: 23) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Sun Pulse Flag"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/8): "(0=good)"
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_UINT1/1): 255
+     CATDESC         (CDF_CHAR/83): "---> Sun Pulse Flag0=good; 1=use data from the lowest energy channel with caution. "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     LABLAXIS        (CDF_CHAR/8): "SunPulse"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/527): "Set to 1 when a visual examination of  color spectrogram showed the lowest energy channel included a spurious count rate caused by the photoionization of residual neutral gases in in the preacceleration region of the spectrometer as described in Shelley et al. Geophys. Res. Lett. 9, p942, 1982. This is the C data quality flag described in the EICSDATA.LIS file and other  documentation accompanying the EICS_STAND_ALONE_TELEMETRY_FILE_SYSTEM from NSSDC or on line on the DE project home page on the Space Physics Data System."
+
+A_flag (No: 24) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Attitude Available Flag "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/8): "(0=good)"
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_UINT1/1): 255
+     CATDESC         (CDF_CHAR/122): "---> Attitude Available Flag 0: Source data CAN provide sensor orientation relative to the spacecraft velocity. 1: CAN NOT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/9): "flag>mode"
+     LABLAXIS        (CDF_CHAR/3): "N/A"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/491): "Information variable. Does not apply to data in this CDF.  If set to 0 information about the direction of plasma motion with respect to the satellite motion may be obtained from the the full resolution EICS_STAND_ALONE_TELEMETRY_FILE_SYSTEM archived at NSSDC. This is the A data quality flag described in the EICSDATA.LIS file and other  documentation accompanying the EICS_STAND_ALONE_TELEMETRY_FILE_SYSTEM from NSSDC or on line on the DE project home page on the Space Physics Data System."
+
+Noisy_flag (No: 25) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "Supplemental Data Valid Flag #1"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/8): "(0=good)"
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_UINT1/1): 255
+     CATDESC         (CDF_CHAR/108): "---> Supplemental Data Valid Flag #1 0=good; 1= Telemetry interval contains unphysically high signal levels "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     LABLAXIS        (CDF_CHAR/20): "Supp Data Valid Flag"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/471): "This flag is set on a telemetryinterval basis.  A visual examination of color spectrograms indicated some 96 second dataintervals with extremely high counting rates.  These intervals were identified by their characteristic patchyness on energy-time and angle-time spectrograms.  Data from intervals where the Noisy_flag=1 WERE NOT included in the large-scale statistical studies referenced in the global attributes.Some valid data may be included in the telemetry segment"
+
+Short_flag (No: 26) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "Supplemental Data Valid Flag #2"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/9): "(0=good) "
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_UINT1/1): 255
+     CATDESC         (CDF_CHAR/83): "---> Supplemental Data Valid Flag #2 0=good; 1=Too short to evaluate data quality. "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     LABLAXIS        (CDF_CHAR/20): "Supp Data Valid Flag"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/232): "1 indicates that  a visual examination of color spectrograms was not possible because the data interval was too short.  The data quality flags that depend on visual examination are:  C_flag, A_flag, Noisy_flag, and PA_coverage_flag."
+
+PA_coverage_flag (No: 27) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Pitch Angle Coverage Flag"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/8): "(0=good)"
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_UINT1/1): 255
+     CATDESC         (CDF_CHAR/64): "---> Pitch Angle Coverage Flag 0=good; 1=Incomplete PA coverage."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     LABLAXIS        (CDF_CHAR/11): "PA coverage"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/370): "Data for some pitch angle ranges may contain fill indicating that the full pitch angle range was notsampled.  This occurs when the magnetic field does not lie within  the satellite spin plane.    The flag is set to 1 when a visual examination of color spectrograms show that data are not available in all pitch angle bins.  This flag is set on a telemetry segment basis."
+
+Q_FLAG_FILE_CORRUPTED (No: 28) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Quality Flags Corrupted "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/8): "(0=good)"
+     FORMAT          (CDF_CHAR/2): "I2"
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_UINT1/1): 255
+     CATDESC         (CDF_CHAR/55): "---> Quality Flags Corrupted 0=OK ; 1= Information Lost"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     LABLAXIS        (CDF_CHAR/12): "Flags status"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/8): "nonsense"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/338): "Quality flag information for DE/EICSwas created in a keyed file using VMSspecific file management.  In the almost15 years this file has been maintained records for some time intervals have become corrupted.  Some quality informationcan be found in the data catalog available with the DE/EICS Stand Alone Telemetry Files (SATF) from NSSDC "
+
+Geographic_position (No: 29) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Geographic Position"
+     VALIDMIN        (CDF_REAL4/3): 7000.0, -90.0, -360.0
+     VALIDMAX        (CDF_REAL4/3): 24000.0, 90.0, 360.0
+     SCALEMIN        (CDF_REAL4/3): 7000.0, -90.0, -360.0
+     SCALEMAX        (CDF_REAL4/3): 24000.0, 90.0, 360.0
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/70): "Geographic Position Altitude above the geoid, latitude and longitude. "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/36): "position>altitude_latitude_longitude"
+     UNIT_PTR        (CDF_CHAR/12): "UNIT_PTR_GEO"
+     LABL_PTR_1      (CDF_CHAR/12): "LABL_PTR_GEO"
+     FORM_PTR        (CDF_CHAR/12): "FORM_PTR_GEO"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "LABL_PTR_GEO"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/37): "Values obtained from various sources."
+
+Geomagnetic_position (No: 30) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geomagnetic Position"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 10.0, -90.0
+     VALIDMAX        (CDF_REAL4/3): 24.0, 90.0, 90.0
+     SCALEMIN        (CDF_REAL4/3): 0.0, 10.0, -90.0
+     SCALEMAX        (CDF_REAL4/3): 24.0, 90.0, 90.0
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     FILLVAL         (CDF_REAL4/1): -1.0e-31
+     CATDESC         (CDF_CHAR/87): "Geomagnetic Position Magnetic local time, Invariant latitude and geomagnetic latitude. "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/32): "position>geomagnetic_coordinates"
+     UNIT_PTR        (CDF_CHAR/15): "UNIT_PTR_GEOMAG"
+     LABL_PTR_1      (CDF_CHAR/15): "LABL_PTR_GEOMAG"
+     FORM_PTR        (CDF_CHAR/15): "FORM_PTR_GEOMAG"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "LABL_PTR_GEOMAG"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/37): "Values obtained from various sources."
+
+label_time (No: 31) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/17): "label>time_units "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 32) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>units "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 33) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Format for Time_PB5                     "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/18): "label>time_format "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+UNIT_PTR_GEOMAG (No: 34) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Units for Geomagnetic Position"
+     CATDESC         (CDF_CHAR/30): "Units for Geomagnetic Position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/24): "label>geomagnetic_units "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+UNIT_PTR_GEO (No: 35) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Units for Geographic Position"
+     CATDESC         (CDF_CHAR/29): "Units for Geographic Position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/22): "label>geographic_units"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FORM_PTR_GEOMAG (No: 36) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "Format for Geomagnetic Position"
+     CATDESC         (CDF_CHAR/31): "Format for Geomagnetic Position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/24): "label>geomagnetic_format"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FORM_PTR_GEO (No: 37) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Format for Geographic Position"
+     CATDESC         (CDF_CHAR/30): "Format for Geographic Position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/24): "label>geographic_format "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+LABL_PTR_GEOMAG (No: 38) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Label for Geomagnetic Position"
+     CATDESC         (CDF_CHAR/30): "Label for Geomagnetic Position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/24): "label>geomagnetic_units "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+LABL_PTR_GEO (No: 39) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Label for Geographic Position"
+     CATDESC         (CDF_CHAR/29): "Label for Geographic Position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/23): "label>geographic_units "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

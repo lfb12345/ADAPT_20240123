@@ -1,0 +1,241 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/vg1_pws_wf_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     vg1_pws_wf_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     48 (24 global, 24 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (24 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/21): 	"Planetary Data System"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/27): 	"WF>Electric Field Waveforms"
+Descriptor (1 entry):
+	0 (CDF_CHAR/46): 	"PWS-WF>Plasma Wave Science - Waveform Receiver"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Source_name (1 entry):
+	0 (CDF_CHAR/15): 	"VGR-1>Voyager 1"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/19): 	"vg1_pws_wf_00000000"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"VG1_PWS_WF"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/60): 	"Voyager 1, Plasma Waves Science, Wideband Electric Waveforms"
+Mission_group (1 entry):
+	0 (CDF_CHAR/7): 	"Voyager"
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"W. Kurth"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/15): 	"University Iowa"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/130): 	"'A Plasma Wave Investigation for the Voyager Mission' F. L. Scarf and D. A. Gurnett, Space Science Reviews, Vol. 21, p. 289, 1977."
+Generated_by (1 entry):
+	0 (CDF_CHAR/18): 	"University of Iowa"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/40): 	"https://space.physics.uiowa.edu/voyager/"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/105): 	"More information on Voyager Plasma Wave Investigation is available at the University of Iowa Voyager Page"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/42): 	"Voyager PWS Page at The University of Iowa"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/58): 	"Pre-release data, peer review pending, may include errors."
+Skeleton_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/5): 	"60 ms"
+TITLE (1 entry):
+	0 (CDF_CHAR/23): 	"Voyager 1, PWS Wideband"
+Text_supplement (2 entries):
+	0 (CDF_CHAR/738): 	"The Voyager 1 Plasma Wave Spectrometer (PWS) raw full resolution data set consists of electric field waveform samples from the Voyager 1 Plasma Wave Subsystem waveform receiver obtained during the entire mission.  The data set encompasses all waveform observations obtained in the cruise mission phases before, between, and after the Jupiter and Saturn encounter phases as well as those obtained during the two encounter phases.  These measurements were acquired from the PWS waveform receiver. Data are presented as time series of 4-bit voltage measurements acquired at the rate of 28,800 samples per second through a 40 Hz to 12 kHz bandpass filter.  This data set provides the highest temporal resolution data from the Voyager mission."
+	1 (CDF_CHAR/589): 	"An automatic gain control is used to keep the signal within the usable range of the 4-bit digitization, however, the gain information is not returned to the ground, hence, there is no direct, absolute calibration.  However, a power spectrum analysis returns a spectrum that has accurate relative amplitudes between spectral elements. In order to prevent an artifical DC component from appearing in generated spectra and to reduce output file size, the 4-bit values have been multiplied by 2 and added to the value -15.  Thus the data are zero centered and may be stored in CDF_BYTE arrays."
+
+Variable Attributes (24 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+UNITS
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+MONOTON
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+Epoch_expanded        CDF_TT2000/1	0:[]	T/  
+Part                  CDF_UINT1/1	0:[]	T/  
+SCLK                  CDF_CHAR/12	0:[]	T/  
+ERT                   CDF_TT2000/1	0:[]	T/  
+timeOffsets           CDF_REAL8/1	1:[1600]	F/T
+Waveform              CDF_BYTE/1	1:[1600]	T/T
+Waveform_time         CDF_BYTE/1	1:[1600]	T/T
+
+
+Variable (8 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "Calibrated Spacecraft Event Time in UTC of the first capture of the Waveform"
+     FIELDNAM        (CDF_CHAR/21): "Spacecraft Event Time"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1977-09-05T14:09:23.600000000
+     VALIDMAX        (CDF_TT2000/1): 2059-10-27T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+Epoch_expanded (No: 1) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "Expanded times base/Epoch + timeoffsets"
+     FIELDNAM        (CDF_CHAR/14): "Expanded times"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1977-09-05T14:09:23.600000000
+     VALIDMAX        (CDF_TT2000/1): 2059-10-27T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/102): "REQUIRED - for Computed Epoch's based on Epoch/basetime plus timeOffsets_NRV for the VV Waveform_times"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+Part (No: 2) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Ground assigned spacecraft clock partition, accounts for rollover"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/14): "SCLK Partition"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/9): "Partition"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_UINT1/1): 1
+     VALIDMAX        (CDF_UINT1/1): 99
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+SCLK (No: 3) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "Immutable Spacecraft Clock value of first capture of the waveform"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/16): "Spacecraft Clock"
+     FILLVAL         (CDF_CHAR/15): "               "
+     FORMAT          (CDF_CHAR/3): "A12"
+     LABLAXIS        (CDF_CHAR/4): "SCLK"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_CHAR/12): "00000:00:001"
+     VALIDMAX        (CDF_CHAR/12): "65536:59:799"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+ERT (No: 4) (Recs: 0) (Compression: GZIP.6)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "Earth Receive Time of the Waveform, a sanity check for Epoch values"
+     FIELDNAM        (CDF_CHAR/18): "Earth Receive Time"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1977-09-05T14:09:23.600000000
+     VALIDMAX        (CDF_TT2000/1): 2059-10-27T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+timeOffsets (No: 5) (Recs: 1) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Number of microseconds to add to Epoch time to get sample time."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "Epoch Offset"
+     FILLVAL         (CDF_REAL8/1): -1.0
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     LABLAXIS        (CDF_CHAR/12): "Epoch Offset"
+     UNITS           (CDF_CHAR/6): "micro."
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 55555.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Waveform (No: 6) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Raw Values, Centered/Scaled (RAW*2 - 15) - spectrogram"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "timeOffsets"
+     DISPLAY_TYPE    (CDF_CHAR/8): "waveform"
+     FIELDNAM        (CDF_CHAR/17): "Electric Waveform"
+     FILLVAL         (CDF_BYTE/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABL_PTR_1      (CDF_CHAR/11): "timeOffsets"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_BYTE/1): -15
+     VALIDMAX        (CDF_BYTE/1): 15
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Waveform_time (No: 7) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/69): "Raw Values, Centered/Scaled (RAW*2 - 15) - very high res. time-series"
+     DEPEND_0        (CDF_CHAR/14): "Epoch_expanded"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "Electric Waveform"
+     FILLVAL         (CDF_BYTE/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_BYTE/1): -15
+     VALIDMAX        (CDF_BYTE/1): 15
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/16): "expand_wave_data"
+     COMPONENT_0     (CDF_CHAR/8): "Waveform"
+     COMPONENT_1     (CDF_CHAR/5): "Epoch"
+     COMPONENT_2     (CDF_CHAR/11): "timeOffsets"
+

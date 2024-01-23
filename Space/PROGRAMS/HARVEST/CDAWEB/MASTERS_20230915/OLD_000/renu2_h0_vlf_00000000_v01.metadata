@@ -1,0 +1,174 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/renu2_h0_vlf_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     renu2_h0_vlf_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     4
+NumAttrs:     48 (25 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_descriptor_yyyyMMdd"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"H0>High Time Resolution"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/59): 	"H0 - RENU2 COrnell Wire BOom Yo-yo (COWBOY) Electric Field."
+Mission_group (1 entry):
+	0 (CDF_CHAR/16): 	"Sounding Rockets"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/47): 	"University of New Hampshire, Cornell University"
+Source_name (1 entry):
+	0 (CDF_CHAR/47): 	"RENU2>Rocket Experiment for Neutral Upwelling 2"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"renu2"
+PI_name (1 entry):
+	0 (CDF_CHAR/26): 	"Marc Lessard, David Hysell"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+TEXT (1 entry):
+	0 (CDF_CHAR/38): 	"RENU2 COrnell Wire BOom Yo-yo (COWBOY)"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+Descriptor (1 entry):
+	0 (CDF_CHAR/30): 	"COWBOY>COrnell Wire BOom Yo-yo"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Acknowledgement (0 entry):
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/5): 	"RENU2"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/52): 	"spase://NASA/NumericalData/RENU2/COWBOY/VLF/PT0.001S"
+Generated_by (1 entry):
+	0 (CDF_CHAR/12): 	"Mark Chutter"
+Rules_of_use (0 entry):
+Generation_date (1 entry):
+	0 (CDF_CHAR/13): 	"July 18, 2018"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/37): 	"http://mirl.sr.unh.edu/projects_renu2"
+LINK_TEXT (0 entry):
+MODS (0 entry):
+Time_resolution (1 entry):
+	0 (CDF_CHAR/13): 	"1 millisecond"
+Logical_source (1 entry):
+	0 (CDF_CHAR/12): 	"renu2_h0_vlf"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/25): 	"renu2_h0_vlf_00000000_v01"
+
+Variable Attributes (23 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DICT_KEY
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+MONOTON
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+VAR_NOTES
+DISPLAY_TYPE
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+SCAL_PTR
+DEPEND_1
+TIME_BASE
+TIME_SCALE
+
+Variable Information (0 rVariable, 4 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+VLF12                 CDF_FLOAT/1	1:[512]	T/T
+VLF34                 CDF_FLOAT/1	1:[512]	T/T
+freq                  CDF_FLOAT/1	1:[512]	F/T
+
+
+Variable (4 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "interval centered time"
+     DICT_KEY        (CDF_CHAR/11): "time>TT2000"
+     FIELDNAM        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2015-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2016-12-31T23:59:59.999999999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+
+VLF12 (No: 1) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "VLF12 power spectrum"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/5): "VLF12"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/12): "VLF Power 12"
+     UNITS           (CDF_CHAR/12): "(V/m)^{2}/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-15
+     VALIDMAX        (CDF_REAL4/1): 1.0e-06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_1        (CDF_CHAR/4): "freq"
+
+VLF34 (No: 2) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "VLF34 power spectrum"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/5): "VLF34"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/12): "VLF Power 34"
+     UNITS           (CDF_CHAR/12): "(V/m)^{2}/Hz"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-15
+     VALIDMAX        (CDF_REAL4/1): 1.0e-06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_1        (CDF_CHAR/4): "freq"
+
+freq (No: 3) (Recs: 1)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Frequency Midpoints"
+     FIELDNAM        (CDF_CHAR/19): "Frequency Midpoints"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "G10.6"
+     LABLAXIS        (CDF_CHAR/9): "Freq (Hz)"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 20000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

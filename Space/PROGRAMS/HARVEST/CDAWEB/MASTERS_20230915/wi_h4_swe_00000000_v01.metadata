@@ -1,0 +1,607 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_h4_swe_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_h4_swe_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     26
+NumAttrs:     54 (26 global, 28 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"ISTP"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/54): 	"H4>3 sec solar wind electron pitch-angle distributions"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"SWE>Solar Wind Experiment"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"K. Ogilvie"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+TEXT (6 entries):
+	0 (CDF_CHAR/19): 	"Explanatory notes: "
+	1 (CDF_CHAR/321): 	"The electron pitch-angle distributions included in this data set are derived from sorting, by pitch (wrt B) and energy, the solar wind electron distributions measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1955)."
+	2 (CDF_CHAR/318): 	"Pitch-angle distrubutions, organized by energy, are computed from 3s measurements which are spaced either 6s or 12s in time.  These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing. "
+	3 (CDF_CHAR/943): 	"The following comments are intended to aid in the use and interpretation of the electron pitch-angle distributions reported in this data set.  For each 'energy spectrum', observations are made at 16 energy channels ranging from about 10 eV to as much as 3 keV.  The exact energies at which observations are made is time-varying, and this data set reports the energy each channel observes (along with the observations themselves) at any time.  The observations made at each energy are sorted into pitch-angle bins, six degrees in width, from 0 degrees (flux nearly parallel to B) to 180 degrees (flux nearly anti-parallel with B).  A "spin-averaged" set of observations (aggregated from all pitch-angle bins, each energy) is also reported, one value for each energy channel.  The value reported for any bin (including the spin-averaged "energy bins") is given as a phase-space density, f [#/{cc*(cm/s)^3}], averaged over contributing detectors."
+	4 (CDF_CHAR/388): 	"The data set reported here contains: f_pitch_E00, f_pitch_E01, f_pitch_E02, f_pitch_E03, f_pitch_E04, f_pitch_E05, f_pitch_E06, f_pitch_E07, f_pitch_E08, f_pitch_E09, f_pitch_E10, f_pitch_E11, f_pitch_E12, f_pitch_E13, f_pitch_E14, f_pitch_E15 (the pitch-angle distributions for each energy channel, with 30 pitch-angle bins for each), and f_pitch_SPA (with 16 spin-averaged energy bins)."
+	5 (CDF_CHAR/123): 	"For reference, the electron speeds (|V|, in cm/s) corresponding to the energy channels used, are reported in this data set."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"Wind"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"wi_h4_swe"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/22): 	"wi_h4_swe_20010709_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/105): 	"Wind Solar Wind Experiment (SWE), 3 sec solar wind electron pitch-angle distributions at 6-12 sec cadence"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"3 seconds"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (1 entry):
+	0 (CDF_CHAR/8): 	"20071203"
+Acknowledgement (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/27): 	"Skeleton created 12/03/2007"
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/76): 	"Additional information about instruments and parameters is available on the "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/14): 	"Wind Data Page"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/29): 	"http://wind.nasa.gov/data.php"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/44): 	"spase://NASA/NumericalData/Wind/SWE/H4/PT06S"
+
+Variable Attributes (28 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+FORM_PTR
+
+Variable Information (0 rVariable, 26 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Ve                    CDF_REAL4/1	1:[16]	T/T
+Ve_stack              CDF_REAL4/1	1:[16]	T/T
+eV                    CDF_REAL4/1	1:[16]	T/T
+eV_stack              CDF_REAL4/1	1:[16]	T/T
+f_pitch_E00           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E01           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E02           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E03           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E04           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E05           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E06           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E07           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E08           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E09           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E10           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E11           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E12           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E13           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E14           CDF_REAL4/1	1:[30]	T/T
+f_pitch_E15           CDF_REAL4/1	1:[30]	T/T
+f_pitch_SPA           CDF_REAL4/1	1:[16]	T/T
+Pitch_Angle           CDF_REAL4/1	1:[30]	F/T
+Echan_vals            CDF_INT4/1	1:[16]	F/T
+Echan_List1           CDF_CHAR/13	1:[16]	F/T
+Echan_List2           CDF_CHAR/13	1:[16]	F/T
+
+
+Variable (26 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "Time at start of measurement interval."
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/159): "Measurements are from observations over a single spin period of approx 3 sec but read out on either 6 or 12 sec telemetry cadence, depending on telemetery rate"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+Ve (No: 1) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "Electron speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Echan_vals"
+     DICT_KEY        (CDF_CHAR/17): "velocity>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/2): "Ve"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABL_PTR_1      (CDF_CHAR/11): "Echan_List1"
+     UNITS           (CDF_CHAR/4): "cm/s"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/52): "time-varying electron speeds corresponding to fluxes"
+
+Ve_stack (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "--> stack plot of all channels"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Echan_vals"
+     DICT_KEY        (CDF_CHAR/17): "velocity>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/2): "Ve"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/17): "Ve @ all Channels"
+     UNITS           (CDF_CHAR/4): "cm/s"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/2): "Ve"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/52): "time-varying electron speeds corresponding to fluxes"
+
+eV (No: 3) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Electron energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Echan_vals"
+     DICT_KEY        (CDF_CHAR/17): "velocity>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/2): "eV"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABL_PTR_1      (CDF_CHAR/11): "Echan_List2"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3500.0
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/12): "convert_toeV"
+     COMPONENT_0     (CDF_CHAR/2): "Ve"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/52): "time-varying electron speeds corresponding to fluxes"
+
+eV_stack (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "--> stack plot of all channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Echan_vals"
+     DICT_KEY        (CDF_CHAR/17): "velocity>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/2): "eV"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/17): "eV @ all Channels"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3500.0
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/12): "convert_toeV"
+     COMPONENT_0     (CDF_CHAR/2): "Ve"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/54): "time-varying electron energies corresponding to fluxes"
+
+f_pitch_E00 (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 00 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E00"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 00"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E01 (No: 6) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 01 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E01"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 01"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E02 (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 02 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E02"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 02"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E03 (No: 8) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 03 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E03"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 03"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E04 (No: 9) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 04 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E04"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 04"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E05 (No: 10) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 05 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E05"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 05"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E06 (No: 11) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 06 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E06"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 06"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E07 (No: 12) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 07 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E07"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 07"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E08 (No: 13) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 08 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E08"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 08"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E09 (No: 14) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 09 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E09"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 09"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E10 (No: 15) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 10 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E10"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 10"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E11 (No: 16) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 11 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E11"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 11"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E12 (No: 17) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 12 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E12"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 12"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E13 (No: 18) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 13 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E13"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 13"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E14 (No: 19) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 14 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E14"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 14"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_E15 (No: 20) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Electron pitch-angle distributions (6 degrees/bin), energy chanel 15 (time-varying energy value)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "Pitch_Angle"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_E15"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Elec Flux, chan 15"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "For the EXX distributions, Ve[XX] gives the corresponding electron speed (cm/s)."
+
+f_pitch_SPA (No: 21) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Electron spin-averaged flux, binned by energy channel"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Echan_vals"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/11): "f_pitch_SPA"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/18): "Spin-Avg Elec Flux"
+     UNITS           (CDF_CHAR/15): "#/{cc*(cm/s)^3}"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/103): "For each spin-averaged flux value, f_pitch_SPA[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+Pitch_Angle (No: 22) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Comp No 1"
+     FIELDNAM        (CDF_CHAR/9): "Comp No 1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "Center Pitch Angle"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 200.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Echan_vals (No: 23) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "Echan_vals"
+     FIELDNAM        (CDF_CHAR/14): "Energy channel"
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/14): "Energy channel"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 15
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Echan_List1 (No: 24) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "Echan_List"
+     FIELDNAM        (CDF_CHAR/14): "Energy channel"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/5): "Echan"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Echan_List2 (No: 25) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "Echan_List"
+     FIELDNAM        (CDF_CHAR/14): "Energy channel"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/5): "Echan"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

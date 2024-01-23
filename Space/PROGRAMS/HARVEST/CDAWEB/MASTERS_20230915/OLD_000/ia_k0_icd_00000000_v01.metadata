@@ -1,0 +1,286 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ia_k0_icd_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ia_k0_icd_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     9
+NumAttrs:     37 (19 global, 18 variable)
+Compression:  None
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/41): 	"INTERBALL-AURORAL>Interball Auroral Probe"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/39): 	"ICD>Auroral Probe Ion Composition Data "
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/40): 	"Auroral Probe Ion Composition  PROMICS-3"
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"created Sep 1998"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0325"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IA_K0_ICD_19961230_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IA_K0_ICD"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/74): 	"Interball Auroral Probe Ion Composition Experiment PROMICS, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"I.Sandahl"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/19): 	"IRF, Kiruna, Sweden"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+TEXT (2 entries):
+	0 (CDF_CHAR/99): 	"Count rate of H+, O+ ions in 2 min, three directions, (1-30 keV) Status flag shows instrument mode."
+	1 (CDF_CHAR/56): 	"Data description:  http://www.iki.rssi.ru/interball.html"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/43): 	"Interball-Auroral_ICD_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/57): 	"spase://NASA/NumericalData/Interball-2/PROMICS3/KP/PT120S"
+
+Variable Attributes (18 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DICT_KEY
+CATDESC
+SCALETYP
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 9 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+D6_H                  CDF_INT4/1	0:[]	T/  
+D8_H                  CDF_INT4/1	0:[]	T/  
+D10_H                 CDF_INT4/1	0:[]	T/  
+D6_O                  CDF_INT4/1	0:[]	T/  
+D8_O                  CDF_INT4/1	0:[]	T/  
+D10_O                 CDF_INT4/1	0:[]	T/  
+SF_ICD                CDF_UINT1/1	0:[]	T/  
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (9 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 30-Dec-1996 00:00:19.000
+     SCALEMAX        (CDF_EPOCH/1): 30-Dec-1996 17:24:28.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+D6_H (No: 1) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H+ count, D6 detector"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1000000
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 1876
+     LABLAXIS        (CDF_CHAR/9): "H+ asunwd"
+     UNITS           (CDF_CHAR/4): "cnts"
+     FORMAT          (CDF_CHAR/2): "I7"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     CATDESC         (CDF_CHAR/56): "H+ counts, 2 min sum from TRICS2 D6 antisunward detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+D8_H (No: 2) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H+ count, D8 detector"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1000000
+     SCALEMIN        (CDF_INT4/1): 7
+     SCALEMAX        (CDF_INT4/1): 4773
+     LABLAXIS        (CDF_CHAR/17): "H+ (GSE YZ plane)"
+     UNITS           (CDF_CHAR/4): "cnts"
+     FORMAT          (CDF_CHAR/2): "I7"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     CATDESC         (CDF_CHAR/59): "H+ counts, 2 min sum from TRICS2 D8 (GSE YZ plane) detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+D10_H (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "H+ count, D10 detector"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1000000
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 11492
+     LABLAXIS        (CDF_CHAR/8): "H+ sunwd"
+     UNITS           (CDF_CHAR/4): "cnts"
+     FORMAT          (CDF_CHAR/2): "I7"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     CATDESC         (CDF_CHAR/53): "H+ counts, 2 min sum from TRICS2 D10 sunward detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+D6_O (No: 4) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "O+ count, D6 detector"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1000000
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 570
+     LABLAXIS        (CDF_CHAR/9): "O+ asunwd"
+     UNITS           (CDF_CHAR/4): "cnts"
+     FORMAT          (CDF_CHAR/2): "I7"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     CATDESC         (CDF_CHAR/56): "O+ counts, 2 min sum from TRICS2 D6 antisunward detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+D8_O (No: 5) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "O+ count, D8 detector"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1000000
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 912
+     LABLAXIS        (CDF_CHAR/17): "O+ (GSE YZ plane)"
+     UNITS           (CDF_CHAR/4): "cnts"
+     FORMAT          (CDF_CHAR/2): "I7"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     CATDESC         (CDF_CHAR/59): "O+ counts, 2 min sum from TRICS2 D8 (GSE YZ plane) detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+D10_O (No: 6) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "O+ count, D10 detector"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1000000
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 3547
+     LABLAXIS        (CDF_CHAR/8): "O+ sunwd"
+     UNITS           (CDF_CHAR/4): "cnts"
+     FORMAT          (CDF_CHAR/2): "I7"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     CATDESC         (CDF_CHAR/53): "O+ counts, 2 min sum from TRICS2 D10 sunward detector"
+     SCALETYP        (CDF_CHAR/3): "log"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SF_ICD (No: 7) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "SF, PROMICS"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 80
+     SCALEMIN        (CDF_UINT1/1): 72
+     SCALEMAX        (CDF_UINT1/1): 73
+     LABLAXIS        (CDF_CHAR/2): "SF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/34): "Status Flag, instrument mode coded"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gap_Flag (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag : 0 no gap before this point, 1-5 gap reason"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

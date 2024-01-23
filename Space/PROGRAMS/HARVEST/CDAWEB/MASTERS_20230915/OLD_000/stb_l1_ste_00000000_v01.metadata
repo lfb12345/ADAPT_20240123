@@ -1,0 +1,274 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/stb_l1_ste_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     stb_l1_ste_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     10
+NumAttrs:     55 (27 global, 28 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (27 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/28): 	"STP>Solar Terrestrial Probes"
+Source_name (1 entry):
+	0 (CDF_CHAR/72): 	"stb>Solar Terrestrial Relations Observatory Behind of the Sun-Earth Line"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/10): 	"L1>Level 1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/62): 	"ste>STEREO-B IMPACT/STE>IMPACT Suprathermal Electron Telescope"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"J. Luhmann"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"UCB/SSL"
+TEXT (2 entries):
+	0 (CDF_CHAR/106): 	"The file contains Level 1 electron spectra from the IMPACT/STE instrument on the STEREO Behind spacecraft."
+	1 (CDF_CHAR/90): 	"***NOTICE: Values for Detectors #1-4 (=STE-U #0-3) are saturated and should not be used***"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	1 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"STEREO"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"stb_l1_ste"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"stb_l1_ste_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/32): 	"STEREO Behind IMPACT/STE Spectra"
+Time_resolution (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/35): 	"Experiment and Data descriptions at"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/21): 	"STEREO/IMPACT PI Site"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/impact"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/55): 	"spase://NASA/NumericalData/STEREO-B/IMPACT/STE/L1/PT10S"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+
+Variable Attributes (28 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+
+Variable Information (0 rVariable, 10 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+STE_spectra           CDF_FLOAT/1	2:[32,8]	T/TT
+STE_spectra_f         CDF_FLOAT/1	2:[32,8]	T/TT
+STE_spectra_LABL_1    CDF_CHAR/26	1:[32]	F/T
+STE_mode              CDF_UINT4/1	0:[]	T/  
+STE_energy            CDF_FLOAT/1	2:[32,8]	T/TT
+STE_energy_f          CDF_FLOAT/1	2:[32,8]	T/TT
+STE_detector          CDF_CHAR/13	1:[8]	F/T
+STE_Energy_vals       CDF_INT4/1	1:[32]	F/T
+STE_Detector_vals     CDF_INT4/1	1:[8]	F/T
+
+
+Variable (10 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Time since 0 AD"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/26): "Interval-centered time tag"
+
+STE_spectra (No: 1) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "STE Electron Spectra"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/17): "STE_Detector_vals"
+     DEPEND_2        (CDF_CHAR/15): "STE_Energy_vals"
+     DISPLAY_TYPE    (CDF_CHAR/100): "spectrogram>y=STE_energy,z=STE_spectra(5,*),z=STE_spectra(6,*),z=STE_spectra(7,*),z=STE_spectra(8,*)"
+     FIELDNAM        (CDF_CHAR/20): "STE Electron Spectra"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/12): "STE_detector"
+     LABL_PTR_2      (CDF_CHAR/18): "STE_spectra_LABL_1"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+20
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/164): "Ignore STE-U detectors because sunlight saturated.  Not using this variable definition because we need to flip the image, so use the STE_spectra_f variable instead."
+
+STE_spectra_f (No: 2) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/85): "STE Electron Spectra [Values for detectors #1-4 are saturated and should not be used]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "STE_Energy_vals"
+     DEPEND_2        (CDF_CHAR/17): "STE_Detector_vals"
+     DISPLAY_TYPE    (CDF_CHAR/102): "spectrogram>y=STE_energy_f,z=STE_spectra(*,5),z=STE_spectra(*,6),z=STE_spectra(*,7),z=STE_spectra(*,8)"
+     FIELDNAM        (CDF_CHAR/20): "STE Electron Spectra"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/18): "STE_spectra_LABL_1"
+     LABL_PTR_2      (CDF_CHAR/12): "STE_detector"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+20
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/91): "Ignore STE-U detectors because sunlight saturated - flip the data so that it lists properly"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/10): "flip_image"
+     COMPONENT_0     (CDF_CHAR/11): "STE_spectra"
+     COMPONENT_1     (CDF_CHAR/10): "STE_energy"
+     COMPONENT_2     (CDF_CHAR/12): "STE_energy_f"
+
+STE_spectra_LABL_1 (No: 3) (Recs: 1)
+------------------
+Attribute Entries:
+
+STE_mode (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "STE Mode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/19): "STE Mode Identifier"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/4): "Mode"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 100000
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+STE_energy (No: 5) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "--> STE Maximum Energy Threshold"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/17): "STE_Detector_vals"
+     DEPEND_2        (CDF_CHAR/15): "STE_Energy_vals"
+     DISPLAY_TYPE    (CDF_CHAR/47): "spectrogram>y=STE_Energy_vals,z=STE_energy(1,*)"
+     FIELDNAM        (CDF_CHAR/15): "STE MaxE Thresh"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     LABL_PTR_1      (CDF_CHAR/12): "STE_detector"
+     LABL_PTR_2      (CDF_CHAR/18): "STE_spectra_LABL_1"
+     UNITS           (CDF_CHAR/3): "keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/80): "Do not use, instead us STE_energy_f below because the array needs to be flipped "
+
+STE_energy_f (No: 6) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "--> STE Maximum Energy Threshold"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "STE_Energy_vals"
+     DEPEND_2        (CDF_CHAR/17): "STE_Detector_vals"
+     DISPLAY_TYPE    (CDF_CHAR/47): "spectrogram>y=STE_Energy_vals,z=STE_energy(*,1)"
+     FIELDNAM        (CDF_CHAR/15): "STE MaxE Thresh"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     LABL_PTR_1      (CDF_CHAR/18): "STE_spectra_LABL_1"
+     LABL_PTR_2      (CDF_CHAR/12): "STE_detector"
+     UNITS           (CDF_CHAR/3): "keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/10): "flip_image"
+     COMPONENT_0     (CDF_CHAR/10): "STE_energy"
+
+STE_detector (No: 7) (Recs: 1)
+------------
+Attribute Entries:
+     LABLAXIS        (CDF_CHAR/8): "Detector"
+
+STE_Energy_vals (No: 8) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Energy Band No."
+     FIELDNAM        (CDF_CHAR/15): "Energy Band No."
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I8"
+     UNITS           (CDF_CHAR/6): "Eband#"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 32
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+STE_Detector_vals (No: 9) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Detector No."
+     FIELDNAM        (CDF_CHAR/12): "Detector No."
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABL_PTR_1      (CDF_CHAR/12): "STE_detector"
+     UNITS           (CDF_CHAR/9): "Detector#"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 8
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

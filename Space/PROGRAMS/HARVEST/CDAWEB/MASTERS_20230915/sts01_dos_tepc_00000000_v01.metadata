@@ -1,0 +1,165 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sts01_dos_tepc_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sts01_dos_tepc_00000000_v01.cdf
+Version:      2.6.7
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-1997 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     4
+NumAttrs:     47 (24 global, 23 variable)
+Compression:  None
+
+Global Attributes (24 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"ISS"
+Source_name (1 entry):
+	0 (CDF_CHAR/11): 	"STS01>STS01"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/9): 	"DOS>Doses"
+Descriptor (1 entry):
+	0 (CDF_CHAR/9): 	"TEPC>TEPC"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"Juan Garza"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/8): 	"SRAG/JSC"
+TEXT (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/3): 	"ISS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/14): 	"sts01_dos_tepc"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/27): 	"sts01_dos_tepc_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/54): 	"Experiment Data, ISS STS01 TEPC (from ASCII .DOS file)"
+Time_resolution (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/57): 	"Space Radiation Analysis Group /NASA Johnson Space Center"
+MODS (0 entry):
+ADID_ref (0 entry):
+Link_text (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+
+Variable Attributes (23 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 4 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+CalcElapseTime        CDF_REAL4/1	0:[]	T/  
+Dose                  CDF_REAL4/1	0:[]	T/  
+Interval              CDF_REAL4/1	0:[]	T/  
+
+
+Variable (4 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+CalcElapseTime (No: 1) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Calculcated Elapsed Time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "CalcElapseTime"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f10.1"
+     LABLAXIS        (CDF_CHAR/14): "CalcElapseTime"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Dose (No: 2) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "Dose"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "Dose"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     LABLAXIS        (CDF_CHAR/4): "Dose"
+     UNITS           (CDF_CHAR/8): "nanogray"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+Interval (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Collection Interval"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/8): "Interval"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     LABLAXIS        (CDF_CHAR/8): "Interval"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

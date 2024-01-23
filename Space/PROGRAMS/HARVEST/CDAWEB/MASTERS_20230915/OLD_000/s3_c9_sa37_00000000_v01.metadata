@@ -1,0 +1,581 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/s3_c9_sa37_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     s3_c9_sa37_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     25
+NumAttrs:     45 (25 global, 20 variable)
+Compression:  None
+
+Global Attributes (25 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"CDAW-9; 1984-037A; Sel. Energ Part.; 10 s; 6.6 Re "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"1984-037A "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"En. Part. "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/12): 	"10 sec      "
+TEXT (6 entries):
+	0 (CDF_CHAR/30): 	"Derived from sa37 in CDAW9 DB."
+	1 (CDF_CHAR/31): 	"Data from all CDAW9 events A-E."
+	2 (CDF_CHAR/27): 	"Selected energies from S037"
+	3 (CDF_CHAR/772): 	"CDFs from the 3 s/c 1982-019A, 1984-037A and 1984-129A are identical in form. There are 4 detectors: low energy electrons (LOE), high energy  electrons (HIE), each with 6 energy ranges; and LOP and HIP for protons, with 10 and 16 energy ranges (only the 1st 6 or 7 of HIP are useful).  For LOE, HIE, and LOP, each range is from a lower energy level up to the detector maximum--an integrated energy.  For example, the 1st two LOE ranges are 30-300 keV and 45-300 keV.  The 30-45 keV range is thus the difference between the two measurements.  For low levels, background is significant, and measurements for a detector may not be strictly monotonic for any individual 10-s average.  In such cases, the differential flux is made 0 for energies above the non-monotonic flux.  "
+	4 (CDF_CHAR/351): 	"This CDF is a subset of S037, containing only selected energy channels for the  particle flux, and some of the other variables.  Each energy channel is now in a separate variable.  The selected fluxes are:  all 6 for LOE, the lowest 8 for LOP, and the lowest 5 for HIP, corresponding to elements 1-6 in S037DJE, and elements 1-8,10,12-15 in S037DJP.  "
+	5 (CDF_CHAR/257): 	"Direction cosines for H, V, D are with respect to dipole-meridian coordinates: H is parallel to the dipole axis, V radially outward, and D east.  S037THET and S037PHI are colatitude relative to the H axis and the azimuth measured from the negative V axis.  "
+MODS (1 entry):
+	0 (CDF_CHAR/103): 	"Converted to CDAWeb Feb 2000                                                                           "
+Data_type (1 entry):
+	0 (CDF_CHAR/11): 	"c9>CDAW9 DB"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/10): 	"S3>84-S037"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/6): 	"Cayton"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/62): 	"SA37>84-S037 Electrons 30-300 and Protons 90-1300 keV @ 10 sec"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/22): 	"Cayton and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/36): 	" Other Data Sources Not Listed Below"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"s3_c9_sa37"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"s3_c9_sa37_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/69): 	"S3 84-S037 Electrons 30-300 and Protons 90-1300 keV @ 10 sec CDAW9 DB"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+
+Variable Information (0 rVariable, 25 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+SA37E030              CDF_REAL4/1	0:[]	T/  
+SA37E045              CDF_REAL4/1	0:[]	T/  
+SA37E065              CDF_REAL4/1	0:[]	T/  
+SA37E095              CDF_REAL4/1	0:[]	T/  
+SA37E140              CDF_REAL4/1	0:[]	T/  
+SA37E200              CDF_REAL4/1	0:[]	T/  
+SA37P070              CDF_REAL4/1	0:[]	T/  
+SA37P083              CDF_REAL4/1	0:[]	T/  
+SA37P100              CDF_REAL4/1	0:[]	T/  
+SA37P130              CDF_REAL4/1	0:[]	T/  
+SA37P160              CDF_REAL4/1	0:[]	T/  
+SA37P190              CDF_REAL4/1	0:[]	T/  
+SA37P235              CDF_REAL4/1	0:[]	T/  
+SA37P290              CDF_REAL4/1	0:[]	T/  
+SA37P380              CDF_REAL4/1	0:[]	T/  
+SA37P490              CDF_REAL4/1	0:[]	T/  
+SA37P680              CDF_REAL4/1	0:[]	T/  
+SA37P870              CDF_REAL4/1	0:[]	T/  
+SA37PMEV              CDF_REAL4/1	0:[]	T/  
+SA37THET              CDF_REAL4/1	0:[]	T/  
+SA37PHI               CDF_REAL4/1	0:[]	T/  
+SA37CC2               CDF_REAL4/1	0:[]	T/  
+SA37PAEW              CDF_REAL4/1	0:[]	T/  
+SA37TLOC              CDF_REAL4/1	0:[]	T/  
+
+
+Variable (25 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1986 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+SA37E030 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E Flux  30-45 keV   "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 1000.0
+     SCALEMAX        (CDF_REAL8/1): 1.0e+06
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Elec Diff Flux  30-45 keV               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Elec 30-45 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37E045 (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E Flux  45-65 keV   "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 1000.0
+     SCALEMAX        (CDF_REAL8/1): 1.0e+06
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Elec Diff Flux  45-65 keV               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Elec 45-65 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37E065 (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E Flux  65-95 keV   "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 1000.0
+     SCALEMAX        (CDF_REAL8/1): 1.0e+06
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Elec Diff Flux  65-95 keV               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Elec 65-95 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37E095 (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E Flux  95-140 keV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 1000.0
+     SCALEMAX        (CDF_REAL8/1): 1.0e+06
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Elec Diff Flux 95-140 keV               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "Elec 95-140 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37E140 (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E Flux 140-200 keV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 100.0
+     SCALEMAX        (CDF_REAL8/1): 100000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Elc Diff Flux 140-200 keV               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "elec 140-200 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37E200 (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E Flux 200-300 keV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 100.0
+     SCALEMAX        (CDF_REAL8/1): 100000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Elc Diff Flux 200-300 keV               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "Elec 200-300 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P070 (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux  70-83 keV   "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 100.0
+     SCALEMAX        (CDF_REAL8/1): 100000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux  70-83 keV                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "Protons 70-83 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P083 (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux 83-100 keV   "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 100.0
+     SCALEMAX        (CDF_REAL8/1): 100000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux 83-100 keV                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/18): "Protons 83-100 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P100 (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux 100-130 keV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 100.0
+     SCALEMAX        (CDF_REAL8/1): 100000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux 100-130 keV                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Protons 100-130 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P130 (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux 130-160 keV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 10.0
+     SCALEMAX        (CDF_REAL8/1): 10000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux 130-160 keV                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Protons 130-160 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P160 (No: 11) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux 160-190 keV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 10.0
+     SCALEMAX        (CDF_REAL8/1): 10000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux 160-190 keV                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Protons 160-190 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P190 (No: 12) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux 190-235 keV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 10.0
+     SCALEMAX        (CDF_REAL8/1): 10000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux 190-235 keV                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Protons 190-235 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P235 (No: 13) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux 235-290 keV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 10.0
+     SCALEMAX        (CDF_REAL8/1): 10000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux 235-290 keV                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Protons 235-290 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P290 (No: 14) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux 290-350 keV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux 290-350 keV                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Protons 290-350 keV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P380 (No: 15) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux .38-.49 MeV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux .38-.49 MeV                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Protons .38-.49 MeV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P490 (No: 16) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux .49-.68 MeV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux .49-.68 MeV                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Protons .49-.68 MeV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P680 (No: 17) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux .68-.87 MeV  "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux .68-.87 MeV                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Protons .68-.87 MeV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37P870 (No: 18) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux .87-1.05 MeV "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 0.1
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux .87-1.05 MeV                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/20): "Protons .87-1.05 MeV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37PMEV (No: 19) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "P Flux 1.05-1.45 MeV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 18.9802
+     SCALEMIN        (CDF_REAL8/1): 0.1
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/20): "/cm**2 s sr keV     "
+     FORMAT          (CDF_CHAR/8): "E10.3   "
+     CATDESC         (CDF_CHAR/40): "Proton Flux 1.05-1.45 MeV               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/21): "Protons 1.05-1.45 MeV"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37THET (No: 20) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Polar Angle         "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.60156
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 180.0
+     UNITS           (CDF_CHAR/20): "deg                 "
+     FORMAT          (CDF_CHAR/8): "F7.2    "
+     CATDESC         (CDF_CHAR/40): "Polar angle to H axis                   "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "Polar Angle to H"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37PHI  (No: 21) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Azimuth Angle       "
+     VALIDMIN        (CDF_REAL4/1): -3.60156
+     VALIDMAX        (CDF_REAL4/1): 3.60156
+     SCALEMIN        (CDF_REAL8/1): -180.0
+     SCALEMAX        (CDF_REAL8/1): 180.0
+     UNITS           (CDF_CHAR/20): "deg                 "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "Azim. Angle to Earth Vector             "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "Az Angle to Earth"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37CC2  (No: 22) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Electron Anisot(2)  "
+     VALIDMIN        (CDF_REAL4/1): -1.875
+     VALIDMAX        (CDF_REAL4/1): 1.875
+     SCALEMIN        (CDF_REAL8/1): -1.0
+     SCALEMAX        (CDF_REAL8/1): 1.0
+     UNITS           (CDF_CHAR/20): "--                  "
+     FORMAT          (CDF_CHAR/8): "F7.3    "
+     CATDESC         (CDF_CHAR/40): "2 Order Electr Anisotropy               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "2order Elec Aniso"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37PAEW (No: 23) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Proton Anisot. E-W  "
+     VALIDMIN        (CDF_REAL4/1): -1.875
+     VALIDMAX        (CDF_REAL4/1): 1.875
+     SCALEMIN        (CDF_REAL8/1): -1.0
+     SCALEMAX        (CDF_REAL8/1): 1.0
+     UNITS           (CDF_CHAR/20): "--                  "
+     FORMAT          (CDF_CHAR/8): "F7.3    "
+     CATDESC         (CDF_CHAR/40): "Proton E-W Anisotropy                   "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "Proton EW Aniso"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SA37TLOC (No: 24) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Local Time          "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.875
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 24.0
+     UNITS           (CDF_CHAR/20): "hours               "
+     FORMAT          (CDF_CHAR/8): "F5.2    "
+     CATDESC         (CDF_CHAR/40): "Local Time                              "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "84-S037A LT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+

@@ -1,0 +1,1427 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ge_k0_epi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ge_k0_epi_00000000_v01.cdf
+Version:      3.5.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     73
+NumzVars:     0
+NumAttrs:     47 (20 global, 27 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (20 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"GEOTAIL>Geomagnetic Tail"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/43): 	"EPI>Energetic Particles and Ion Composition"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/15): 	"ISTP CDF format"
+TEXT (21 entries):
+	0 (CDF_CHAR/29): 	"EPIC Instrument Description: "
+	1 (CDF_CHAR/66): 	" A) Supra-Thermal Ion Composition Spectrometer (STICS) Subsystem: "
+	2 (CDF_CHAR/35): 	"    1) Ion Head/Telescope Coverage "
+	3 (CDF_CHAR/41): 	"       Apperature Width:  53.4 polar deg "
+	4 (CDF_CHAR/47): 	"       Apperature Center: Spacecraft spin plane"
+	5 (CDF_CHAR/50): 	" B) Ion Composition Spectrometer (ICS) Subsystem: "
+	6 (CDF_CHAR/25): 	"    1) Ion Head Coverage "
+	7 (CDF_CHAR/67): 	"       Apperature Width:  60.0 polar deg excluding center 16.0 deg "
+	8 (CDF_CHAR/47): 	"       Apperature Center: Spacecraft spin plane"
+	9 (CDF_CHAR/34): 	"    2) Electron Detector Coverage "
+	10 (CDF_CHAR/41): 	"       Apperature Width:  60.0 polar deg "
+	11 (CDF_CHAR/47): 	"       Apperature Center: Spacecraft spin plane"
+	12 (CDF_CHAR/15): 	"    3) Caution "
+	13 (CDF_CHAR/67): 	"       ICS Ion channels can change between two sets of energy pass "
+	14 (CDF_CHAR/66): 	"       bands from record to record; consult the associated energy "
+	15 (CDF_CHAR/60): 	"       information to determine what the current values are."
+	16 (CDF_CHAR/38): 	"Anisotropy Calculation Qualification: "
+	17 (CDF_CHAR/33): 	" A) a1, a2, phi1 and phi2 are not"
+	18 (CDF_CHAR/34): 	"    calculated when the count rate"
+	19 (CDF_CHAR/36): 	"    is below a threshhold, currently"
+	20 (CDF_CHAR/24): 	"    8 counts/96 seconds."
+MODS (13 entries):
+	0 (CDF_CHAR/16): 	"v1.0 19-Sep-1991"
+	1 (CDF_CHAR/16): 	"v1.3 11-Mar-1992"
+	2 (CDF_CHAR/59): 	"v2.0 13-Jan-1993 changes for Standards and Convensions v1.1"
+	3 (CDF_CHAR/76): 	"v3.0 25-May-1994 a) corrected PDiffI_S_Eminus    dimen variance FTFF -> TFFF"
+	4 (CDF_CHAR/53): 	" b) changed LABL_PTR_1 to LABLAXIS    for 3 variables"
+	5 (CDF_CHAR/70): 	" c) removed several DEPEND1 attributes d) corrected indexing for M8/P2"
+	6 (CDF_CHAR/58): 	" e) corrected anisotropy min/max    values from [0,2pi] to"
+	7 (CDF_CHAR/55): 	"    [-pi,+pi] for phi1 and to    [-pi/2,+pi/2] for phi2"
+	8 (CDF_CHAR/48): 	" f) changed ratio SCALETYP from    linear to log"
+	9 (CDF_CHAR/43): 	" g) narrowed several SCALEMIN/MAX    ranges"
+	10 (CDF_CHAR/64): 	"v3.1 16-Sep-1994 a) shortened TEXT entries to max of     80 char"
+	11 (CDF_CHAR/40): 	" b) removed several DEPEND0/1 attributes"
+	12 (CDF_CHAR/46): 	" c) removed value for Logical_file_id    entry"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0090"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"GE_K0_EPI_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"GE_K0_EPI"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/68): 	"Geotail Energetic Particles & Ion Composition (EPIC), Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"D. Williams"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"APL/JHU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"sphe-00294"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/39): 	"Geotail_EPIC_Key-Parameters-K0_1min_cdf"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/7): 	"Geotail"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/45): 	"spase://JAXA/NumericalData/Geotail/EPIC/PT96S"
+
+Variable Attributes (27 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+SCALETYP
+SCAL_PTR
+UNITS
+UNIT_PTR
+LABLAXIS
+LABL_PTR_1
+FORMAT
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+MONOTON
+DICT_KEY
+VAR_TYPE
+FILLVAL
+DISPLAY_TYPE
+VAR_NOTES
+FUNCTION
+VIRTUAL
+COMPONENT_0
+
+Variable Information (73 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	4:[2,3,5,12]	T/FFFF
+Time_PB5              CDF_INT4/1	4:[2,3,5,12]	T/FTFF
+label_time            CDF_CHAR/27	4:[2,3,5,12]	F/FTFF
+unit_time             CDF_CHAR/4	4:[2,3,5,12]	F/FTFF
+format_time           CDF_CHAR/2	4:[2,3,5,12]	F/FTFF
+Qual_Flag             CDF_INT4/1	4:[2,3,5,12]	T/FFFF
+PostGap_Flag          CDF_INT4/1	4:[2,3,5,12]	T/FFFF
+Mode_Flag             CDF_INT4/1	4:[2,3,5,12]	T/FFFF
+IDiffI_I              CDF_REAL4/1	4:[2,3,5,12]	T/FFFT
+IDiffI_I2             CDF_REAL4/1	4:[2,3,5,12]	T/FFFT
+IDiffI_I_Uncert       CDF_REAL4/1	4:[2,3,5,12]	T/FFFT
+IDiffI_I_Energy       CDF_REAL4/1	4:[2,3,5,12]	T/FFFT
+IDiffI_I_Ch           CDF_CHAR/10	4:[2,3,5,12]	F/FFFT
+IDiffI_I_Eplus        CDF_REAL4/1	4:[2,3,5,12]	F/FFFT
+IDiffI_I_Eminus       CDF_REAL4/1	4:[2,3,5,12]	F/FFFT
+PDiffI_S              CDF_REAL4/1	4:[2,3,5,12]	T/TFFF
+PDiffI_S_errorbars    CDF_REAL4/1	4:[2,3,5,12]	T/TFFF
+PDiffI_S_label        CDF_CHAR/14	4:[2,3,5,12]	F/TFFF
+PDiffI_S_Uncert       CDF_REAL4/1	4:[2,3,5,12]	T/TFFF
+PDiffI_S_Un_label     CDF_CHAR/17	4:[2,3,5,12]	F/TFFF
+PDiffI_S_Energy       CDF_REAL4/1	4:[2,3,5,12]	F/TFFF
+PDiffI_S_Ch           CDF_CHAR/11	4:[2,3,5,12]	F/TFFF
+PDiffI_S_Eplus        CDF_REAL4/1	4:[2,3,5,12]	F/TFFF
+PDiffI_S_Eminus       CDF_REAL4/1	4:[2,3,5,12]	F/TFFF
+EIntI_I               CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+EIntI_I_errorbars     CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+EIntI_I_Uncert        CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+EIntI_I_Energy        CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+EIntI_I_Eplus         CDF_REAL4/1	4:[2,3,5,12]	F/FFFF
+EIntI_I_Eminus        CDF_REAL4/1	4:[2,3,5,12]	F/FFFF
+HeHRatio_I            CDF_REAL4/1	4:[2,3,5,12]	T/TFFF
+HeHRatio_I_errorbars  CDF_REAL4/1	4:[2,3,5,12]	T/TFFF
+He/H_label            CDF_CHAR/19	4:[2,3,5,12]	F/TFFF
+HeHRatio_I_Uncert     CDF_REAL4/1	4:[2,3,5,12]	T/TFFF
+d_He/H_label          CDF_CHAR/25	4:[2,3,5,12]	F/TFFF
+HeHRatio_I_Ch         CDF_CHAR/25	4:[2,3,5,12]	F/TFFF
+OHRatio_I             CDF_REAL4/1	4:[2,3,5,12]	T/TFFF
+OHRatio_I_errorbars   CDF_REAL4/1	4:[2,3,5,12]	T/TFFF
+O/H_label             CDF_CHAR/19	4:[2,3,5,12]	F/TFFF
+OHRatio_I_Uncert      CDF_REAL4/1	4:[2,3,5,12]	T/TFFF
+d_O/H_label           CDF_CHAR/25	4:[2,3,5,12]	F/TFFF
+OHRatio_I_Ch          CDF_CHAR/25	4:[2,3,5,12]	F/TFFF
+HeHRatio_S            CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+HeHRatio_S_errorbars  CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+HeHRatio_S_Uncert     CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+OHRatio_S             CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+OHRatio_S_errorbars   CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+OHRatio_S_Uncert      CDF_REAL4/1	4:[2,3,5,12]	T/FFFF
+EAni_I                CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+EAni_I_errorbars      CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+EAni_I_Uncert         CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+units_e_anisot        CDF_CHAR/14	4:[2,3,5,12]	F/FFTF
+labels_anisot         CDF_CHAR/14	4:[2,3,5,12]	F/FFTF
+d_labels_anisot       CDF_CHAR/20	4:[2,3,5,12]	F/FFTF
+formats_anisot        CDF_CHAR/4	4:[2,3,5,12]	F/FFTF
+scales_anisot         CDF_CHAR/6	4:[2,3,5,12]	F/FFTF
+PAni_S                CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+PAni_S_errorbars      CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+plabels_anisot        CDF_CHAR/15	4:[2,3,5,12]	F/FFTF
+d_plabels_anisot      CDF_CHAR/21	4:[2,3,5,12]	F/FFTF
+PAni_S_Uncert         CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+units_p_S_anisot      CDF_CHAR/16	4:[2,3,5,12]	F/FFTF
+PAni67_I              CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+PAni67_I_errorbars    CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+p2labels_anisot       CDF_CHAR/12	4:[2,3,5,12]	F/FFTF
+d_p2labels_anisot     CDF_CHAR/18	4:[2,3,5,12]	F/FFTF
+PAni67_I_Uncert       CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+units_p_I_anisot      CDF_CHAR/18	4:[2,3,5,12]	F/FFTF
+PAni129_I             CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+PAni129_I_errorbars   CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+p3labels_anisot       CDF_CHAR/13	4:[2,3,5,12]	F/FFTF
+d_p3labels_anisot     CDF_CHAR/19	4:[2,3,5,12]	F/FFTF
+PAni129_I_Uncert      CDF_REAL4/1	4:[2,3,5,12]	T/FFTF
+
+
+Variable (73 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/37): "Time, centered in NSSDC EPOCH format "
+     VALIDMIN        (CDF_EPOCH/1): 24-Jul-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 24-Jul-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     DICT_KEY        (CDF_CHAR/16): "time>NSSDC_Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Time (PB5)"
+     CATDESC         (CDF_CHAR/39): "Time_PB5, centered, in ISTP PB5 format "
+     VALIDMIN        (CDF_INT4/3): 1992, 206, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 86399000
+     SCALEMIN        (CDF_INT4/3): 1992, 206, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 366, 86399000
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     DICT_KEY        (CDF_CHAR/8): "Time>PB5"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+
+label_time (No: 2) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     DICT_KEY        (CDF_CHAR/10): "label>time"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DISPLAY_TYPE    (CDF_CHAR/5): "label"
+
+unit_time (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     DICT_KEY        (CDF_CHAR/11): "label>units"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DISPLAY_TYPE    (CDF_CHAR/6): "label "
+
+format_time (No: 4) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DISPLAY_TYPE    (CDF_CHAR/6): "label "
+
+Qual_Flag (No: 5) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "EPIC Data Quality Flag"
+     CATDESC         (CDF_CHAR/30): "EPIC Data Quality Flag, scalar"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 16777215
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 16777215
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "EPIC_DQF"
+     FORMAT          (CDF_CHAR/2): "I9"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/17): "flag>data_quality"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+PostGap_Flag (No: 6) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "EPIC Post Gap Flag"
+     CATDESC         (CDF_CHAR/40): "EPIC Post Gap  Flag (values ...), scalar"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "EPIC_PGF"
+     FORMAT          (CDF_CHAR/2): "I1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Mode_Flag (No: 7) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "EPIC Mode Flag"
+     CATDESC         (CDF_CHAR/34): "EPIC Mode Flag (value ...), scalar"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 16777215
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 16777215
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "EPIC_Mode"
+     FORMAT          (CDF_CHAR/2): "I9"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "flag>mode"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+IDiffI_I (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "Spin-avg Ion Diff Inten (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/72): "Ion Diff. Intensity, at 12 energies 67-1361 keV (EPIC/ICS) - spectrogram"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/18): "1/[cm**2-s-sr-keV]"
+     LABLAXIS        (CDF_CHAR/5): "dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "IDiffI_I_Energy"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+IDiffI_I2 (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "Spin-avg Ion Diff Inten (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/80): "Ion Diff. Intensity, at 12 energies 67-1361 keV (EPIC/ICS) - stacked time series"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.0001
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/18): "1/[cm**2-s-sr-keV]"
+     LABLAXIS        (CDF_CHAR/5): "dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "IDiffI_I_Energy"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/40): "stack_plot>y=IDiffI_I2,z=IDiffI_I_Energy"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/8): "IDiffI_I"
+
+IDiffI_I_Uncert (No: 10) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Uncertainty, Spin-avg Ion Diff Inten (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/49): "Uncertainty, Ion Diff. Intensity, at 12 energies "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/18): "1/[cm**2-s-sr-keV]"
+     LABLAXIS        (CDF_CHAR/11): "Delta dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "IDiffI_I_Energy"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "spectrogram "
+
+IDiffI_I_Energy (No: 11) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Ion Energy (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/51): "Ion Energy, for 12 channels 67-1361 keV (EPIC/ICS) "
+     VALIDMIN        (CDF_REAL4/1): 67.3
+     VALIDMAX        (CDF_REAL4/1): 1361.0
+     SCALEMIN        (CDF_REAL4/1): 67.3
+     SCALEMAX        (CDF_REAL4/1): 1361.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/3): "keV"
+     LABL_PTR_1      (CDF_CHAR/11): "IDiffI_I_Ch"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "IDiffI_I_Ch"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "IDiffI_I_Eplus"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "IDiffI_I_Eminus"
+     DICT_KEY        (CDF_CHAR/10): "energy>ion"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+IDiffI_I_Ch (No: 12) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Ion Energy Channels (EPIC/ICS)"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "Chan names"
+     FORMAT          (CDF_CHAR/3): "A10"
+     DICT_KEY        (CDF_CHAR/10): "ISTP>label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DISPLAY_TYPE    (CDF_CHAR/6): "label "
+
+IDiffI_I_Eplus (No: 13) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Delta+, Ion Energy (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/55): "Delta+, Ion Energy, 12 channels 67-1361 keV (EPIC/ICS) "
+     VALIDMIN        (CDF_REAL4/1): 6.4
+     VALIDMAX        (CDF_REAL4/1): 241.0
+     SCALEMIN        (CDF_REAL4/1): 6.4
+     SCALEMAX        (CDF_REAL4/1): 241.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABL_PTR_1      (CDF_CHAR/11): "IDiffI_I_Ch"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DICT_KEY        (CDF_CHAR/18): "uncertainty>energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+IDiffI_I_Eminus (No: 14) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Delta-, Ion Energy (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/55): "Delta-, Ion Energy, 12 channels 67-1361 keV (EPIC/ICS) "
+     VALIDMIN        (CDF_REAL4/1): 5.8
+     VALIDMAX        (CDF_REAL4/1): 198.1
+     SCALEMIN        (CDF_REAL4/1): 5.8
+     SCALEMAX        (CDF_REAL4/1): 198.1
+     UNITS           (CDF_CHAR/3): "keV"
+     LABL_PTR_1      (CDF_CHAR/11): "IDiffI_I_Ch"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DICT_KEY        (CDF_CHAR/18): "uncertainty>energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+PDiffI_S (No: 15) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "Spin-avg H Diff Inten (EPIC/STICS)"
+     CATDESC         (CDF_CHAR/59): "H Diff. Intensity, at 2 energies 9 & 23  keV/e (EPIC/STICS)"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 100.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+06
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm**2-s-sr-keV/e]"
+     LABL_PTR_1      (CDF_CHAR/14): "PDiffI_S_label"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "PDiffI_S_Energy"
+     DICT_KEY        (CDF_CHAR/20): "particle_flux>proton"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+PDiffI_S_errorbars (No: 16) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "Spin-avg H Diff Inten (EPIC/STICS)"
+     CATDESC         (CDF_CHAR/76): "H Diff. Intensity, at 2 energies 9 & 23  keV/e (EPIC/STICS), with error bars"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 100.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+06
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm**2-s-sr-keV/e]"
+     LABL_PTR_1      (CDF_CHAR/14): "PDiffI_S_label"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "PDiffI_S_Energy"
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "PDiffI_S_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "PDiffI_S_Uncert"
+     DICT_KEY        (CDF_CHAR/20): "particle_flux>proton"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/8): "PDiffI_S"
+
+PDiffI_S_label (No: 17) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "PDiffI_S_label"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "A14"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+PDiffI_S_Uncert (No: 18) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Uncertainty, Spin-avg H Diff Inten (EPIC/STICS)"
+     CATDESC         (CDF_CHAR/52): "Uncertainty, H Differential Intensity, at 2 energies"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 100.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+06
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm**2-s-sr-keV/e]"
+     LABL_PTR_1      (CDF_CHAR/17): "PDiffI_S_Un_label"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "PDiffI_S_Energy"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+PDiffI_S_Un_label (No: 19) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "PDiffI_S_label uncertainty"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "A14"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+
+PDiffI_S_Energy (No: 20) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H Energy (EPIC/STICS)"
+     CATDESC         (CDF_CHAR/48): "H Energy, 2 energies 9 & 23  keV/e (EPIC/STICS) "
+     VALIDMIN        (CDF_REAL4/1): 9.27
+     VALIDMAX        (CDF_REAL4/1): 23.13
+     SCALEMIN        (CDF_REAL4/1): 9.27
+     SCALEMAX        (CDF_REAL4/1): 23.13
+     UNITS           (CDF_CHAR/5): "keV/e"
+     LABL_PTR_1      (CDF_CHAR/11): "PDiffI_S_Ch"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "PDiffI_S_Eplus"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "PDiffI_S_Eminus"
+     DICT_KEY        (CDF_CHAR/13): "energy>proton"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+PDiffI_S_Ch (No: 21) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "H Energy Channels (EPIC/ICS)"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "Chan names"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/13): "label>channel"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+PDiffI_S_Eplus (No: 22) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Delta+, H Energy (EPIC/STICS)"
+     CATDESC         (CDF_CHAR/55): "Delta+, H Energy, 2 channels 9 & 23 keV/e (EPIC/STICS) "
+     VALIDMIN        (CDF_REAL4/1): 0.11
+     VALIDMAX        (CDF_REAL4/1): 0.27
+     SCALEMIN        (CDF_REAL4/1): 0.11
+     SCALEMAX        (CDF_REAL4/1): 0.27
+     UNITS           (CDF_CHAR/5): "keV/e"
+     LABL_PTR_1      (CDF_CHAR/11): "PDiffI_S_Ch"
+     FORMAT          (CDF_CHAR/4): "F4.1"
+     DICT_KEY        (CDF_CHAR/18): "uncertainty>energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+PDiffI_S_Eminus (No: 23) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Delta-, H Energy (EPIC/STICS)"
+     CATDESC         (CDF_CHAR/54): "Delta-, HEnergy, 2 channels 9 & 23 keV/e (EPIC/STICS) "
+     VALIDMIN        (CDF_REAL4/1): 0.11
+     VALIDMAX        (CDF_REAL4/1): 0.27
+     SCALEMIN        (CDF_REAL4/1): 0.11
+     SCALEMAX        (CDF_REAL4/1): 0.27
+     UNITS           (CDF_CHAR/5): "keV/e"
+     LABL_PTR_1      (CDF_CHAR/11): "PDiffI_S_Ch"
+     FORMAT          (CDF_CHAR/4): "F4.1"
+     DICT_KEY        (CDF_CHAR/18): "uncertainty>energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+EIntI_I (No: 24) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/43): "Spin-avg Electron Integral Inten (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/55): "Electron Integral Intensity, >38 keV (EPIC/ICS), scalar"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 1.0e+07
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/14): "1/[cm**2-s-sr]"
+     LABLAXIS        (CDF_CHAR/11): "J e- >38keV"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/31): "particle_flux>electron_integral"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+EIntI_I_errorbars (No: 25) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/43): "Spin-avg Electron Integral Inten (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/72): "Electron Integral Intensity, >38 keV (EPIC/ICS), scalar, with error bars"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 1.0e+07
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/14): "1/[cm**2-s-sr]"
+     LABLAXIS        (CDF_CHAR/11): "J e- >38keV"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "EIntI_I_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "EIntI_I_Uncert"
+     DICT_KEY        (CDF_CHAR/31): "particle_flux>electron_integral"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/7): "EIntI_I"
+
+EIntI_I_Uncert (No: 26) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/56): "Uncertainty, Spin-avg Electron Integral Inten (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/40): "Uncertainty, Electron Integral Intensity"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 1.0e+07
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/14): "1/[cm**2-s-sr]"
+     LABLAXIS        (CDF_CHAR/16): "Delta J e->38keV"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+EIntI_I_Energy (No: 27) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Electron Energy (EPIC/ICS)"
+     CATDESC         (CDF_CHAR/108): "Electron Energy,  time-varying lower bound (between 34-50 keV) on electron integral flux (EPIC/ICS), scalar "
+     VALIDMIN        (CDF_REAL4/1): 34.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     SCALEMIN        (CDF_REAL4/1): 34.0
+     SCALEMAX        (CDF_REAL4/1): 50.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/3): "ED1"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/15): "energy>electron"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+EIntI_I_Eplus (No: 28) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "e Chan Energy plus, ICS"
+     VALIDMIN        (CDF_REAL4/1): 1.0e+11
+     VALIDMAX        (CDF_REAL4/1): 1.0e+11
+     SCALEMIN        (CDF_REAL4/1): 1.0e+11
+     SCALEMAX        (CDF_REAL4/1): 1.0e+11
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/3): "ED1"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DICT_KEY        (CDF_CHAR/4): "null"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+
+EIntI_I_Eminus (No: 29) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "e Chan Energy minus, ICS"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 0.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 0.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/3): "ED1"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DICT_KEY        (CDF_CHAR/4): "null"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+
+HeHRatio_I (No: 30) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/42): "Spin-avg He/H Diff Inten Ratio (EPIC/ICS) "
+     CATDESC         (CDF_CHAR/81): "He/H Ratio, of (82keV He/67keV H) & (233keV He/67keV H) Diff.  Intens. (EPIC/ICS)"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-06
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-05
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABL_PTR_1      (CDF_CHAR/10): "He/H_label"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "HeHRatio_I_Ch"
+     DICT_KEY        (CDF_CHAR/19): "particle_flux>ratio"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+HeHRatio_I_errorbars (No: 31) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/42): "Spin-avg He/H Diff Inten Ratio (EPIC/ICS) "
+     CATDESC         (CDF_CHAR/98): "He/H Ratio, of (82keV He/67keV H) & (233keV He/67keV H) Diff.  Intens. (EPIC/ICS), with error bars"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-06
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-05
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABL_PTR_1      (CDF_CHAR/10): "He/H_label"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "HeHRatio_I_Ch"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "HeHRatio_I_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "HeHRatio_I_Uncert"
+     DICT_KEY        (CDF_CHAR/19): "particle_flux>ratio"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/10): "HeHRatio_I"
+
+He/H_label (No: 32) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "He/H Label"
+     CATDESC         (CDF_CHAR/10): "He/H Label"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/13): "label>channel"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+HeHRatio_I_Uncert (No: 33) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/55): "Uncertainty, Spin-avg He/H Diff Inten Ratio (EPIC/ICS) "
+     CATDESC         (CDF_CHAR/53): "Uncertainty, He/H Ratio, (2) Diff. Intens. (EPIC/ICS)"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-06
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-05
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABL_PTR_1      (CDF_CHAR/12): "d_He/H_label"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "HeHRatio_I_Ch"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+d_He/H_label (No: 34) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Delta He/H Label"
+     CATDESC         (CDF_CHAR/16): "Delta He/H Label"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/13): "label>channel"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+HeHRatio_I_Ch (No: 35) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "He/H Energy Channels (EPIC/ICS)"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "Chan names"
+     FORMAT          (CDF_CHAR/3): "A20"
+     DICT_KEY        (CDF_CHAR/31): "ISTP>label>energy_channel_ratio"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+OHRatio_I (No: 36) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/41): "Spin-avg O/H Diff Inten Ratio (EPIC/ICS) "
+     CATDESC         (CDF_CHAR/79): "O/H Ratio, at (247keV O/67keV H) & (1244keV O/67keV H) Diff. Intens. (EPIC/ICS)"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-08
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-07
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABL_PTR_1      (CDF_CHAR/9): "O/H_label"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "OHRatio_I_Ch"
+     DICT_KEY        (CDF_CHAR/19): "particle_flux>ratio"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+OHRatio_I_errorbars (No: 37) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/41): "Spin-avg O/H Diff Inten Ratio (EPIC/ICS) "
+     CATDESC         (CDF_CHAR/96): "O/H Ratio, at (247keV O/67keV H) & (1244keV O/67keV H) Diff. Intens. (EPIC/ICS), with error bars"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-08
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-07
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABL_PTR_1      (CDF_CHAR/9): "O/H_label"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "OHRatio_I_Ch"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "OHRatio_I_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "OHRatio_I_Uncert"
+     DICT_KEY        (CDF_CHAR/19): "particle_flux>ratio"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/9): "OHRatio_I"
+
+O/H_label (No: 38) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "O/H Label"
+     CATDESC         (CDF_CHAR/9): "O/H Label"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/13): "label>channel"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+OHRatio_I_Uncert (No: 39) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/55): "Uncertainty,  Spin-avg O/H Diff Inten Ratio (EPIC/ICS) "
+     CATDESC         (CDF_CHAR/52): "Uncertainty, O/H Ratio, (2) Diff. Intens. (EPIC/ICS)"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-08
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 1.0e-07
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABL_PTR_1      (CDF_CHAR/11): "d_O/H_label"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "OHRatio_I_Ch"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+d_O/H_label (No: 40) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Delta O/H Label"
+     CATDESC         (CDF_CHAR/15): "Delta O/H Label"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/13): "label>channel"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+OHRatio_I_Ch (No: 41) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "O/H Energy Channels (EPIC/ICS)"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "Chan names"
+     FORMAT          (CDF_CHAR/3): "A25"
+     DICT_KEY        (CDF_CHAR/26): "label>energy_channel_ratio"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+HeHRatio_S (No: 42) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Spin-avg He++/H+ Diff Inten Ratio (EPIC/STICS) "
+     CATDESC         (CDF_CHAR/78): "He++/H+ Ratio, of (9.4-212keV He++/67keV H+) Diff. Inten. (EPIC/STICS), scalar"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-05
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0001
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/26): "He++/H+ (9.4-212keV/67keV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/19): "particle_flux>ratio"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+HeHRatio_S_errorbars (No: 43) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/47): "Spin-avg He++/H+ Diff Inten Ratio (EPIC/STICS) "
+     CATDESC         (CDF_CHAR/95): "He++/H+ Ratio, of (9.4-212keV He++/67keV H+) Diff. Inten. (EPIC/STICS), scalar, with error bars"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-05
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0001
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/26): "He++/H+ (9.4-212keV/67keV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "HeHRatio_S_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "HeHRatio_S_Uncert"
+     DICT_KEY        (CDF_CHAR/19): "particle_flux>ratio"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/10): "HeHRatio_S"
+
+HeHRatio_S_Uncert (No: 44) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/60): "Uncertainty, Spin-avg He++/H+ Diff Inten Ratio (EPIC/STICS) "
+     CATDESC         (CDF_CHAR/43): "Uncertainty, He++/H+ Ratio, of Diff. Inten."
+     VALIDMIN        (CDF_REAL4/1): 1.0e-05
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0001
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/13): "Delta He++/H+"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+OHRatio_S (No: 45) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/45): "Spin-avg O+/H+ Diff Inten Ratio (EPIC/STICS) "
+     CATDESC         (CDF_CHAR/74): "O+/H+ Ratio, of (9.4-212keV O+/67keV H+) Diff. Inten. (EPIC/STICS), scalar"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/24): "O+/H+ (9.4-212keV/67keV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/19): "particle_flux>ratio"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+OHRatio_S_errorbars (No: 46) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/45): "Spin-avg O+/H+ Diff Inten Ratio (EPIC/STICS) "
+     CATDESC         (CDF_CHAR/91): "O+/H+ Ratio, of (9.4-212keV O+/67keV H+) Diff. Inten. (EPIC/STICS), scalar, with error bars"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/24): "O+/H+ (9.4-212keV/67keV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "OHRatio_S_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "OHRatio_S_Uncert"
+     DICT_KEY        (CDF_CHAR/19): "particle_flux>ratio"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/9): "OHRatio_S"
+
+OHRatio_S_Uncert (No: 47) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/60): "Uncertainty, Spin-avg He++/H+ Diff Inten Ratio (EPIC/STICS) "
+     CATDESC         (CDF_CHAR/40): "Uncertainty, O+/H+ Ratio of Diff. Inten."
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/11): "Delta O+/H+"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+EAni_I (No: 48) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): ">38 keV Electron Anisotropy Params"
+     CATDESC         (CDF_CHAR/84): ">38keV Electron anis. param. (a0/a1/a2/phi1/phi2 from Fourier fit to elec. int. flux"
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 0.1, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 1.0e+07, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/14): "units_e_anisot"
+     LABL_PTR_1      (CDF_CHAR/13): "labels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "labels_anisot"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/19): "anisotropy>electron"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+EAni_I_errorbars (No: 49) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): ">38 keV Electron Anisotropy Params"
+     CATDESC         (CDF_CHAR/101): ">38keV Electron anis. param. (a0/a1/a2/phi1/phi2 from Fourier fit to elec. int. flux, with error bars"
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 0.1, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 1.0e+07, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/14): "units_e_anisot"
+     LABL_PTR_1      (CDF_CHAR/13): "labels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "labels_anisot"
+     DELTA_PLUS_VAR  (CDF_CHAR/13): "EAni_I_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/13): "EAni_I_Uncert"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/19): "anisotropy>electron"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/6): "EAni_I"
+
+EAni_I_Uncert (No: 50) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/45): "Uncertainty>38 keV Electron Anisotropy Params"
+     CATDESC         (CDF_CHAR/50): "Uncertainty, >38keV Electron anisotropy parameters"
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 0.1, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 1.0e+07, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/14): "units_e_anisot"
+     LABL_PTR_1      (CDF_CHAR/15): "d_labels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "d_labels_anisot"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+units_e_anisot (No: 51) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Anisot param units"
+     LABLAXIS        (CDF_CHAR/5): "Units"
+     FORMAT          (CDF_CHAR/3): "A14"
+     DICT_KEY        (CDF_CHAR/11): "label>units"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+labels_anisot (No: 52) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Anisot param labels"
+     CATDESC         (CDF_CHAR/49): "a0*(1 + a1*cos(theta-phi1) + a2*cos2(theta-phi2))"
+     LABLAXIS        (CDF_CHAR/10): "parameters"
+     FORMAT          (CDF_CHAR/2): "A4"
+     DICT_KEY        (CDF_CHAR/16): "label>anisotropy"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+d_labels_anisot (No: 53) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Anisot param labels"
+     CATDESC         (CDF_CHAR/49): "a0*(1 + a1*cos(theta-phi1) + a2*cos2(theta-phi2))"
+     LABLAXIS        (CDF_CHAR/10): "parameters"
+     FORMAT          (CDF_CHAR/2): "A4"
+     DICT_KEY        (CDF_CHAR/16): "label>anisotropy"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+formats_anisot (No: 54) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Anisot param formats"
+     CATDESC         (CDF_CHAR/28): "Anisotropy parameter formats"
+     LABLAXIS        (CDF_CHAR/7): "formats"
+     FORMAT          (CDF_CHAR/2): "A4"
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+scales_anisot (No: 55) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Anisot param scaless"
+     CATDESC         (CDF_CHAR/27): "Anisotropy parameter scales"
+     LABLAXIS        (CDF_CHAR/6): "scales"
+     FORMAT          (CDF_CHAR/2): "A6"
+     DICT_KEY        (CDF_CHAR/11): "label>scale"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+PAni_S (No: 56) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "9-212 keV/e H Anisotropy Params"
+     CATDESC         (CDF_CHAR/87): "9-212 keV/e H Anis. param. (a0/a1/a2/phi1/phi2 from Fourier fit to H flux , EPIC/STICS)"
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 1.0, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 100000.0, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/16): "units_p_S_anisot"
+     LABL_PTR_1      (CDF_CHAR/14): "plabels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "plabels_anisot"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/10): "anisotropy"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     VAR_NOTES       (CDF_CHAR/149): "9-212 keV/e H Anisotropy parameters (a0/a1/a2/phi1/phi2 from Fourier fit   a0*(1 + a1*cos(theta-phi1) +a2*cos2(theta-phi2))   to H flux , EPIC/STICS)"
+
+PAni_S_errorbars (No: 57) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "9-212 keV/e H Anisotropy Params"
+     CATDESC         (CDF_CHAR/104): "9-212 keV/e H Anis. param. (a0/a1/a2/phi1/phi2 from Fourier fit to H flux , EPIC/STICS), with error bars"
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 1.0, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 100000.0, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/16): "units_p_S_anisot"
+     LABL_PTR_1      (CDF_CHAR/14): "plabels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "plabels_anisot"
+     DELTA_PLUS_VAR  (CDF_CHAR/13): "PAni_S_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/13): "PAni_S_Uncert"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/10): "anisotropy"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     VAR_NOTES       (CDF_CHAR/149): "9-212 keV/e H Anisotropy parameters (a0/a1/a2/phi1/phi2 from Fourier fit   a0*(1 + a1*cos(theta-phi1) +a2*cos2(theta-phi2))   to H flux , EPIC/STICS)"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/6): "PAni_S"
+
+plabels_anisot (No: 58) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Anisot param labels"
+     CATDESC         (CDF_CHAR/49): "a0*(1 + a1*cos(theta-phi1) + a2*cos2(theta-phi2))"
+     LABLAXIS        (CDF_CHAR/10): "parameters"
+     FORMAT          (CDF_CHAR/2): "A4"
+     DICT_KEY        (CDF_CHAR/16): "label>anisotropy"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+d_plabels_anisot (No: 59) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Anisot param labels"
+     CATDESC         (CDF_CHAR/49): "a0*(1 + a1*cos(theta-phi1) + a2*cos2(theta-phi2))"
+     LABLAXIS        (CDF_CHAR/10): "parameters"
+     FORMAT          (CDF_CHAR/2): "A4"
+     DICT_KEY        (CDF_CHAR/16): "label>anisotropy"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+PAni_S_Uncert (No: 60) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/44): "Uncertainty, 9-212 keV/e H Anisotropy Params"
+     CATDESC         (CDF_CHAR/38): "Uncertainty, 9-212 keV/e H Anisotropy "
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 1.0, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 100000.0, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/16): "units_p_S_anisot"
+     LABL_PTR_1      (CDF_CHAR/16): "d_plabels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "d_plabels_anisot"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+units_p_S_anisot (No: 61) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Anisot param units"
+     LABLAXIS        (CDF_CHAR/5): "Units"
+     FORMAT          (CDF_CHAR/3): "A16"
+     DICT_KEY        (CDF_CHAR/11): "label>units"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+PAni67_I (No: 62) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "67 keV H Anisotropy Params"
+     CATDESC         (CDF_CHAR/80): "67 keV H Anis. param. (a0/a1/a2/phi1/phi2 from Fourier fit to H flux , EPIC/ICS)"
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 0.01, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 10000.0, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/16): "units_p_I_anisot"
+     LABL_PTR_1      (CDF_CHAR/15): "p2labels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "p2labels_anisot"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/10): "anisotropy"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+PAni67_I_errorbars (No: 63) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "67 keV H Anisotropy Params"
+     CATDESC         (CDF_CHAR/97): "67 keV H Anis. param. (a0/a1/a2/phi1/phi2 from Fourier fit to H flux , EPIC/ICS), with error bars"
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 0.01, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 10000.0, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/16): "units_p_I_anisot"
+     LABL_PTR_1      (CDF_CHAR/15): "p2labels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "p2labels_anisot"
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "PAni67_I_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "PAni67_I_Uncert"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/10): "anisotropy"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/8): "PAni67_I"
+
+p2labels_anisot (No: 64) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Anisot param labels"
+     CATDESC         (CDF_CHAR/49): "a0*(1 + a1*cos(theta-phi1) + a2*cos2(theta-phi2))"
+     LABLAXIS        (CDF_CHAR/10): "parameters"
+     FORMAT          (CDF_CHAR/2): "A4"
+     DICT_KEY        (CDF_CHAR/16): "label>anisotropy"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+d_p2labels_anisot (No: 65) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Anisot param labels"
+     CATDESC         (CDF_CHAR/49): "a0*(1 + a1*cos(theta-phi1) + a2*cos2(theta-phi2))"
+     LABLAXIS        (CDF_CHAR/10): "parameters"
+     FORMAT          (CDF_CHAR/2): "A4"
+     DICT_KEY        (CDF_CHAR/16): "label>anisotropy"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+PAni67_I_Uncert (No: 66) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/39): "Uncertainty, 67 keV H Anisotropy Params"
+     CATDESC         (CDF_CHAR/33): "Uncertainty, 67 keV H Anisotropy "
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 0.01, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 10000.0, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/16): "units_p_I_anisot"
+     LABL_PTR_1      (CDF_CHAR/17): "d_p2labels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/17): "d_p2labels_anisot"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+units_p_I_anisot (No: 67) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Anisot param units"
+     LABLAXIS        (CDF_CHAR/5): "Units"
+     FORMAT          (CDF_CHAR/3): "A18"
+     DICT_KEY        (CDF_CHAR/11): "label>units"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+PAni129_I (No: 68) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "129 keV H Anisotropy Params"
+     CATDESC         (CDF_CHAR/81): "129 keV H Anis. param. (a0/a1/a2/phi1/phi2 from Fourier fit to H flux , EPIC/ICS)"
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 0.01, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 1000.0, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/16): "units_p_I_anisot"
+     LABL_PTR_1      (CDF_CHAR/15): "p3labels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "p3labels_anisot"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/10): "anisotropy"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+PAni129_I_errorbars (No: 69) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "129 keV H Anisotropy Params"
+     CATDESC         (CDF_CHAR/98): "129 keV H Anis. param. (a0/a1/a2/phi1/phi2 from Fourier fit to H flux , EPIC/ICS), with error bars"
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 0.01, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 1000.0, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/16): "units_p_I_anisot"
+     LABL_PTR_1      (CDF_CHAR/15): "p3labels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "p3labels_anisot"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "PAni129_I_Uncert"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "PAni129_I_Uncert"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/10): "anisotropy"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/9): "PAni129_I"
+
+p3labels_anisot (No: 70) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Anisot param labels"
+     CATDESC         (CDF_CHAR/49): "a0*(1 + a1*cos(theta-phi1) + a2*cos2(theta-phi2))"
+     LABLAXIS        (CDF_CHAR/10): "parameters"
+     FORMAT          (CDF_CHAR/2): "A4"
+     DICT_KEY        (CDF_CHAR/16): "label>anisotropy"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+d_p3labels_anisot (No: 71) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Anisot param labels"
+     CATDESC         (CDF_CHAR/49): "a0*(1 + a1*cos(theta-phi1) + a2*cos2(theta-phi2))"
+     LABLAXIS        (CDF_CHAR/10): "parameters"
+     FORMAT          (CDF_CHAR/2): "A4"
+     DICT_KEY        (CDF_CHAR/16): "label>anisotropy"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+PAni129_I_Uncert (No: 72) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/40): "Uncertainty, 129 keV H Anisotropy Params"
+     CATDESC         (CDF_CHAR/34): "Uncertainty, 129 keV H Anisotropy "
+     VALIDMIN        (CDF_REAL4/5): 0.001, 0.0, 0.0, -3.15, -1.58
+     VALIDMAX        (CDF_REAL4/5): 1.0e+10, 2.1, 2.1, 3.15, 1.58
+     SCALEMIN        (CDF_REAL4/5): 0.01, 0.0, 0.0, -3.15, -1.58
+     SCALEMAX        (CDF_REAL4/5): 1000.0, 2.1, 2.1, 3.15, 1.58
+     SCAL_PTR        (CDF_CHAR/13): "scales_anisot"
+     UNIT_PTR        (CDF_CHAR/16): "units_p_I_anisot"
+     LABL_PTR_1      (CDF_CHAR/13): "labels_anisot"
+     FORM_PTR        (CDF_CHAR/14): "formats_anisot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "labels_anisot"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+

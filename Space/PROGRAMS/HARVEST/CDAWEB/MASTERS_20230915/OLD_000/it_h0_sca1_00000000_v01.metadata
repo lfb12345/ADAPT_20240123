@@ -1,0 +1,234 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/it_h0_sca1_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     it_h0_sca1_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     1
+NumzVars:     6
+NumAttrs:     46 (19 global, 27 variable)
+Compression:  None
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/17): 	"IT>Interball Tail"
+Data_type (1 entry):
+	0 (CDF_CHAR/28): 	"H0>High Resolution Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/24): 	"SCA1>Plasma Spectrometer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/23): 	"2D plasma distributions"
+TEXT (1 entry):
+	0 (CDF_CHAR/112): 	"Vaisber et al., Complex Plasma Spectrometer SKA-1, in Interball Mission and Payload, IKI-RSA-CNES, P. 170, 1995."
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"created Nov 1997"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0100"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"IT_H0_SCA1_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"IT_H0_SCA1"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/51): 	"Interball Tail Plasma Spectrometer 2D Distributions"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"O. Vaisberg"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"IKI"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	1 (CDF_UCHAR/12): 	"Russian/USSR"
+	2 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/9): 	"Interball"
+
+Variable Attributes (27 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+LABL_PTR_2
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+CATDESC
+AVG_TYPE
+SCALETYP
+DISPLAY_TYPE
+VAR_NOTES
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+
+Variable Information (1 rVariable, 6 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+sum_counts            CDF_INT2/1	2:[15,8]	T/TT
+label_ion             CDF_CHAR/17	1:[8]	F/T
+theta                 CDF_INT2/1	1:[8]	F/T
+energy                CDF_INT2/1	1:[15]	F/T
+delta_energy          CDF_INT2/1	1:[15]	F/T
+DQF                   CDF_INT4/1	0:[]	T/  
+
+
+Variable (7 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+sum_counts (No: 0) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "2D distribution function"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 4000
+     SCALEMIN        (CDF_INT2/1): 0
+     SCALEMAX        (CDF_INT2/1): 4000
+     UNITS           (CDF_CHAR/6): "counts"
+     FORMAT          (CDF_CHAR/2): "I5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/17): "particle_flux>ion"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABL_PTR_2      (CDF_CHAR/9): "label_ion"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "energy"
+     DEPEND_2        (CDF_CHAR/5): "theta"
+     CATDESC         (CDF_CHAR/91): "2D Ion Dist Function at 15 energies(50ev-5keV), 8 elevations from Xgse, summed over azimuth"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/164): "spectrogram>y=energy,z=sum_counts(*,1),z=sum_counts(*,2),z=sum_counts(*,3),z=sum_counts(*,4),z=sum_counts(*,5),z=sum_counts(*,6),z=sum_counts(*,7),z=sum_counts(*,8)"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_ion (No: 1) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Label for Ion Spectrogram"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>sector"
+     CATDESC         (CDF_CHAR/47): "Label for Ion Spectrogram at 8 elevation angles"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+theta (No: 2) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "8 Elevation angles"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 180
+     UNITS           (CDF_CHAR/7): "degrees"
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/19): "8 Elevation angles "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+energy (No: 3) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Ion Energy"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 5000
+     LABLAXIS        (CDF_CHAR/10): "Ion Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     FORMAT          (CDF_CHAR/2): "I4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/29): "15 energy Steps (50eV - 5keV)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     DELTA_PLUS_VAR  (CDF_CHAR/12): "delta_energy"
+     DELTA_MINUS_VAR (CDF_CHAR/12): "delta_energy"
+
+delta_energy (No: 4) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "15 Delta Energy Steps"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1000
+     LABLAXIS        (CDF_CHAR/16): "Delta Ion Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     FORMAT          (CDF_CHAR/2): "I4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     FILLVAL         (CDF_INT2/1): -32768
+     CATDESC         (CDF_CHAR/25): "15 Delta Ion Energy Steps"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DQF (No: 5) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "data quality flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/3): "DQF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/39): "data quality flag values: 0=good, 5=bad"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

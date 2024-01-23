@@ -1,0 +1,2554 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_swp_spc_l3i_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_swp_spc_l3i_00000000_v01.cdf
+Version:      3.7.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     128
+NumAttrs:     70 (27 global, 43 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (27 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/22): 	"LWS>Living With a Star"
+Source_name (1 entry):
+	0 (CDF_CHAR/22): 	"PSP>Parker Solar Probe"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/44): 	"L3i>Solar Wind Ion velocity moments and fits"
+Descriptor (1 entry):
+	0 (CDF_CHAR/66): 	"SWP_SPC>Solar Wind Electrons Alphas and Protons / Solar Probe Cup "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/16): 	"Justin C. Kasper"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/22): 	"University of Michigan"
+TEXT (2 entries):
+	0 (CDF_CHAR/360): 	"This file includes the densities, vector velocities, and scalar (radial component) temperatures of the solar wind protons measured by the Solar Probe Cup (SPC). These are determined both by a direct computation of the velocity moments of the reduced distribution function and by attempting to fit the primary peak in the ion I(V) curve with a Maxwellian model."
+	1 (CDF_CHAR/170): 	"When such fitting is successful, the data set also includes Maxwellian model fits to the alpha-particle (He++) and tertiary (usually proton beam or shoulder) populations."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/15): 	"psp_swp_spc_l3i"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/28): 	"psp_swp_spc_l3i_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/45): 	"Parker Solar Probe/SWEAP/SPC level 3 ion data"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"variable"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/93): 	"NASA open data policy applies. Consultation with the instrument team is strongly recommended."
+Generated_by (1 entry):
+	0 (CDF_CHAR/45): 	"Michael L. Stevens (mstevens@cfa.harvard.edu)"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/156): 	"This project acknowledges the Parker Solar Probe SWEAP instrument team and the SWEAP science data center for providing these solar wind plasma measurements."
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (0 entry):
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/22): 	" Space Science Reviews"
+	1 (CDF_CHAR/10): 	" Data Link"
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/25): 	"SWEAP instrument paper at"
+	1 (CDF_CHAR/43): 	"Smithsonian Astrophysical Observatory SWEAP"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/59): 	"https://link.springer.com/article/10.1007/s11214-015-0206-3"
+	1 (CDF_CHAR/38): 	"http://sweap.cfa.harvard.edu/Data.html"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/91): 	"spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPC/Level3/SolarWindMomentsFits/PT0.2185S"
+Calibrations_used (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (43 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+LIMITS_WARN_MIN
+LIMITS_NOMINAL_MIN
+LIMITS_NOMINAL_MAX
+LIMITS_WARN_MAX
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+COMPARE_VAL
+
+Variable Information (0 rVariable, 128 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+DQF                   CDF_INT1/1	1:[32]	T/T
+general_flag          CDF_INT1/1	0:[]	T/  
+vp_moment_SC_gd       CDF_REAL4/1	1:[3]	T/T
+vp_moment_SC_deltahigh_gd CDF_REAL4/1	1:[3]	T/T
+vp_moment_SC_deltalow_gd CDF_REAL4/1	1:[3]	T/T
+vp_moment_RTN_gd      CDF_REAL4/1	1:[3]	T/T
+vp_moment_RTN_deltahigh_gd CDF_REAL4/1	1:[3]	T/T
+vp_moment_RTN_deltalow_gd CDF_REAL4/1	1:[3]	T/T
+np_moment_gd          CDF_REAL4/1	0:[]	T/  
+np_moment_deltahigh_gd CDF_REAL4/1	0:[]	T/  
+np_moment_deltalow_gd CDF_REAL4/1	0:[]	T/  
+wp_moment_gd          CDF_REAL4/1	0:[]	T/  
+wp_moment_deltahigh_gd CDF_REAL4/1	0:[]	T/  
+wp_moment_deltalow_gd CDF_REAL4/1	0:[]	T/  
+vp1_fit_SC_gd         CDF_REAL4/1	1:[3]	T/T
+vp1_fit_SC_uncertainty_gd CDF_REAL4/1	1:[3]	T/T
+vp1_fit_RTN_gd        CDF_REAL4/1	1:[3]	T/T
+vp1_fit_RTN_uncertainty_gd CDF_REAL4/1	1:[3]	T/T
+np1_fit_gd            CDF_REAL4/1	0:[]	T/  
+np1_fit_uncertainty_gd CDF_REAL4/1	0:[]	T/  
+wp1_fit_gd            CDF_REAL4/1	0:[]	T/  
+wp1_fit_uncertainty_gd CDF_REAL4/1	0:[]	T/  
+vp_fit_SC_gd          CDF_REAL4/1	1:[3]	T/T
+vp_fit_SC_uncertainty_gd CDF_REAL4/1	1:[3]	T/T
+vp_fit_RTN_gd         CDF_REAL4/1	1:[3]	T/T
+vp_fit_RTN_uncertainty_gd CDF_REAL4/1	1:[3]	T/T
+np_fit_gd             CDF_REAL4/1	0:[]	T/  
+np_fit_uncertainty_gd CDF_REAL4/1	0:[]	T/  
+wp_fit_gd             CDF_REAL4/1	0:[]	T/  
+wp_fit_uncertainty_gd CDF_REAL4/1	0:[]	T/  
+va_fit_SC_gd          CDF_REAL4/1	1:[3]	T/T
+va_fit_SC_uncertainty_gd CDF_REAL4/1	1:[3]	T/T
+va_fit_RTN_gd         CDF_REAL4/1	1:[3]	T/T
+va_fit_RTN_uncertainty_gd CDF_REAL4/1	1:[3]	T/T
+na_fit_gd             CDF_REAL4/1	0:[]	T/  
+na_fit_uncertainty_gd CDF_REAL4/1	0:[]	T/  
+wa_fit_gd             CDF_REAL4/1	0:[]	T/  
+wa_fit_uncertainty_gd CDF_REAL4/1	0:[]	T/  
+v3_fit_SC_gd          CDF_REAL4/1	1:[3]	T/T
+v3_fit_SC_uncertainty_gd CDF_REAL4/1	1:[3]	T/T
+v3_fit_RTN_gd         CDF_REAL4/1	1:[3]	T/T
+v3_fit_RTN_uncertainty_gd CDF_REAL4/1	1:[3]	T/T
+n3_fit_gd             CDF_REAL4/1	0:[]	T/  
+n3_fit_uncertainty_gd CDF_REAL4/1	0:[]	T/  
+w3_fit_gd             CDF_REAL4/1	0:[]	T/  
+w3_fit_uncertainty_gd CDF_REAL4/1	0:[]	T/  
+pop3_mtoq_gd          CDF_REAL4/1	0:[]	T/  
+sc_pos_HCI            CDF_REAL4/1	1:[3]	T/T
+sc_vel_HCI            CDF_REAL4/1	1:[3]	T/T
+carr_latitude         CDF_REAL4/1	0:[]	T/  
+carr_longitude        CDF_REAL4/1	0:[]	T/  
+vp_moment_SC          CDF_REAL4/1	1:[3]	T/T
+vp_moment_SC_deltahigh CDF_REAL4/1	1:[3]	T/T
+vp_moment_SC_deltalow CDF_REAL4/1	1:[3]	T/T
+vp_moment_RTN         CDF_REAL4/1	1:[3]	T/T
+vp_moment_RTN_deltahigh CDF_REAL4/1	1:[3]	T/T
+vp_moment_RTN_deltalow CDF_REAL4/1	1:[3]	T/T
+np_moment             CDF_REAL4/1	0:[]	T/  
+np_moment_deltahigh   CDF_REAL4/1	0:[]	T/  
+np_moment_deltalow    CDF_REAL4/1	0:[]	T/  
+wp_moment             CDF_REAL4/1	0:[]	T/  
+wp_moment_deltahigh   CDF_REAL4/1	0:[]	T/  
+wp_moment_deltalow    CDF_REAL4/1	0:[]	T/  
+vp1_fit_SC            CDF_REAL4/1	1:[3]	T/T
+vp1_fit_SC_uncertainty CDF_REAL4/1	1:[3]	T/T
+vp1_fit_RTN           CDF_REAL4/1	1:[3]	T/T
+vp1_fit_RTN_uncertainty CDF_REAL4/1	1:[3]	T/T
+np1_fit               CDF_REAL4/1	0:[]	T/  
+np1_fit_uncertainty   CDF_REAL4/1	0:[]	T/  
+wp1_fit               CDF_REAL4/1	0:[]	T/  
+wp1_fit_uncertainty   CDF_REAL4/1	0:[]	T/  
+vp_fit_SC             CDF_REAL4/1	1:[3]	T/T
+vp_fit_SC_uncertainty CDF_REAL4/1	1:[3]	T/T
+vp_fit_RTN            CDF_REAL4/1	1:[3]	T/T
+vp_fit_RTN_uncertainty CDF_REAL4/1	1:[3]	T/T
+np_fit                CDF_REAL4/1	0:[]	T/  
+np_fit_uncertainty    CDF_REAL4/1	0:[]	T/  
+wp_fit                CDF_REAL4/1	0:[]	T/  
+wp_fit_uncertainty    CDF_REAL4/1	0:[]	T/  
+va_fit_SC             CDF_REAL4/1	1:[3]	T/T
+va_fit_SC_uncertainty CDF_REAL4/1	1:[3]	T/T
+va_fit_RTN            CDF_REAL4/1	1:[3]	T/T
+va_fit_RTN_uncertainty CDF_REAL4/1	1:[3]	T/T
+na_fit                CDF_REAL4/1	0:[]	T/  
+na_fit_uncertainty    CDF_REAL4/1	0:[]	T/  
+wa_fit                CDF_REAL4/1	0:[]	T/  
+wa_fit_uncertainty    CDF_REAL4/1	0:[]	T/  
+v3_fit_SC             CDF_REAL4/1	1:[3]	T/T
+v3_fit_SC_uncertainty CDF_REAL4/1	1:[3]	T/T
+v3_fit_RTN            CDF_REAL4/1	1:[3]	T/T
+v3_fit_RTN_uncertainty CDF_REAL4/1	1:[3]	T/T
+n3_fit                CDF_REAL4/1	0:[]	T/  
+n3_fit_uncertainty    CDF_REAL4/1	0:[]	T/  
+w3_fit                CDF_REAL4/1	0:[]	T/  
+w3_fit_uncertainty    CDF_REAL4/1	0:[]	T/  
+pop3_mtoq             CDF_REAL4/1	0:[]	T/  
+HCI_LABL              CDF_CHAR/10	1:[3]	F/T
+SC_frame              CDF_CHAR/10	1:[3]	F/T
+unit_velocity         CDF_CHAR/13	1:[3]	F/T
+unit_velocity_gd      CDF_CHAR/13	1:[3]	F/T
+RTN_FRAME             CDF_CHAR/10	1:[3]	F/T
+vp_fit_SC_LABL_1      CDF_CHAR/24	1:[3]	F/T
+vp_fit_SC_uncertainty_LABL_1 CDF_CHAR/36	1:[3]	F/T
+vp1_fit_SC_LABL_1     CDF_CHAR/25	1:[3]	F/T
+vp_fit_RTN_LABL_1     CDF_CHAR/25	1:[3]	F/T
+vp_fit_RTN_uncertainty_LABL_1 CDF_CHAR/37	1:[3]	F/T
+vp1_fit_SC_uncertainty_LABL_1 CDF_CHAR/37	1:[3]	F/T
+vp1_fit_RTN_LABL_1    CDF_CHAR/26	1:[3]	F/T
+vp1_fit_RTN_uncertainty_LABL_1 CDF_CHAR/38	1:[3]	F/T
+vp_moment_SC_LABL_1   CDF_CHAR/27	1:[3]	F/T
+vp_moment_SC_deltahigh_LABL_1 CDF_CHAR/37	1:[3]	F/T
+vp_moment_SC_deltalow_LABL_1 CDF_CHAR/36	1:[3]	F/T
+vp_moment_RTN_LABL_1  CDF_CHAR/28	1:[3]	F/T
+vp_moment_RTN_deltahigh_LABL_1 CDF_CHAR/38	1:[3]	F/T
+vp_moment_RTN_deltalow_LABL_1 CDF_CHAR/37	1:[3]	F/T
+va_fit_SC_LABL_1      CDF_CHAR/24	1:[3]	F/T
+va_fit_SC_uncertainty_LABL_1 CDF_CHAR/36	1:[3]	F/T
+va_fit_RTN_LABL_1     CDF_CHAR/25	1:[3]	F/T
+va_fit_RTN_uncertainty_LABL_1 CDF_CHAR/37	1:[3]	F/T
+v3_fit_SC_LABL_1      CDF_CHAR/24	1:[3]	F/T
+v3_fit_SC_uncertainty_LABL_1 CDF_CHAR/36	1:[3]	F/T
+v3_fit_RTN_LABL_1     CDF_CHAR/25	1:[3]	F/T
+v3_fit_RTN_uncertainty_LABL_1 CDF_CHAR/37	1:[3]	F/T
+VHECI_LABL            CDF_CHAR/20	1:[3]	F/T
+vector_index          CDF_UINT1/1	1:[3]	F/T
+array32_index         CDF_UINT1/1	1:[32]	F/T
+DQF_flagnames         CDF_CHAR/70	1:[32]	F/T
+
+
+Variable (128 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "CDF TT2000 time [ns]"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:58.999000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/365): "Spacecraft ephemeris time, expressed as the number of nanoseconds since J2000 (2000-01-01T12:00:00.000000000) with leap seconds included.    Please refer to CDF TT2000 documentation with regards to this convention.  This time corresponds to the first measurement of the spectrum. Owing to frequent changes in the operating mode, this is usually NOT regular cadence."
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+
+DQF (No: 1) (Recs: 0) (Compression: GZIP.6)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "Array of SPC data quality indicators."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "array32_index"
+     FIELDNAM        (CDF_CHAR/17): "Data quality flag"
+     FILLVAL         (CDF_INT1/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/3): "DQF"
+     UNITS           (CDF_CHAR/4): "none"
+     VALIDMIN        (CDF_INT1/1): -2
+     VALIDMAX        (CDF_INT1/1): 127
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/492): "All flags are encoded as follows: --------------------------    = 0,   good/nominal/condition not present/etc     > 1,  bad/problematic/condition present/etc     = -1,  status not determined ("don't know")    < -1,  status does not matter ("don't care")  -1 ("don't know") is the default value for all flags.  The 0th flag array element is the [standardized] global quality flag, signifying whether the data are suitable for use without caveate. It is repeated in the "general_flag" variable."
+
+general_flag (No: 2) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/101): "Global quality flag, signifying whether the data for this epoch are suitable for use without caveate."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "general_flag"
+     FILLVAL         (CDF_INT1/1): -128
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/12): "general flag"
+     UNITS           (CDF_CHAR/8): "0 = good"
+     VALIDMIN        (CDF_INT1/1): -2
+     VALIDMAX        (CDF_INT1/1): 127
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/432): "All flags are encoded as follows: --------------------------    = 0,   good/nominal/condition not present/etc     > 1,  bad/problematic/condition present/etc     = -1,  status not determined ("don't know")    < -1,  status does not matter ("don't care")  -1 ("don't know") is the default value for all flags.  The user is advised to consider the quoted measurement uncertainties, particularly when the general quality flag is zero. "
+
+vp_moment_SC_gd (No: 3) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/122): "Proton bulk velocity from the 1st moment of the reduced distribution function, in the spacecraft frame (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/47): "proton bulk velocity moment in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/19): "vp_moment_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/190): "This moment is a model-independant estimate of the proton bulk speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     DELTA_PLUS_VAR  (CDF_CHAR/25): "vp_moment_SC_deltahigh_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/24): "vp_moment_SC_deltalow_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/12): "vp_moment_SC"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp_moment_SC_deltahigh_gd (No: 4) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> upper uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/69): "proton bulk velocity moment upper uncertainty in the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "vp_moment_SC_deltahigh_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/22): "vp_moment_SC_deltahigh"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp_moment_SC_deltalow_gd (No: 5) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> lower uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/69): "proton bulk velocity moment lower uncertainty in the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/28): "vp_moment_SC_deltalow_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/21): "vp_moment_SC_deltalow"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp_moment_RTN_gd (No: 6) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/133): "Proton bulk velocity from the 1st moment of the reduced distribution function in [inertial] RTN coordinate system (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/40): "proton bulk velocity moment in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/20): "vp_moment_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/190): "This moment is a model-independant estimate of the proton bulk speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     DELTA_PLUS_VAR  (CDF_CHAR/25): "vp_moment_RTN_deltalow_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/26): "vp_moment_RTN_deltahigh_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/13): "vp_moment_RTN"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp_moment_RTN_deltahigh_gd (No: 7) (Recs: 0) (Compression: GZIP.6)
+--------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> upper uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/62): "proton bulk velocity moment upper uncertainty in the RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/30): "vp_moment_RTN_deltahigh_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/23): "vp_moment_RTN_deltahigh"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp_moment_RTN_deltalow_gd (No: 8) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> lower uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/62): "proton bulk velocity moment lower uncertainty in the RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "vp_moment_RTN_deltalow_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/22): "vp_moment_RTN_deltalow"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+np_moment_gd (No: 9) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/100): "Proton density estimate from the 0th moment of the reduced distribution function (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/27): "proton bulk density moment "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "np_moment"
+     UNITS           (CDF_CHAR/16): "(Good Q) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/187): "This moment is a model-independant estimate of the proton density, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "np_moment_deltahigh_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "np_moment_deltalow_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/9): "np_moment"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+np_moment_deltahigh_gd (No: 10) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> upper uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/45): "proton bulk density moment, upper uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/19): "np_moment_deltahigh"
+     UNITS           (CDF_CHAR/17): "(Good Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/187): "This moment is a model-independant estimate of the proton density, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/19): "np_moment_deltahigh"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+np_moment_deltalow_gd (No: 11) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> lower uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/45): "proton bulk density moment, lower uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "np_moment_deltalow"
+     UNITS           (CDF_CHAR/17): "(Good Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/187): "This moment is a model-independant estimate of the proton density, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/18): "np_moment_deltalow"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+wp_moment_gd (No: 12) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/138): "Proton radial [most probable] thermal speed estimate from the 2nd velocity moment of the reduced distribution function (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/33): "proton bulk thermal speed moment "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "wp_moment"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "wp_moment_deltahigh_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "wp_moment_deltalow_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/9): "wp_moment"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+wp_moment_deltahigh_gd (No: 13) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> upper uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/51): "proton bulk thermal speed moment, upper uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/19): "wp_moment_deltahigh"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/19): "wp_moment_deltahigh"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+wp_moment_deltalow_gd (No: 14) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> lower uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/51): "proton bulk thermal speed moment, lower uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "wp_moment_deltalow"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/18): "wp_moment_deltalow"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp1_fit_SC_gd (No: 15) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/118): "Primary proton population velocity, from 1-dimensional Maxwellian fitting, in the spacecraft frame (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/43): "Primary proton velocity in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/17): "vp1_fit_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/144): "The strongest signal peak, which generally corresponds to the bulk proton population in the solar wind, is fit to a convected Maxwellian model. "
+     DELTA_PLUS_VAR  (CDF_CHAR/25): "vp1_fit_SC_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/25): "vp1_fit_SC_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/10): "vp1_fit_SC"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp1_fit_SC_uncertainty_gd (No: 16) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Primary proton velocity uncertainty in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "vp1_fit_SC_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/22): "vp1_fit_SC_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp1_fit_RTN_gd (No: 17) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/122): "Primary proton population velocity, from 1-dimensional Maxwellian fitting, in the [inertial] RTN frame (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/36): "Primary proton velocity in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/18): "vp1_fit_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/144): "The strongest signal peak, which generally corresponds to the bulk proton population in the solar wind, is fit to a convected Maxwellian model. "
+     DELTA_PLUS_VAR  (CDF_CHAR/26): "vp1_fit_RTN_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/26): "vp1_fit_RTN_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/11): "vp1_fit_RTN"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp1_fit_RTN_uncertainty_gd (No: 18) (Recs: 0) (Compression: GZIP.6)
+--------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/48): "Primary proton velocity uncertainty in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/30): "vp1_fit_RTN_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/23): "vp1_fit_RTN_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+np1_fit_gd (No: 19) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/93): "Primary proton population density, from 1-dimensional Maxwellian fitting. (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/22): "Primary proton density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "np1_fit"
+     UNITS           (CDF_CHAR/17): "(Good Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/143): "The strongest signal peak, which generally corresponds to the bulk proton population in the solar wind, is fit to a convected Maxwellian model."
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "np1_fit_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/22): "np1_fit_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/7): "np1_fit"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+np1_fit_uncertainty_gd (No: 20) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/39): "Primary proton density, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/19): "np1_fit_uncertainty"
+     UNITS           (CDF_CHAR/17): "(Good Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/19): "np1_fit_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+wp1_fit_gd (No: 21) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/122): "Primary proton population radial [most probable] thermal speed, from 1-dimensional Maxwellian fitting. (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/28): "Primary proton thermal speed"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "wp1_fit"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/456): "The strongest signal peak, which generally corresponds to the bulk proton population in the solar wind, is fit to a convected Maxwellian model.  This measurement most accurately represents the thermal width of the reduced phase-space-distribution function along the SPC-normal direction. This roughly corresponds to the radial component of the temperature tensor.  This is a most probable thermal speed, i.e. the model distribution goes like exp(-v^2/w^2)."
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "wp1_fit_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/22): "wp1_fit_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/7): "wp1_fit"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+wp1_fit_uncertainty_gd (No: 22) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/45): "Primary proton thermal speed, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/19): "wp1_fit_uncertainty"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/19): "wp1_fit_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp_fit_SC_gd (No: 23) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/104): "Proton bulk velocity, from 1-dimensional Maxwellian fitting, in the spacecraft frame (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/44): "Proton bulk velocity in the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/16): "vp_fit_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/95): "the bulk proton population in the solar wind is fit to a group of convected Maxwellian models. "
+     DELTA_PLUS_VAR  (CDF_CHAR/24): "vp_fit_SC_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/24): "vp_fit_SC_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/9): "vp_fit_SC"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp_fit_SC_uncertainty_gd (No: 24) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/61): "proton bulk velocity, fit uncertainty in the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/28): "vp_fit_SC_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/21): "vp_fit_SC_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp_fit_RTN_gd (No: 25) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/108): "Proton bulk velocity, from 1-dimensional Maxwellian fitting, in the [inertial] RTN frame (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/33): "Proton bulk velocity in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/17): "vp_fit_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/95): "the bulk proton population in the solar wind is fit to a group of convected Maxwellian models. "
+     DELTA_PLUS_VAR  (CDF_CHAR/25): "vp_fit_RTN_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/25): "vp_fit_RTN_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/10): "vp_fit_RTN"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+vp_fit_RTN_uncertainty_gd (No: 26) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/50): "proton bulk velocity, fit uncertainty in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "vp_fit_RTN_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/22): "vp_fit_RTN_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+np_fit_gd (No: 27) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "[Total] proton density, from 1-dimensional Maxwellian fitting. (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/14): "proton density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "np_fit"
+     UNITS           (CDF_CHAR/17): "(Good Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/94): "the bulk proton population in the solar wind is fit to a group of convected Maxwellian models."
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "np_fit_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "np_fit_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/6): "np_fit"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+np_fit_uncertainty_gd (No: 28) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/31): "proton density, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "np_fit_uncertainty"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/18): "np_fit_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+wp_fit_gd (No: 29) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/113): "Proton radial [most probable] thermal speed component, from 1-dimensional Maxwellian fitting. (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/25): "Proton bulk thermal speed"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "wp_fit"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/94): "the bulk proton population in the solar wind is fit to a group of convected Maxwellian models."
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "wp_fit_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "wp_fit_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/6): "wp_fit"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+wp_fit_uncertainty_gd (No: 30) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/42): "bulk proton thermal speed, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "wp_fit_uncertainty"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/18): "wp_fit_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+va_fit_SC_gd (No: 31) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/114): "Alpha particle velocity vector, from 1-dimensional Maxwellian fitting, in the spacecraft frame (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/43): "alpha particle velocity in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/16): "va_fit_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/120): "The alpha particle (He++) peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model. "
+     DELTA_PLUS_VAR  (CDF_CHAR/24): "va_fit_SC_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/24): "va_fit_SC_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/9): "va_fit_SC"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+va_fit_SC_uncertainty_gd (No: 32) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/60): "alpha particle velocity fit uncertainty the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/28): "va_fit_SC_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/21): "va_fit_SC_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+va_fit_RTN_gd (No: 33) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/118): "Alpha particle velocity vector, from 1-dimensional Maxwellian fitting, in the [inertial] RTN frame (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/36): "alpha particle velocity in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/17): "va_fit_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/120): "The alpha particle (He++) peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model. "
+     DELTA_PLUS_VAR  (CDF_CHAR/25): "va_fit_RTN_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/25): "va_fit_RTN_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/10): "va_fit_RTN"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+va_fit_RTN_uncertainty_gd (No: 34) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/56): "alpha particle velocity fit uncertainty in the RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "va_fit_RTN_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/22): "va_fit_RTN_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+na_fit_gd (No: 35) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "Alpha particle density, from 1-dimensional Maxwellian fitting. (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/22): "alpha particle density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "na_fit"
+     UNITS           (CDF_CHAR/17): "(Good Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/119): "The alpha particle (He++) peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model."
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "na_fit_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "na_fit_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/6): "na_fit"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+na_fit_uncertainty_gd (No: 36) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/38): "alpha particle density fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "na_fit_uncertainty"
+     UNITS           (CDF_CHAR/17): "(Good Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/18): "na_fit_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+wa_fit_gd (No: 37) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/111): "Alpha particle radial [most probable] thermal speed, from 1-dimensional Maxwellian fitting. (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/28): "alpha particle thermal speed"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "wa_fit"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/432): "The alpha particle (He++) peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.  This measurement most accurately represents the thermal width of the reduced phase-space-distribution function along the SPC-normal direction. This roughly corresponds to the radial component of the temperature tensor.  This is a most probable thermal speed, i.e. the model distribution goes like exp(-v^2/w^2)."
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "wa_fit_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "wa_fit_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/6): "wa_fit"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+wa_fit_uncertainty_gd (No: 38) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/44): "alpha particle thermal speed fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "wa_fit_uncertainty"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/18): "wa_fit_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+v3_fit_SC_gd (No: 39) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/112): "Population 3 velocity vector, from 1-dimensional Maxwellian fitting, in the spacecraft frame (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/41): "population 3 velocity in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/16): "v3_fit_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/189): "The population 3 peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.   Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)"
+     DELTA_PLUS_VAR  (CDF_CHAR/24): "v3_fit_SC_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/24): "v3_fit_SC_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/9): "v3_fit_SC"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+v3_fit_SC_uncertainty_gd (No: 40) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/53): "population 3 velocity uncertainty in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/28): "v3_fit_SC_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/21): "v3_fit_SC_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+v3_fit_RTN_gd (No: 41) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/116): "Population 3 velocity vector, from 1-dimensional Maxwellian fitting, in the [inertial] RTN frame (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/34): "population 3 velocity in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/17): "v3_fit_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/189): "The population 3 peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.   Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)"
+     DELTA_PLUS_VAR  (CDF_CHAR/25): "v3_fit_RTN_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/24): "v3_fit_SC_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/10): "v3_fit_RTN"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+v3_fit_RTN_uncertainty_gd (No: 42) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/46): "population 3 velocity uncertainty in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "v3_fit_RTN_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/16): "unit_velocity_gd"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/22): "v3_fit_RTN_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+n3_fit_gd (No: 43) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/89): "Population 3 particle density, from 1-dimensional Maxwellian fitting. (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/29): "population 3 particle density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "n3_fit"
+     UNITS           (CDF_CHAR/17): "(Good Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/197): "The population 3 particle peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.  Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)"
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "n3_fit_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "n3_fit_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/6): "n3_fit"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+n3_fit_uncertainty_gd (No: 44) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "population 3 density, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "n3_fit_uncertainty"
+     UNITS           (CDF_CHAR/17): "(Good Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/18): "n3_fit_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+w3_fit_gd (No: 45) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/118): "Population 3 particle radial [most probable] thermal speed, from 1-dimensional Maxwellian fitting. (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/26): "population 3 thermal speed"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "w3_fit"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/502): "The population 3 peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.  Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)  This measurement most accurately represents the thermal width of the reduced phase-space-distribution function along the SPC-normal direction. This roughly corresponds to the radial component of the temperature tensor.  This is a most probable thermal speed, i.e. the model distribution goes like exp(-v^2/w^2). "
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "w3_fit_uncertainty_gd"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "w3_fit_uncertainty_gd"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/6): "w3_fit"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+w3_fit_uncertainty_gd (No: 46) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/43): "population 3 thermal speed, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "w3_fit_uncertainty"
+     UNITS           (CDF_CHAR/14): "(Good Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/18): "w3_fit_uncertainty"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+pop3_mtoq_gd (No: 47) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/111): "Species identifier for third population fit (in addition to primary proton and alpha peaks) (Only Good Quality)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/33): "population 3 mass-to-charge ratio"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "m-to-q"
+     UNITS           (CDF_CHAR/13): "(Good Qs) u/e"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/408): "When the n3_fit, w3_fit, and/or v3_fit variables are valid, they indicate that a third ion population has been measured in addition to the primary proton and alpha particle populations. This variable indicates the estimated mass-per-charge for that population, in fundamental units (i.e. protons=1/1=1, alphas=4/2=2, O6=16/6=2.67). Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/17): "apply_filter_flag"
+     COMPONENT_0     (CDF_CHAR/9): "pop3_mtoq"
+     COMPONENT_1     (CDF_CHAR/12): "general_flag"
+     COMPARE_VAL     (CDF_INT1/1): 0
+
+sc_pos_HCI (No: 48) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "PSP Spacecraft position in the Heliocentric Inertial system, in km"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/25): "Spacecraft position (HCI)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/8): "HCI_LABL"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_REAL4/3): -3.0e+08, -3.0e+08, -3.0e+08
+     VALIDMAX        (CDF_REAL4/3): 3.0e+08, 3.0e+08, 3.0e+08
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/122): "Also called Ecliptic J2000. Z is the solar north rotational axis, and X is the solar ascending node on the J2000 ecliptic."
+
+sc_vel_HCI (No: 49) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "PSP Spacecraft velocity in the Heliocentric Inertial system, in km/s"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "Spacecraft velocity vector (HCI)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/10): "VHECI_LABL"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/3): -300.0, -300.0, -300.0
+     VALIDMAX        (CDF_REAL4/3): 300.0, 300.0, 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/122): "Also called Ecliptic J2000. Z is the solar north rotational axis, and X is the solar ascending node on the J2000 ecliptic."
+
+carr_latitude (No: 50) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Carrington Latitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "carr_latitude"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "latitude"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/55): "spacecraft position degrees Latitude from solar equator"
+
+carr_longitude (No: 51) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Carrington Longitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "carr_longitude"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "longitude"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/63): "spacecraft position degrees longitude from solar prime meridian"
+
+vp_moment_SC (No: 52) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/118): "Proton bulk velocity from the 1st moment of the reduced distribution function, in the spacecraft frame (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/47): "proton bulk velocity moment in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/19): "vp_moment_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/190): "This moment is a model-independant estimate of the proton bulk speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "vp_moment_SC_deltahigh"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "vp_moment_SC_deltalow"
+
+vp_moment_SC_deltahigh (No: 53) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> upper uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/69): "proton bulk velocity moment upper uncertainty in the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "vp_moment_SC_deltahigh_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+
+vp_moment_SC_deltalow (No: 54) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> lower uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/69): "proton bulk velocity moment lower uncertainty in the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/28): "vp_moment_SC_deltalow_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+
+vp_moment_RTN (No: 55) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/129): "Proton bulk velocity from the 1st moment of the reduced distribution function in [inertial] RTN coordinate system (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/40): "proton bulk velocity moment in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/20): "vp_moment_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/190): "This moment is a model-independant estimate of the proton bulk speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "vp_moment_RTN_deltalow"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "vp_moment_RTN_deltahigh"
+
+vp_moment_RTN_deltahigh (No: 56) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> upper uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/62): "proton bulk velocity moment upper uncertainty in the RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/30): "vp_moment_RTN_deltahigh_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+
+vp_moment_RTN_deltalow (No: 57) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> lower uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/62): "proton bulk velocity moment lower uncertainty in the RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "vp_moment_RTN_deltalow_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+
+np_moment (No: 58) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Proton density estimate from the 0th moment of the reduced distribution function (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/27): "proton bulk density moment "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "np_moment"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/187): "This moment is a model-independant estimate of the proton density, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     DELTA_PLUS_VAR  (CDF_CHAR/19): "np_moment_deltahigh"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "np_moment_deltalow"
+
+np_moment_deltahigh (No: 59) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> upper uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/45): "proton bulk density moment, upper uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/19): "np_moment_deltahigh"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/187): "This moment is a model-independant estimate of the proton density, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+
+np_moment_deltalow (No: 60) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> lower uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/45): "proton bulk density moment, lower uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "np_moment_deltalow"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/187): "This moment is a model-independant estimate of the proton density, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+
+wp_moment (No: 61) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/134): "Proton radial [most probable] thermal speed estimate from the 2nd velocity moment of the reduced distribution function (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/33): "proton bulk thermal speed moment "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/9): "wp_moment"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+     DELTA_PLUS_VAR  (CDF_CHAR/19): "wp_moment_deltahigh"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "wp_moment_deltalow"
+
+wp_moment_deltahigh (No: 62) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> upper uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/51): "proton bulk thermal speed moment, upper uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/19): "wp_moment_deltahigh"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+
+wp_moment_deltalow (No: 63) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "---> lower uncertainty"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/51): "proton bulk thermal speed moment, lower uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "wp_moment_deltalow"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/207): "This moment is a model-independant estimate of the proton most-probable thermal speed, but it is subject to confusion with alpha particles when present. Error bars represent estimated upper and lower limits."
+
+vp1_fit_SC (No: 64) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/114): "Primary proton population velocity, from 1-dimensional Maxwellian fitting, in the spacecraft frame (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/43): "Primary proton velocity in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/17): "vp1_fit_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/144): "The strongest signal peak, which generally corresponds to the bulk proton population in the solar wind, is fit to a convected Maxwellian model. "
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "vp1_fit_SC_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/22): "vp1_fit_SC_uncertainty"
+
+vp1_fit_SC_uncertainty (No: 65) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/55): "Primary proton velocity uncertainty in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "vp1_fit_SC_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+
+vp1_fit_RTN (No: 66) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/118): "Primary proton population velocity, from 1-dimensional Maxwellian fitting, in the [inertial] RTN frame (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/36): "Primary proton velocity in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/18): "vp1_fit_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/144): "The strongest signal peak, which generally corresponds to the bulk proton population in the solar wind, is fit to a convected Maxwellian model. "
+     DELTA_PLUS_VAR  (CDF_CHAR/23): "vp1_fit_RTN_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/23): "vp1_fit_RTN_uncertainty"
+
+vp1_fit_RTN_uncertainty (No: 67) (Recs: 0) (Compression: GZIP.6)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/48): "Primary proton velocity uncertainty in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/30): "vp1_fit_RTN_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+
+np1_fit (No: 68) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/89): "Primary proton population density, from 1-dimensional Maxwellian fitting. (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/22): "Primary proton density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "np1_fit"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/143): "The strongest signal peak, which generally corresponds to the bulk proton population in the solar wind, is fit to a convected Maxwellian model."
+     DELTA_PLUS_VAR  (CDF_CHAR/19): "np1_fit_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/19): "np1_fit_uncertainty"
+
+np1_fit_uncertainty (No: 69) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/39): "Primary proton density, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/19): "np1_fit_uncertainty"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+
+wp1_fit (No: 70) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/118): "Primary proton population radial [most probable] thermal speed, from 1-dimensional Maxwellian fitting. (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/28): "Primary proton thermal speed"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/7): "wp1_fit"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/456): "The strongest signal peak, which generally corresponds to the bulk proton population in the solar wind, is fit to a convected Maxwellian model.  This measurement most accurately represents the thermal width of the reduced phase-space-distribution function along the SPC-normal direction. This roughly corresponds to the radial component of the temperature tensor.  This is a most probable thermal speed, i.e. the model distribution goes like exp(-v^2/w^2)."
+     DELTA_PLUS_VAR  (CDF_CHAR/19): "wp1_fit_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/19): "wp1_fit_uncertainty"
+
+wp1_fit_uncertainty (No: 71) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/45): "Primary proton thermal speed, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/19): "wp1_fit_uncertainty"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+
+vp_fit_SC (No: 72) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/100): "Proton bulk velocity, from 1-dimensional Maxwellian fitting, in the spacecraft frame (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/44): "Proton bulk velocity in the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/16): "vp_fit_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/95): "the bulk proton population in the solar wind is fit to a group of convected Maxwellian models. "
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "vp_fit_SC_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "vp_fit_SC_uncertainty"
+
+vp_fit_SC_uncertainty (No: 73) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/61): "proton bulk velocity, fit uncertainty in the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/28): "vp_fit_SC_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+
+vp_fit_RTN (No: 74) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/104): "Proton bulk velocity, from 1-dimensional Maxwellian fitting, in the [inertial] RTN frame (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/33): "Proton bulk velocity in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/17): "vp_fit_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/95): "the bulk proton population in the solar wind is fit to a group of convected Maxwellian models. "
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "vp_fit_RTN_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/22): "vp_fit_RTN_uncertainty"
+
+vp_fit_RTN_uncertainty (No: 75) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/50): "proton bulk velocity, fit uncertainty in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "vp_fit_RTN_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+
+np_fit (No: 76) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/78): "[Total] proton density, from 1-dimensional Maxwellian fitting. (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/14): "proton density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "np_fit"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/94): "the bulk proton population in the solar wind is fit to a group of convected Maxwellian models."
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "np_fit_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "np_fit_uncertainty"
+
+np_fit_uncertainty (No: 77) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/31): "proton density, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "np_fit_uncertainty"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+
+wp_fit (No: 78) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/109): "Proton radial [most probable] thermal speed component, from 1-dimensional Maxwellian fitting. (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/25): "Proton bulk thermal speed"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "wp_fit"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/94): "the bulk proton population in the solar wind is fit to a group of convected Maxwellian models."
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "wp_fit_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "wp_fit_uncertainty"
+
+wp_fit_uncertainty (No: 79) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/42): "bulk proton thermal speed, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "wp_fit_uncertainty"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+
+va_fit_SC (No: 80) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/110): "Alpha particle velocity vector, from 1-dimensional Maxwellian fitting, in the spacecraft frame (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/43): "alpha particle velocity in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/16): "va_fit_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/120): "The alpha particle (He++) peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model. "
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "va_fit_SC_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "va_fit_SC_uncertainty"
+
+va_fit_SC_uncertainty (No: 81) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/60): "alpha particle velocity fit uncertainty the spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/28): "va_fit_SC_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+
+va_fit_RTN (No: 82) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/114): "Alpha particle velocity vector, from 1-dimensional Maxwellian fitting, in the [inertial] RTN frame (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/36): "alpha particle velocity in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/17): "va_fit_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/120): "The alpha particle (He++) peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model. "
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "va_fit_RTN_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/22): "va_fit_RTN_uncertainty"
+
+va_fit_RTN_uncertainty (No: 83) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/56): "alpha particle velocity fit uncertainty in the RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "va_fit_RTN_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+
+na_fit (No: 84) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/78): "Alpha particle density, from 1-dimensional Maxwellian fitting. (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/22): "alpha particle density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "na_fit"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/119): "The alpha particle (He++) peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model."
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "na_fit_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "na_fit_uncertainty"
+
+na_fit_uncertainty (No: 85) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/38): "alpha particle density fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "na_fit_uncertainty"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+
+wa_fit (No: 86) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/107): "Alpha particle radial [most probable] thermal speed, from 1-dimensional Maxwellian fitting. (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/28): "alpha particle thermal speed"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "wa_fit"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/432): "The alpha particle (He++) peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.  This measurement most accurately represents the thermal width of the reduced phase-space-distribution function along the SPC-normal direction. This roughly corresponds to the radial component of the temperature tensor.  This is a most probable thermal speed, i.e. the model distribution goes like exp(-v^2/w^2)."
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "wa_fit_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "wa_fit_uncertainty"
+
+wa_fit_uncertainty (No: 87) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/44): "alpha particle thermal speed fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "wa_fit_uncertainty"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+
+v3_fit_SC (No: 88) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/108): "Population 3 velocity vector, from 1-dimensional Maxwellian fitting, in the spacecraft frame (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/41): "population 3 velocity in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/16): "v3_fit_SC_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -2000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/189): "The population 3 peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.   Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)"
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "v3_fit_SC_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "v3_fit_SC_uncertainty"
+
+v3_fit_SC_uncertainty (No: 89) (Recs: 0) (Compression: GZIP.6)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/53): "population 3 velocity uncertainty in spacecraft frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/28): "v3_fit_SC_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+
+v3_fit_RTN (No: 90) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/112): "Population 3 velocity vector, from 1-dimensional Maxwellian fitting, in the [inertial] RTN frame (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/34): "population 3 velocity in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/17): "v3_fit_RTN_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/189): "The population 3 peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.   Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)"
+     DELTA_PLUS_VAR  (CDF_CHAR/22): "v3_fit_RTN_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/21): "v3_fit_SC_uncertainty"
+
+v3_fit_RTN_uncertainty (No: 91) (Recs: 0) (Compression: GZIP.6)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "vector_index"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/46): "population 3 velocity uncertainty in RTN frame"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABL_PTR_1      (CDF_CHAR/29): "v3_fit_RTN_uncertainty_LABL_1"
+     UNIT_PTR        (CDF_CHAR/13): "unit_velocity"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 2000.0, 2000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/313): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  The flow angles relative to the SPC are obtained by comparing fluxes upon the four sensor quadrants. This uncertainty incorporates uncertainties in the absolute responses of the respective sensors."
+
+n3_fit (No: 92) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/85): "Population 3 particle density, from 1-dimensional Maxwellian fitting. (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/29): "population 3 particle density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "n3_fit"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/197): "The population 3 particle peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.  Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)"
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "n3_fit_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "n3_fit_uncertainty"
+
+n3_fit_uncertainty (No: 93) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/37): "population 3 density, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "n3_fit_uncertainty"
+     UNITS           (CDF_CHAR/16): "(All Qs) cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+
+w3_fit (No: 94) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/114): "Population 3 particle radial [most probable] thermal speed, from 1-dimensional Maxwellian fitting. (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/23): "time_series>noerrorbars"
+     FIELDNAM        (CDF_CHAR/26): "population 3 thermal speed"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "w3_fit"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/502): "The population 3 peak in the solar wind, when clearly distinguishable, is fit to a convected Maxwellian model.  Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)  This measurement most accurately represents the thermal width of the reduced phase-space-distribution function along the SPC-normal direction. This roughly corresponds to the radial component of the temperature tensor.  This is a most probable thermal speed, i.e. the model distribution goes like exp(-v^2/w^2). "
+     DELTA_PLUS_VAR  (CDF_CHAR/18): "w3_fit_uncertainty"
+     DELTA_MINUS_VAR (CDF_CHAR/18): "w3_fit_uncertainty"
+
+w3_fit_uncertainty (No: 95) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "---> 1-sigma error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/43): "population 3 thermal speed, fit uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "w3_fit_uncertainty"
+     UNITS           (CDF_CHAR/13): "(All Qs) km/s"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/287): "This uncertainty may be invalid when the Maxwellian is a poor model for the data. Refer to the data quality flags.  This variable reflects *precision* uncertainty from fitting, summed in quadrature with the *accuracy* uncertainy associated with the absolute responses of the SPC sensors."
+
+pop3_mtoq (No: 96) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/107): "Species identifier for third population fit (in addition to primary proton and alpha peaks) (All Qualities)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/33): "population 3 mass-to-charge ratio"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "m-to-q"
+     UNITS           (CDF_CHAR/12): "(All Qs) u/e"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/408): "When the n3_fit, w3_fit, and/or v3_fit variables are valid, they indicate that a third ion population has been measured in addition to the primary proton and alpha particle populations. This variable indicates the estimated mass-per-charge for that population, in fundamental units (i.e. protons=1/1=1, alphas=4/2=2, O6=16/6=2.67). Population 3 most typically characterizes a proton shoulder or beam (mtoq=1)"
+
+HCI_LABL (No: 97) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "HCI system coordinates"
+     FIELDNAM        (CDF_CHAR/8): "HCI_LABL"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/8): "HCI_LABL"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+SC_frame (No: 98) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "The Parker Solar Probe spacecraft coordinate system."
+     FIELDNAM        (CDF_CHAR/22): "PSP frame of reference"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/9): "cartesian"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/567): "This coordinate system is aligned with the Solar Probe Cup. In encounter orientations, the X-axis points in the spacecraft RAM direction, the Z-axis points [roughly] towards the sun, and the Y-axis points south relative to the solar ecliptic plane.  This system is roughly, but not strictly aligned with the heliographic RTN system (R = -Z_SC, T = X_SC, N = -Y_SC) in encounters.  Note that this system is co-moving with the spacecraft. Flows from the sun appear aberrated and shifted in the spacecraft frame according to the instantaneous velocity of the spacecraft."
+
+unit_velocity (No: 99) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "units for cartesian velocity vectors"
+     FIELDNAM        (CDF_CHAR/13): "unit_velocity"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/13): "unit_velocity"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+unit_velocity_gd (No: 100) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "units for cartesian velocity vectors"
+     FIELDNAM        (CDF_CHAR/13): "unit_velocity"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/13): "unit_velocity"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+RTN_FRAME (No: 101) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "The inertial Radial-Tangential-Normal frame"
+     FIELDNAM        (CDF_CHAR/22): "RTN frame of reference"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/9): "cartesian"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/406): "This coordinate system is oriented such that the R basis vector points along the sun-spacecraft line. The T basis vector is the cross product of the solar rotation axis with R, and the N basis vector completes the triad.  This frame is inertial, i.e. it is the so-oriented inertial frame for the spacecraft's instantaneous position. Vector velocities in this frame are measured relative to the fixed stars."
+
+vp_fit_SC_LABL_1 (No: 102) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "vp_fit_SC_LABL_1"
+     FIELDNAM        (CDF_CHAR/16): "vp_fit_SC_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A25"
+     LABLAXIS        (CDF_CHAR/16): "vp_fit_SC_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp_fit_SC_uncertainty_LABL_1 (No: 103) (Recs: 1)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "vp_fit_SC_uncertainty_LABL_1"
+     FIELDNAM        (CDF_CHAR/28): "vp_fit_SC_uncertainty_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A37"
+     LABLAXIS        (CDF_CHAR/28): "vp_fit_SC_uncertainty_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp1_fit_SC_LABL_1 (No: 104) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "vp1_fit_SC_LABL_1"
+     FIELDNAM        (CDF_CHAR/17): "vp1_fit_SC_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A26"
+     LABLAXIS        (CDF_CHAR/17): "vp1_fit_SC_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp_fit_RTN_LABL_1 (No: 105) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "vp_fit_RTN_LABL_1"
+     FIELDNAM        (CDF_CHAR/17): "vp_fit_RTN_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A26"
+     LABLAXIS        (CDF_CHAR/17): "vp_fit_RTN_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp_fit_RTN_uncertainty_LABL_1 (No: 106) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "vp_fit_RTN_uncertainty_LABL_1"
+     FIELDNAM        (CDF_CHAR/29): "vp_fit_RTN_uncertainty_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A38"
+     LABLAXIS        (CDF_CHAR/29): "vp_fit_RTN_uncertainty_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp1_fit_SC_uncertainty_LABL_1 (No: 107) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "vp1_fit_SC_uncertainty_LABL_1"
+     FIELDNAM        (CDF_CHAR/29): "vp1_fit_SC_uncertainty_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A38"
+     LABLAXIS        (CDF_CHAR/29): "vp1_fit_SC_uncertainty_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp1_fit_RTN_LABL_1 (No: 108) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "vp1_fit_RTN_LABL_1"
+     FIELDNAM        (CDF_CHAR/18): "vp1_fit_RTN_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A27"
+     LABLAXIS        (CDF_CHAR/18): "vp1_fit_RTN_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp1_fit_RTN_uncertainty_LABL_1 (No: 109) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "vp1_fit_RTN_uncertainty_LABL_1"
+     FIELDNAM        (CDF_CHAR/30): "vp1_fit_RTN_uncertainty_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A39"
+     LABLAXIS        (CDF_CHAR/30): "vp1_fit_RTN_uncertainty_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp_moment_SC_LABL_1 (No: 110) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "vp_moment_SC_LABL_1"
+     FIELDNAM        (CDF_CHAR/19): "vp_moment_SC_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A28"
+     LABLAXIS        (CDF_CHAR/19): "vp_moment_SC_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp_moment_SC_deltahigh_LABL_1 (No: 111) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "vp_moment_SC_deltahigh_LABL_1"
+     FIELDNAM        (CDF_CHAR/29): "vp_moment_SC_deltahigh_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A38"
+     LABLAXIS        (CDF_CHAR/29): "vp_moment_SC_deltahigh_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp_moment_SC_deltalow_LABL_1 (No: 112) (Recs: 1)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "vp_moment_SC_deltalow_LABL_1"
+     FIELDNAM        (CDF_CHAR/28): "vp_moment_SC_deltalow_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A37"
+     LABLAXIS        (CDF_CHAR/28): "vp_moment_SC_deltalow_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp_moment_RTN_LABL_1 (No: 113) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "vp_moment_RTN_LABL_1"
+     FIELDNAM        (CDF_CHAR/20): "vp_moment_RTN_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A29"
+     LABLAXIS        (CDF_CHAR/20): "vp_moment_RTN_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp_moment_RTN_deltahigh_LABL_1 (No: 114) (Recs: 1)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "vp_moment_RTN_deltahigh_LABL_1"
+     FIELDNAM        (CDF_CHAR/30): "vp_moment_RTN_deltahigh_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A39"
+     LABLAXIS        (CDF_CHAR/30): "vp_moment_RTN_deltahigh_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vp_moment_RTN_deltalow_LABL_1 (No: 115) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "vp_moment_RTN_deltalow_LABL_1"
+     FIELDNAM        (CDF_CHAR/29): "vp_moment_RTN_deltalow_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A38"
+     LABLAXIS        (CDF_CHAR/29): "vp_moment_RTN_deltalow_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+va_fit_SC_LABL_1 (No: 116) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "va_fit_SC_LABL_1"
+     FIELDNAM        (CDF_CHAR/16): "va_fit_SC_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A25"
+     LABLAXIS        (CDF_CHAR/16): "va_fit_SC_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+va_fit_SC_uncertainty_LABL_1 (No: 117) (Recs: 1)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "va_fit_SC_uncertainty_LABL_1"
+     FIELDNAM        (CDF_CHAR/28): "va_fit_SC_uncertainty_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A37"
+     LABLAXIS        (CDF_CHAR/28): "va_fit_SC_uncertainty_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+va_fit_RTN_LABL_1 (No: 118) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "va_fit_RTN_LABL_1"
+     FIELDNAM        (CDF_CHAR/17): "va_fit_RTN_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A26"
+     LABLAXIS        (CDF_CHAR/17): "va_fit_RTN_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+va_fit_RTN_uncertainty_LABL_1 (No: 119) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "va_fit_RTN_uncertainty_LABL_1"
+     FIELDNAM        (CDF_CHAR/29): "va_fit_RTN_uncertainty_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A38"
+     LABLAXIS        (CDF_CHAR/29): "va_fit_RTN_uncertainty_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+v3_fit_SC_LABL_1 (No: 120) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "v3_fit_SC_LABL_1"
+     FIELDNAM        (CDF_CHAR/16): "v3_fit_SC_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A25"
+     LABLAXIS        (CDF_CHAR/16): "v3_fit_SC_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+v3_fit_SC_uncertainty_LABL_1 (No: 121) (Recs: 1)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "v3_fit_SC_uncertainty_LABL_1"
+     FIELDNAM        (CDF_CHAR/28): "v3_fit_SC_uncertainty_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A37"
+     LABLAXIS        (CDF_CHAR/28): "v3_fit_SC_uncertainty_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+v3_fit_RTN_LABL_1 (No: 122) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "v3_fit_RTN_LABL_1"
+     FIELDNAM        (CDF_CHAR/17): "v3_fit_RTN_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A26"
+     LABLAXIS        (CDF_CHAR/17): "v3_fit_RTN_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+v3_fit_RTN_uncertainty_LABL_1 (No: 123) (Recs: 1)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "v3_fit_RTN_uncertainty_LABL_1"
+     FIELDNAM        (CDF_CHAR/29): "v3_fit_RTN_uncertainty_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A38"
+     LABLAXIS        (CDF_CHAR/29): "v3_fit_RTN_uncertainty_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+VHECI_LABL (No: 124) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "VHECI_LABL"
+     FIELDNAM        (CDF_CHAR/10): "VHECI_LABL"
+     FORMAT          (CDF_CHAR/3): "A21"
+     LABLAXIS        (CDF_CHAR/10): "VHECI_LABL"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+vector_index (No: 125) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Comp No 1"
+     FIELDNAM        (CDF_CHAR/9): "Comp No 1"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/9): "Comp No 1"
+     VALIDMIN        (CDF_UINT1/3): 1, 1, 1
+     VALIDMAX        (CDF_UINT1/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+array32_index (No: 126) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Comp No 1"
+     FIELDNAM        (CDF_CHAR/9): "Comp No 1"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/9): "Comp No 1"
+     VALIDMIN        (CDF_UINT1/1): 1
+     VALIDMAX        (CDF_UINT1/1): 32
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+DQF_flagnames (No: 127) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "The names of the data quality array fields."
+     FIELDNAM        (CDF_CHAR/13): "DQF_flagnames"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/4): "none"
+     UNITS           (CDF_CHAR/4): "none"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/244): "The 0th flag array element is the [standardized] global quality flag, signifying whether the data are suitable for use without caveate. Refer to the SPC science data center documentation for descriptions of other elements and value definitions."
+

@@ -1,0 +1,474 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/helios1_e6_1hour_particle_flux_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     helios1_e6_1hour_particle_flux_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     19
+NumAttrs:     52 (26 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/6): 	"Helios"
+Source_name (1 entry):
+	0 (CDF_CHAR/16): 	"HELIOS1>Helios-1"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/43): 	"e6_1hour>Helios Hourly Cosmic Ray Particles"
+Descriptor (1 entry):
+	0 (CDF_CHAR/69): 	"particle_flux>E6 - Merged proton, electron and alpha particle fluxes."
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	" H. Kunow"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/18): 	"University of Kiel"
+TEXT (6 entries):
+	0 (CDF_CHAR/291): 	"HELIOS-A and -B spacecrafts were the pair of deep space probes developed by the Federal Republic of Germany (FRG) in a cooperative program with NASA. The purpose of the mission was to make pioneering measurments of the interplanetary medium from the vicinity of the earth"s orbit to 0.3 AU. "
+	1 (CDF_CHAR/912): 	"The objective of experiment (E6) was to study high-energy, charged, cosmic-ray particles of solar, planetary, and galactic origin in interplanetary space. Protons and alpha particles with eneries >1.3 MeV/nucleon, and electrons >0.3 MeV were measured within interplanetary space over the range from 0.3 to 1.0 AU. The instrument, a particle telescope with 55-deg field of view, consisted of five semiconductor detectors, one sapphire Cherenkov counter, and one scintillation counter, all enclosed by an anticoincidence cylinder. The telescope was calibrated prior to launch using radioactive sources, particle acceletors, and ground-level muons. It measured protons and alpha particles in six channels (1.3-3.3, 3.3-13, 13-27, 27-37, 37-45, and >45 MeV/nucleon) and electrons in five energy channels (0.3-0.8, 0.8-2, 2-3, 3-4, and >4 MeV). For more detail see pp.253-257 of Raumfahrtforschung, v.19, n. 5, 1975. "
+	2 (CDF_CHAR/676): 	"The h-a-cr*.dat and h-b-cr*.dat files contains hourly averaged fluxes of electrons, protons and alpha particles in the MeV ranges. The files were written in ASCII-codes. Each record contains 10 hourly averages. The differential fluxes (particles/sq.m, s, sr, MeV) cover, in several bands, the energy range 0.3-2.0 MeV for electrons, 4.0-51 MeV for protons, and 2.0-48 MeV for alpha particles.  Also provided are the integral fluxes of alphas above 48 MeV, and protons above 51 MeV. For some of the energy channels, the standard deviations of the averages are also provided. Each file is preceded by a header record, providing the start and stop times of the data in the file. "
+	3 (CDF_CHAR/178): 	"The acronyms for the rate channels are composed of a letter and an indication of the energy range in MeV/nucleon for protons and alpha particles respectively. MeV for electrons. "
+	4 (CDF_CHAR/150): 	"The counting rates are given as particles/m^2  sec sr MeV/N, except for the integral channels P>51 and A>48 which are given as particles/ m^2 sec sr. "
+	5 (CDF_CHAR/170): 	"Note: 1. Negative rates (-0.99999E+04) indicate missing or invalid data. 2. The energy boundaries for the electron channels E 0.2-0.8 and E 0.8-2are only rough estimates."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/6): 	"Helios"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Logical_source (1 entry):
+	0 (CDF_CHAR/30): 	"helios1_e6_1hour_particle_flux"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/43): 	"helios1_e6_1hour_particle_flux_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/37): 	"hourly averaged fluxes of e, H and He"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/6): 	"1 hour"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/26): 	"Above data in the form of "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/11): 	"ASCII files"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/69): 	"https://spdf.gsfc.nasa.gov/pub/data/helios/helios1/particle/e6_kunow/"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/55): 	"spase://NASA/NumericalData/Helios1/E6/ParticleFlux/PT1H"
+
+Variable Attributes (26 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 19 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+p_flux                CDF_DOUBLE/1	1:[5]	T/T
+p_flux_s              CDF_DOUBLE/1	1:[5]	T/T
+p_flux_sd             CDF_DOUBLE/1	1:[5]	T/T
+p_flux_sd_s           CDF_DOUBLE/1	1:[5]	T/T
+p_flux_yaxis          CDF_DOUBLE/1	1:[5]	T/T
+p_flux_energy         CDF_DOUBLE/1	1:[5]	F/T
+e_flux                CDF_DOUBLE/1	1:[3]	T/T
+e_flux_s              CDF_DOUBLE/1	1:[3]	T/T
+e_flux_sd             CDF_DOUBLE/1	1:[3]	T/T
+e_flux_sd_s           CDF_DOUBLE/1	1:[3]	T/T
+e_flux_yaxis          CDF_DOUBLE/1	1:[3]	T/T
+e_flux_energy         CDF_DOUBLE/1	1:[3]	F/T
+He_flux               CDF_DOUBLE/1	1:[6]	T/T
+He_flux_s             CDF_DOUBLE/1	1:[6]	T/T
+He_flux_sd            CDF_DOUBLE/1	1:[6]	T/T
+He_flux_sd_s          CDF_DOUBLE/1	1:[6]	T/T
+He_flux_yaxis         CDF_DOUBLE/1	1:[6]	T/T
+He_flux_energy        CDF_DOUBLE/1	1:[6]	F/T
+
+
+Variable (19 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-3000 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+p_flux (No: 1) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "E6 proton flux"
+     CATDESC         (CDF_CHAR/36): "E6 proton flux (five bands 4-51 MeV)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "p_flux_energy"
+     DICT_KEY        (CDF_CHAR/11): "proton flux"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/14): "E6 Proton Flux"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+p_flux_s (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "proton flux"
+     CATDESC         (CDF_CHAR/30): "---> Proton flux (spectrogram)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "p_flux_energy"
+     DICT_KEY        (CDF_CHAR/11): "proton flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/11): "proton flux"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "p_flux"
+
+p_flux_sd (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "E6 Proton Flux SD"
+     CATDESC         (CDF_CHAR/35): "---> Proton Flux standard deviation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "p_flux_energy"
+     DICT_KEY        (CDF_CHAR/14): "proton flux sd"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/17): "E6 Proton Flux SD"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+p_flux_sd_s (No: 4) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "proton flux SD"
+     CATDESC         (CDF_CHAR/49): "---> Proton flux standard deviation (spectrogram)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "p_flux_energy"
+     DICT_KEY        (CDF_CHAR/14): "proton flux sd"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/14): "proton flux sd"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/9): "p_flux_sd"
+
+p_flux_yaxis (No: 5) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "p_flux_yaxis"
+     CATDESC         (CDF_CHAR/27): "proton flux energy channels"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/12): "p_flux_yaxis"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/21): "proton energy channel"
+     UNITS           (CDF_CHAR/3): "MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+p_flux_energy (No: 6) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     CATDESC         (CDF_CHAR/27): "proton flux energy channels"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/3): "MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+e_flux (No: 7) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "E6 electron flux"
+     CATDESC         (CDF_CHAR/36): "E6 electron flux (3 bands 0.3-2 MeV)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "e_flux_energy"
+     DICT_KEY        (CDF_CHAR/13): "electron flux"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/16): "E6 Electron Flux"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+e_flux_s (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "electron flux"
+     CATDESC         (CDF_CHAR/32): "---> Electron flux (spectrogram)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "e_flux_energy"
+     DICT_KEY        (CDF_CHAR/13): "electron flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/13): "electron flux"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "e_flux"
+
+e_flux_sd (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "electron flux SD"
+     CATDESC         (CDF_CHAR/37): "---> Electron flux standard deviation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "e_flux_energy"
+     DICT_KEY        (CDF_CHAR/16): "electron flux sd"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/19): "E6 Electron Flux SD"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+e_flux_sd_s (No: 10) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "electron flux SD"
+     CATDESC         (CDF_CHAR/51): "---> Electron flux standard deviation (spectrogram)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "e_flux_energy"
+     DICT_KEY        (CDF_CHAR/16): "electron flux sd"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/16): "electron flux sd"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/9): "e_flux_sd"
+
+e_flux_yaxis (No: 11) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "e_flux_yaxis"
+     CATDESC         (CDF_CHAR/29): "electron flux energy channels"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/12): "e_flux_yaxis"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/23): "electron energy channel"
+     UNITS           (CDF_CHAR/3): "MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+e_flux_energy (No: 12) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     CATDESC         (CDF_CHAR/29): "electron flux energy channels"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/3): "MeV"
+     VALIDMIN        (CDF_DOUBLE/1): 0.1
+     VALIDMAX        (CDF_DOUBLE/1): 10.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+He_flux (No: 13) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "He flux"
+     CATDESC         (CDF_CHAR/30): "E6 He Flux (6 bands 2-48 MeV/N"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "He_flux_energy"
+     DICT_KEY        (CDF_CHAR/7): "He flux"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/10): "E6 He Flux"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+He_flux_s (No: 14) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "He flux"
+     CATDESC         (CDF_CHAR/27): "---> He flux (spectrograms)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "He_flux_energy"
+     DICT_KEY        (CDF_CHAR/7): "He flux"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/7): "He flux"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/7): "He_flux"
+
+He_flux_sd (No: 15) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "He flux SD"
+     CATDESC         (CDF_CHAR/31): "---> He flux standard deviation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "He_flux_energy"
+     DICT_KEY        (CDF_CHAR/10): "He flux sd"
+     DISPLAY_TYPE    (CDF_CHAR/16): "stack_plot>NOBAR"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/13): "E6 He Flux SD"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+He_flux_sd_s (No: 16) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "He flux SD"
+     CATDESC         (CDF_CHAR/45): "---> He flux standard deviation (spectrogram)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "He_flux_energy"
+     DICT_KEY        (CDF_CHAR/10): "He flux sd"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/10): "He flux sd"
+     UNITS           (CDF_CHAR/27): "particles/m^2  sec sr MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "He_flux_sd"
+
+He_flux_yaxis (No: 17) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "He_flux_yaxis"
+     CATDESC         (CDF_CHAR/23): "He flux energy channels"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "He_flux_yaxis"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/17): "He energy channel"
+     UNITS           (CDF_CHAR/5): "MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+He_flux_energy (No: 18) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     CATDESC         (CDF_CHAR/23): "He flux energy channels"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/1): " "
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f13.2"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/5): "MeV/N"
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 100.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

@@ -1,0 +1,271 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ibex_h3_ena_lo_r06_schwadron-h_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ibex_h3_ena_lo_r06_schwadron-h_00000000_v01.cdf
+Version:      3.5.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     61 (26 global, 35 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     -1
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/25): 	"HEX>Heliophysics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"IBEX>Interstellar Boundary Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/30): 	"H3>ENA Count Rate Distribution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"ENA>Energetic Neutral Atom"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+PI_name (1 entry):
+	0 (CDF_CHAR/20): 	"Dr. David J. McComas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/20): 	"Princeton University"
+TEXT (8 entries):
+	0 (CDF_CHAR/628): 	"This data set is from the IBEX-Lo Release 6 Primary Hydrogen Data Rate Files. The IBEX sixth data release contains data and related information connected with the publication of Schwadron et al., 2014, SOLAR RADIATION PRESSURE AND LOCAL INTERSTELLAR MEDIUM FLOW PARAMETERS FROM INTERSTELLAR BOUNDARY EXPLORER LOW ENERGY HYDROGEN MEASUREMENTS. Neutral hydrogen atoms that travel into the heliosphere from the local interstellar medium (LISM) experience strong effects due to charge exchange and radiation pressure from resonant absorption and re-emission of Lya. The radiation pressure roughly compensates for the solar gravity. "
+	1 (CDF_CHAR/346): 	"As a result, interstellar hydrogen atoms move along trajectories that are quite different than those of heavier interstellar species such as helium and oxygen, which experience relatively weak radiation pressure. Charge exchange leads to the loss of primary neutrals from the LISM and the addition of new secondary neutrals from the heliosheath. "
+	2 (CDF_CHAR/386): 	"IBEX observations show clear effects of radiation pressure in a large longitudinal shift in the peak of interstellar hydrogen compared with that of interstellar helium. Here, we compare results from the Lee et al. interstellar neutral model with IBEX-Lo hydrogen observations to describe the distribution of hydrogen near 1 AU and provide new estimates of the solar radiation pressure. "
+	3 (CDF_CHAR/475): 	"We find over the period analyzed from 2009 to 2011 that radiation pressure divided by the gravitational force (.) has increased slightly from mu = 0.94 +- 0.04 in 2009 to mu = 1.01 +- 0.05 in 2011. We have also derived the speed, temperature, source longitude, and latitude of the neutral H atoms and find that these parameters are roughly consistent with those of interstellar He, particularly when considering the filtration effects that act on H in the outer heliosheath. "
+	4 (CDF_CHAR/613): 	"Thus, our analysis shows that over the period from 2009 to 2011, we observe signatures of neutral H consistent with the primary distribution of atoms from the LISM and a radiation pressure that increases in the early rise of solar activity. Data rate files are listed by orbit number: o00XX-rate12.txt where XX corresponds to the orbit number. The data rate files contain five data columns correspond to: isector, rate (ESA1), uncertainty(ESA1), rate(ESA2), uncertainty (ESA2). All rates in counts/sec. The methods used to estimate these background-corrected count rates are discussed by Schwadron et al. (2013). "
+	5 (CDF_CHAR/594): 	"Because of background correction some of the listed rates are negative, but these are typically negative values near 0 within statistical uncertainties. isector: 0 - 30 isector corresponds to the spin-sector of the IBEX-Hi sensor The spinning spacecraft moves the sensors from 0 to 360 in a great-circle where the spin-axis is directed with RA and DEC coordinates given in the inertial pointing file. Sector 0 corresponds to the spin sector whose center in spin angle points exactly to the North Ecliptic Pole (NEP). hi-spinphase (deg) = isector*6.0 lo-spinphase (deg) = hi-spinphase +/- 180.0 "
+	6 (CDF_CHAR/1237): 	"In the current compilation, the time periods have been sub-divided into 512-spin time periods and thus synchronized with the internal accumulation periods of the onboard Histograms reported here and with the prescribed 512-spin accumulation. Therefore, some of the periods have slightly different start times and truncated to match the last complete 512-spin period at the end. Orbit 13 was omitted from the current compilation because several data gaps due to still ongoing commanding during that orbit cut into the prescribed 512 spin cadence. Also, in Data Release 3, the start and end times were slightly different from Table 1 to match the cadence chosen for the data. As used in the 2012 ApJ Suppl publications, Golden Triple Hydrogen counts detected in IBEX-Lo energy step 2 in 6o resolution are reported, which reflect H sputtered off the IBEX-Lo conversion surface by incoming interstellar He, as described in Moebius et al. (2012). The data rate files are organized as follows: The first line in the header contains column labels for 6 data columns, as listed below The next header line includes the start time (in GPS), end time (in GPS), and accumulated time (in seconds). This line is repeated for each 512-spin time period."
+	7 (CDF_CHAR/817): 	"For the first two and a half years of science operations (through Orbit 127), IBEX's orbital period was ~7.5 days and the spin axis was repointed once each orbit (around perigee), leading to bands of sky viewing centered 7.5 apart. In June 2011, over Orbits 128 and 129, IBEX was maneuvered into a previously unknown, long-term stable lunar synchronous orbit with apogee still ~50 RE (McComas et al. 2011a). Since then, IBEX's orbital period has been ~9.1 days (one-third of the lunar sidereal period of 27.3 days). Orbit numbers from 130 onward are split into two segments, 'a' and 'b'. Furthermore, starting in orbit segment 184a, the IBEX team modified the IBEX-Hi energy step sequence and eliminated the lowest energy step (ESA1) in exchange for doubling the statistical sampling of ESA3 (center energy ~1.1 keV)."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"IBEX"
+Logical_source (1 entry):
+	0 (CDF_CHAR/30): 	"ibex_h3_ena_lo_r06_schwadron-h"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/43): 	"ibex_h3_ena_lo_r06_schwadron-h_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/56): 	"IBEX-Hi Release 6; Count Data for Heliospheric Imaging. "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/16): 	"two hour cadence"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/184): 	"The IBEX Release 6 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data. "
+Generated_by (1 entry):
+	0 (CDF_CHAR/13): 	"Sonya Lyatsky"
+Generation_date (1 entry):
+	0 (CDF_CHAR/24): 	"Sun Sep  8 17:08:02 2019"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University. "
+MODS (1 entry):
+	0 (CDF_CHAR/24): 	"The IBEX Release 6 data "
+ADID_ref (0 entry):
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/55): 	"IBEX Mission, Instrument, and Data Release Descriptions"
+	1 (CDF_CHAR/64): 	"IBEX Data Release 6 IBEX-Lo Count Data for Heliospheric Imaging "
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/47): 	"IBEX The Interstellar Boundary Explorer mission"
+	1 (CDF_CHAR/20): 	"IBEX Data Release 6 "
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/27): 	"https://ibex.princeton.edu/"
+	1 (CDF_CHAR/38): 	"https://ibex.princeton.edu/DataRelease"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/52): 	"spase://VSPO/NumericalData/IBEX/H3/ENA/Lo/R06-H/P2hr"
+
+Variable Attributes (35 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Orbit_Number          CDF_UINT2/1	0:[]	T/  
+iSector_Bin           CDF_UINT2/1	1:[31]	F/T
+iSector               CDF_REAL4/1	1:[31]	F/T
+Uncertainty_ESA1      CDF_REAL4/1	1:[31]	T/T
+iSector_ESA1          CDF_REAL4/1	1:[31]	T/T
+Uncertainty_ESA2      CDF_REAL4/1	1:[31]	T/T
+iSector_ESA2          CDF_REAL4/1	1:[31]	T/T
+
+
+Variable (8 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "CDF epoch time for the start of the  six-month measurement period"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/14): "CDF Epoch Time"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/33): "day-month-year hour:minute:second"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+Orbit_Number (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "Orbit Number of the measurement period"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "Orbit Number"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/5): "Orbit"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65534
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/100): "IBEX orbital period around Earth is 7.5 days. Orbits 1-207 during the five years of data 2009-2013. "
+
+iSector_Bin (No: 2) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/156): "Spin Angle Bin Number corresponding to six-degree longitudinal increments of the current IBEX-Lo viewing sector between the north and south Ecliptic poles. "
+     FIELDNAM        (CDF_CHAR/21): "Spin Angle Bin Number"
+     FILLVAL         (CDF_UINT2/1): 65534
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/1): "#"
+     LABL_PTR_1      (CDF_CHAR/10): "Spin Angle"
+     UNITS           (CDF_CHAR/10): "Bin Number"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 30
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/440): "isector bin (1-30) corresponds to the spin-sector bin of the IBEX-Hi sensor The spinning spacecraft moves the sensors from 0 to 360 in a great-circle where the spin-axis is directed with RA and DEC coordinates given in the inertial pointing file. Sector 0 corresponds to the spin sector whose center in spin angle points exactly to the North Ecliptic Pole (NEP). hi-spinphase (deg) = isector*6.0 lo-spinphase (deg) = hi-spinphase +/- 180.0 "
+
+iSector (No: 3) (Recs: 1)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "iSector"
+     FIELDNAM        (CDF_CHAR/7): "iSector"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/11): "iSector_Bin"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/426): "isector corresponds to the spin-sector of the IBEX-Hi sensor The spinning spacecraft moves the sensors from 0 to 360 in a great-circle where the spin-axis is directed with RA and DEC coordinates given in the inertial pointing file. Sector 0 corresponds to the spin sector whose center in spin angle points exactly to the North Ecliptic Pole (NEP). hi-spinphase (deg) = isector*6.0 lo-spinphase (deg) = hi-spinphase +/- 180.0  "
+
+Uncertainty_ESA1 (No: 4) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Uncertainty ESA1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "iSector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/16): "Uncertainty ESA1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E14.9"
+     LABLAXIS        (CDF_CHAR/16): "Uncertainty ESA1"
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+iSector_ESA1 (No: 5) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "i sector rate ESA1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "iSector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/18): "i sector rate ESA1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E14.9"
+     LABLAXIS        (CDF_CHAR/18): "i sector rate ESA1"
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Uncertainty_ESA2 (No: 6) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Uncertainty ESA2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "iSector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/16): "Uncertainty ESA2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E14.9"
+     LABLAXIS        (CDF_CHAR/16): "Uncertainty ESA2"
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+iSector_ESA2 (No: 7) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "i sector rate ESA2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "iSector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/18): "i sector rate ESA2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E14.9"
+     LABLAXIS        (CDF_CHAR/12): "iSector_ESA2"
+     UNITS           (CDF_CHAR/10): "counts/sec"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

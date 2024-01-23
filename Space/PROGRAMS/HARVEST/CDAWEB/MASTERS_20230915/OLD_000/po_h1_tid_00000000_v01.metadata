@@ -1,0 +1,790 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_h1_tid_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_h1_tid_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     43
+NumAttrs:     44 (23 global, 21 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (23 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Mission_group (2 entries):
+	0 (CDF_CHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument (1 entry):
+	0 (CDF_CHAR/67): 	"TIDE/PSI : Thermal Ion Dynamics Experiment/Plasma Source Instrument"
+PI_name (1 entry):
+	0 (CDF_CHAR/15): 	"Thomas E. Moore"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/27): 	"Goddard Space Flight Center"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetoshperic Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"H1>High Time Resolution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/35): 	"TID>Thermal Ion Dynamics Experiment"
+TITLE (1 entry):
+	0 (CDF_CHAR/30): 	"TIDE High Time Resolution Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (1 entry):
+	0 (CDF_CHAR/76): 	"TIDE data after 07-Dec-1996 are non-mass total ion contribution below 411 ev"
+Time_Resolution (1 entry):
+	0 (CDF_CHAR/37): 	"6 seconds times the value of spin_avg"
+MODS (2 entries):
+	0 (CDF_CHAR/42): 	"Skeleton table version 1 created 10/16/00."
+	1 (CDF_CHAR/42): 	"Skeleton table version 2 created 07/12/06."
+Skeleton_version (1 entry):
+	0 (CDF_CHAR/1): 	"2"
+Software_version (1 entry):
+	0 (CDF_CHAR/62): 	"tide_ver contains the TIDE processing software version number."
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0324"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"po_h1_tid_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"PO_H1_TID"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/63): 	"Polar TIDE Total Ion High Time Resolution Data (after 12/7/96) "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/17): 	"Polar_TIDE_h1_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/44): 	"spase://NASA/NumericalData/POLAR/TIDE/H1_CDF"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+SCALETYP
+VAR_NOTES
+DISPLAY_TYPE
+
+Variable Information (0 rVariable, 43 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+total_den             CDF_REAL4/1	0:[]	T/  
+total_vel             CDF_REAL4/1	1:[2]	T/T
+total_temp            CDF_REAL4/1	1:[2]	T/T
+total_en              CDF_REAL4/1	1:[31]	T/T
+total_spin            CDF_REAL4/1	1:[32]	T/T
+tide_stat             CDF_UINT1/1	0:[]	T/  
+psi_stat              CDF_UINT1/1	0:[]	T/  
+sc_pot                CDF_REAL4/1	0:[]	T/  
+ram_spin              CDF_REAL4/1	0:[]	T/  
+ram_polar             CDF_REAL4/1	0:[]	T/  
+mag_az                CDF_REAL4/1	0:[]	T/  
+mag_el                CDF_REAL4/1	0:[]	T/  
+unit_time             CDF_CHAR/4	1:[3]	F/T
+label_time            CDF_CHAR/27	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+label_total_vel       CDF_CHAR/18	1:[2]	F/T
+label_total_temp      CDF_CHAR/16	1:[2]	F/T
+energy_cent           CDF_REAL4/1	1:[31]	F/T
+energy_low            CDF_REAL4/1	1:[31]	F/T
+energy_up             CDF_REAL4/1	1:[31]	F/T
+spin_cent             CDF_REAL4/1	1:[32]	F/T
+spin_low              CDF_REAL4/1	1:[32]	F/T
+spin_up               CDF_REAL4/1	1:[32]	F/T
+mass_charge           CDF_UINT1/1	0:[]	F/  
+spin_avg              CDF_UINT2/1	0:[]	F/  
+sub_min               CDF_UINT1/1	0:[]	F/  
+sum_avg               CDF_UINT1/1	0:[]	F/  
+bfld_source           CDF_UINT1/1	0:[]	F/  
+tide_ver              CDF_CHAR/15	0:[]	F/  
+moments_lim           CDF_REAL4/1	2:[2,3]	F/TT
+spect_lim             CDF_REAL4/1	2:[2,3]	F/TT
+att_file              CDF_CHAR/40	0:[]	F/  
+orbit_file            CDF_CHAR/40	0:[]	F/  
+lz_file               CDF_CHAR/40	0:[]	F/  
+scpot_file            CDF_CHAR/40	0:[]	F/  
+instr_calib           CDF_CHAR/40	0:[]	F/  
+mass_calib            CDF_CHAR/40	0:[]	F/  
+mask_file             CDF_CHAR/40	0:[]	F/  
+calib_corr            CDF_CHAR/50	0:[]	F/  
+scpot_off             CDF_REAL4/1	0:[]	F/  
+mask_corr             CDF_REAL4/1	0:[]	F/  
+
+
+Variable (43 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/19): "Time of observation"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1995 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 23:59:59.999
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1995 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/30): "time>epoch_accumulation_cneter"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/19): "Time of observation"
+     VALIDMIN        (CDF_INT4/3): 1995, 1, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 1, 86399000
+     SCALEMIN        (CDF_INT4/3): 1995, 1, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 1, 86399000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/8): "time>PB5"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+
+total_den (No: 2) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Total Ion Density"
+     CATDESC         (CDF_CHAR/47): "Total Ion Density, available after 07-Dec-1996."
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/17): "Total Ion Density"
+     UNITS           (CDF_CHAR/5): "no/cc"
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "density>ion"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/32): "Only avaliable after 07-Dec-1996"
+
+total_vel (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Total Ion Velocity"
+     CATDESC         (CDF_CHAR/69): "Total Ion Plasma Velocity, Field Aligned, available after 07-Dec-1996"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): -50.0
+     SCALEMAX        (CDF_REAL4/1): 50.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "f10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/26): "velocity>ion_field_aligned"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/15): "label_total_vel"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "label_total_vel"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/104): "Available after 07-Dec-1996 only,for energy and spin angle calculation see moments_lim.  Vx and Vy only."
+
+total_temp (No: 4) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Total Ion Temperature"
+     CATDESC         (CDF_CHAR/100): "Total Ion Temperature, Parallel and Perpendicular to the Magnetic Field. Available after 07-Dec-1996"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "eV"
+     FORMAT          (CDF_CHAR/4): "f5.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/38): "temperature>ion_parallel_perpendicular"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/16): "label_total_temp"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "label_total_temp"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/87): "Avaliable after 07-Dec-1996.  Direction of magnetic field obtained from onboard values."
+
+total_en (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Total Ion Flux"
+     CATDESC         (CDF_CHAR/58): "Total Ion Energy Spectrogram. Available after 07-Dec-1996."
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+21
+     SCALEMIN        (CDF_REAL4/1): 10000.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+07
+     LABLAXIS        (CDF_CHAR/14): "Total Ion Flux"
+     UNITS           (CDF_CHAR/17): "eV/[cm^2*s*sr*eV]"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/17): "particle_flux>ion"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "energy_cent"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/138): "Flux values summed or averaged over spin and polar angles.  See spect_lim for sum/avg limits, see sum_avg to determine which one was used."
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+total_spin (No: 6) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Total Ion Flux"
+     CATDESC         (CDF_CHAR/62): "Total Ion Spin Angle Spectrogram. Available after 07-Dec-1996."
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+21
+     SCALEMIN        (CDF_REAL4/1): 10000.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+07
+     LABLAXIS        (CDF_CHAR/14): "Total Ion Flux"
+     UNITS           (CDF_CHAR/17): "eV/[cm^2*s*sr*eV]"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/17): "particle_flux>ion"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "spin_cent"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/139): "Flux values summed or averaged over energy and polar angle.  See spect_lim for sum/avg limits, see sum_avg to determine which one was used."
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+
+tide_stat (No: 7) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "TIDE Instrument Status"
+     CATDESC         (CDF_CHAR/63): "TIDE Instrument Status (0-off,1-on,2-standby,3-mirrors stepped)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 3
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 3
+     LABLAXIS        (CDF_CHAR/11): "TIDE Status"
+     UNITS           (CDF_CHAR/4): "TIDE"
+     FORMAT          (CDF_CHAR/2): "i1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     FILLVAL         (CDF_UINT1/1): 255
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/260): "TIDE instrument status flag:  0 - TIDE not operational or data missing, 1 - TIDE fully operational, 2 - TIDE MCP high voltages lowered for passage through radiation belt, 3 - TIDE mirrors stepped down due to high counts, calibration applied to correct counts. "
+
+psi_stat (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "PSI Instrument Status"
+     CATDESC         (CDF_CHAR/44): "PSI Instrument Status (0-off,1-on,2-standby)"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 2
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 2
+     LABLAXIS        (CDF_CHAR/10): "PSI Status"
+     UNITS           (CDF_CHAR/3): "PSI"
+     FORMAT          (CDF_CHAR/2): "i1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     FILLVAL         (CDF_UINT1/1): 255
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/129): "PSI instrument status flag:  0 - PSI not operation or data missing, 1 - PSI fully operational, 2 - PSI on but keeper not ignited."
+
+sc_pot (No: 9) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Spacecraft Potential"
+     CATDESC         (CDF_CHAR/54): "Spacecraft Potential (from EFI K0 or a constant value)"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 50.0
+     LABLAXIS        (CDF_CHAR/7): "S/C Pot"
+     UNITS           (CDF_CHAR/5): "Volts"
+     FORMAT          (CDF_CHAR/4): "f9.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/20): "potential>spacecraft"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/36): "value either constant or from EFI K0"
+
+ram_spin (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Spacecraft Ram Spin Angle"
+     CATDESC         (CDF_CHAR/25): "Spacecraft Ram Spin Angle"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     LABLAXIS        (CDF_CHAR/14): "Ram Spin Angle"
+     UNITS           (CDF_CHAR/3): "Deg"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/19): "position>spin_angle"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/38): "spin angle direction of the spacecraft"
+
+ram_polar (No: 11) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Spacecraft Ram Polar Angle"
+     CATDESC         (CDF_CHAR/26): "Spacecraft Ram Polar Angle"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/15): "Ram Polar Angle"
+     UNITS           (CDF_CHAR/3): "Deg"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/20): "position>polar_angle"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/39): "polar angle direction of the spacecraft"
+
+mag_az (No: 12) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "B-Field Field Azimuth"
+     CATDESC         (CDF_CHAR/22): "Magnetic Field Azimuth"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     LABLAXIS        (CDF_CHAR/15): "B-Field Azimuth"
+     UNITS           (CDF_CHAR/3): "Deg"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/22): "magnetic_field>azimuth"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/24): "magnetic field elevation"
+
+mag_el (No: 13) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "B-Field Field Elevation"
+     CATDESC         (CDF_CHAR/24): "Magnetic Field Elevation"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     LABLAXIS        (CDF_CHAR/12): "B-Field Elev"
+     UNITS           (CDF_CHAR/3): "Deg"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/24): "magnetic_field>elevation"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/24): "magnetic field elevation"
+
+unit_time (No: 14) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     CATDESC         (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/11): "label>units"
+
+label_time (No: 15) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     CATDESC         (CDF_CHAR/18): "Label for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>time"
+
+format_time (No: 16) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     CATDESC         (CDF_CHAR/19): "Format for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+
+label_total_vel (No: 17) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Label for Total Ion velocity"
+     CATDESC         (CDF_CHAR/28): "Label for Total Ion velocity"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/14): "label>velocity"
+
+label_total_temp (No: 18) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Total Ion Temperature label"
+     CATDESC         (CDF_CHAR/27): "Total Ion Temperature label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/17): "label>temperature"
+
+energy_cent (No: 19) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Obs.Energy"
+     CATDESC         (CDF_CHAR/10): "Obs.Energy"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 0.3
+     SCALEMAX        (CDF_REAL4/1): 375.0
+     LABLAXIS        (CDF_CHAR/10): "Obs.Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     FORMAT          (CDF_CHAR/5): "f10.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+
+energy_low (No: 20) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Lower Energy"
+     CATDESC         (CDF_CHAR/25): "Lower Energy bin boundary"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 0.32
+     SCALEMAX        (CDF_REAL4/1): 350.0
+     LABLAXIS        (CDF_CHAR/10): "Obs.Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     FORMAT          (CDF_CHAR/5): "f10.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+
+energy_up (No: 21) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Upper Energy"
+     CATDESC         (CDF_CHAR/25): "Upper Energy bin boundary"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 0.32
+     SCALEMAX        (CDF_REAL4/1): 412.0
+     LABLAXIS        (CDF_CHAR/10): "Obs.Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     FORMAT          (CDF_CHAR/5): "f10.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+
+spin_cent (No: 22) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Spin Angle"
+     CATDESC         (CDF_CHAR/10): "Spin Angle"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     LABLAXIS        (CDF_CHAR/10): "Spin Angle"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/5): "f10.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "angle>azimuth"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+spin_low (No: 23) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Lower Spin Angle"
+     CATDESC         (CDF_CHAR/29): "Lower Spin Angle bin boundary"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     LABLAXIS        (CDF_CHAR/10): "Spin Angle"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/5): "f10.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "angle>azimuth"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+spin_up (No: 24) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Upper Spin Angle"
+     CATDESC         (CDF_CHAR/29): "Upper Spin Angle bin boundary"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     LABLAXIS        (CDF_CHAR/10): "Spin Angle"
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/5): "f10.3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "angle>azimuth"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+mass_charge (No: 25) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Mass to Charge Ratio"
+     CATDESC         (CDF_CHAR/20): "Mass to Charge Ratio"
+     VALIDMIN        (CDF_UINT1/1): 1
+     VALIDMAX        (CDF_UINT1/1): 30
+     SCALEMIN        (CDF_UINT1/1): 1
+     SCALEMAX        (CDF_UINT1/1): 30
+     LABLAXIS        (CDF_CHAR/11): "mass/charge"
+     UNITS           (CDF_CHAR/11): "mass/charge"
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     FILLVAL         (CDF_UINT1/1): 255
+     VAR_NOTES       (CDF_CHAR/58): "The mass to charge ratio used in the moments calculations."
+
+spin_avg (No: 26) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Spins Averaged"
+     CATDESC         (CDF_CHAR/14): "Spins Averaged"
+     VALIDMIN        (CDF_UINT2/1): 1
+     VALIDMAX        (CDF_UINT2/1): 300
+     SCALEMIN        (CDF_UINT2/1): 1
+     SCALEMAX        (CDF_UINT2/1): 300
+     LABLAXIS        (CDF_CHAR/14): "spins_averaged"
+     UNITS           (CDF_CHAR/6): "number"
+     FORMAT          (CDF_CHAR/2): "i3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     FILLVAL         (CDF_UINT2/1): 65535
+     VAR_NOTES       (CDF_CHAR/60): "the number of spacecraft spins averaged for each time period"
+
+sub_min (No: 27) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Minimum count subtracted"
+     CATDESC         (CDF_CHAR/24): "Minimum count subtracted"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     LABLAXIS        (CDF_CHAR/7): "min_sub"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     FILLVAL         (CDF_UINT1/1): 255
+     VAR_NOTES       (CDF_CHAR/169): "If sub_min = 1, the minimum count in each spin of data has been subtracted as a means of reducing the noice level. If sub_min = 0, no minimum count subtraction was done."
+
+sum_avg (No: 28) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "spectrogram count option"
+     CATDESC         (CDF_CHAR/24): "spectrogram count option"
+     VALIDMIN        (CDF_UINT1/1): 1
+     VALIDMAX        (CDF_UINT1/1): 3
+     SCALEMIN        (CDF_UINT1/1): 1
+     SCALEMAX        (CDF_UINT1/1): 3
+     LABLAXIS        (CDF_CHAR/11): "sum-avg-max"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     FILLVAL         (CDF_UINT1/1): 255
+     VAR_NOTES       (CDF_CHAR/135): "The counts in the spectrograms can be summed (1), averaged (2), or the maximum (3) of the data whose ranges are specified in spect_lim."
+
+bfld_source (No: 29) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "source of b-field data"
+     CATDESC         (CDF_CHAR/22): "source of b-field data"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 1
+     LABLAXIS        (CDF_CHAR/8): "bfld-src"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     FILLVAL         (CDF_UINT1/1): 255
+     VAR_NOTES       (CDF_CHAR/117): "The b-field data (mag_az and mag_el) can either be from TIDE telemetry (0) or from MFE high time resolution data (1)."
+
+tide_ver (No: 30) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "software version number"
+     CATDESC         (CDF_CHAR/23): "software version number"
+     FORMAT          (CDF_CHAR/3): "a15"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/83): "The version of the TIDE level-zero processing software used to create the CDF file."
+
+moments_lim (No: 31) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "moments calculation limits"
+     CATDESC         (CDF_CHAR/26): "moments calculation limits"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 500.0
+     LABLAXIS        (CDF_CHAR/18): "moments calc range"
+     UNITS           (CDF_CHAR/10): "calc range"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/75): "The energy and spin and polar angle ranges used in the moments calculations"
+
+spect_lim (No: 32) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "spectrogram summing limits"
+     CATDESC         (CDF_CHAR/26): "spectrogram summing limits"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 500.0
+     LABLAXIS        (CDF_CHAR/16): "spect calc range"
+     UNITS           (CDF_CHAR/10): "calc range"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/78): "The energy and spin and polar angle ranges used to create the spectrogram sums"
+
+att_file (No: 33) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Polar attitude file"
+     CATDESC         (CDF_CHAR/19): "Polar attitude file"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/48): "Polar attitude file used to create this CDF file"
+
+orbit_file (No: 34) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Polar orbit file"
+     CATDESC         (CDF_CHAR/16): "Polar orbit file"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/45): "Polar orbit file used to create this CDF file"
+
+lz_file (No: 35) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "TIDE level-zero file"
+     CATDESC         (CDF_CHAR/20): "TIDE level-zero file"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/41): "TIDE lz file used to create this CDF file"
+
+scpot_file (No: 36) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "EFI Spacecraft potential file"
+     CATDESC         (CDF_CHAR/29): "EFI Spacecraft potential file"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/54): "Spacecraft potential file used to create this CDF file"
+
+instr_calib (No: 37) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "instrument calibration filename"
+     CATDESC         (CDF_CHAR/31): "intsrument calibration filename"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/62): "Name of file containing the instrument calibration input data."
+
+mass_calib (No: 38) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "mass calibration filename"
+     CATDESC         (CDF_CHAR/25): "mass calibration filename"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/53): "Name for file containing mass calibration input data."
+
+mask_file (No: 39) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "mask filename"
+     CATDESC         (CDF_CHAR/13): "mask filename"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/48): "The mask file used to subtract background noise."
+
+calib_corr (No: 40) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "calibration correction"
+     CATDESC         (CDF_CHAR/22): "calibration correction"
+     FORMAT          (CDF_CHAR/3): "A50"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/49): "Type of long term calibration correction applied."
+
+scpot_off (No: 41) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "EFI spacecraft potential offset"
+     CATDESC         (CDF_CHAR/31): "EFI spacecraft potential offset"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 30
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 30
+     LABLAXIS        (CDF_CHAR/16): "EFI_scpot_offset"
+     UNITS           (CDF_CHAR/5): "Volts"
+     FORMAT          (CDF_CHAR/4): "f5.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     FILLVAL         (CDF_UINT1/1): 0
+     VAR_NOTES       (CDF_CHAR/62): "Correction value added to each EFI spacecraft potential value."
+
+mask_corr (No: 42) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Mask correction factor"
+     CATDESC         (CDF_CHAR/22): "Mask correction factor"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 10
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 10
+     LABLAXIS        (CDF_CHAR/9): "Mask_corr"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     FILLVAL         (CDF_UINT1/1): 1
+     VAR_NOTES       (CDF_CHAR/88): "Correction factor multiplied by each mask count in order to reduce the over subtraction."
+

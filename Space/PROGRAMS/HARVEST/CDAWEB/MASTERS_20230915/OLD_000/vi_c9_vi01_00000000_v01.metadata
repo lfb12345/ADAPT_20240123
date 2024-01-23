@@ -1,0 +1,288 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/vi_c9_vi01_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     vi_c9_vi01_00000000_v01.cdf
+Version:      3.6.2
+
+Common Data Format (CDF)
+(C) Copyright 1990-2016 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     9
+NumAttrs:     50 (27 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"Viking UV Auroral Imager; images; 80s; CDAW-9     "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"Viking    "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"UV imager "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"80 s      "
+TEXT (4 entries):
+	0 (CDF_CHAR/30): 	"Derived from VI01 in CDAW9 DB."
+	1 (CDF_CHAR/306): 	"These North Pole UV auroral images (N2+ LBH bands and some O+ for Event C,  projected to 120 km altitude, centered at 85 degrees mag.latitude) can be best seen from within the NACS software by selecting the Mapped Image Plot option in Graphics. Recommended settings for the parameters in this option are:  "
+	2 (CDF_CHAR/438): 	"1.  Choose MLAT,MLON,TCNT for X,Y,Z. 2.  Choose Nearest1 algorithm and 100 gridpoints. 3.  Choose Orthographic projection, 90 for the pole, magnification of 3,       and set MAPDATA to 10 to turn off continent outlines. 4.  You may change the plotted range of intensities from default values. 5.  Select times that include the start time of the desired image. 6.  Fill in the plot Title, save_filename, Username, etc., and SELERASE 'on'. "
+	3 (CDF_CHAR/382): 	"The geomagnetic coordinates are eccentric dipole (IGRF 1985).  No dayglow corrections have been applied.  The ungridded images are also available on the MAC, via NCSA Image.  A program is available (9/91), to run on a Sun workstation, which displays the ungridded images, saves values of selected points, and presents a mapped gridded image on request (geographic or geomagnetic).  "
+MODS (1 entry):
+	0 (CDF_CHAR/28): 	"Converted to CDAWeb Feb 2000"
+Descriptor (1 entry):
+	0 (CDF_CHAR/56): 	"VI01> Viking UV Auroral Imager; images; 80s; CDAW-9     "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>CDAW9"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"VI>Viking"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"S. Murphree"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/27): 	"S. Murphree and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"vi_c9_vi01"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"vi_c9_vi01_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/60): 	"Vi  Viking UV Auroral Imager; images; 80s; CDAW-9      CDAW9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+DISPLAY_TYPE
+DEPEND_2
+DEPEND_1
+DEPEND_0
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+ALLOW_BIN
+
+Variable Information (0 rVariable, 9 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+VI01TCNT              CDF_INT2/1	2:[180,180]	T/TT
+VI01GLAT              CDF_REAL4/1	2:[180,180]	T/TT
+VI01GLON              CDF_REAL4/1	2:[180,180]	T/TT
+VI01MLAT              CDF_REAL4/1	2:[180,180]	F/TT
+VI01MLON              CDF_REAL4/1	2:[180,180]	T/TT
+VI01MLT               CDF_REAL4/1	2:[180,180]	F/TT
+VI01ROWN              CDF_INT2/1	1:[180]	F/T
+VI01COLM              CDF_INT2/1	1:[180]	F/T
+
+
+Variable (9 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+VI01TCNT (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Pixel value         "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 16495
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 255.0
+     UNITS           (CDF_CHAR/20): "counts              "
+     FORMAT          (CDF_CHAR/8): "I3      "
+     CATDESC         (CDF_CHAR/40): "Pixel Value            TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     DEPEND_2        (CDF_CHAR/8): "VI01ROWN"
+     DEPEND_1        (CDF_CHAR/8): "VI01ROWN"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/12): "UV Pixel Cts"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+VI01GLAT (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geogr. Latitude     "
+     VALIDMIN        (CDF_REAL4/1): -3.35156
+     VALIDMAX        (CDF_REAL4/1): 3.35156
+     SCALEMIN        (CDF_REAL8/1): -90.0
+     SCALEMAX        (CDF_REAL8/1): 90.0
+     UNITS           (CDF_CHAR/20): "deg.                "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "Geogr. Lat of pixel    TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     DEPEND_2        (CDF_CHAR/8): "VI01COLM"
+     DEPEND_1        (CDF_CHAR/8): "VI01ROWN"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "GeogLat"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+VI01GLON (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geogr. Longitude    "
+     VALIDMIN        (CDF_REAL4/1): -3.60156
+     VALIDMAX        (CDF_REAL4/1): 3.85156
+     SCALEMIN        (CDF_REAL8/1): -180.0
+     SCALEMAX        (CDF_REAL8/1): 180.0
+     UNITS           (CDF_CHAR/20): "degrees E.          "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "Geogr. Long. of pixel  TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     DEPEND_2        (CDF_CHAR/8): "VI01COLM"
+     DEPEND_1        (CDF_CHAR/8): "VI01ROWN"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "GeogLong"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+VI01MLAT (No: 4) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "GeoMag Latitude     "
+     VALIDMIN        (CDF_REAL4/1): -3.35156
+     VALIDMAX        (CDF_REAL4/1): 3.35156
+     SCALEMIN        (CDF_REAL8/1): -90.0
+     SCALEMAX        (CDF_REAL8/1): 90.0
+     UNITS           (CDF_CHAR/20): "deg.                "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "Ecc.Dipole Lat of pixelTT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "Geomag EccDip Lat"
+
+VI01MLON (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "GeoMag Longitude    "
+     VALIDMIN        (CDF_REAL4/1): -3.60156
+     VALIDMAX        (CDF_REAL4/1): 3.60156
+     SCALEMIN        (CDF_REAL8/1): -180.0
+     SCALEMAX        (CDF_REAL8/1): 180.0
+     UNITS           (CDF_CHAR/20): "degrees E.          "
+     FORMAT          (CDF_CHAR/8): "F8.2    "
+     CATDESC         (CDF_CHAR/40): "Ecc.Dipole Lon of pixelTT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     DEPEND_2        (CDF_CHAR/8): "VI01ROWN"
+     DEPEND_1        (CDF_CHAR/8): "VI01ROWN"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Geomag Ecc Dip Long"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+VI01MLT  (No: 6) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Magnetic Local Time "
+     VALIDMIN        (CDF_REAL4/1): -2.625
+     VALIDMAX        (CDF_REAL4/1): 2.625
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 24.0
+     UNITS           (CDF_CHAR/20): "hours               "
+     FORMAT          (CDF_CHAR/8): "F6.2    "
+     CATDESC         (CDF_CHAR/40): "Magnetic Local Time    TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Mag LT"
+
+VI01ROWN (No: 7) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Row Number          "
+     VALIDMIN        (CDF_INT2/1): 16368
+     VALIDMAX        (CDF_INT2/1): 16486
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 180.0
+     UNITS           (CDF_CHAR/20): "--                  "
+     FORMAT          (CDF_CHAR/8): "I5      "
+     CATDESC         (CDF_CHAR/40): "Image Row No. (1-180)  T-               "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/5): "Row #"
+
+VI01COLM (No: 8) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Column Number       "
+     VALIDMIN        (CDF_INT2/1): 16368
+     VALIDMAX        (CDF_INT2/1): 16486
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 180.0
+     UNITS           (CDF_CHAR/20): "--                  "
+     FORMAT          (CDF_CHAR/8): "I5      "
+     CATDESC         (CDF_CHAR/40): "Image Column (1-180)   -T               "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/8): "Column #"
+

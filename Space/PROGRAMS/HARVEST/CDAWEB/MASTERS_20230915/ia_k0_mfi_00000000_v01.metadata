@@ -1,0 +1,174 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ia_k0_mfi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ia_k0_mfi_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     4
+NumAttrs:     36 (19 global, 17 variable)
+Compression:  None
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/38): 	"INTERBALL-TAIL>Interball  auroralprobe"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/23): 	"MFI>Magnetic Field Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"0"
+TITLE (1 entry):
+	0 (CDF_CHAR/29): 	"Auroral Probe IMAPInstruments"
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"created May 1997"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0248"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IA_K0_MFI_19951130_V00"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IA_K0_MFI"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/54): 	"Interball Auroral probe Magnetic Field, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"V.Petrov"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/31): 	"IMAP:IZMIRAN,Troitsk,  Russia. "
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/55): 	"Full description: http://www.iki.rssi.ru/interball.html"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/43): 	"Interball-Auroral_MFI_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/51): 	"spase://NASA/NumericalData/Interball-2/IMAP3/PT120S"
+
+Variable Attributes (17 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DICT_KEY
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 4 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+B_abs                 CDF_REAL4/1	0:[]	T/  
+Ib                    CDF_REAL4/1	0:[]	T/  
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (4 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 30-Nov-1995 00:01:00.000
+     SCALEMAX        (CDF_EPOCH/1): 30-Nov-1995 23:59:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+B_abs (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Magnetic Field absolute value"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 60000.0
+     SCALEMIN        (CDF_REAL4/1): 9.91
+     SCALEMAX        (CDF_REAL4/1): 19.3
+     LABLAXIS        (CDF_CHAR/1): "B"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "magnetic_field>total"
+     CATDESC         (CDF_CHAR/45): "Magnetic Field average of magnitudes,  scalar"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/20): "2 min. average, IMAP"
+
+Ib (No: 2) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Magnetic Field Fluctuations"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 60.0
+     SCALEMIN        (CDF_REAL4/1): 0.0114
+     SCALEMAX        (CDF_REAL4/1): 0.012
+     LABLAXIS        (CDF_CHAR/1): "I"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "F3.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -99.9
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/29): "magnetic_field>wave_amplitude"
+     CATDESC         (CDF_CHAR/21): "Magnetic Field Index "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/15): "2 min average  "
+
+Gap_Flag (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag : 0 no gap before this point, 1-5 gap reason"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+

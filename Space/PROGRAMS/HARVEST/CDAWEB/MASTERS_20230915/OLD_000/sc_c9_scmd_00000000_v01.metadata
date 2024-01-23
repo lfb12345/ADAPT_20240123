@@ -1,0 +1,239 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sc_c9_scmd_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sc_c9_scmd_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     47 (27 global, 20 variable)
+Compression:  None
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"CDAW9; T87 model B; 3 min; SCATHA                 "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"SCATHA    "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/16): 	"T87 Model       "
+TIMERES  (1 entry):
+	0 (CDF_CHAR/10): 	"3 min     "
+TEXT (2 entries):
+	0 (CDF_CHAR/35): 	"Derived from SCMD dataset in CDAW9."
+	1 (CDF_CHAR/109): 	"Data for all CDAW9 events A-E.                                                                               "
+MODS (1 entry):
+	0 (CDF_CHAR/107): 	"Converted to CDAWeb Feb 2000                                                                               "
+Data_type (1 entry):
+	0 (CDF_CHAR/11): 	"c9>cdaw9 db"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"SC>SCATHA"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/5): 	"NSSDC"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/11): 	"NASA's GSFC"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/42): 	"SCMD>Scatha calculated T87 Model B @ 3 min"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/21): 	"NSSDC and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/36): 	" Other Data Sources Not Listed Below"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Generated_by (0 entry):
+Time_resolution (1 entry):
+	0 (CDF_CHAR/5): 	"3 min"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"sc_c9_scmd"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"sc_c9_scmd_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/49): 	"Sc Scatha calculated T87 Model B @ 3 min cdaw9 db"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/36): 	" Other Data Sources Not Listed Below"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+SCMDXGSM              CDF_REAL4/1	0:[]	T/  
+SCMDYGSM              CDF_REAL4/1	0:[]	T/  
+SCMDZGSM              CDF_REAL4/1	0:[]	T/  
+SCMDBX                CDF_REAL4/1	0:[]	T/  
+SCMDBY                CDF_REAL4/1	0:[]	T/  
+SCMDBZ                CDF_REAL4/1	0:[]	T/  
+
+
+Variable (7 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/10): "INCREASE  "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+SCMDXGSM (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "X-coordinate GSM    "
+     VALIDMIN        (CDF_REAL4/1): -3.39062
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     SCALEMIN        (CDF_REAL8/1): -7.0
+     SCALEMAX        (CDF_REAL8/1): 8.0
+     UNITS           (CDF_CHAR/20): "Re                  "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "S/C X-coordinate, GSM                   "
+     MONOTON         (CDF_CHAR/10): "FALSE     "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Scatha X GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SCMDYGSM (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Y-coordinate GSM    "
+     VALIDMIN        (CDF_REAL4/1): -3.39062
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     SCALEMIN        (CDF_REAL8/1): -8.0
+     SCALEMAX        (CDF_REAL8/1): 7.0
+     UNITS           (CDF_CHAR/20): "Re                  "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "S/C Y-coordinate, GSM                   "
+     MONOTON         (CDF_CHAR/10): "FALSE     "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Scatha Y GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SCMDZGSM (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Z-coordinate GSM    "
+     VALIDMIN        (CDF_REAL4/1): -3.39062
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     SCALEMIN        (CDF_REAL8/1): -8.0
+     SCALEMAX        (CDF_REAL8/1): 7.0
+     UNITS           (CDF_CHAR/20): "Re                  "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "S/C Y-coordinate, GSM                   "
+     MONOTON         (CDF_CHAR/10): "FALSE     "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Scatha Z GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SCMDBX   (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Bx GSM              "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): -200.0
+     SCALEMAX        (CDF_REAL8/1): 200.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "G14.4   "
+     CATDESC         (CDF_CHAR/40): "T87 Bx-component, GSM                   "
+     MONOTON         (CDF_CHAR/10): "FALSE     "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "T87 BX GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SCMDBY   (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "By GSM              "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): -200.0
+     SCALEMAX        (CDF_REAL8/1): 200.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "G14.4   "
+     CATDESC         (CDF_CHAR/40): "T87 By-component, GSM                   "
+     MONOTON         (CDF_CHAR/10): "FALSE     "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "T87 BY GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+SCMDBZ   (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Bz GSM              "
+     VALIDMIN        (CDF_REAL4/1): -25.7253
+     VALIDMAX        (CDF_REAL4/1): 25.7253
+     SCALEMIN        (CDF_REAL8/1): -200.0
+     SCALEMAX        (CDF_REAL8/1): 200.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "G14.4   "
+     CATDESC         (CDF_CHAR/40): "T87 Bz-component, GSM                   "
+     MONOTON         (CDF_CHAR/10): "FALSE     "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "T87 BZ GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+

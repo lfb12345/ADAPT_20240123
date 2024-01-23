@@ -1,0 +1,526 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_swp_spc_l2i_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_swp_spc_l2i_00000000_v01.cdf
+Version:      3.7.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     21
+NumAttrs:     61 (27 global, 34 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (27 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/22): 	"LWS>Living With a Star"
+Source_name (1 entry):
+	0 (CDF_CHAR/22): 	"PSP>Parker Solar Probe"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/40): 	"L2i>Solar Wind Ion Distribution Function"
+Descriptor (1 entry):
+	0 (CDF_CHAR/65): 	"SWP_SPC>Solar Wind Electrons Alphas and Protons / Solar Probe Cup"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+PI_name (1 entry):
+	0 (CDF_CHAR/16): 	"Justin C. Kasper"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/22): 	"University of Michigan"
+TEXT (1 entry):
+	0 (CDF_CHAR/274): 	"Solar Probe Cup (SPC) charge flux distributions comprise electrical current as a function of time and energy-per-charge, with appropriate instrument response elements considered and calibrations applied. This is a two SWEAP SPC experiment level 2 (L2) standard data product."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/15): 	"psp_swp_spc_l2i"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/28): 	"psp_swp_spc_l2i_20190220_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/62): 	"Parker Solar Probe/SWEAP/SPC Level 2 charge flux distributions"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"variable"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/93): 	"NASA open data policy applies. Consultation with the instrument team is strongly recommended."
+Generated_by (1 entry):
+	0 (CDF_CHAR/45): 	"Michael L. Stevens (mstevens@cfa.harvard.edu)"
+Generation_date (1 entry):
+	0 (CDF_CHAR/24): 	"Tue Nov  5 16:17:50 2019"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/156): 	"This project acknowledges the Parker Solar Probe SWEAP instrument team and the SWEAP science data center for providing these solar wind plasma measurements."
+MODS (3 entries):
+	0 (CDF_CHAR/38): 	"01/12/2018- CDF skeleton created (MLS)"
+	1 (CDF_CHAR/91): 	"2019-10-01: corrections to axis label fields, expanded var_notes, various revised metatdata"
+	2 (CDF_CHAR/69): 	"2019-11-04: contracted calibration file variables to global attribute"
+ADID_ref (0 entry):
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/17): 	" Instrument Paper"
+	1 (CDF_CHAR/10): 	" Data Link"
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/5): 	"SWEAP"
+	1 (CDF_CHAR/43): 	"Smithsonian Astrophysical Observatory SWEAP"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/59): 	"https://link.springer.com/article/10.1007/s11214-015-0206-3"
+	1 (CDF_CHAR/38): 	"http://sweap.cfa.harvard.edu/Data.html"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/94): 	"spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPC/Level2/ChargeFluxDistributions/PT0.2185S"
+Calibrations_used (6 entries):
+	0 (CDF_CHAR/51): 	"psp_swp_spc_calfiles_sensorgainoffsets_20190618_v02"
+	1 (CDF_CHAR/49): 	"psp_swp_spc_calfiles_sensorcrosstalk_20190210_v00"
+	2 (CDF_CHAR/45): 	"psp_swp_spc_calfiles_raytracesim_20181219_v00"
+	3 (CDF_CHAR/53): 	"psp_swp_spc_calfiles_dVthermalcorrection_20181217_v00"
+	4 (CDF_CHAR/40): 	"psp_swp_spc_calfiles_mvind2volt_20180801"
+	5 (CDF_CHAR/43): 	"psp_swp_spc_calfiles_effectiveAreaTable_v00"
+
+Variable Attributes (34 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+
+Variable Information (0 rVariable, 21 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+measurement_time      CDF_REAL8/1	1:[128]	T/T
+mv_index              CDF_UINT1/1	1:[128]	F/T
+mv_hi                 CDF_REAL4/1	1:[128]	T/T
+mv_hi_DELTA_VAR       CDF_REAL4/1	1:[128]	T/T
+mv_lo                 CDF_REAL4/1	1:[128]	T/T
+mv_lo_DELTA_VAR       CDF_REAL4/1	1:[128]	T/T
+a_current             CDF_REAL4/1	1:[128]	T/T
+b_current             CDF_REAL4/1	1:[128]	T/T
+c_current             CDF_REAL4/1	1:[128]	T/T
+d_current             CDF_REAL4/1	1:[128]	T/T
+a_current_DELTA_VAR   CDF_REAL4/1	1:[128]	T/T
+b_current_DELTA_VAR   CDF_REAL4/1	1:[128]	T/T
+c_current_DELTA_VAR   CDF_REAL4/1	1:[128]	T/T
+d_current_DELTA_VAR   CDF_REAL4/1	1:[128]	T/T
+flow_angle            CDF_REAL4/1	1:[2]	T/T
+flow_angle_DELTA_VAR  CDF_REAL4/1	1:[2]	T/T
+diff_charge_flux_density CDF_REAL4/1	1:[128]	T/T
+diff_charge_flux_density_DELTA_VAR CDF_REAL4/1	1:[128]	T/T
+MODE_FLAG             CDF_UINT1/1	0:[]	T/  
+SPC_FRAME             CDF_CHAR/20	1:[2]	F/T
+
+
+Variable (21 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "CDF TT2000 time [ns]"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:58.999000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/364): "Spacecraft ephemeris time, expressed as the number of nanoseconds since J2000 (2000-01-01T12:00:00.000000000) with leap seconds included.   Please refer to CDF TT2000 documentation with regards to this convention.  This time corresponds to the first measurement of the spectrum. Owing to frequent changes in the operating mode, this is usually NOT regular cadence."
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+
+measurement_time (No: 1) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "Time of flux measurement, in nanoseconds, from beginning of spectrum (Epoch)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "mv_index"
+     FIELDNAM        (CDF_CHAR/16): "measurement_time"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/16): "measurement_time"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_REAL8/1): -1.0e+30
+     VALIDMAX        (CDF_REAL8/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/162): "This variable gives the time that each specific flux measurement was made within the spectrum, counting up from the time that is specified in the "Epoch" variable"
+
+mv_index (No: 2) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/8): "mv_index"
+     FIELDNAM        (CDF_CHAR/8): "mv_index"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/8): "mv_index"
+     UNITS           (CDF_CHAR/12): " index value"
+     VALIDMIN        (CDF_UINT1/1): 1
+     VALIDMAX        (CDF_UINT1/1): 128
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+mv_hi (No: 3) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "Upper measurement voltage"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "mv_index"
+     FIELDNAM        (CDF_CHAR/5): "mv_hi"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E8.2"
+     LABLAXIS        (CDF_CHAR/5): "mv_hi"
+     UNITS           (CDF_CHAR/5): "Volts"
+     VALIDMIN        (CDF_REAL4/1): -8000.0
+     VALIDMAX        (CDF_REAL4/1): 8000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/151): "Measurements of charge flux are made with respect to an AC discriminator voltage that oscillates between two values, which are denoted mv_lo and mv_hi."
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "mv_hi_DELTA_VAR"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "mv_hi_DELTA_VAR"
+
+mv_hi_DELTA_VAR (No: 4) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Uncertainty in the upper measurement voltage"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "mv_index"
+     FIELDNAM        (CDF_CHAR/15): "mv_hi_DELTA_VAR"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E7.2"
+     LABLAXIS        (CDF_CHAR/15): "mv_hi_DELTA_VAR"
+     UNITS           (CDF_CHAR/5): "Volts"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 8000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/151): "Measurements of charge flux are made with respect to an AC discriminator voltage that oscillates between two values, which are denoted mv_lo and mv_hi."
+
+mv_lo (No: 5) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "Lower measurement voltage"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "mv_index"
+     FIELDNAM        (CDF_CHAR/5): "mv_lo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E8.2"
+     LABLAXIS        (CDF_CHAR/5): "mv_lo"
+     UNITS           (CDF_CHAR/5): "Volts"
+     VALIDMIN        (CDF_REAL4/1): -8000.0
+     VALIDMAX        (CDF_REAL4/1): 8000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/151): "Measurements of charge flux are made with respect to an AC discriminator voltage that oscillates between two values, which are denoted mv_lo and mv_hi."
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "mv_lo_DELTA_VAR"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "mv_lo_DELTA_VAR"
+
+mv_lo_DELTA_VAR (No: 6) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Uncertainty in the lower measurement voltage"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "mv_index"
+     FIELDNAM        (CDF_CHAR/15): "mv_lo_DELTA_VAR"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E7.2"
+     LABLAXIS        (CDF_CHAR/15): "mv_lo_DELTA_VAR"
+     UNITS           (CDF_CHAR/5): "Volts"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 8000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/151): "Measurements of charge flux are made with respect to an AC discriminator voltage that oscillates between two values, which are denoted mv_lo and mv_hi."
+
+a_current (No: 7) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Current measured by sensor A, in picoAmperes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/9): "A_CURRENT"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E9.1"
+     LABLAXIS        (CDF_CHAR/9): "A_CURRENT"
+     UNITS           (CDF_CHAR/2): "pA"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/123): "This current represents the differential charge flux upon the sensor, as a function of the time and modulator voltage pair."
+     DELTA_PLUS_VAR  (CDF_CHAR/19): "a_current_DELTA_VAR"
+     DELTA_MINUS_VAR (CDF_CHAR/19): "a_current_DELTA_VAR"
+
+b_current (No: 8) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Current measured by sensor B, in picoAmperes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/9): "B_CURRENT"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E9.1"
+     LABLAXIS        (CDF_CHAR/9): "B_CURRENT"
+     UNITS           (CDF_CHAR/2): "pA"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/123): "This current represents the differential charge flux upon the sensor, as a function of the time and modulator voltage pair."
+     DELTA_PLUS_VAR  (CDF_CHAR/19): "b_current_DELTA_VAR"
+     DELTA_MINUS_VAR (CDF_CHAR/19): "b_current_DELTA_VAR"
+
+c_current (No: 9) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Current measured by sensor C, in picoAmperes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/9): "C_CURRENT"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E9.1"
+     LABLAXIS        (CDF_CHAR/9): "C_CURRENT"
+     UNITS           (CDF_CHAR/2): "pA"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/123): "This current represents the differential charge flux upon the sensor, as a function of the time and modulator voltage pair."
+     DELTA_PLUS_VAR  (CDF_CHAR/19): "c_current_DELTA_VAR"
+     DELTA_MINUS_VAR (CDF_CHAR/19): "c_current_DELTA_VAR"
+
+d_current (No: 10) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Current measured by sensor D, in picoAmperes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/9): "D_CURRENT"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E9.1"
+     LABLAXIS        (CDF_CHAR/9): "D_CURRENT"
+     UNITS           (CDF_CHAR/2): "pA"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/123): "This current represents the differential charge flux upon the sensor, as a function of the time and modulator voltage pair."
+     DELTA_PLUS_VAR  (CDF_CHAR/19): "d_current_DELTA_VAR"
+     DELTA_MINUS_VAR (CDF_CHAR/19): "d_current_DELTA_VAR"
+
+a_current_DELTA_VAR (No: 11) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Uncertainty in the current measured by sensor A, in picoAmperes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     FIELDNAM        (CDF_CHAR/19): "A_CURRENT_DELTA_VAR"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E8.1"
+     LABLAXIS        (CDF_CHAR/19): "A_CURRENT_DELTA_VAR"
+     UNITS           (CDF_CHAR/2): "pA"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/221): "Sources of uncertainty include the measurement digitization error, the voltage pair and waveform error, non-stationarity of conditions during the measurement period, and the propagated uncertainty in absolute calibration."
+
+b_current_DELTA_VAR (No: 12) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Uncertainty in the current measured by sensor B, in picoAmperes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     FIELDNAM        (CDF_CHAR/19): "B_CURRENT_DELTA_VAR"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E8.1"
+     LABLAXIS        (CDF_CHAR/19): "B_CURRENT_DELTA_VAR"
+     UNITS           (CDF_CHAR/2): "pA"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/221): "Sources of uncertainty include the measurement digitization error, the voltage pair and waveform error, non-stationarity of conditions during the measurement period, and the propagated uncertainty in absolute calibration."
+
+c_current_DELTA_VAR (No: 13) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Uncertainty in the current measured by sensor C, in picoAmperes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     FIELDNAM        (CDF_CHAR/19): "C_CURRENT_DELTA_VAR"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E8.1"
+     LABLAXIS        (CDF_CHAR/19): "C_CURRENT_DELTA_VAR"
+     UNITS           (CDF_CHAR/2): "pA"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/221): "Sources of uncertainty include the measurement digitization error, the voltage pair and waveform error, non-stationarity of conditions during the measurement period, and the propagated uncertainty in absolute calibration."
+
+d_current_DELTA_VAR (No: 14) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Uncertainty in the current measured by sensor D, in picoAmperes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     FIELDNAM        (CDF_CHAR/19): "D_CURRENT_DELTA_VAR"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E8.1"
+     LABLAXIS        (CDF_CHAR/19): "D_CURRENT_DELTA_VAR"
+     UNITS           (CDF_CHAR/2): "pA"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/221): "Sources of uncertainty include the measurement digitization error, the voltage pair and waveform error, non-stationarity of conditions during the measurement period, and the propagated uncertainty in absolute calibration."
+
+flow_angle (No: 15) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "rough estimate angle of the mean flow into the cup, in radians, in SPC coordinates"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "SPC_FRAME"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "flow_angle"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E7.2"
+     LABLAXIS        (CDF_CHAR/10): "flow_angle"
+     LABL_PTR_1      (CDF_CHAR/9): "SPC_FRAME"
+     UNITS           (CDF_CHAR/6): "radian"
+     VALIDMIN        (CDF_REAL4/2): -1.5708, -1.5708
+     VALIDMAX        (CDF_REAL4/2): 1.5708, 1.5708
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/426): "This flow component is across the sensor with respect to the sensor coordinate system.  This flow angle is estimated using the linear cold-plasma approximation and considering a three-point neighborhood in time at the peak flux measurement. It does not account for spreading of the beam in the instrument, which may be significant.  This angle is used to estimate the diff_charge_flux_density variable (refer to documentation)"
+     DELTA_PLUS_VAR  (CDF_CHAR/20): "flow_angle_DELTA_VAR"
+     DELTA_MINUS_VAR (CDF_CHAR/20): "flow_angle_DELTA_VAR"
+
+flow_angle_DELTA_VAR (No: 16) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/98): "Estimated uncertainty in the  angle of flow into the cup, in radians, in the SPC coordinate system"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "SPC_FRAME"
+     FIELDNAM        (CDF_CHAR/20): "flow_angle_DELTA_VAR"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/20): "flow_angle_DELTA_VAR"
+     UNITS           (CDF_CHAR/6): "radian"
+     VALIDMIN        (CDF_REAL4/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/2): 1.5708, 1.5708
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/362): "Sources of uncertainty can include propagated calibration uncertainty, propagated current measurement uncertainty, non-stationarity of the flow angle over the period of measurement, and confusion between multiple ion species.  As this angle estimate uses the linear, cold-plasma approximation, systematic effects are significant at large angles and temperatures."
+
+diff_charge_flux_density (No: 17) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "differential charge flux density, in pA*cm**-2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/24): "DIFF_CHARGE_FLUX_DENSITY"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/24): "DIFF_CHARGE_FLUX_DENSITY"
+     UNITS           (CDF_CHAR/9): "pA*cm**-2"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+30
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/508): "This is the charge flux density of the solar wind measured over the energy range defined by the modulator voltage pair. The [calibrated] effective area of the cup has been taken into account.  This quantity is the equivalent of the total charge crossing a ZSC-oriented unit area per unit time) due to charge carriers having energy-per-charge between mv_lo and mv_hi.  This quantity is estimated using a linear, cold-plasma approximation for the mean flow angle of the solar wind into the sensor. See remarks."
+     DELTA_PLUS_VAR  (CDF_CHAR/34): "diff_charge_flux_density_DELTA_VAR"
+     DELTA_MINUS_VAR (CDF_CHAR/34): "diff_charge_flux_density_DELTA_VAR"
+
+diff_charge_flux_density_DELTA_VAR (No: 18) (Recs: 0) (Compression: GZIP.6)
+----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "DIFF_CHARGE_FLUX_DENSITY_DELTA_VAR"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "mv_lo"
+     FIELDNAM        (CDF_CHAR/34): "DIFF_CHARGE_FLUX_DENSITY_DELTA_VAR"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/34): "DIFF_CHARGE_FLUX_DENSITY_DELTA_VAR"
+     UNITS           (CDF_CHAR/9): "pA*cm**-2"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/154): "Sources of uncertainty include all propagated uncertainties, plus uncertainty associated with the effective area of the sensor at the estimated flow angle"
+
+MODE_FLAG (No: 19) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "Flag signifying the SPC operating mode at the time of measurement."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/9): "MODE_FLAG"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/9): "MODE_FLAG"
+     UNITS           (CDF_CHAR/5): " none"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 254
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/197): "0 - ion peak tracking 1 - ion full scan 2 - ion flux-angle mode 3 - ion calibration mode 4 - electron peak tracking 5 - electron full scan 6 - electron flux-angle mode 7 - electron calibration mode"
+
+SPC_FRAME (No: 20) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "SPC_frame"
+     FIELDNAM        (CDF_CHAR/9): "SPC_frame"
+     FORMAT          (CDF_CHAR/3): "A11"
+     LABLAXIS        (CDF_CHAR/9): "SPC_frame"
+     UNITS           (CDF_CHAR/5): " none"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/241): "positive elevation angles correspond to deflections towards sensors A and B and negative to deflections towards C and D. Positive azimuthal angles correspond to deflections towards sensors B and C and negative to deflections towards A and D."
+

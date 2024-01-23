@@ -1,0 +1,466 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/de2_ion2s_rpa_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     de2_ion2s_rpa_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     20
+NumAttrs:     44 (18 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (18 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/57): 	"DE-2 RPA 2-sec Plasma Densities and Temperatures in ASCII"
+Project (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/54): 	"Space Physics>Magnetospheric  Ionospheric Interactions"
+Descriptor (1 entry):
+	0 (CDF_CHAR/19): 	"ion2s> ion 2 second"
+Data_type (1 entry):
+	0 (CDF_CHAR/31): 	"rpa>Retarding PotentialAnalyzer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Text (40 entries):
+	0 (CDF_CHAR/1517): 	"The Retarding Potential Analyzer (RPA) measured the bulk ion velocity in the direction of the spacecraft motion, the constituent ion concentrations, and the ion temperature along the satellite path. These parameters were derived from a least squares fit to the ion number flux vs energy curve obtained by sweeping or stepping the voltage applied to the internal retarding grids of the RPA. In addition, a separate wide aperture sensor, a duct sensor, was flown to measure the spectral characteristics of iregularities in the total ion concentration. The measured parameters obtained from this investigation were important to the understanding of mechanisms that influence the plasma; i.e., to understand the coupling between the solar wind and the earth's atmosphere. The measurements were made with a multigridded planar retarding potential analyzer very similar in concept and geometry to the instruments carried on the AE satellites. The retarding potential was variable in the range from approximately +32 to 0 volts. The details of this voltage trace, and whether it was continuous or stepped, depended on the operating mode of the instrument. Specific parameters deduced from these measurements were ion temperature; vehicle potential; ram component of the ion drift velocity; the ion and electron concentration irregularity spectrum; and the concentration of H+, He+, O+, and Fe+, and of molecular ions near perigee. Additional details are in W. B. Hanson et al., Space Sci. Instrum., v. 5, n. 4, p. 503, 1981."
+	1 (CDF_CHAR/1065): 	"It includes the high-resolution data from the Dynamics Explorer 2 (DE-2) Retarding Potential Analyzer (RPA) for the whole DE-2 mission time period in ASCII format.  The ASCII version was generated at NSSDC from the PI-provided binary data (SPIO-00232). The RPA data files include orbit parameters and geophysical data at a time resolution of usually 2 seconds and sometimes 4 second. The following geophysical parameters are provided: ion drift vector, ion density, ion temperature, spacecraft potential, ion densities of atomic oxygen, hydrogen, helium, molecular constituents and high mass constituents, data quality flag, and RMS error. The ion drift vector is given by its components in spacecraft coordinates; the y and z components are IDM measurements. Due to a failure in the instrument memory system RPA data are not available from 81317 06:26:40 UT to 82057 13:16:00 UT. This data set is based on the revised version of the RPA files that was submitted by the PI team in June of 1995. The revised RPA data include a correction to the spacecraft potential."
+	2 (CDF_CHAR/498): 	"The Dynamics Explorer 2 Retarding Potential Analyzer (RPA) files contain the ion temperature, the ion drift velocity along the sensor look direction, and the ion composition and orbit parameters in ASCII format. The time resolution is typically 2 seconds. Data are given as daily files (typically a few 100 Kbytes each). NSSDC-developed software was used to read the RPA binary data and create ASCII files.  For more on DE-2, RPA, and the binary data, see RPA_VOLDESC_DE.SFD and RPA_FORMAT_DE.SFD. "
+	3 (CDF_CHAR/339): 	"The RPA files are requested with the DATA_TYPE = RPA_ASCII and the ENTRY_ID = yyddd and are then staged as yydddhhmm_RPA_DE_2S_V01.ASC; yy is the year, ddd is the day of the year, hh is the hour, and mm is the minute of the starting time of the data in the file.  The date range for the IDM files is 81218-83049 with most days represented."
+	4 (CDF_CHAR/378): 	"The data quality field contains a flag that describes the quality of the RPA data.  A value greater than or equal to 0 indicates that the data has passed the set of basic quality checks.  A negative value indicates that the RPA data fails at least one check and is untrustworthy.  Following are the sequence of checks. Tests are sequentially performed until a flag is assigned. "
+	5 (CDF_CHAR/46): 	"   Ni<8000 or Ni>6.E6                 flag=-70"
+	6 (CDF_CHAR/46): 	"   Psi<-2 or Psi>0.5                  flag=-60"
+	7 (CDF_CHAR/28): 	"   for INVARIANT LATITUDE<50"
+	8 (CDF_CHAR/46): 	"      Ti<500 or Ti>10000              flag=-50"
+	9 (CDF_CHAR/46): 	"      |Vx|>700 m/s                    flag=-20"
+	10 (CDF_CHAR/46): 	"      Mols>O+                         flag=-40"
+	11 (CDF_CHAR/46): 	"       H+>O+                          flag=-30"
+	12 (CDF_CHAR/46): 	"       Vx=0                           flag= 40"
+	13 (CDF_CHAR/19): 	"       Vx non zero "
+	14 (CDF_CHAR/46): 	"         Sum of light ions > 25% O+   flag= 50"
+	15 (CDF_CHAR/46): 	"         Sum of light ions < 25% O+   flag= 20"
+	16 (CDF_CHAR/68): 	"   set flag to 0 if one of the needed concentrations is unavailable."
+	17 (CDF_CHAR/57): 	"   increase magnitude of flag by 5 if rms fit error > 10%"
+	18 (CDF_CHAR/28): 	"   for INVARIANT LATITUDE>50"
+	19 (CDF_CHAR/46): 	"      Ti<500 or Ti>200000             flag=-50"
+	20 (CDF_CHAR/15): 	"        Ti>7000"
+	21 (CDF_CHAR/46): 	"          |Vx|<1000 and |Vz|<1000     flag=-20"
+	22 (CDF_CHAR/17): 	"          Alt>600"
+	23 (CDF_CHAR/46): 	"            Mols>O+                   flag=-40"
+	24 (CDF_CHAR/46): 	"            O+>Mols                   flag= 30"
+	25 (CDF_CHAR/18): 	"          Alt<=600"
+	26 (CDF_CHAR/18): 	"           Mols>O+"
+	27 (CDF_CHAR/46): 	"             Vx>0                     flag=-10"
+	28 (CDF_CHAR/46): 	"             Vx<=0                    flag=  0"
+	29 (CDF_CHAR/46): 	"           O+>Mols                    flag= 30"
+	30 (CDF_CHAR/16): 	"        Ti<=7000"
+	31 (CDF_CHAR/46): 	"          |Vx|>2000                   flag=-20"
+	32 (CDF_CHAR/46): 	"          Mols>O+                     flag=-40"
+	33 (CDF_CHAR/46): 	"          O+>Mols                     flag= 60"
+	34 (CDF_CHAR/123): 	"   set flag to 0 if one of the needed concentrations is unavailable. Increase magnitude of flag by 5 if rms fit error > 12%"
+	35 (CDF_CHAR/113): 	"The sweep type field contains a number (1 - 4) that represents the type of RPA sweep used.  The sweep types are: "
+	36 (CDF_CHAR/78): 	"  1. Integral RPA curve obtained with voltage sweep from 0 to beyond 10 volts."
+	37 (CDF_CHAR/94): 	"  2. Electronic derivative of RPA curve obtained with voltage sweep from 0 to beyond 10 volts."
+	38 (CDF_CHAR/73): 	"  3. Integral RPA curve obtained with voltage sweep from 0 up to 8 volts."
+	39 (CDF_CHAR/86): 	"  4. Electronic derivative of RPA curve obtained with voltage sweep from 0 to 8 volts."
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0241"
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"de2_ion2s_rpa"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"de2_ion2s_rpa_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/71): 	"2-sec ion temperature, velocity, and densities (O+, H+, He+, molecular)"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"Rod Heelis"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/27): 	"University of Texas, Dallas"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"SPIO-00104"
+Mission_group (3 entries):
+	0 (CDF_CHAR/17): 	"Dynamics Explorer"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/39): 	"spase://NASA/NumericalData/DE2/RPA/PT2S"
+
+Variable Attributes (26 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+MONOTON
+FILLVAL
+CATDESC
+VAR_TYPE
+DICT_KEY
+UNIT_PTR
+LABL_PTR_1
+LABL_PTR_2
+FORM_PTR
+LABLAXIS
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+
+Variable Information (0 rVariable, 20 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+x                     CDF_REAL4/1	0:[]	T/  
+y                     CDF_REAL4/1	0:[]	T/  
+z                     CDF_REAL4/1	0:[]	T/  
+ionTemperature        CDF_REAL4/1	0:[]	T/  
+ionDensity            CDF_REAL4/1	0:[]	T/  
+O                     CDF_REAL4/1	0:[]	T/  
+H                     CDF_REAL4/1	0:[]	T/  
+He                    CDF_REAL4/1	0:[]	T/  
+molecularIons         CDF_REAL4/1	0:[]	T/  
+highMass              CDF_REAL4/1	0:[]	T/  
+sigma                 CDF_REAL4/1	0:[]	T/  
+scPotential           CDF_REAL4/1	0:[]	T/  
+dataQuality           CDF_INT4/1	0:[]	T/  
+sweepType             CDF_REAL4/1	0:[]	T/  
+glat                  CDF_REAL4/1	0:[]	T/  
+glon                  CDF_REAL4/1	0:[]	T/  
+ilat                  CDF_REAL4/1	0:[]	T/  
+mlt                   CDF_REAL4/1	0:[]	T/  
+alt                   CDF_REAL4/1	0:[]	T/  
+
+
+Variable (20 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Time since 0 A.D."
+     VALIDMIN        (CDF_EPOCH/1): 15-Sep-1981 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 18-Feb-1991 23:59:59.999
+     SCALEMIN        (CDF_EPOCH/1): 16-Sep-1981 05:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 18-Feb-1991 10:00:00.000
+     UNITS           (CDF_CHAR/8): "ms (UT) "
+     FORMAT          (CDF_CHAR/8): "F14.0   "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/37): "NSSDC standard-reference time value. "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+x (No: 1) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "x component of ion velocity"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/3): "m/s"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/100): "x component of ion velocity in s/c coordinates (vx) - vx is app. parallel to s/c direction of motion"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "v_x s/c coord"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+y (No: 2) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "y component of ion velocity"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/3): "m/s"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/103): "Y component of ion velocity in s/c coordinates (vy) - vy is app. vertical to s/c dir. of motion (>0 up)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "v_y s/c coord"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+z (No: 3) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "z component of ion velocity"
+     VALIDMIN        (CDF_REAL4/1): -10000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/3): "m/s"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/106): "z component of ion velocity in s/c coordinates (vz) - vz is app. vertical to s/c dir. of motion (>0 right)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "v_z s/c coord"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+ionTemperature (No: 4) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Ion temperature"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 6000.0
+     UNITS           (CDF_CHAR/1): "K"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/32): "Ion temperature in degree Kelvin"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/15): "Ion temperature"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+ionDensity (No: 5) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Ion density"
+     VALIDMIN        (CDF_REAL4/1): 1000.0
+     VALIDMAX        (CDF_REAL4/1): 6.0e+06
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     FORMAT          (CDF_CHAR/5): "f11.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/46): "Total ion density (all ions) in ions per cm^3 "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/15): "Total ion dens."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+O (No: 6) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "O+ density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 6.0e+06
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     FORMAT          (CDF_CHAR/5): "f11.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/27): "O+ density in ions per cm^3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/10): "O+ density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+H (No: 7) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "H+ density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 6.0e+06
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     FORMAT          (CDF_CHAR/5): "f11.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/27): "H+ density in ions per cm^3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/10): "H+ density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+He (No: 8) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "He+ density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 6.0e+06
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     FORMAT          (CDF_CHAR/5): "f11.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/28): "He+ density in ions per cm^3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/11): "He+ density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+molecularIons (No: 9) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "molecular ion density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 6.0e+06
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     FORMAT          (CDF_CHAR/5): "f11.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/38): "Molecular ion density in ions per cm^3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/17): "Molec. ions dens."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+highMass (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "high mass ion density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 6.0e+06
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     FORMAT          (CDF_CHAR/5): "f11.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/38): "High mass ion density in ions per cm^3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/17): "High mass ion den"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+sigma (No: 11) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "sigma -RMS error of RPA analysis"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/1): "%"
+     FORMAT          (CDF_CHAR/4): "f4.0"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/44): "Sigma - RMS error of RPA analysis in percent"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "Sigma RMS-RPA"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+scPotential (No: 12) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Spacecraft potential"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/5): "Volts"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/29): "Spacecraft potential in Volts"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "s/c potential"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+dataQuality (No: 13) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Quality Flag"
+     VALIDMIN        (CDF_INT4/1): -70
+     VALIDMAX        (CDF_INT4/1): 60
+     UNITS           (CDF_CHAR/12): "( < 0 fails)"
+     FORMAT          (CDF_CHAR/2): "i3"
+     FILLVAL         (CDF_INT4/1): -1
+     CATDESC         (CDF_CHAR/95): "Data quality flag (<0 untrustworthy, see https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa/"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/12): "Quality Flag"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+sweepType (No: 14) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "sweep type)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 5.0
+     UNITS           (CDF_CHAR/5): "(1-4)"
+     FORMAT          (CDF_CHAR/4): "f3.0"
+     FILLVAL         (CDF_REAL4/1): 0.0
+     CATDESC         (CDF_CHAR/72): "Sweep type (1: 0->10Volt, 2: 0-10V, 3: 0-8V Integral, 4: 0-8V Electronic"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/10): "Sweep type"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+glat (No: 15) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Geographic Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/30): "Geographic Latitude in degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "Geog Latitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+glon (No: 16) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geographic Longitude"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/31): "Geographic Longitude in degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/14): "Geog Longitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+ilat (No: 17) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Invariant Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/29): "Invariant Latitude in degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/7): "Inv Lat"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+mlt (No: 18) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Mag. Local Time"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     UNITS           (CDF_CHAR/2): "hr"
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/19): "Magnetic Local Time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/3): "MLT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+alt (No: 19) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Altitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -0.0
+     CATDESC         (CDF_CHAR/14): "Altitude in km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/8): "Altitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+

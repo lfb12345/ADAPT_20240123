@@ -1,0 +1,614 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sn_k1_gisr_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sn_k1_gisr_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     24
+NumzVars:     0
+NumAttrs:     44 (21 global, 23 variable)
+Compression:  None
+
+Global Attributes (21 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/46): 	"SONDRESTROM>Greenland Incoherent-Scatter Radar"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K1>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/39): 	"GISR>Greenland Incoherent-Scatter Radar"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/32): 	"Sondrestrom Radar Key Parameters"
+TEXT (12 entries):
+	0 (CDF_CHAR/75): 	"Article describing equipment is: GRL, Vol. 10, No. 11, pp. 1112-1115, 1983."
+	1 (CDF_CHAR/72): 	"The gate number is an independent variable that does not depend on time."
+	2 (CDF_CHAR/59): 	"The maximum number of gates is a constant within each file."
+	3 (CDF_CHAR/62): 	"The dependent variables depend on the gate number and on time."
+	4 (CDF_CHAR/56): 	"The units for normalized power are number/(cubic meter)."
+	5 (CDF_CHAR/73): 	"Thus the units for normalized power are the same as for electron density."
+	6 (CDF_CHAR/60): 	"Typical range of electron number density: 10^4 to 10^6 /cm^3"
+	7 (CDF_CHAR/57): 	"Typical range of electron temperature: 1500 to 3000 deg K"
+	8 (CDF_CHAR/52): 	"Typical range of ion temperature: 1000 to 2500 deg K"
+	9 (CDF_CHAR/58): 	"Typical range of line-of-sight ion velocity: 0.5 to 2 km/s"
+	10 (CDF_CHAR/63): 	"Both boiTime and eoiTime are expressed as single long integers."
+	11 (CDF_CHAR/64): 	"Their format is hhmmsss where sss is given in tenths of seconds."
+MODS (1 entry):
+	0 (CDF_CHAR/17): 	"No mods thus far."
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0123"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"SN_K1_GISR_19951122_V01"
+DATE (1 entry):
+	0 (CDF_CHAR/21): 	"Date (yymmdd): 951122"
+TX_MODE (1 entry):
+	0 (CDF_CHAR/31): 	"Transmitter mode: A16B         "
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"SN_K1_GISR"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/63): 	"SONDRESTROM>Greenland Incoherent-Scatter Radar, Key Parameters "
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"J. Kelly"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"SRI"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/37): 	"Ground-Based Incoherent-Scatter Radar"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+UNIT_PTR
+LABL_PTR_1
+DEPEND_0
+DEPEND_1
+FORMAT
+FORM_PTR
+MONOTON
+VAR_TYPE
+FILLVAL
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+DICT_KEY
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (24 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	2:[3,51]	T/FF
+Time_PB5              CDF_INT4/1	2:[3,51]	T/TF
+label_time            CDF_CHAR/27	2:[3,51]	F/TF
+unit_time             CDF_CHAR/4	2:[3,51]	F/TF
+format_time           CDF_CHAR/2	2:[3,51]	F/TF
+boiTime               CDF_INT4/1	2:[3,51]	T/FF
+eoiTime               CDF_INT4/1	2:[3,51]	T/FF
+half_integration_time CDF_REAL4/1	2:[3,51]	T/FF
+antennaMode           CDF_CHAR/13	2:[3,51]	T/FF
+quality_flag          CDF_CHAR/1	2:[3,51]	T/FF
+post_gap_flag         CDF_INT4/1	2:[3,51]	T/FF
+gate_number           CDF_INT4/1	2:[3,51]	F/FT
+G_Latitude            CDF_REAL4/1	2:[3,51]	T/FT
+G_Longitude           CDF_REAL4/1	2:[3,51]	T/FT
+Altitude              CDF_REAL4/1	2:[3,51]	T/FT
+Norm_power            CDF_REAL4/1	2:[3,51]	T/FT
+N_electrons           CDF_REAL4/1	2:[3,51]	T/FT
+Ne_error              CDF_REAL4/1	2:[3,51]	T/FT
+T_electrons           CDF_REAL4/1	2:[3,51]	T/FT
+Te_error              CDF_REAL4/1	2:[3,51]	T/FT
+T_ions                CDF_REAL4/1	2:[3,51]	T/FT
+Ti_error              CDF_REAL4/1	2:[3,51]	T/FT
+V_ions                CDF_REAL4/1	2:[3,51]	T/FT
+Vi_error              CDF_REAL4/1	2:[3,51]	T/FT
+
+
+Variable (24 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1950 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2050 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1950 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2050 00:00:00.000
+     LABLAXIS        (CDF_CHAR/7): "Epoch t"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DELTA_MINUS_VAR (CDF_CHAR/21): "half_integration_time"
+     DELTA_PLUS_VAR  (CDF_CHAR/21): "half_integration_time"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Time Line                               "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "PB5 Time Line"
+     VALIDMIN        (CDF_INT4/3): 1950, 0, 0
+     VALIDMAX        (CDF_INT4/3): 2050, 0, 0
+     SCALEMIN        (CDF_INT4/3): 1950, 0, 0
+     SCALEMAX        (CDF_INT4/3): 2050, 0, 0
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     LABL_PTR_1      (CDF_CHAR/13): "label_time.UN"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/8): "PB5 Time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 2) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 4) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Format for Time_PB5                     "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+boiTime (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Begin-of-Integration"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2359599
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2359599
+     LABLAXIS        (CDF_CHAR/8): "BOI time"
+     UNITS           (CDF_CHAR/7): "hhmmsss"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I7"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/20): "Begin-of-Integration"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+eoiTime (No: 6) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "End-of-Integration"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2359599
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2359599
+     LABLAXIS        (CDF_CHAR/8): "EOI time"
+     UNITS           (CDF_CHAR/7): "hhmmsss"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I7"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/18): "End-of-Integration"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+half_integration_time (No: 7) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Half Integration Time"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.8e+06
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 600000.0
+     LABLAXIS        (CDF_CHAR/7): "int_t/2"
+     UNITS           (CDF_CHAR/2): "ms"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.0"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/19): "ISTP>range>absolute"
+     CATDESC         (CDF_CHAR/21): "Half Integration Time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+antennaMode (No: 8) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Antenna Mode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "A13"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_CHAR/14): "FFFFFFFFFFFFF."
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/56): "antennaMode indicates the mode of operation of the radar"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+quality_flag (No: 9) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Quality flag"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_CHAR/1): "F"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/48): "quality_flag = '1', for good data; '0' otherwise"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+post_gap_flag (No: 10) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 1
+     LABLAXIS        (CDF_CHAR/8): "gap flag"
+     UNITS           (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/50): "post_gap_flag = 0, for no gap in data; 1 otherwise"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+gate_number (No: 11) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Gate number"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 600
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 80
+     LABLAXIS        (CDF_CHAR/8): "Gate no."
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/11): "Gate number"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+G_Latitude (No: 12) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Geographic Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): 50.0
+     SCALEMAX        (CDF_REAL4/1): 85.0
+     LABLAXIS        (CDF_CHAR/8): "Latitude"
+     UNITS           (CDF_CHAR/5): "Deg N"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/19): "Geographic Latitude"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+G_Longitude (No: 13) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geographic Longitude"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     SCALEMIN        (CDF_REAL4/1): -85.0
+     SCALEMAX        (CDF_REAL4/1): -15.0
+     LABLAXIS        (CDF_CHAR/9): "Longitude"
+     UNITS           (CDF_CHAR/5): "Deg E"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/20): "Geographic Longitude"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Altitude (No: 14) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Altitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 9000.0
+     SCALEMIN        (CDF_REAL4/1): 90.0
+     SCALEMAX        (CDF_REAL4/1): 2000.0
+     LABLAXIS        (CDF_CHAR/8): "Altitude"
+     UNITS           (CDF_CHAR/2): "km"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/8): "Altitude"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Norm_power (No: 15) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Normalized Power"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+13
+     SCALEMIN        (CDF_REAL4/1): 1000.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+13
+     LABLAXIS        (CDF_CHAR/8): "Norm pwr"
+     UNITS           (CDF_CHAR/7): "no./m^3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "E8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/16): "Normalized Power"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+N_electrons (No: 16) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron Density"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+13
+     SCALEMIN        (CDF_REAL4/1): 1000.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+13
+     LABLAXIS        (CDF_CHAR/2): "Ne"
+     UNITS           (CDF_CHAR/7): "no./m^3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "E8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DELTA_MINUS_VAR (CDF_CHAR/8): "Ne_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/8): "Ne_error"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/32): "Electron Density at 51 positions"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Ne_error (No: 17) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Electron Density Error"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 5.0e+11
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 5.0e+11
+     LABLAXIS        (CDF_CHAR/6): "Ne err"
+     UNITS           (CDF_CHAR/7): "no./m^3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "E8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/25): "ISTP>uncertainty>absolute"
+     CATDESC         (CDF_CHAR/38): "Electron Density Error at 51 positions"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+T_electrons (No: 18) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Electron Temperature"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     SCALEMIN        (CDF_REAL4/1): 100.0
+     SCALEMAX        (CDF_REAL4/1): 10000.0
+     LABLAXIS        (CDF_CHAR/6): "e temp"
+     UNITS           (CDF_CHAR/5): "Deg K"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DELTA_MINUS_VAR (CDF_CHAR/8): "Te_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/8): "Te_error"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/36): "Electron Temperature at 51 positions"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Te_error (No: 19) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Electron Temp. Error"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1500.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 1500.0
+     LABLAXIS        (CDF_CHAR/6): "Te err"
+     UNITS           (CDF_CHAR/5): "Deg K"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/25): "ISTP>uncertainty>absolute"
+     CATDESC         (CDF_CHAR/36): "Electron Temp. Error at 51 positions"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+T_ions (No: 20) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Ion Temperature"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 5000.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 5000.0
+     LABLAXIS        (CDF_CHAR/8): "Ion temp"
+     UNITS           (CDF_CHAR/5): "Deg K"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DELTA_MINUS_VAR (CDF_CHAR/8): "Ti_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/8): "Ti_error"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/31): "Ion Temperature at 51 positions"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Ti_error (No: 21) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Ion Temp. Error"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1500.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 1500.0
+     LABLAXIS        (CDF_CHAR/6): "Ti err"
+     UNITS           (CDF_CHAR/5): "Deg K"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/25): "ISTP>uncertainty>absolute"
+     CATDESC         (CDF_CHAR/31): "Ion Temp. Error at 51 positions"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+V_ions (No: 22) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Ion Velocity"
+     VALIDMIN        (CDF_REAL4/1): -5000.0
+     VALIDMAX        (CDF_REAL4/1): 5000.0
+     SCALEMIN        (CDF_REAL4/1): -5000.0
+     SCALEMAX        (CDF_REAL4/1): 5000.0
+     LABLAXIS        (CDF_CHAR/8): "Velocity"
+     UNITS           (CDF_CHAR/3): "m/s"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DELTA_MINUS_VAR (CDF_CHAR/8): "Vi_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/8): "Vi_error"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/28): "Ion Velocity at 51 positions"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Vi_error (No: 23) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Ion Velocity Error"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): -1000.0
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     LABLAXIS        (CDF_CHAR/6): "Vi err"
+     UNITS           (CDF_CHAR/3): "m/s"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "gate_number"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/25): "ISTP>uncertainty>absolute"
+     CATDESC         (CDF_CHAR/34): "Ion Velocity Error at 51 positions"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+

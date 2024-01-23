@@ -1,0 +1,187 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/it_k0_akr_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     it_k0_akr_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     5
+NumAttrs:     39 (19 global, 20 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"INTERBALL-TAIL>Interball tail probe"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/38): 	"AKR>High frequency radioemission flux "
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/27): 	"Tail Probe AKR-X Instrument"
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"created May 1996"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0261"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IT_K0_AKR_19970706_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IT_K0_AKR"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/59): 	"Interball Tail Probe AKR Radioemission flux, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"V.Kurilchik"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/99): 	"Sternberg Astronomical Inst.,Moscow State University, 119899, Universitetsky pr., 13 Moscow, Russia"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	2 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+TEXT (2 entries):
+	0 (CDF_CHAR/116): 	"Radioemission flux measured in 100, 252, 500 kHz ranges, the passband 10 kHz. Loop antenna with 1.5 m2 area is used."
+	1 (CDF_CHAR/55): 	"Full description: http://www.iki.rssi.ru/interball.html"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/40): 	"Interball-Tail_AKR_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/53): 	"spase://NASA/NumericalData/Interball-1/AKR2/KP/PT120S"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DICT_KEY
+CATDESC
+DEPEND_1
+LABL_PTR_1
+SCALETYP
+DISPLAY_TYPE
+VAR_NOTES
+AVG_TYPE
+
+Variable Information (0 rVariable, 5 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+AKRf                  CDF_REAL4/1	1:[3]	T/T
+label_AKRf            CDF_CHAR/15	1:[3]	F/T
+Freq_AKRf             CDF_REAL4/1	1:[3]	F/T
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (5 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 06-Jul-1997 00:01:00.000
+     SCALEMAX        (CDF_EPOCH/1): 06-Jul-1997 23:59:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+AKRf (No: 1) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Radioemission Flux"
+     VALIDMIN        (CDF_REAL4/3): 1.0e-19, 1.0e-19, 1.0e-19
+     VALIDMAX        (CDF_REAL4/3): 1.0e-12, 1.0e-12, 1.0e-12
+     SCALEMIN        (CDF_REAL4/3): 1.0e-19, 1.0e-19, 1.0e-19
+     SCALEMAX        (CDF_REAL4/3): 1.0e-12, 1.0e-12, 1.0e-12
+     UNITS           (CDF_CHAR/10): "W/(m^2 Hz)"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/10): "power>flux"
+     CATDESC         (CDF_CHAR/48): "Radioemission flux at 3 freq (100, 252, 500 kHz)"
+     DEPEND_1        (CDF_CHAR/9): "Freq_AKRf"
+     LABL_PTR_1      (CDF_CHAR/10): "label_AKRf"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/72): "2 min average of spectral amplitudes  in three ranges, AKR-X instrument "
+
+label_AKRf (No: 2) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Label for the AKR spectrum"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/26): "Label for the AKR spectrum"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Freq_AKRf (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Frequency for the AKR spectrum"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 100.0
+     SCALEMAX        (CDF_REAL4/1): 500.0
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/3): "kHz"
+     FORMAT          (CDF_CHAR/4): "F4.0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     CATDESC         (CDF_CHAR/30): "3 Frequencies for AKR spectrum"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/46): "middle frequencies given, passbands are 10 kHz"
+
+Gap_Flag (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag : 0 no gap before this point, 1-5 gap reason"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/4): "none"
+

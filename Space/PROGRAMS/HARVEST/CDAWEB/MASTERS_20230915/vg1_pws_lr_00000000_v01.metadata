@@ -1,0 +1,251 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/vg1_pws_lr_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     vg1_pws_lr_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     59 (33 global, 26 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (33 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/13): 	"VG1>Voyager 1"
+Source_name (1 entry):
+	0 (CDF_CHAR/13): 	"VG1>Voyager 1"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/9): 	"LR>LowRes"
+Descriptor (1 entry):
+	0 (CDF_CHAR/71): 	"PWS>Electric and Magnetic Field Instrument Suite and Integrated Science"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Leapseconds_kernel (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Spacecraft_clock_kernel (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_start_time (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_stop_time (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_sclk_start_count (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PDS_sclk_stop_count (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"Bill Kurth"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/18): 	"University of Iowa"
+TEXT (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Mission_group (1 entry):
+	0 (CDF_CHAR/7): 	"Voyager"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"vg1_pws_lr"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/31): 	"Lowrate Plasma Waves Instrument"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"1 second"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/13): 	"Gurnett et al"
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/14): 	"Voyager 1 data"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/7): 	"at Iowa"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/40): 	"http://www-pw.physics.uiowa.edu/voyager/"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+	1 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+input_files_used (0 entry):
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/48): 	"spase://NASA/NumericalData/Voyager1/PWS/CDF/PT4S"
+
+Variable Attributes (26 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+FORM_PTR
+TIME_BASE
+LABL_PTR_1
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+epoch                 CDF_TT2000/1	0:[]	T/  
+frequency             CDF_FLOAT/1	1:[16]	F/T
+electric_field        CDF_FLOAT/1	1:[16]	T/T
+electric_field_stack  CDF_FLOAT/1	1:[16]	T/T
+electric_field_timeseries CDF_FLOAT/1	1:[16]	T/T
+frequency_LABL_1      CDF_CHAR/24	1:[16]	F/T
+electric_field_timeseries_LABL_1 CDF_CHAR/31	1:[16]	F/T
+
+
+Variable (7 variables)
+=========================================
+
+epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "Spacecraft measurement time"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:58.999000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/27): "Spacecraft measurement time"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+
+frequency (No: 1) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "frequency channel labels"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     FIELDNAM        (CDF_CHAR/9): "frequency"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.3"
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_FLOAT/1): 1.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     SCALEMIN        (CDF_FLOAT/1): 8.0
+     SCALEMAX        (CDF_FLOAT/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/24): "frequency channel labels"
+     LABL_PTR_1      (CDF_CHAR/16): "Frequency_LABL_1"
+
+electric_field (No: 2) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Electric Field (spectrogram)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/9): "frequency"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/14): "electric_field"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.3"
+     LABLAXIS        (CDF_CHAR/19): "Voy1 Electric Field"
+     UNITS           (CDF_CHAR/3): "V/m"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 0.01
+     SCALEMIN        (CDF_FLOAT/1): 1.0e-07
+     SCALEMAX        (CDF_FLOAT/1): 0.001
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/34): "calibrated E-field for 16 channels"
+
+electric_field_stack (No: 3) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "---> Electric Field (stacked plots)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/9): "frequency"
+     DISPLAY_TYPE    (CDF_CHAR/186): "stack_plot>y=electric_field_stack(1),y=electric_field_stack(4), y=electric_field_stack(7), y=electric_field_stack(10), y=electric_field_stack(13), y=electric_field_stack(16), z=frequency"
+     FIELDNAM        (CDF_CHAR/14): "electric_field"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.3"
+     LABLAXIS        (CDF_CHAR/19): "Voy1 Electric Field"
+     UNITS           (CDF_CHAR/3): "V/m"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-06
+     VALIDMAX        (CDF_FLOAT/1): 0.01
+     SCALEMIN        (CDF_FLOAT/1): 1.0e-06
+     SCALEMAX        (CDF_FLOAT/1): 0.01
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/34): "calibrated E-field for 16 channels"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "electric_field"
+
+electric_field_timeseries (No: 4) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "---> Electric Field (time series)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/9): "frequency"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "electric_field"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.3"
+     UNITS           (CDF_CHAR/3): "V/m"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 0.01
+     SCALEMIN        (CDF_FLOAT/1): 1.0e-10
+     SCALEMAX        (CDF_FLOAT/1): 0.01
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/34): "calibrated E-field for 16 channels"
+     LABL_PTR_1      (CDF_CHAR/32): "electric_field_timeseries_LABL_1"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/14): "electric_field"
+
+frequency_LABL_1 (No: 5) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "frequency_LABL_1"
+     FIELDNAM        (CDF_CHAR/16): "frequency_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A25"
+     LABLAXIS        (CDF_CHAR/16): "Frequency_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+electric_field_timeseries_LABL_1 (No: 6) (Recs: 1)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "electric_field_timeseries_LABL_1"
+     FIELDNAM        (CDF_CHAR/32): "electric_field_timeseries_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A31"
+     LABLAXIS        (CDF_CHAR/32): "electric_field_timeseries_LABL_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

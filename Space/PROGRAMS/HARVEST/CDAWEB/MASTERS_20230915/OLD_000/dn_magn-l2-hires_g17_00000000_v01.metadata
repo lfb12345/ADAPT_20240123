@@ -1,0 +1,979 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/dn_magn-l2-hires_g17_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     dn_magn-l2-hires_g17_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     43
+NumAttrs:     98 (67 global, 31 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (67 attributes)
+=========================================
+NCProperties (1 entry):
+	0 (CDF_CHAR/54): 	"version=1|netcdflibversion=4.6.1|hdf5libversion=1.10.2"
+Conventions (1 entry):
+	0 (CDF_CHAR/22): 	"ACDD-1.3, Spase v2.2.6"
+TITLE (1 entry):
+	0 (CDF_CHAR/103): 	"GOES I-S (G08-G17) L2 Magnetometer (MAG) Geomagnetic Field 2 Hz Product with Complete Coordinate Frames"
+id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/944): 	"Magnetometer high-resolution data for the GOES-8 through GOES-17, (GOES I-M, GOES-NOP and GOES-R series of 10 spacecraft). The GOES MAG subsystem consists of fluxgate magnetometer instruments monitoring three orthogonal components of the geomagnetic field at geosynchronous orbit (L = 6.6) with high resolution sampling rate (G8-15: 2 Hz and G16-17: 10 Hz). The NetCDF product files include the magnetometer observations from the instrument(s) in several coordinate systems, and the satellite location calculated using a standard SGP/SDP orbit propagator. The field measurements are provided as B field vectors in the ECI (Earth-centered inertial), EPN (earthward, poleward, normal/eastward), GSE (geocentric solar ecliptic), GSM(geocentric solar magnetospheric) and VDH (dipole aligned) coordinate systems. For comprehensive documentation including caveats and usage recommendations, please consult the GOES magnetometer User's Guide at NCEI. "
+MODS (4 entries):
+	0 (CDF_CHAR/123): 	"SPDF added to master VAR_TYPE, Mission_group, Instrument_type and use of mapping file to map attributes to ISTP equivalents"
+	1 (CDF_CHAR/123): 	"Also need to add Logical_source, Logical_source_description, Source_name and virtual variable Epoch and time_base variable."
+	2 (CDF_CHAR/101): 	"Also need to add FORMAT, VAR_NOTES, LABLAXIS, LABL_PTR_1, DISPLAY_TYPE variable attributes and values"
+	3 (CDF_CHAR/61): 	"Also added validmin and max values for the b_quality variable"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"GOES"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/24): 	"goes-17_magn-l2-hires_dn"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/23): 	"GOES-17 Magnetometer L2"
+Source_name (1 entry):
+	0 (CDF_CHAR/7): 	"GOES-17"
+keywords (1 entry):
+	0 (CDF_CHAR/93): 	"NumericalData.ObservedRegion.Earth.Magnetosphere, NumericalData.MeasurementType.MagneticField"
+keywords_vocabulary (1 entry):
+	0 (CDF_CHAR/12): 	"Spase v2.2.6"
+naming_authority (1 entry):
+	0 (CDF_CHAR/15): 	"gov.nesdis.noaa"
+history (1 entry):
+	0 (CDF_CHAR/1): 	" "
+source (1 entry):
+	0 (CDF_CHAR/37): 	"GOES-I through GOES-S Magnetometer L2"
+processing_level (1 entry):
+	0 (CDF_CHAR/7): 	"Level 2"
+processing_level_description (1 entry):
+	0 (CDF_CHAR/16): 	"Derived products"
+license (1 entry):
+	0 (CDF_CHAR/62): 	"These data may be redistributed and used without restriction. "
+acknowledgment (1 entry):
+	0 (CDF_CHAR/453): 	"Several organizations and persons contributed substantially to the development and continued improvement of this product. Institutional contributions include NOAA/NESDIS/NCEI via the NOAA Big Earth Data Initiative (BEDI), NOAA/NWS/SWPC, CU/CIRES, LANL (SpacePy), NASA-GSFC, MIL-LL. Individuals making important contributions include H.J. Singer, L. Matheson, A. Newman, M. Tilton, A. Abdelqader, A. Boudouridis, T.P. Loto'aniu, R.J. Redmon, A.A. Pacini."
+metadata_link (1 entry):
+	0 (CDF_CHAR/79): 	"https://spdf.gsfc.nasa.gov/pub/data/goes/GOES-8-onwards_magnetometer_readme.pdf"
+date_created (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/41): 	"Rob Redmon, Paul Loto'aniu, Howard Singer"
+creator_type (1 entry):
+	0 (CDF_CHAR/6): 	"person"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/48): 	"DOC/NOAA/NCEI and DOC/NOAA/NWS/SWPC respectively"
+creator_email (1 entry):
+	0 (CDF_CHAR/22): 	"goes.swx.info@noaa.gov"
+creator_url (1 entry):
+	0 (CDF_CHAR/26): 	"https://www.ncei.noaa.gov/"
+institution (1 entry):
+	0 (CDF_CHAR/159): 	"DOC/NOAA/NESDIS> U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Environmental Satellite, Data, and Information Services"
+publisher_name (1 entry):
+	0 (CDF_CHAR/46): 	"National Centers for Environmental Information"
+publisher_type (1 entry):
+	0 (CDF_CHAR/11): 	"institution"
+publisher_institution (1 entry):
+	0 (CDF_CHAR/20): 	"DOC/NOAA/NESDIS/NCEI"
+publisher_email (1 entry):
+	0 (CDF_CHAR/22): 	"goes.swx.info@noaa.gov"
+publisher_url (1 entry):
+	0 (CDF_CHAR/26): 	"https://www.ncei.noaa.gov/"
+references (1 entry):
+	0 (CDF_CHAR/118): 	"MAGNETOMETER CONVERT DATA TO ALTERNATE GEOPHYSICAL COORDINATE SYSTEMS ALGORITHM THEORETICAL BASIS DOCUMENT Version 1.3"
+instrument (1 entry):
+	0 (CDF_CHAR/52): 	"GOES I-M, GOES-NOP, GOES-R Series Magnetometer (MAG)"
+instrument_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+orbital_slot (1 entry):
+	0 (CDF_CHAR/1): 	" "
+program (1 entry):
+	0 (CDF_CHAR/72): 	"Geostationary Operational Environmental Satellite, GOES-I through GOES-S"
+Project (1 entry):
+	0 (CDF_CHAR/105): 	"Geostationary Operational Environmental Satellite I-M, NOP and R-Series Solar Terrestrial Physics at NCEI"
+L1b_system_environment (1 entry):
+	0 (CDF_CHAR/1): 	" "
+L1b_production_site (1 entry):
+	0 (CDF_CHAR/1): 	" "
+time_coverage_resolution (1 entry):
+	0 (CDF_CHAR/1): 	" "
+processing_parameters_file (1 entry):
+	0 (CDF_CHAR/1): 	" "
+algorithm (1 entry):
+	0 (CDF_CHAR/16): 	"GOES MAG Unified"
+algorithm_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+records_maximum (1 entry):
+	0 (CDF_CHAR/1): 	" "
+records_present (1 entry):
+	0 (CDF_CHAR/1): 	" "
+records_data (1 entry):
+	0 (CDF_CHAR/1): 	" "
+records_fill (1 entry):
+	0 (CDF_CHAR/1): 	" "
+records_missing (1 entry):
+	0 (CDF_CHAR/1): 	" "
+algorithm_parameters (1 entry):
+	0 (CDF_CHAR/1): 	" "
+input_system_environments (1 entry):
+	0 (CDF_CHAR/1): 	" "
+input_files_first (1 entry):
+	0 (CDF_CHAR/1): 	" "
+input_files_last (1 entry):
+	0 (CDF_CHAR/1): 	" "
+input_files_total (1 entry):
+	0 (CDF_CHAR/1): 	" "
+platform (1 entry):
+	0 (CDF_CHAR/3): 	"G17"
+time_coverage_duration (1 entry):
+	0 (CDF_CHAR/5): 	"P1.0D"
+time_coverage_start (1 entry):
+	0 (CDF_CHAR/1): 	" "
+time_coverage_end (1 entry):
+	0 (CDF_CHAR/1): 	" "
+algorithm_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+orbit_method (1 entry):
+	0 (CDF_CHAR/15): 	"SGP4-PROPAGATED"
+orbit_method_time (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NC_KIND (1 entry):
+	0 (CDF_CHAR/8): 	"netCDF-4"
+NC_DIMENSIONS_G (3 entries):
+	0 (CDF_CHAR/14): 	"time=UNLIMITED"
+	1 (CDF_CHAR/20): 	"time_orbit=UNLIMITED"
+	2 (CDF_CHAR/12): 	"coordinate=3"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/25): 	"GOES Magnetometer CDAWeb "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/6): 	"readme"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/79): 	"https://spdf.gsfc.nasa.gov/pub/data/goes/GOES-8-onwards_magnetometer_readme.pdf"
+
+Variable Attributes (31 attributes)
+=========================================
+NC_DIMENSIONS_V
+NC_DEFLATE
+NC_SHUFFLE
+NC_STORAGE
+NC_CHUNKSIZES
+FIELDNAM
+CATDESC
+UNITS
+VAR_TYPE
+FILLVAL
+VALIDMIN
+VALIDMAX
+valid_range
+flag_values
+flag_masks
+flag_meanings
+DEPEND_0
+NC_ADDED
+DEPEND_1
+VIRTUAL
+FUNCT
+TIME_BASE
+COMPONENT_0
+COMPONENT_1
+FORMAT
+LABLAXIS
+LABL_PTR_1
+UNIT_PTR
+DICT_KEY
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 43 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+time_base             CDF_EPOCH/1	0:[]	F/  
+b_total               CDF_FLOAT/1	0:[]	T/  
+b_epn                 CDF_FLOAT/1	1:[3]	T/T
+b_eci                 CDF_FLOAT/1	1:[3]	T/T
+b_gse                 CDF_FLOAT/1	1:[3]	T/T
+b_gsm                 CDF_FLOAT/1	1:[3]	T/T
+b_vdh                 CDF_FLOAT/1	1:[3]	T/T
+b_brf                 CDF_FLOAT/1	1:[3]	T/T
+label_EPN             CDF_CHAR/1	1:[3]	F/T
+label_ECI             CDF_CHAR/5	1:[3]	F/T
+label_GSE             CDF_CHAR/5	1:[3]	F/T
+label_GSM             CDF_CHAR/5	1:[3]	F/T
+label_VDH             CDF_CHAR/1	1:[3]	F/T
+label_BRF             CDF_CHAR/5	1:[3]	F/T
+b_quality             CDF_UINT4/1	0:[]	T/  
+DQF                   CDF_UINT4/1	0:[]	T/  
+b_method              CDF_UINT1/1	0:[]	T/  
+time                  CDF_DOUBLE/1	0:[]	T/  
+b_ib_sensor           CDF_FLOAT/1	1:[3]	T/T
+b_ib_epn              CDF_FLOAT/1	1:[3]	T/T
+b_ib_eci              CDF_FLOAT/1	1:[3]	T/T
+b_ib_gse              CDF_FLOAT/1	1:[3]	T/T
+b_ib_gsm              CDF_FLOAT/1	1:[3]	T/T
+b_ib_vdh              CDF_FLOAT/1	1:[3]	T/T
+b_ib_brf              CDF_FLOAT/1	1:[3]	T/T
+b_ib_quality          CDF_UINT4/1	0:[]	T/  
+time_ib               CDF_DOUBLE/1	0:[]	T/  
+b_ob_sensor           CDF_FLOAT/1	1:[3]	T/T
+b_ob_epn              CDF_FLOAT/1	1:[3]	T/T
+b_ob_eci              CDF_FLOAT/1	1:[3]	T/T
+b_ob_gse              CDF_FLOAT/1	1:[3]	T/T
+b_ob_gsm              CDF_FLOAT/1	1:[3]	T/T
+b_ob_vdh              CDF_FLOAT/1	1:[3]	T/T
+b_ob_brf              CDF_FLOAT/1	1:[3]	T/T
+b_ob_quality          CDF_UINT4/1	0:[]	T/  
+time_ob               CDF_DOUBLE/1	0:[]	T/  
+orbit_llr_geo         CDF_FLOAT/1	1:[3]	T/T
+label_orbit_llr_geo   CDF_CHAR/19	1:[3]	F/T
+units_orbit_llr_geo   CDF_CHAR/7	1:[3]	F/T
+time_orbit            CDF_DOUBLE/1	0:[]	T/  
+Epoch_orbit           CDF_EPOCH/1	0:[]	T/  
+coordinate            CDF_UINT1/1	1:[3]	F/T
+
+
+Variable (43 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0) (Compression: GZIP.9)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "time_epoch"
+     CATDESC         (CDF_CHAR/12): "time_inboard"
+     UNITS           (CDF_CHAR/33): "seconds since 2000-01-01 12:00:00"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     TIME_BASE       (CDF_CHAR/22): "2000-01-01 12:00:00 AD"
+     COMPONENT_0     (CDF_CHAR/9): "time_base"
+     COMPONENT_1     (CDF_CHAR/4): "time"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VAR_NOTES       (CDF_CHAR/43): "Seconds since the J2K epoch - added by SPDF"
+
+time_base (No: 1) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time_base"
+     CATDESC         (CDF_CHAR/9): "time base"
+     UNITS           (CDF_CHAR/4): "msec"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     VAR_NOTES       (CDF_CHAR/45): "EPOCH of 01-Jan-2000 12:00:00 - added by SPDF"
+
+b_total (No: 2) (Recs: 0) (Compression: GZIP.4)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 168750
+     FIELDNAM        (CDF_CHAR/20): "magnetic_field_total"
+     CATDESC         (CDF_CHAR/59): "Total estimated magnetic field computed from the EPN frame."
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/7): "B_total"
+
+b_epn (No: 3) (Recs: 0) (Compression: GZIP.4)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/18): "magnetic_field_epn"
+     CATDESC         (CDF_CHAR/117): "Magnetic field in EPN coordinates - E: earthward, P: perpendicular to the satellite orbital plane, N: ExP (eastward) "
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+     LABL_PTR_1      (CDF_CHAR/9): "label_EPN"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+b_eci (No: 4) (Recs: 0) (Compression: GZIP.4)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/18): "magnetic_field_eci"
+     CATDESC         (CDF_CHAR/69): "Magnetic field in Earth Centered Inertial (ECI) coordinates (x, y, z)"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+     LABL_PTR_1      (CDF_CHAR/9): "label_ECI"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+b_gse (No: 5) (Recs: 0) (Compression: GZIP.4)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/18): "magnetic_field_gse"
+     CATDESC         (CDF_CHAR/71): "Magnetic field in Geocentric Solar Ecliptic (GSE) coordinates (x, y, z)"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+     LABL_PTR_1      (CDF_CHAR/9): "label_GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+b_gsm (No: 6) (Recs: 0) (Compression: GZIP.4)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/18): "magnetic_field_gsm"
+     CATDESC         (CDF_CHAR/77): "Magnetic field in Geocentric Solar Magnetospheric (GSM) coordinates (x, y, z)"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+     LABL_PTR_1      (CDF_CHAR/9): "label_GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+b_vdh (No: 7) (Recs: 0) (Compression: GZIP.4)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/18): "magnetic_field_vdh"
+     CATDESC         (CDF_CHAR/94): "Magnetic field in VDH coordinates - V: anti-earthward, D: eastward, H: northward along dipole."
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+     LABL_PTR_1      (CDF_CHAR/9): "label_VDH"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+b_brf (No: 8) (Recs: 0) (Compression: GZIP.4)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/18): "magnetic_field_brf"
+     CATDESC         (CDF_CHAR/141): "Magnetic field in Body Reference Frame (BRF) coordinates (spacecraft x=Roll, y=Pitch, z=Yaw). This is also the frame of the SEISS instrument."
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+     LABL_PTR_1      (CDF_CHAR/9): "label_BRF"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_EPN (No: 9) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Label for EPN"
+     CATDESC         (CDF_CHAR/13): "Label for EPN"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a1"
+     VAR_NOTES       (CDF_CHAR/14): "Added by SPDF "
+
+label_ECI (No: 10) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Label for ECI"
+     CATDESC         (CDF_CHAR/13): "Label for ECI"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a7"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/14): "Added by SPDF "
+
+label_GSE (No: 11) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Label for GSE"
+     CATDESC         (CDF_CHAR/13): "Label for GSE"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a7"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/14): "Added by SPDF "
+
+label_GSM (No: 12) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Label for GSM"
+     CATDESC         (CDF_CHAR/13): "Label for GSM"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a7"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/14): "Added by SPDF "
+
+label_VDH (No: 13) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Label for VDH"
+     CATDESC         (CDF_CHAR/13): "Label for VDH"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a1"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/14): "Added by SPDF "
+
+label_BRF (No: 14) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Label for BRF"
+     CATDESC         (CDF_CHAR/13): "Label for BRF"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a7"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/14): "Added by SPDF "
+
+b_quality (No: 15) (Recs: 0) (Compression: GZIP.4)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 168750
+     FIELDNAM        (CDF_CHAR/22): "quality_magnetic_field"
+     CATDESC         (CDF_CHAR/41): "Data quality flag (0 = good quality data)"
+     UNITS           (CDF_CHAR/6): "0=good"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 2147483648
+     flag_values     (CDF_UINT4/5): 0, 1, 2, 65536, 2147483648
+     flag_masks      (CDF_UINT4/5): 4294967295, 1, 2, 65536, 2147483648
+     flag_meanings   (CDF_CHAR/93): "good_quality unspecified_degraded degraded_via_equitorial_approx unspecified_bad missing_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/12): "Quality Flag"
+
+DQF (No: 16) (Recs: 0) (Compression: GZIP.4)
+---
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 300
+     FIELDNAM        (CDF_CHAR/50): "magnetometer L1b processing and data quality flags"
+     CATDESC         (CDF_CHAR/41): "Data quality flag (0 = good quality data)"
+     UNITS           (CDF_CHAR/6): "0=good"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 67108863
+     valid_range     (CDF_UINT4/2): 0, 67108863
+     flag_values     (CDF_UINT4/27): 0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432
+     flag_masks      (CDF_UINT4/27): 33554431, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432
+     flag_meanings   (CDF_CHAR/1981): "good_quality_qf invalid_due_to_missing_L0_IB_and_OB_MAG_data_qf degraded_due_to_IB_MAG_x-axis_potential_failure_or_off_state_or_IB_mag_potentially_in_maintenance_mode_qf degraded_due_to_IB_MAG_y-axis_potential_failure_or_off_state_or_IB_mag_potentially_in_maintenance_mode_qf degraded_due_to_IB_MAG_z-axis_potential_failure_or_off_state_or_IB_mag_potentially_in_maintenance_mode_qf degraded_due_to_OB_MAG_x-axis_potential_failure_or_off_state_or_OB_mag_potentially_in_maintenance_mode_qf degraded_due_to_OB_MAG_y-axis_potential_failure_or_off_state_or_OB_mag_potentially_in_maintenance_mode_qf degraded_due_to_OB_MAG_z-axis_potential_failure_or_off_state_or_OB_mag_potentially_in_maintenance_mode_qf degraded_due_to_IB_MAG_x-axis_magnetic_field_at_saturation_qf degraded_due_to_IB_MAG_y-axis_magnetic_field_at_saturation_qf degraded_due_to_IB_MAG_z-axis_magnetic_field_at_saturation_qf degraded_due_to_OB_MAG_x-axis_magnetic_field_at_saturation_qf degraded_due_to_OB_MAG_y-axis_magnetic_field_at_saturation_qf degraded_due_to_OB_MAG_z-axis_magnetic_field_at_saturation_qf degraded_due_to_MAG_calibration_maneuver_in_progress_qf degraded_due_to_potentially_stale_MAG_engineering_data_qf potentially_degraded_due_to_out_of_valid_range_IB_MAG_x-axis_thermistor_temperature_qf potentially_degraded_due_to_out_of_valid_range_IB_MAG_y-axis_thermistor_temperature_qf potentially_degraded_due_to_out_of_valid_range_IB_MAG_z-axis_thermistor_temperature_qf potentially_degraded_due_to_out_of_valid_range_OB_MAG_x-axis_thermistor_temperature_qf potentially_degraded_due_to_out_of_valid_range_OB_MAG_y-axis_thermistor_temperature_qf potentially_degraded_due_to_out_of_valid_range_OB_MAG_z-axis_thermistor_temperature_qf potentially_degraded_due_to_out_of_valid_range_IB_electronics_temperature_qf potentially_degraded_due_to_out_of_valid_range_OB_electronics_temperature_qf potentially_degraded_due_to_IB_MAG_in_shadow_qf potentially_degraded_due_to_arcjet_firing_qf valid_arcjet_correction_qf"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/22): "Quality magnetic field"
+
+b_method (No: 17) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 168750
+     FIELDNAM        (CDF_CHAR/32): "magnetic_field_estimation_method"
+     CATDESC         (CDF_CHAR/49): "MAG instrument flag {1 (default) = outboard MAG.}"
+     UNITS           (CDF_CHAR/34): "0=in,1=out,2=average,3=gradiometer"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 3
+     flag_values     (CDF_INT4/4): 0, 1, 2, 3
+     flag_meanings   (CDF_CHAR/36): "inboard outboard average gradiometer"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     LABLAXIS        (CDF_CHAR/15): "Instrument Flag"
+
+time (No: 18) (Recs: 0) (Compression: GZIP.4)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 168750
+     FIELDNAM        (CDF_CHAR/4): "time"
+     CATDESC         (CDF_CHAR/79): "Overall field timestamp with 0.1 second resolution. Seconds since the J2K epoch"
+     UNITS           (CDF_CHAR/33): "seconds since 2000-01-01 12:00:00"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_DOUBLE/1): -9999.0
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+
+b_ib_sensor (No: 19) (Recs: 0) (Compression: GZIP.4)
+-----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/29): "magnetic_field_inboard_sensor"
+     CATDESC         (CDF_CHAR/143): "Compensated (calibrated and misalignment corrected) magnetic field for x, y, and z direction in native reference frame for inboard magnetometer"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ib_epn (No: 20) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/26): "magnetic_field_inboard_epn"
+     CATDESC         (CDF_CHAR/124): "Compensated inboard magnetometer data in EPN coordinates (x, y, z). E: earthward, P: perpendicular to orbital plane, N: ExP."
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ib_eci (No: 21) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/26): "magnetic_field_inboard_eci"
+     CATDESC         (CDF_CHAR/86): "Compensated inboard magnetometer data in Earth Centered Inertial coordinates (x, y, z)"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ib_gse (No: 22) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/26): "magnetic_field_inboard_gse"
+     CATDESC         (CDF_CHAR/88): "Compensated inboard magnetometer data in Geocentric Solar Ecliptic coordinates (x, y, z)"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ib_gsm (No: 23) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/26): "magnetic_field_inboard_gsm"
+     CATDESC         (CDF_CHAR/94): "Compensated inboard magnetometer data in Geocentric Solar Magnetospheric coordinates (x, y, z)"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ib_vdh (No: 24) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/26): "magnetic_field_inboard_vdh"
+     CATDESC         (CDF_CHAR/126): "Compensated inboard magnetometer data in VDH coordinates (x, y, z). V: anti-earthward, D: eastward, H: northward along dipole."
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ib_brf (No: 25) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/26): "magnetic_field_inboard_brf"
+     CATDESC         (CDF_CHAR/134): "Compensated inboard magnetometer data in Body Reference Frame coordinates (x, y, z). This frame orients the magnetometer to the SEISS."
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ib_quality (No: 26) (Recs: 0) (Compression: GZIP.4)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 168750
+     FIELDNAM        (CDF_CHAR/30): "quality_magnetic_field_inboard"
+     CATDESC         (CDF_CHAR/66): "Quality flag for Inboard sensor, applies to all coordinate frames."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     flag_values     (CDF_UINT4/5): 0, 1, 2, 65536, 2147483648
+     flag_masks      (CDF_UINT4/5): 4294967295, 1, 2, 65536, 2147483648
+     flag_meanings   (CDF_CHAR/93): "good_quality unspecified_degraded degraded_via_equitorial_approx unspecified_bad missing_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+
+time_ib (No: 27) (Recs: 0) (Compression: GZIP.4)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 168750
+     FIELDNAM        (CDF_CHAR/12): "time_inboard"
+     CATDESC         (CDF_CHAR/86): "Inboard intermediate timestamp with 0.1 second resolution. Seconds since the J2K epoch"
+     UNITS           (CDF_CHAR/33): "seconds since 2000-01-01 12:00:00"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): -9999.0
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+
+b_ob_sensor (No: 28) (Recs: 0) (Compression: GZIP.4)
+-----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/30): "magnetic_field_outboard_sensor"
+     CATDESC         (CDF_CHAR/144): "Compensated (calibrated and misalignment corrected) magnetic field for x, y, and z direction in native reference frame for outboard magnetometer"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ob_epn (No: 29) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/26): "magnetic_field_inboard_epn"
+     CATDESC         (CDF_CHAR/125): "Compensated outboard magnetometer data in EPN coordinates (x, y, z). E: earthward, P: perpendicular to orbital plane, N: ExP."
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ob_eci (No: 30) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/26): "magnetic_field_inboard_eci"
+     CATDESC         (CDF_CHAR/87): "Compensated outboard magnetometer data in Earth Centered Inertial coordinates (x, y, z)"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ob_gse (No: 31) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/27): "magnetic_field_outboard_gse"
+     CATDESC         (CDF_CHAR/89): "Compensated outboard magnetometer data in Geocentric Solar Ecliptic coordinates (x, y, z)"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ob_gsm (No: 32) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/27): "magnetic_field_outboard_gsm"
+     CATDESC         (CDF_CHAR/95): "Compensated outboard magnetometer data in Geocentric Solar Magnetospheric coordinates (x, y, z)"
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ob_vdh (No: 33) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/27): "magnetic_field_outboard_vdh"
+     CATDESC         (CDF_CHAR/127): "Compensated outboard magnetometer data in VDH coordinates (x, y, z). V: anti-earthward, D: eastward, H: northward along dipole."
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ob_brf (No: 34) (Recs: 0) (Compression: GZIP.4)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/15): "time,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/26): "magnetic_field_inboard_brf"
+     CATDESC         (CDF_CHAR/135): "Compensated outboard magnetometer data in Body Reference Frame coordinates (x, y, z). This frame orients the magnetometer to the SEISS."
+     UNITS           (CDF_CHAR/4): "[nT]"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/1): -1024.0
+     VALIDMAX        (CDF_FLOAT/1): 1024.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+
+b_ob_quality (No: 35) (Recs: 0) (Compression: GZIP.4)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 168750
+     FIELDNAM        (CDF_CHAR/31): "quality_magnetic_field_outboard"
+     CATDESC         (CDF_CHAR/67): "Quality flag for Outboard sensor, applies to all coordinate frames."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     flag_values     (CDF_UINT4/5): 0, 1, 2, 65536, 2147483648
+     flag_masks      (CDF_UINT4/5): 4294967295, 1, 2, 65536, 2147483648
+     flag_meanings   (CDF_CHAR/93): "good_quality unspecified_degraded degraded_via_equitorial_approx unspecified_bad missing_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+
+time_ob (No: 36) (Recs: 0) (Compression: GZIP.4)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 168750
+     FIELDNAM        (CDF_CHAR/13): "time_outboard"
+     CATDESC         (CDF_CHAR/87): "Outboard intermediate timestamp with 0.1 second resolution. Seconds since the J2K epoch"
+     UNITS           (CDF_CHAR/33): "seconds since 2000-01-01 12:00:00"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): -9999.0
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+
+orbit_llr_geo (No: 37) (Recs: 0) (Compression: GZIP.4)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/21): "time_orbit,coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 168750, 3
+     FIELDNAM        (CDF_CHAR/42): "orbit_latitude_longitude_radius_geographic"
+     CATDESC         (CDF_CHAR/77): "Spacecraft geographic position (latitude (+north), longitude (+east), radius)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -9999.0
+     VALIDMIN        (CDF_FLOAT/3): -5.0, -180.0, 3.99901e+07
+     VALIDMAX        (CDF_FLOAT/3): 5.0, 180.0, 4.41995e+07
+     DEPEND_0        (CDF_CHAR/11): "Epoch_orbit"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_1        (CDF_CHAR/10): "coordinate"
+     LABL_PTR_1      (CDF_CHAR/19): "label_orbit_llr_geo"
+     UNIT_PTR        (CDF_CHAR/19): "units_orbit_llr_geo"
+     VAR_NOTES       (CDF_CHAR/103): "Spacecraft geographic position (latitude (+north), longitude (+east), radius) degrees, degrees, meters)"
+
+label_orbit_llr_geo (No: 38) (Recs: 1)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Label for orbit_llr_geo"
+     CATDESC         (CDF_CHAR/23): "Label for orbit_llr_geo"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a19"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/14): "Added by SPDF "
+
+units_orbit_llr_geo (No: 39) (Recs: 1)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Units for orbit_llr_geo"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+
+time_orbit (No: 40) (Recs: 0) (Compression: GZIP.4)
+----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/10): "time_orbit"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 168750
+     FIELDNAM        (CDF_CHAR/10): "time_orbit"
+     CATDESC         (CDF_CHAR/69): "Orbit timestamp with 1 second resolution. Seconds since the J2K epoch"
+     UNITS           (CDF_CHAR/33): "seconds since 2000-01-01 12:00:00"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): -9999.0
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+
+Epoch_orbit (No: 41) (Recs: 0) (Compression: GZIP.9)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "time_epoch"
+     CATDESC         (CDF_CHAR/12): "time_inboard"
+     UNITS           (CDF_CHAR/33): "seconds since 2000-01-01 12:00:00"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     TIME_BASE       (CDF_CHAR/22): "2000-01-01 12:00:00 AD"
+     COMPONENT_0     (CDF_CHAR/9): "time_base"
+     COMPONENT_1     (CDF_CHAR/10): "time_orbit"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VAR_NOTES       (CDF_CHAR/43): "Seconds since the J2K epoch - added by SPDF"
+
+coordinate (No: 42) (Recs: 1) (Compression: GZIP.4)
+----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/10): "coordinate"
+     NC_DEFLATE      (CDF_INT4/1): 4
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 3
+     FIELDNAM        (CDF_CHAR/13): "coordinate_3d"
+     CATDESC         (CDF_CHAR/49): "3-dimensional for cartesian coordinates (x, y, z)"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     VAR_NOTES       (CDF_CHAR/49): "SPDF changed the default values from 255 to 0,1,2"
+

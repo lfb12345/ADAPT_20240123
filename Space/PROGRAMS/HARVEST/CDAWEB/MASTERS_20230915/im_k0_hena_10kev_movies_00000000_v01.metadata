@@ -1,0 +1,145 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/im_k0_hena_10kev_movies_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     im_k0_hena_10kev_movies_00000000_v01.cdf
+Version:      3.6.2
+
+Common Data Format (CDF)
+(C) Copyright 1990-2016 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     2
+NumAttrs:     52 (23 global, 29 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (23 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_UCHAR/59): 	"IMAGE>Imager for Magnetopause to Auroral Global Exploration"
+Source_name (1 entry):
+	0 (CDF_UCHAR/58): 	"IMAGE>Imager for Magnetopause to Aurora Global Exploration"
+Discipline (1 entry):
+	0 (CDF_UCHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_UCHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_UCHAR/36): 	"HENA>High Energy Neutral Atom Imager"
+Data_version (1 entry):
+	0 (CDF_UCHAR/1): 	"1"
+POINTER_CDF (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_UCHAR/16): 	"Dr. Don Mitchell"
+PI_affiliation (1 entry):
+	0 (CDF_UCHAR/3): 	"APL"
+TEXT (0 entry):
+Instrument_type (2 entries):
+	0 (CDF_CHAR/48): 	"Imaging and Remote Sensing (Magnetosphere/Earth)"
+	1 (CDF_CHAR/38): 	"Imaging and Remote Sensing (ITM/Earth)"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/5): 	"IMAGE"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Logical_source (1 entry):
+	0 (CDF_UCHAR/23): 	"im_k0_hena_10kev_movies"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/36): 	"im_k0_hena_10kev_movies_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_UCHAR/72): 	"High Energy Neutral Atom (HENA) H Images, Pre-generated movies 10-16 keV"
+TIME_RESOLUTION (1 entry):
+	0 (CDF_UCHAR/8): 	"2 minute"
+RULES_OF_USE (0 entry):
+GENERATED_BY (1 entry):
+	0 (CDF_UCHAR/6): 	"CDAWeb"
+GENERATION_DATE (0 entry):
+ACKNOWLEDGEMENT (1 entry):
+	0 (CDF_UCHAR/13): 	"Dr. Jim Burch"
+MODS (0 entry):
+ADID_ref (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/32): 	"IMAGE_HENA_Key-Parameters-K0_cdf"
+
+Variable Attributes (29 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCTION
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+ALLOW_BIN
+
+Variable Information (0 rVariable, 2 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Image_MAP_MOV         CDF_REAL4/1	2:[60,20]	T/TT
+
+
+Variable (2 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/12): "Default time"
+     DICT_KEY        (CDF_UCHAR/4): "time"
+     VALIDMIN        (CDF_DOUBLE/1): 01-Jan-1990 08:00:00.000
+     VALIDMAX        (CDF_DOUBLE/1): 31-Dec-2010 07:33:20.000
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+
+Image_MAP_MOV (No: 1) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/25): "H 10-16 keV, Mapped Movie"
+     CATDESC         (CDF_UCHAR/55): "ENA H Images @ 10-16 keV, (mapped, pre-generated movie)"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/10): "spinsector"
+     DEPEND_2        (CDF_UCHAR/9): "polarzone"
+     DICT_KEY        (CDF_UCHAR/13): "particle_flux"
+     DISPLAY_TYPE    (CDF_UCHAR/10): "flux_movie"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "f8.4"
+     LABLAXIS        (CDF_UCHAR/15): "ENA H 10-16 keV"
+     UNITS           (CDF_UCHAR/6): "counts"
+     VALIDMIN        (CDF_FLOAT/1): 1.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_UCHAR/10): "crop_image"
+     COMPONENT_0     (CDF_UCHAR/6): "Image5"
+     COMPONENT_1     (CDF_UCHAR/7): "gci_pos"
+     COMPONENT_2     (CDF_UCHAR/12): "gci_spinaxis"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+

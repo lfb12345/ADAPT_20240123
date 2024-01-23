@@ -1,0 +1,371 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/hk_h0_vlf_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     hk_h0_vlf_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     16
+NumAttrs:     44 (22 global, 22 variable)
+Compression:  None
+
+Global Attributes (22 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/13): 	"NSSDC Archive"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/10): 	"HK>Hawkeye"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"H0>High Time Resolution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/65): 	"VLF>Electric and Magnetic Field Radio Frequency Spectrum Analyzer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/67): 	"Electric and Magnetic Field Radio Frequency Spectrum Analyzer Data "
+TEXT (25 entries):
+	0 (CDF_CHAR/42): 	"BUILD_DATE:                     1974-01-01"
+	1 (CDF_CHAR/45): 	"INSTRUMENT_MASS:         0.23 (LESS BOOMS) kg"
+	2 (CDF_CHAR/33): 	"INSTRUMENT_HEIGHT:       0.058 mt"
+	3 (CDF_CHAR/33): 	"INSTRUMENT_LENGTH:       0.140 mt"
+	4 (CDF_CHAR/34): 	"INSTRUMENT_WIDTH:         0.140 mt"
+	5 (CDF_CHAR/41): 	"INSTRUMENT_MANUFACTURER_NAME:   UNIV IOWA"
+	6 (CDF_CHAR/36): 	"INSTRUMENT_SERIAL_NUMBER:     VLF-05"
+	7 (CDF_CHAR/41): 	"                         Electric Antenna"
+	8 (CDF_CHAR/1053): 	"The electric antenna on HAWKEYE consisted of two extendible beryllium copper elements 0.025 inch in diameter which could be extended to a maximum tip-to-tip length of 42.7 m. Except for the outermost 6.1 m of each element, which had a conducting surface, the antenna was coated with Pyre-ML to electrically insulate the antenna from the surrounding plasma. The insulating coating was required to insulate the antenna from the perturbing effects of the plasma sheath surrounding the spacecraft body. At high altitudes, the thickness of the plasma sheath surrounding  the spacecraft body was quit large, on the order of 9 m. Since the conducting portion of the antenna must extend beyond the plasma sheath, it was necessary that the antenna be rather long, at least 30 m. tip-to-tip. The antenna mechanism used on HAWKEYE was the Dual-Tee extendible antenna manufactured by Fairchild Industries. The antenna length was 42.49 meters after final deployment until the last orbit, when an attempt was made to retract the antenna to reduce the spacecraft drag."
+	9 (CDF_CHAR/35): 	"                   Magnetic Antenna"
+	10 (CDF_CHAR/433): 	" The magnetic antenna for this experiment consisted of a search coil with a high permeability core mounted on a boom approximately 1.5 m. from the centerline of the spacecraft body. The boom was a three element telescoping device developed at the University of Iowa. The boom supporting the flux gate magnetometer on the opposite side of the spacecraft was the same type. Both booms were extended simultaneously by an electric motor."
+	11 (CDF_CHAR/395): 	"           The search coil core was .305 m. long and was wound with approximately 20,000 turns of copper wire. The axis of the search coil was parallel to the spin axis of the spacecraft. A preamplifier was located with the sensor to provide low-impedance signals to the main electronics package in the spacecraft body. The frequency range of the search coil antenna was from 1.0 Hz to 10.0 kHz."
+	12 (CDF_CHAR/36): 	"                         Electronics"
+	13 (CDF_CHAR/856): 	" The potential difference between the electric antenna elements was amplified by a high input impedance differential amplifier to provide a 0 to 5 volt analog voltage, V-Diff, to the spacecraft encoder. As the spacecraft rotated the potential difference between the antenna elements  varied sinusoidally at the spacecraft rotation rate, with an amplitude proportional to the electric field strength and a phase determined by the direction of the electric field. The frequency response of the differential amplifier was 0.05 Hz to 10 Hz and included the entire range of spin rates expected as the antenna was deployed. The V-Diff signal was sampled 6 times each frame by the encoder. The gain of the differential amplifier could be controlled by command to provide dynamic ranges of +/-0.5 and +/-8.0 volts for the antenna potential difference measurements."
+	14 (CDF_CHAR/977): 	"           Signals from the electric antenna in the frequency range from 10 kHz to 200 kHz were analyzed by the narrow band step frequency receiver. The primary purpose of this receiver was to provide very good frequency resolution in the neighborhood of the electron plasma frequency and upper hybrid resonance frequency. The step frequency receiver consisted of 8 narrow band filters (+/-5% band-width) which were sequentially switched into a log compressor. The  log compressor provided a 0 to 5 volt analog voltage, SFR, to the spacecraft encoder. The switch (S4) position was controlled by clock lines from the spacecraft encoder and was stepped through 8 frequencies, 13.3, 17.8, 23.7, 31.1, 42.2, 56.2, 100, and 178 kHz, at a rate of four frequencies per telemetry frame (5.76 seconds). The log compressor provided a 0 to 5 volt analog voltage, SFR, to the spacecraft encoder which was proportional to the logarithm of the signal strength over a dynamic range of 100 db."
+	15 (CDF_CHAR/375): 	"           The 8-channel spectrum analyzer  provided relatively coarse frequency spectrum measurements of both electric and magnetic fields over a broad frequency range of 1.0 Hz to 10.0 kHz. The primary purpose of the 8-channel spectrum analyzer was to provide field strength measurements to complement the high-resolution frequency-time spectra from the wide-band receiver."
+	16 (CDF_CHAR/433): 	"           Switches S1 and S2 were controlled by clock lines from the spacecraft encoder and commutate the filter outputs to two log compressors which provided field strength measurements SA-1 and SA-2 (0 to 5 volts) to the spacecraft encoder. These outputs were sampled twice per telemetry frame. Switch S3, which was controlled by a clock line, commutates the electric and magnetic field signals to the 8-channel spectrum analyzer."
+	17 (CDF_CHAR/340): 	"          Approximately every 5 minutes the impedance of the electric antenna was determined at a frequency of 17 Hz by driving a small AC current into the antennas and measuring the resultant voltage on the antennas with the 8-channel spectrum analyzer. The 17 Hz oscillator was gated on for 1 frame out of every 64 frames by a clock line."
+	18 (CDF_CHAR/816): 	"           Immediately following the impedance measurement the pulser circuit produced a 10 volt pulse with a duration of 20 micro- seconds. This pulse was to stimulate local plasma resonances, such as plasma oscillation, from which the electron density could be determined. A pulse of +10 volts was applied to one antenna element and a -10 volt pulse was applied to the opposite antenna element. The pulser was switched on by command. The pulser was on when the experiment was in VLF45 mode and off when the experiment was in the VLF10 mode. The pulser voltage was coupled to the antenna through a 220 pf capacitor which would have allowed some meaningful data to be obtained from the experiment even if the pulser output were to short to ground. The pulse was applied at the end of the impedance measurement frame."
+	19 (CDF_CHAR/856): 	" The potential difference between the electric antenna elements was amplified by a high input impedance differential amplifier to provide a 0 to 5 volt analog voltage, V-Diff, to the spacecraft encoder. As the spacecraft rotated the potential difference between the antenna elements  varied sinusoidally at the spacecraft rotation rate, with an amplitude proportional to the electric field strength and a phase determined by the direction of the electric field. The frequency response of the differential amplifier was 0.05 Hz to 10 Hz and included the entire range of spin rates expected as the antenna was deployed. The V-Diff signal was sampled 6 times each frame by the encoder. The gain of the differential amplifier could be controlled by command to provide dynamic ranges of +/-0.5 and +/-8.0 volts for the antenna potential difference measurements."
+	20 (CDF_CHAR/977): 	"           Signals from the electric antenna in the frequency range from 10 kHz to 200 kHz were analyzed by the narrow band step frequency receiver. The primary purpose of this receiver was to provide very good frequency resolution in the neighborhood of the electron plasma frequency and upper hybrid resonance frequency. The step frequency receiver consisted of 8 narrow band filters (+/-5% band-width) which were sequentially switched into a log compressor. The  log compressor provided a 0 to 5 volt analog voltage, SFR, to the spacecraft encoder. The switch (S4) position was controlled by clock lines from the spacecraft encoder and was stepped through 8 frequencies, 13.3, 17.8, 23.7, 31.1, 42.2, 56.2, 100, and 178 kHz, at a rate of four frequencies per telemetry frame (5.76 seconds). The log compressor provided a 0 to 5 volt analog voltage, SFR, to the spacecraft encoder which was proportional to the logarithm of the signal strength over a dynamic range of 100 db."
+	21 (CDF_CHAR/375): 	"           The 8-channel spectrum analyzer  provided relatively coarse frequency spectrum measurements of both electric and magnetic fields over a broad frequency range of 1.0 Hz to 10.0 kHz. The primary purpose of the 8-channel spectrum analyzer was to provide field strength measurements to complement the high-resolution frequency-time spectra from the wide-band receiver."
+	22 (CDF_CHAR/433): 	"           Switches S1 and S2 were controlled by clock lines from the spacecraft encoder and commutate the filter outputs to two log compressors which provided field strength measurements SA-1 and SA-2 (0 to 5 volts) to the spacecraft encoder. These outputs were sampled twice per telemetry frame. Switch S3, which was controlled by a clock line, commutates the electric and magnetic field signals to the 8-channel spectrum analyzer."
+	23 (CDF_CHAR/340): 	"          Approximately every 5 minutes the impedance of the electric antenna was determined at a frequency of 17 Hz by driving a small AC current into the antennas and measuring the resultant voltage on the antennas with the 8-channel spectrum analyzer. The 17 Hz oscillator was gated on for 1 frame out of every 64 frames by a clock line."
+	24 (CDF_CHAR/816): 	"           Immediately following the impedance measurement the pulser circuit produced a 10 volt pulse with a duration of 20 micro- seconds. This pulse was to stimulate local plasma resonances, such as plasma oscillation, from which the electron density could be determined. A pulse of +10 volts was applied to one antenna element and a -10 volt pulse was applied to the opposite antenna element. The pulser was switched on by command. The pulser was on when the experiment was in VLF45 mode and off when the experiment was in the VLF10 mode. The pulser voltage was coupled to the antenna through a 220 pf capacitor which would have allowed some meaningful data to be obtained from the experiment even if the pulser output were to short to ground. The pulse was applied at the end of the impedance measurement frame."
+MODS (4 entries):
+	0 (CDF_CHAR/35): 	"CDF created Jan 1999 by Mona Kessel"
+	1 (CDF_CHAR/44): 	"modified Aug 1999 by Mona Kessel, Carolyn Ng"
+	2 (CDF_CHAR/32): 	"modified Oct 1999 by Mona Kessel"
+	3 (CDF_CHAR/53): 	"modified Nov 1999 by Mona Kessel, final for archiving"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"hk_h0_vlf_00000000_v01"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"D. Gurnett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/18): 	"University of Iowa"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/28): 	"University of Iowa and NSSDC"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/6): 	"public"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/7): 	"Hawkeye"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/7): 	"~22 sec"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"hk_h0_vlf"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/85): 	"Hk Electric and Magnetic Field Radio Frequency Spectrum Analyzer High Time Resolution"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/29): 	"Hawkeye_VLF_Definitive-H0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/44): 	"spase://NASA/NumericalData/Hawkeye/VLF/PT22S"
+
+Variable Attributes (22 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+CATDESC
+VAR_NOTES
+DISPLAY_TYPE
+SCAL_PTR
+SCALETYP
+
+Variable Information (0 rVariable, 16 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+b_spd                 CDF_REAL4/1	1:[8]	T/T
+e_spd                 CDF_REAL4/1	1:[16]	T/T
+BAVE                  CDF_REAL4/1	0:[]	T/  
+pos_mag               CDF_REAL4/1	1:[3]	T/T
+pos_GSM               CDF_REAL4/1	1:[3]	T/T
+activity_index        CDF_INT1/1	0:[]	T/  
+e_freq                CDF_REAL4/1	1:[16]	F/T
+e_freq_delta          CDF_REAL4/1	1:[16]	F/T
+e_noise               CDF_REAL4/1	1:[16]	F/T
+b_freq                CDF_REAL4/1	1:[8]	F/T
+b_freq_delta          CDF_REAL4/1	1:[8]	F/T
+b_noise               CDF_REAL4/1	1:[8]	F/T
+label_pos             CDF_CHAR/5	1:[3]	F/T
+label_mag_pos         CDF_CHAR/6	1:[3]	F/T
+pos_mag_unit          CDF_CHAR/4	1:[3]	F/T
+
+
+Variable (16 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1974 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-1978 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/38): "Center TIme of 22 sec averaging period"
+
+b_spd (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Magnetic Field Spectral Power Density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     LABLAXIS        (CDF_CHAR/7): "Mag SPD"
+     UNITS           (CDF_CHAR/8): "nT**2/Hz"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "b_freq"
+     CATDESC         (CDF_CHAR/61): "Magnetic Field Spectral Power Density at 8 Freq (2 - 5620 Hz)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+e_spd (No: 2) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "Electric Spectral Power Density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     LABLAXIS        (CDF_CHAR/8): "Elec SPD"
+     UNITS           (CDF_CHAR/13): "(V/m)(V/m)/Hz"
+     FORMAT          (CDF_CHAR/4): "e6.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "e_freq"
+     CATDESC         (CDF_CHAR/66): "Electric Spectral Power Density at 16 Frequencies (2 Hz - 178 kHz)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+BAVE (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "Average Magnetic Field Magnitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 20000.0
+     LABLAXIS        (CDF_CHAR/4): "Bave"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "Average magnetic Field Magnitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pos_mag (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "s/c position in SM lat/local time"
+     VALIDMIN        (CDF_REAL4/3): 0.0, -90.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 22.0, 90.0, 24.0
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/13): "label_mag_pos"
+     UNIT_PTR        (CDF_CHAR/12): "pos_mag_unit"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/77): "Hawkeye position in Earth radii, SM magnetic latitude, SM magnetic local time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+pos_GSM (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Cartesian Position GSM"
+     VALIDMIN        (CDF_REAL4/3): -22.0, -22.0, -22.0
+     VALIDMAX        (CDF_REAL4/3): 22.0, 22.0, 22.0
+     UNITS           (CDF_CHAR/2): "RE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/9): "label_pos"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/22): "Cartesian Position GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+activity_index (No: 6) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Active vs Passive Indicator"
+     VALIDMIN        (CDF_INT1/1): 0
+     VALIDMAX        (CDF_INT1/1): 1
+     LABLAXIS        (CDF_CHAR/12): "Active index"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FILLVAL         (CDF_INT1/1): -128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Active (=1) vs Passive (=0) Indicator"
+     VAR_NOTES       (CDF_CHAR/83): "Active emissions only affect the Electric Field measurements at 17.8 Hz and 56.8 Hz"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+e_freq (No: 7) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Frequency (E field)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 50000.0
+     LABLAXIS        (CDF_CHAR/6): "Freq E"
+     UNITS           (CDF_CHAR/2): "Hz"
+     FORMAT          (CDF_CHAR/4): "f9.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DELTA_PLUS_VAR  (CDF_CHAR/12): "e_freq_delta"
+     DELTA_MINUS_VAR (CDF_CHAR/12): "e_freq_delta"
+     CATDESC         (CDF_CHAR/50): "16 Electric Field assoc Frequencies (2Hz - 178kHz)"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+e_freq_delta (No: 8) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Freq band width (E field)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 50000.0
+     LABLAXIS        (CDF_CHAR/7): "dFreq E"
+     UNITS           (CDF_CHAR/2): "Hz"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/60): "Electric Field associated Frequency band width (16 channels)"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+e_noise (No: 9) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Noise associated with E field"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 50000.0
+     LABLAXIS        (CDF_CHAR/7): "E noise"
+     UNITS           (CDF_CHAR/13): "(V/m)(V/m)/Hz"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/45): "Electric Field associated Noise (16 channels)"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+b_freq (No: 10) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Frequencies (B field)"
+     VALIDMIN        (CDF_REAL4/1): 1.78
+     VALIDMAX        (CDF_REAL4/1): 5620.0
+     LABLAXIS        (CDF_CHAR/11): "B Frequency"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DELTA_PLUS_VAR  (CDF_CHAR/12): "b_freq_delta"
+     DELTA_MINUS_VAR (CDF_CHAR/12): "b_freq_delta"
+     CATDESC         (CDF_CHAR/49): "8 Associated Magnetic Field Freq (1.78 - 5620 Hz)"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+b_freq_delta (No: 11) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Freq Band Width (B field)"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     LABLAXIS        (CDF_CHAR/14): "Delta Freq (B)"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/9): "frequency"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/44): "8 Freq Band widths B field (1.565 - 1266 Hz)"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+b_noise (No: 12) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Noise associated with B field"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     LABLAXIS        (CDF_CHAR/9): "Noise (B)"
+     UNITS           (CDF_CHAR/8): "nT**2/Hz"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/44): "Noise associated with B field (8 - channels)"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+label_pos (No: 13) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "s/c position Label"
+     FORMAT          (CDF_CHAR/2): "a6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/18): "s/c position label"
+
+label_mag_pos (No: 14) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "s/c magnetic position Label"
+     FORMAT          (CDF_CHAR/2): "a6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/27): "s/c magnetic position label"
+
+pos_mag_unit (No: 15) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "s/c magnetic position unit"
+     FORMAT          (CDF_CHAR/2): "a5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/26): "s/c magnetic position unit"
+

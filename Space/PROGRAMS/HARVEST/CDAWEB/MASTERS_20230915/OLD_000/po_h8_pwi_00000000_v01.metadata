@@ -1,0 +1,659 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_h8_pwi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_h8_pwi_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     17
+NumzVars:     13
+NumAttrs:     48 (28 global, 20 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (28 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/14): 	"POLAR PWI HFWR"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"H8>High Resolution Data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"PWI>Plasma Wave Instrument"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (5 entries):
+	0 (CDF_CHAR/149): 	"Reference:..Gurnett, D.A. et al, The Polar plasma wave instrument, Space Science Reviews, Vol. 71, pp. 597-622, 1995.GURNETT@IOWAVE.physics.uiowa.edu"
+	1 (CDF_CHAR/156): 	"An FFT on 1024 values was used in calibrating the data; i.e., perform FFT, calibrate in frequency domain, perform inverse FFT to get calibrated time series."
+	2 (CDF_CHAR/134): 	"Effective Bandwidth is 1.5*delta_f, where delta_f depends on the size of the FFT used to convert to the frequency domain, and delta_t."
+	3 (CDF_CHAR/239): 	"Coordinate system used:  antenna coordinate system, where the u-axis is offset by -45 degrees from the spacecraft x-axis, the v-axis is offset by -45 degrees from the spacecraft y-axis, and the z-axis is identical to the spacecraft z-axis."
+	4 (CDF_CHAR/321): 	"This data comes in snapshots of 190902 points distributed among 2 to 6 channels every 9.2 seconds, where the duration of the snapshot is 0.045 seconds.  Since Epoch time is in milliseconds, the times for the data points will not be unique unless the Delta_T (in milliseconds) is added to  the Epoch time for the snapshot."
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"Created Dec 2003"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD2002"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/24): 	"PO_H8_PWI_0000000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"PO_H8_PWI"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/62): 	"Polar Plasma Wave Instrument, High Frequency Waveform Receiver"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"D. Gurnett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"U. Iowa"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/64): 	"http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/home.html"
+Generation_data (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/15): 	"1.0/71431.0 sec"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/1): 	" "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/5): 	"Polar"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/74): 	"spase://NASA/NumericalData/POLAR/PWI/HFWR/25kHz/Interferometry/PT0.000014S"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+VALIDMIN
+VALIDMAX
+MONOTON
+UNITS
+LABLAXIS
+DEPEND_0
+DEPEND_1
+FORMAT
+FILLVAL
+AVG_TYPE
+DICT_KEY
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+
+Variable Information (17 rVariables, 13 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Delta_T               CDF_REAL8/1	0:[]	T/  
+FilterMode            CDF_INT4/1	0:[]	F/  
+FFT_size              CDF_INT4/1	0:[]	F/  
+NUM_SNAP              CDF_INT4/1	0:[]	F/  
+NUM_PTS               CDF_INT4/1	0:[]	T/  
+NUM_FFT               CDF_INT4/1	0:[]	T/  
+Gain1                 CDF_BYTE/1	0:[]	F/  
+Gain2                 CDF_BYTE/1	0:[]	T/  
+Gain3                 CDF_BYTE/1	0:[]	T/  
+MGain                 CDF_BYTE/1	0:[]	F/  
+HFWR1_Flag            CDF_BYTE/1	0:[]	F/  
+HFWR2_Flag            CDF_BYTE/1	0:[]	F/  
+HFWR3_Flag            CDF_BYTE/1	0:[]	F/  
+HFWR4_Flag            CDF_BYTE/1	0:[]	F/  
+HFWR5_Flag            CDF_BYTE/1	0:[]	F/  
+HFWR6_Flag            CDF_BYTE/1	0:[]	F/  
+HFWR_Eu               CDF_REAL4/1	1:[63488]	T/T
+HFWR_Evp              CDF_REAL4/1	1:[95232]	T/T
+HFWR_Evm              CDF_REAL4/1	1:[95232]	T/T
+HFWR_Bu               CDF_REAL4/1	1:[31744]	T/T
+HFWR_Bv               CDF_REAL4/1	1:[63488]	T/T
+HFWR_Bz               CDF_REAL4/1	1:[31744]	T/T
+DATA_Q_Eu             CDF_BYTE/1	1:[63488]	T/T
+DATA_Q_Evp            CDF_BYTE/1	1:[95232]	T/T
+DATA_Q_Evm            CDF_BYTE/1	1:[95232]	T/T
+DATA_Q_Bu             CDF_BYTE/1	1:[31744]	T/T
+DATA_Q_Bv             CDF_BYTE/1	1:[63488]	T/T
+DATA_Q_Bz             CDF_BYTE/1	1:[31744]	T/T
+Data_No               CDF_INT4/1	1:[95232]	F/T
+
+
+Variable (30 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/33): "Time, begin time of HFWR snapshot"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_EPOCH/1): 27-Feb-1996 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Delta_T (No: 1) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "Delta_T"
+     CATDESC         (CDF_CHAR/48): "Time, time between HFWR points in this snapshot."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL8/1): 0.00018
+     VALIDMAX        (CDF_REAL8/1): 0.00142
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/7): "Delta_T"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "E8.1"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FilterMode (No: 2) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Filter Mode"
+     CATDESC         (CDF_CHAR/59): "Filter Mode (1 = 25 kHz, 2 = 16 kHz, 4 = 2 kHz, 8 = 250 Hz)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 8
+     UNITS           (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FFT_size (No: 3) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "FFT Size"
+     CATDESC         (CDF_CHAR/31): "Size of FFT used in calibration"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1024
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I5"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+NUM_SNAP (No: 4) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "NUM_SNAP"
+     CATDESC         (CDF_CHAR/67): "Number of snapshots of size 31817 that were processed for this file"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 9392
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I5"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+NUM_PTS (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "NUM_PTS"
+     CATDESC         (CDF_CHAR/61): "Number of points that this snapshot contains in each Channel."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 31744
+     VALIDMAX        (CDF_INT4/1): 95232
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/15): "NumPts Snapshot"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I6"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/58): "NUM_PTS depends upon number of Channels used (2, 3, or 6)."
+
+NUM_FFT (No: 6) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "NUM_FFT"
+     CATDESC         (CDF_CHAR/65): "Number of FFTs of size 1024 that were processed for this snapshot"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 31
+     VALIDMAX        (CDF_INT4/1): 93
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "Num FFTs"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/58): "NUM_FFT depends upon number of Channels used (2, 3, or 6)."
+
+Gain1 (No: 7) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Gain for HFWR Channel 1 (Eu)"
+     CATDESC         (CDF_CHAR/22): "Channel 1 Gain (HFWR) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 30
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "HFWR_Gain1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gain2 (No: 8) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Gain for HFWR Channel 2 (Ev+)"
+     CATDESC         (CDF_CHAR/22): "Channel 2 Gain (HFWR) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 30
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "HFWR_Gain2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gain3 (No: 9) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Gain for HFWR Channel 3 (Ev-)"
+     CATDESC         (CDF_CHAR/22): "Channel 3 Gain (HFWR) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 30
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "HFWR_Gain3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+MGain (No: 10) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "Gain for HFWR M-Field (Bu, Bv, Bz)"
+     CATDESC         (CDF_CHAR/14): "M Gain (HFWR) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 30
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "HFWR_MGain"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/34): "Applies to all 3 Magnetic Channels"
+
+HFWR1_Flag (No: 11) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "HFWR1_Flag"
+     CATDESC         (CDF_CHAR/65): "HFWR1_Flag:  If HFWR1_Flag = 1, then data is present for HFWR_Eu."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR2_Flag (No: 12) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "HFWR2_Flag"
+     CATDESC         (CDF_CHAR/66): "HFWR2_Flag:  If HFWR2_Flag = 1, then data is present for HFWR_Evp."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR3_Flag (No: 13) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "HFWR3_Flag"
+     CATDESC         (CDF_CHAR/66): "HFWR3_Flag:  If HFWR3_Flag = 1, then data is present for HFWR_Evm."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR4_Flag (No: 14) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "HFWR4_Flag"
+     CATDESC         (CDF_CHAR/65): "HFWR4_Flag:  If HFWR4_Flag = 1, then data is present for HFWR_Bu."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR5_Flag (No: 15) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "HFWR5_Flag"
+     CATDESC         (CDF_CHAR/65): "HFWR5_Flag:  If HFWR5_Flag = 1, then data is present for HFWR_Bv."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR6_Flag (No: 16) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "HFWR6_Flag"
+     CATDESC         (CDF_CHAR/65): "HFWR6_Flag:  If HFWR6_Flag = 1, then data is present for HFWR_Bz."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): -128
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR_Eu (No: 0) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/39): "HFWR Elec. Field Antenna Eu (Channel 1)"
+     CATDESC         (CDF_CHAR/18): "HFWR Elec. Ant. Eu"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/4): "mV/M"
+     LABLAXIS        (CDF_CHAR/7): "HFWR_Eu"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/47): "When FFT is applied, Filter Rolls off at 25 kHz"
+
+HFWR_Evp (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/40): "HFWR Elec. Field Antenna Ev+ (Channel 2)"
+     CATDESC         (CDF_CHAR/19): "HFWR Elec. Ant. Ev+"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/4): "mV/M"
+     LABLAXIS        (CDF_CHAR/8): "HFWR_Ev+"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/47): "When FFT is applied, Filter Rolls off at 25 kHz"
+
+HFWR_Evm (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/40): "HFWR Elec. Field Antenna Ev- (Channel 3)"
+     CATDESC         (CDF_CHAR/19): "HFWR Elec. Ant. Ev-"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/4): "mV/M"
+     LABLAXIS        (CDF_CHAR/8): "HFWR_Ev-"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/47): "When FFT is applied, Filter Rolls off at 25 kHz"
+
+HFWR_Bu (No: 3) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "HFWR Mag. Field Antenna Bu (Channel 4)"
+     CATDESC         (CDF_CHAR/17): "HFWR Mag. Ant. Bu"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/7): "HFWR_Bu"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/47): "When FFT is applied, Filter Rolls off at 25 kHz"
+
+HFWR_Bv (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "HFWR Mag. Field Antenna Bv (Channel 5)"
+     CATDESC         (CDF_CHAR/17): "HFWR Mag. Ant. Bv"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/7): "HFWR_Bv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/47): "When FFT is applied, Filter Rolls off at 25 kHz"
+
+HFWR_Bz (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "HFWR Mag. Field Antenna Bz (Channel 6)"
+     CATDESC         (CDF_CHAR/17): "HFWR Mag. Ant. Bz"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/7): "HFWR_Bz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/47): "When FFT is applied, Filter Rolls off at 25 kHz"
+
+DATA_Q_Eu (No: 6) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "DATA_Q_Eu"
+     CATDESC         (CDF_CHAR/47): "Data Q Eu:  0 = OK, 1 = clipped or questionable"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "DATA Q Eu"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/42): "DATA_Q_Eu = FILLVAL when HFWR_Eu = FILLVAL"
+
+DATA_Q_Evp (No: 7) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "DATA_Q_Evp"
+     CATDESC         (CDF_CHAR/48): "Data Q Ev+:  0 = OK, 1 = clipped or questionable"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "DATA Q Ev+"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/44): "DATA_Q_Evp = FILLVAL when HFWR_Evp = FILLVAL"
+
+DATA_Q_Evm (No: 8) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "DATA_Q_Evm"
+     CATDESC         (CDF_CHAR/48): "Data Q Ev-:  0 = OK, 1 = clipped or questionable"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "DATA Q Ev-"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/44): "DATA_Q_Evm = FILLVAL when HFWR_Evm = FILLVAL"
+
+DATA_Q_Bu (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "DATA_Q_Bu"
+     CATDESC         (CDF_CHAR/47): "Data Q Bu:  0 = OK, 1 = clipped or questionable"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "DATA Q Bu"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/42): "DATA_Q_Bu = FILLVAL when HFWR_Bu = FILLVAL"
+
+DATA_Q_Bv (No: 10) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "DATA_Q_Bv"
+     CATDESC         (CDF_CHAR/47): "Data Q Bv:  0 = OK, 1 = clipped or questionable"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "DATA_Q Bv"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/42): "DATA_Q_Bv = FILLVAL when HFWR_Bv = FILLVAL"
+
+DATA_Q_Bz (No: 11) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "DATA_Q Bz"
+     CATDESC         (CDF_CHAR/47): "Data Q Bz:  0 = OK, 1 = clipped or questionable"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/9): "DATA Q Bz"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "Data_No"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_BYTE/1): -1
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/42): "DATA_Q_Bz = FILLVAL when HFWR_Bz = FILLVAL"
+
+Data_No (No: 12) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "Data_No"
+     CATDESC         (CDF_CHAR/59): "Data_No:  index of data in snapshot for HFWR and DQ values."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 95231
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/16): "Data Flag Number"
+     FORMAT          (CDF_CHAR/2): "I6"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/6): "linear"
+

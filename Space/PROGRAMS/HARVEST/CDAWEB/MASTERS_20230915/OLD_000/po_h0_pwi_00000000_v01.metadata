@@ -1,0 +1,295 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_h0_pwi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_h0_pwi_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     5
+NumzVars:     5
+NumAttrs:     48 (28 global, 20 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (28 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/13): 	"POLAR PWI MCA"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/6): 	"H0>MCA"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"PWI>Plasma Wave Instrument"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"2"
+TEXT (3 entries):
+	0 (CDF_CHAR/149): 	"Reference:..Gurnett, D.A. et al, The Polar plasma wave instrument, Space Science Reviews, Vol. 71, pp. 597-622, 1995.GURNETT@IOWAVE.physics.uiowa.edu"
+	1 (CDF_CHAR/202): 	"Note:..The electron cyclotron frequencies are derived from the following:  Fce = 0.028 kHz*B, where B is the magnitude of the ambient magnetic field measured in nT.  All frequencies are converted to Hz."
+	2 (CDF_CHAR/112): 	"There are 20 MCA E frequency bands, logarithmically spaced and 14 MCA B frequency bands, logarithmically spaced."
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"Created Dec 1997"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0171"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"po_h0_pwi_00000000_v02"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"po_h0_pwi"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/50): 	"Polar Plasma Wave Instrument, MCA, ~1.3 sec fields"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"D. Gurnett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"U. Iowa"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+Link_text (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Time_resolution (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/31): 	"Polar_PWI_mca_definitive_h0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/47): 	"spase://NASA/NumericalData/POLAR/PWI/MCA/PT1.3S"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+VALIDMIN
+VALIDMAX
+MONOTON
+SCALETYP
+UNITS
+LABLAXIS
+DEPEND_0
+DEPEND_1
+FORMAT
+FILLVAL
+AVG_TYPE
+DICT_KEY
+DISPLAY_TYPE
+VAR_NOTES
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+
+Variable Information (5 rVariables, 5 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+EpochB                CDF_EPOCH/1	0:[]	T/  
+Fce                   CDF_REAL4/1	0:[]	T/  
+MCAE_Antenna          CDF_INT4/1	0:[]	T/  
+MCAB_Antenna          CDF_INT4/1	0:[]	T/  
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+MCAE_Elec             CDF_REAL4/1	1:[20]	T/T
+MCAB_Mag              CDF_REAL4/1	1:[14]	T/T
+Frequency             CDF_REAL4/1	1:[20]	F/T
+FrequencyB            CDF_REAL4/1	1:[14]	F/T
+
+
+Variable (10 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/34): "Time, begin time of MCA E spectrum"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_EPOCH/1): 27-Feb-1996 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+EpochB (No: 1) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/34): "Time, begin time of MCA B spectrum"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_EPOCH/1): 27-Feb-1996 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Fce (No: 2) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Electron Cyclotron Frequency"
+     CATDESC         (CDF_CHAR/36): "Electron Cyclotron Frequency, scalar"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 10.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     UNITS           (CDF_CHAR/2): "Hz"
+     LABLAXIS        (CDF_CHAR/18): "Elec Cyc Frq (Fce)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/18): "frequency>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+MCAE_Antenna (No: 3) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Antenna for MCA E"
+     CATDESC         (CDF_CHAR/37): "Antenna (MCAE) 0 = Eu, 1 = Ev, 2 = Ez"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     UNITS           (CDF_CHAR/17): "(0=Eu,1=Ev,2=Ez) "
+     LABLAXIS        (CDF_CHAR/15): "MCAE_Ant Select"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+MCAB_Antenna (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Antenna for MCA B"
+     CATDESC         (CDF_CHAR/37): "Antenna (MCAB) 1 = Bu, 2 = Bv, 3 = Bz"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 3
+     UNITS           (CDF_CHAR/16): "(0=Bu,1=Bv,2=Bz)"
+     LABLAXIS        (CDF_CHAR/15): "MCAB_Ant Select"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/28): "Time, begin time of spectrum"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/3): 1996, 58, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/8): "time>PB5"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/24): "Contains Year, DOY, MSOD"
+
+MCAE_Elec (No: 1) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Elec. Field MCA E"
+     CATDESC         (CDF_CHAR/47): "Elec. Field at 20 freq., 5.62-311000 Hz (MCA E)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-18
+     VALIDMAX        (CDF_REAL4/1): 1.0e-06
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/11): "(V/M)**2/Hz"
+     LABLAXIS        (CDF_CHAR/9): "MCAE_Elec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+MCAB_Mag (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Mag. Field MCA B"
+     CATDESC         (CDF_CHAR/45): "Mag. Field at 14 freq., 5.62-10000 Hz (MCA B)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-18
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/8): "nT**2/Hz"
+     LABLAXIS        (CDF_CHAR/8): "MCAB_Mag"
+     DEPEND_0        (CDF_CHAR/6): "EpochB"
+     DEPEND_1        (CDF_CHAR/10): "FrequencyB"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/34): "Uses the first 14 Frequency Values"
+
+Frequency (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Frequency"
+     CATDESC         (CDF_CHAR/42): "Frequencies (E-field), 20 (5.62-311000) Hz"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_REAL4/1): 5.62
+     VALIDMAX        (CDF_REAL4/1): 311000.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/2): "Hz"
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "F10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/21): "frequency>spectrogram"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FrequencyB (No: 4) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Frequency"
+     CATDESC         (CDF_CHAR/41): "Frequencies (B-field), 14 (5.62-10000) Hz"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_REAL4/1): 5.62
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/2): "Hz"
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     FORMAT          (CDF_CHAR/5): "F10.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/21): "frequency>spectrogram"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/1): " "
+

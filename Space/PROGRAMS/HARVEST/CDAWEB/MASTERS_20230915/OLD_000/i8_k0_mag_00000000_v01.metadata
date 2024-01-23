@@ -1,0 +1,716 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/i8_k0_mag_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     i8_k0_mag_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     32
+NumzVars:     0
+NumAttrs:     54 (27 global, 27 variable)
+Compression:  None
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/20): 	"IMP-8 Magnetic Field"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"IMP-8>Interplanetary Monitoring Platform 8"
+Descriptor (1 entry):
+	0 (CDF_CHAR/32): 	"MAG>Magnetic Field Investigation"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (15 entries):
+	0 (CDF_CHAR/27): 	"Data: 1.024 minute averages"
+	1 (CDF_CHAR/47): 	"References: 1. Mish, W. H., and R. P. Lepping, "
+	2 (CDF_CHAR/51): 	"Magnetic field experiment data processing systems: "
+	3 (CDF_CHAR/56): 	"Explorers 47 and 50, NASA/GSFC, X-694-76-158, Aug. 1976."
+	4 (CDF_CHAR/78): 	"2. Ness, N.F., A proposal for the magnetic field experiment for IMPs H and J, "
+	5 (CDF_CHAR/35): 	"NASA/GSFC, X-612-66-461, Sept. 1966"
+	6 (CDF_CHAR/63): 	"3. Scearce, C. S., C. V. Moyer, R. P. Lepping, and N. F. Ness, "
+	7 (CDF_CHAR/79): 	"GSFC magnetic field experiments, Explorers 47 and 50, NASA/GSFC, X-695-76-191, "
+	8 (CDF_CHAR/41): 	"Oct. 1976, revision in preparation, 1992."
+	9 (CDF_CHAR/77): 	"4. Schonstedt, E. O., Saturable measuring device and magnetic core therefor, "
+	10 (CDF_CHAR/73): 	"U. S. patent 2916696 (December 1959) and U. S. Patent 2981885 (Apr. 1961)"
+	11 (CDF_CHAR/66): 	"5. Lepping, R. P., Lazarus, A. J., Moriarty, L. J., Milligan, P., "
+	12 (CDF_CHAR/46): 	"Kennon, R. S., McGuire, R. E., and Mish, W. H."
+	13 (CDF_CHAR/62): 	"IMP-8 Solar Wind Magnetic Field and Plasma Data in Support of "
+	14 (CDF_CHAR/54): 	"Ulysses-Jupiter Encounter: 13-31 Jan. 1992, Oct. 1992 "
+MODS (19 entries):
+	0 (CDF_CHAR/64): 	"Ver. 1.3 oct 92 change by bz components sign change for SC flip "
+	1 (CDF_CHAR/25): 	"fixing theta/phi problem."
+	2 (CDF_CHAR/78): 	"V1.4 4 Dec 92 changesa)mona5.skt b)c function nadj_hopas called fromj1main to "
+	3 (CDF_CHAR/77): 	"temporary fix the sun angle counts to avoid obvious bad values, some negative"
+	4 (CDF_CHAR/79): 	"V1.5, 5 Mar. 1993 changes SC position vector and distance not averaged but the "
+	5 (CDF_CHAR/74): 	"value of first sample, rms vector and scalar based on the four 15.36 sec. "
+	6 (CDF_CHAR/74): 	"data values, time of 1 min. avg. mid time of period, field lat-lon values "
+	7 (CDF_CHAR/46): 	"based on 1 min avg of field vector (4 samples)"
+	8 (CDF_CHAR/72): 	"V1.6, 2 June 1993 changessdfu comment containing zerolevels used added, "
+	9 (CDF_CHAR/73): 	"zero levels retrieved from calibration file, loop change in nadj_hopas.c "
+	10 (CDF_CHAR/64): 	"to prevent infinite loop when hopas array all bad, lib$int_over "
+	11 (CDF_CHAR/66): 	"inserted in togama to obviate bad data integer overflow hardcoded "
+	12 (CDF_CHAR/72): 	"V1.7, 2 Sep 1993 changes paysta- no data saved when pseudo seq count=0, "
+	13 (CDF_CHAR/50): 	"times generated from the page milliseconds of day "
+	14 (CDF_CHAR/40): 	"no one min avg if only one sample-STAT15"
+	15 (CDF_CHAR/71): 	"V1.8, 4 Mar 1994 changes spin2-new default spin topay-spike correction "
+	16 (CDF_CHAR/71): 	"j1main- read z corr. and correct sfdu comment togama- subtract z corr. "
+	17 (CDF_CHAR/19): 	"new cal. w/ z-corr."
+	18 (CDF_CHAR/31): 	"Modified on June 16, 1994 by JT"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0094"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"i8_k0_mag_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"i8_k0_mag"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/65): 	"IMP-8 Fluxgate Magnetometer, ~1-Minute Resolution, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/23): 	"A. Szabo / R.P. Lepping"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA GSFC"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"IMP (All)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+Link_text (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"1 minute"
+Link_title (0 entry):
+HTTP_link (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/46): 	"IMP8_Magnetic-Field_Key-Parameters-K0_1min_cdf"
+
+Variable Attributes (27 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+UNIT_PTR
+LABLAXIS
+LABL_PTR_1
+MONOTON
+FORMAT
+FORM_PTR
+FILLVAL
+CATDESC
+VAR_TYPE
+DICT_KEY
+DEPEND_0
+DEPEND_1
+AVG_TYPE
+DISPLAY_TYPE
+FUNCTION
+VIRTUAL
+COMPONENT_0
+VAR_NOTES
+SCAL_PTR
+SCALETYP
+ALLOW_BIN
+
+Variable Information (32 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	1:[3]	T/F
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+RMS                   CDF_REAL4/1	1:[3]	T/T
+RMS_p                 CDF_REAL4/1	1:[3]	T/F
+B_GSE_c               CDF_REAL4/1	1:[3]	T/T
+B_GSE_p               CDF_REAL4/1	1:[3]	T/T
+B_GSM_c               CDF_REAL4/1	1:[3]	T/T
+B_GSM_p               CDF_REAL4/1	1:[3]	T/T
+F1                    CDF_REAL4/1	1:[3]	T/F
+F2                    CDF_REAL4/1	1:[3]	T/F
+Rad_Dist              CDF_REAL4/1	1:[3]	T/F
+SC_pos_se             CDF_REAL4/1	1:[3]	T/T
+SC_pos_set            CDF_REAL4/1	1:[3]	T/T
+SC_pos_sm             CDF_REAL4/1	1:[3]	T/T
+SC_pos_smt            CDF_REAL4/1	1:[3]	T/T
+Mode                  CDF_INT4/1	1:[3]	T/F
+DQF                   CDF_INT4/1	1:[3]	T/F
+N                     CDF_INT4/1	1:[3]	T/F
+Gap_Flag              CDF_INT4/1	1:[3]	T/F
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+unit_angle            CDF_CHAR/3	1:[3]	F/T
+label_rms             CDF_CHAR/12	1:[3]	F/T
+label1_BGSE           CDF_CHAR/8	1:[3]	F/T
+label2_BGSE           CDF_CHAR/12	1:[3]	F/T
+label1_BGSM           CDF_CHAR/8	1:[3]	F/T
+label2_BGSM           CDF_CHAR/12	1:[3]	F/T
+label_posGSE          CDF_CHAR/7	1:[3]	F/T
+label_posGSM          CDF_CHAR/7	1:[3]	F/T
+cartesian             CDF_CHAR/1	1:[3]	F/T
+angle                 CDF_CHAR/5	1:[3]	F/T
+
+
+Variable (32 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/40): "Time Line                               "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_INT4/3): 1990, 1, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 86399000
+     SCALEMIN        (CDF_INT4/3): 1990, 1, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 366, 86399000
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/40): "Time Line                               "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+RMS (No: 2) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Components of RMS of B (GSE)"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/3): 20.0, 20.0, 20.0
+     SCALEMIN        (CDF_REAL4/3): 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/3): 20.0, 20.0, 20.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABL_PTR_1      (CDF_CHAR/9): "label_rms"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/40): "Components of RMS of B (GSE)            "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+RMS_p (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Magnetic Field RMS"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 40.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 40.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/3): "RMS"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/40): "Magnetic Field RMS                      "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+B_GSE_c (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Mag. Field in Cartesian GSE"
+     VALIDMIN        (CDF_REAL4/3): -40.0, -40.0, -40.0
+     VALIDMAX        (CDF_REAL4/3): 40.0, 40.0, 40.0
+     SCALEMIN        (CDF_REAL4/3): -40.0, -40.0, -40.0
+     SCALEMAX        (CDF_REAL4/3): 40.0, 40.0, 40.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABL_PTR_1      (CDF_CHAR/11): "label1_BGSE"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/40): "Mag. Field in Cartesian GSE             "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+B_GSE_p (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Mag. Field in Angular GSE"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/3): 55.0, 360.0, 90.0
+     SCALEMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     SCALEMAX        (CDF_REAL4/3): 55.0, 360.0, 90.0
+     UNIT_PTR        (CDF_CHAR/10): "unit_angle"
+     LABL_PTR_1      (CDF_CHAR/11): "label2_BGSE"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/40): "Mag. Field in Angular GSE               "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+B_GSM_c (No: 6) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Mag. Field in Cartesian GSM"
+     VALIDMIN        (CDF_REAL4/3): -40.0, -40.0, -40.0
+     VALIDMAX        (CDF_REAL4/3): 40.0, 40.0, 40.0
+     SCALEMIN        (CDF_REAL4/3): -40.0, -40.0, -40.0
+     SCALEMAX        (CDF_REAL4/3): 40.0, 40.0, 40.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABL_PTR_1      (CDF_CHAR/11): "label1_BGSM"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/40): "Mag. Field in Cartesian GSM             "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+B_GSM_p (No: 7) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Mag. Field in Angular GSM"
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/3): 55.0, 360.0, 90.0
+     SCALEMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     SCALEMAX        (CDF_REAL4/3): 55.0, 360.0, 90.0
+     UNIT_PTR        (CDF_CHAR/10): "unit_angle"
+     LABL_PTR_1      (CDF_CHAR/11): "label2_BGSM"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/40): "Mag. Field in Angular GSM               "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+F1 (No: 8) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Avg of Magnitudes "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 55.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 55.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/2): "F1"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/40): "Avg of Magnitudes                       "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+F2 (No: 9) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Magnitude of Avgs"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 55.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 55.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/2): "F2"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/40): "Magnitude of Avgs                       "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Rad_Dist (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Radial Distance"
+     VALIDMIN        (CDF_REAL4/1): 150000.0
+     VALIDMAX        (CDF_REAL4/1): 300000.0
+     SCALEMIN        (CDF_REAL4/1): 150000.0
+     SCALEMAX        (CDF_REAL4/1): 300000.0
+     UNITS           (CDF_CHAR/2): "km"
+     LABLAXIS        (CDF_CHAR/8): "Rad_Dist"
+     FORMAT          (CDF_CHAR/5): "F10.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/40): "Radial Distance                         "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SC_pos_se (No: 11) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "S/C Position in GSE"
+     VALIDMIN        (CDF_REAL4/3): -300000.0, -300000.0, -300000.0
+     VALIDMAX        (CDF_REAL4/3): 300000.0, 300000.0, 300000.0
+     SCALEMIN        (CDF_REAL4/3): -300000.0, -300000.0, -300000.0
+     SCALEMAX        (CDF_REAL4/3): 300000.0, 300000.0, 300000.0
+     UNITS           (CDF_CHAR/2): "km"
+     LABL_PTR_1      (CDF_CHAR/12): "label_posGSE"
+     FORMAT          (CDF_CHAR/4): "F9.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/32): "S/C Position in GSE (polar plot)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/15): "orbit>coord=gse"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SC_pos_set (No: 12) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "S/C Position in GSE"
+     VALIDMIN        (CDF_REAL4/3): -300000.0, -300000.0, -300000.0
+     VALIDMAX        (CDF_REAL4/3): 300000.0, 300000.0, 300000.0
+     SCALEMIN        (CDF_REAL4/3): -300000.0, -300000.0, -300000.0
+     SCALEMAX        (CDF_REAL4/3): 300000.0, 300000.0, 300000.0
+     UNITS           (CDF_CHAR/2): "km"
+     LABL_PTR_1      (CDF_CHAR/12): "label_posGSE"
+     FORMAT          (CDF_CHAR/4): "F9.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/38): "S/C Position in GSE (time-series plot)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/9): "SC_pos_se"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SC_pos_sm (No: 13) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "S/C Position in GSM"
+     VALIDMIN        (CDF_REAL4/3): -300000.0, -300000.0, -300000.0
+     VALIDMAX        (CDF_REAL4/3): 300000.0, 300000.0, 300000.0
+     SCALEMIN        (CDF_REAL4/3): -300000.0, -300000.0, -300000.0
+     SCALEMAX        (CDF_REAL4/3): 300000.0, 300000.0, 300000.0
+     UNITS           (CDF_CHAR/2): "km"
+     LABL_PTR_1      (CDF_CHAR/12): "label_posGSM"
+     FORMAT          (CDF_CHAR/5): "F10.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/33): "S/C Position in GSM (polar plot) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/15): "orbit>coord=gsm"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SC_pos_smt (No: 14) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "S/C Position in GSM"
+     VALIDMIN        (CDF_REAL4/3): -300000.0, -300000.0, -300000.0
+     VALIDMAX        (CDF_REAL4/3): 300000.0, 300000.0, 300000.0
+     SCALEMIN        (CDF_REAL4/3): -300000.0, -300000.0, -300000.0
+     SCALEMAX        (CDF_REAL4/3): 300000.0, 300000.0, 300000.0
+     UNITS           (CDF_CHAR/2): "km"
+     LABL_PTR_1      (CDF_CHAR/12): "label_posGSM"
+     FORMAT          (CDF_CHAR/5): "F10.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/39): "S/C Position in GSM (time-series plot) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/9): "SC_pos_sm"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Mode (No: 15) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Mode"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/4): "Mode"
+     FORMAT          (CDF_CHAR/2): "I1"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/34): "High/Low Data Rate - Mode is fixed"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DQF (No: 16) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Data Quality Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     UNITS           (CDF_CHAR/15): "(0=good,2=poor)"
+     LABLAXIS        (CDF_CHAR/3): "DQF"
+     FORMAT          (CDF_CHAR/2): "I1"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/54): "Data Quality Flag Good/Bad/Fill (0 is good; 2 is poor)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+N (No: 17) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "No. of Points in Avg"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 48
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 48
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/1): "N"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/40): "No. of Points in Avg                    "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gap_Flag (No: 18) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "Gap_Flag"
+     FORMAT          (CDF_CHAR/2): "I1"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/40): "Gap Flag                                "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 19) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 20) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 21) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Formats for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Formats for Time_PB5                    "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_angle (No: 22) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Units for Angular B"
+     CATDESC         (CDF_CHAR/40): "Units for Angular B                     "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_rms (No: 23) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Labels for RMS of B (GSE)"
+     CATDESC         (CDF_CHAR/40): "Labels for RMS of B (GSE)               "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label1_BGSE (No: 24) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Labels for B in Cartesian GSE"
+     CATDESC         (CDF_CHAR/40): "Labels for B in Cartesian GSE           "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label2_BGSE (No: 25) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Labels for B in Angular GSE"
+     CATDESC         (CDF_CHAR/40): "Labels for B in Angular GSE             "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label1_BGSM (No: 26) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Labels for B in Cartesian GSM"
+     CATDESC         (CDF_CHAR/40): "Labels for B in Cartesian GSM           "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label2_BGSM (No: 27) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Label for B in Angular GSM"
+     CATDESC         (CDF_CHAR/40): "Label for B in Angular GSM              "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_posGSE (No: 28) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Labels for S/C Position in GSE"
+     CATDESC         (CDF_CHAR/40): "Labels for S/C Position in GSE          "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_posGSM (No: 29) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Labels for S/C Position in GSM"
+     CATDESC         (CDF_CHAR/40): "Labels for S/C Position in GSM          "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+cartesian (No: 30) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Components in Cartesian Coord."
+     FORMAT          (CDF_CHAR/2): "a2"
+     CATDESC         (CDF_CHAR/40): "Components in Cartesian Coord.          "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/22): "label>vector>cartesian"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+angle (No: 31) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Components in Angular Coord."
+     FORMAT          (CDF_CHAR/2): "a6"
+     CATDESC         (CDF_CHAR/37): "angles: theta=latitude; phi=longitude"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/18): "label>vector>polar"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

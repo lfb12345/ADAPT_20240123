@@ -1,0 +1,247 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ge_hpamom_cpi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ge_hpamom_cpi_00000000_v01.cdf
+Version:      3.5.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     8
+NumAttrs:     41 (20 global, 21 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (20 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"GEOTAIL>Geomagnetic Tail"
+Data_type (1 entry):
+	0 (CDF_CHAR/52): 	"HPAmom>Plasma Moments From Hot Plasma Analyzer (HPA)"
+Descriptor (1 entry):
+	0 (CDF_CHAR/40): 	"CPI>Comprehensive Plasma Instrumentation"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/58): 	"Geotail CPI Hot Plasma High Time Resolution Plasma Moments"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0321"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"ge_HPAmom_cpi_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"ge_HPAmom_cpi"
+Logical_source_description (2 entries):
+	0 (CDF_CHAR/60): 	"Geotail Comprehensive Plasma Inst., 1min HPA Bulk Parameters"
+	1 (CDF_CHAR/48): 	"Resolution Hot Plasma Analyzer (CPI/HPA) Moments"
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"L. Frank"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"U. Iowa"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/7): 	"Geotail"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/53): 	"Geotail_CPI_Plasma-HPA-Moments-HPAMOM_1min_cdf_cdaweb"
+Link_text (1 entry):
+	0 (CDF_CHAR/65): 	"Note: variables above are not fully filtered for telemetry errors"
+Link_title (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_link (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/48): 	"spase://JAXA/NumericalData/Geotail/CPI/HPA/PT64S"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+FILLVAL
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+UNIT_PTR
+LABL_PTR_1
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+VAR_NOTES
+AVG_TYPE
+
+Variable Information (0 rVariable, 8 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Density_i             CDF_REAL4/1	0:[]	T/  
+Temp_i                CDF_REAL4/1	0:[]	T/  
+Velocity_i            CDF_REAL4/1	1:[3]	T/T
+Density_e             CDF_REAL4/1	0:[]	T/  
+Temp_e                CDF_REAL4/1	0:[]	T/  
+label_v               CDF_CHAR/14	1:[3]	F/T
+cartesian             CDF_CHAR/1	1:[3]	F/T
+
+
+Variable (8 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/30): "Time, centered, in NSSDC Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 08-Sep-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 20:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 08-Sep-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 20:00:00.000
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/9): "CDF Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/16): "time>NSSDC_Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Density_i (No: 1) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Ion Number Density (CPI/HPA)"
+     CATDESC         (CDF_CHAR/33): "Ion number density (HPA)), scalar"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "HPA Ion N"
+     UNITS           (CDF_CHAR/3): "/cc"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/18): "density>ion_number"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Temp_i (No: 2) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Ion Ave Temp (CPI/HPA)"
+     CATDESC         (CDF_CHAR/46): "Kinetic temperature of hot plasma ions, scalar"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 5.0e+08
+     SCALEMIN        (CDF_REAL4/1): 10000.0
+     SCALEMAX        (CDF_REAL4/1): 5.0e+08
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "HPA Ion Temp"
+     UNITS           (CDF_CHAR/6): "Kelvin"
+     FORMAT          (CDF_CHAR/5): "f11.0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/15): "temperature>ion"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/51): "calculated by integrating the distribution function"
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Velocity_i (No: 3) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Ion Bulk Flow Vel. (CPI/HPA)"
+     CATDESC         (CDF_CHAR/46): "Ion bulk flow velocity (HPA), 3 GSE components"
+     VALIDMIN        (CDF_REAL4/3): -1400.0, -1400.0, -1400.0
+     VALIDMAX        (CDF_REAL4/3): 1400.0, 1400.0, 1400.0
+     SCALEMIN        (CDF_REAL4/3): -1400.0, -1400.0, -1400.0
+     SCALEMAX        (CDF_REAL4/3): 1400.0, 1400.0, 1400.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     UNITS           (CDF_CHAR/6): "km/sec"
+     FORMAT          (CDF_CHAR/4): "F9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/22): "velocity>ion_bulk_flow"
+     LABL_PTR_1      (CDF_CHAR/7): "label_v"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Density_e (No: 4) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Electron Number Dens (CPI/HPA)"
+     CATDESC         (CDF_CHAR/37): "Electron Number Density (HPA), scalar"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "HPA Electron N"
+     UNITS           (CDF_CHAR/3): "/cc"
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/23): "density>electron_number"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Temp_e (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Electron Ave Temp (CPI/HPA)"
+     CATDESC         (CDF_CHAR/51): "Kinetic temperature of hot plasma electrons, scalar"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 5.0e+08
+     SCALEMIN        (CDF_REAL4/1): 10000.0
+     SCALEMAX        (CDF_REAL4/1): 5.0e+08
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "HPA Electron Temp"
+     UNITS           (CDF_CHAR/6): "Kelvin"
+     FORMAT          (CDF_CHAR/5): "f11.0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/20): "temperature>electron"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/51): "Calculated by integrating the distribution function"
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+label_v (No: 6) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for velocity"
+     CATDESC         (CDF_CHAR/25): "Label for 3 comp velocity"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+cartesian (No: 7) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Dimension Label"
+     CATDESC         (CDF_CHAR/25): "Label for 3 comp position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/18): "position>direction"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+

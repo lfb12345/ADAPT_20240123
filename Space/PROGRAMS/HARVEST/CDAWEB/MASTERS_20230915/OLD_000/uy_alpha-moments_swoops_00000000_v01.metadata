@@ -1,0 +1,324 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/uy_alpha-moments_swoops_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     uy_alpha-moments_swoops_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     14
+NumAttrs:     33 (19 global, 14 variable)
+Compression:  GZIP.6
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/7): 	"Ulysses"
+Source_name (1 entry):
+	0 (CDF_CHAR/7): 	"Ulysses"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/40): 	"H1>Hot Plasma Moments                   "
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Descriptor (1 entry):
+	0 (CDF_CHAR/6): 	"SWOOPS"
+PI_name (1 entry):
+	0 (CDF_CHAR/17): 	"David. J. McComas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/14): 	"Princeton/PPPL"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/7): 	"Ulysses"
+Logical_source (1 entry):
+	0 (CDF_CHAR/23): 	"uy_alpha-moments_swoops"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/36): 	"uy_alpha-moments_swoops_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/60): 	"Moments of the distribution function of alpha particles     "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/43): 	"B. G. Goldstein, M. Neugebauer, A. Tenerani"
+Generated_by (1 entry):
+	0 (CDF_CHAR/11): 	"A. Tenerani"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"4 minutes"
+TEXT (1 entry):
+	0 (CDF_CHAR/1256): 	"This file contains the moments obtained from the distribution function of alpha particles after deconvolution using the same magnetic field values used to construct the matrices. The vector magnetic field and the particle velocity are given in inertial RTN coordinates. The magnetic field was obtained for the time at which the peak of the alpha distribution function was measured. The particle velocity was obtained after rotating the fluid velocity from spacecraft to RTN coordinates and taking into account the spacecraft velocity. During periods of spacecraft nutation only the bulk speed and density are reliable, individual velocity components and temperatures are invalid. The beginning of scientifically useful SWOOPS data is at Day 322, 00:59 of 1990; at that time the spacecraft was already nutating; nutation ceased as of Day 351, 22:00, 1990. There are small systematic uncertainties in the velocity components. These are due to such effects as uncertainty in the accuracy of alignment on the spacecraft, relatively wide angular bins, variation in gains between channeltrons, etc. The velocity component data should not be used for studies of large scale, long term, solar wind deflection. The data are generally suitable for all other studies."
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/68): 	"spase://NASA/NumericalData/Ulysses/SWOOPS/AlphaParticle/Moments/PT4M"
+
+Variable Attributes (14 attributes)
+=========================================
+CATDESC
+FIELDNAM
+DEPEND_0
+DISPLAY_TYPE
+FILLVAL
+LABLAXIS
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+MONOTON
+VAR_NOTES
+FORMAT
+
+Variable Information (0 rVariable, 14 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+heliographicLatitude  CDF_FLOAT/1	0:[]	T/  
+heliocentricDistance  CDF_FLOAT/1	0:[]	T/  
+BR                    CDF_FLOAT/1	0:[]	T/  
+BT                    CDF_FLOAT/1	0:[]	T/  
+BN                    CDF_FLOAT/1	0:[]	T/  
+B_MAG                 CDF_FLOAT/1	0:[]	T/  
+V_MAG                 CDF_FLOAT/1	0:[]	T/  
+VR                    CDF_FLOAT/1	0:[]	T/  
+VT                    CDF_FLOAT/1	0:[]	T/  
+VN                    CDF_FLOAT/1	0:[]	T/  
+Tpar                  CDF_FLOAT/1	0:[]	T/  
+Tper                  CDF_FLOAT/1	0:[]	T/  
+dens                  CDF_FLOAT/1	0:[]	T/  
+
+
+Variable (14 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): 01-Jan-0000 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_CHAR/24): "18-Nov-1990 00:00:00.000"
+     VALIDMAX        (CDF_CHAR/24): "01-Jul-2009 00:00:00.000"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FORMAT          (CDF_CHAR/5): "E14.8"
+
+heliographicLatitude (No: 1) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "Heliographic latitude"
+     FIELDNAM        (CDF_CHAR/21): "Heliographic latitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "HG_Lat"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+
+heliocentricDistance (No: 2) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "Heliocentric Distance"
+     FIELDNAM        (CDF_CHAR/21): "Heliocentric Distance"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Ulysses_Dist"
+     UNITS           (CDF_CHAR/2): "AU"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+
+BR (No: 3) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Magnetic field component BR in inertial RTN coordinates"
+     FIELDNAM        (CDF_CHAR/8): "BR (RTN)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "BR_(RTN)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -9999.0
+     VALIDMAX        (CDF_FLOAT/1): 9999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "f10.4"
+
+BT (No: 4) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Magnetic field component BT in inertial RTN coordinates"
+     FIELDNAM        (CDF_CHAR/8): "BT (RTN)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "BT_(RTN)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -9999.0
+     VALIDMAX        (CDF_FLOAT/1): 9999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "f10.4"
+
+BN (No: 5) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Magnetic field component BN in inertial RTN coordinates"
+     FIELDNAM        (CDF_CHAR/8): "BN (RTN)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "BN_(RTN)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -9999.0
+     VALIDMAX        (CDF_FLOAT/1): 9999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "f10.4"
+
+B_MAG (No: 6) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Magnetic field magnitude"
+     FIELDNAM        (CDF_CHAR/24): "Magnetic field magnitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "B_MAG"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 9999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "f10.4"
+
+V_MAG (No: 7) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "Alpha particle speed in inertial RTN coordinates"
+     FIELDNAM        (CDF_CHAR/12): "ABS(V) (RTN)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "V_MAG (RTN)"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 999999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "f8.1"
+
+VR (No: 8) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Alpha particle velocity component VR in inertial RTN coordinates"
+     FIELDNAM        (CDF_CHAR/8): "VR (RTN)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "VR_(RTN)"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_FLOAT/1): -99999.0
+     VALIDMAX        (CDF_FLOAT/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "f8.1"
+
+VT (No: 9) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Alpha particle velocity component VT in inertial RTN coordinates"
+     FIELDNAM        (CDF_CHAR/8): "VT (RTN)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "VT_(RTN)"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_FLOAT/1): -99999.0
+     VALIDMAX        (CDF_FLOAT/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "f8.1"
+
+VN (No: 10) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Alpha particle velocity component VN in inertial RTN coordinates"
+     FIELDNAM        (CDF_CHAR/8): "VN (RTN)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "VN_(RTN)"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_FLOAT/1): -99999.0
+     VALIDMAX        (CDF_FLOAT/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "f8.1"
+
+Tpar (No: 11) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "Temperature of alphas parallel to the magnetic field"
+     FIELDNAM        (CDF_CHAR/9): "T_par He+"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "T_par"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/7): 1.0e+07, 7.09454e+22, 7.10993e-13, 7.58836e+31, 5.08427e+31, 7.09616e+22, 3.09789e+32
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "f9.0"
+
+Tper (No: 12) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "Temperature of alphas perpendicular to the magnetic field"
+     FIELDNAM        (CDF_CHAR/9): "T_per He+"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "T_per"
+     UNITS           (CDF_CHAR/1): "K"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+07
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "f9.0"
+
+dens (No: 13) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Number density of alphas"
+     FIELDNAM        (CDF_CHAR/11): "Density He+"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "Dens"
+     UNITS           (CDF_CHAR/6): "1/cm^3"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 99999.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "f11.5"
+

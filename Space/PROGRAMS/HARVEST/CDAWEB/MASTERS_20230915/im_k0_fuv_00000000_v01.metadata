@@ -1,0 +1,312 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/im_k0_fuv_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     im_k0_fuv_00000000_v01.cdf
+Version:      2.6.7
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-1997 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     15
+NumAttrs:     26 (12 global, 14 variable)
+Compression:  None
+
+Global Attributes (12 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_UCHAR/58): 	"IMAGE>Imager for Magnetopause-to-Aurora Global Exploration"
+Discipline (1 entry):
+	0 (CDF_UCHAR/36): 	"Space Physics>Magnetospheric Science"
+Descriptor (1 entry):
+	0 (CDF_UCHAR/26): 	"FUV>Far Ultraviolet Imager"
+PI_name (1 entry):
+	0 (CDF_UCHAR/8): 	"S. Mende"
+PI_affiliation (1 entry):
+	0 (CDF_UCHAR/11): 	"UC/Berkeley"
+Instrument_type (1 entry):
+	0 (CDF_UCHAR/6): 	"Imager"
+Data_type (1 entry):
+	0 (CDF_UCHAR/16): 	"K0>Key parameter"
+Data_version (1 entry):
+	0 (CDF_UCHAR/1): 	"1"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/12): 	"fuv_skeleton"
+Logical_source_description (1 entry):
+	0 (CDF_UCHAR/25): 	"IMAGE FUV, Key Parameters"
+TEXT_SUPPLEMENT_1 (2 entries):
+	0 (CDF_UCHAR/24): 	"SKT version 14-June-1997"
+	1 (CDF_UCHAR/29): 	"SKT modified 24-December-1997"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"IMAGE"
+
+Variable Attributes (14 attributes)
+=========================================
+FIELDNAM
+VAR_TYPE
+DICT_KEY
+LABLAXIS
+FILLVAL
+FORMAT
+UNITS
+VALIDMIN
+VALIDMAX
+DEPEND_0
+MONOTON
+SCALETYP
+CATDESC
+VAR_NOTES
+
+Variable Information (0 rVariable, 15 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+GEO_Pixel             CDF_REAL4/1	2:[3,360]	T/TT
+LBH_Pixel             CDF_REAL4/1	2:[256,256]	T/TT
+R13_Pixel             CDF_REAL4/1	2:[128,128]	T/TT
+Lyman_Pixel           CDF_REAL4/1	2:[128,128]	T/TT
+SI_RA                 CDF_REAL4/1	2:[128,128]	T/TT
+SI_Dec                CDF_REAL4/1	2:[128,128]	T/TT
+GEO_Dec               CDF_REAL4/1	2:[3,360]	T/TT
+LBH_RA                CDF_REAL4/1	2:[256,256]	T/TT
+LBH_Dec               CDF_REAL4/1	2:[256,256]	T/TT
+Radius                CDF_REAL4/1	0:[]	T/  
+Start_RA              CDF_REAL4/1	0:[]	T/  
+Start_Dec             CDF_REAL4/1	0:[]	T/  
+Spin                  CDF_REAL4/1	0:[]	T/  
+GEO_RA                CDF_REAL4/1	2:[3,360]	T/TT
+
+
+Variable (15 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/4): "Time"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     DICT_KEY        (CDF_UCHAR/10): "time>epoch"
+     LABLAXIS        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_UCHAR/5): "F16.1"
+     UNITS           (CDF_UCHAR/2): "ms"
+     VALIDMIN        (CDF_DOUBLE/1): 01-Jan-1990 08:00:00.000
+     VALIDMAX        (CDF_DOUBLE/1): 01-Jan-2021 06:00:00.000
+     MONOTON         (CDF_UCHAR/8): "INCREASE"
+     CATDESC         (CDF_UCHAR/10): "Image Time"
+     VAR_NOTES       (CDF_UCHAR/37): "UT date/time at start of spin (nadir)"
+
+GEO_Pixel (No: 1) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "GEO_flux"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     DICT_KEY        (CDF_UCHAR/22): "photon_flux>brightness"
+     LABLAXIS        (CDF_UCHAR/9): "Rayleighs"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/9): "Rayleighs"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     SCALETYP        (CDF_UCHAR/3): "log"
+     CATDESC         (CDF_UCHAR/26): "Intensity of the Geocorona"
+
+LBH_Pixel (No: 2) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "LBH_flux"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     DICT_KEY        (CDF_UCHAR/22): "photon_flux>brightness"
+     LABLAXIS        (CDF_UCHAR/9): "Rayleighs"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/9): "Rayleighs"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_UCHAR/3): "log"
+     CATDESC         (CDF_UCHAR/15): "pixel intensity"
+     VAR_NOTES       (CDF_UCHAR/8): "LBH Flux"
+
+R13_Pixel (No: 3) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/9): "1356_flux"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     DICT_KEY        (CDF_UCHAR/22): "photon_flux>brightness"
+     LABLAXIS        (CDF_UCHAR/9): "Rayleighs"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/9): "Rayleighs"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     SCALETYP        (CDF_UCHAR/3): "log"
+     CATDESC         (CDF_UCHAR/14): "1356 intensity"
+
+Lyman_Pixel (No: 4) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/15): "LymanAlpha_flux"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     DICT_KEY        (CDF_UCHAR/22): "photon_flux>brightness"
+     LABLAXIS        (CDF_UCHAR/9): "Rayleighs"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/9): "Rayleighs"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     SCALETYP        (CDF_UCHAR/3): "log"
+     CATDESC         (CDF_UCHAR/15): "pixel intensity"
+     VAR_NOTES       (CDF_UCHAR/21): "Lyman-Alpha Intensity"
+
+SI_RA (No: 5) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/15): "Right Ascension"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/24): "position>right_ascension"
+     LABLAXIS        (CDF_UCHAR/2): "RA"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     CATDESC         (CDF_UCHAR/40): "Right Ascension of pixel as seen from SI"
+
+SI_Dec (No: 6) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/11): "Declination"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/20): "position>declination"
+     LABLAXIS        (CDF_UCHAR/3): "Dec"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     CATDESC         (CDF_UCHAR/36): "Declination of pixel as seen from SI"
+
+GEO_Dec (No: 7) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/11): "Declination"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/20): "position>declination"
+     LABLAXIS        (CDF_UCHAR/3): "Dec"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     CATDESC         (CDF_UCHAR/27): "Declination of a GEO sample"
+
+LBH_RA (No: 8) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/15): "Right Ascension"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/24): "position>right_ascension"
+     LABLAXIS        (CDF_UCHAR/2): "RA"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     CATDESC         (CDF_UCHAR/41): "Right Ascension of pixel as seen from WIC"
+
+LBH_Dec (No: 9) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/11): "Declination"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/20): "position>declination"
+     LABLAXIS        (CDF_UCHAR/3): "Dec"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     CATDESC         (CDF_UCHAR/37): "Declination of pixel as seen from WIC"
+
+Radius (No: 10) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/6): "Radius"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/17): "position>distance"
+     LABLAXIS        (CDF_UCHAR/6): "Radius"
+     FILLVAL         (CDF_DOUBLE/1): 1.0
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/2): "Re"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 9
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/34): "Distance from COE at start of Spin"
+
+Start_RA (No: 11) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/15): "Right Ascension"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/24): "position>right_ascension"
+     LABLAXIS        (CDF_UCHAR/6): "COE RA"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/42): "COE R.A. as seen from s/c at start of Spin"
+
+Start_Dec (No: 12) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/11): "Declination"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/20): "position>declination"
+     LABLAXIS        (CDF_UCHAR/7): "COE Dec"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/49): "COE declination as seen from s/c at start of Spin"
+
+Spin (No: 13) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/11): "Spin_Number"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/8): "time>bin"
+     LABLAXIS        (CDF_UCHAR/5): "Spin#"
+     FILLVAL         (CDF_INT2/1): -1
+     FORMAT          (CDF_UCHAR/2): "I5"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): -1
+     CATDESC         (CDF_UCHAR/11): "Spin number"
+     VAR_NOTES       (CDF_UCHAR/13): "unique to FUV"
+
+GEO_RA (No: 14) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/15): "Right Ascension"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/24): "position>right_ascension"
+     LABLAXIS        (CDF_UCHAR/2): "RA"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.4"
+     UNITS           (CDF_UCHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     CATDESC         (CDF_UCHAR/31): "Right Ascension of a GEO sample"
+

@@ -1,0 +1,2314 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_l2_3min_sms-stics-nvt-magnetosphere_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_l2_3min_sms-stics-nvt-magnetosphere_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     140
+NumAttrs:     55 (23 global, 32 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/22): 	"L2-3MIN>Level2 3minute"
+Descriptor (1 entry):
+	0 (CDF_CHAR/88): 	"SMS-STICS-NVT-MAGNETOSPHERE>SMS Solar Wind & Suprathermal Ion Composition Investigation "
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TITLE (1 entry):
+	0 (CDF_CHAR/39): 	"WIND SMS Level2 stics nvt magnetosphere"
+TEXT (1 entry):
+	0 (CDF_CHAR/1700): 	"The Suprathermal Ion Composition Spectrometer (STICS) is a time of flight (TOF) plasma mass spectrometer, capable of identifying mass and mass per charge for incident ions up to 200 keV/e. It uses an electrostatic analyzer to admit ions of a particular energy per charge (E/Q) into the TOF chamber. The E/Q voltage is stepped through 32 values, sitting at each value for approximately 24 sec., to measure ions over the full E/Q range of 6 - 200 keV/e. Ions then pass through a carbon foil and TOF chamber, before finally impacting on a solid-state detector (SSD) for energy measurement. STICS combines these three measurements of E/Q, TOF and residual energy, producing PHA words. This triple-coincidence technique greatly improves the signal to noise ratio in the data. Measurements of E/Q and TOF without residual energy also produce PHA words. These double-coincidence measurements are characterized by better statistics since ions whose energy does not allow them to be registered by the SSD can still be counted in double-coincidence measurements. However, ion identification in double-coincidence measurements are limited to a select number of ions that are well separated in E/Q - TOF space.  The STICS instrument provides full 3D velocity distribution functions, through a combination of multiple telescopes and spacecraft spin. The instrument includes 3 separate TOF telescopes that view 3 separate latitude sectors, as shown in Figure 1. In addition, the WIND spacecraft spins, allowing the 3 telescopes to trace out a nearly 4ïÂ° steradian viewing area. The longitudinal sectors are shown in Figure 2. The solar direction is in sectors 8-10 while the earthward direction is in sectors 0-2."
+MODS (1 entry):
+	0 (CDF_CHAR/15): 	"Initial release"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0142"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/51): 	"WI_L2_3MIN_SMS-STICS-NVT-MAGNETOSPHERE_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/38): 	"WI_L2_3MIN_SMS-STICS-NVT-MAGNETOSPHERE"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/71): 	"Solar Wind and Suprathermal Ion Composition  Instrument, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"S. T. Lepri"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/13): 	"U of Michigan"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/18): 	"Historic Wind SMS "
+	1 (CDF_CHAR/11): 	"Wind STICS "
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/9): 	"Home Page"
+	1 (CDF_CHAR/13): 	"Release Notes"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/26): 	"http://space.umd.edu/wind/"
+	1 (CDF_CHAR/88): 	"https://spdf.gsfc.nasa.gov/pub/data/wind/documents/wind_stics_lv2_release_notes_revD.pdf"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"sphe-00653"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/35): 	"Wind_SMS_Key-Parameters-K0_1min_cdf"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+
+Variable Attributes (32 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+SCALETYP
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+FUNCT
+VIRTUAL
+COMPONENT_0
+ARR_INDEX
+ARR_DIM
+ALLOW_BIN
+
+Variable Information (0 rVariable, 140 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+n_tc_hplus            CDF_REAL4/1	0:[]	T/  
+n_err_tc_hplus        CDF_REAL4/1	0:[]	T/  
+v_tc_hplus            CDF_REAL4/1	0:[]	T/  
+v_err_tc_hplus        CDF_REAL4/1	0:[]	T/  
+E_ave_tc_hplus        CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_hplus    CDF_REAL4/1	0:[]	T/  
+n_tc_heplus           CDF_REAL4/1	0:[]	T/  
+n_err_tc_heplus       CDF_REAL4/1	0:[]	T/  
+v_tc_heplus           CDF_REAL4/1	0:[]	T/  
+v_err_tc_heplus       CDF_REAL4/1	0:[]	T/  
+E_ave_tc_heplus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_heplus   CDF_REAL4/1	0:[]	T/  
+n_tc_he2plus          CDF_REAL4/1	0:[]	T/  
+n_err_tc_he2plus      CDF_REAL4/1	0:[]	T/  
+v_tc_he2plus          CDF_REAL4/1	0:[]	T/  
+v_err_tc_he2plus      CDF_REAL4/1	0:[]	T/  
+E_ave_tc_he2plus      CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_he2plus  CDF_REAL4/1	0:[]	T/  
+n_tc_oplus            CDF_REAL4/1	0:[]	T/  
+n_err_tc_oplus        CDF_REAL4/1	0:[]	T/  
+v_tc_oplus            CDF_REAL4/1	0:[]	T/  
+v_err_tc_oplus        CDF_REAL4/1	0:[]	T/  
+E_ave_tc_oplus        CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_oplus    CDF_REAL4/1	0:[]	T/  
+n_tc_o6plus           CDF_REAL4/1	0:[]	T/  
+n_err_tc_o6plus       CDF_REAL4/1	0:[]	T/  
+v_tc_o6plus           CDF_REAL4/1	0:[]	T/  
+v_err_tc_o6plus       CDF_REAL4/1	0:[]	T/  
+E_ave_tc_o6plus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_o6plus   CDF_REAL4/1	0:[]	T/  
+n_tc_c5plus           CDF_REAL4/1	0:[]	T/  
+n_err_tc_c5plus       CDF_REAL4/1	0:[]	T/  
+v_tc_c5plus           CDF_REAL4/1	0:[]	T/  
+v_err_tc_c5plus       CDF_REAL4/1	0:[]	T/  
+E_ave_tc_c5plus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_c5plus   CDF_REAL4/1	0:[]	T/  
+n_tc_fe10plus         CDF_REAL4/1	0:[]	T/  
+n_err_tc_fe10plus     CDF_REAL4/1	0:[]	T/  
+v_tc_fe10plus         CDF_REAL4/1	0:[]	T/  
+v_err_tc_fe10plus     CDF_REAL4/1	0:[]	T/  
+E_ave_tc_fe10plus     CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_fe10plus CDF_REAL4/1	0:[]	T/  
+n_tc_cplus            CDF_REAL4/1	0:[]	T/  
+n_err_tc_cplus        CDF_REAL4/1	0:[]	T/  
+v_tc_cplus            CDF_REAL4/1	0:[]	T/  
+v_err_tc_cplus        CDF_REAL4/1	0:[]	T/  
+E_ave_tc_cplus        CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_cplus    CDF_REAL4/1	0:[]	T/  
+n_tc_nplus            CDF_REAL4/1	0:[]	T/  
+n_err_tc_nplus        CDF_REAL4/1	0:[]	T/  
+v_tc_nplus            CDF_REAL4/1	0:[]	T/  
+v_err_tc_nplus        CDF_REAL4/1	0:[]	T/  
+E_ave_tc_nplus        CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_nplus    CDF_REAL4/1	0:[]	T/  
+n_tc_o2plus           CDF_REAL4/1	0:[]	T/  
+n_err_tc_o2plus       CDF_REAL4/1	0:[]	T/  
+v_tc_o2plus           CDF_REAL4/1	0:[]	T/  
+v_err_tc_o2plus       CDF_REAL4/1	0:[]	T/  
+E_ave_tc_o2plus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_o2plus   CDF_REAL4/1	0:[]	T/  
+n_tc_c4plus           CDF_REAL4/1	0:[]	T/  
+n_err_tc_c4plus       CDF_REAL4/1	0:[]	T/  
+v_tc_c4plus           CDF_REAL4/1	0:[]	T/  
+v_err_tc_c4plus       CDF_REAL4/1	0:[]	T/  
+E_ave_tc_c4plus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_c4plus   CDF_REAL4/1	0:[]	T/  
+n_tc_c6plus           CDF_REAL4/1	0:[]	T/  
+n_err_tc_c6plus       CDF_REAL4/1	0:[]	T/  
+v_tc_c6plus           CDF_REAL4/1	0:[]	T/  
+v_err_tc_c6plus       CDF_REAL4/1	0:[]	T/  
+E_ave_tc_c6plus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_c6plus   CDF_REAL4/1	0:[]	T/  
+n_tc_o7plus           CDF_REAL4/1	0:[]	T/  
+n_err_tc_o7plus       CDF_REAL4/1	0:[]	T/  
+v_tc_o7plus           CDF_REAL4/1	0:[]	T/  
+v_err_tc_o7plus       CDF_REAL4/1	0:[]	T/  
+E_ave_tc_o7plus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_o7plus   CDF_REAL4/1	0:[]	T/  
+n_tc_o8plus           CDF_REAL4/1	0:[]	T/  
+n_err_tc_o8plus       CDF_REAL4/1	0:[]	T/  
+v_tc_o8plus           CDF_REAL4/1	0:[]	T/  
+v_err_tc_o8plus       CDF_REAL4/1	0:[]	T/  
+E_ave_tc_o8plus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_o8plus   CDF_REAL4/1	0:[]	T/  
+n_tc_fe8plus          CDF_REAL4/1	0:[]	T/  
+n_err_tc_fe8plus      CDF_REAL4/1	0:[]	T/  
+v_tc_fe8plus          CDF_REAL4/1	0:[]	T/  
+v_err_tc_fe8plus      CDF_REAL4/1	0:[]	T/  
+E_ave_tc_fe8plus      CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_fe8plus  CDF_REAL4/1	0:[]	T/  
+n_tc_fe9plus          CDF_REAL4/1	0:[]	T/  
+n_err_tc_fe9plus      CDF_REAL4/1	0:[]	T/  
+v_tc_fe9plus          CDF_REAL4/1	0:[]	T/  
+v_err_tc_fe9plus      CDF_REAL4/1	0:[]	T/  
+E_ave_tc_fe9plus      CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_fe9plus  CDF_REAL4/1	0:[]	T/  
+n_tc_fe16plus         CDF_REAL4/1	0:[]	T/  
+n_err_tc_fe16plus     CDF_REAL4/1	0:[]	T/  
+v_tc_fe16plus         CDF_REAL4/1	0:[]	T/  
+v_err_tc_fe16plus     CDF_REAL4/1	0:[]	T/  
+E_ave_tc_fe16plus     CDF_REAL4/1	0:[]	T/  
+E_ave_err_tc_fe16plus CDF_REAL4/1	0:[]	T/  
+n_dc_hplus            CDF_REAL4/1	0:[]	T/  
+n_err_dc_hplus        CDF_REAL4/1	0:[]	T/  
+v_dc_hplus            CDF_REAL4/1	0:[]	T/  
+v_err_dc_hplus        CDF_REAL4/1	0:[]	T/  
+E_ave_dc_hplus        CDF_REAL4/1	0:[]	T/  
+E_ave_err_dc_hplus    CDF_REAL4/1	0:[]	T/  
+n_dc_heplus           CDF_REAL4/1	0:[]	T/  
+n_err_dc_heplus       CDF_REAL4/1	0:[]	T/  
+v_dc_heplus           CDF_REAL4/1	0:[]	T/  
+v_err_dc_heplus       CDF_REAL4/1	0:[]	T/  
+E_ave_dc_heplus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_dc_heplus   CDF_REAL4/1	0:[]	T/  
+n_dc_he2plus          CDF_REAL4/1	0:[]	T/  
+n_err_dc_he2plus      CDF_REAL4/1	0:[]	T/  
+v_dc_he2plus          CDF_REAL4/1	0:[]	T/  
+v_err_dc_he2plus      CDF_REAL4/1	0:[]	T/  
+E_ave_dc_he2plus      CDF_REAL4/1	0:[]	T/  
+E_ave_err_dc_he2plus  CDF_REAL4/1	0:[]	T/  
+n_dc_oplus            CDF_REAL4/1	0:[]	T/  
+n_err_dc_oplus        CDF_REAL4/1	0:[]	T/  
+v_dc_oplus            CDF_REAL4/1	0:[]	T/  
+v_err_dc_oplus        CDF_REAL4/1	0:[]	T/  
+E_ave_dc_oplus        CDF_REAL4/1	0:[]	T/  
+E_ave_err_dc_oplus    CDF_REAL4/1	0:[]	T/  
+n_dc_o6plus           CDF_REAL4/1	0:[]	T/  
+n_err_dc_o6plus       CDF_REAL4/1	0:[]	T/  
+v_dc_o6plus           CDF_REAL4/1	0:[]	T/  
+v_err_dc_o6plus       CDF_REAL4/1	0:[]	T/  
+E_ave_dc_o6plus       CDF_REAL4/1	0:[]	T/  
+E_ave_err_dc_o6plus   CDF_REAL4/1	0:[]	T/  
+n_dc_cplus            CDF_REAL4/1	0:[]	T/  
+n_err_dc_cplus        CDF_REAL4/1	0:[]	T/  
+v_dc_cplus            CDF_REAL4/1	0:[]	T/  
+v_err_dc_cplus        CDF_REAL4/1	0:[]	T/  
+E_ave_dc_cplus        CDF_REAL4/1	0:[]	T/  
+E_ave_err_dc_cplus    CDF_REAL4/1	0:[]	T/  
+delT                  CDF_REAL4/1	0:[]	T/  
+
+
+Variable (140 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/23): "time>Epoch_center_range"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/26): "Time start of avg interval"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+n_tc_hplus (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Density H+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "Density H+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "Density H+ triple coincidence"
+
+n_err_tc_hplus (No: 2) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Density error H+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/19): "Density error H+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/80): "--- Error in the density value assuming Poisson statistics H+ triple coincidence"
+
+v_tc_hplus (No: 3) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "v H+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/7): "v H+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/62): "v Not used. Preserved for compatibility. H+ triple coincidence"
+
+v_err_tc_hplus (No: 4) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "v_err H+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "v_err H+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/66): "v_err Not used. Preserved for compatibility. H+ triple coincidence"
+
+E_ave_tc_hplus (No: 5) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Average energy H+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Average energy H+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/36): "Average energy H+ triple coincidence"
+
+E_ave_err_tc_hplus (No: 6) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "energy error H+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/18): "energy error H+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/52): "--- Error average energy value H+ triple coincidence"
+
+n_tc_heplus (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density He+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density He+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density He+ triple coincidence"
+
+n_err_tc_heplus (No: 8) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error He+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error He+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics He+ triple coincidence"
+
+v_tc_heplus (No: 9) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v He+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v He+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. He+ triple coincidence"
+
+v_err_tc_heplus (No: 10) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err He+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err He+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/51): "v_err Not used. Preserved for compatibility. He+ tc"
+
+E_ave_tc_heplus (No: 11) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy He+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy He+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy He+ triple coincidence"
+
+E_ave_err_tc_heplus (No: 12) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error He+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error He+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value He+ triple coincidence"
+
+n_tc_he2plus (No: 13) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Density He2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/15): "Density He2+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/31): "Density He2+ triple coincidence"
+
+n_err_tc_he2plus (No: 14) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Density error He2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Density error He2+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/82): "--- Error in the density value assuming Poisson statistics He2+ triple coincidence"
+
+v_tc_he2plus (No: 15) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "v He2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "v He2+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/64): "v Not used. Preserved for compatibility. He2+ triple coincidence"
+
+v_err_tc_he2plus (No: 16) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "v_err He2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "v_err He2+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/68): "v_err Not used. Preserved for compatibility. He2+ triple coincidence"
+
+E_ave_tc_he2plus (No: 17) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Average energy He2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/22): "Average energy He2+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/38): "Average energy He2+ triple coincidence"
+
+E_ave_err_tc_he2plus (No: 18) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "energy error He2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/20): "energy error He2+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/54): "--- Error average energy value He2+ triple coincidence"
+
+n_tc_oplus (No: 19) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Density O+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "Density O+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "Density O+ triple coincidence"
+
+n_err_tc_oplus (No: 20) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Density error O+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/19): "Density error O+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/80): "--- Error in the density value assuming Poisson statistics O+ triple coincidence"
+
+v_tc_oplus (No: 21) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "v O+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/7): "v O+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/62): "v Not used. Preserved for compatibility. O+ triple coincidence"
+
+v_err_tc_oplus (No: 22) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "v_err O+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "v_err O+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/66): "v_err Not used. Preserved for compatibility. O+ triple coincidence"
+
+E_ave_tc_oplus (No: 23) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Average energy O+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Average energy O+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/36): "Average energy O+ triple coincidence"
+
+E_ave_err_tc_oplus (No: 24) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "energy error O+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/18): "energy error O+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/52): "--- Error average energy value O+ triple coincidence"
+
+n_tc_o6plus (No: 25) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density O6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density O6+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density O6+ triple coincidence"
+
+n_err_tc_o6plus (No: 26) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error O6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error O6+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics O6+ triple coincidence"
+
+v_tc_o6plus (No: 27) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v O6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v O6+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. O6+ triple coincidence"
+
+v_err_tc_o6plus (No: 28) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err O6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err O6+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "v_err Not used. Preserved for compatibility. O6+ triple coincidence"
+
+E_ave_tc_o6plus (No: 29) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy O6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy O6+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy O6+ triple coincidence"
+
+E_ave_err_tc_o6plus (No: 30) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error O6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error O6+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value O6+ triple coincidence"
+
+n_tc_c5plus (No: 31) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density C5+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density C5+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density C5+ triple coincidence"
+
+n_err_tc_c5plus (No: 32) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error C5+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error C5+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics C5+ triple coincidence"
+
+v_tc_c5plus (No: 33) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v C5+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v C5+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. C5+ triple coincidence"
+
+v_err_tc_c5plus (No: 34) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err C5+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err C5+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "v_err Not used. Preserved for compatibility. C5+ triple coincidence"
+
+E_ave_tc_c5plus (No: 35) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy C5+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy C5+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy C5+ triple coincidence"
+
+E_ave_err_tc_c5plus (No: 36) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error C5+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error C5+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value C5+ triple coincidence"
+
+n_tc_fe10plus (No: 37) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Density Fe10+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/16): "Density Fe10+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "Density Fe10+ triple coincidence"
+
+n_err_tc_fe10plus (No: 38) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Density error Fe10+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/22): "Density error Fe10+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/83): "--- Error in the density value assuming Poisson statistics Fe10+ triple coincidence"
+
+v_tc_fe10plus (No: 39) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "v Fe10+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "v Fe10+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/65): "v Not used. Preserved for compatibility. Fe10+ triple coincidence"
+
+v_err_tc_fe10plus (No: 40) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "v_err Fe10+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "v_err Fe10+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/69): "v_err Not used. Preserved for compatibility. Fe10+ triple coincidence"
+
+E_ave_tc_fe10plus (No: 41) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Average energy Fe10+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/23): "Average energy Fe10+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/39): "Average energy Fe10+ triple coincidence"
+
+E_ave_err_tc_fe10plus (No: 42) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "energy error Fe10+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/21): "energy error Fe10+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/55): "--- Error average energy value Fe10+ triple coincidence"
+
+n_tc_cplus (No: 43) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Density C+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "Density C+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "Density C+ triple coincidence"
+
+n_err_tc_cplus (No: 44) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Density error C+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/19): "Density error C+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/80): "--- Error in the density value assuming Poisson statistics C+ triple coincidence"
+
+v_tc_cplus (No: 45) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "v C+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/7): "v C+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/62): "v Not used. Preserved for compatibility. C+ triple coincidence"
+
+v_err_tc_cplus (No: 46) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "v_err C+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "v_err C+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/66): "v_err Not used. Preserved for compatibility. C+ triple coincidence"
+
+E_ave_tc_cplus (No: 47) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Average energy C+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Average energy C+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/36): "Average energy C+ triple coincidence"
+
+E_ave_err_tc_cplus (No: 48) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "energy error C+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/18): "energy error C+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/52): "--- Error average energy value C+ triple coincidence"
+
+n_tc_nplus (No: 49) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Density N+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "Density N+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "Density N+ triple coincidence"
+
+n_err_tc_nplus (No: 50) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Density error N+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/19): "Density error N+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/80): "--- Error in the density value assuming Poisson statistics N+ triple coincidence"
+
+v_tc_nplus (No: 51) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "v N+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/7): "v N+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/62): "v Not used. Preserved for compatibility. N+ triple coincidence"
+
+v_err_tc_nplus (No: 52) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "v_err N+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "v_err N+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/66): "v_err Not used. Preserved for compatibility. N+ triple coincidence"
+
+E_ave_tc_nplus (No: 53) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Average energy N+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Average energy N+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/36): "Average energy N+ triple coincidence"
+
+E_ave_err_tc_nplus (No: 54) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "energy error N+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/18): "energy error N+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/52): "--- Error average energy value N+ triple coincidence"
+
+n_tc_o2plus (No: 55) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density O2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density O2+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density O2+ triple coincidence"
+
+n_err_tc_o2plus (No: 56) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error O2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error O2+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics O2+ triple coincidence"
+
+v_tc_o2plus (No: 57) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v O2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v O2+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. O2+ triple coincidence"
+
+v_err_tc_o2plus (No: 58) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err O2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err O2+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "v_err Not used. Preserved for compatibility. O2+ triple coincidence"
+
+E_ave_tc_o2plus (No: 59) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy O2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy O2+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy O2+ triple coincidence"
+
+E_ave_err_tc_o2plus (No: 60) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error O2+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error O2+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value O2+ triple coincidence"
+
+n_tc_c4plus (No: 61) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density C4+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density C4+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density C4+ triple coincidence"
+
+n_err_tc_c4plus (No: 62) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error C4+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error C4+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics C4+ triple coincidence"
+
+v_tc_c4plus (No: 63) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v C4+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v C4+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. C4+ triple coincidence"
+
+v_err_tc_c4plus (No: 64) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err C4+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err C4+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "v_err Not used. Preserved for compatibility. C4+ triple coincidence"
+
+E_ave_tc_c4plus (No: 65) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy C4+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy C4+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy C4+ triple coincidence"
+
+E_ave_err_tc_c4plus (No: 66) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error C4+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error C4+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value C4+ triple coincidence"
+
+n_tc_c6plus (No: 67) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density C6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density C6+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density C6+ triple coincidence"
+
+n_err_tc_c6plus (No: 68) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error C6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error C6+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics C6+ triple coincidence"
+
+v_tc_c6plus (No: 69) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v C6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v C6+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. C6+ triple coincidence"
+
+v_err_tc_c6plus (No: 70) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err C6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err C6+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "v_err Not used. Preserved for compatibility. C6+ triple coincidence"
+
+E_ave_tc_c6plus (No: 71) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy C6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy C6+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy C6+ triple coincidence"
+
+E_ave_err_tc_c6plus (No: 72) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error C6+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error C6+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value C6+ triple coincidence"
+
+n_tc_o7plus (No: 73) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density O7+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density O7+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density O7+ triple coincidence"
+
+n_err_tc_o7plus (No: 74) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error O7+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error O7+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics O7+ triple coincidence"
+
+v_tc_o7plus (No: 75) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v O7+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v O7+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. O7+ triple coincidence"
+
+v_err_tc_o7plus (No: 76) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err O7+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err O7+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "v_err Not used. Preserved for compatibility. O7+ triple coincidence"
+
+E_ave_tc_o7plus (No: 77) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy O7+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy O7+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy O7+ triple coincidence"
+
+E_ave_err_tc_o7plus (No: 78) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error O7+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error O7+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value O7+ triple coincidence"
+
+n_tc_o8plus (No: 79) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density O8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density O8+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density O8+ triple coincidence"
+
+n_err_tc_o8plus (No: 80) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error O8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error O8+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics O8+ triple coincidence"
+
+v_tc_o8plus (No: 81) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v O8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v O8+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. O8+ triple coincidence"
+
+v_err_tc_o8plus (No: 82) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err O8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err O8+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "v_err Not used. Preserved for compatibility. O8+ triple coincidence"
+
+E_ave_tc_o8plus (No: 83) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy O8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy O8+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy O8+ triple coincidence"
+
+E_ave_err_tc_o8plus (No: 84) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error O8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error O8+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value O8+ triple coincidence"
+
+n_tc_fe8plus (No: 85) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Density Fe8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/15): "Density Fe8+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/31): "Density Fe8+ triple coincidence"
+
+n_err_tc_fe8plus (No: 86) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Density error Fe8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Density error Fe8+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/82): "--- Error in the density value assuming Poisson statistics Fe8+ triple coincidence"
+
+v_tc_fe8plus (No: 87) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "v Fe8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "v Fe8+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/64): "v Not used. Preserved for compatibility. Fe8+ triple coincidence"
+
+v_err_tc_fe8plus (No: 88) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "v_err Fe8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "v_err Fe8+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/68): "v_err Not used. Preserved for compatibility. Fe8+ triple coincidence"
+
+E_ave_tc_fe8plus (No: 89) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Average energy Fe8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/22): "Average energy Fe8+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/38): "Average energy Fe8+ triple coincidence"
+
+E_ave_err_tc_fe8plus (No: 90) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "energy error Fe8+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/20): "energy error Fe8+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/54): "--- Error average energy value Fe8+ triple coincidence"
+
+n_tc_fe9plus (No: 91) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Density Fe9+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/15): "Density Fe9+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/31): "Density Fe9+ triple coincidence"
+
+n_err_tc_fe9plus (No: 92) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Density error Fe9+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Density error Fe9+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/82): "--- Error in the density value assuming Poisson statistics Fe9+ triple coincidence"
+
+v_tc_fe9plus (No: 93) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "v Fe9+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "v Fe9+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/64): "v Not used. Preserved for compatibility. Fe9+ triple coincidence"
+
+v_err_tc_fe9plus (No: 94) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "v_err Fe9+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "v_err Fe9+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/68): "v_err Not used. Preserved for compatibility. Fe9+ triple coincidence"
+
+E_ave_tc_fe9plus (No: 95) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Average energy Fe9+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/22): "Average energy Fe9+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/38): "Average energy Fe9+ triple coincidence"
+
+E_ave_err_tc_fe9plus (No: 96) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "energy error Fe9+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/20): "energy error Fe9+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/54): "--- Error average energy value Fe9+ triple coincidence"
+
+n_tc_fe16plus (No: 97) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Density Fe16+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/16): "Density Fe16+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/32): "Density Fe16+ triple coincidence"
+
+n_err_tc_fe16plus (No: 98) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Density error Fe16+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/22): "Density error Fe16+ tc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/83): "--- Error in the density value assuming Poisson statistics Fe16+ triple coincidence"
+
+v_tc_fe16plus (No: 99) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "v Fe16+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "v Fe16+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/65): "v Not used. Preserved for compatibility. Fe16+ triple coincidence"
+
+v_err_tc_fe16plus (No: 100) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "v_err Fe16+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "v_err Fe16+ tc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/69): "v_err Not used. Preserved for compatibility. Fe16+ triple coincidence"
+
+E_ave_tc_fe16plus (No: 101) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Average energy Fe16+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/23): "Average energy Fe16+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/39): "Average energy Fe16+ triple coincidence"
+
+E_ave_err_tc_fe16plus (No: 102) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "energy error Fe16+ tc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/21): "energy error Fe16+ tc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/55): "--- Error average energy value Fe16+ triple coincidence"
+
+n_dc_hplus (No: 103) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Density H+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "Density H+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "Density H+ double coincidence"
+
+n_err_dc_hplus (No: 104) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Density error H+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/19): "Density error H+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/80): "--- Error in the density value assuming Poisson statistics H+ double coincidence"
+
+v_dc_hplus (No: 105) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "v H+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/7): "v H+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/62): "v Not used. Preserved for compatibility. H+ double coincidence"
+
+v_err_dc_hplus (No: 106) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "v_err H+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "v_err H+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/66): "v_err Not used. Preserved for compatibility. H+ double coincidence"
+
+E_ave_dc_hplus (No: 107) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Average energy H+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Average energy H+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/36): "Average energy H+ double coincidence"
+
+E_ave_err_dc_hplus (No: 108) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "energy error H+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/18): "energy error H+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/52): "--- Error average energy value H+ double coincidence"
+
+n_dc_heplus (No: 109) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density He+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density He+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density He+ double coincidence"
+
+n_err_dc_heplus (No: 110) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error He+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error He+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics He+ double coincidence"
+
+v_dc_heplus (No: 111) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v He+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v He+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. He+ double coincidence"
+
+v_err_dc_heplus (No: 112) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err He+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err He+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "v_err Not used. Preserved for compatibility. He+ double coincidence"
+
+E_ave_dc_heplus (No: 113) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy He+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy He+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy He+ double coincidence"
+
+E_ave_err_dc_heplus (No: 114) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error He+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error He+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value He+ double coincidence"
+
+n_dc_he2plus (No: 115) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Density He2+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/15): "Density He2+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/31): "Density He2+ double coincidence"
+
+n_err_dc_he2plus (No: 116) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Density error He2+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Density error He2+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/82): "--- Error in the density value assuming Poisson statistics He2+ double coincidence"
+
+v_dc_he2plus (No: 117) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "v He2+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "v He2+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/64): "v Not used. Preserved for compatibility. He2+ double coincidence"
+
+v_err_dc_he2plus (No: 118) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "v_err He2+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "v_err He2+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/68): "v_err Not used. Preserved for compatibility. He2+ double coincidence"
+
+E_ave_dc_he2plus (No: 119) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Average energy He2+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/22): "Average energy He2+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/38): "Average energy He2+ double coincidence"
+
+E_ave_err_dc_he2plus (No: 120) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "energy error He2+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/20): "energy error He2+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/54): "--- Error average energy value He2+ double coincidence"
+
+n_dc_oplus (No: 121) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Density O+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "Density O+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "Density O+ double coincidence"
+
+n_err_dc_oplus (No: 122) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Density error O+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/19): "Density error O+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/80): "--- Error in the density value assuming Poisson statistics O+ double coincidence"
+
+v_dc_oplus (No: 123) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "v O+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/7): "v O+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/62): "v Not used. Preserved for compatibility. O+ double coincidence"
+
+v_err_dc_oplus (No: 124) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "v_err O+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "v_err O+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/66): "v_err Not used. Preserved for compatibility. O+ double coincidence"
+
+E_ave_dc_oplus (No: 125) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Average energy O+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Average energy O+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/36): "Average energy O+ double coincidence"
+
+E_ave_err_dc_oplus (No: 126) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "energy error O+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/18): "energy error O+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/52): "--- Error average energy value O+ double coincidence"
+
+n_dc_o6plus (No: 127) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Density O6+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/14): "Density O6+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Density O6+ double coincidence"
+
+n_err_dc_o6plus (No: 128) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Density error O6+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Density error O6+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/81): "--- Error in the density value assuming Poisson statistics O6+ double coincidence"
+
+v_dc_o6plus (No: 129) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "v O6+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/8): "v O6+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/63): "v Not used. Preserved for compatibility. O6+ double coincidence"
+
+v_err_dc_o6plus (No: 130) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "v_err O6+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "v_err O6+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/67): "v_err Not used. Preserved for compatibility. O6+ double coincidence"
+
+E_ave_dc_o6plus (No: 131) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Average energy O6+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/21): "Average energy O6+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/37): "Average energy O6+ double coincidence"
+
+E_ave_err_dc_o6plus (No: 132) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "energy error O6+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/19): "energy error O6+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "--- Error average energy value O6+ double coincidence"
+
+n_dc_cplus (No: 133) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Density C+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/13): "Density C+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "Density C+ double coincidence"
+
+n_err_dc_cplus (No: 134) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Density error C+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/19): "Density error C+ dc"
+     UNITS           (CDF_CHAR/7): "1/cm^-3"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/80): "--- Error in the density value assuming Poisson statistics C+ double coincidence"
+
+v_dc_cplus (No: 135) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "v C+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/7): "v C+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/62): "v Not used. Preserved for compatibility. C+ double coincidence"
+
+v_err_dc_cplus (No: 136) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "v_err C+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "v_err C+ dc"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/66): "v_err Not used. Preserved for compatibility. C+ double coincidence"
+
+E_ave_dc_cplus (No: 137) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Average energy C+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/20): "Average energy C+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/36): "Average energy C+ double coincidence"
+
+E_ave_err_dc_cplus (No: 138) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "energy error C+ dc"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/18): "energy error C+ dc"
+     UNITS           (CDF_CHAR/3): "keV"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/52): "--- Error average energy value C+ double coincidence"
+
+delT (No: 139) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "delT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/4): "delT"
+     UNITS           (CDF_CHAR/1): "s"
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/10): "delta time"
+

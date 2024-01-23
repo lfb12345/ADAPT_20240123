@@ -1,0 +1,691 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/so_at_def_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     so_at_def_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     29
+NumzVars:     0
+NumAttrs:     46 (24 global, 22 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (24 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/40): 	"ISTP SOHO 3-axis stabilized attitude CDF"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/13): 	"Space Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"SOHO>Solar Heliospheric Observatory"
+Data_type (1 entry):
+	0 (CDF_CHAR/11): 	"AT>Attitude"
+Descriptor (1 entry):
+	0 (CDF_CHAR/19): 	"DEF>Definitive data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (1 entry):
+	0 (CDF_CHAR/25): 	"Data: 10 minute intervals"
+STABILIZATION_TYPE (1 entry):
+	0 (CDF_CHAR/1): 	"A"
+START_DATE (1 entry):
+	0 (CDF_CHAR/24): 	"1996-03-31T00:05:00.000Z"
+END_DATE (1 entry):
+	0 (CDF_CHAR/24): 	"1996-03-31T23:55:00.000Z"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0208"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"SO_AT_DEF_00000000_V01"
+MODS (2 entries):
+	0 (CDF_CHAR/32): 	"5/6/94 - Original Implementation"
+	1 (CDF_CHAR/41): 	"1/25/96 - Added SARVariables for CCR 2189"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"SO_AT_DEF"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/29): 	"SOHO Definitive Attitude Data"
+PI_name (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"SOHO"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"xxno-00153"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/28): 	"SOHO_Attitude_definitive_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/57): 	"spase://NASA/NumericalData/SOHO/Attitude/Definitive/PT10M"
+
+Variable Attributes (22 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+SCALETYP
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+FILLVAL
+VAR_TYPE
+DICT_KEY
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (29 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	1:[3]	T/F
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+SAT_PITCH_AVG         CDF_REAL4/1	1:[3]	T/F
+SAT_ROLL_AVG          CDF_REAL4/1	1:[3]	T/F
+SAT_YAW_AVG           CDF_REAL4/1	1:[3]	T/F
+SAR_PITCH_AVG         CDF_REAL4/1	1:[3]	T/F
+SAR_ROLL_AVG          CDF_REAL4/1	1:[3]	T/F
+SAR_YAW_AVG           CDF_REAL4/1	1:[3]	T/F
+GCI_PITCH_AVG         CDF_REAL4/1	1:[3]	T/F
+GCI_ROLL_AVG          CDF_REAL4/1	1:[3]	T/F
+GCI_YAW_AVG           CDF_REAL4/1	1:[3]	T/F
+GSE_PITCH_AVG         CDF_REAL4/1	1:[3]	T/F
+GSE_ROLL_AVG          CDF_REAL4/1	1:[3]	T/F
+GSE_YAW_AVG           CDF_REAL4/1	1:[3]	T/F
+GSM_PITCH_AVG         CDF_REAL4/1	1:[3]	T/F
+GSM_ROLL_AVG          CDF_REAL4/1	1:[3]	T/F
+GSM_YAW_AVG           CDF_REAL4/1	1:[3]	T/F
+SAT_PITCH_STDDEV      CDF_REAL4/1	1:[3]	T/F
+SAT_ROLL_STDDEV       CDF_REAL4/1	1:[3]	T/F
+SAT_YAW_STDDEV        CDF_REAL4/1	1:[3]	T/F
+SAT_PITCH_MIN         CDF_REAL4/1	1:[3]	T/F
+SAT_ROLL_MIN          CDF_REAL4/1	1:[3]	T/F
+SAT_YAW_MIN           CDF_REAL4/1	1:[3]	T/F
+SAT_PITCH_MAX         CDF_REAL4/1	1:[3]	T/F
+SAT_ROLL_MAX          CDF_REAL4/1	1:[3]	T/F
+SAT_YAW_MAX           CDF_REAL4/1	1:[3]	T/F
+
+
+Variable (29 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "SOHO attitude EPOCH time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jul-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jul-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/24): "SOHO attitude EPOCH time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "SOHO attitude PB5 time"
+     VALIDMIN        (CDF_INT4/3): 1992, 183, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 86399000
+     SCALEMIN        (CDF_INT4/3): 1992, 183, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 366, 86399000
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/22): "SOHO attitude PB5 time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 2) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 4) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Format for Time_PB5                     "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_PITCH_AVG (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "S/C body axis avg pitch angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "Sat p avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C body axis avg pitch angle           "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_ROLL_AVG (No: 6) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "S/C body axis avg roll angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "Sat r avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C body axis avg roll angle            "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_YAW_AVG (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "S/C body axis avg yaw angle"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "Sat y avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C body axis avg yaw angle             "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAR_PITCH_AVG (No: 8) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "Solar axis refer avg pitch angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "Sar p avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Solar axis refer avg pitch angle        "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAR_ROLL_AVG (No: 9) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "Solar axis Refer avg roll angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "Sar r avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Solar axis Refer avg roll angle         "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAR_YAW_AVG (No: 10) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Solar Axis Refer avg yaw angle"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "Sar y avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Solar Axis Refer avg yaw angle          "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GCI_PITCH_AVG (No: 11) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "GCI average pitch angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "GCI p avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GCI average pitch angle                 "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GCI_ROLL_AVG (No: 12) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GCI average roll angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "GCI r avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GCI average roll angle                  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GCI_YAW_AVG (No: 13) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "GCI average yaw angle"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "GCI y avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GCI average yaw angle                   "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSE_PITCH_AVG (No: 14) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "GSE average pitch angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "GSE p avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSE average pitch angle                 "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSE_ROLL_AVG (No: 15) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GSE average roll angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "GSE r avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSE average roll angle                  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSE_YAW_AVG (No: 16) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "GSE average yaw angle"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "GSE y avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSE average yaw angle                   "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSM_PITCH_AVG (No: 17) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "GSM average pitch angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "GSM p avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSM average pitch angle                 "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSM_ROLL_AVG (No: 18) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GSM average roll angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "GSM r avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSM average roll angle                  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSM_YAW_AVG (No: 19) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "GSM average yaw angle"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "GSM y avg"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSM average yaw angle                   "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_PITCH_STDDEV (No: 20) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "S/C axis std dev of pitch ang"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/10): "Sat p stdv"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C axis std dev of pitch ang           "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_ROLL_STDDEV (No: 21) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "S/C axis std dev of roll ang"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/10): "Sat r stdv"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C axis std dev of roll ang            "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_YAW_STDDEV (No: 22) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "S/C axis std dev of yaw ang"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/10): "Sat r stdv"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C axis std dev of yaw ang             "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_PITCH_MIN (No: 23) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "S/C body axis min pitch angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "Sat p min"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C body axis min pitch angle           "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_ROLL_MIN (No: 24) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "S/C body axis min roll angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "Sat r min"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C body axis min roll angle            "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_YAW_MIN (No: 25) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "S/C body axis min yaw angle"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "Sat y min"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C body axis min yaw angle             "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_PITCH_MAX (No: 26) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "S/C body axis max pitch angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "Sat p max"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C body axis max pitch angle           "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_ROLL_MAX (No: 27) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "S/C body axis max roll angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/9): "Sat r max"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C body axis max roll angle            "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SAT_YAW_MAX (No: 28) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "S/C body axis max yaw angle"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "Sat y max"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F9.5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "S/C body axis max yaw angle             "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

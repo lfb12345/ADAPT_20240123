@@ -1,0 +1,336 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/solo_l2_swa-pas-eflux_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     solo_l2_swa-pas-eflux_00000000_v01.cdf
+Version:      3.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     13
+NumAttrs:     58 (28 global, 30 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (28 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"STP>Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/18): 	"SOLO>Solar Orbiter"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/26): 	"L2>Level 2 Calibrated Data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/49): 	"SWA-PAS>Solar Wind Analyser / Proton-Alpha Sensor"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"C.J. Owen"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/39): 	"MSSL-UCL, University College London, UK"
+Text (1 entry):
+	0 (CDF_CHAR/28): 	"PAS differential energy flux"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/13): 	"Solar Orbiter"
+Logical_source (1 entry):
+	0 (CDF_CHAR/21): 	"solo_L2_swa-pas-eflux"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/34): 	"solo_L2_swa-pas-eflux_20200707_V02"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/90): 	"Solar Orbiter Level 2 Energy Flux from Solar Wind Analyser (SWA) Proton-Alpha Sensor (PAS)"
+Time_resolution (0 entry):
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/34): 	"Consult with MSSL-UCL before using"
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (0 entry):
+LINK_TEXT (0 entry):
+LINK_TITLE (0 entry):
+HTTP_LINK (0 entry):
+spase_DatasetResourceID (0 entry):
+Software_version (1 entry):
+	0 (CDF_CHAR/28): 	"pas_process_9_1 - 2021/12/02"
+Calibration_version (1 entry):
+	0 (CDF_CHAR/33): 	"solo_CAL_catalog_20211108_V83.txt"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (30 attributes)
+=========================================
+CATDESC
+COORDINATE_SYSTEM
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+DETECTOR
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+MONOTON
+REPRESENTATION_1
+SCALEMAX
+SCALEMIN
+SCALETYP
+SI_CONVERSION
+TENSOR_ORDER
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+UNITS
+VALIDMAX
+VALIDMIN
+VAR_NOTES
+VAR_TYPE
+VALIMIN
+
+Variable Information (0 rVariable, 13 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+Half_interval         CDF_REAL4/1	0:[]	T/  
+SCET                  CDF_REAL8/1	0:[]	T/  
+Info                  CDF_UINT1/1	0:[]	T/  
+unrecovered_count     CDF_REAL4/1	0:[]	T/  
+total_count           CDF_REAL4/1	0:[]	T/  
+quality_factor        CDF_REAL4/1	0:[]	T/  
+start_energy          CDF_INT2/1	0:[]	T/  
+nb_energy             CDF_INT2/1	0:[]	T/  
+eflux                 CDF_REAL4/1	1:[96]	T/T
+Energy                CDF_REAL4/1	1:[96]	F/T
+delta_p_Energy        CDF_REAL4/1	1:[96]	F/T
+delta_m_Energy        CDF_REAL4/1	1:[96]	F/T
+
+
+Variable (13 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "Epoch encoded as Terrestrial Time on rotating Earth geoid, ns since J2000"
+     DELTA_PLUS_VAR  (CDF_CHAR/13): "Half_interval"
+     DELTA_MINUS_VAR (CDF_CHAR/13): "Half_interval"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0E-9>s"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:59.999000000
+     VALIDMIN        (CDF_TT2000/1): 1990-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Half_interval (No: 1) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "Acquisition period half interval"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "Half_interval"
+     FILLVAL         (CDF_REAL4/1): -1.0
+     FORMAT          (CDF_CHAR/4): "F4.2"
+     LABLAXIS        (CDF_CHAR/13): "Half-interval"
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     SI_CONVERSION   (CDF_CHAR/4): "1.0s"
+     UNITS           (CDF_CHAR/1): "s"
+     VALIDMAX        (CDF_REAL4/1): 60.0
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SCET (No: 2) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Elapsed time on the onboard clock"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "SCET"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f14.3"
+     LABLAXIS        (CDF_CHAR/4): "SCET"
+     SCALEMAX        (CDF_REAL8/1): 4.29497e+09
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     UNITS           (CDF_CHAR/5): "Ticks"
+     VALIDMAX        (CDF_REAL8/1): 4.29497e+09
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Info (No: 3) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Info 0:Ground 1:Normal 2:Snapshot 3:Burst 4:Engineering 5:Calib"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/4): "Info"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/4): "Info"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMAX        (CDF_UINT1/1): 5
+     VALIDMIN        (CDF_UINT1/1): 0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+unrecovered_count (No: 4) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Total counter of unrecovered bins"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/16): "unrecoverd_count"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/17): "Unrecovered count"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+total_count (No: 5) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Total count"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/11): "total_count"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/11): "Total count"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+quality_factor (No: 6) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "Quality factor"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/14): "quality_factor"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/14): "Quality factor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMAX        (CDF_REAL4/1): 1.0e+30
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+start_energy (No: 7) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Start energy bin"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "start_energy"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/12): "Start energy"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMAX        (CDF_INT2/1): 96
+     VALIDMIN        (CDF_INT2/1): 0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+nb_energy (No: 8) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "Number energy bins"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/9): "nb_energy"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/13): "Number energy"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMAX        (CDF_INT2/1): 96
+     VALIDMIN        (CDF_INT2/1): 0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+eflux (No: 9) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "Energy Flux (Omni-directional)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     FIELDNAM        (CDF_CHAR/5): "eflux"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/3): "E10"
+     LABLAXIS        (CDF_CHAR/5): "eflux"
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/14): "cm-2 s-1 eV/eV"
+     VALIDMAX        (CDF_REAL4/1): 1.0e+12
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIMIN         (CDF_REAL4/1): 0.0
+
+Energy (No: 10) (Recs: 1)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "Center of energy bins"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "delta_p_Energy"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "delta_m_Energy"
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMAX        (CDF_REAL4/1): 40000.0
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+delta_p_Energy (No: 11) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "Delta plus energy bins"
+     FIELDNAM        (CDF_CHAR/14): "delta_p_Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/17): "Delta plus energy"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMAX        (CDF_REAL4/1): 40000.0
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+delta_m_Energy (No: 12) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "Delta minus energy bins"
+     FIELDNAM        (CDF_CHAR/14): "delta_m_Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/18): "Delta minus energy"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMAX        (CDF_REAL4/1): 40000.0
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+

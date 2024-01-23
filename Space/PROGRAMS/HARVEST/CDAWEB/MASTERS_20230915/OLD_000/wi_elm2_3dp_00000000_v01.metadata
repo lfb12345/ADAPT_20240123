@@ -1,0 +1,620 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_elm2_3dp_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_elm2_3dp_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     1
+NumzVars:     34
+NumAttrs:     48 (26 global, 22 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (26 attributes)
+=========================================
+Data_type (1 entry):
+	0 (CDF_CHAR/30): 	"ELM2>EESA Low Electron Moments"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/54): 	"Electron Moments (ground-computed), EESA Low, Wind 3DP"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+TEXT (2 entries):
+	0 (CDF_CHAR/14): 	"Wind 3dp, ELM2"
+	1 (CDF_CHAR/166): 	"Lynn Wilson Note Feb2015 Correct spacecraft potential is important to scientifically useful results .No documentation found on how this potential has been calculated."
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"R. Lin/S. Bale"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/11): 	"UC Berkeley"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/23): 	"3DP>3-D PLASMA ANALYZER"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0143"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+MODS (0 entry):
+Time_resolution (0 entry):
+Link_text (2 entries):
+	0 (CDF_CHAR/1): 	" "
+	1 (CDF_CHAR/9): 	"Wind 3DP "
+Link_title (2 entries):
+	0 (CDF_CHAR/48): 	"Caveats for the correct use of Wind 3DP datasets"
+	1 (CDF_CHAR/49): 	"home page at UCB (with plotting and digital data)"
+HTTP_link (2 entries):
+	0 (CDF_CHAR/64): 	"https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/wind3dp_caveats.pdf"
+	1 (CDF_CHAR/37): 	"http://sprg.ssl.berkeley.edu/wind3dp/"
+Logical_source (1 entry):
+	0 (CDF_CHAR/11): 	"wi_elm2_3dp"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/24): 	"wi_elm2_3dp_00000000_v01"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/51): 	"Wind_3DP_Ion-Omni-Fluxes-Moms-ELM2_24sec_cdf_cdaweb"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/52): 	"spase://NASA/NumericalData/Wind/3DP/EESA_LOW/Moments"
+
+Variable Attributes (22 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_NOTES
+DICT_KEY
+VAR_TYPE
+FORM_PTR
+FORMAT
+UNIT_PTR
+UNITS
+SCAL_PTR
+SCALETYP
+FILLVAL
+LABLAXIS
+VALIDMIN
+VALIDMAX
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_1
+LABL_PTR_1
+VIRTUAL
+FUNCTION
+COMPONENT_0
+
+Variable Information (1 rVariable, 34 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+SC_POT                CDF_FLOAT/1	0:[]	T/  
+SC_CURRENT            CDF_FLOAT/1	0:[]	T/  
+MAGF                  CDF_FLOAT/1	1:[3]	T/T
+DENSITY               CDF_FLOAT/1	0:[]	T/  
+AVGTEMP               CDF_FLOAT/1	0:[]	T/  
+VTHERMAL              CDF_FLOAT/1	0:[]	T/  
+VELOCITY              CDF_FLOAT/1	1:[3]	T/T
+FLUX                  CDF_FLOAT/1	1:[3]	T/T
+PTENS                 CDF_FLOAT/1	1:[6]	T/T
+MFTENS                CDF_FLOAT/1	1:[6]	T/T
+EFLUX                 CDF_FLOAT/1	1:[3]	T/T
+T3                    CDF_FLOAT/1	1:[3]	T/T
+SYMM                  CDF_FLOAT/1	1:[3]	T/T
+SYMM_THETA            CDF_FLOAT/1	0:[]	T/  
+SYMM_PHI              CDF_FLOAT/1	0:[]	T/  
+SYMM_ANG              CDF_FLOAT/1	0:[]	T/  
+MAGT3                 CDF_FLOAT/1	1:[3]	T/T
+ERANGE                CDF_FLOAT/1	1:[2]	T/T
+MASS                  CDF_FLOAT/1	0:[]	T/  
+VALID                 CDF_INT2/1	0:[]	T/  
+VEL_MAG               CDF_FLOAT/1	0:[]	T/  
+VEL_TH                CDF_FLOAT/1	0:[]	T/  
+VEL_PHI               CDF_FLOAT/1	0:[]	T/  
+label_velocity        CDF_CHAR/15	1:[3]	F/T
+label_flux_mom        CDF_CHAR/21	1:[3]	F/T
+label_ptens           CDF_CHAR/17	1:[6]	F/T
+label_mftens          CDF_CHAR/17	1:[6]	F/T
+label_eflux           CDF_CHAR/6	1:[3]	F/T
+label_t3              CDF_CHAR/21	1:[3]	F/T
+label_erange          CDF_CHAR/16	1:[2]	F/T
+label_mag             CDF_CHAR/6	1:[3]	F/T
+label_symm            CDF_CHAR/17	1:[3]	F/T
+MAGT3_LABL_1          CDF_CHAR/20	1:[3]	F/T
+TIME                  CDF_DOUBLE/1	0:[]	T/  
+
+
+Variable (35 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/14): "Time, Centered"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e12.0"
+     UNITS           (CDF_CHAR/2): "ms"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.999
+
+SC_POT (No: 0) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "SC_POT"
+     CATDESC         (CDF_CHAR/71): "[SC_POT] Spacecraft potential estimated from electron ONLY measurements"
+     DICT_KEY        (CDF_CHAR/20): "spacecraft potential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/18): "S/C_Pot_(electron)"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+SC_CURRENT (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "SC_CURRENT"
+     CATDESC         (CDF_CHAR/80): "---> [SC_CURRENT?] Current contribution to the spacecraft from thermal electrons"
+     DICT_KEY        (CDF_CHAR/7): "current"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "g13.2"
+     UNITS           (CDF_CHAR/9): "#/cm2-sec"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/21): "S/C_Currnt_(electron)"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e+07
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+MAGF (No: 2) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/32): "Magnetic Field Vector, cartesian"
+     CATDESC         (CDF_CHAR/127): "---> [MAGF] magnetic field vector interpolated (linearly) to the time of the EESA Low distribution, in GSE cartesian components"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     UNITS           (CDF_CHAR/2): "nT"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_FLOAT/3): 1000.0, 1000.0, 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/9): "label_mag"
+
+DENSITY (No: 3) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Electron number density"
+     CATDESC         (CDF_CHAR/38): "---> [DENSITY] Electron number density"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     UNITS           (CDF_CHAR/5): "#/cm3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/19): "Electron_No_Density"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+AVGTEMP (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Average electron temperature"
+     CATDESC         (CDF_CHAR/43): "---> [AVGTEMP] Average electron temperature"
+     DICT_KEY        (CDF_CHAR/11): "temperature"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Tavg_electrons"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+VTHERMAL (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "electron most probable speed"
+     CATDESC         (CDF_CHAR/44): "---> [VTHERMAL] electron most probable speed"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/29): "Most Probable Speed electrons"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+VELOCITY (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "electron Bulk Flow Velocity, cartesian"
+     CATDESC         (CDF_CHAR/53): "---> [VELOCITY] electron Flow Velocity, GSE cartesian"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_FLOAT/3): 1000.0, 1000.0, 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/14): "label_velocity"
+
+FLUX (No: 7) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "electron total number flux"
+     CATDESC         (CDF_CHAR/54): "---> [FLUX] electron total number flux - cartesian GSE"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "g13.2"
+     UNITS           (CDF_CHAR/9): "#/cm2-sec"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): -1.0e+11, -1.0e+11, -1.0e+11
+     VALIDMAX        (CDF_FLOAT/3): 1.0e+11, 1.0e+11, 1.0e+11
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/14): "label_flux_mom"
+
+PTENS (No: 8) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "electron Pressure Tensor"
+     CATDESC         (CDF_CHAR/148): "[PTENS] electron Pressure Tensor calculated in the GSE coordinate basis.  The elements correspond to, in the following order: XX, YY, ZZ, XY, XZ, YZ"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/7): "eV/cm^3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/1): -1000.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/11): "label_ptens"
+
+MFTENS (No: 9) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "electron Momentum Flux Tensor"
+     CATDESC         (CDF_CHAR/159): "---> [MFTENS] electron Momentum Flux Tensor calculated in the GSE coordinate basis.  The elements correspond to, in the following order: XX, YY, ZZ, XY, XZ, YZ"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     UNITS           (CDF_CHAR/7): "eV/cm^3"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+06
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/12): "label_mftens"
+
+EFLUX (No: 10) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "eflux"
+     CATDESC         (CDF_CHAR/18): "---> [EFLUX] eflux"
+     DICT_KEY        (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "e14.5"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/1): -2.0049e+10
+     VALIDMAX        (CDF_FLOAT/1): 8.97991e+09
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/11): "label_eflux"
+
+T3 (No: 11) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "electron Temp Tensor diagonals"
+     CATDESC         (CDF_CHAR/156): "---> [T3] electron Temperature eigenvalues after diagonalization of tensor, calculated in the GSE coordinate basis.  The elements correspond to:  XX, YY, ZZ"
+     DICT_KEY        (CDF_CHAR/11): "temperature"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_FLOAT/3): 1000.0, 1000.0, 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/8): "label_t3"
+
+SYMM (No: 12) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/44): "Symmetry direction, electron pressure tensor"
+     CATDESC         (CDF_CHAR/175): "[SYMM] ZZ-component of the eigenvectors associated with the eigen values from the diagonalized .T3 (i.e., the eigenvector associated with the Z eigen value from .T3 or .T3[2])"
+     DICT_KEY        (CDF_CHAR/8): "pressure"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): -10.0, -10.0, -10.0
+     VALIDMAX        (CDF_FLOAT/3): 10.0, 10.0, 10.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/10): "label_symm"
+
+SYMM_THETA (No: 13) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "electron symmetry direction, latitude"
+     CATDESC         (CDF_CHAR/56): "---> [SYMM_THETA] Spherical coordinate latitude of .SYMM"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "electron_Sym_Lat"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+SYMM_PHI (No: 14) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "electron symmetry direction, longitude"
+     CATDESC         (CDF_CHAR/55): "---> [SYMM_PHI] Spherical coordinate longitude of .SYMM"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "Electron_Sym_Long"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+SYMM_ANG (No: 15) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/41): "Angle of electron symmetry direction to B"
+     CATDESC         (CDF_CHAR/176): "---> [SYMM_ANG] angle between the ZZ-component of the eigenvectors associated with the eigen values from the diagonalized .T3 and the magnetic field vector (i.e., .MAGF vector)"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/21): "Ang_electron_SymDir-B"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+MAGT3 (No: 16) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "MAGT3"
+     CATDESC         (CDF_CHAR/132): "---> [MAGT3] electron temperature tensor... rotated into a field-aligned coordinate basis and then taking the diagonal elements only"
+     VAR_NOTES       (CDF_CHAR/202): "The elements then correspond to:  Perp_1, Perp_2, Parallel (with respect to .MAGF). Let V = .VELOCITY, B = .MAGF, then: Perp_1 = (B x V) x B, Perp_2 = (B x V) and Then T_perp = (MAGT3[0] + MAGT3[1])/2. "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_FLOAT/3): 1000.0, 1000.0, 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/12): "MAGT3_LABL_1"
+
+ERANGE (No: 17) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "electron energy  range"
+     CATDESC         (CDF_CHAR/60): "[P.ERANGE] electron energy range used to compute the moments"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/2): 0.0, 0.0
+     VALIDMAX        (CDF_FLOAT/2): 10000.0, 10000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/12): "label_erange"
+
+MASS (No: 18) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "electron mass of species"
+     CATDESC         (CDF_CHAR/36): "---> [MASS] electron mass of species"
+     VAR_NOTES       (CDF_CHAR/149): "Units are eV/c^2, where c = speed of light in units of km/s.  This results is a value of ~5.68566 x 10^(-6) for electrons and ~0.0104389 for protons."
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     UNITS           (CDF_CHAR/6): "eV/c^2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/13): "electron_mass"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+VALID (No: 19) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "electron validity flag; 1=OK"
+     CATDESC         (CDF_CHAR/41): "---> [VALID] electron Validity flag; 1=OK"
+     DICT_KEY        (CDF_CHAR/4): "flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i3"
+     UNITS           (CDF_CHAR/6): "(1=OK)"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/14): "electron_Valid"
+     VALIDMIN        (CDF_INT2/1): -1
+     VALIDMAX        (CDF_INT2/1): 2
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+VEL_MAG (No: 20) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "electron bulk flow velocity; magnitude"
+     CATDESC         (CDF_CHAR/34): "[VEL_MAG] electron bulk flow speed"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/4): "km/s"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "electron_FlowVel"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+VEL_TH (No: 21) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "electron bulk flow velocity; latitude"
+     CATDESC         (CDF_CHAR/57): "---> [VEL_TH] electron bulk flow velocity; latitude/theta"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/20): "electron_FlowVel_Lat"
+     VALIDMIN        (CDF_FLOAT/1): -100.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+VEL_PHI (No: 22) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "electron bulk flow velocity; longitude"
+     CATDESC         (CDF_CHAR/56): "---> [VELPHI] electron bulk flow velocity; longitude/phi"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/21): "electron_FlowVel_Long"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 360.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+label_velocity (No: 23) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "label for electron velocity"
+     CATDESC         (CDF_CHAR/27): "label for electron velocity"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a15"
+
+label_flux_mom (No: 24) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "label for total number flux"
+     CATDESC         (CDF_CHAR/27): "label for total number flux"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a21"
+
+label_ptens (No: 25) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "label for ptens"
+     CATDESC         (CDF_CHAR/15): "label for ptens"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a17"
+
+label_mftens (No: 26) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "label for mftens"
+     CATDESC         (CDF_CHAR/16): "label for mftens"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a17"
+
+label_eflux (No: 27) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "label for eflux"
+     CATDESC         (CDF_CHAR/15): "label for eflux"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a6"
+
+label_t3 (No: 28) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "label for electron T3"
+     CATDESC         (CDF_CHAR/21): "label for electron T3"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a21"
+
+label_erange (No: 29) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "label for erange"
+     CATDESC         (CDF_CHAR/16): "label for erange"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a16"
+
+label_mag (No: 30) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "label for mag"
+     CATDESC         (CDF_CHAR/13): "label for mag"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a16"
+
+label_symm (No: 31) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "label for symm"
+     CATDESC         (CDF_CHAR/14): "label for symm"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a17"
+
+MAGT3_LABL_1 (No: 32) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "MAGT3_LABL_1"
+     CATDESC         (CDF_CHAR/12): "MAGT3_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a20"
+
+TIME (No: 33) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "UNIX  time"
+     CATDESC         (CDF_CHAR/40): "UNIX time; seconds since January 1, 1970"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "g12.0"
+     UNITS           (CDF_CHAR/16): "sec since 1-1-70"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_DOUBLE/1): 1.0
+     VALIDMAX        (CDF_DOUBLE/1): 2.0e+13
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+

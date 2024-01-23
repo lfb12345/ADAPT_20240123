@@ -1,0 +1,1665 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/thc_l1_state_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     thc_l1_state_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     94
+NumAttrs:     61 (26 global, 35 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/6): 	"THEMIS"
+Source_name (1 entry):
+	0 (CDF_CHAR/18): 	"THC>THEMIS Probe C"
+Discipline (2 entries):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+	1 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"STATE>State file"
+Descriptor (1 entry):
+	0 (CDF_CHAR/10): 	"L1>L1 DATA"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/15): 	"V. Angelopoulos"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/20): 	"UCB, NASA NAS5-02099"
+TEXT (1 entry):
+	0 (CDF_CHAR/375): 	"Produced by Mission Ops, Science Ops and Science Team..V00: Predictive on all, pre-pass.V01: Intermediate: added definitive spinper, spinphase others predictive, expected shortly after pass.V02: Preliminary: added definitive position, expected shortly after OD update (1 day after pass).V03: Definitive: added science attitude determination using perigee data post-processing"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+	1 (CDF_CHAR/11): 	"Engineering"
+Mission_group (2 entries):
+	0 (CDF_CHAR/6): 	"THEMIS"
+	1 (CDF_CHAR/7): 	"ARTEMIS"
+Logical_source (1 entry):
+	0 (CDF_CHAR/12): 	"thc_l1_state"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/25): 	"thc_l1_state_00000000_v00"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/61): 	"Probe state file, contains position, attitude, sun pulse data"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/29): 	"1min, typical (3s occasional)"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/28): 	"Open Data for Scientific Use"
+Generated_by (1 entry):
+	0 (CDF_CHAR/10): 	"THEMIS SOC"
+Generation_date (1 entry):
+	0 (CDF_CHAR/10): 	"2008-04-09"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/24): 	"NASA Contract NAS5-02099"
+MODS (1 entry):
+	0 (CDF_CHAR/15): 	"Rev- 2008-04-09"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/themis"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/23): 	"THEMIS probe state file"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/themis"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_descriptor_datatype"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/51): 	"spase://NASA/NumericalData/THEMIS/C/Ephemeris/PT01M"
+
+Variable Attributes (35 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+COORDINATE_SYSTEM
+REPRESENTATION_1
+TENSOR_ORDER
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+COMPONENT_2
+DEPEND_TIME
+DEPEND_EPOCH0
+MONOTON
+ALLOW_BIN
+
+Variable Information (0 rVariable, 94 zVariables)
+===========================================================
+thc_pos               CDF_REAL4/1	1:[3]	T/T
+thc_posV              CDF_REAL4/1	1:[3]	T/T
+thc_pos_labl          CDF_CHAR/6	1:[3]	F/T
+thc_pos_unit          CDF_CHAR/2	1:[3]	F/T
+thc_pos_compno        CDF_INT4/1	1:[3]	F/T
+thc_vel               CDF_REAL4/1	1:[3]	T/T
+thc_vel_labl          CDF_CHAR/6	1:[3]	F/T
+thc_vel_unit          CDF_CHAR/4	1:[3]	F/T
+thc_vel_compno        CDF_INT4/1	1:[3]	F/T
+thc_man               CDF_UINT4/1	0:[]	T/  
+thc_roi               CDF_UINT4/1	0:[]	T/  
+thc_spinras           CDF_REAL4/1	0:[]	T/  
+thc_spindec           CDF_REAL4/1	0:[]	T/  
+thc_spinalpha         CDF_REAL4/1	0:[]	T/  
+thc_spinbeta          CDF_REAL4/1	0:[]	T/  
+thc_spinper           CDF_REAL4/1	0:[]	T/  
+thc_spinphase         CDF_REAL4/1	0:[]	T/  
+range_epoch           CDF_EPOCH/1	0:[]	T/  
+thc_spin_correction_time CDF_REAL8/1	0:[]	T/  
+thc_state_time        CDF_REAL8/1	0:[]	T/  
+thc_state_epoch       CDF_EPOCH/1	0:[]	T/  
+thc_spin_correction_epoch CDF_EPOCH/1	0:[]	T/  
+thc_state_epoch0      CDF_EPOCH/1	0:[]	F/  
+Rep_xyz_gei           CDF_CHAR/1	1:[3]	F/T
+thc_spin_spinper      CDF_REAL8/1	0:[]	T/  
+thc_spin_time         CDF_REAL8/1	0:[]	T/  
+thc_spin_tend         CDF_REAL8/1	0:[]	T/  
+thc_spin_epoch        CDF_EPOCH/1	0:[]	T/  
+thc_spin_fgm_corr_epoch CDF_EPOCH/1	0:[]	T/  
+thc_spin_ecl_fgm_corr_epoch CDF_EPOCH/1	0:[]	T/  
+thc_spin_epoch0       CDF_EPOCH/1	0:[]	F/  
+thc_spin_c            CDF_REAL8/1	0:[]	T/  
+thc_spin_correction   CDF_REAL4/1	0:[]	T/  
+thc_spinras_correction CDF_REAL4/1	0:[]	T/  
+thc_spindec_correction CDF_REAL4/1	0:[]	T/  
+thc_spin_phaserr      CDF_REAL4/1	0:[]	T/  
+thc_spin_nspins       CDF_UINT2/1	0:[]	T/  
+thc_spin_npts         CDF_UINT2/1	0:[]	T/  
+thc_spin_maxgap       CDF_REAL4/1	0:[]	T/  
+thc_spin_initial_delta_phi CDF_REAL8/1	0:[]	T/  
+thc_spin_idpu_spinper CDF_REAL8/1	0:[]	T/  
+thc_spin_segflags     CDF_UINT4/1	0:[]	T/  
+thc_spin_fgm_corr_time CDF_REAL8/1	0:[]	T/  
+thc_spin_fgm_corr_tend CDF_REAL8/1	0:[]	T/  
+thc_spin_fgm_corr_offset CDF_REAL8/1	0:[]	T/  
+thc_spin_ecl_spinper  CDF_REAL8/1	0:[]	T/  
+thc_spin_ecl_time     CDF_REAL8/1	0:[]	T/  
+thc_spin_ecl_tend     CDF_REAL8/1	0:[]	T/  
+thc_spin_ecl_epoch    CDF_EPOCH/1	0:[]	T/  
+thc_spin_ecl_c        CDF_REAL8/1	0:[]	T/  
+thc_spin_ecl_phaserr  CDF_REAL4/1	0:[]	T/  
+thc_spin_ecl_nspins   CDF_UINT2/1	0:[]	T/  
+thc_spin_ecl_npts     CDF_UINT2/1	0:[]	T/  
+thc_spin_ecl_maxgap   CDF_REAL4/1	0:[]	T/  
+thc_spin_ecl_initial_delta_phi CDF_REAL8/1	0:[]	T/  
+thc_spin_ecl_idpu_spinper CDF_REAL8/1	0:[]	T/  
+thc_spin_ecl_segflags CDF_UINT4/1	0:[]	T/  
+thc_spin_ecl_fgm_corr_time CDF_REAL8/1	0:[]	T/  
+thc_spin_ecl_fgm_corr_tend CDF_REAL8/1	0:[]	T/  
+thc_spin_ecl_fgm_corr_offset CDF_REAL8/1	0:[]	T/  
+thc_pos_gse           CDF_REAL4/1	1:[3]	T/T
+thc_pos_gseV          CDF_REAL4/1	1:[3]	T/T
+thc_pos_gse_labl      CDF_CHAR/6	1:[3]	F/T
+thc_pos_gse_unit      CDF_CHAR/2	1:[3]	F/T
+thc_pos_gse_compno    CDF_INT4/1	1:[3]	F/T
+thc_pos_gsm           CDF_REAL4/1	1:[3]	T/T
+thc_pos_gsmV          CDF_REAL4/1	1:[3]	T/T
+thc_pos_gsm_labl      CDF_CHAR/6	1:[3]	F/T
+thc_pos_gsm_unit      CDF_CHAR/2	1:[3]	F/T
+thc_pos_gsm_compno    CDF_INT4/1	1:[3]	F/T
+thc_vel_gse           CDF_REAL4/1	1:[3]	T/T
+thc_vel_gse_labl      CDF_CHAR/6	1:[3]	F/T
+thc_vel_gse_unit      CDF_CHAR/4	1:[3]	F/T
+thc_vel_gse_compno    CDF_INT4/1	1:[3]	F/T
+thc_vel_gsm           CDF_REAL4/1	1:[3]	T/T
+thc_vel_gsm_labl      CDF_CHAR/6	1:[3]	F/T
+thc_vel_gsm_unit      CDF_CHAR/4	1:[3]	F/T
+thc_vel_gsm_compno    CDF_INT4/1	1:[3]	F/T
+thc_pos_sel           CDF_REAL4/1	1:[3]	T/T
+thc_pos_sel_labl      CDF_CHAR/6	1:[3]	F/T
+thc_pos_sel_unit      CDF_CHAR/2	1:[3]	F/T
+thc_pos_sel_compno    CDF_INT4/1	1:[3]	F/T
+thc_pos_sse           CDF_REAL4/1	1:[3]	T/T
+thc_pos_sse_labl      CDF_CHAR/6	1:[3]	F/T
+thc_pos_sse_unit      CDF_CHAR/2	1:[3]	F/T
+thc_pos_sse_compno    CDF_INT4/1	1:[3]	F/T
+thc_vel_sel           CDF_REAL4/1	1:[3]	T/T
+thc_vel_sel_labl      CDF_CHAR/6	1:[3]	F/T
+thc_vel_sel_unit      CDF_CHAR/4	1:[3]	F/T
+thc_vel_sel_compno    CDF_INT4/1	1:[3]	F/T
+thc_vel_sse           CDF_REAL4/1	1:[3]	T/T
+thc_vel_sse_labl      CDF_CHAR/6	1:[3]	F/T
+thc_vel_sse_unit      CDF_CHAR/4	1:[3]	F/T
+thc_vel_sse_compno    CDF_INT4/1	1:[3]	F/T
+
+
+Variable (94 variables)
+=========================================
+
+thc_pos (No: 0) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "thc_position XYZ in GEI (timeseries plot)"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/14): "thc_pos_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "thc_pos"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/12): "thc_pos_labl"
+     UNIT_PTR        (CDF_CHAR/12): "thc_pos_unit"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+06, -1.0e+06, -1.0e+06
+     VALIDMAX        (CDF_REAL4/3): 1.0e+06, 1.0e+06, 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GEI"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gei"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_posV (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "thc_position XYZ in GEI (orbit plot)"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/14): "thc_pos_compno"
+     DISPLAY_TYPE    (CDF_CHAR/15): "orbit>coord=tod"
+     FIELDNAM        (CDF_CHAR/7): "thc_pos"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/12): "thc_pos_labl"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+06, -1.0e+06, -1.0e+06
+     VALIDMAX        (CDF_REAL4/3): 1.0e+06, 1.0e+06, 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GEI"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gei"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/7): "thc_pos"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+thc_pos_labl (No: 2) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "thc_pos_labl"
+     FIELDNAM        (CDF_CHAR/12): "thc_pos_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_unit (No: 3) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "thc_pos_unit"
+     FIELDNAM        (CDF_CHAR/12): "thc_pos_unit"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_compno (No: 4) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "i2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thc_vel (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "thc_velocity"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/14): "thc_vel_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "thc_vel"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/12): "thc_vel_labl"
+     UNIT_PTR        (CDF_CHAR/12): "thc_vel_unit"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GEI"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gei"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_vel_labl (No: 6) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "thc_vel_labl"
+     FIELDNAM        (CDF_CHAR/12): "thc_vel_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_unit (No: 7) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "thc_vel_unit"
+     FIELDNAM        (CDF_CHAR/12): "thc_vel_unit"
+     FORMAT          (CDF_CHAR/2): "A4"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_compno (No: 8) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "i2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thc_man (No: 9) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "thc_man"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/7): "thc_man"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/7): "ManCode"
+     UNITS           (CDF_CHAR/3): "num"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/20): "maneuver status code"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_roi (No: 10) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "thc_roi"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/7): "thc_roi"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I8"
+     LABLAXIS        (CDF_CHAR/3): "ROI"
+     UNITS           (CDF_CHAR/3): "num"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/18): "Region of Interest"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_spinras (No: 11) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "thc_spin right ascension, GEI coordinates"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/11): "thc_spinras"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/7): "spinras"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_spindec (No: 12) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "thc_spin declination, GEI coordinates"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/11): "thc_spindec"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/7): "spindec"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_spinalpha (No: 13) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/60): "thc_spin axis azimuth, alpha, in Probe Geometric coordinates"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/13): "thc_spinalpha"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/10): "spin_alpha"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_spinbeta (No: 14) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "thc_spin colatitude, beta, in Probe Geometric coordinates"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/12): "thc_spinbeta"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/8): "spin_eta"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_spinper (No: 15) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "thc_spinperiod, regularized and boxcar avged"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/11): "thc_spinper"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/7): "spinper"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_spinphase (No: 16) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/113): "thc_spinphase, regularized and boxcar avged angle the probe rotated since the sun sensor registered the sun pulse"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/13): "thc_spinphase"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/9): "spinphase"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+range_epoch (No: 17) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "range_epoch"
+     FIELDNAM        (CDF_CHAR/11): "range_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/4): "msec"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+thc_spin_correction_time (No: 18) (Recs: 0)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "thc_spin_correction_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/25): "thc_spin_correction_epoch"
+     FIELDNAM        (CDF_CHAR/24): "thc_spin_correction_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+thc_state_time (No: 19) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "thc_state_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/14): "thc_state_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+thc_state_epoch (No: 20) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "thc_state_epoch"
+     FIELDNAM        (CDF_CHAR/15): "thc_state_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/16): "thc_state_epoch0"
+     COMPONENT_1     (CDF_CHAR/14): "thc_state_time"
+
+thc_spin_correction_epoch (No: 21) (Recs: 0)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "thc_spin_correction_epoch"
+     FIELDNAM        (CDF_CHAR/25): "thc_spin_correction_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/16): "thc_state_epoch0"
+     COMPONENT_1     (CDF_CHAR/24): "thc_spin_correction_time"
+
+thc_state_epoch0 (No: 22) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "EPOCH0 of THEMIS TIME BASE"
+     FIELDNAM        (CDF_CHAR/16): "thc_state_epoch0"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     UNITS           (CDF_CHAR/4): "msec"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1900 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/29): "EPOCH of 01-Jan-1970 00:00:00"
+
+Rep_xyz_gei (No: 23) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/7): "XYZ GEI"
+     DICT_KEY        (CDF_CHAR/20): "label>representation"
+     FIELDNAM        (CDF_CHAR/7): "XYZ GEI"
+     FORMAT          (CDF_CHAR/2): "a1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_spin_spinper (No: 24) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "thc_spin_spinper, initial spin period for segment"
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "thc_spin_spinper"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/6): "F12.12"
+     LABLAXIS        (CDF_CHAR/7): "spinper"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 30.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_time (No: 25) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "thc_spin_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     FIELDNAM        (CDF_CHAR/13): "thc_spin_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+thc_spin_tend (No: 26) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/57): "thc_spin_tend, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "thc_spin_tend"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/34): "Segment end time, Unleaped seconds"
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_epoch (No: 27) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "thc_spin_epoch"
+     FIELDNAM        (CDF_CHAR/14): "thc_spin_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/15): "thc_spin_epoch0"
+     COMPONENT_1     (CDF_CHAR/13): "thc_spin_time"
+
+thc_spin_fgm_corr_epoch (No: 28) (Recs: 0)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "thc_spin_fgm_corr_epoch"
+     FIELDNAM        (CDF_CHAR/23): "thc_spin_fgm_corr_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/15): "thc_spin_epoch0"
+     COMPONENT_1     (CDF_CHAR/22): "thc_spin_fgm_corr_time"
+
+thc_spin_ecl_fgm_corr_epoch (No: 29) (Recs: 0)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "thc_spin_ecl_fgm_corr_epoch"
+     FIELDNAM        (CDF_CHAR/27): "thc_spin_ecl_fgm_corr_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/15): "thc_spin_epoch0"
+     COMPONENT_1     (CDF_CHAR/26): "thc_spin_ecl_fgm_corr_time"
+
+thc_spin_epoch0 (No: 30) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "EPOCH0 of THEMIS TIME BASE"
+     FIELDNAM        (CDF_CHAR/15): "thc_spin_epoch0"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     UNITS           (CDF_CHAR/4): "msec"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1900 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/29): "EPOCH of 01-Jan-1970 00:00:00"
+
+thc_spin_c (No: 31) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Drift term for spin rate"
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "thc_spin_c"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.8"
+     LABLAXIS        (CDF_CHAR/1): "c"
+     UNITS           (CDF_CHAR/9): "deg/sec^2"
+     VALIDMIN        (CDF_REAL8/1): -30.0
+     VALIDMAX        (CDF_REAL8/1): 30.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/61): "Applies to angular velocity (deg/sec), not.spin period (sec)."
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_correction (No: 32) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Spin phase correction from definitive position and field model"
+     DEPEND_0        (CDF_CHAR/25): "thc_spin_correction_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "thc_spin_correction"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.8"
+     LABLAXIS        (CDF_CHAR/10): "correction"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/42): "Calculated at possibly irregular intervals"
+     DEPEND_TIME     (CDF_CHAR/24): "thc_spin_correction_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_spinras_correction (No: 33) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/77): "Spin axis right ascension correction from definitive position and field model"
+     DEPEND_0        (CDF_CHAR/25): "thc_spin_correction_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "thc_spinras_correction"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.8"
+     LABLAXIS        (CDF_CHAR/10): "correction"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/42): "Calculated at possibly irregular intervals"
+     DEPEND_TIME     (CDF_CHAR/24): "thc_spin_correction_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_spindec_correction (No: 34) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "Spin axis declinatio correction from definitive position and field model"
+     DEPEND_0        (CDF_CHAR/25): "thc_spin_correction_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "thc_spindec_correction"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "E12.8"
+     LABLAXIS        (CDF_CHAR/10): "correction"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/42): "Calculated at possibly irregular intervals"
+     DEPEND_TIME     (CDF_CHAR/24): "thc_spin_correction_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_spin_phaserr (No: 35) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/77): "Maximum absolute phase error between model and non-outlier sun crossing time."
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     FIELDNAM        (CDF_CHAR/16): "thc_spin_phaserr"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/11): "phase error"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/78): "Errors due to recognized BAU timing errors do not contribute to this quantity."
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_nspins (No: 36) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "thc_spin_nspins"
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "thc_spin_nspins"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/5): "spins"
+     UNITS           (CDF_CHAR/5): "spins"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65535
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/41): "Number of spins contained in this segment"
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_npts (No: 37) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "thc_spin_npts"
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "thc_spin_npts"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/4): "npts"
+     UNITS           (CDF_CHAR/6): "points"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65535
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/43): "Number of samples contained in this segment"
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_maxgap (No: 38) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "Duration, in seconds, of longest gap between sun.pulses in this segment."
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "thc_spin_maxgap"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/6): "maxgap"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 86400.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/66): "Long gaps (60 sec or more) will generally indicate shadow periods."
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_initial_delta_phi (No: 39) (Recs: 0)
+--------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/94): "[Not populated yet] Initial angle offset between IDPU model and eclipse model in this segment."
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "thc_spin_initial_delta_phi"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/17): "initial_delta_phi"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/35): "Only valid during eclipse segments."
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_idpu_spinper (No: 40) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "[Not populated yet] IDPU spin period"
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "thc_spin_idpu_spinper"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABLAXIS        (CDF_CHAR/12): "idpu spinper"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 86400.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/34): "Only used during eclipse segments."
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_segflags (No: 41) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "[Not populated yet] Marker for eclipse segments."
+     DEPEND_0        (CDF_CHAR/14): "thc_spin_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "thc_spin_maxgap"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/5): "flags"
+     UNITS           (CDF_CHAR/4): "none"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 3
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/56): "Bit 0 (LSbit) = 1 for eclipse, bit 1 = used FGM sunpulse"
+     DEPEND_TIME     (CDF_CHAR/13): "thc_spin_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_fgm_corr_time (No: 42) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "thc_spin_fgm_corr_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/23): "thc_spin_fgm_corr_epoch"
+     FIELDNAM        (CDF_CHAR/22): "thc_spin_fgm_corr_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+thc_spin_fgm_corr_tend (No: 43) (Recs: 0)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "thc_spin_fgm_corr_tend, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/23): "thc_spin_fgm_corr_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/22): "thc_spin_fgm_corr_tend"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/34): "Eclipse end time, Unleaped seconds"
+     DEPEND_TIME     (CDF_CHAR/22): "thc_spin_fgm_corr_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_fgm_corr_offset (No: 44) (Recs: 0)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "thc_spin_fgm_corr_offset"
+     DEPEND_0        (CDF_CHAR/23): "thc_spin_fgm_corr_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "thc_spin_fgm_corr_offset"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/14): "FGL-FIT offset"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): -360.0
+     VALIDMAX        (CDF_REAL8/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/22): "FGL-FIT offset,degrees"
+     DEPEND_TIME     (CDF_CHAR/22): "thc_spin_fgm_corr_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_spinper (No: 45) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "thc_spin_ecl_spinper, initial spin period for segment (eclipse spin model)"
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/20): "thc_spin_ecl_spinper"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/6): "F20.12"
+     LABLAXIS        (CDF_CHAR/7): "spinper"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 30.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_time (No: 46) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "thc_spin_ecl_time, UTC, in seconds since 01-Jan-1970 00:00:00 (eclipse spin model)"
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     FIELDNAM        (CDF_CHAR/17): "thc_spin_ecl_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+thc_spin_ecl_tend (No: 47) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "thc_spin_ecl_tend, UTC, in seconds since 01-Jan-1970 00:00:00 (eclipse spin model)"
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "thc_spin_ecl_tend"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/34): "Segment end time, Unleaped seconds"
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_epoch (No: 48) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "thc_spin_ecl_epoch (eclipse spin model)"
+     FIELDNAM        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-2001 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2100 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/15): "thc_spin_epoch0"
+     COMPONENT_1     (CDF_CHAR/17): "thc_spin_ecl_time"
+
+thc_spin_ecl_c (No: 49) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "Drift term for spin rate (eclipse spin model)"
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "thc_spin_ecl_c"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/1): "c"
+     UNITS           (CDF_CHAR/9): "deg/sec^2"
+     VALIDMIN        (CDF_REAL8/1): -30.0
+     VALIDMAX        (CDF_REAL8/1): 30.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/61): "Applies to angular velocity (deg/sec), not.spin period (sec)."
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_phaserr (No: 50) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/98): "Maximum absolute phase error between model and non-outlier sun crossing time (eclipse spin model)."
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     FIELDNAM        (CDF_CHAR/20): "thc_spin_ecl_phaserr"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/11): "phase error"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/78): "Errors due to recognized BAU timing errors do not contribute to this quantity."
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_nspins (No: 51) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "thc_spin_ecl_nspins (eclipse spin model)"
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "thc_spin_ecl_nspins"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/5): "spins"
+     UNITS           (CDF_CHAR/5): "spins"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65535
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/41): "Number of spins contained in this segment"
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_npts (No: 52) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "thc_spin_ecl_npts (eclipse spin model)"
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/17): "thc_spin_ecl_npts"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/4): "npts"
+     UNITS           (CDF_CHAR/6): "points"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65535
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/43): "Number of samples contained in this segment"
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_maxgap (No: 53) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/93): "Duration, in seconds, of longest gap between sun.pulses in this segment (eclipse spin model)."
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/19): "thc_spin_ecl_maxgap"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/6): "maxgap"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 86400.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/66): "Long gaps (60 sec or more) will generally indicate shadow periods."
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_initial_delta_phi (No: 54) (Recs: 0)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/95): "Initial angle offset between IDPU model and eclipse model in this segment (eclipse spin model)."
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/30): "thc_spin_ecl_initial_delta_phi"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/21): "initial_ecl_delta_phi"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/35): "Only valid during eclipse segments."
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_idpu_spinper (No: 55) (Recs: 0)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "IDPU spin period (eclipse spin model)"
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/25): "thc_spin_ecl_idpu_spinper"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/12): "idpu spinper"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 86400.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/34): "Only used during eclipse segments."
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_segflags (No: 56) (Recs: 0)
+---------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Marker for eclipse segments (eclipse spin model)."
+     DEPEND_0        (CDF_CHAR/18): "thc_spin_ecl_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "thc_spin_ecl_segflags"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/5): "flags"
+     UNITS           (CDF_CHAR/4): "none"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 3
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/56): "Bit 0 (LSbit) = 1 for eclipse, bit 1 = used FGM sunpulse"
+     DEPEND_TIME     (CDF_CHAR/17): "thc_spin_ecl_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_fgm_corr_time (No: 57) (Recs: 0)
+--------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/70): "thc_spin_ecl_fgm_corr_time, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/27): "thc_spin_ecl_fgm_corr_epoch"
+     FIELDNAM        (CDF_CHAR/26): "thc_spin_ecl_fgm_corr_time"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/16): "Unleaped seconds"
+
+thc_spin_ecl_fgm_corr_tend (No: 58) (Recs: 0)
+--------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/70): "thc_spin_ecl_fgm_corr_tend, UTC, in seconds since 01-Jan-1970 00:00:00"
+     DEPEND_0        (CDF_CHAR/27): "thc_spin_ecl_fgm_corr_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "thc_spin_ecl_fgm_corr_tend"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 5.0e+09
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/34): "Eclipse end time, Unleaped seconds"
+     DEPEND_TIME     (CDF_CHAR/26): "thc_spin_ecl_fgm_corr_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_spin_ecl_fgm_corr_offset (No: 59) (Recs: 0)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "thc_spin_ecl_fgm_corr_offset"
+     DEPEND_0        (CDF_CHAR/27): "thc_spin_ecl_fgm_corr_epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/28): "thc_spin_ecl_fgm_corr_offset"
+     FILLVAL         (CDF_REAL8/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABLAXIS        (CDF_CHAR/14): "FGL-FIT offset"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): -360.0
+     VALIDMAX        (CDF_REAL8/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/22): "FGL-FIT offset,degrees"
+     DEPEND_TIME     (CDF_CHAR/26): "thc_spin_ecl_fgm_corr_time"
+     DEPEND_EPOCH0   (CDF_CHAR/15): "thc_spin_epoch0"
+
+thc_pos_gse (No: 60) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "thc_position XYZ in GSE (timeseries plot)"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_pos_gse_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "thc_pos_gse"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_pos_gse_labl"
+     UNIT_PTR        (CDF_CHAR/16): "thc_pos_gse_unit"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+06, -1.0e+06, -1.0e+06
+     VALIDMAX        (CDF_REAL4/3): 1.0e+06, 1.0e+06, 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSE"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gse"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_pos_gseV (No: 61) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "thc_position XYZ in GSE (orbit plot)"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_pos_gse_compno"
+     DISPLAY_TYPE    (CDF_CHAR/15): "orbit>coord=gse"
+     FIELDNAM        (CDF_CHAR/11): "thc_pos_gse"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_pos_gse_labl"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+06, -1.0e+06, -1.0e+06
+     VALIDMAX        (CDF_REAL4/3): 1.0e+06, 1.0e+06, 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSE"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gse"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/11): "thc_pos_gse"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+thc_pos_gse_labl (No: 62) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_pos_gse_labl"
+     FIELDNAM        (CDF_CHAR/16): "thc_pos_gse_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_gse_unit (No: 63) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_pos_gse_unit"
+     FIELDNAM        (CDF_CHAR/16): "thc_pos_gse_unit"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_gse_compno (No: 64) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thc_pos_gsm (No: 65) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "thc_position XYZ in GSM (timeseries plot)"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_pos_gsm_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "thc_pos_gsm"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_pos_gsm_labl"
+     UNIT_PTR        (CDF_CHAR/16): "thc_pos_gsm_unit"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+06, -1.0e+06, -1.0e+06
+     VALIDMAX        (CDF_REAL4/3): 1.0e+06, 1.0e+06, 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSM"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gsm"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_pos_gsmV (No: 66) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "thc_position XYZ in GSM (orbit plot)"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_pos_gsm_compno"
+     DISPLAY_TYPE    (CDF_CHAR/15): "orbit>coord=gsm"
+     FIELDNAM        (CDF_CHAR/11): "thc_pos_gsm"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_pos_gsm_labl"
+     UNITS           (CDF_CHAR/2): "km"
+     VALIDMIN        (CDF_REAL4/3): -1.0e+06, -1.0e+06, -1.0e+06
+     VALIDMAX        (CDF_REAL4/3): 1.0e+06, 1.0e+06, 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSM"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gsm"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/11): "thc_pos_gsm"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+thc_pos_gsm_labl (No: 67) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_pos_gsm_labl"
+     FIELDNAM        (CDF_CHAR/16): "thc_pos_gsm_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_gsm_unit (No: 68) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_pos_gsm_unit"
+     FIELDNAM        (CDF_CHAR/16): "thc_pos_gsm_unit"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_gsm_compno (No: 69) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thc_vel_gse (No: 70) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_velocity_gse"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_vel_gse_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "thc_vel_gse"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_vel_gse_labl"
+     UNIT_PTR        (CDF_CHAR/16): "thc_vel_gse_unit"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSE"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gse"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_vel_gse_labl (No: 71) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_vel_gse_labl"
+     FIELDNAM        (CDF_CHAR/16): "thc_vel_gse_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_gse_unit (No: 72) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_vel_gse_unit"
+     FIELDNAM        (CDF_CHAR/16): "thc_vel_gse_unit"
+     FORMAT          (CDF_CHAR/2): "A4"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_gse_compno (No: 73) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thc_vel_gsm (No: 74) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_velocity_gsm"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_vel_gsm_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "thc_vel_gsm"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.8"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_vel_gsm_labl"
+     UNIT_PTR        (CDF_CHAR/16): "thc_vel_gsm_unit"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSM"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_gsm"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_vel_gsm_labl (No: 75) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_vel_gsm_labl"
+     FIELDNAM        (CDF_CHAR/16): "thc_vel_gsm_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_gsm_unit (No: 76) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_vel_gsm_unit"
+     FIELDNAM        (CDF_CHAR/16): "thc_vel_gsm_unit"
+     FORMAT          (CDF_CHAR/2): "A4"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_gsm_compno (No: 77) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thc_pos_sel (No: 78) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "thc_pos_sel"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_pos_sel_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "thc_pos_sel"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.1"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_pos_sel_labl"
+     UNIT_PTR        (CDF_CHAR/16): "thc_pos_sel_unit"
+     VALIDMIN        (CDF_REAL4/3): -2.0e+06, -2.0e+06, -2.0e+06
+     VALIDMAX        (CDF_REAL4/3): 2.0e+06, 2.0e+06, 2.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "SEL"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_sel"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_pos_sel_labl (No: 79) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_pos_sel_labl"
+     FIELDNAM        (CDF_CHAR/16): "thc_pos_sel_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_sel_unit (No: 80) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_pos_sel_unit"
+     FIELDNAM        (CDF_CHAR/16): "thc_pos_sel_unit"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_sel_compno (No: 81) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thc_pos_sse (No: 82) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "thc_pos_sse"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_pos_sse_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "thc_pos_sse"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F12.1"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_pos_sse_labl"
+     UNIT_PTR        (CDF_CHAR/16): "thc_pos_sse_unit"
+     VALIDMIN        (CDF_REAL4/3): -2.0e+06, -2.0e+06, -2.0e+06
+     VALIDMAX        (CDF_REAL4/3): 2.0e+06, 2.0e+06, 2.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "SSE"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_sse"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_pos_sse_labl (No: 83) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_pos_sse_labl"
+     FIELDNAM        (CDF_CHAR/16): "thc_pos_sse_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_sse_unit (No: 84) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_pos_sse_unit"
+     FIELDNAM        (CDF_CHAR/16): "thc_pos_sse_unit"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_pos_sse_compno (No: 85) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thc_vel_sel (No: 86) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_velocity_sel"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_vel_sel_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "thc_vel_sel"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_vel_sel_labl"
+     UNIT_PTR        (CDF_CHAR/16): "thc_vel_sel_unit"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "SEL"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_sel"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_vel_sel_labl (No: 87) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_vel_sel_labl"
+     FIELDNAM        (CDF_CHAR/16): "thc_vel_sel_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_sel_unit (No: 88) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_vel_sel_unit"
+     FIELDNAM        (CDF_CHAR/16): "thc_vel_sel_unit"
+     FORMAT          (CDF_CHAR/2): "A4"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_sel_compno (No: 89) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+thc_vel_sse (No: 90) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_velocity_sse"
+     DEPEND_0        (CDF_CHAR/15): "thc_state_epoch"
+     DEPEND_1        (CDF_CHAR/18): "thc_vel_sse_compno"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "thc_vel_sse"
+     FILLVAL         (CDF_REAL4/1): nan
+     FORMAT          (CDF_CHAR/5): "F20.8"
+     LABL_PTR_1      (CDF_CHAR/16): "thc_vel_sse_labl"
+     UNIT_PTR        (CDF_CHAR/16): "thc_vel_sse_unit"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "SSE"
+     REPRESENTATION_1 (CDF_CHAR/11): "Rep_xyz_sse"
+     TENSOR_ORDER    (CDF_CHAR/1): "1"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_TIME     (CDF_CHAR/14): "thc_state_time"
+     DEPEND_EPOCH0   (CDF_CHAR/16): "thc_state_epoch0"
+
+thc_vel_sse_labl (No: 91) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_vel_sse_labl"
+     FIELDNAM        (CDF_CHAR/16): "thc_vel_sse_labl"
+     FORMAT          (CDF_CHAR/2): "A6"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_sse_unit (No: 92) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "thc_vel_sse_unit"
+     FIELDNAM        (CDF_CHAR/16): "thc_vel_sse_unit"
+     FORMAT          (CDF_CHAR/2): "A4"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+thc_vel_sse_compno (No: 93) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "XYZ Component Number"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     FIELDNAM        (CDF_CHAR/28): "XYZ sensor coordinate number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I2"
+     VALIDMIN        (CDF_INT4/3): 1, 1, 1
+     VALIDMAX        (CDF_INT4/3): 3, 3, 3
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

@@ -1,0 +1,583 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/so_k0_cst_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     so_k0_cst_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     1
+NumzVars:     24
+NumAttrs:     45 (21 global, 24 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (21 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"SOHO>Solar Heliospheric Observatory"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/62): 	"CST>Comprehensive Suprathermal and Energetic Particle Analyzer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/27): 	"SOHO_COSTEP Key Parameters "
+TEXT (5 entries):
+	0 (CDF_CHAR/54): 	"Data: 5 minute averages Time tag = center of interval "
+	1 (CDF_CHAR/268): 	"References                    1.Kunow, H., et al., COSTEP -   Comprehensive Suprathermal and  Energetic Particle Analyser for SOHO, in V. Domingo, editor, The SOHO Mission - Scientific and  Technical Aspects of the        Instruments, ESA SP-1104, pages 75 - 80, 1988 "
+	2 (CDF_CHAR/211): 	"2.Kunow, H., et al., COSTEP -  Comprehensive Suprathermal and  Energetic Particle Analyser for SOHO - Scientific Goals and Data Description, Proc. First SOHO  Workshop, ESA SP-348,           pages 43 - 46, 1992 "
+	3 (CDF_CHAR/178): 	"2.Mueller-Mellin, R., et al.,  COSTEP -                        Comprehensive Suprathermal and  Energetic Particle Analyser,    to be published in              Solar Physics, 1995"
+	4 (CDF_CHAR/1058): 	" 19 Dec 1996 Caveat: 1. The EPHIN E-detector developed gradually a noise problem during 1996 and was switched off logically on 1996-305-14.40. Check EPHIN status word >Ephin_Stat< bit 2 (2^2): if set to one: E detector  is on, if set to zero, E detector is off. When off, the channels E3000, P41 and H41 show zero intensity, the energy of the next lower channel E1300 is the average of E1300 and E3000, the width of channel E1300 is the sum of the  width E1300 and E3000; P25, and H25 are changed accordingly.  Note: the KPGS calulates correctly the new fluxes in channels E1300, P25, H25. Only their interpretation needs to be changed by the user. 2. The geometric factor for the counting rate channels can be changed either by ground command or autonomously by detecting high fluxes in the center segment of detector A. Check EPHIN status word >Ephin_Stat<bits 9,10,11,12,13,17,18,19,20,21: if set to one: large geometric factor, if set to zero: small geometric factor. Note: the KPGS software calculates correctly the fluxes. No action needed by the user."
+MODS (6 entries):
+	0 (CDF_CHAR/29): 	" 15 Feb 1994    Version  1.0 "
+	1 (CDF_CHAR/99): 	" 22 Nov 1994    Version  1.0                     Revision 1.0      new variables COVER, DQF, STATUS"
+	2 (CDF_CHAR/99): 	" 28 Mar 1995    Version  1.0                     Revision 2.0      Energy ranges updated           "
+	3 (CDF_CHAR/198): 	" 15 May 1995    Version  1.0                     Revision 3.0      Addition: TEXT                   Correction: E_Energy [4]                     P_Energy [2]                     P_Label             "
+	4 (CDF_CHAR/329): 	" 28 Nov 1995  Version  1.0.                    Revision 4.0        Correction: # Var. from 24 to 25 Change: Descript. COST -> CST       Var_type data -> support_data         at: Epoch, PB5                   at:  E_energy,  E_delta          at:  P_energy,  P_delta          at: He_energy, He_delta          at: E_energy, E_delta  "
+	5 (CDF_CHAR/111): 	" 19 Dec 1996  Version  7.0. EPHIN E, P and He channel values adapted to new investigations to geometry factors "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0194"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"SO_K0_CST_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"SO_K0_CST"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/63): 	"SOHO ComprehensiveSuprathermal and  EnergeticParticle Analyser "
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"Horst Kunow"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/27): 	"University of Kiel, Germany"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"SOHO"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"sphe-00276"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/33): 	"SOHO_COSTEP_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/46): 	"spase://NASA/NumericalData/SOHO/COSTEP/KP/PT5M"
+
+Variable Attributes (24 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+
+Variable Information (1 rVariable, 24 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+Electron              CDF_REAL4/1	1:[4]	T/T
+E_Energy              CDF_REAL4/1	1:[4]	F/T
+E_Delta               CDF_REAL4/1	1:[4]	F/T
+E_Label               CDF_CHAR/16	1:[4]	F/T
+Proton                CDF_REAL4/1	1:[7]	T/T
+P_Energy              CDF_REAL4/1	1:[7]	F/T
+P_Delta               CDF_REAL4/1	1:[7]	F/T
+P_Label               CDF_CHAR/14	1:[7]	F/T
+Helium                CDF_REAL4/1	1:[4]	T/T
+He_Energy             CDF_REAL4/1	1:[4]	F/T
+He_Delta              CDF_REAL4/1	1:[4]	F/T
+He_Label              CDF_CHAR/14	1:[4]	F/T
+Ephin_Cover           CDF_REAL4/1	0:[]	T/  
+Lion_Cover            CDF_REAL4/1	0:[]	T/  
+Rollang               CDF_REAL4/1	0:[]	T/  
+Ephin_Stat            CDF_INT4/1	0:[]	T/  
+Lion_Stat             CDF_INT4/1	0:[]	T/  
+Ephin_DQF             CDF_INT4/1	0:[]	T/  
+Lion_DQF              CDF_INT4/1	0:[]	T/  
+PGF                   CDF_INT4/1	0:[]	T/  
+
+
+Variable (25 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/4): "Time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_INT4/3): 1994, 1, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 1, 0
+     SCALEMIN        (CDF_INT4/3): 1994, 1, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 1, 0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/8): "time>PB5"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     CATDESC         (CDF_CHAR/4): "Time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 1) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>time"
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 2) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/10): "label>unit"
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 3) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+     CATDESC         (CDF_CHAR/40): "Format for Time_PB5                     "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Electron (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Electron flux"
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/4): 1.0e+06, 1.0e+06, 1.0e+06, 1.0e+06
+     SCALEMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/4): 1.0e+06, 1.0e+06, 1.0e+06, 1.0e+06
+     LABLAXIS        (CDF_CHAR/7): "e- Flux"
+     UNITS           (CDF_CHAR/18): "1/(cm**2 s sr MeV)"
+     FORMAT          (CDF_CHAR/5): "f10.5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "E_Energy"
+     CATDESC         (CDF_CHAR/38): "Electron flux at 4 energies (0-10 MeV)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/32): "stack_plot>y=Electron,z=E_Energy"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+E_Energy (No: 5) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "e- energy"
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/4): 10.0, 10.0, 10.0, 10.0
+     SCALEMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/4): 10.0, 10.0, 10.0, 10.0
+     UNITS           (CDF_CHAR/3): "MeV"
+     FORMAT          (CDF_CHAR/4): "f4.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/15): "energy>electron"
+     LABL_PTR_1      (CDF_CHAR/7): "E_Label"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "E_Delta"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "E_Delta"
+     CATDESC         (CDF_CHAR/24): "Electron energy channels"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_Delta (No: 6) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Width of electron channels"
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/4): 2.0, 2.0, 2.0, 2.0
+     SCALEMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/4): 2.0, 2.0, 2.0, 2.0
+     UNITS           (CDF_CHAR/3): "MeV"
+     FORMAT          (CDF_CHAR/4): "f4.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/27): "uncertainty>electron_energy"
+     LABL_PTR_1      (CDF_CHAR/7): "E_Label"
+     CATDESC         (CDF_CHAR/26): "Width of electron channels"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_Label (No: 7) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Electron energy channel in MeV"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/29): "label>electron_energy_channel"
+     CATDESC         (CDF_CHAR/30): "Electron energy channel in MeV"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Proton (No: 8) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Proton flux"
+     VALIDMIN        (CDF_REAL4/7): 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/7): 1.0e+08, 1.0e+08, 1.0e+08, 1.0e+08, 1.0e+08, 1.0e+08, 1.0e+08
+     SCALEMIN        (CDF_REAL4/7): 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/7): 1.0e+08, 1.0e+08, 1.0e+08, 1.0e+08, 1.0e+08, 1.0e+08, 1.0e+08
+     LABLAXIS        (CDF_CHAR/11): "Proton Flux"
+     UNITS           (CDF_CHAR/19): "1/(cm**2 s sr MeV) "
+     FORMAT          (CDF_CHAR/5): "f10.5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/20): "particle_flux>proton"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "P_Energy"
+     CATDESC         (CDF_CHAR/35): "Proton flux at 7 energies (0-60MeV)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/30): "stack_plot>y=Proton,z=P_Energy"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+P_Energy (No: 9) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Proton energy"
+     VALIDMIN        (CDF_REAL4/7): 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/7): 60.0, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0
+     SCALEMIN        (CDF_REAL4/7): 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/7): 60.0, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0
+     UNITS           (CDF_CHAR/3): "MeV"
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "energy>proton"
+     LABL_PTR_1      (CDF_CHAR/7): "P_Label"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "P_Delta"
+     DELTA_PLUS_VAR  (CDF_CHAR/7): "P_Delta"
+     CATDESC         (CDF_CHAR/22): "Proton energy channels"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+P_Delta (No: 10) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Width of proton channels"
+     VALIDMIN        (CDF_REAL4/7): 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/7): 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0
+     SCALEMIN        (CDF_REAL4/7): 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/7): 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0
+     UNITS           (CDF_CHAR/3): "MeV"
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/25): "uncertainty>proton_energy"
+     LABL_PTR_1      (CDF_CHAR/7): "P_Label"
+     CATDESC         (CDF_CHAR/24): "Width of proton channels"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+P_Label (No: 11) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Proton energy channels in MeV"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/27): "label>proton_energy_channel"
+     CATDESC         (CDF_CHAR/29): "Proton energy channels in MeV"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Helium (No: 12) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Helium flux"
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/4): 10000.0, 10000.0, 10000.0, 10000.0
+     SCALEMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/4): 10000.0, 10000.0, 10000.0, 10000.0
+     LABLAXIS        (CDF_CHAR/7): "He Flux"
+     UNITS           (CDF_CHAR/20): "1/(cm**2 s sr MeV/n)"
+     FORMAT          (CDF_CHAR/5): "f10.5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/20): "particle_flux>helium"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "He_Energy"
+     CATDESC         (CDF_CHAR/32): "Helium flux at 4 E/C (0-50Mev/n)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/31): "stack_plot>y=Helium,z=He_Energy"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+He_Energy (No: 13) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Helium energy"
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/4): 50.0, 50.0, 50.0, 50.0
+     SCALEMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/4): 50.0, 50.0, 50.0, 50.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "energy>helium"
+     LABL_PTR_1      (CDF_CHAR/8): "He_Label"
+     DELTA_MINUS_VAR (CDF_CHAR/8): "He_Delta"
+     DELTA_PLUS_VAR  (CDF_CHAR/8): "He_Delta"
+     CATDESC         (CDF_CHAR/22): "Helium energy channels"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+He_Delta (No: 14) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Width of Helium channels"
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/4): 10.0, 10.0, 10.0, 10.0
+     SCALEMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/4): 10.0, 10.0, 10.0, 10.0
+     UNITS           (CDF_CHAR/5): "MeV/n"
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/25): "uncertainty>helium_energy"
+     LABL_PTR_1      (CDF_CHAR/8): "He_Label"
+     CATDESC         (CDF_CHAR/24): "Width of Helium channels"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+He_Label (No: 15) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Helium energy channel in MeV/n"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/27): "label>helium_energy_channel"
+     CATDESC         (CDF_CHAR/30): "Helium energy channel in MeV/n"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Ephin_Cover (No: 16) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): " EPHIN Interval coverage"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 110.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 110.0
+     LABLAXIS        (CDF_CHAR/5): "Cover"
+     UNITS           (CDF_CHAR/3): " % "
+     FORMAT          (CDF_CHAR/4): "f5.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/31): "flag>percent_coverage_interval "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/47): "EPHIN analyzer data coverage (% avg  5 min int)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Lion_Cover (No: 17) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): " LION Interval coverage"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 110.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 110.0
+     LABLAXIS        (CDF_CHAR/5): "Cover"
+     UNITS           (CDF_CHAR/3): " % "
+     FORMAT          (CDF_CHAR/4): "f5.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/31): "flag>percent_coverage_interval "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/46): "LION analyzer data coverage (% avg  5 min int)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Rollang (No: 18) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): " Roll angle"
+     VALIDMIN        (CDF_REAL4/1): -3.14159
+     VALIDMAX        (CDF_REAL4/1): 3.14159
+     SCALEMIN        (CDF_REAL4/1): -3.14159
+     SCALEMAX        (CDF_REAL4/1): 3.14159
+     LABLAXIS        (CDF_CHAR/6): "R_Angl"
+     UNITS           (CDF_CHAR/11): " SAT [rad] "
+     FORMAT          (CDF_CHAR/4): "f5.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/11): "angle>roll "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/10): "Roll angle"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Ephin_Stat (No: 19) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): " EPHIN observation status "
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2147483647
+     LABLAXIS        (CDF_CHAR/6): "STATUS"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "I10"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/23): "flag>instrument_status "
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/78): "EPHIN observation status:  1.551.859.711 & 1.568.636.927 ok,  all other not ok"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Lion_Stat (No: 20) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): " LION observation status "
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2147483647
+     LABLAXIS        (CDF_CHAR/6): "STATUS"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "I10"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/22): "flag>instrument_status"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/53): "LION observation status:  0=ok, 1=bad=calibration on "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Ephin_DQF (No: 21) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "EPHIN Data Quality Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/3): "DQF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "flag>quality "
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/57): "EPHIN Data Quality FlagGood/Poor (0=Good, 2=Fair, 4=Poor)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Lion_DQF (No: 22) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "LION Data Quality Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/3): "DQF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/56): "LION Data Quality FlagGood/Poor (0=Good, 2=Fair, 4=Poor)"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+PGF (No: 23) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "Gap_Flag"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/14): "flag>post_gap "
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/13): "Post Gap Flag"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

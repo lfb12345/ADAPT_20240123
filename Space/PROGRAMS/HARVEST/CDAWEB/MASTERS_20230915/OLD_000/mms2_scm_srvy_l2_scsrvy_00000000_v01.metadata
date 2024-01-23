@@ -1,0 +1,253 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/mms2_scm_srvy_l2_scsrvy_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     mms2_scm_srvy_l2_scsrvy_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     6
+NumAttrs:     53 (29 global, 24 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (29 attributes)
+=========================================
+Data_type (1 entry):
+	0 (CDF_CHAR/14): 	"srvy_l2_scsrvy"
+Descriptor (1 entry):
+	0 (CDF_CHAR/28): 	"SCM>Search Coil Magnetometer"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Generation_date (1 entry):
+	0 (CDF_CHAR/8): 	"20190126"
+Generated_by (1 entry):
+	0 (CDF_CHAR/17): 	"SDC, LPP and UNH."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/23): 	"mms2_scm_srvy_l2_scsrvy"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/70): 	"Level 2 Search Coil Magnetometer AC Magnetic Field Survey (32S/s) Data"
+Mission_group (1 entry):
+	0 (CDF_CHAR/3): 	"MMS"
+PI_name (1 entry):
+	0 (CDF_CHAR/22): 	"J. Burch, O. Le Contel"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"SWRI, LPP"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/143): 	"See https://lasp.colorado.edu/galaxy/display/mms/MMS+Data+Rights+and+Rules+for+Data+Use and the acknowledgment informations given in this file."
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/93): 	"The French involment (SCM instruments) on MMS is supported by CNES, CNRS-INSIS and CNRS-INSU."
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"STP>Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/27): 	"MMS2>MMS Satellite Number 2"
+TEXT (3 entries):
+	0 (CDF_CHAR/775): 	"The tri-axial search-coil magnetometer (SCM) with its associated preamplifier provides the three-dimensional measurement of the magnetic field fluctuations. The analog magnetic waveforms measured by the SCM are digitized and processed inside the digital signal processor (DSP), collected and stored by the central instrument data processor (CIDP) via the Fields central electronics box (CEB). Prior to launch, all SCM Flight models were calibrated by LPP at the National Magnetic Observatory at Chambon-la-Foret (Orleans). Once per orbit, each SCM transfer function is checked thanks to the onboard calibration signal provided by DSP. SCM is operated for the entire MMS orbit in survey mode. Within the ROI, burst mode data are also acquired as well as high burst mode data. "
+	1 (CDF_CHAR/94): 	"SCM data set corresponds to the AC magnetic field waveforms in nanoTesla and in the GSE frame."
+	2 (CDF_CHAR/103): 	"The instrument paper for SCM can be found at http://link.springer.com/article/10.1007/s11214-014-0096-9"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/25): 	"http://mms.gsfc.nasa.gov/"
+	1 (CDF_CHAR/29): 	"http://www.lpp.fr/?article939"
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/13): 	"MMS home page"
+	1 (CDF_CHAR/13): 	"SCM home page"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/7): 	"at GFSC"
+	1 (CDF_CHAR/6): 	"at LPP"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+MODS (4 entries):
+	0 (CDF_CHAR/37): 	"unpack telemetry, assign sample times"
+	1 (CDF_CHAR/127): 	"2019-01-13T00:05:55.00004589557649Z - [L1A->L1B (step 1/1)] Calibration (TMcounts->nT). See CALIBRATION_PARAMETERS for details."
+	2 (CDF_CHAR/134): 	"2019-01-26T00:07:37.00005590915679Z - [L1B->L2 (step 1/2)] Coordinate transform (SCM123->GSE). See COORD_TRANS_PARAMETERS for details."
+	3 (CDF_CHAR/113): 	"2019-01-26T00:11:13.00005108118059Z - [L1B->L2 (step 2/2)] Frequency filtering. See FREQUENCY_FILTER for details."
+CALIBRATION_PARAMETERS (10 entries):
+	0 (CDF_CHAR/15): 	"IDL Version>8.3"
+	1 (CDF_CHAR/27): 	"CDF Library Version>3.7.0_0"
+	2 (CDF_CHAR/55): 	"Calibration file>mms2_scm2_caltab_20120305000000_v2.txt"
+	3 (CDF_CHAR/7): 	"Nk>2048"
+	4 (CDF_CHAR/18): 	"Fcut>0.030000000Hz"
+	5 (CDF_CHAR/26): 	"Windowing Function>Hanning"
+	6 (CDF_CHAR/20): 	"Edging Method>Mirror"
+	7 (CDF_CHAR/55): 	"Input file>mms2_scm_srvy_l1a_scsrvy_20190109_v1.4.3.cdf"
+	8 (CDF_CHAR/55): 	"Input file>mms2_scm_srvy_l1a_scsrvy_20190110_v1.4.2.cdf"
+	9 (CDF_CHAR/55): 	"Input file>mms2_scm_srvy_l1a_scsrvy_20190111_v1.4.2.cdf"
+CAVEATS (3 entries):
+	0 (CDF_CHAR/110): 	"2019-01-10T20:41:21.0Z/2019-01-10T21:02:40.0Z: MMS_SHADOW, Source: mms_timeline_2019005_2019074_v03.xml (SDC)."
+	1 (CDF_CHAR/110): 	"2019-01-10T20:41:21.0Z/2019-01-10T21:02:40.0Z: MMS_SHADOW, Source: mms_timeline_2019005_2019074_v03.xml (SDC)."
+	2 (CDF_CHAR/110): 	"2019-01-13T16:16:35.0Z/2019-01-13T16:37:58.0Z: MMS_SHADOW, Source: mms_timeline_2019010_2019074_v03.xml (SDC)."
+COORD_TRANS_PARAMETERS (15 entries):
+	0 (CDF_CHAR/15): 	"IDL Version>8.3"
+	1 (CDF_CHAR/27): 	"CDF Library Version>3.7.0_0"
+	2 (CDF_CHAR/30): 	"Input Coordinate System>SCM123"
+	3 (CDF_CHAR/28): 	"Output Coordinate System>GSE"
+	4 (CDF_CHAR/45): 	"Attitude file>MMS2_DEFATT_2019009_2019010.V00"
+	5 (CDF_CHAR/45): 	"Attitude file>MMS2_DEFATT_2019010_2019011.V00"
+	6 (CDF_CHAR/45): 	"Attitude file>MMS2_DEFATT_2019011_2019012.V00"
+	7 (CDF_CHAR/45): 	"Attitude file>MMS2_DEFATT_2019012_2019013.V00"
+	8 (CDF_CHAR/46): 	"Ephemeris file>MMS2_DEFEPH_2019009_2019010.V01"
+	9 (CDF_CHAR/46): 	"Ephemeris file>MMS2_DEFEPH_2019010_2019011.V01"
+	10 (CDF_CHAR/46): 	"Ephemeris file>MMS2_DEFEPH_2019011_2019012.V01"
+	11 (CDF_CHAR/46): 	"Ephemeris file>MMS2_DEFEPH_2019012_2019013.V01"
+	12 (CDF_CHAR/55): 	"Input file>mms2_scm_srvy_l1b_scsrvy_20190110_v2.2.0.cdf"
+	13 (CDF_CHAR/55): 	"Input file>mms2_scm_srvy_l1b_scsrvy_20190111_v2.2.0.cdf"
+	14 (CDF_CHAR/55): 	"Input file>mms2_scm_srvy_l1b_scsrvy_20190112_v2.2.0.cdf"
+FREQUENCY_FILTER (8 entries):
+	0 (CDF_CHAR/15): 	"IDL Version>8.3"
+	1 (CDF_CHAR/27): 	"CDF Library Version>3.7.0_0"
+	2 (CDF_CHAR/10): 	"Fsamp>32Hz"
+	3 (CDF_CHAR/17): 	"Fmin>0.50000000Hz"
+	4 (CDF_CHAR/36): 	"Fmax>16.000000Hz (=Fsamp/2=Fnyquist)"
+	5 (CDF_CHAR/12): 	"Nk_conv>2048"
+	6 (CDF_CHAR/28): 	"Convolution Function>Hanning"
+	7 (CDF_CHAR/28): 	"Convolution Window Edge>Zero"
+Data_version (1 entry):
+	0 (CDF_CHAR/5): 	"2.2.0"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/39): 	"mms2_scm_srvy_l2_scsrvy_20190111_v2.2.0"
+PARENTS (3 entries):
+	0 (CDF_CHAR/44): 	"CDF>mms2_scm_srvy_l1b_scsrvy_20190110_v2.2.0"
+	1 (CDF_CHAR/44): 	"CDF>mms2_scm_srvy_l1b_scsrvy_20190111_v2.2.0"
+	2 (CDF_CHAR/44): 	"CDF>mms2_scm_srvy_l1b_scsrvy_20190112_v2.2.0"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/68): 	"spase://NASA/NumericalData/MMS/2/FIELDS/SCM/Survey/Level2/PT0.03125S"
+
+Variable Attributes (24 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABL_PTR_1
+SI_CONVERSION
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+COORDINATE_SYSTEM
+TENSOR_ORDER
+REPRESENTATION_1
+VAR_NOTES
+LABLAXIS
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+MONOTON
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+
+Variable Information (0 rVariable, 6 zVariables)
+===========================================================
+mms2_scm_acb_gse_scsrvy_srvy_l2 CDF_REAL4/1	1:[3]	T/T
+Epoch                 CDF_TT2000/1	0:[]	T/  
+Epoch_delta           CDF_REAL4/1	0:[]	F/  
+mms2_scm_acb_gse_scsrvy_srvy_l2_labl_1 CDF_CHAR/6	1:[3]	F/T
+mms2_scm_acb_gse_scsrvy_srvy_l2_representation_1 CDF_CHAR/1	1:[3]	F/T
+mms2_scm_qf_scm123_scsrvy_srvy_l2 CDF_CHAR/3	0:[]	T/  
+
+
+Variable (6 variables)
+=========================================
+
+mms2_scm_acb_gse_scsrvy_srvy_l2 (No: 0) (Recs: 0) (Compression: GZIP.6)
+-------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/31): "mms2_scm_acb_gse_scsrvy_srvy_l2"
+     CATDESC         (CDF_CHAR/33): "L2 AC magnetic field in GSE frame"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_FLOAT/1): nan
+     FORMAT          (CDF_CHAR/5): "E13.5"
+     LABL_PTR_1      (CDF_CHAR/38): "mms2_scm_acb_gse_scsrvy_srvy_l2_labl_1"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-9>T"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -30000.0
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "GSE"
+     TENSOR_ORDER    (CDF_INT2/1): 1
+     REPRESENTATION_1 (CDF_CHAR/48): "mms2_scm_acb_gse_scsrvy_srvy_l2_representation_1"
+     VAR_NOTES       (CDF_CHAR/364): "These calibrated (nT) AC magnetic field waveform data are sampled at 32S/s. They are high-pass filtered above 0.50Hz but not low-pass filtered. See global attributes for details. For more information, please have a look at the SCM Data Products Guide (https://lasp.colorado.edu/mms/sdc/public/datasets/fields/Science_Data_Products_Guide_vol2_SCM_v11_20160301.pdf)."
+
+Epoch (No: 1) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/18): "Sample Center Time"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I20"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-9>s"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2029-12-31T23:59:59.999999999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     DELTA_MINUS_VAR (CDF_CHAR/11): "Epoch_delta"
+     DELTA_PLUS_VAR  (CDF_CHAR/11): "Epoch_delta"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+
+Epoch_delta (No: 2) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Epoch_delta"
+     CATDESC         (CDF_CHAR/11): "Epoch_delta"
+     FORMAT          (CDF_CHAR/5): "E13.5"
+     SI_CONVERSION   (CDF_CHAR/8): "1.0e-9>s"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 3.125e+07
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+mms2_scm_acb_gse_scsrvy_srvy_l2_labl_1 (No: 3) (Recs: 1)
+--------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/38): "mms2_scm_acb_gse_scsrvy_srvy_l2_labl_1"
+     CATDESC         (CDF_CHAR/38): "mms2_scm_acb_gse_scsrvy_srvy_l2_labl_1"
+     FORMAT          (CDF_CHAR/2): "A6"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms2_scm_acb_gse_scsrvy_srvy_l2_representation_1 (No: 4) (Recs: 1)
+------------------------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/48): "mms2_scm_acb_gse_scsrvy_srvy_l2_representation_1"
+     CATDESC         (CDF_CHAR/48): "mms2_scm_acb_gse_scsrvy_srvy_l2_representation_1"
+     FORMAT          (CDF_CHAR/2): "A1"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+mms2_scm_qf_scm123_scsrvy_srvy_l2 (No: 5) (Recs: 0) (Compression: GZIP.6)
+---------------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "mms2_scm_qf_scm123_scsrvy_srvy_l2"
+     CATDESC         (CDF_CHAR/14): "Quality Factor"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_CHAR/3): "XXX"
+     FORMAT          (CDF_CHAR/2): "A3"
+     SI_CONVERSION   (CDF_CHAR/3): " > "
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/250): "Each letter refers to one SCM physical antenna in the SCM123 order. 'G' stands for good data, 'Z' for data that are affected or set to zero by convolution boundary effect, 'S' for saturated data, 'X' for out of range data, 'B' for fillvalue/bad data."
+

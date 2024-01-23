@@ -1,0 +1,551 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_h0_swe_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_h0_swe_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     26
+NumAttrs:     49 (26 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"ISTP"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/41): 	"H0>6 - 12 sec solar wind electron moments"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"SWE>Solar Wind Experiment"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"K. Ogilvie"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/13): 	"GSFC Code 692"
+TEXT (8 entries):
+	0 (CDF_CHAR/18): 	"Explanatory notes:"
+	1 (CDF_CHAR/887): 	"The electron moments included in this data set are derived from the velocity moments integration of solar wind electron distributions measured by the WIND/SWE VEIS instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the WIND spacecraft", Space Sci. Rev., 71, 55, 1955). Moments parameters are computed from 3s measurements which are spaced either 6s or 12s in time.  Plots should therefore not exceed a time range of 2 or 3 hours in order to display the details of this high resolution data.  The moments parameters which will be of value to most users of this data set are the electron temperature, the electron temperature anisotropy, and the electron heat flux vector. These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretation with a member of the SWE science team before publishing. "
+	2 (CDF_CHAR/974): 	"The following comments are intended to aid in the use and interpretation of the prime quantities of this data set, the electron temperature, the electron temperature anisotropy, and the electron heat flux. (All vector quantities are in GSE coordinates.) The temperature and temperature anisotropy are normalized to the derived electron density and, therefore, are not sensitive to  the uncertainty in the density determination as discussed below. The electron temperature is derived from the pressure tensor divided by the electron density and the Boltzmann constant. The three eigenvalues of the diagonalized temperature tensor are the temperature parallel to the tensor principal axis and the two perpendicular components of the temperature. The temperature anisotropy is defined here as the ratio of the parallel temperature to the average of the two perpendicular temperature components. The electron temperature is one-third of the trace of the diagonalized temperature"
+	3 (CDF_CHAR/407): 	"tensor. Also included is the unit vector along the principal axis of the pressure tensor as well as the cosine of the angle between the principal axis and the magnetic field vector. An indication that the principal axis has been uniquely defined is that the temperature anisotropy is significantly different from unity and that the principal axis and the magnetic field are nearly parallel or anti-parallel."
+	4 (CDF_CHAR/974): 	"The heat flux vector included here is significant only when the magnitude rises above the noise level, i.e., above the level 0.002 to 0.005 ergs/cm/cm/s.  The heat flux may be low in magnitude either due to a nearly isotropic distribution, due to electron counter-streaming, or due to a  low counting rate of the instrument. An indicator of a significant net heat flux is that the heat flux direction should track with the magnetic field direction. For this purpose, the cosine of the angle between the heat flux vector and the magnetic field is included, and should be close to  -1 or  +1 in order for the heat flux to be significant. In some cases it will be necessary to use electron pitch angle distributions (available on request from the SWE team) to decide whether low electron flux or counterstreaming account for a low net heat flux. It is also strongly recommended that 3s magnetic field data from the WIND/MFI experiment (not included in this data set) be used in"
+	5 (CDF_CHAR/101): 	"conjunction with the SWE electron heat flux data to ensure a correct interpretation of the heat flux."
+	6 (CDF_CHAR/975): 	"The electron density and electron bulk flow velocity are also included in this data set but no claim is made for their accuracy. The electron flow velocity is usually within 10% to 20% of the solar wind flow velocity derived from the SWE Faraday cup experiment and which are found in the SWE key parameter data set. The electron density, however,  cannot be absolutely determined due to the spacecraft potential and the fact that the electron instrument response has varied over time. The electron density determination includes a first order attempt to determine the spacecraft potential by imposing the charge neutrality condition on the derived electron density and Faraday cup ion density. The electron density will be within a few percent of the solar wind density derived from the Faraday cup early in the mission (1994-1997), while later in the mission (1998 and onward), depending on the state of the instrument,  there will be times when the derived electron density"
+	7 (CDF_CHAR/399): 	"may be as much as a factor 2 too low. Although the electron density is not derived absolutely, relative changes in electron density can usually be relied on. Both the electron density and electron flow speed track with variations in the ion density and ion flow speed, respectively. However, the user is strongly advised to use the SWE ion key parameters for the bulk plasma density and flow speed. "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"wi_h0_swe"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"wi_h0_swe_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/72): 	"Wind SWE (Solar Wind Experiment), 6 - 12 sec Solar Wind Electron Moments"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/45): 	"6 seconds or 12 seconds, depending on TM rate"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (2 entries):
+	0 (CDF_CHAR/26): 	"Skeleton created 1/19/2000"
+	1 (CDF_CHAR/23): 	"Started again 3/13/2001"
+ADID_ref (0 entry):
+Link_text (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/37): 	"Wind_SWE_Electron-Moments-H0_6sec_cdf"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/44): 	"spase://NASA/NumericalData/Wind/SWE/H0/PT06S"
+
+Variable Attributes (23 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+VAR_TYPE
+SCALETYP
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCTION
+COMPONENT_0
+
+Variable Information (0 rVariable, 26 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+time_PB5              CDF_INT4/1	1:[3]	T/T
+Te                    CDF_REAL4/1	0:[]	T/  
+Te_anisotropy         CDF_REAL4/1	0:[]	T/  
+average_energy        CDF_REAL4/1	0:[]	T/  
+pa_press_tensor       CDF_REAL4/1	1:[3]	T/T
+pa_dot_B              CDF_REAL4/1	0:[]	T/  
+pa_press_tensor_LABL  CDF_CHAR/11	1:[3]	F/T
+pa_press_tensor_axis  CDF_CHAR/5	1:[3]	F/T
+heat_flux_magn        CDF_REAL4/1	0:[]	T/  
+heat_flux_el          CDF_REAL4/1	0:[]	T/  
+heat_flux_az          CDF_REAL4/1	0:[]	T/  
+Q_dot_B               CDF_REAL4/1	0:[]	T/  
+sc_position           CDF_REAL4/1	1:[3]	T/T
+el_bulk_vel_magn      CDF_REAL4/1	0:[]	T/  
+el_bulk_vel_el        CDF_REAL4/1	0:[]	T/  
+el_bulk_vel_az        CDF_REAL4/1	0:[]	T/  
+el_density            CDF_REAL4/1	0:[]	T/  
+sc_pot                CDF_REAL4/1	0:[]	T/  
+label_sc_pos          CDF_CHAR/10	1:[3]	F/T
+unit_time             CDF_CHAR/10	1:[3]	F/T
+format_time           CDF_CHAR/10	1:[3]	F/T
+label_PB5             CDF_CHAR/27	1:[3]	F/T
+flag                  CDF_INT2/1	0:[]	T/  
+major_fr_rec          CDF_INT4/1	0:[]	T/  
+major_fr_spin_number  CDF_INT4/1	0:[]	T/  
+
+
+Variable (26 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/9): "Time (UT)"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/48): "Time, centered, in GSFC PB5 format (yr, day, ms)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "label_PB5"
+     DICT_KEY        (CDF_CHAR/8): "time>pb5"
+     FIELDNAM        (CDF_CHAR/8): "Time_PB5"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABL_PTR_1      (CDF_CHAR/9): "label_PB5"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     VALIDMIN        (CDF_INT4/3): 1994, 303, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 86399999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+
+Te (No: 2) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "Electron Temperature, Te"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/24): "Electron Temperature, Te"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     LABLAXIS        (CDF_CHAR/2): "Te"
+     UNITS           (CDF_CHAR/5): "Deg K"
+     VALIDMIN        (CDF_REAL4/1): 10000.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     SCALEMIN        (CDF_REAL4/1): 10000.0
+     SCALEMAX        (CDF_REAL4/1): 1.0e+06
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/98): "Te = (trace of pressure tensor)/(electron density * Boltzman constant)/3 = (2*Te_perp + Te_para)/3"
+
+Te_anisotropy (No: 3) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "Temperature anisotropy = Te_para / Te_perp"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "anisotropy>temperature"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/22): "Temperature anisotropy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F4.2"
+     LABLAXIS        (CDF_CHAR/4): "Anis"
+     VALIDMIN        (CDF_REAL4/1): 0.5
+     VALIDMAX        (CDF_REAL4/1): 2.0
+     SCALEMIN        (CDF_REAL4/1): 0.5
+     SCALEMAX        (CDF_REAL4/1): 2.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/131): "Te_perp = average of the perpendicular elements of the temperature tensor.  Te_para = parallel component of the temperature tensor."
+
+average_energy (No: 4) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "Electron average energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/23): "Electron average energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F4.1"
+     LABLAXIS        (CDF_CHAR/5): "E avg"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 75.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 75.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/45): "Average energy = (3/2)Boltzmann constant * Te"
+
+pa_press_tensor (No: 5) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "Principle axis of pressure tensor - unit vector"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/26): "time_series>SCATTER>NOAUTO"
+     FIELDNAM        (CDF_CHAR/46): "Principle axis of pressure tensor -unit vector"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     LABL_PTR_1      (CDF_CHAR/20): "pa_press_tensor_LABL"
+     UNIT_PTR        (CDF_CHAR/20): "pa_press_tensor_axis"
+     VALIDMIN        (CDF_REAL4/3): -1.0, -1.0, -1.0
+     VALIDMAX        (CDF_REAL4/3): 1.0, 1.0, 1.0
+     SCALEMIN        (CDF_REAL4/3): -1.0, -1.0, -1.0
+     SCALEMAX        (CDF_REAL4/3): 1.0, 1.0, 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+pa_dot_B (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Pressure tensor principle axis dot magnetic field unit vector"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "pressure"
+     DISPLAY_TYPE    (CDF_CHAR/26): "time_series>SCATTER>NOAUTO"
+     FIELDNAM        (CDF_CHAR/35): "Press. tensor PA  dot B unit vector"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     LABLAXIS        (CDF_CHAR/8): "PA dot B"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+pa_press_tensor_LABL (No: 7) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "pa_press_tensor_LABL"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/20): "pa_press_tensor_LABL"
+     FORMAT          (CDF_CHAR/2): "a5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+pa_press_tensor_axis (No: 8) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "pa_press_tensor_axis"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/20): "pa_press_tensor_axis"
+     FORMAT          (CDF_CHAR/2): "a5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+heat_flux_magn (No: 9) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Electron heat flux magnitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/19): "heat flux magnitude"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     LABLAXIS        (CDF_CHAR/12): "Heat Flux, Q"
+     UNITS           (CDF_CHAR/13): "ergs/(cm^2 s)"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 0.03
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 0.03
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+
+heat_flux_el (No: 10) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Electron heat flux elevation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/19): "heat flux elevation"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABLAXIS        (CDF_CHAR/10): "Q_elev_GSE"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+heat_flux_az (No: 11) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "Electron heat flux azimuth"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/17): "heat flux azimuth"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABLAXIS        (CDF_CHAR/10): "Q_azim_GSE"
+     UNITS           (CDF_CHAR/8): "degrees "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Q_dot_B (No: 12) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "Heat flux dot B unit vector"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "energy"
+     DISPLAY_TYPE    (CDF_CHAR/26): "time_series>SCATTER>NOAUTO"
+     FIELDNAM        (CDF_CHAR/27): "Heat flux dot B unit vector"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     LABLAXIS        (CDF_CHAR/7): "Q dot B"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+sc_position (No: 13) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "Spacecraft Position (GSE)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "position"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/25): "Spacecraft Position (GSE)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABL_PTR_1      (CDF_CHAR/12): "label_sc_pos"
+     UNITS           (CDF_CHAR/11): "Earth Radii"
+     VALIDMIN        (CDF_REAL4/3): -220.0, -220.0, -220.0
+     VALIDMAX        (CDF_REAL4/3): 220.0, 220.0, 220.0
+     SCALEMIN        (CDF_REAL4/3): -220.0, -220.0, -220.0
+     SCALEMAX        (CDF_REAL4/3): 220.0, 220.0, 220.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+el_bulk_vel_magn (No: 14) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "Electron bulk velocity - magnitude "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/21): "el_bulk_vel_magnitude"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     LABLAXIS        (CDF_CHAR/12): "Ue magnitude"
+     UNITS           (CDF_CHAR/4): "km/s"
+     VALIDMIN        (CDF_REAL4/1): 200.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 200.0
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/30): "See the global attribute TEXT."
+
+el_bulk_vel_el (No: 15) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "Electron bulk velocity - elevation "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/21): "el_bulk_vel_elevation"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     LABLAXIS        (CDF_CHAR/11): "Ue_elev_GSE"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/30): "See the global attribute TEXT."
+
+el_bulk_vel_az (No: 16) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "Electron bulk velocity - azimuth "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/5): "angle"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/19): "el_bulk_vel_azimuth"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     LABLAXIS        (CDF_CHAR/11): "Ue_azim_GSE"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/30): "See the global attribute TEXT."
+
+el_density (No: 17) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Electron density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/16): "Electron density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     LABLAXIS        (CDF_CHAR/16): "Electron Density"
+     UNITS           (CDF_CHAR/3): "/cc"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/30): "See the global attribute TEXT."
+
+sc_pot (No: 18) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Spacecraft Potential"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/9): "potential"
+     DISPLAY_TYPE    (CDF_CHAR/18): "time_series>NOAUTO"
+     FIELDNAM        (CDF_CHAR/20): "Spacecraft Potential"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F5.0"
+     LABLAXIS        (CDF_CHAR/12): "SC_Potential"
+     UNITS           (CDF_CHAR/5): "Volts"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/56): "Forst-order estimate only; se the global attribute TEXT."
+
+label_sc_pos (No: 19) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "label_sc_pos"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/12): "label_sc_pos"
+     FORMAT          (CDF_CHAR/3): "a11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+unit_time (No: 20) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "Units for Time_PB5"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     FORMAT          (CDF_CHAR/3): "a11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+format_time (No: 21) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Format for Time_PB5"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     FORMAT          (CDF_CHAR/3): "a11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+label_PB5 (No: 22) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Label for Time_PB5 (Jan 1 = Day 1)"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     FORMAT          (CDF_CHAR/3): "a18"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/13): "Jan 1 = Day 1"
+
+flag (No: 23) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "Quality Flag, yet to be defined"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/4): "flag"
+     DISPLAY_TYPE    (CDF_CHAR/26): "time_series>SCATTER>NOAUTO"
+     FIELDNAM        (CDF_CHAR/30): "Quality Flag yet to be defined"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/12): "Quality Flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 9
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+major_fr_rec (No: 24) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "major frame record number"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "major_frame_record _number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/13): "Major Fr. No."
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1900
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+major_fr_spin_number (No: 25) (Recs: 0)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "Major frame spin number"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/23): "major_frame_spin_number"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     FORMAT          (CDF_CHAR/2): "I1"
+     LABLAXIS        (CDF_CHAR/18): "Major Fr. Spin No."
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 7
+     VAR_TYPE        (CDF_CHAR/4): "data"
+

@@ -1,0 +1,302 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/stb_l1_swea_disb_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     stb_l1_swea_disb_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     12
+NumAttrs:     54 (27 global, 27 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (27 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/28): 	"STP>Solar Terrestrial Probes"
+Source_name (1 entry):
+	0 (CDF_CHAR/69): 	"stb>Solar Terrestrial Relations Observatory Behind the Sun-Earth Line"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/10): 	"L1>Level 1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/96): 	"swea_disb>STEREO-B IMPACT/SWEA>Solar Wind Electron Analyzer Energy-Angle Burst Mode Distribution"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"J. Luhmann"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"UCB/SSL"
+TEXT (1 entry):
+	0 (CDF_CHAR/268): 	"The file contains Level 1 3D burst mode electron distributions from the IMPACT(In-situ Measurements of Particles and CME Transients)/SWEA instrument on the STEREO Behind spacecraft.  For important usage caveatssee, https://cdaweb.gsfc.nasa.gov/stereo_swea_caveats.html"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"STEREO"
+Logical_source (1 entry):
+	0 (CDF_CHAR/16): 	"stb_l1_swea_disb"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/29): 	"stb_l1_swea_disb_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/54): 	"STEREO Behind IMPACT/SWEA 3D Burst Mode Distributions."
+Time_resolution (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/36): 	"Experiment and Data descriptions at "
+	1 (CDF_CHAR/18): 	"Bad Energies, see "
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/21): 	"STEREO/IMPACT PI Site"
+	1 (CDF_CHAR/12): 	"Data Caveats"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/35): 	"http://sprg.ssl.berkeley.edu/impact"
+	1 (CDF_CHAR/53): 	"https://cdaweb.gsfc.nasa.gov/stereo_swea_caveats.html"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/55): 	"spase://NASA/NumericalData/STEREO-B/IMPACT/SWEA/L1/PT2S"
+
+Variable Attributes (27 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+ALLOW_BIN
+
+Variable Information (0 rVariable, 12 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+SWEADistInterval      CDF_DOUBLE/1	0:[]	T/  
+SWEAModeID            CDF_BYTE/1	0:[]	T/  
+Angle_Bins            CDF_UINT4/1	1:[80]	F/T
+Distribution          CDF_REAL4/1	2:[16,80]	T/TT
+Distribution2         CDF_REAL4/1	2:[16,80]	T/TT
+Energy_spectrogram    CDF_REAL4/1	2:[16,80]	T/TT
+Angle_spectrogram     CDF_REAL4/1	2:[16,80]	T/TT
+V0                    CDF_BYTE/1	0:[]	T/  
+Distribution_LABL_1   CDF_CHAR/14	1:[16]	F/T
+Distribution_LABL_2   CDF_CHAR/15	1:[80]	F/T
+Energy                CDF_REAL4/1	1:[16]	F/T
+
+
+Variable (12 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Time since 0 AD"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/26): "Interval-centered time tag"
+
+SWEADistInterval (No: 1) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "SWEA 3D Distribution Time Interval in seconds"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/31): "SWEA Distribution Time Interval"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/18): "Dist Time Interval"
+     UNITS           (CDF_CHAR/1): "s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWEAModeID (No: 2) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "SWEA Mode ID"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "SWEA Mode ID"
+     FILLVAL         (CDF_BYTE/1): -128
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/9): "SWEA Mode"
+     VALIDMIN        (CDF_BYTE/1): -127
+     VALIDMAX        (CDF_BYTE/1): 127
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Angle_Bins (No: 3) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "SWEA 3D Distribution Angle Bins"
+     FIELDNAM        (CDF_CHAR/28): "SWEA Distribution Angle Bins"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/9): "Angle Bin"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 80
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Distribution (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/98): "SWEA 3D counts by 16 energies and 80 angles x=angles, y=energies [DO NOT USE energies below 45 eV]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Angle_Bins"
+     DEPEND_2        (CDF_CHAR/6): "Energy"
+     DISPLAY_TYPE    (CDF_CHAR/47): "plasmagram>x=Angle_Bins,y=Energy,z=Distribution"
+     FIELDNAM        (CDF_CHAR/20): "SWEA 3D Distribution"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/30): "SWEA Angle-Energy Distribution"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+Distribution2 (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/98): "SWEA 3D counts by 16 energies and 80 angles x=energies, y=angles [DO NOT USE energies below 45 eV]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     DEPEND_2        (CDF_CHAR/10): "Angle_Bins"
+     DISPLAY_TYPE    (CDF_CHAR/48): "plasmagram>x=Energy,y=Angle_Bins,z=Distribution2"
+     FIELDNAM        (CDF_CHAR/20): "SWEA 3D Distribution"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/30): "SWEA Energy-Angle Distribution"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/10): "flip_image"
+     COMPONENT_0     (CDF_CHAR/12): "Distribution"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+Energy_spectrogram (No: 6) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/75): "SWEA 3D counts by energy at select angles [DO NOT USE energies below 45 eV]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     DEPEND_2        (CDF_CHAR/10): "Angle_Bins"
+     DISPLAY_TYPE    (CDF_CHAR/154): "spectrogram>y=Energy,z=Energy_spectrogram(1,*),z=Energy_spectrogram(20,*),z=Energy_spectrogram(40,*),z=Energy_spectrogram(60,*),z=Energy_spectrogram(80,*)"
+     FIELDNAM        (CDF_CHAR/27): "SWEA 3D Energy Distribution"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/19): "Distribution_LABL_2"
+     LABL_PTR_2      (CDF_CHAR/19): "Distribution_LABL_1"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/12): "Distribution"
+
+Angle_spectrogram (No: 7) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "SWEA 3D counts by angle at select energies [DO NOT USE energies below 45 eV]"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "Energy"
+     DEPEND_2        (CDF_CHAR/10): "Angle_Bins"
+     DISPLAY_TYPE    (CDF_CHAR/151): "spectrogram>y=Angle_Bins,z=Angle_spectrogram(*,1),z=Angle_spectrogram(*,4),z=Angle_spectrogram(*,8),z=Angle_spectrogram(*,12),z=Angle_spectrogram(*,16)"
+     FIELDNAM        (CDF_CHAR/20): "SWEA 3D Distribution"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABL_PTR_1      (CDF_CHAR/19): "Distribution_LABL_2"
+     LABL_PTR_2      (CDF_CHAR/19): "Distribution_LABL_1"
+     UNITS           (CDF_CHAR/4): "cnts"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/12): "Distribution"
+
+V0 (No: 8) (Recs: 0)
+--
+Attribute Entries:
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_BYTE/1): -128
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+Distribution_LABL_1 (No: 9) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Distribution_LABL_1"
+     FIELDNAM        (CDF_CHAR/19): "Distribution_LABL_1"
+     FORMAT          (CDF_CHAR/3): "A14"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Distribution_LABL_2 (No: 10) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Distribution_LABL_2"
+     FIELDNAM        (CDF_CHAR/19): "Distribution_LABL_2"
+     FORMAT          (CDF_CHAR/3): "A15"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Energy (No: 11) (Recs: 1)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "SWEA Energy Bins"
+     FIELDNAM        (CDF_CHAR/11): "SWEA Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+

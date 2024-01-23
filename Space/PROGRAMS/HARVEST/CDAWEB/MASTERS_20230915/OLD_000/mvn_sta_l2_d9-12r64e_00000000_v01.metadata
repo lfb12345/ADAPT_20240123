@@ -1,0 +1,604 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/mvn_sta_l2_d9-12r64e_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     mvn_sta_l2_d9-12r64e_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     27
+NumAttrs:     50 (27 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/24): 	"MAVEN STATIC Ion Spectra"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"MAVEN"
+Source_name (1 entry):
+	0 (CDF_CHAR/52): 	"MAVEN>Mars Atmosphere and Volatile Evolution Mission"
+Discipline (1 entry):
+	0 (CDF_CHAR/41): 	"Space Physics>Planetary Physics>Particles"
+Data_type (1 entry):
+	0 (CDF_CHAR/21): 	"L2>L2 Calibrated Data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/68): 	"STATIC> Supra-Thermal Thermal Ion Composition Particle Distributions"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"J. P. McFadden"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/39): 	"U.C. Berkeley Space Sciences Laboratory"
+TEXT (1 entry):
+	0 (CDF_CHAR/72): 	"STATIC> Supra-Thermal And Thermal Ion Composition Particle Distributions"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"MAVEN"
+Logical_source (1 entry):
+	0 (CDF_CHAR/20): 	"mvn_sta_l2_d9-12r64e"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/104): 	"MAVEN STATIC (Supra-Thermal And Thermal Ion Composition) Particle Distributions 12 Event Rates 64 Energy"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/28): 	"Open Data for Scientific Use"
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (3 entries):
+	0 (CDF_CHAR/19): 	"MAVEN Data Archive "
+	1 (CDF_CHAR/15): 	"MAVEN Overview "
+	2 (CDF_CHAR/15): 	"MAVEN Overview "
+LINK_TITLE (3 entries):
+	0 (CDF_CHAR/15): 	"at PDS PPI Node"
+	1 (CDF_CHAR/7): 	"at LASP"
+	2 (CDF_CHAR/11): 	"at nasa.gov"
+HTTP_LINK (3 entries):
+	0 (CDF_CHAR/68): 	"https://pds-ppi.igpp.ucla.edu/search/?sc=MAVEN&facet=SPACECRAFT_NAME"
+	1 (CDF_CHAR/36): 	"http://lasp.colorado.edu/home/maven/"
+	2 (CDF_CHAR/56): 	"https://www.nasa.gov/mission_pages/maven/main/index.html"
+Acknowledgment (1 entry):
+	0 (CDF_CHAR/4): 	"None"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/1): 	" "
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+
+Variable Attributes (23 attributes)
+=========================================
+CATDESC
+DISPLAY_TYPE
+FIELDNAM
+UNITS
+DEPEND_TIME
+DEPEND_0
+VAR_TYPE
+COORDINATE_SYSTEM
+SCALETYP
+LABLAXIS
+MONOTON
+FILLVAL
+VALIDMIN
+VALIDMAX
+FORMAT
+SCALEMIN
+SCALEMAX
+DEPEND_1
+DEPEND_2
+LABL_PTR_1
+LABL_PTR_2
+DICT_KEY
+VAR_NOTES
+
+Variable Information (0 rVariable, 27 zVariables)
+===========================================================
+epoch                 CDF_TT2000/1	0:[]	T/  
+time_met              CDF_DOUBLE/1	0:[]	T/  
+time_ephemeris        CDF_DOUBLE/1	0:[]	T/  
+time_unix             CDF_DOUBLE/1	0:[]	T/  
+time_start            CDF_DOUBLE/1	0:[]	T/  
+time_end              CDF_DOUBLE/1	0:[]	T/  
+integ_time            CDF_DOUBLE/1	0:[]	T/  
+rates                 CDF_FLOAT/1	2:[64,12]	T/TT
+quality_flag          CDF_INT2/1	0:[]	T/  
+valid                 CDF_INT2/1	0:[]	T/  
+eprom_ver             CDF_INT2/1	0:[]	T/  
+header                CDF_INT4/1	0:[]	T/  
+mode                  CDF_INT2/1	0:[]	T/  
+rate                  CDF_INT2/1	0:[]	T/  
+swp_ind               CDF_INT2/1	0:[]	T/  
+project_name          CDF_CHAR/5	0:[]	F/  
+spacecraft            CDF_CHAR/1	0:[]	F/  
+data_name             CDF_CHAR/9	0:[]	F/  
+apid                  CDF_CHAR/2	0:[]	F/  
+num_dists             CDF_INT4/1	0:[]	F/  
+nswp                  CDF_INT2/1	0:[]	F/  
+energy                CDF_FLOAT/1	2:[64,28]	F/TT
+nrate                 CDF_INT2/1	0:[]	F/  
+rate_labels           CDF_CHAR/15	1:[12]	F/T
+compno_12             CDF_INT2/1	1:[12]	F/T
+compno_64             CDF_INT2/1	1:[64]	F/T
+rates_energy_labl_64  CDF_CHAR/14	1:[64]	F/T
+
+
+Variable (27 variables)
+=========================================
+
+epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/117): "UTC time from 01-Jan-2000 12:00:00.000 including leap seconds), one element per ion distribution (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/5): "EPOCH"
+     UNITS           (CDF_CHAR/7): "nanosec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/5): "EPOCH"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     VALIDMIN        (CDF_TT2000/1): 2013-11-17T23:59:59.999998080
+     VALIDMAX        (CDF_TT2000/1): 2040-12-31T23:58:59.999998208
+     FORMAT          (CDF_CHAR/6): "E25.18"
+
+time_met (No: 1) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/96): "Mission elapsed time for this data record, one element per ion distribution (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/20): "Mission Elapsed Time"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/20): "Mission Elapsed Time"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 8.55878e+08
+     FORMAT          (CDF_CHAR/6): "E25.18"
+
+time_ephemeris (No: 2) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/47): "Time used by SPICE program (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/20): "SPICE Ephemeris Time"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/20): "SPICE Ephemeris Time"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VALIDMIN        (CDF_DOUBLE/1): 4.38005e+08
+     VALIDMAX        (CDF_DOUBLE/1): 1.29388e+09
+     FORMAT          (CDF_CHAR/6): "E25.18"
+
+time_unix (No: 3) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/197): "Unix time (elapsed seconds since 1970-01-01/00:00 without leap seconds) for this data record, one element per ion distribution. This time is the center time of data collection. (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "Unix Time"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/9): "Unix Time"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VALIDMIN        (CDF_DOUBLE/1): 1.38473e+09
+     VALIDMAX        (CDF_DOUBLE/1): 2.24061e+09
+     FORMAT          (CDF_CHAR/6): "E25.18"
+
+time_start (No: 4) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Unix time at the start of data collection. (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/26): "Interval start time (unix)"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/26): "Interval start time (unix)"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VALIDMIN        (CDF_DOUBLE/1): 1.38473e+09
+     VALIDMAX        (CDF_DOUBLE/1): 2.24061e+09
+     FORMAT          (CDF_CHAR/6): "E25.18"
+
+time_end (No: 5) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Unix time at the end of data collection. (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/24): "Interval end time (unix)"
+     UNITS           (CDF_CHAR/3): "sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/24): "Interval end time (unix)"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VALIDMIN        (CDF_DOUBLE/1): 1.38473e+09
+     VALIDMAX        (CDF_DOUBLE/1): 2.24061e+09
+     FORMAT          (CDF_CHAR/6): "E25.18"
+
+integ_time (No: 6) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "Integration time for rate in seconds. (NUM_DISTS elements)."
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "Integration time"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/16): "Integration time"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VALIDMIN        (CDF_DOUBLE/1): -1.0e+31
+     VALIDMAX        (CDF_DOUBLE/1): 1.0e+31
+     FORMAT          (CDF_CHAR/6): "E25.18"
+     SCALEMIN        (CDF_DOUBLE/1): 1.945
+     SCALEMAX        (CDF_DOUBLE/1): 1.945
+
+rates (No: 7) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Rate data for the rate channels sorted by energy step"
+     DISPLAY_TYPE    (CDF_CHAR/182): "spectrogram>y=compno_64,z=rates(1,*),z=rates(2,*),z=rates(3,*),z=rates(4,*),z=rates(5,*),z=rates(6,*),z=rates(7,*),z=rates(8,*),z=rates(9,*),z=rates(10,*),z=rates(11,*),z=rates(12,*)"
+     FIELDNAM        (CDF_CHAR/5): "Rates"
+     UNITS           (CDF_CHAR/5): "1/sec"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/3): "log"
+     LABLAXIS        (CDF_CHAR/5): "Rates"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 265345.0
+     DEPEND_1        (CDF_CHAR/9): "compno_12"
+     DEPEND_2        (CDF_CHAR/9): "compno_64"
+     LABL_PTR_1      (CDF_CHAR/11): "rate_labels"
+     LABL_PTR_2      (CDF_CHAR/20): "rates_energy_labl_64"
+     VAR_NOTES       (CDF_CHAR/111): "Rate data for the rate channels sorted by energy step with dimension (NUM_DISTS, NRATE, NENERGY) units=counts/s"
+
+quality_flag (No: 8) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/12): "Quality flag"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "Quality flag"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/12): "Quality flag"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     SCALEMIN        (CDF_INT2/1): 7168
+     SCALEMAX        (CDF_INT2/1): 23768
+     VAR_NOTES       (CDF_CHAR/33): "Quality flag (NUM_DISTS elements)"
+
+valid (No: 9) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/134): "---> Validity flag codes valid data (bit 0), test pulser on (bit 1), diag mode (bit 2), data comp type (bit 3-4), packet compn (bit 5)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): " Valid flag"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/11): " Valid flag"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     SCALEMIN        (CDF_INT2/1): 1
+     SCALEMAX        (CDF_INT2/1): 1
+     VAR_NOTES       (CDF_CHAR/174): "---> Validity flag codes valid data (bit 0), test pulser on (bit 1), diagnostic mode (bit 2), data compression type (bit 3-4), packet compression (bit 5) (NUM_DISTS elements)"
+
+eprom_ver (No: 10) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/81): "An integer designating the version of the flight eprom load. (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "Eprom version"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/13): "Eprom version"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     SCALEMIN        (CDF_INT2/1): 4
+     SCALEMAX        (CDF_INT2/1): 4
+
+header (No: 11) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/147): "A long integer that consists of bytes 12-15 in data packet header. See MAVEN_PF_FSW_021_CTM.xls for definition of header bits. (NUM_DISTS elements)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "Header"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/6): "Header"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VALIDMIN        (CDF_INT4/1): -2147483647
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     FORMAT          (CDF_CHAR/3): "I11"
+     SCALEMIN        (CDF_INT4/1): 1359847424
+     SCALEMAX        (CDF_INT4/1): 1443753984
+
+mode (No: 12) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "---> Decoded mode number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "Mode number"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/11): "Mode number"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     SCALEMIN        (CDF_INT2/1): 1
+     SCALEMAX        (CDF_INT2/1): 6
+     VAR_NOTES       (CDF_CHAR/46): "---> Decoded mode number. (NUM_DISTS elements)"
+
+rate (No: 13) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Decoded telemetry rate number"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/21): "Telemetry rate number"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/21): "Telemetry rate number"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     SCALEMIN        (CDF_INT2/1): 5
+     SCALEMAX        (CDF_INT2/1): 5
+     VAR_NOTES       (CDF_CHAR/51): "Decoded telemetry rate number. (NUM_DISTS elements)"
+
+swp_ind (No: 14) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/93): "---> Index that identifies the energy and deflector sweep look up tables (LUT) for the sensor"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "Sweep index"
+     UNITS           (CDF_CHAR/4): "None"
+     DEPEND_TIME     (CDF_CHAR/9): "time_unix"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/11): "Sweep index"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     SCALEMIN        (CDF_INT2/1): 21
+     SCALEMAX        (CDF_INT2/1): 26
+     VAR_NOTES       (CDF_CHAR/267): "---> Index that identifies the energy and deflector sweep look up tables (LUT) for the sensor. SWP_IND is an index that selects the following support data arrays: ENERGY, DENERGY, THETA, DTHETA, PHI, DPHI, DOMEGA, GF and MASS_ARR. (NUM_DISTS elements), EN_IND Le NSWP"
+
+project_name (No: 15) (Recs: 1)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/5): "MAVEN"
+     FIELDNAM        (CDF_CHAR/12): "project_name"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/2): "A6"
+
+spacecraft (No: 16) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/1): "0"
+     FIELDNAM        (CDF_CHAR/10): "spacecraft"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/2): "A2"
+
+data_name (No: 17) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/83): "XX YYY where XX is the APID and YYY is the array abbreviation (64e2m, 32e32m, etc.)"
+     FIELDNAM        (CDF_CHAR/9): "data_name"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/3): "A10"
+
+apid (No: 18) (Recs: 1)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "XX, where XX is the APID"
+     FIELDNAM        (CDF_CHAR/4): "apid"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/2): "A3"
+
+num_dists (No: 19) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "Number of measurements or times in the file"
+     FIELDNAM        (CDF_CHAR/9): "num_dists"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VALIDMIN        (CDF_INT4/1): -2147483647
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     FORMAT          (CDF_CHAR/3): "I11"
+     SCALEMIN        (CDF_INT4/1): 674
+     SCALEMAX        (CDF_INT4/1): 674
+
+nswp (No: 20) (Recs: 1)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/80): "Number of sweep tables; fwill increase over mission as new sweep modes are added"
+     FIELDNAM        (CDF_CHAR/4): "nswp"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     SCALEMIN        (CDF_INT2/1): 27
+     SCALEMAX        (CDF_INT2/1): 27
+
+energy (No: 21) (Recs: 1) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "Energy array with dimension (NSWP, 64)"
+     FIELDNAM        (CDF_CHAR/6): "energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+31
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+31
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     SCALEMIN        (CDF_FLOAT/1): 0.1046
+     SCALEMAX        (CDF_FLOAT/1): 31380.0
+
+nrate (No: 22) (Recs: 1)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Number of rate channels - 12"
+     FIELDNAM        (CDF_CHAR/5): "nrate"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     FORMAT          (CDF_CHAR/2): "I6"
+     SCALEMIN        (CDF_INT2/1): 12
+     SCALEMAX        (CDF_INT2/1): 12
+
+rate_labels (No: 23) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Rate label string array with dimension NRATE"
+     FIELDNAM        (CDF_CHAR/11): "rate_labels"
+     UNITS           (CDF_CHAR/2): "NA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     COORDINATE_SYSTEM (CDF_CHAR/6): "sensor"
+     FORMAT          (CDF_CHAR/3): "A16"
+
+compno_12 (No: 24) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "compno_12"
+     FIELDNAM        (CDF_CHAR/9): "compno_12"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_INT2/1): 0
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     DICT_KEY        (CDF_CHAR/6): "number"
+
+compno_64 (No: 25) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "compno_64"
+     FIELDNAM        (CDF_CHAR/9): "compno_64"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/17): "Energy Step Index"
+     FILLVAL         (CDF_INT2/1): 0
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     DICT_KEY        (CDF_CHAR/6): "number"
+
+rates_energy_labl_64 (No: 26) (Recs: 1)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "rates_energy_labl_64"
+     FIELDNAM        (CDF_CHAR/20): "rates_energy_labl_64"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A14"
+     DICT_KEY        (CDF_CHAR/5): "label"
+

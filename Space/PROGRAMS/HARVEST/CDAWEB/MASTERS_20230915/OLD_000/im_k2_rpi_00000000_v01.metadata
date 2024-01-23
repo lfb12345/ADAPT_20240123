@@ -1,0 +1,626 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/im_k2_rpi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     im_k2_rpi_00000000_v01.cdf
+Version:      3.6.2
+
+Common Data Format (CDF)
+(C) Copyright 1990-2016 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     33
+NumAttrs:     43 (17 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (17 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_UCHAR/58): 	"IMAGE>Imager for Magnetopause-to-Aurora Global Exploration"
+Discipline (1 entry):
+	0 (CDF_UCHAR/36): 	"Space Physics>Magnetospheric Science"
+Descriptor (1 entry):
+	0 (CDF_UCHAR/23): 	"RPI>Radio Plasma Imager"
+PI_name (1 entry):
+	0 (CDF_UCHAR/13): 	"B.W. Reinisch"
+PI_affiliation (1 entry):
+	0 (CDF_UCHAR/6): 	"UMLCAR"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/48): 	"Imaging and Remote Sensing (Magnetosphere/Earth)"
+	1 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+Source_name (1 entry):
+	0 (CDF_UCHAR/58): 	"IMAGE>Imager for Magnetopause to Aurora Global Exploration"
+Data_type (1 entry):
+	0 (CDF_UCHAR/16): 	"K2>Key Parameter"
+Data_version (1 entry):
+	0 (CDF_UCHAR/1): 	"1"
+TEXT (1 entry):
+	0 (CDF_UCHAR/3): 	"tbd"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/22): 	"im_k2_rpi_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_UCHAR/9): 	"im_k2_rpi"
+Logical_source_description (1 entry):
+	0 (CDF_UCHAR/47): 	"RPI Key Parameters: Fixed Frequency Measurement"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/5): 	"IMAGE"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+MODS (3 entries):
+	0 (CDF_CHAR/70): 	"Master with plasmagram vv's re-integrated with data CDFs 12/6/00 REM; "
+	1 (CDF_CHAR/63): 	"SKTEditor review and corrections applied to master 12/6/00 REM;"
+	2 (CDF_CHAR/128): 	"New version to match newly formatted data files also corrected Amplitude2 display_type - vars are case sensitive. TJK 11/22/2002"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/5): 	"IMAGE"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+
+Variable Attributes (26 attributes)
+=========================================
+FIELDNAM
+VAR_TYPE
+DICT_KEY
+LABLAXIS
+FILLVAL
+FORMAT
+UNITS
+SCALETYP
+VALIDMIN
+VALIDMAX
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DISPLAY_TYPE
+LABL_PTR_1
+CATDESC
+VAR_NOTES
+VIRTUAL
+FUNCTION
+COMPONENT_0
+SCALEMIN
+SCALEMAX
+UNIT_PTR
+ALLOW_BIN
+
+Variable Information (0 rVariable, 33 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Duration_ms           CDF_UINT4/1	0:[]	T/  
+NadirMET              CDF_UINT4/1	0:[]	T/  
+StartMET              CDF_UINT4/1	0:[]	T/  
+OpMode                CDF_UCHAR/13	0:[]	T/  
+NumDopplers           CDF_UINT2/1	0:[]	T/  
+RepetitionRate        CDF_FLOAT/1	0:[]	T/  
+XmtrAntenna           CDF_UCHAR/15	0:[]	T/  
+Couplers              CDF_UCHAR/3	0:[]	T/  
+Waveform              CDF_UCHAR/24	0:[]	T/  
+BaseGain              CDF_UCHAR/18	0:[]	T/  
+GainControl           CDF_UCHAR/9	0:[]	T/  
+FreqSearch            CDF_UCHAR/18	0:[]	T/  
+PeakPower             CDF_INT2/1	0:[]	T/  
+NumTimes              CDF_INT2/1	0:[]	T/  
+NumFreqs              CDF_INT2/1	0:[]	T/  
+Frequency             CDF_FLOAT/1	0:[]	T/  
+Amplitude2            CDF_UINT1/1	2:[256,128]	T/TT
+Amplitude2M           CDF_UINT1/1	2:[256,128]	T/TT
+Amplitude             CDF_UINT1/1	2:[256,128]	T/TT
+ProgramSpecs          CDF_INT2/1	1:[25]	T/T
+ProgSpec_lbl          CDF_CHAR/18	1:[25]	F/T
+ProgSpec_units        CDF_CHAR/8	1:[25]	F/T
+MPA                   CDF_UINT1/1	1:[256]	T/T
+Azimuth               CDF_UINT1/1	2:[256,128]	T/TT
+Time                  CDF_FLOAT/1	1:[256]	T/T
+NumRanges             CDF_UINT1/1	0:[]	T/  
+Range                 CDF_FLOAT/1	1:[128]	T/T
+Zenith                CDF_UINT1/1	2:[256,128]	T/TT
+DopplerNumber         CDF_UINT1/1	2:[256,128]	T/TT
+DopplerTranslation    CDF_REAL4/1	1:[256]	T/T
+Range_No              CDF_INT2/1	1:[128]	F/T
+Frequency_No          CDF_INT2/1	1:[256]	F/T
+
+
+Variable (33 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/9): "Time Line"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/10): "time>epoch"
+     LABLAXIS        (CDF_UCHAR/5): "Epoch"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_UCHAR/5): "F16.1"
+     UNITS           (CDF_UCHAR/2): "ms"
+     VALIDMIN        (CDF_FLOAT/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_FLOAT/1): 01-Jan-0000 00:00:00.000
+     CATDESC         (CDF_UCHAR/15): "Plasmagram Time"
+     VAR_NOTES       (CDF_UCHAR/108): "The time in EPOCH refers to the beginning of the plasmagram. Use Duration_ms to obtain stop time of the run."
+
+Duration_ms (No: 1) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/20): "Measurement Duration"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/19): "time>range_absolute"
+     LABLAXIS        (CDF_UCHAR/3): "End"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_UCHAR/3): "I10"
+     UNITS           (CDF_UCHAR/2): "ms"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967294
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/57): "Offset from Epoch time to the end of the measurement run."
+     VAR_NOTES       (CDF_UCHAR/58): "Time in ms between start and stop of the measurement run. "
+
+NadirMET (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/18): "Nadir crossing MET"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_UCHAR/9): "Nadir MET"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_UCHAR/3): "I10"
+     UNITS           (CDF_UCHAR/5): "0.1 s"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967294
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/86): "Nadir crossing MET is the reference MET that uniquely identifies all RPI measurements."
+     VAR_NOTES       (CDF_UCHAR/63): "MET of the last Nadir crossing before  the measurement starts. "
+
+StartMET (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/9): "Start MET"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_UCHAR/9): "Start MET"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_UCHAR/3): "I10"
+     UNITS           (CDF_UCHAR/5): "0.1 s"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967294
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_UCHAR/22): "Measurement start MET."
+     VAR_NOTES       (CDF_UCHAR/144): "Start MET is derived using the Nadir crossing MET and the time offset from the first packet header. Might not be unique due to telemetry losses."
+
+OpMode (No: 4) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/14): "Operating Mode"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -128
+     FORMAT          (CDF_UCHAR/2): "I2"
+     UNITS           (CDF_UCHAR/3): "n/a"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 4
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/19): "Operating Mode Name"
+     VAR_NOTES       (CDF_CHAR/109): "values: Calibration, Sounding, Thermal Noise, Relaxation, Whistler, Test Pattern; time-varying character data"
+
+NumDopplers (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/18): "Number of Dopplers"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_UCHAR/2): "I3"
+     UNITS           (CDF_UCHAR/1): "s"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 256
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     VAR_NOTES       (CDF_UCHAR/3): "TBD"
+
+RepetitionRate (No: 6) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/21): "Pulse Repetition Rate"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/12): "PulseRepRate"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F4.1"
+     UNITS           (CDF_UCHAR/2): "Hz"
+     VALIDMIN        (CDF_FLOAT/1): 0.5
+     VALIDMAX        (CDF_FLOAT/1): 50.0
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     VAR_NOTES       (CDF_UCHAR/75): "0.5 pps (1 pulse every 2 sec), 1 pps, 2 pps, 4 pps, 10 pps, 20 pps, 50 pps."
+
+XmtrAntenna (No: 7) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/20): "Xmtr Antenna Setting"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     FILLVAL         (CDF_UCHAR/15): "               "
+     FORMAT          (CDF_UCHAR/3): "A15"
+     UNITS           (CDF_CHAR/11): "(codes 1-8)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/25): "Xmtr Antenna Setting Name"
+     VAR_NOTES       (CDF_CHAR/280): "values (numbers sequence only):  1= Radio Silence (no Tx), 2= X antenna only, 3= Y antenna only, 4= X+Y Linearly polarized, 5= X+Y Right Circularly Polarized, 6= X+Y Left Circularly Polarized, 7= X+Y Right/Left Alternated, 8= X+Y Lin/Lin90 Alternated.; time-varying character data"
+
+Couplers (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/12): "Coupler Mode"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/12): "Coupler Mode"
+     FILLVAL         (CDF_UCHAR/3): "   "
+     FORMAT          (CDF_CHAR/2): "a3"
+     UNITS           (CDF_CHAR/12): "(0=off,1=on)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/17): "Coupler Mode Name"
+     VAR_NOTES       (CDF_CHAR/64): "values (numbers sequence only):  0= OFF (untuned), 1= ON (tuned)"
+
+Waveform (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/14): "Operating Mode"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/12): "Wave Op Mode"
+     FILLVAL         (CDF_UCHAR/24): "                        "
+     FORMAT          (CDF_CHAR/3): "a24"
+     UNITS           (CDF_CHAR/11): "(codes=1-9)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/28): "Waveform Operating Mode Name"
+     VAR_NOTES       (CDF_CHAR/210): "values (numbers sequence only):  1= 16-chip complementary, 2= FM Chirp, 3= Staggered Pulse Sequence, 4= Long Pulse, 5= Short Pulse, 6= 0.5 s Pulse7= 1.95 s Pulse, 8= 8-chip complementary9= 4-chip complementary."
+
+BaseGain (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/9): "Base Gain"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/9): "Base Gain"
+     FILLVAL         (CDF_UCHAR/13): "             "
+     FORMAT          (CDF_CHAR/3): "a18"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_UCHAR/1): "0"
+     VALIDMAX        (CDF_UCHAR/2): "16"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/9): "Base Gain"
+     VAR_NOTES       (CDF_CHAR/3): "TBD"
+
+GainControl (No: 11) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/24): "Frequency Search Enabled"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/12): "Gain Control"
+     FILLVAL         (CDF_UCHAR/9): "         "
+     FORMAT          (CDF_CHAR/2): "a9"
+     UNITS           (CDF_CHAR/17): "(0=fixed, 1=auto)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/17): "Gain Control Name"
+     VAR_NOTES       (CDF_CHAR/29): "0= Fixed Gain, 1= Auto Gain. "
+
+FreqSearch (No: 12) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/24): "Frequency Search Enabled"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/11): "Freq Search"
+     FILLVAL         (CDF_UCHAR/18): "                  "
+     FORMAT          (CDF_CHAR/3): "a18"
+     UNITS           (CDF_CHAR/1): " "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/35): "Search of quiet frequencies enabled"
+     VAR_NOTES       (CDF_CHAR/81): "0= Search of quiet frequencies disabled, 1= Search of quiet frequencies enabled. "
+
+PeakPower (No: 13) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/21): "Peak Power Constraint"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/21): "Peak Power Constraint"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/2): "I3"
+     UNITS           (CDF_CHAR/5): "Watts"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 120
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     CATDESC         (CDF_CHAR/21): "Peak Power Constraint"
+     VAR_NOTES       (CDF_CHAR/45): "Total RPI Peak Power Consumption Constraint. "
+
+NumTimes (No: 14) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "Actual Number of Times"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): -32768.0
+     FORMAT          (CDF_UCHAR/2): "I4"
+     UNITS           (CDF_UCHAR/3): "n/a"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 256
+     CATDESC         (CDF_UCHAR/22): "Actual Number of Times"
+     VAR_NOTES       (CDF_UCHAR/51): "Actual number of times the measurements were made. "
+
+NumFreqs (No: 15) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/28): "Actual Number of Frequencies"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/15): "No. Freq. Meas."
+     FILLVAL         (CDF_DOUBLE/1): -32768.0
+     FORMAT          (CDF_UCHAR/2): "I4"
+     UNITS           (CDF_UCHAR/3): "n/a"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 256
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     CATDESC         (CDF_CHAR/43): "Actual number of frequencies being measured"
+     VAR_NOTES       (CDF_CHAR/312): "Detailed plasmagram picture has the original number of frequencies as specified by RPI measurement parameters. Frequency axis varies from plasmagram to plasmagram. Plasmagram *thumbnails* have a fixed frequency axis. The original plasmagram data often requires transformation into thumbnail format by averaging. "
+
+Frequency (No: 16) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/18): "Sounding Frequency"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     LABLAXIS        (CDF_UCHAR/18): "Sounding Frequency"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F7.2"
+     UNITS           (CDF_UCHAR/3): "kHz"
+     VALIDMIN        (CDF_FLOAT/1): 3.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_NOTES       (CDF_UCHAR/25): "Sounding frequency in kHz"
+
+Amplitude2 (No: 17) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/27): "Echo Amplitude (plasmagram)"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     LABLAXIS        (CDF_UCHAR/14): "Echo Amplitude"
+     FILLVAL         (CDF_UINT1/1): 255
+     UNITS           (CDF_UCHAR/10): "3/4 dBnV/m"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 254
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/4): "Time"
+     DEPEND_2        (CDF_UCHAR/5): "Range"
+     DISPLAY_TYPE    (CDF_CHAR/163): "plasmagram>x=Time,y=Range,z=Amplitude2,labl=RepetitionRate,labl=XmtrAntenna,labl=Waveform,labl=OpMode,labl=PeakPower,labl=FreqSearch,labl=BaseGain,labl=GainControl"
+     CATDESC         (CDF_UCHAR/56): "Echo Amplitude Images [nV] - Plasmagram (Time vs. Range)"
+     VAR_NOTES       (CDF_UCHAR/3): "TBD"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/10): "flip_image"
+     COMPONENT_0     (CDF_CHAR/9): "Amplitude"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+Amplitude2M (No: 18) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/35): "Echo Amplitude (plasmagram - movie)"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     LABLAXIS        (CDF_UCHAR/14): "Echo Amplitude"
+     FILLVAL         (CDF_UINT1/1): 255
+     UNITS           (CDF_UCHAR/10): "3/4 dBnV/m"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 254
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/4): "Time"
+     DEPEND_2        (CDF_UCHAR/5): "Range"
+     DISPLAY_TYPE    (CDF_CHAR/165): "plasma_movie>x=Time,y=Range,z=Amplitude2,labl=RepetitionRate,labl=XmtrAntenna,labl=Waveform,labl=OpMode,labl=PeakPower,labl=FreqSearch,labl=BaseGain,labl=GainControl"
+     CATDESC         (CDF_UCHAR/28): " ---> Movie (Time vs. Range)"
+     VAR_NOTES       (CDF_UCHAR/3): "TBD"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/10): "flip_image"
+     COMPONENT_0     (CDF_CHAR/9): "Amplitude"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+Amplitude (No: 19) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/27): "Echo Amplitude x=time,y=rng"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     LABLAXIS        (CDF_UCHAR/14): "Echo Amplitude"
+     FILLVAL         (CDF_UINT1/1): 255
+     UNITS           (CDF_UCHAR/10): "3/4 dBnV/m"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 254
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/4): "Time"
+     DEPEND_2        (CDF_UCHAR/5): "Range"
+     DISPLAY_TYPE    (CDF_UCHAR/5): "Image"
+     CATDESC         (CDF_UCHAR/45): " ---> Plain image (Time vs. Range, no scales)"
+     VAR_NOTES       (CDF_UCHAR/3): "TBD"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+ProgramSpecs (No: 20) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "Program Specifications"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_UCHAR/2): "I6"
+     VALIDMIN        (CDF_INT2/1): -32767
+     VALIDMAX        (CDF_INT2/1): 32767
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_UCHAR/12): "ProgSpec_lbl"
+     CATDESC         (CDF_CHAR/40): "Program Specifications (25 values/epoch)"
+     VAR_NOTES       (CDF_CHAR/3): "TBD"
+     UNIT_PTR        (CDF_UCHAR/14): "ProgSpec_units"
+
+ProgSpec_lbl (No: 21) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Program spec. label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/6): "label>"
+     FORMAT          (CDF_CHAR/3): "A18"
+
+ProgSpec_units (No: 22) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Program spec. units"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/6): "label>"
+     FORMAT          (CDF_CHAR/2): "A8"
+
+MPA (No: 23) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/3): "MPA"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     LABLAXIS        (CDF_UCHAR/23): "Most Probable Amplitude"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_UCHAR/2): "I3"
+     UNITS           (CDF_UCHAR/10): "3/4 dBnV/m"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 254.0
+     VAR_NOTES       (CDF_UCHAR/23): "Most probable amplitude"
+
+Azimuth (No: 24) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/18): "Echo Azimuth angle"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     LABLAXIS        (CDF_UCHAR/7): "Azimuth"
+     FILLVAL         (CDF_UINT1/1): 255
+     UNITS           (CDF_UCHAR/12): "360/254 deg."
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 254
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/4): "Time"
+     DEPEND_2        (CDF_UCHAR/5): "Range"
+     DISPLAY_TYPE    (CDF_UCHAR/5): "Image"
+     CATDESC         (CDF_UCHAR/18): "Echo Azimuth angle"
+     VAR_NOTES       (CDF_UCHAR/38): "Values 0 to 254 cover 0 to 360 degrees"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+Time (No: 25) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/10): "Time Meas."
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     LABLAXIS        (CDF_UCHAR/10): "Time Meas."
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/5): "F16.1"
+     UNITS           (CDF_UCHAR/7): "seconds"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 3600.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "Frequency_No"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/30): "Actual sounding times measured"
+     VAR_NOTES       (CDF_UCHAR/43): "Time since the measurement start in seconds"
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 3600.0
+
+NumRanges (No: 26) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/23): "Actual Number of Ranges"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/16): "No. Ranges Meas."
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I4"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     CATDESC         (CDF_CHAR/38): "Actual number of ranges being measured"
+     VAR_NOTES       (CDF_CHAR/63): "Number of Ranges, depending on program setting and processing. "
+
+Range (No: 27) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/21): "Range values measured"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     LABLAXIS        (CDF_UCHAR/5): "Range"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F6.2"
+     UNITS           (CDF_UCHAR/2): "Re"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "Range_No"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/21): "Measured range values"
+     VAR_NOTES       (CDF_CHAR/14): "Range readings"
+
+Zenith (No: 28) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/17): "Echo Zenith angle"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     LABLAXIS        (CDF_UCHAR/6): "Zenith"
+     FILLVAL         (CDF_UINT1/1): 255
+     UNITS           (CDF_UCHAR/4): "deg."
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 180
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/4): "Time"
+     DEPEND_2        (CDF_UCHAR/5): "Range"
+     DISPLAY_TYPE    (CDF_UCHAR/5): "Image"
+     CATDESC         (CDF_UCHAR/17): "Echo Zenith angle"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+DopplerNumber (No: 29) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/19): "Echo Doppler Number"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     LABLAXIS        (CDF_UCHAR/14): "Doppler Number"
+     FILLVAL         (CDF_UINT1/1): 255
+     UNITS           (CDF_UCHAR/5): "steps"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/4): "Time"
+     DEPEND_2        (CDF_UCHAR/5): "Range"
+     DISPLAY_TYPE    (CDF_UCHAR/5): "Image"
+     CATDESC         (CDF_UCHAR/19): "Echo Doppler Number"
+     VAR_NOTES       (CDF_UCHAR/3): "TBD"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+DopplerTranslation (No: 30) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/19): "Doppler Translation"
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_UCHAR/4): "F8.1"
+     UNITS           (CDF_UCHAR/2): "Hz"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/13): "DopplerNumber"
+     VAR_NOTES       (CDF_UCHAR/110): "Translates Doppler Number to an actual Doppler Frequency. The entries are  calculated from program parameters."
+
+Range_No (No: 31) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Range_No"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     LABLAXIS        (CDF_CHAR/8): "Range No"
+     FILLVAL         (CDF_INT2/1): -1
+     FORMAT          (CDF_CHAR/2): "i4"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 128
+     CATDESC         (CDF_CHAR/8): "Range_No"
+
+Frequency_No (No: 32) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Frequency_No"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/6): "number"
+     LABLAXIS        (CDF_CHAR/7): "Freq No"
+     FILLVAL         (CDF_INT2/1): -1
+     FORMAT          (CDF_CHAR/2): "i4"
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 256
+     CATDESC         (CDF_CHAR/12): "Frequency_No"
+

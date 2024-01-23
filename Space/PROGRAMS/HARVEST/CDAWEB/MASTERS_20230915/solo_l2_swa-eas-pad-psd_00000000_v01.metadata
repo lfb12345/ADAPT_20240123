@@ -1,0 +1,341 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/solo_l2_swa-eas-pad-psd_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     solo_l2_swa-eas-pad-psd_00000000_v01.cdf
+Version:      3.9.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     16
+NumAttrs:     42 (21 global, 21 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (21 attributes)
+=========================================
+Project (2 entries):
+	0 (CDF_CHAR/13): 	"Solar Orbiter"
+	1 (CDF_CHAR/14): 	"Cosmic Visions"
+Source_name (1 entry):
+	0 (CDF_CHAR/18): 	"SOLO>Solar Orbiter"
+Descipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/29): 	"L2>Level 2 2D Burst Mode Data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/15): 	"swa-eas-pad-psd"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Software_version (1 entry):
+	0 (CDF_CHAR/8): 	"01.00.00"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"C. J. Owen"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/39): 	"MSSL-UCL, University College London, UK"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/13): 	"Solar Orbiter"
+Logical_source (1 entry):
+	0 (CDF_CHAR/23): 	"solo_L2_swa-eas-pad-psd"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/59): 	"solo_L2_swa-eas-pad-psd_20200616T090001-20200616T100000_V01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/135): 	"Solar Orbiter Level 2 Phase Space Density (PSD) of Pitch Angle Data (PAD) from Solar Wind Analyser (SWA) Electron Analyser System (EAS)"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/91): 	"Current best quality data - see caveats file or contact SWA/EAS team for information on use"
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Mods (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Data_Product (1 entry):
+	0 (CDF_CHAR/30): 	"pad-psd>pitch angle data - psd"
+Level (1 entry):
+	0 (CDF_CHAR/15): 	"L2>Level 2 Data"
+Instrument (1 entry):
+	0 (CDF_CHAR/52): 	"SWA-EAS>Solar Wind Analyser-Electron Analyser System"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+UNITS
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+SCALETYP
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+ACC_TIME
+COORDINATE_SYSTEM
+VAR_TYPE
+VAR_NOTES
+SI_CONVERSION
+
+Variable Information (0 rVariable, 16 zVariables)
+===========================================================
+EPOCH                 CDF_TT2000/1	0:[]	T/  
+SWA_EAS_BM_Data       CDF_REAL8/1	3:[2,64,32]	T/TTT
+SWA_EAS_PAD_PSD_Data  CDF_REAL8/1	3:[2,64,32]	T/TTT
+SWA_EAS_ELEVATION     CDF_REAL8/1	1:[2]	T/T
+SWA_EAS_ELEVATION_delta_upper CDF_REAL8/1	1:[2]	T/T
+SWA_EAS_ELEVATION_delta_lower CDF_REAL8/1	1:[2]	T/T
+SWA_EAS_AZIMUTH       CDF_REAL8/1	1:[32]	F/T
+SWA_EAS_AZIMUTH_delta_upper CDF_REAL8/1	1:[32]	F/T
+SWA_EAS_AZIMUTH_delta_lower CDF_REAL8/1	1:[32]	F/T
+SWA_EAS_ENERGY        CDF_REAL8/1	1:[64]	T/T
+SWA_EAS_ENERGY_delta_upper CDF_REAL8/1	1:[64]	T/T
+SWA_EAS_ENERGY_delta_lower CDF_REAL8/1	1:[64]	T/T
+SWA_EAS_EasUsed       CDF_UINT4/1	0:[]	T/  
+EAS_TO_SRF            CDF_REAL8/1	2:[3,3]	T/TT
+QUALITY_FLAG          CDF_UINT1/1	0:[]	T/  
+QUALITY_BITMASK       CDF_UINT2/1	0:[]	T/  
+
+
+Variable (16 variables)
+=========================================
+
+EPOCH (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "EPOCH"
+     CATDESC         (CDF_CHAR/86): "Epoch in nano-seconds since J2000, encoded as terrestrial time on rotating Earth Geoid"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_INT8/1): 01-JAN-0000 00:00:00.000000000
+     FORMAT          (CDF_CHAR/3): "I20"
+     LABLAXIS        (CDF_CHAR/9): "EAS EPOCH"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_INT8/1): 31-Dec-2049 11:58:50.816000000
+     VALIDMAX        (CDF_INT8/1): 01-Jan-2060 11:58:50.816000000
+     SCALEMIN        (CDF_INT8/1): 1577836800000000000
+     SCALEMAX        (CDF_INT8/1): 1893456000000000000
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/78): "The EAS time tag is from the center of the acquisition interval which is 1 sec"
+     SI_CONVERSION   (CDF_CHAR/11): "1.0>1E+09 S"
+
+SWA_EAS_BM_Data (No: 1) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "swa_eas_bm_data"
+     CATDESC         (CDF_CHAR/151): "Electron pitch angle data - Phase Space Density [available 06/2020 - 10/2020, varying energy, azimuth and elevation angles, CDAWeb plots not supported]"
+     DISPLAY_TYPE    (CDF_CHAR/11): "Spectrogram"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f14.3"
+     LABLAXIS        (CDF_CHAR/19): "Phase Space Density"
+     UNITS           (CDF_CHAR/9): "s^3 km^-6"
+     VALIDMIN        (CDF_UINT1/1): 48
+     VALIDMAX        (CDF_UINT4/1): 808464433
+     SCALEMIN        (CDF_UINT1/1): 48
+     SCALEMAX        (CDF_UINT4/1): 808464433
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/17): "SWA_EAS_ELEVATION"
+     DEPEND_2        (CDF_CHAR/14): "SWA_EAS_ENERGY"
+     DEPEND_3        (CDF_CHAR/15): "SWA_EAS_AZIMUTH"
+     COORDINATE_SYSTEM (CDF_CHAR/3): "EAS"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SI_CONVERSION   (CDF_CHAR/16): "1>1e-18 s^3 m^-6"
+
+SWA_EAS_PAD_PSD_Data (No: 2) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "swa_eas_pad_psd_data"
+     CATDESC         (CDF_CHAR/151): "Electron pitch angle data - Phase Space Density [available 04/2021 - ongoing, varying energy, azimuth and elevation angles, CDAWeb plots not supported]"
+     DISPLAY_TYPE    (CDF_CHAR/11): "Spectrogram"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f14.6"
+     LABLAXIS        (CDF_CHAR/19): "Phase Space Density"
+     UNITS           (CDF_CHAR/9): "s^3 km^-6"
+     VALIDMIN        (CDF_REAL8/1): 1.0e-05
+     VALIDMAX        (CDF_REAL8/1): 1.0e+08
+     SCALEMIN        (CDF_REAL8/1): 1.0e-05
+     SCALEMAX        (CDF_REAL8/1): 1.0e+08
+     SCALETYP        (CDF_CHAR/3): "log"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     DEPEND_1        (CDF_CHAR/17): "SWA_EAS_ELEVATION"
+     DEPEND_2        (CDF_CHAR/14): "SWA_EAS_ENERGY"
+     DEPEND_3        (CDF_CHAR/15): "SWA_EAS_AZIMUTH"
+     COORDINATE_SYSTEM (CDF_CHAR/17): "SOLO_SWA_EASx-SCI"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SI_CONVERSION   (CDF_CHAR/14): "1E-18>s^3 m^-6"
+
+SWA_EAS_ELEVATION (No: 3) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "EAS Elevation"
+     CATDESC         (CDF_CHAR/51): "The elevation angles of the EAS sensor bin centres."
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "e14.4"
+     LABLAXIS        (CDF_CHAR/15): "Elevation Angle"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_REAL8/1): -45.0
+     VALIDMAX        (CDF_REAL8/1): 45.0
+     SCALEMIN        (CDF_REAL8/1): -45.0
+     SCALEMAX        (CDF_REAL8/1): 45.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWA_EAS_ELEVATION_delta_upper (No: 4) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "EAS Elevation delta upper"
+     CATDESC         (CDF_CHAR/33): "Upper half width of elevation bin"
+     FORMAT          (CDF_CHAR/5): "f14.4"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWA_EAS_ELEVATION_delta_lower (No: 5) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "EAS Elevation delta lower"
+     CATDESC         (CDF_CHAR/33): "Lower half width of elevation bin"
+     FORMAT          (CDF_CHAR/5): "f14.4"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWA_EAS_AZIMUTH (No: 6) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "EAS Azimuth"
+     CATDESC         (CDF_CHAR/49): "The azimuth angles of the EAS sensor bin centres."
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f14.4"
+     LABLAXIS        (CDF_CHAR/13): "Azimuth Angle"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 360.0
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 360.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWA_EAS_AZIMUTH_delta_upper (No: 7) (Recs: 1)
+---------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "EAS Azimuth upper delta"
+     CATDESC         (CDF_CHAR/31): "Upper half width of azimuth bin"
+     FORMAT          (CDF_CHAR/5): "f14.3"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWA_EAS_AZIMUTH_delta_lower (No: 8) (Recs: 1)
+---------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "EAS Azimuth lower delta"
+     CATDESC         (CDF_CHAR/31): "Lower half width of azimuth bin"
+     FORMAT          (CDF_CHAR/5): "f14.3"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWA_EAS_ENERGY (No: 9) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "EAS Energy"
+     CATDESC         (CDF_CHAR/62): "The Energy Bin used to obtain the Single Strahl value for EAS."
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "e14.4"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/13): "ElectronVolts"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 6000.0
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 6000.0
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SI_CONVERSION   (CDF_CHAR/16): "1.60217646E-19>J"
+
+SWA_EAS_ENERGY_delta_upper (No: 10) (Recs: 0) (Compression: GZIP.6)
+--------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "EAS Energy upper delta"
+     CATDESC         (CDF_CHAR/30): "Upper half width of energy bin"
+     FORMAT          (CDF_CHAR/5): "f14.4"
+     UNITS           (CDF_CHAR/13): "ElectronVolts"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWA_EAS_ENERGY_delta_lower (No: 11) (Recs: 0) (Compression: GZIP.6)
+--------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "EAS Energy lower delta"
+     CATDESC         (CDF_CHAR/30): "Lower half width of energy bin"
+     FORMAT          (CDF_CHAR/5): "f14.4"
+     UNITS           (CDF_CHAR/13): "ElectronVolts"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+SWA_EAS_EasUsed (No: 12) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "EAS sensor used"
+     CATDESC         (CDF_CHAR/45): "The EAS sensor used for Burst data collection"
+     FORMAT          (CDF_CHAR/2): "I1"
+     LABLAXIS        (CDF_CHAR/8): "EAS used"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT2/1): 1
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT2/1): 1
+     SCALETYP        (CDF_CHAR/3): "lin"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/15): "0: EAS1; 1:EAS2"
+
+EAS_TO_SRF (No: 13) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "EAS-SRF Rotation matrix"
+     CATDESC         (CDF_CHAR/68): "The rotation matrix to go from EAS frame to Spacefra reference frame"
+     FORMAT          (CDF_CHAR/5): "f14.6"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+QUALITY_FLAG (No: 14) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "EAS Data Quality"
+     CATDESC         (CDF_CHAR/21): "EAS Data Quality flag"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/16): "EAS data quality"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 4
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 4
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+QUALITY_BITMASK (No: 15) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Quality bitmask"
+     CATDESC         (CDF_CHAR/43): "Detailed information about EAS data quality"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/15): "Quality bitmask"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65535
+     SCALEMIN        (CDF_UINT2/1): 0
+     SCALEMAX        (CDF_UINT2/1): 4
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "EPOCH"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/96): "This bitwise variable is used to indicate EAS data quality in detail. Details not finalized yet."
+

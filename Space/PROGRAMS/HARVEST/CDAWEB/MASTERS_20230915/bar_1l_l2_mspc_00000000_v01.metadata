@@ -1,0 +1,262 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/bar_1l_l2_mspc_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     bar_1l_l2_mspc_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     9
+NumAttrs:     44 (23 global, 21 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_type (1 entry):
+	0 (CDF_CHAR/10): 	"l2>Level-2"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"Robyn Millan"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/17): 	"Dartmouth College"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"BARREL"
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"LWS>Living With a Star>BARREL"
+Source_name (1 entry):
+	0 (CDF_CHAR/6): 	"bar_1L"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"04"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/26): 	"http://barreldata.ucsc.edu"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/32): 	"BARREL Data Repository and Tools"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/86): 	"Access to all releases of BARREL data and links to the Science Operation Center tools."
+Generation_date (1 entry):
+	0 (CDF_CHAR/10): 	"2015/03/20"
+Generated_by (1 entry):
+	0 (CDF_CHAR/20): 	"BARREL CDF Generator"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/265): 	"BARREL will make all its scientific data products quickly and publicly available but all users are expected to read and follow the "BARREL Mission Data Usage Policy" which can be found in the BARREL data repository or obtained by contacting barrelballoons@gmail.com"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/42): 	"Medium time resolution (4s) X-ray spectrum"
+TEXT (1 entry):
+	0 (CDF_CHAR/83): 	"Bremsstrahlung X-ray spectra each made of 48 energy bins transmitted over 4 frames."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/37): 	"Electron Precipitation Bremsstrahlung"
+Descriptor (1 entry):
+	0 (CDF_CHAR/20): 	"MSPC>Medium SPeCtrum"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/2): 	"4s"
+Logical_source (1 entry):
+	0 (CDF_CHAR/14): 	"bar_1L_l2_mspc"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/27): 	"bar_1L_l2_mspc_20130106_V04"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/58): 	"spase://NASA/NumericalData/BARREL/1L/MediumSpectra/L2/PT4S"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+UNITS
+SCALETYPE
+VALIDMIN
+VALIDMAX
+FILLVAL
+LABLAXIS
+MONOTON
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+DEPEND_0
+FORMAT
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+DEPEND_1
+
+Variable Information (0 rVariable, 9 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+FrameGroup            CDF_UINT4/1	0:[]	T/  
+Quality               CDF_UINT4/1	0:[]	T/  
+HalfAccumTime         CDF_INT8/1	0:[]	F/  
+MSPC                  CDF_FLOAT/1	1:[48]	T/T
+energy                CDF_FLOAT/1	1:[48]	F/T
+cnt_error             CDF_FLOAT/1	1:[48]	T/T
+channel               CDF_UINT1/1	1:[48]	F/T
+HalfBinWidth          CDF_FLOAT/1	1:[48]	F/T
+
+
+Variable (9 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/2): "ns"
+     SCALETYPE       (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_TT2000/1): 2012-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2015-11-30T23:59:59.000000000
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earch Geoid"
+     DELTA_MINUS_VAR (CDF_CHAR/13): "HalfAccumTime"
+     DELTA_PLUS_VAR  (CDF_CHAR/13): "HalfAccumTime"
+
+FrameGroup (No: 1) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Frame Number"
+     CATDESC         (CDF_CHAR/17): "DPU Frame Counter"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/5): "Frame"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I10"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Quality (No: 2) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Data Quality Flag"
+     CATDESC         (CDF_CHAR/17): "Data Quality Flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/17): "0 means no issues"
+     SCALETYPE       (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967295
+     FILLVAL         (CDF_UINT4/1): 2147483648
+     LABLAXIS        (CDF_CHAR/1): "Q"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I10"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/41): "32bit flag used to indicate data quality."
+
+HalfAccumTime (No: 3) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Half accumulation time."
+     CATDESC         (CDF_CHAR/42): "Period of time used to accumulate spectra."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_INT8/1): 1999999999
+     VALIDMAX        (CDF_INT8/1): 2000000001
+     FILLVAL         (CDF_INT8/1): -9223372036854775808
+     LABLAXIS        (CDF_CHAR/9): "AccumTime"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+MSPC (No: 4) (Recs: 0) (Compression: GZIP.6)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "MSPC"
+     CATDESC         (CDF_CHAR/20): "Medium Spectrum (4s)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/12): "cnts/keV/sec"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1707.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "MSPC"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/71): "Rebinned, divided by energy bin widths and adjusted to /sec time scale."
+     SCALETYP        (CDF_CHAR/3): "log"
+     DELTA_MINUS_VAR (CDF_CHAR/9): "cnt_error"
+     DELTA_PLUS_VAR  (CDF_CHAR/9): "cnt_error"
+     DEPEND_1        (CDF_CHAR/6): "energy"
+
+energy (No: 5) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "energy"
+     CATDESC         (CDF_CHAR/12): "Energy Level"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/3): "keV"
+     VALIDMIN        (CDF_FLOAT/1): 100.0
+     VALIDMAX        (CDF_FLOAT/1): 4100.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     VAR_NOTES       (CDF_CHAR/39): "Center of each medium spectrum channel."
+     SCALETYP        (CDF_CHAR/3): "log"
+     DELTA_MINUS_VAR (CDF_CHAR/12): "HalfBinWidth"
+     DELTA_PLUS_VAR  (CDF_CHAR/12): "HalfBinWidth"
+
+cnt_error (No: 6) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Count Error"
+     CATDESC         (CDF_CHAR/40): "Count error based on Poisson statistics."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/12): "cnts/sec/keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "Error"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     VAR_NOTES       (CDF_CHAR/40): "Error only valid for large count values."
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_1        (CDF_CHAR/7): "channel"
+
+channel (No: 7) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "channel"
+     CATDESC         (CDF_CHAR/14): "Channel Number"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/7): "channel"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 48
+     FILLVAL         (CDF_UINT1/1): 255
+     LABLAXIS        (CDF_CHAR/7): "Channel"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_NOTES       (CDF_CHAR/22): "Channel number 0 - 47."
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+HalfBinWidth (No: 8) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Bin Width"
+     CATDESC         (CDF_CHAR/23): "Width of energy channel"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/3): "keV"
+     VALIDMIN        (CDF_FLOAT/1): 3.0
+     VALIDMAX        (CDF_FLOAT/1): 157.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "Width"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F6.3"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

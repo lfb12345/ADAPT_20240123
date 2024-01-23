@@ -1,0 +1,687 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_sfpd_3dp_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_sfpd_3dp_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     1
+NumzVars:     29
+NumAttrs:     52 (27 global, 25 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (27 attributes)
+=========================================
+Data_type (1 entry):
+	0 (CDF_CHAR/46): 	"SFPD>SST Foil Energetic Electron Distributions"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/90): 	"Electron energy-angle distributions 27 keV to 520 keV, often at 24 sec, SST Foil, Wind 3DP"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+TEXT (5 entries):
+	0 (CDF_CHAR/64): 	"Wind 3dp, SST Foil energetic electron pitch angle distributions."
+	1 (CDF_CHAR/830): 	"General Notes per Lynn Wilson Jan 2015:  The solid-state telescope (SST) for Wind 3DP electrons returns a velocity distribution function containing 7 energy bins and 48 solid-angle bins.  The automated CDF routine appears to remove all the following solid-angle bins: [7,8,9,15,31,32,33] = sun/anti-sun look directions, and [20,21,22,23,44,45,46,47] = low geometry factor bins (also correspond to the SST Thick anti-coincidence detector bins).  The sun/anti-sun directions are removed to avoid X-ray and EUV contamination, which is often seen during solar flares.  The onset looks exactly like the GOES X-ray observations, which is kind of fun but not what we want to look at.  Unfortunately, these look directions can correspond to the magnetic field direction, which can limit the times when we would like to examine SEP events."
+	2 (CDF_CHAR/436): 	"General Notes per Lynn Wilson Jan 2015:   Note that SST Open (e.g., wi_sopd_3dp_00000000_v01.cdf) software removes the following additional solid-angle bins:  [0,1,24,25] = noisy.  Additionally, SST Open has 9 energy channels from ~70 keV to ~6.7 or 7.1 MeV, depending on the mode the instrument is in.  It does not appear that the routine mk_sosp_cdf.pro removes any of these ...bad... look directions, so that should be noted as well."
+	3 (CDF_CHAR/235): 	"General Notes per Lynn Wilson Jan 2015:  Inside the radiation belts, both Foil and Open saturate and suffer from penetrating particles.  The instruments are not shielded, so they can only provide relative changes when in these regions."
+	4 (CDF_CHAR/121): 	"General Notes per Lynn Wilson Jan 2015:  The data all look like they are in units of number flux or # cm-2 s-1 sr-1 eV-1."
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"R. Lin/S. Bale"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/11): 	"UC Berkeley"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/23): 	"3DP>3-D PLASMA ANALYZER"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0143"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+MODS (0 entry):
+Time_resolution (0 entry):
+Link_text (2 entries):
+	0 (CDF_CHAR/1): 	" "
+	1 (CDF_CHAR/9): 	"Wind 3DP "
+Link_title (2 entries):
+	0 (CDF_CHAR/48): 	"Caveats for the correct use of Wind 3DP datasets"
+	1 (CDF_CHAR/49): 	"home page at UCB (with plotting and digital data)"
+HTTP_link (2 entries):
+	0 (CDF_CHAR/64): 	"https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/wind3dp_caveats.pdf"
+	1 (CDF_CHAR/37): 	"http://sprg.ssl.berkeley.edu/wind3dp/"
+Logical_source (1 entry):
+	0 (CDF_CHAR/11): 	"wi_sfpd_3dp"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/24): 	"wi_sfpd_3dp_00000000_v01"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/4): 	"Wind"
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/5): 	"FALSE"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/53): 	"spase://NASA/NumericalData/Wind/3DP/SST_Foil/PD/PT24S"
+
+Variable Attributes (25 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_NOTES
+DICT_KEY
+VAR_TYPE
+FORM_PTR
+FORMAT
+UNIT_PTR
+UNITS
+SCAL_PTR
+SCALETYP
+FILLVAL
+LABLAXIS
+VALIDMIN
+VALIDMAX
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_1
+DEPEND_2
+LABL_PTR_1
+VIRTUAL
+FUNCT
+COMPONENT_0
+LABL_PTR_2
+ALLOW_BIN
+
+Variable Information (1 rVariable, 29 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+FLUX                  CDF_FLOAT/1	2:[8,7]	T/TT
+FLUX_byE_atA          CDF_FLOAT/1	2:[8,7]	T/TT
+FLUX_byE_atA_stackPA0 CDF_FLOAT/1	1:[7]	T/T
+FLUX_byE_atA_stackPA1 CDF_FLOAT/1	1:[7]	T/T
+FLUX_byE_atA_stackPA2 CDF_FLOAT/1	1:[7]	T/T
+FLUX_byE_atA_stackPA3 CDF_FLOAT/1	1:[7]	T/T
+FLUX_byE_atA_stackPA4 CDF_FLOAT/1	1:[7]	T/T
+FLUX_byE_atA_stackPA5 CDF_FLOAT/1	1:[7]	T/T
+FLUX_byE_atA_stackPA6 CDF_FLOAT/1	1:[7]	T/T
+FLUX_byE_atA_stackPA7 CDF_FLOAT/1	1:[7]	T/T
+FLUX_byA_atE          CDF_FLOAT/1	2:[8,7]	T/TT
+FLUX_byA_atE_stackE0  CDF_FLOAT/1	1:[8]	T/T
+FLUX_byA_atE_stackE1  CDF_FLOAT/1	1:[8]	T/T
+FLUX_byA_atE_stackE2  CDF_FLOAT/1	1:[8]	T/T
+FLUX_byA_atE_stackE3  CDF_FLOAT/1	1:[8]	T/T
+FLUX_byA_atE_stackE4  CDF_FLOAT/1	1:[8]	T/T
+FLUX_byA_atE_stackE5  CDF_FLOAT/1	1:[8]	T/T
+FLUX_byA_atE_stackE6  CDF_FLOAT/1	1:[8]	T/T
+PANGLE                CDF_FLOAT/1	1:[8]	T/T
+ENERGY                CDF_FLOAT/1	1:[7]	T/T
+ENERGY_filled         CDF_FLOAT/1	1:[7]	T/T
+INTEG_T               CDF_FLOAT/1	0:[]	T/  
+MAGF                  CDF_FLOAT/1	1:[3]	T/T
+MAGF_LABL_1           CDF_CHAR/6	1:[3]	F/T
+APPROX_PITCH_LABELS   CDF_CHAR/26	1:[8]	F/T
+APPROX_ENERGY_LABELS  CDF_CHAR/24	1:[7]	F/T
+FLUX_PA_LABL          CDF_CHAR/28	1:[8]	F/T
+FLUX_ENERGY_LABL      CDF_CHAR/27	1:[7]	F/T
+TIME                  CDF_DOUBLE/1	0:[]	T/  
+
+
+Variable (30 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/14): "Time, Centered"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e12.0"
+     UNITS           (CDF_CHAR/2): "ms"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.999
+
+FLUX (No: 0) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/100): "Electron number flux 27 keV to 520 keV in 7 energy and 8 pitch angle bins (as energy-angle displays)"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/16): "Electron_No_Flux"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/68): "plasmagram>THUMBSIZE>166>xsz=8,ysz=9>x=PANGLE,y=ENERGY_filled,z=FLUX"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     DEPEND_2        (CDF_CHAR/13): "ENERGY_filled"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+FLUX_byE_atA (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/82): "Electron number flux 27 keV to 520 keV at 8 pitch angles as spectrograms by energy"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/194): "spectrogram>y=ENERGY_filled,z=FLUX_byE_atA(1,*), z=FLUX_byE_atA(2,*), z=FLUX_byE_atA(3,*), z=FLUX_byE_atA(4,*), z=FLUX_byE_atA(5,*), z=FLUX_byE_atA(6,*), z=FLUX_byE_atA(7,*), z=FLUX_byE_atA(8,*)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     DEPEND_2        (CDF_CHAR/13): "ENERGY_filled"
+     LABL_PTR_1      (CDF_CHAR/12): "FLUX_PA_LABL"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+     LABL_PTR_2      (CDF_CHAR/16): "FLUX_ENERGY_LABL"
+
+FLUX_byE_atA_stackPA0 (No: 2) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/102): "Electron number flux 27 keV to 520 keV as a stack_plot of 7 energies at the Bin1 angle (often ~15 deg)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/27): "ElecNoFLux_Bin1_Often~15deg"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/45): "stack_plot>NOBAR>y=FLUX_byE_atA_stackPA0(0,*)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byE_atA_stackPA1 (No: 3) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/54): "---> As a stack_plot at the Bin2 angle (often ~35 deg)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/27): "ElecNoFLux_Bin2_Often~35deg"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/45): "stack_plot>NOBAR>y=FLUX_byE_atA_stackPA1(1,*)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byE_atA_stackPA2 (No: 4) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/54): "---> As a stack_plot at the Bin3 angle (often ~57 deg)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/27): "ElecNoFLux_Bin3_Often~57deg"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/45): "stack_plot>NOBAR>y=FLUX_byE_atA_stackPA2(2,*)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byE_atA_stackPA3 (No: 5) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/54): "---> As a stack_plot at the Bin4 angle (often ~80 deg)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/27): "ElecNoFLux_Bin4_Often~80deg"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/45): "stack_plot>NOBAR>y=FLUX_byE_atA_stackPA3(3,*)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byE_atA_stackPA4 (No: 6) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/55): "---> As a stack_plot at the Bin5 angle (often ~102 deg)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/28): "ElecNoFLux_Bin5_Often~102deg"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/45): "stack_plot>NOBAR>y=FLUX_byE_atA_stackPA4(4,*)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byE_atA_stackPA5 (No: 7) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/55): "---> As a stack_plot at the Bin6 angle (often ~123 deg)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/28): "ElecNoFLux_Bin6_Often~123deg"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/45): "stack_plot>NOBAR>y=FLUX_byE_atA_stackPA5(5,*)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byE_atA_stackPA6 (No: 8) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/55): "---> As a stack_plot at the Bin7 angle (often ~145 deg)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/28): "ElecNoFLux_Bin7_Often~145deg"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/45): "stack_plot>NOBAR>y=FLUX_byE_atA_stackPA6(6,*)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byE_atA_stackPA7 (No: 9) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/55): "---> As a stack_plot at the Bin8 angle (often ~165 deg)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/28): "ElecNoFLux_Bin8_Often~165deg"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/45): "stack_plot>NOBAR>y=FLUX_byE_atA_stackPA7(7,*)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "ENERGY_filled"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byA_atE (No: 10) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/82): "Electron number flux 27 keV - 520 keV at 7 energies as spectrograms by pitch angle"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/166): "spectrogram>y=PANGLE,z=FLUX_byA_atE(*,1), z=FLUX_byA_atE(*,2), z=FLUX_byA_atE(*,3), z=FLUX_byA_atE(*,4), z=FLUX_byA_atE(*,5), z=FLUX_byA_atE(*,6), z=FLUX_byA_atE(*,7)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     DEPEND_2        (CDF_CHAR/13): "ENERGY_filled"
+     LABL_PTR_1      (CDF_CHAR/12): "FLUX_PA_LABL"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+     LABL_PTR_2      (CDF_CHAR/16): "FLUX_ENERGY_LABL"
+
+FLUX_byA_atE_stackE0 (No: 11) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/106): "Electron number flux 27 keV to 520 keV as a stack plot of 8 pitch angles at the Ch1 energy (often ~27 keV)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/26): "ElecNoFlux_Ch1_Often~27keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/44): "stack_plot>NOBAR>y=FLUX_byA_atE_stackE0(*,0)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byA_atE_stackE1 (No: 12) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/56): "---> As a stack plot at the Ch2 energy (often ~40.5 keV)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/26): "ElecNoFlux_Ch2_Often~40keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/44): "stack_plot>NOBAR>y=FLUX_byA_atE_stackE1(*,1)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byA_atE_stackE2 (No: 13) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/54): "---> As a stack plot at the Ch3 energy (often ~86 keV)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/26): "ElecNoFlux_Ch3_Often~86keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/44): "stack_plot>NOBAR>y=FLUX_byA_atE_stackE2(*,2)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byA_atE_stackE3 (No: 14) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/55): "---> As a stack plot at the Ch4 energy (often ~110 keV)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/27): "ElecNoFlux_Ch4_Often~110keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/44): "stack_plot>NOBAR>y=FLUX_byA_atE_stackE3(*,3)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byA_atE_stackE4 (No: 15) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/55): "---> As a stack plot at the Ch5 energy (often ~180 keV)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/27): "ElecNoFlux_Ch5_Often~180keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/44): "stack_plot>NOBAR>y=FLUX_byA_atE_stackE4(*,4)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byA_atE_stackE5 (No: 16) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/55): "---> As a stack plot at the Ch6 energy (often ~310 keV)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/27): "ElecNoFlux_Ch6_Often~310keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/44): "stack_plot>NOBAR>y=FLUX_byA_atE_stackE5(*,5)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+FLUX_byA_atE_stackE6 (No: 17) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Electron_No_Flux"
+     CATDESC         (CDF_CHAR/55): "---> As a stack plot at the Ch7 energy (often ~520 keV)"
+     DICT_KEY        (CDF_CHAR/13): "particle_flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     UNITS           (CDF_CHAR/17): "#/cm2-ster-eV-sec"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/27): "ElecNoFlux_Ch7_Often~520keV"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100000.0
+     DISPLAY_TYPE    (CDF_CHAR/44): "stack_plot>NOBAR>y=FLUX_byA_atE_stackE6(*,6)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "PANGLE"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/16): "make_stack_array"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+
+PANGLE (No: 18) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Pitch Angle"
+     CATDESC         (CDF_CHAR/53): "Time-varying electron pitch angles for 8 angular bins"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/3): "deg"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/11): "Pitch Angle"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/19): "APPROX_PITCH_LABELS"
+
+ENERGY (No: 19) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     CATDESC         (CDF_CHAR/50): "---> Time-varying electron energies for 7 channels"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_FLOAT/1): 20000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/20): "APPROX_ENERGY_LABELS"
+
+ENERGY_filled (No: 20) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     CATDESC         (CDF_CHAR/50): "---> Time-varying electron energies for 7 channels"
+     VAR_NOTES       (CDF_CHAR/44): "Uses fix-sparse to fill in nan energy values"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/1): 20000.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+06
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/20): "APPROX_ENERGY_LABELS"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/10): "fix_sparse"
+     COMPONENT_0     (CDF_CHAR/6): "ENERGY"
+
+INTEG_T (No: 21) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "INTEG_T"
+     CATDESC         (CDF_CHAR/48): "[INTEG_T]  Integration time for the distribution"
+     VAR_NOTES       (CDF_CHAR/345): "Per Lynn Wilson Jan 2015: For Wind/3DP, this variable corresponds to the integration time for the entire distribution (it has a slightly different definition for THEMIS ESA unfortunately).  In the 3DP IDL structures, there is a tag for the start (TIME) and one for the end (END_TIME) defined as Unix times.  For 3DP, INTEG_T = END_TIME ... TIME."
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/3): "sec"
+     FILLVAL         (CDF_FLOAT/1): nan
+     LABLAXIS        (CDF_CHAR/7): "INTEG_T"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+08
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+08
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+MAGF (No: 22) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "MAGF"
+     CATDESC         (CDF_CHAR/42): "[MAGF] Magnetic field cartesian GSE vector"
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/2): "nT"
+     FILLVAL         (CDF_FLOAT/1): nan
+     VALIDMIN        (CDF_FLOAT/3): -10.0, -10.0, -10.0
+     VALIDMAX        (CDF_FLOAT/3): 10.0, 10.0, 10.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/11): "MAGF_LABL_1"
+
+MAGF_LABL_1 (No: 23) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "MAGF_LABL_1"
+     CATDESC         (CDF_CHAR/11): "MAGF_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a6"
+
+APPROX_PITCH_LABELS (No: 24) (Recs: 1)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "APPROX_PITCH_LABELS"
+     CATDESC         (CDF_CHAR/19): "APPROX_PITCH_LABELS"
+     VAR_NOTES       (CDF_CHAR/446): "Per Lynn Wilson Jan 2015: The pitch-angles can vary wildly and should probably not be displayed as the approximate values below.  I say this because there are times when the zeroth element pitch-angle can exceed 30 degrees.  This happens when the detector ...look direction... never comes close to the magnetic field direction.  It does not happen very often, but it does happen often enough to be wary of the ...approximate... values list below."
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a26"
+
+APPROX_ENERGY_LABELS (No: 25) (Recs: 1)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "APPROX_ENERGY_LABELS"
+     CATDESC         (CDF_CHAR/20): "APPROX_ENERGY_LABELS"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a24"
+
+FLUX_PA_LABL (No: 26) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Flux labels by pitch angle"
+     CATDESC         (CDF_CHAR/26): "Flux labels by pitch angle"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a28"
+
+FLUX_ENERGY_LABL (No: 27) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Flux labels by energy"
+     CATDESC         (CDF_CHAR/21): "Flux labels by energy"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a27"
+
+TIME (No: 28) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "UNIX  time"
+     CATDESC         (CDF_CHAR/40): "UNIX time; seconds since January 1, 1970"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "g12.0"
+     UNITS           (CDF_CHAR/16): "sec since 1-1-70"
+     FILLVAL         (CDF_DOUBLE/1): nan
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_DOUBLE/1): 1.0e+08
+     VALIDMAX        (CDF_DOUBLE/1): 2.0e+12
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+

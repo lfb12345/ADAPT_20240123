@@ -1,0 +1,289 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ia_or_def_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ia_or_def_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     11
+NumAttrs:     40 (20 global, 20 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (20 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/41): 	"INTERBALL-AURORAL>Interball Auroral Probe"
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"OR>Orbit"
+Descriptor (1 entry):
+	0 (CDF_CHAR/19): 	"DEF>Definitive Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/26): 	"Auroral Probe Orbital Data"
+MODS (2 entries):
+	0 (CDF_CHAR/16): 	"created May 1997"
+	1 (CDF_CHAR/33): 	"edited global attributes Apr 1996"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0249"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IA_OR_DEF_19951220_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IA_OR_DEF"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/52): 	"Interball Auroral Probe Orbital Data, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/13): 	"V.Prokhorenko"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/58): 	"Space Research Inst., Russian Acad. Sci., Moscow, Russia. "
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/55): 	"Full description: http://www.iki.rssi.ru/interball.html"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"xxno-00092"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/51): 	"Interball-Auroral_Ephemeris_Position-Definitive_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/55): 	"spase://NASA/NumericalData/Interball-2/Ephemeris/PT120S"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DEPEND_1
+DICT_KEY
+CATDESC
+LABL_PTR_1
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+ALLOW_BIN
+
+Variable Information (0 rVariable, 11 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+SC_pos_GSE            CDF_REAL4/1	1:[3]	T/T
+SC_pos_GSM            CDF_REAL4/1	1:[3]	T/T
+SC_vel_GSE            CDF_REAL4/1	1:[3]	T/T
+SF_SC_orbit           CDF_UINT1/1	0:[]	T/  
+cartesian             CDF_CHAR/1	1:[3]	F/T
+label_pos_GSE         CDF_CHAR/10	1:[3]	F/T
+label_pos_GSM         CDF_CHAR/10	1:[3]	F/T
+label_vel_GSE         CDF_CHAR/8	1:[3]	F/T
+label_sep_GSE         CDF_CHAR/11	1:[3]	F/T
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (11 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 20-Dec-1995 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 20-Dec-1995 23:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SC_pos_GSE (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "S/C position in GSE frame"
+     VALIDMIN        (CDF_REAL4/3): -30.0, -30.0, -30.0
+     VALIDMAX        (CDF_REAL4/3): 30.0, 30.0, 30.0
+     SCALEMIN        (CDF_REAL4/3): -26.25, 7.238, -0.943
+     SCALEMAX        (CDF_REAL4/3): -17.985, 12.166, 6.969
+     UNITS           (CDF_CHAR/2): "Re"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/23): "position>spacecraft_GSE"
+     CATDESC         (CDF_CHAR/45): "IA s/c position in GSE, 3 comp. in RE(6370km)"
+     LABL_PTR_1      (CDF_CHAR/13): "label_pos_GSE"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/15): "orbit>coord=gse"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SC_pos_GSM (No: 2) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "S/C position in GSM frame"
+     VALIDMIN        (CDF_REAL4/3): -30.0, -30.0, -30.0
+     VALIDMAX        (CDF_REAL4/3): 30.0, 30.0, 30.0
+     SCALEMIN        (CDF_REAL4/3): -26.25, 7.284, 0.474
+     SCALEMAX        (CDF_REAL4/3): -17.985, 11.9, 9.036
+     UNITS           (CDF_CHAR/2): "Re"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/23): "position>spacecraft_GSM"
+     CATDESC         (CDF_CHAR/45): "IA s/c position in GSM, 3 comp. in RE(6370km)"
+     LABL_PTR_1      (CDF_CHAR/13): "label_pos_GSM"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/15): "orbit>coord=gsm"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+SC_vel_GSE (No: 3) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "S/C velocity in GSE frame"
+     VALIDMIN        (CDF_REAL4/3): -10.0, -10.0, -10.0
+     VALIDMAX        (CDF_REAL4/3): 10.0, 10.0, 10.0
+     SCALEMIN        (CDF_REAL4/3): 0.13, -0.701, -0.652
+     SCALEMAX        (CDF_REAL4/3): 1.287, -0.185, -0.527
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/23): "velocity>spacecraft_GSE"
+     CATDESC         (CDF_CHAR/23): "IA s/c velocity in km/s"
+     LABL_PTR_1      (CDF_CHAR/13): "label_vel_GSE"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+SF_SC_orbit (No: 4) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Status Flag, Orbit"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 5
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 5
+     LABLAXIS        (CDF_CHAR/6): "Flag_O"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/60): "Status Flag, Orbit : 0-good data, 1-bad data, 2-missing data"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+cartesian (No: 5) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Dimension Label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/15): "Dimension Label"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_pos_GSE (No: 6) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Label for GSE coordinates"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/25): "Label for GSE coordinates"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_pos_GSM (No: 7) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Label for GSM coordinates"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/25): "Label for GSM coordinates"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_vel_GSE (No: 8) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Label for GSE velocity"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/22): "Label for GSE velocity"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_sep_GSE (No: 9) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Label for GSE separation"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/24): "Label for GSE separation"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gap_Flag (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag : 0 no gap before this point, 1-5 gap reason"
+     AVG_TYPE        (CDF_CHAR/4): "none"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

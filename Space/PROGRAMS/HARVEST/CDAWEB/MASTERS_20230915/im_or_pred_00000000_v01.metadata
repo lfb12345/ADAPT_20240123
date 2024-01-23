@@ -1,0 +1,322 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/im_or_pred_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     im_or_pred_00000000_v01.cdf
+Version:      2.6.7
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-1997 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     18
+NumAttrs:     37 (16 global, 21 variable)
+Compression:  None
+
+Global Attributes (16 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_UCHAR/59): 	"IMAGE>Imager for Magnetopause to Auroral Global Exploration"
+Discipline (1 entry):
+	0 (CDF_UCHAR/13): 	"Space Physics"
+Source_name (1 entry):
+	0 (CDF_UCHAR/59): 	"IMAGE>Imager for Magnetopause to Auroral Global Exploration"
+Data_version (1 entry):
+	0 (CDF_UCHAR/1): 	"1"
+ADID_ref (1 entry):
+	0 (CDF_UCHAR/3): 	"tbs"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/23): 	"im_or_pred_20000115_v01"
+Data_type (1 entry):
+	0 (CDF_UCHAR/8): 	"OR>Orbit"
+Descriptor (1 entry):
+	0 (CDF_UCHAR/19): 	"PRED>Predicted Data"
+TEXT (1 entry):
+	0 (CDF_UCHAR/3): 	"tbs"
+MODS (1 entry):
+	0 (CDF_UCHAR/3): 	"tbs"
+Logical_source (1 entry):
+	0 (CDF_UCHAR/10): 	"IM_OR_PRED"
+Logical_source_description (1 entry):
+	0 (CDF_UCHAR/21): 	"IMAGE Predicted Orbit"
+PI_name (1 entry):
+	0 (CDF_UCHAR/13): 	"Dr. Jim Burch"
+PI_affiliation (1 entry):
+	0 (CDF_UCHAR/28): 	"Southwest Research Institute"
+Instrument_type (1 entry):
+	0 (CDF_UCHAR/9): 	"Ephemeris"
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"IMAGE"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+MONOTON
+DEPEND_0
+DEPEND_1
+FILLVAL
+VAR_TYPE
+DICT_KEY
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 18 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+GCI_POS               CDF_REAL8/1	1:[3]	T/T
+GCI_VEL               CDF_REAL8/1	1:[3]	T/T
+GSE_POS               CDF_REAL8/1	1:[3]	T/T
+GSE_VEL               CDF_REAL8/1	1:[3]	T/T
+GSM_POS               CDF_REAL8/1	1:[3]	T/T
+GSM_VEL               CDF_REAL8/1	1:[3]	T/T
+SUN_POS               CDF_REAL8/1	1:[3]	T/T
+MOON_POS              CDF_REAL8/1	1:[3]	T/T
+cartesian             CDF_CHAR/1	1:[3]	F/T
+label_gcip            CDF_CHAR/9	1:[3]	F/T
+label_gciv            CDF_CHAR/9	1:[3]	F/T
+label_gsep            CDF_CHAR/9	1:[3]	F/T
+label_gsev            CDF_CHAR/9	1:[3]	F/T
+label_gsmp            CDF_CHAR/9	1:[3]	F/T
+label_gsmv            CDF_CHAR/9	1:[3]	F/T
+label_sunp            CDF_CHAR/9	1:[3]	F/T
+label_moonp           CDF_CHAR/10	1:[3]	F/T
+
+
+Variable (18 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/16): "Orbit Epoch Time"
+     VALIDMIN        (CDF_DOUBLE/1): 01-Jul-1992 08:53:20.000
+     VALIDMAX        (CDF_DOUBLE/1): 01-Jan-2021 06:00:00.000
+     SCALEMIN        (CDF_DOUBLE/1): 6.28772e+13
+     SCALEMAX        (CDF_DOUBLE/1): 6.37767e+13
+     LABLAXIS        (CDF_UCHAR/5): "Epoch"
+     UNITS           (CDF_UCHAR/2): "ms"
+     MONOTON         (CDF_UCHAR/8): "INCREASE"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_UCHAR/12): "support_data"
+     DICT_KEY        (CDF_UCHAR/10): "time>Epoch"
+     CATDESC         (CDF_UCHAR/16): "Orbit Epoch Time"
+
+GCI_POS (No: 1) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "GCI Cartesian Position"
+     VALIDMIN        (CDF_DOUBLE/1): -1.8e+06
+     VALIDMAX        (CDF_DOUBLE/1): 1.8e+06
+     SCALEMIN        (CDF_DOUBLE/1): -1.8e+06
+     SCALEMAX        (CDF_DOUBLE/1): 1.8e+06
+     UNITS           (CDF_UCHAR/2): "km"
+     FORMAT          (CDF_UCHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_UCHAR/10): "LABEL_GCIP"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/22): "GCI Cartesian Position"
+
+GCI_VEL (No: 2) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "GCI Cartesian Velocity"
+     VALIDMIN        (CDF_DOUBLE/1): -12.0
+     VALIDMAX        (CDF_DOUBLE/1): 12.0
+     SCALEMIN        (CDF_DOUBLE/1): -12.0
+     SCALEMAX        (CDF_DOUBLE/1): 12.0
+     UNITS           (CDF_UCHAR/6): "km/sec"
+     FORMAT          (CDF_UCHAR/5): "F12.7"
+     LABL_PTR_1      (CDF_UCHAR/10): "LABEL_GCIV"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/22): "GCI Cartesian Velocity"
+
+GSE_POS (No: 3) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "GSE Cartesian Position"
+     VALIDMIN        (CDF_DOUBLE/1): -1.8e+06
+     VALIDMAX        (CDF_DOUBLE/1): 1.8e+06
+     SCALEMIN        (CDF_DOUBLE/1): -1.8e+06
+     SCALEMAX        (CDF_DOUBLE/1): 1.8e+06
+     UNITS           (CDF_UCHAR/2): "km"
+     FORMAT          (CDF_UCHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_UCHAR/10): "LABEL_GSEP"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/22): "GSE Cartesian Position"
+
+GSE_VEL (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "GSE Cartesian Velocity"
+     VALIDMIN        (CDF_DOUBLE/1): -12.0
+     VALIDMAX        (CDF_DOUBLE/1): 12.0
+     SCALEMIN        (CDF_DOUBLE/1): -12.0
+     SCALEMAX        (CDF_DOUBLE/1): 12.0
+     UNITS           (CDF_UCHAR/6): "km/sec"
+     FORMAT          (CDF_UCHAR/5): "F12.7"
+     LABL_PTR_1      (CDF_UCHAR/10): "LABEL_GSEV"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/22): "GSE Cartesian Velocity"
+
+GSM_POS (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "GSM Cartesian Position"
+     VALIDMIN        (CDF_DOUBLE/1): -1.8e+06
+     VALIDMAX        (CDF_DOUBLE/1): 1.8e+06
+     SCALEMIN        (CDF_DOUBLE/1): -1.8e+06
+     SCALEMAX        (CDF_DOUBLE/1): 1.8e+06
+     UNITS           (CDF_UCHAR/2): "km"
+     FORMAT          (CDF_UCHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_UCHAR/10): "LABEL_GSMP"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/22): "GSM Cartesian Position"
+
+GSM_VEL (No: 6) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "GSM Cartesian Velocity"
+     VALIDMIN        (CDF_DOUBLE/1): -12.0
+     VALIDMAX        (CDF_DOUBLE/1): 12.0
+     SCALEMIN        (CDF_DOUBLE/1): -12.0
+     SCALEMAX        (CDF_DOUBLE/1): 12.0
+     UNITS           (CDF_UCHAR/6): "km/sec"
+     FORMAT          (CDF_UCHAR/5): "F12.7"
+     LABL_PTR_1      (CDF_UCHAR/10): "LABEL_GSMV"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/22): "GSM Cartesian Velocity"
+
+SUN_POS (No: 7) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "GCI Sun Postion Vector"
+     VALIDMIN        (CDF_DOUBLE/1): -1.6e+08
+     VALIDMAX        (CDF_DOUBLE/1): 1.6e+08
+     SCALEMIN        (CDF_DOUBLE/1): -1.6e+08
+     SCALEMAX        (CDF_DOUBLE/1): 1.6e+08
+     UNITS           (CDF_UCHAR/2): "km"
+     FORMAT          (CDF_UCHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_UCHAR/10): "LABEL_SUNP"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/22): "GCI Sun Postion Vector"
+
+MOON_POS (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/23): "GCI Moon Postion Vector"
+     VALIDMIN        (CDF_DOUBLE/1): -1.6e+08
+     VALIDMAX        (CDF_DOUBLE/1): 1.6e+08
+     SCALEMIN        (CDF_DOUBLE/1): -1.6e+08
+     SCALEMAX        (CDF_DOUBLE/1): 1.6e+08
+     UNITS           (CDF_UCHAR/2): "km"
+     FORMAT          (CDF_UCHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_UCHAR/11): "LABEL_MOONP"
+     DEPEND_0        (CDF_UCHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     CATDESC         (CDF_UCHAR/23): "GCI Moon Postion Vector"
+
+cartesian (No: 9) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/30): "Components in cartesian coord."
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     DICT_KEY        (CDF_UCHAR/21): "ISTP>vector>cartesian"
+     CATDESC         (CDF_UCHAR/30): "Components in cartesian coord."
+
+label_gcip (No: 10) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/23): "Label for GCI positions"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     CATDESC         (CDF_UCHAR/23): "Label for GCI positions"
+
+label_gciv (No: 11) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "Label for GCI velocity"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     CATDESC         (CDF_UCHAR/22): "Label for GCI velocity"
+
+label_gsep (No: 12) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/23): "Label for GSE positions"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     CATDESC         (CDF_UCHAR/23): "Label for GSE positions"
+
+label_gsev (No: 13) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "Label for GSE velocity"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     CATDESC         (CDF_UCHAR/22): "Label for GSE velocity"
+
+label_gsmp (No: 14) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/23): "Label for GSM positions"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     CATDESC         (CDF_UCHAR/23): "Label for GSM positions"
+
+label_gsmv (No: 15) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/22): "Label for GSM velocity"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     CATDESC         (CDF_UCHAR/22): "Label for GSM velocity"
+
+label_sunp (No: 16) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/27): "Label for sun positions gci"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     CATDESC         (CDF_UCHAR/27): "Label for sun positions gci"
+
+label_moonp (No: 17) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/27): "Label for moon position gci"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+     CATDESC         (CDF_UCHAR/27): "Label for moon position gci"
+

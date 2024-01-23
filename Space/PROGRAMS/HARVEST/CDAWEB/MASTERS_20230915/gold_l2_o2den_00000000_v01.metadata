@@ -1,0 +1,767 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/gold_l2_o2den_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     gold_l2_o2den_00000000_v01.cdf
+Version:      3.7.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     32
+NumAttrs:     48 (23 global, 25 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+Data_revision (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"GOLD_L2_O2DEN"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Richard Eastes"
+TEXT (1 entry):
+	0 (CDF_CHAR/324): 	"The GOLD mission of opportunity flies an ultraviolet (UV) imaging spectrograph on a geostationary satellite to measure densities and temperatures in Earth's thermosphere and ionosphere and to understand the global-scale response to forcing in the integrate Sun-Earth system. Visit 'https://gold.cs.ucf.edu' for more details."
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"GOLD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Data_type (1 entry):
+	0 (CDF_CHAR/63): 	"APIDx? > GOLD Application ID 0x?: Level 2 Day Disk Science Data"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/31): 	"UV Imaging Spectrograph (Space)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/27): 	"University of Colorado/LASP"
+Source_name (1 entry):
+	0 (CDF_CHAR/51): 	"GOLD>Global-scale Observations of the Limb and Disk"
+Data_cycle (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/823): 	"This is a data product from the NASA Global-scale Observations of the Limb and Disk (GOLD) mission, an Heliophysics Explorer mission of opportunity launched in January 2018.  Responsibility of the mission science falls to the Principal Investigator, Dr. Richard Eastes at University of Colorado/LASP.  Validation of the L1B data products falls to the instrument lead investigators/scientists. * EUV  Dr. Bill McClintock Validation of the L2 data products falls to Computational Physics, Inc. * Dr. Jerry Lumpe  (https://gold.cs.ucf.edu/). Overall validation of the products is overseen by the GOLD Project Scientist Dr. Alan Burns. Users of these data should contact and acknowledge the Principal Investigator Dr. Richard Eastes and the party directly responsible for the data product and the NASA Explorers Project Office."
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/37): 	"GOLD O2DEN L2 Daily Fileof O2 density"
+Discipline (1 entry):
+	0 (CDF_CHAR/35): 	"Space Physics > Ionospheric Science"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/13): 	"GOLD_L2_O2DEN"
+Descriptor (1 entry):
+	0 (CDF_CHAR/16): 	"O2DEN>O2 density"
+Project (1 entry):
+	0 (CDF_CHAR/11): 	"NASA > GOLD"
+Software_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+SPDF_NOTES (3 entries):
+	0 (CDF_CHAR/34): 	"change depend_1 from nzret to zret"
+	1 (CDF_CHAR/29): 	"change depend_2 nzdat to zdat"
+	2 (CDF_CHAR/50): 	"change depend_1 n_wavelength to central_wavelength"
+NC_KIND (1 entry):
+	0 (CDF_CHAR/8): 	"netCDF-4"
+NC_DIMENSIONS_G (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NC_STRINGS_G (1 entry):
+	0 (CDF_CHAR/274): 	"Data_revision Logical_source PI_name TEXT Mission_group Data_version Data_type Generation_date date_start Instrument_type PI_affiliation Source_name Data_cycle Acknowledgement Logical_source_description Discipline Logical_file_id date_end Descriptor Project Software_version"
+
+Variable Attributes (25 attributes)
+=========================================
+NC_DIMENSIONS_V
+NC_DEFLATE
+NC_SHUFFLE
+NC_STORAGE
+NC_CHUNKSIZES
+FORMAT
+FIELDNAM
+DEPEND_0
+VALIDMIN
+VAR_TYPE
+VAR_NOTES
+LABLAXIS
+UNITS
+FILLVAL
+DISPLAY_TYPE
+CATDESC
+VALIDMAX
+DEPEND_1
+NC_STRING
+TIME_BASE
+DEPEND_2
+NC_ADDED
+SCALETYP
+LABL_PTR_1
+NC_STRINGS_V
+
+Variable Information (0 rVariable, 32 zVariables)
+===========================================================
+spectral_width        CDF_FLOAT/1	0:[]	T/  
+o2den                 CDF_FLOAT/1	1:[31]	T/T
+o2den_unc_ran         CDF_FLOAT/1	1:[31]	T/T
+o2den_unc_mod         CDF_FLOAT/1	1:[31]	T/T
+o2den_unc_sys         CDF_FLOAT/1	1:[31]	T/T
+lon_ref               CDF_FLOAT/1	0:[]	T/  
+temperature           CDF_FLOAT/1	1:[31]	T/T
+zret                  CDF_FLOAT/1	1:[31]	F/T
+time_utc              CDF_CHAR/50	0:[]	T/  
+n_iter                CDF_INT4/1	0:[]	T/  
+convergence           CDF_INT4/1	0:[]	T/  
+input_l1c_file        CDF_CHAR/50	0:[]	T/  
+lat_ref               CDF_FLOAT/1	0:[]	T/  
+normalization         CDF_FLOAT/1	1:[2]	T/T
+o2den_dqi             CDF_INT4/1	1:[31]	T/T
+channel               CDF_CHAR/50	0:[]	T/  
+central_wavelength    CDF_FLOAT/1	1:[2]	T/T
+wavelength_labl       CDF_CHAR/12	1:[2]	F/T
+signal_to_noise       CDF_FLOAT/1	1:[2]	T/T
+zdat                  CDF_FLOAT/1	1:[27]	F/T
+dqi                   CDF_INT4/1	0:[]	T/  
+transmission_fit      CDF_FLOAT/1	2:[2,27]	T/TT
+transmission          CDF_FLOAT/1	2:[2,27]	T/TT
+o2_apriori            CDF_FLOAT/1	1:[31]	T/T
+sza_ref               CDF_FLOAT/1	0:[]	T/  
+transmission_unc      CDF_FLOAT/1	2:[2,27]	T/TT
+target_star           CDF_CHAR/50	0:[]	T/  
+nevents               CDF_INT1/1	0:[]	T/  
+nzret                 CDF_INT1/1	1:[31]	F/T
+n_wavelength          CDF_INT1/1	1:[2]	F/T
+max_string_len        CDF_INT1/1	1:[50]	F/T
+nzdat                 CDF_INT1/1	1:[27]	F/T
+
+
+Variable (32 variables)
+=========================================
+
+spectral_width (No: 0) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "nevents"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 1048576
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/26): "Width of each data channel"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/12): "delta Lambda"
+     UNITS           (CDF_CHAR/2): "nm"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     CATDESC         (CDF_CHAR/26): "Width of each data channel"
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     NC_STRINGS_V    (CDF_CHAR/69): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+o2den (No: 1) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/13): "nevents,nzret"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 31
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     FIELDNAM        (CDF_CHAR/20): "Retrieved O2 density"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/12): "Retrieved O2"
+     UNITS           (CDF_CHAR/8): "mol/cm^3"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/20): "Retrieved O2 density"
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+15
+     DEPEND_1        (CDF_CHAR/4): "zret"
+     SCALETYP        (CDF_CHAR/3): "log"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+o2den_unc_ran (No: 2) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/13): "nevents,nzret"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 31
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     FIELDNAM        (CDF_CHAR/35): "Random uncertainty of retrieved O2 "
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/16): "O2 random uncert"
+     UNITS           (CDF_CHAR/8): "mol/cm^3"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/35): "Random uncertainty of retrieved O2 "
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+15
+     DEPEND_1        (CDF_CHAR/4): "zret"
+     SCALETYP        (CDF_CHAR/3): "log"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+o2den_unc_mod (No: 3) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/13): "nevents,nzret"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 31
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     FIELDNAM        (CDF_CHAR/34): "Model uncertainty of retrieved O2 "
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/15): "O2 Model Uncert"
+     UNITS           (CDF_CHAR/8): "mol/cm^3"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/34): "Model uncertainty of retrieved O2 "
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+15
+     DEPEND_1        (CDF_CHAR/4): "zret"
+     SCALETYP        (CDF_CHAR/3): "log"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+o2den_unc_sys (No: 4) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/13): "nevents,nzret"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 31
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     FIELDNAM        (CDF_CHAR/39): "Systematic uncertainty of retrieved O2 "
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/16): "O2 System Uncert"
+     UNITS           (CDF_CHAR/8): "mol/cm^3"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/39): "Systematic uncertainty of retrieved O2 "
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+15
+     DEPEND_1        (CDF_CHAR/4): "zret"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+lon_ref (No: 5) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "nevents"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 5
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/17): "Longitude at ZREF"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/9): "Longitude"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+     CATDESC         (CDF_CHAR/17): "Longitude at ZREF"
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     NC_STRINGS_V    (CDF_CHAR/69): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+temperature (No: 6) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/13): "nevents,nzret"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/27): "Assumed temperature profile"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/4): "Temp"
+     UNITS           (CDF_CHAR/1): "K"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/27): "Assumed temperature profile"
+     VALIDMAX        (CDF_FLOAT/1): 1500.0
+     DEPEND_1        (CDF_CHAR/4): "zret"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+zret (No: 7) (Recs: 1) (Compression: GZIP.6)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "nzret"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/34): "Retrieval geometric altitude grid "
+     DEPEND_0        (CDF_CHAR/5): "nzret"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/17): "Ret altitude grid"
+     UNITS           (CDF_CHAR/2): "km"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     CATDESC         (CDF_CHAR/34): "Retrieval geometric altitude grid "
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/69): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+time_utc (No: 8) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/22): "nevents,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 50
+     FORMAT          (CDF_CHAR/3): "A50"
+     FIELDNAM        (CDF_CHAR/14): "Universal Time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/56): "SPDF changed fillval to the tt2000 standard instead of *"
+     LABLAXIS        (CDF_CHAR/8): "time_utc"
+     UNITS           (CDF_CHAR/1): "s"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     CATDESC         (CDF_CHAR/32): "ISO 8601 formatted UTC timestamp"
+     NC_STRING       (CDF_CHAR/2): "no"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     NC_STRINGS_V    (CDF_CHAR/65): "FORMAT TIME_BASE FIELDNAM LABLAXIS VAR_TYPE UNITS FILLVAL CATDESC"
+
+n_iter (No: 9) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "nevents"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 5
+     FIELDNAM        (CDF_CHAR/20): "Number of iterations"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_INT4/1): -999999999
+     CATDESC         (CDF_CHAR/20): "Number of iterations"
+     NC_STRINGS_V    (CDF_CHAR/34): "FIELDNAM DEPEND_0 CATDESC VAR_TYPE"
+
+convergence (No: 10) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "nevents"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 5
+     FIELDNAM        (CDF_CHAR/26): "Retrieval convergence flag"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_INT4/1): -999999999
+     CATDESC         (CDF_CHAR/26): "Retrieval convergence flag"
+     NC_STRINGS_V    (CDF_CHAR/34): "FIELDNAM DEPEND_0 CATDESC VAR_TYPE"
+
+input_l1c_file (No: 11) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/22): "nevents,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 50
+     FORMAT          (CDF_CHAR/3): "A50"
+     FIELDNAM        (CDF_CHAR/14): "Input L1C File"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): "*"
+     CATDESC         (CDF_CHAR/28): "Corresponding Input L1C File"
+     NC_STRING       (CDF_CHAR/2): "no"
+     NC_STRINGS_V    (CDF_CHAR/49): "FORMAT FILLVAL FIELDNAM DEPEND_0 CATDESC VAR_TYPE"
+
+lat_ref (No: 12) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "nevents"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 5
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/16): "Latitude at ZREF"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/8): "Latitude"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+     CATDESC         (CDF_CHAR/16): "Latitude at ZREF"
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     NC_STRINGS_V    (CDF_CHAR/69): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+normalization (No: 13) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/20): "nevents,n_wavelength"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 2
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/22): "Normalization spectrum"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/9): "Norm Spec"
+     UNITS           (CDF_CHAR/6): "Counts"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/22): "Normalization spectrum"
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     DEPEND_1        (CDF_CHAR/18): "central_wavelength"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+o2den_dqi (No: 14) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/13): "nevents,nzret"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 31
+     FORMAT          (CDF_CHAR/2): "I7"
+     FIELDNAM        (CDF_CHAR/25): "O2 Data Quality Indicator"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_INT4/1): 0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/6): "O2 DQI"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_INT4/1): -999999999
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/92): "O2 Data Quality Indicator. 0 indicates good data. See documentation for list of other values"
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     DEPEND_1        (CDF_CHAR/4): "zret"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+channel (No: 15) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/22): "nevents,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 50
+     FORMAT          (CDF_CHAR/3): "A50"
+     FIELDNAM        (CDF_CHAR/7): "Channel"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): "*"
+     CATDESC         (CDF_CHAR/31): "Channel identifier ("A" or "B")"
+     NC_STRING       (CDF_CHAR/2): "no"
+     NC_STRINGS_V    (CDF_CHAR/49): "FORMAT FILLVAL FIELDNAM DEPEND_0 CATDESC VAR_TYPE"
+
+central_wavelength (No: 16) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/20): "nevents,n_wavelength"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 2
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/10): "Wavelength"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/3): "Lam"
+     UNITS           (CDF_CHAR/2): "nm"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     CATDESC         (CDF_CHAR/10): "Wavelength"
+     VALIDMAX        (CDF_FLOAT/1): 400.0
+     DEPEND_1        (CDF_CHAR/18): "central_wavelength"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+wavelength_labl (No: 17) (Recs: 1)
+---------------
+Attribute Entries:
+     FORMAT          (CDF_CHAR/3): "A12"
+     FIELDNAM        (CDF_CHAR/16): "wavelength label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/17): "wavelength label "
+     CATDESC         (CDF_CHAR/16): "wavelength label"
+
+signal_to_noise (No: 18) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/20): "nevents,n_wavelength"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 2
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/46): "Effective signal to noise above the atmosphere"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/3): "S/N"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/24): "stack_plot>scatter>nobar"
+     CATDESC         (CDF_CHAR/46): "Effective signal to noise above the atmosphere"
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+     DEPEND_1        (CDF_CHAR/18): "central_wavelength"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+zdat (No: 19) (Recs: 1) (Compression: GZIP.6)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/5): "nzdat"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 27
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/33): "Measurement tangent altitude grid"
+     DEPEND_0        (CDF_CHAR/5): "nzdat"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/9): "Meas Grid"
+     UNITS           (CDF_CHAR/2): "km"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/5): "image"
+     CATDESC         (CDF_CHAR/33): "Measurement tangent altitude grid"
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     NC_STRINGS_V    (CDF_CHAR/69): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+dqi (No: 20) (Recs: 0) (Compression: GZIP.6)
+---
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "nevents"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 5
+     FORMAT          (CDF_CHAR/2): "I7"
+     FIELDNAM        (CDF_CHAR/22): "Data Quality Indicator"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_INT4/1): 0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_INT4/1): -999999999
+     CATDESC         (CDF_CHAR/100): "File-level Data Quality Indicator. 0 indicates good data. See documentation for list of other values"
+     VALIDMAX        (CDF_INT4/1): 2147483647
+     NC_STRINGS_V    (CDF_CHAR/47): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE UNITS CATDESC"
+
+transmission_fit (No: 21) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/26): "nevents,n_wavelength,nzdat"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 2, 27
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/36): "Converged forward model fit to data."
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/22): "Input Transmission Fit"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/43): "spectrogram>y=zdat,z=transmission_fit(^2,*)"
+     CATDESC         (CDF_CHAR/69): "Converged forward model fit to data - spectrogram for each wavelength"
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     DEPEND_1        (CDF_CHAR/18): "central_wavelength"
+     DEPEND_2        (CDF_CHAR/4): "zdat"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABL_PTR_1      (CDF_CHAR/15): "wavelength_labl"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+transmission (No: 22) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/26): "nevents,n_wavelength,nzdat"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 2, 27
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/26): "Input transmission profile"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/18): "Input Transmission"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/39): "spectrogram>y=zdat,z=transmission(^2,*)"
+     CATDESC         (CDF_CHAR/60): "Input transmission profile - spectrogram for each wavelength"
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     DEPEND_1        (CDF_CHAR/18): "central_wavelength"
+     DEPEND_2        (CDF_CHAR/4): "zdat"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABL_PTR_1      (CDF_CHAR/15): "wavelength_labl"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+o2_apriori (No: 23) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/13): "nevents,nzret"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 31
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     FIELDNAM        (CDF_CHAR/19): "A priori O2 density"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/11): "A priori O2"
+     UNITS           (CDF_CHAR/8): "mol/cm^3"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     CATDESC         (CDF_CHAR/19): "A priori O2 density"
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+15
+     DEPEND_1        (CDF_CHAR/4): "zret"
+     NC_STRINGS_V    (CDF_CHAR/78): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+sza_ref (No: 24) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "nevents"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 5
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/26): "Solar Zenith Angle at ZREF"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/3): "SZA"
+     UNITS           (CDF_CHAR/7): "degrees"
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/19): "time_series>scatter"
+     CATDESC         (CDF_CHAR/26): "Solar Zenith Angle at ZREF"
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+     NC_STRINGS_V    (CDF_CHAR/69): "FORMAT FIELDNAM DEPEND_0 VAR_TYPE LABLAXIS UNITS DISPLAY_TYPE CATDESC"
+
+transmission_unc (No: 25) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/26): "nevents,n_wavelength,nzdat"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 1, 2, 27
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     FIELDNAM        (CDF_CHAR/35): "Variance on input transmission data"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/27): "Input Transmission Variance"
+     UNITS           (CDF_CHAR/1): " "
+     FILLVAL         (CDF_FLOAT/1): nan
+     DISPLAY_TYPE    (CDF_CHAR/43): "spectrogram>y=zdat,z=transmission_unc(^2,*)"
+     CATDESC         (CDF_CHAR/68): "Variance on input transmission data- spectrogram for each wavelength"
+     VALIDMAX        (CDF_FLOAT/1): 10.0
+     DEPEND_1        (CDF_CHAR/18): "central_wavelength"
+     DEPEND_2        (CDF_CHAR/4): "zdat"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABL_PTR_1      (CDF_CHAR/15): "wavelength_labl"
+     NC_STRINGS_V    (CDF_CHAR/87): "FORMAT DEPEND_1 FIELDNAM DEPEND_0 LABLAXIS DEPEND_2 UNITS VAR_TYPE DISPLAY_TYPE CATDESC"
+
+target_star (No: 26) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/22): "nevents,max_string_len"
+     NC_DEFLATE      (CDF_INT4/1): 6
+     NC_SHUFFLE      (CDF_CHAR/4): "true"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 1, 50
+     FORMAT          (CDF_CHAR/3): "A50"
+     FIELDNAM        (CDF_CHAR/12): "Name of star"
+     DEPEND_0        (CDF_CHAR/8): "time_utc"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FILLVAL         (CDF_CHAR/1): "*"
+     CATDESC         (CDF_CHAR/12): "Name of star"
+     NC_STRING       (CDF_CHAR/2): "no"
+     NC_STRINGS_V    (CDF_CHAR/49): "FORMAT FILLVAL FIELDNAM DEPEND_0 CATDESC VAR_TYPE"
+
+nevents (No: 27) (Recs: 0)
+-------
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/7): "nevents"
+     VALIDMIN        (CDF_INT1/1): -127
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/7): "nevents"
+     FILLVAL         (CDF_INT1/1): -128
+     CATDESC         (CDF_CHAR/7): "nevents"
+     VALIDMAX        (CDF_INT1/1): 127
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+nzret (No: 28) (Recs: 1)
+-----
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/7): "nevents"
+     VALIDMIN        (CDF_INT1/1): -127
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/7): "nevents"
+     FILLVAL         (CDF_INT1/1): -128
+     CATDESC         (CDF_CHAR/7): "nevents"
+     VALIDMAX        (CDF_INT1/1): 127
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+n_wavelength (No: 29) (Recs: 1)
+------------
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/7): "nevents"
+     VALIDMIN        (CDF_INT1/1): -127
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/7): "nevents"
+     FILLVAL         (CDF_INT1/1): -128
+     CATDESC         (CDF_CHAR/7): "nevents"
+     VALIDMAX        (CDF_INT1/1): 127
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+max_string_len (No: 30) (Recs: 1)
+--------------
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/12): "n_wavelength"
+     VALIDMIN        (CDF_INT1/1): -127
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/12): "n_wavelength"
+     FILLVAL         (CDF_INT1/1): -128
+     CATDESC         (CDF_CHAR/12): "n_wavelength"
+     VALIDMAX        (CDF_INT1/1): 127
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+nzdat (No: 31) (Recs: 1)
+-----
+Attribute Entries:
+     FORMAT          (CDF_CHAR/2): "I3"
+     FIELDNAM        (CDF_CHAR/14): "max_string_len"
+     VALIDMIN        (CDF_INT1/1): -127
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     LABLAXIS        (CDF_CHAR/14): "max_string_len"
+     FILLVAL         (CDF_INT1/1): -128
+     CATDESC         (CDF_CHAR/14): "max_string_len"
+     VALIDMAX        (CDF_INT1/1): 127
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

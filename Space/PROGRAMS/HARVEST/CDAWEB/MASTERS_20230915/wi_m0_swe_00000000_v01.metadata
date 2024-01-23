@@ -1,0 +1,825 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_m0_swe_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_m0_swe_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     35
+NumAttrs:     53 (26 global, 27 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/4): 	"ISTP"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/51): 	"M0>9 sec electron pitch-angle distribution averages"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"SWE>Solar Wind Experiment"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"K. Ogilvie"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+TEXT (5 entries):
+	0 (CDF_CHAR/19): 	"Explanatory notes: "
+	1 (CDF_CHAR/304): 	"The electron pitch-angle distribution averages included in this data set are derived from integrating the electron pitch-angle distributions measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1955)."
+	2 (CDF_CHAR/417): 	"Averages of phase-space density (f) over key regions of the unit sphere     (the set of all possible electron velocity directions) are computed from 9s measurements which are usually separated by one or more 3s spin-periods.  These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing."
+	3 (CDF_CHAR/1132): 	"The following comments are intended to aid in the use and interpretation of the averages reported in this data set.  We begin this analysis with a measure of f for each pitch-angle bin, six degrees in width, from 0 degrees (flux nearly parallel to B) to 180 degrees (flux nearly anti-parallel with B).  The f values for pitch-angles from 0-90 degrees (parallel streaming) are integrated (with angluar weighting and assumptions of gyrotropy) over this half-sphere, then averaged by dividing out the 2-pi solid angle of the half-sphere; the result being referred to as the 'f_para' average.  Similarly, the 'f_perp' (flux nearly perpendicular to B) average is the result of integrating f for pitch-angles from 60-120 degrees (a region also 2-pi in solid angle).  Next, the 'f_anti' (flux nearly anti-parallel to B) average covers the half-sphere of "backward" streaming electrons; having pitch-angles from 90-180 degrees.  Finally, the 'f_omni' (omni-directional) average provides the integral of f over the full sphere, divided by the full 4-pi solid angle; providing a measure of total electron flux into the region of observation. "
+	4 (CDF_CHAR/447): 	"The above analysis is carried out for each of 13 energy channels: E = 19.34, 38.68, 58.03, 77.37, 96.71, 116.1, 193.4, 290.1, 425.5, 580.3, 773.7, 1006., and 1238. eV.  For reference, the electron speeds (|V|, in cm/s) corresponding to these energies are reported in this data set.  Hence the data set reported here contains: f_para, f_perp, f_anti, f_omni (for each of 13 values of E), and the 13 values of |V| (constant, included for reference)."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"Wind"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"wi_m0_swe"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/22): 	"wi_m0_swe_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/93): 	"Wind Solar Wind Experiment (SWE), 9 sec solar wind electron pitch-angle distribution averages"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"9 seconds"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/26): 	"Skeleton created 5/25/2007"
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/76): 	"Additional information about instruments and parameters is available on the "
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/14): 	"Wind Data Page"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/29): 	"http://wind.nasa.gov/data.php"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/44): 	"spase://NASA/NumericalData/Wind/SWE/M0/PT12S"
+
+Variable Attributes (27 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+VIRTUAL
+FUNCT
+COMPONENT_0
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+FORM_PTR
+
+Variable Information (0 rVariable, 35 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Ve                    CDF_REAL4/1	1:[13]	T/T
+eV                    CDF_REAL4/1	1:[13]	T/T
+f_para                CDF_REAL4/1	1:[13]	T/T
+f_para_all            CDF_REAL4/1	1:[13]	T/T
+f_para_even           CDF_REAL4/1	1:[13]	T/T
+f_para_odd            CDF_REAL4/1	1:[13]	T/T
+f_para_all_2          CDF_REAL4/1	1:[13]	T/T
+f_para_even_2         CDF_REAL4/1	1:[13]	T/T
+f_para_odd_2          CDF_REAL4/1	1:[13]	T/T
+f_perp                CDF_REAL4/1	1:[13]	T/T
+f_perp_all            CDF_REAL4/1	1:[13]	T/T
+f_perp_even           CDF_REAL4/1	1:[13]	T/T
+f_perp_odd            CDF_REAL4/1	1:[13]	T/T
+f_perp_all_2          CDF_REAL4/1	1:[13]	T/T
+f_perp_even_2         CDF_REAL4/1	1:[13]	T/T
+f_perp_odd_2          CDF_REAL4/1	1:[13]	T/T
+f_anti                CDF_REAL4/1	1:[13]	T/T
+f_anti_all            CDF_REAL4/1	1:[13]	T/T
+f_anti_even           CDF_REAL4/1	1:[13]	T/T
+f_anti_odd            CDF_REAL4/1	1:[13]	T/T
+f_anti_all_2          CDF_REAL4/1	1:[13]	T/T
+f_anti_even_2         CDF_REAL4/1	1:[13]	T/T
+f_anti_odd_2          CDF_REAL4/1	1:[13]	T/T
+f_omni                CDF_REAL4/1	1:[13]	T/T
+f_omni_all            CDF_REAL4/1	1:[13]	T/T
+f_omni_even           CDF_REAL4/1	1:[13]	T/T
+f_omni_odd            CDF_REAL4/1	1:[13]	T/T
+f_omni_all_2          CDF_REAL4/1	1:[13]	T/T
+f_omni_even_2         CDF_REAL4/1	1:[13]	T/T
+f_omni_odd_2          CDF_REAL4/1	1:[13]	T/T
+f_para_LABL           CDF_CHAR/17	1:[13]	F/T
+f_perp_LABL           CDF_CHAR/17	1:[13]	F/T
+f_anti_LABL           CDF_CHAR/17	1:[13]	F/T
+f_omni_LABL           CDF_CHAR/17	1:[13]	F/T
+
+
+Variable (35 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "Time at start of measurement interval."
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+Ve (No: 1) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/14): "Electron speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/17): "velocity>electron"
+     FIELDNAM        (CDF_CHAR/2): "Ve"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/2): "Ve"
+     UNITS           (CDF_CHAR/4): "cm/s"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/39): "electron speeds corresponding to fluxes"
+
+eV (No: 2) (Recs: 0)
+--
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Electron energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/15): "energy>electron"
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/2): "eV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3500.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/12): "convert_toeV"
+     COMPONENT_0     (CDF_CHAR/2): "Ve"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/39): "electron speeds corresponding to fluxes"
+
+f_para (No: 3) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/31): "Electron flux, parallel average"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "f_para"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABL_PTR_1      (CDF_CHAR/11): "f_para_LABL"
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_para[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_para_all (No: 4) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "--> stack plot for all channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_para at all chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_para"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_para[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_para_even (No: 5) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for even channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/131): "stack_plot>y=f_para_even(0),y=f_para_even(2),y=f_para_even(4),y=f_para_even(6),y=f_para_even(8),y=f_para_even(10),y=f_para_even(12)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/20): "f_para at even chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_para"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_para[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_para_odd (No: 6) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "--> stack plot for odd channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/107): "stack_plot>y=f_para_odd(1),y=f_para_odd(3),y=f_para_odd(5),y=f_para_odd(7),y=f_para_odd(9),y=f_para_odd(11)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_para at odd chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_para"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_para[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_para_all_2 (No: 7) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for all channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_para at all chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "f_para_all"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_para[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_para_even_2 (No: 8) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "--> stack plot for even channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/131): "stack_plot>y=f_para_even(0),y=f_para_even(2),y=f_para_even(4),y=f_para_even(6),y=f_para_even(8),y=f_para_even(10),y=f_para_even(12)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/20): "f_para at even chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/11): "f_para_even"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_para[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_para_odd_2 (No: 9) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for odd channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/107): "stack_plot>y=f_para_odd(1),y=f_para_odd(3),y=f_para_odd(5),y=f_para_odd(7),y=f_para_odd(9),y=f_para_odd(11)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_para at odd chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "f_para_odd"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_para[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_perp (No: 10) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "Electron flux, perpendicular average"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "f_perp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABL_PTR_1      (CDF_CHAR/11): "f_perp_LABL"
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_perp[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_perp_all (No: 11) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "--> stack plot for all channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/6): "f_perp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_perp at all chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_perp"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_perp[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_perp_even (No: 12) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for even channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/131): "stack_plot>y=f_perp_even(0),y=f_perp_even(2),y=f_perp_even(4),y=f_perp_even(6),y=f_perp_even(8),y=f_perp_even(10),y=f_perp_even(12)"
+     FIELDNAM        (CDF_CHAR/6): "f_perp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/20): "f_perp at even chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_perp"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_perp[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_perp_odd (No: 13) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "--> stack plot for odd channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/107): "stack_plot>y=f_perp_odd(1),y=f_perp_odd(3),y=f_perp_odd(5),y=f_perp_odd(7),y=f_perp_odd(9),y=f_perp_odd(11)"
+     FIELDNAM        (CDF_CHAR/6): "f_perp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_perp at odd chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_perp"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_perp[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_perp_all_2 (No: 14) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for all channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/6): "f_perp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_perp at all chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "f_perp_all"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_perp[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_perp_even_2 (No: 15) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "--> stack plot for even channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/131): "stack_plot>y=f_perp_even(0),y=f_perp_even(2),y=f_perp_even(4),y=f_perp_even(6),y=f_perp_even(8),y=f_perp_even(10),y=f_perp_even(12)"
+     FIELDNAM        (CDF_CHAR/6): "f_perp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/20): "f_perp at even chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/11): "f_perp_even"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_perp[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_perp_odd_2 (No: 16) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for odd channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/107): "stack_plot>y=f_perp_odd(1),y=f_perp_odd(3),y=f_perp_odd(5),y=f_perp_odd(7),y=f_perp_odd(9),y=f_perp_odd(11)"
+     FIELDNAM        (CDF_CHAR/6): "f_perp"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_perp at odd chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "f_perp_odd"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_perp[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_anti (No: 17) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "Electron flux, anti-parallel average"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "f_anti"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABL_PTR_1      (CDF_CHAR/11): "f_anti_LABL"
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_anti[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_anti_all (No: 18) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "--> stack plot for all channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/6): "f_anti"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_anti at all chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_anti"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_anti[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_anti_even (No: 19) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for even channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/131): "stack_plot>y=f_anti_even(0),y=f_anti_even(2),y=f_anti_even(4),y=f_anti_even(6),y=f_anti_even(8),y=f_anti_even(10),y=f_anti_even(12)"
+     FIELDNAM        (CDF_CHAR/6): "f_anti"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/20): "f_anti at even chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_anti"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_anti[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_anti_odd (No: 20) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "--> stack plot for odd channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/107): "stack_plot>y=f_anti_odd(1),y=f_anti_odd(3),y=f_anti_odd(5),y=f_anti_odd(7),y=f_anti_odd(9),y=f_anti_odd(11)"
+     FIELDNAM        (CDF_CHAR/6): "f_anti"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_anti at odd chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_anti"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_anti[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_anti_all_2 (No: 21) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for all channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/6): "f_anti"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_anti at all chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "f_anti_all"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_anti[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_anti_even_2 (No: 22) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "--> stack plot for even channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/131): "stack_plot>y=f_anti_even(0),y=f_anti_even(2),y=f_anti_even(4),y=f_anti_even(6),y=f_anti_even(8),y=f_anti_even(10),y=f_anti_even(12)"
+     FIELDNAM        (CDF_CHAR/6): "f_anti"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/20): "f_anti at even chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/11): "f_anti_even"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_anti[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_anti_odd_2 (No: 23) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for odd channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/107): "stack_plot>y=f_anti_odd(1),y=f_anti_odd(3),y=f_anti_odd(5),y=f_anti_odd(7),y=f_anti_odd(9),y=f_anti_odd(11)"
+     FIELDNAM        (CDF_CHAR/6): "f_anti"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_anti at odd chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "f_anti_odd"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_anti[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_omni (No: 24) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "Electron flux, omni-directional average"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/6): "f_omni"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABL_PTR_1      (CDF_CHAR/11): "f_omni_LABL"
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_omni[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_omni_all (No: 25) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "--> stack plot for all channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/6): "f_omni"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_omni at all chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_omni"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_omni[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_omni_even (No: 26) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for even channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/131): "stack_plot>y=f_omni_even(0),y=f_omni_even(2),y=f_omni_even(4),y=f_omni_even(6),y=f_omni_even(8),y=f_omni_even(10),y=f_omni_even(12)"
+     FIELDNAM        (CDF_CHAR/6): "f_omni"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/20): "f_omni at even chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_omni"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_omni[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_omni_odd (No: 27) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "--> stack plot for odd channels, by speed"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "Ve"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/107): "stack_plot>y=f_omni_odd(1),y=f_omni_odd(3),y=f_omni_odd(5),y=f_omni_odd(7),y=f_omni_odd(9),y=f_omni_odd(11)"
+     FIELDNAM        (CDF_CHAR/6): "f_omni"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_omni at odd chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/6): "f_omni"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_omni[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_omni_all_2 (No: 28) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for all channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+     FIELDNAM        (CDF_CHAR/6): "f_omni"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_omni at all chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "f_omni_all"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_omni[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_omni_even_2 (No: 29) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "--> stack plot for even channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/131): "stack_plot>y=f_omni_even(0),y=f_omni_even(2),y=f_omni_even(4),y=f_omni_even(6),y=f_omni_even(8),y=f_omni_even(10),y=f_omni_even(12)"
+     FIELDNAM        (CDF_CHAR/6): "f_omni"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/20): "f_omni at even chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/11): "f_omni_even"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_omni[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_omni_odd_2 (No: 30) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "--> stack plot for odd channels, by energy"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/2): "eV"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     DISPLAY_TYPE    (CDF_CHAR/107): "stack_plot>y=f_omni_odd(1),y=f_omni_odd(3),y=f_omni_odd(5),y=f_omni_odd(7),y=f_omni_odd(9),y=f_omni_odd(11)"
+     FIELDNAM        (CDF_CHAR/6): "f_omni"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.5"
+     LABLAXIS        (CDF_CHAR/19): "f_omni at odd chan."
+     UNITS           (CDF_CHAR/19): "#/[cc*(cm/s)^3*str]"
+     VALIDMIN        (CDF_REAL4/1): 1.0e-33
+     VALIDMAX        (CDF_REAL4/1): 1.0e-23
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/10): "f_omni_odd"
+     SCALETYP        (CDF_CHAR/3): "log"
+     VAR_NOTES       (CDF_CHAR/84): "For each flux value, f_omni[i], Ve[i] gives the corresponding electron speed (cm/s)."
+
+f_para_LABL (No: 31) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "f_para_LABL"
+     FIELDNAM        (CDF_CHAR/11): "f_para_LABL"
+     FORMAT          (CDF_CHAR/3): "A18"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+f_perp_LABL (No: 32) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "f_perp_LABL"
+     FIELDNAM        (CDF_CHAR/11): "f_perp_LABL"
+     FORMAT          (CDF_CHAR/3): "A18"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+f_anti_LABL (No: 33) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "f_anti_LABL"
+     FIELDNAM        (CDF_CHAR/11): "f_anti_LABL"
+     FORMAT          (CDF_CHAR/3): "A18"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+f_omni_LABL (No: 34) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "f_omni_LABL"
+     FIELDNAM        (CDF_CHAR/11): "f_omni_LABL"
+     FORMAT          (CDF_CHAR/3): "A18"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

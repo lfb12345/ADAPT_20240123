@@ -1,0 +1,925 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/i8_h1_gme_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     i8_h1_gme_00000000_v01.cdf
+Version:      3.4.1
+
+Common Data Format (CDF)
+(C) Copyright 1990-2012 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     45
+NumAttrs:     43 (18 global, 25 variable)
+Compression:  None
+Checksum:     None
+
+Global Attributes (18 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"IMP-8"
+Discipline (1 entry):
+	0 (CDF_CHAR/23): 	"Space Physics>Particles"
+Source_name (1 entry):
+	0 (CDF_CHAR/8): 	"I8>IMP-8"
+Data_type (1 entry):
+	0 (CDF_CHAR/18): 	"H1>Definitive Data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/39): 	"GME>Goddard Medium Energy Investigation"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/19): 	"IMP-8 GME Flux Data"
+TEXT (1 entry):
+	0 (CDF_CHAR/22): 	"6-hour avg flex I8 GME"
+MODS (1 entry):
+	0 (CDF_CHAR/18): 	"v0.1 from H0 Mar02"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"I8_H1_GME_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"I8_H1_GME"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/43): 	"IMP-8 GME 6-hour Fluxes (SEP optimal bands)"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"R.E. McGuire"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/18): 	"SPDF - NASA's GSFC"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"IMP (All)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/9): 	"IMP (All)"
+
+Variable Attributes (25 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALETYP
+SCAL_PTR
+UNITS
+UNIT_PTR
+LABLAXIS
+LABL_PTR_1
+FORMAT
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+MONOTON
+DICT_KEY
+VAR_TYPE
+FILLVAL
+DISPLAY_TYPE
+VAR_NOTES
+FUNCTION
+VIRTUAL
+COMPONENT_0
+
+Variable Information (0 rVariable, 45 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Epoch_delta_time      CDF_REAL4/1	0:[]	F/  
+Proton_DIntn          CDF_REAL4/1	1:[30]	T/T
+Proton_DIntn2         CDF_REAL4/1	1:[30]	T/T
+Proton_DIntn3         CDF_REAL4/1	1:[30]	T/T
+Proton_DIntn4         CDF_REAL4/1	1:[30]	T/T
+Proton_DIntn4_errorbars CDF_REAL4/1	1:[30]	T/T
+Proton_DIntn_Unc      CDF_REAL4/1	1:[30]	T/T
+Proton_DIntn_Engy     CDF_REAL4/1	1:[30]	F/T
+Proton_DIntn_EngyPls  CDF_REAL4/1	1:[30]	F/T
+Proton_Dintn_EngyMns  CDF_REAL4/1	1:[30]	F/T
+labels_ProtonFlux     CDF_CHAR/30	1:[30]	F/T
+d_labels_ProtonFlux   CDF_CHAR/30	1:[30]	F/T
+Alpha_DIntn           CDF_REAL4/1	1:[29]	T/T
+Alpha_DIntn2          CDF_REAL4/1	1:[29]	T/T
+Alpha_DIntn3          CDF_REAL4/1	1:[29]	T/T
+Alpha_DIntn4          CDF_REAL4/1	1:[29]	T/T
+Alpha_DIntn4_errorbars CDF_REAL4/1	1:[29]	T/T
+Alpha_DIntn_Unc       CDF_REAL4/1	1:[29]	T/T
+Alpha_DIntn_Engy      CDF_REAL4/1	1:[29]	F/T
+Alpha_DIntn_EngyPls   CDF_REAL4/1	1:[29]	F/T
+Alpha_DIntn_EngyMns   CDF_REAL4/1	1:[29]	F/T
+labels_AlphaFlux      CDF_CHAR/30	1:[29]	F/T
+d_labels_AlphaFlux    CDF_CHAR/30	1:[29]	F/T
+Ion_Fluxes            CDF_REAL4/1	1:[17]	T/T
+Ion_Fluxes_errorbars  CDF_REAL4/1	1:[17]	T/T
+Ion_Fluxes_Unc        CDF_REAL4/1	1:[17]	T/T
+labels_IonFlx         CDF_CHAR/30	1:[17]	F/T
+d_labels_IonFlx       CDF_CHAR/30	1:[17]	F/T
+Elec_Intn             CDF_REAL4/1	0:[]	T/  
+Elec_Intn_errorbars   CDF_REAL4/1	0:[]	T/  
+Elec_Intn_Unc         CDF_REAL4/1	0:[]	T/  
+Elec_BackIntn         CDF_REAL4/1	0:[]	T/  
+Elec_BackIntn_errorbars CDF_REAL4/1	0:[]	T/  
+Elec_BackIntn_Unc     CDF_REAL4/1	0:[]	T/  
+Event_Rates           CDF_REAL4/1	1:[11]	T/T
+Event_Rates_errorbars CDF_REAL4/1	1:[11]	T/T
+Event_Rates_Unc       CDF_REAL4/1	1:[11]	T/T
+labels_EvRates        CDF_CHAR/30	1:[11]	F/T
+d_labels_EvRates      CDF_CHAR/30	1:[11]	F/T
+Singles_Rates         CDF_REAL4/1	1:[7]	T/T
+Singles_Rates_errorbars CDF_REAL4/1	1:[7]	T/T
+Singles_Rates_Unc     CDF_REAL4/1	1:[7]	T/T
+labels_SRates         CDF_CHAR/30	1:[7]	F/T
+d_labels_SRates       CDF_CHAR/30	1:[7]	F/T
+
+
+Variable (45 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/36): "Time, centered,in NSSDC EPOCH format"
+     VALIDMIN        (CDF_EPOCH/1): 29-Oct-1973 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "Epoch_delta_time"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "Epoch_delta_time"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     DICT_KEY        (CDF_CHAR/16): "time>NSSDC_Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Epoch_delta_time (No: 1) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Delta_time"
+     CATDESC         (CDF_CHAR/10): "Delta_time"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.6e+06
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/10): "Delta_time"
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     DICT_KEY        (CDF_CHAR/16): "uncertainty>time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Proton_DIntn (No: 2) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton DIntn (GME)"
+     CATDESC         (CDF_CHAR/98): "(Spectrogram-Full List) Proton Diff Intens (no bckgrd subtract), 30 energies 0.5-500 MeV, spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/5): "dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/17): "Proton_DIntn_Engy"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "Proton_DIntn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "Proton_DIntn_Unc"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/46): "spectrogram>y=Proton_DIntn_Engy,z=Proton_DIntn"
+
+Proton_DIntn2 (No: 3) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton DIntn (GME)"
+     CATDESC         (CDF_CHAR/94): "(Stacked time-series) Proton Diff Intens (no bckgrd subtract), 8 energies 0.5-20 MeV, spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/5): "dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/17): "Proton_DIntn_Engy"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "Proton_DIntn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "Proton_DIntn_Unc"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/217): "stack_plot>y=Proton_DIntn_Engy(1),y=Proton_DIntn_Engy(3),y=Proton_DIntn_Engy(5),y=Proton_DIntn_Engy(7),y=Proton_DIntn_Engy(9),y=Proton_DIntn_Engy(11),y=Proton_DIntn_Engy(13),y=Proton_DIntn_Engy(15),z=Proton_DIntn_Engy"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/12): "Proton_DIntn"
+
+Proton_DIntn3 (No: 4) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton DIntn (GME)"
+     CATDESC         (CDF_CHAR/94): "(Stacked time-series) Proton Diff Intens (no bckgrd subtract), 8 energies 20-500 MeV, spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/5): "dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/17): "Proton_DIntn_Engy"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "Proton_DIntn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "Proton_DIntn_Unc"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/190): "stack_plot>y=Proton_DIntn3(15),y=Proton_DIntn3(17),y=Proton_DIntn3(19),y=Proton_DIntn3(21),y=Proton_DIntn3(23),y=Proton_DIntn3(25),y=Proton_DIntn3(27),y=Proton_DIntn3(29),z=Proton_DIntn_Engy"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/12): "Proton_DIntn"
+
+Proton_DIntn4 (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton DIntn (GME)"
+     CATDESC         (CDF_CHAR/74): "(Individual time-series) Proton Diff Intens (no bckgrd subtract), spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABL_PTR_1      (CDF_CHAR/17): "labels_ProtonFlux"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/17): "Proton_DIntn_Engy"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/12): "Proton_DIntn"
+
+Proton_DIntn4_errorbars (No: 6) (Recs: 0)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton DIntn (GME)"
+     CATDESC         (CDF_CHAR/91): "(Individual time-series) Proton Diff Intens (no bckgrd subtract), spin-avg, with error bars"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABL_PTR_1      (CDF_CHAR/17): "labels_ProtonFlux"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/17): "Proton_DIntn_Engy"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "Proton_DIntn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/16): "Proton_DIntn_Unc"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/12): "Proton_DIntn"
+
+Proton_DIntn_Unc (No: 7) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Unc, Proton DIntn (GME)"
+     CATDESC         (CDF_CHAR/43): "Uncertainty, Proton Differential  Intensity"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/11): "Delta dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/17): "Proton_DIntn_Engy"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Proton_DIntn_Engy (No: 8) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Proton Energy (GME)"
+     CATDESC         (CDF_CHAR/13): "Proton Energy"
+     VALIDMIN        (CDF_REAL4/1): 0.5
+     VALIDMAX        (CDF_REAL4/1): 600.0
+     UNITS           (CDF_CHAR/3): "MeV"
+     LABLAXIS        (CDF_CHAR/13): "Proton Energy"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DELTA_PLUS_VAR  (CDF_CHAR/20): "Proton_DIntn_EngyPls"
+     DELTA_MINUS_VAR (CDF_CHAR/20): "Proton_DIntn_EngyMns"
+     DICT_KEY        (CDF_CHAR/10): "energy>ion"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Proton_DIntn_EngyPls (No: 9) (Recs: 1)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Delta+, Proton Energy (GME)"
+     CATDESC         (CDF_CHAR/21): "Delta+, Proton Energy"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/3): "MeV"
+     LABLAXIS        (CDF_CHAR/13): "Proton Energy"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DICT_KEY        (CDF_CHAR/18): "uncertainty>energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Proton_Dintn_EngyMns (No: 10) (Recs: 1)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Delta-, Proton Energy (GME)"
+     CATDESC         (CDF_CHAR/21): "Delta-, Proton Energy"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/3): "MeV"
+     LABLAXIS        (CDF_CHAR/13): "Proton Energy"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DICT_KEY        (CDF_CHAR/18): "uncertainty>energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+labels_ProtonFlux (No: 11) (Recs: 1)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton Flux Labels"
+     CATDESC         (CDF_CHAR/18): "Proton Flux Labels"
+     LABLAXIS        (CDF_CHAR/18): "Proton Flux Labels"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+d_labels_ProtonFlux (No: 12) (Recs: 1)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Proton Flux Unc Labels"
+     CATDESC         (CDF_CHAR/22): "Proton Flux Unc Labels"
+     LABLAXIS        (CDF_CHAR/22): "Proton Flux Unc Labels"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Alpha_DIntn (No: 13) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Alpha DIntn (GME)"
+     CATDESC         (CDF_CHAR/99): "(Spectrogram-Full List) Alpha Diff Intens (no bckgrd subtract), 29 energies 1-500 MeV/nuc, spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm2-s-sr-MeV/nuc]"
+     LABLAXIS        (CDF_CHAR/5): "dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "Alpha_DIntn_Engy"
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "Alpha_DIntn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "Alpha_DIntn_Unc"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/44): "spectrogram>y=Alpha_DIntn_Engy,z=Alpha_DIntn"
+
+Alpha_DIntn2 (No: 14) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Alpha DIntn (GME)"
+     CATDESC         (CDF_CHAR/95): "(Stacked time-series) Alpha Diff Intens (no bckgrd subtract), 7 energies 1-20 MeV/nuc, spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm2-s-sr-MeV/nuc]"
+     LABLAXIS        (CDF_CHAR/5): "dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "Alpha_DIntn_Engy"
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "Alpha_DIntn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "Alpha_DIntn_Unc"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/157): "stack_plot>y=Alpha_DIntn2(0),y=Alpha_DIntn2(2),y=Alpha_DIntn2(4),y=Alpha_DIntn2(6),y=Alpha_DIntn2(8),y=Alpha_DIntn2(10),y=Alpha_DIntn2(12),z=Alpha_DIntn_Engy"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/11): "Alpha_DIntn"
+
+Alpha_DIntn3 (No: 15) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Alpha DIntn (GME)"
+     CATDESC         (CDF_CHAR/97): "(Stacked time-series) Alpha Diff Intens (no bckgrd subtract), 8 energies 20-500 MeV/nuc, spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm2-s-sr-MeV/nuc]"
+     LABLAXIS        (CDF_CHAR/5): "dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "Alpha_DIntn_Engy"
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "Alpha_DIntn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "Alpha_DIntn_Unc"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/181): "stack_plot>y=Alpha_DIntn3(14),y=Alpha_DIntn3(16),y=Alpha_DIntn3(18),y=Alpha_DIntn3(20),y=Alpha_DIntn3(22),y=Alpha_DIntn3(24),y=Alpha_DIntn3(26),y=Alpha_DIntn3(28),z=Alpha_DIntn_Engy"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/11): "Alpha_DIntn"
+
+Alpha_DIntn4 (No: 16) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Alpha DIntn (GME)"
+     CATDESC         (CDF_CHAR/73): "(Individual time-series) Alpha Diff Intens (no bckgrd subtract), spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm2-s-sr-MeV/nuc]"
+     LABL_PTR_1      (CDF_CHAR/16): "labels_AlphaFlux"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "Alpha_DIntn_Engy"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/11): "Alpha_DIntn"
+
+Alpha_DIntn4_errorbars (No: 17) (Recs: 0)
+----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Alpha DIntn (GME)"
+     CATDESC         (CDF_CHAR/90): "(Individual time-series) Alpha Diff Intens (no bckgrd subtract), spin-avg, with error bars"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm2-s-sr-MeV/nuc]"
+     LABL_PTR_1      (CDF_CHAR/16): "labels_AlphaFlux"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "Alpha_DIntn_Engy"
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "Alpha_DIntn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "Alpha_DIntn_Unc"
+     DICT_KEY        (CDF_CHAR/30): "particle_flux>ion_differential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/11): "Alpha_DIntn"
+
+Alpha_DIntn_Unc (No: 18) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Unc, Alpha DIntn (GME)"
+     CATDESC         (CDF_CHAR/41): "Uncertainty, Alpha Differential Intensity"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm2-s-sr-MeV/nuc]"
+     LABLAXIS        (CDF_CHAR/11): "Delta dJ/dE"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "Alpha_DIntn_Engy"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Alpha_DIntn_Engy (No: 19) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Alpha Energy (GME)"
+     CATDESC         (CDF_CHAR/12): "Alpha Energy"
+     VALIDMIN        (CDF_REAL4/1): 0.5
+     VALIDMAX        (CDF_REAL4/1): 600.0
+     UNITS           (CDF_CHAR/7): "MeV/nuc"
+     LABLAXIS        (CDF_CHAR/12): "Alpha Energy"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DELTA_PLUS_VAR  (CDF_CHAR/19): "Alpha_DIntn_EngyPls"
+     DELTA_MINUS_VAR (CDF_CHAR/19): "Alpha_DIntn_EngyMns"
+     DICT_KEY        (CDF_CHAR/10): "energy>ion"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Alpha_DIntn_EngyPls (No: 20) (Recs: 1)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Delta+, Alpha Energy (GME)"
+     CATDESC         (CDF_CHAR/20): "Delta+, Alpha Energy"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/7): "MeV/nuc"
+     LABLAXIS        (CDF_CHAR/12): "Alpha Energy"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DICT_KEY        (CDF_CHAR/18): "uncertainty>energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Alpha_DIntn_EngyMns (No: 21) (Recs: 1)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Delta-, Alpha Energy (GME)"
+     CATDESC         (CDF_CHAR/20): "Delta-, Alpha Energy"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/7): "MeV/nuc"
+     LABLAXIS        (CDF_CHAR/12): "Alpha Energy"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     DICT_KEY        (CDF_CHAR/18): "uncertainty>energy"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+labels_AlphaFlux (No: 22) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Alpha Flux Labels"
+     CATDESC         (CDF_CHAR/17): "Alpha Flux Labels"
+     LABLAXIS        (CDF_CHAR/17): "Alpha Flux Labels"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+d_labels_AlphaFlux (No: 23) (Recs: 1)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Alpha Flux Unc Labels"
+     CATDESC         (CDF_CHAR/21): "Alpha Flux Unc Labels"
+     LABLAXIS        (CDF_CHAR/21): "Alpha Flux Unc Labels"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Ion_Fluxes (No: 24) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "GME Ion Fluxes"
+     CATDESC         (CDF_CHAR/25): "17 I8 GME Ion Flux Bands "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm2-s-sr-MeV/nuc]"
+     LABL_PTR_1      (CDF_CHAR/13): "labels_IonFlx"
+     FORM_PTR        (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "labels_IonFlx"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/14): "particles>flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Ion_Fluxes_errorbars (No: 25) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "GME Ion Fluxes"
+     CATDESC         (CDF_CHAR/42): "17 I8 GME Ion Flux Bands,  with error bars"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm2-s-sr-MeV/nuc]"
+     LABL_PTR_1      (CDF_CHAR/13): "labels_IonFlx"
+     FORM_PTR        (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "labels_IonFlx"
+     DELTA_PLUS_VAR  (CDF_CHAR/14): "Ion_Fluxes_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/14): "Ion_Fluxes_Unc"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/14): "particles>flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/10): "Ion_Fluxes"
+
+Ion_Fluxes_Unc (No: 26) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Unc, GME Ion Fluxes"
+     CATDESC         (CDF_CHAR/34): "Uncertainty, 17 GME Ion Flux Bands"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/20): "1/[cm2-s-sr-MeV/nuc]"
+     LABL_PTR_1      (CDF_CHAR/15): "d_labels_IonFlx"
+     FORM_PTR        (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "d_labels_IonFlx"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+labels_IonFlx (No: 27) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Ion Flux Labels"
+     CATDESC         (CDF_CHAR/15): "Ion Flux Labels"
+     LABLAXIS        (CDF_CHAR/15): "Ion Flux Labels"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>flux"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+d_labels_IonFlx (No: 28) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "D_EvRate labels"
+     CATDESC         (CDF_CHAR/9): "D_EvRates"
+     LABLAXIS        (CDF_CHAR/5): "Rates"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>rate"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Elec_Intn (No: 29) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Elec DIntn (GME)"
+     CATDESC         (CDF_CHAR/61): "Electron Intensity, 0.3-18 MeV (no bckgrd subtract), spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/17): "Electrn .3-18 MeV"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Elec_Intn_errorbars (No: 30) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Elec DIntn (GME)"
+     CATDESC         (CDF_CHAR/78): "Electron Intensity, 0.3-18 MeV (no bckgrd subtract), spin-avg, with error bars"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/17): "Electrn .3-18 MeV"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DELTA_PLUS_VAR  (CDF_CHAR/13): "Elec_Intn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/13): "Elec_Intn_Unc"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/9): "Elec_Intn"
+
+Elec_Intn_Unc (No: 31) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Unc, Elec Intn (GME)"
+     CATDESC         (CDF_CHAR/35): "Unc, Electron Intensity, 0.3-18 MeV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/18): "1/[cm**2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/10): "Delta Elec"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Elec_BackIntn (No: 32) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Elec Background (GME)"
+     CATDESC         (CDF_CHAR/51): "Electron Background Intensity, 0.3-18 MeV, spin-avg"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/17): "EBckgrd .3-18 MeV"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Elec_BackIntn_errorbars (No: 33) (Recs: 0)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Elec Background (GME)"
+     CATDESC         (CDF_CHAR/68): "Electron Background Intensity, 0.3-18 MeV, spin-avg, with error bars"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/17): "EBckgrd .3-18 MeV"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "Elec_BackIntn_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "Elec_BackIntn_Unc"
+     DICT_KEY        (CDF_CHAR/22): "particle_flux>electron"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/13): "Elec_BackIntn"
+
+Elec_BackIntn_Unc (No: 34) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Unc, Elec Background (GME)"
+     CATDESC         (CDF_CHAR/54): "Uncertainty, Electron Background  Intensity 0.3-18 MeV"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/16): "1/[cm2-s-sr-MeV]"
+     LABLAXIS        (CDF_CHAR/10): "Delta Elec"
+     FORMAT          (CDF_CHAR/4): "E9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Event_Rates (No: 35) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "GME Event Rates"
+     CATDESC         (CDF_CHAR/27): "11 I8 GME Event Type Rates "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/7): "cts/sec"
+     LABL_PTR_1      (CDF_CHAR/14): "labels_EvRates"
+     FORM_PTR        (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "labels_EvRates"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/14): "particles>rate"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Event_Rates_errorbars (No: 36) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "GME Event Rates"
+     CATDESC         (CDF_CHAR/44): "11 I8 GME Event Type Rates, with error bars "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/7): "cts/sec"
+     LABL_PTR_1      (CDF_CHAR/14): "labels_EvRates"
+     FORM_PTR        (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/14): "labels_EvRates"
+     DELTA_PLUS_VAR  (CDF_CHAR/15): "Event_Rates_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "Event_Rates_Unc"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/14): "particles>rate"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/11): "Event_Rates"
+
+Event_Rates_Unc (No: 37) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Unc, Event Rates"
+     CATDESC         (CDF_CHAR/36): "Uncertainty, 11 GME Event Type Rates"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/7): "cts/sec"
+     LABL_PTR_1      (CDF_CHAR/16): "d_labels_EvRates"
+     FORM_PTR        (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/16): "d_labels_EvRates"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+labels_EvRates (No: 38) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Event Rate Labels"
+     CATDESC         (CDF_CHAR/16): "Event Type Rates"
+     LABLAXIS        (CDF_CHAR/11): "Rate Labels"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>rate"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+d_labels_EvRates (No: 39) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "D_EvRate labels"
+     CATDESC         (CDF_CHAR/9): "D_EvRates"
+     LABLAXIS        (CDF_CHAR/5): "Rates"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>rate"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Singles_Rates (No: 40) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "GME Singles Rates"
+     CATDESC         (CDF_CHAR/25): "7 GME Singles Type Rates "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/7): "cts/sec"
+     LABL_PTR_1      (CDF_CHAR/13): "labels_SRates"
+     FORM_PTR        (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "labels_SRates"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/14): "particles>rate"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+Singles_Rates_errorbars (No: 41) (Recs: 0)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "GME Singles Rates"
+     CATDESC         (CDF_CHAR/42): "7 GME Singles Type Rates, with error bars "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/7): "cts/sec"
+     LABL_PTR_1      (CDF_CHAR/13): "labels_SRates"
+     FORM_PTR        (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/13): "labels_SRates"
+     DELTA_PLUS_VAR  (CDF_CHAR/17): "Singles_Rates_Unc"
+     DELTA_MINUS_VAR (CDF_CHAR/17): "Singles_Rates_Unc"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/14): "particles>rate"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     VIRTUAL         (CDF_CHAR/4): "true"
+     COMPONENT_0     (CDF_CHAR/13): "Singles_Rates"
+
+Singles_Rates_Unc (No: 42) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Unc, Singles Rates"
+     CATDESC         (CDF_CHAR/32): "Uncertainty, 7 GME Singles Rates"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "log"
+     UNITS           (CDF_CHAR/7): "cts/sec"
+     LABL_PTR_1      (CDF_CHAR/15): "d_labels_SRates"
+     FORM_PTR        (CDF_CHAR/4): "E9.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/15): "d_labels_SRates"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     DICT_KEY        (CDF_CHAR/20): "uncertainty>absolute"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+labels_SRates (No: 43) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Single Rate Labels"
+     CATDESC         (CDF_CHAR/17): "Single Type Rates"
+     LABLAXIS        (CDF_CHAR/11): "Rate Labels"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>rate"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+d_labels_SRates (No: 44) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "D_SRate labels"
+     CATDESC         (CDF_CHAR/8): "D_SRates"
+     LABLAXIS        (CDF_CHAR/5): "Rates"
+     FORMAT          (CDF_CHAR/3): "A30"
+     DICT_KEY        (CDF_CHAR/10): "label>rate"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

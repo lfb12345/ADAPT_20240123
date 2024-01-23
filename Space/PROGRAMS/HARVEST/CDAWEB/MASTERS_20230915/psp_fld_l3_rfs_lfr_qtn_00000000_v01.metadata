@@ -1,0 +1,406 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_fld_l3_rfs_lfr_qtn_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_fld_l3_rfs_lfr_qtn_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     16
+NumAttrs:     60 (26 global, 34 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/22): 	"LWS>Living With a Star"
+Source_name (1 entry):
+	0 (CDF_CHAR/33): 	"PSP_FLD>Parker Solar Probe FIELDS"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/30): 	"L3>Solar Wind Electron Density"
+Descriptor (1 entry):
+	0 (CDF_CHAR/44): 	"RFS_LFR_QTN>Radio Frequency Spectrometer LFR"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/38): 	"Stuart D. Bale (bale@ssl.berkeley.edu)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/37): 	"UC Berkeley Space Sciences Laboratory"
+TEXT (3 entries):
+	0 (CDF_CHAR/1330): 	"Quasi-thermal noise (QTN) spectroscopy is an efficient tool for measuring in situ macroscopic plasma properties in space, using a passive wave receiver at the ports of an electric antenna [1]. The Radio Frequency Spectrometer (RFS) is a dual channel digital spectrometer, designed for both remote sensing of radio waves and in situ measurement of electrostatic fluctuations using signals from the V1-V4 electric field antennas [2]. Usually, the two RFS channels record differences between V1-V2 and V3-V4 antennas (dipole mode). It allows us to retrieve plasma properties independently by two sets of antennas. The plasma line is automatically identified in a frequency range determined by the density model based on spacecraft distance from the Sun. The frequency range is manually adjusted for intervals when the plasma line occurs at lower or higher frequencies than predicted. We assume that the plasma line is well identified if detected at the same frequency by the V1-V2 and V3-V4 dipoles simultaneously. We assume that the plasma frequency is equal to the geometric mean of the plasma line and the preceding  frequency channel. In other words, the plasma frequency corresponds to the steepest positive slope below the plasma line. The provided error bars are calculated from the frequency resolution of the RFS instrument."
+	1 (CDF_CHAR/221): 	"[1] Meyer-Vernet, N., Issautier, K., & Moncuquet, M. (2017). Quasi-thermal noise spectroscopy: The art and the practice. Journal of Geophysical Research: Space Physics, 122, 7925-7945. https://doi.org/10.1002/2017ja024449"
+	2 (CDF_CHAR/354): 	"[2] Bale, S. D., Goetz, K., Harvey, P. R., Turin, P., Bonnell, J. W., Dudok de Wit, T., et al. (2016). The FIELDS instrument suite for Solar probe plus. Measuring the coronal plasma and magnetic field, plasma waves and turbulence, and radio signatures of Solar transients. Space Science Reviews, 204(1-4), 49-82. https://doi.org/10.1007/s11214-016-0244-5"
+Instrument_type (3 entries):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+	1 (CDF_CHAR/23): 	"Electric Fields (space)"
+	2 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/22): 	"psp_fld_l3_rfs_lfr_qtn"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/148): 	"PSP FIELDS Level 3 Electron Density Data from Radio Frequency Spectrometer (RFS) Low Frequency Receiver (LFR) Quasi-Thermal Noise (QTN) Spectroscopy"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"variable"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/93): 	"NASA open data policy applies. Consultation with the instrument team is strongly recommended."
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/158): 	"This project acknowledges the Parker Solar Probe FIELDS instrument team and the FIELDS science data center for providing these solar wind plasma measurements."
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/36): 	"PSP/FIELDS/RFS/LFR data available at"
+LINK_TITLE (3 entries):
+	0 (CDF_CHAR/23): 	"FIELDS instrument paper"
+	1 (CDF_CHAR/23): 	"SSL FIELDS data website"
+	2 (CDF_CHAR/48): 	"The Quasi-thermal noise (QTN) spectroscopy paper"
+HTTP_LINK (3 entries):
+	0 (CDF_CHAR/59): 	"https://link.springer.com/article/10.1007/s11214-016-0244-5"
+	1 (CDF_CHAR/36): 	"http://fields.ssl.berkeley.edu/data/"
+	2 (CDF_CHAR/36): 	"https://doi.org/10.1002/2017JA024449"
+spase_DatasetResourceID (0 entry):
+
+Variable Attributes (34 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+
+Variable Information (0 rVariable, 16 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+N_elec                CDF_REAL4/1	0:[]	T/  
+N_elec_deltalow       CDF_REAL4/1	0:[]	T/  
+N_elec_deltahigh      CDF_REAL4/1	0:[]	T/  
+N_elec_dqf            CDF_UINT1/1	0:[]	T/  
+Frequency_low         CDF_REAL4/1	0:[]	T/  
+Frequency_high        CDF_REAL4/1	0:[]	T/  
+N_elec_ch0            CDF_REAL4/1	0:[]	T/  
+N_elec_ch0_deltalow   CDF_REAL4/1	0:[]	T/  
+N_elec_ch0_deltahigh  CDF_REAL4/1	0:[]	T/  
+N_elec_ch1            CDF_REAL4/1	0:[]	T/  
+N_elec_ch1_deltalow   CDF_REAL4/1	0:[]	T/  
+N_elec_ch1_deltahigh  CDF_REAL4/1	0:[]	T/  
+HEEQ_X                CDF_REAL4/1	0:[]	T/  
+HEEQ_Y                CDF_REAL4/1	0:[]	T/  
+HEEQ_Z                CDF_REAL4/1	0:[]	T/  
+
+
+Variable (16 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "CDF TT2000 time [ns]"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2049-12-31T23:59:59.999999999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/137): "Spacecraft ephemeris time, expressed as the number of nanoseconds since J2000 (2000-01-01T12:00:00.000000000) with leap seconds included."
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotating Earth Geoid"
+
+N_elec (No: 1) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "QTN electron density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/16): "Electron density"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/16): "Electron density"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DELTA_PLUS_VAR  (CDF_CHAR/16): "N_elec_deltahigh"
+     DELTA_MINUS_VAR (CDF_CHAR/15): "N_elec_deltalow"
+
+N_elec_deltalow (No: 2) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Lower uncertainty associated with QTN electron density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): "Electron density, lower uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/35): "Electron density, lower uncertainty"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+N_elec_deltahigh (No: 3) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/54): "Upper uncertainty associated with QTN electron density"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/35): "Electron density, upper uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/35): "Electron density, upper uncertainty"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+N_elec_dqf (No: 4) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "Array of density data quality indicators"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/17): "Data quality flag"
+     FILLVAL         (CDF_UINT1/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/17): "Data quality flag"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 5
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/354): "All flags are encoded as follows: -------------------------- = 0,   peak at channel 0 only = 1,   peak at channel 1 only = 2,   different peaks at channel 0 and channel 1 = 3,   near peaks at channel 0 and channel 1 = 4,   same peaks at channel 0 and channel 1 = 5,   same peaks at channel 0 and channel 1 with outlier data points excluded (best quality)"
+
+Frequency_low (No: 5) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "Lower boundary of the frequency range with the peak"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/31): "Frequency Range, Lower Boundary"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/31): "Frequency Range, Lower Boundary"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.0e+07
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+Frequency_high (No: 6) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "Upper boundary of the frequency range with the peak"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/31): "Frequency Range, Upper Boundary"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/31): "Frequency Range, Lower Boundary"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.0e+07
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+N_elec_ch0 (No: 7) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "QTN electron density at channel 0"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/28): "Electron density (channel 0)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/28): "Electron density (channel 0)"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DELTA_PLUS_VAR  (CDF_CHAR/20): "N_elec_ch0_deltahigh"
+     DELTA_MINUS_VAR (CDF_CHAR/19): "N_elec_ch0_deltalow"
+
+N_elec_ch0_deltalow (No: 8) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "Lower uncertainty associated with QTN electron density at channel 0"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/47): "Electron density (channel 0), lower uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/47): "Electron density (channel 0), lower uncertainty"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+N_elec_ch0_deltahigh (No: 9) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "Upper uncertainty associated with QTN electron density at channel 0"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/47): "Electron density (channel 0), upper uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/47): "Electron density, upper uncertainty (channel 0)"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+N_elec_ch1 (No: 10) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/33): "QTN electron density at channel 1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/28): "Electron density (channel 1)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/29): "Electron density  (channel 1)"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DELTA_PLUS_VAR  (CDF_CHAR/20): "N_elec_ch1_deltahigh"
+     DELTA_MINUS_VAR (CDF_CHAR/19): "N_elec_ch1_deltalow"
+
+N_elec_ch1_deltalow (No: 11) (Recs: 0) (Compression: GZIP.6)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "Lower uncertainty associated with QTN electron density at channel 1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/47): "Electron density (channel 1), lower uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/48): "Electron density, lower uncertainty  (channel 1)"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+N_elec_ch1_deltahigh (No: 12) (Recs: 0) (Compression: GZIP.6)
+--------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "Upper uncertainty associated with QTN electron density at channel 1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/47): "Electron density (channel 1), upper uncertainty"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/35): "Electron density, upper uncertainty"
+     UNITS           (CDF_CHAR/7): "cm^{-3}"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+HEEQ_X (No: 13) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "Position vector in HEEQ coordinates (Define Rs = 695700km) (X-component)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/42): "Position in HEEQ coordinates (X-component)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "X (HEEQ)"
+     UNITS           (CDF_CHAR/2): "Rs"
+     VALIDMIN        (CDF_REAL4/1): -300.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+HEEQ_Y (No: 14) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "Position vector in HEEQ coordinates (Define Rs = 695700km) (Y-component)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/42): "Position in HEEQ coordinates (Y-component)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "Y (HEEQ)"
+     UNITS           (CDF_CHAR/2): "Rs"
+     VALIDMIN        (CDF_REAL4/1): -300.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+HEEQ_Z (No: 15) (Recs: 0) (Compression: GZIP.6)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "Position vector in HEEQ coordinates (Define Rs = 695700km) (Z-component)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/42): "Position in HEEQ coordinates (Z-component)"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.2"
+     LABLAXIS        (CDF_CHAR/8): "Z (HEEQ)"
+     UNITS           (CDF_CHAR/2): "Rs"
+     VALIDMIN        (CDF_REAL4/1): -300.0
+     VALIDMAX        (CDF_REAL4/1): 300.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

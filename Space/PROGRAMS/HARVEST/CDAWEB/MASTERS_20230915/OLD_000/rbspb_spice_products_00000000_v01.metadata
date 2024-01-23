@@ -1,0 +1,160 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/rbspb_spice_products_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     rbspb_spice_products_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     11
+NumAttrs:     11 (5 global, 6 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (5 attributes)
+=========================================
+TEXT (1 entry):
+	0 (CDF_CHAR/168): 	"Commonly used quantities exported from the SPICE kernel, including information on the position, attitude, spin of the spacecraft. Contacts: Sheng Tian, tianx138@umn.edu"
+TITLE (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/19): 	"2021:12:06T18:19:28"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/34): 	"rbspb_spice_products_2019_0101_v08"
+Project (1 entry):
+	0 (CDF_CHAR/32): 	"RBSP>Radiation Belt Storm Probes"
+
+Variable Attributes (6 attributes)
+=========================================
+UNITS
+FIELDNAM
+VAR_TYPE
+DEPEND_0
+yrange
+VAR_NOTES
+
+Variable Information (0 rVariable, 11 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+rbspb_r_gse           CDF_DOUBLE/1	1:[3]	T/T
+rbspb_v_gse           CDF_DOUBLE/1	1:[3]	T/T
+rbspb_q_uvw2gse       CDF_DOUBLE/1	1:[4]	T/T
+rbspb_wsc_gse         CDF_DOUBLE/1	1:[3]	T/T
+rbspb_mlt             CDF_DOUBLE/1	0:[]	T/  
+rbspb_mlat            CDF_DOUBLE/1	0:[]	T/  
+rbspb_lshell          CDF_DOUBLE/1	0:[]	T/  
+rbspb_sphase_ssha     CDF_DOUBLE/1	0:[]	T/  
+rbspb_spin_period     CDF_DOUBLE/1	0:[]	T/  
+rbspb_spin_phase      CDF_REAL4/1	0:[]	T/  
+
+
+Variable (11 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     UNITS           (CDF_CHAR/2): "ms"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+rbspb_r_gse (No: 1) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     UNITS           (CDF_CHAR/2): "Re"
+     FIELDNAM        (CDF_CHAR/5): "R GSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/23): "The spacecraft position"
+
+rbspb_v_gse (No: 2) (Recs: 0) (Compression: GZIP.6)
+-----------
+Attribute Entries:
+     UNITS           (CDF_CHAR/4): "km/s"
+     FIELDNAM        (CDF_CHAR/5): "V GSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/23): "The spacecraft velocity"
+
+rbspb_q_uvw2gse (No: 3) (Recs: 0) (Compression: GZIP.6)
+---------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/1): "#"
+     FIELDNAM        (CDF_CHAR/9): "Q UVW2GSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+rbspb_wsc_gse (No: 4) (Recs: 0) (Compression: GZIP.6)
+-------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/1): "#"
+     FIELDNAM        (CDF_CHAR/10): "Wsc in GSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/65): "The unit vector of the direction of the spin axis (w-axis) in GSE"
+
+rbspb_mlt (No: 5) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     UNITS           (CDF_CHAR/2): "hr"
+     FIELDNAM        (CDF_CHAR/3): "MLT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     yrange          (CDF_INT2/2): 0, 24
+     VAR_NOTES       (CDF_CHAR/34): "The spacecraft magnetic local time"
+
+rbspb_mlat (No: 6) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "deg"
+     FIELDNAM        (CDF_CHAR/4): "MLat"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/32): "The spacecraft magnetic latitude"
+
+rbspb_lshell (No: 7) (Recs: 0) (Compression: GZIP.6)
+------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/1): "#"
+     FIELDNAM        (CDF_CHAR/1): "L"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/22): "The spacecraft L-shell"
+
+rbspb_sphase_ssha (No: 8) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "deg"
+     FIELDNAM        (CDF_CHAR/14): "sphase of SSHA"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/125): "The angle between the u-axis and the SSH look direction. Used for the rotation between UVW and DSC, c.f., rbsp_uvw_to_dsc.pro"
+
+rbspb_spin_period (No: 9) (Recs: 0) (Compression: GZIP.6)
+-----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "sec"
+     FIELDNAM        (CDF_CHAR/11): "Spin period"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/33): "The spin period of the spacecraft"
+
+rbspb_spin_phase (No: 10) (Recs: 0) (Compression: GZIP.6)
+----------------
+Attribute Entries:
+     UNITS           (CDF_CHAR/3): "deg"
+     FIELDNAM        (CDF_CHAR/10): "Spin phase"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/116): "The angle of the sun sensor with respect to the sun-pulse location (i.e., DSC x), as defined in rbsp_load_state.pro."
+

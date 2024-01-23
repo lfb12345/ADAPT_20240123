@@ -1,0 +1,941 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/l0_k0_spa_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     l0_k0_spa_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     47
+NumzVars:     0
+NumAttrs:     47 (24 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (24 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/27): 	"LANL GEO Energetic Particle"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/48): 	"LANL1990_095>Los Alamos National Laboratory 1990"
+Descriptor (1 entry):
+	0 (CDF_CHAR/39): 	"SPA>Synchronous Orbit Particle Analyzer"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (40 entries):
+	0 (CDF_CHAR/78): 	"     Electron, proton and helium measurements are taken every 160 ms from one "
+	1 (CDF_CHAR/74): 	"of the three telescopes according to the following sequence:  T1, T2, T3, "
+	2 (CDF_CHAR/78): 	"T2, T1, T2 etc.  Heavy ion data accumulated from each of the three telescopes "
+	3 (CDF_CHAR/77): 	"again according to the timing and sequence above and summed for 10.24 seconds"
+	4 (CDF_CHAR/73): 	"which is approximately one spacecraft rotation.  SOPA Key Parameters are "
+	5 (CDF_CHAR/72): 	"normally averaged over three telescopes for ~ 1 minute (6 - 10.24 second"
+	6 (CDF_CHAR/76): 	"data accumulation cycles) giving an average over much of the sky.  The time "
+	7 (CDF_CHAR/75): 	"associated with each set of Key Parameters is determined by using the time "
+	8 (CDF_CHAR/78): 	"(in minutes of the day) at the start of each data collection cycle as an index"
+	9 (CDF_CHAR/71): 	"into an array of 1440 time slots dividing the day into 1440 one minute "
+	10 (CDF_CHAR/65): 	"intervals.  The time reported is the midpoint of each interval.  "
+	11 (CDF_CHAR/27): 	"     We provide six fluxes:"
+	12 (CDF_CHAR/46): 	"        Low energy Protons:  50 keV to 400 keV"
+	13 (CDF_CHAR/45): 	"        High energy Protons: 1.2 MeV to 5 MeV"
+	14 (CDF_CHAR/48): 	"        Low energy Electrons:  50 keV to 225 keV"
+	15 (CDF_CHAR/49): 	"        High energy Electrons: 315 keV to 1.5 MeV"
+	16 (CDF_CHAR/42): 	"        Helium      : ~0.9 MeV to ~1.3 Mev"
+	17 (CDF_CHAR/67): 	"        Heavy Ions  : ~5 MeV to ~15 MeV (includes carbon, nitrogen,"
+	18 (CDF_CHAR/33): 	"                       and oxygen"
+	19 (CDF_CHAR/75): 	"     We also compute two electron temperatures and densities and two proton"
+	20 (CDF_CHAR/77): 	"temperatures and densities.  These are based on approximately the same energy"
+	21 (CDF_CHAR/71): 	"ranges as the fluxes given in above and are determined for relativistic"
+	22 (CDF_CHAR/27): 	"Maxwellian distributions.  "
+	23 (CDF_CHAR/1): 	" "
+	24 (CDF_CHAR/73): 	"Status of SOPA Instrument 1990-095:  Loss of all ion data as of July 1992"
+	25 (CDF_CHAR/74): 	"All three thin, front, D1 detectors have failed, having become intolerably"
+	26 (CDF_CHAR/71): 	"noisy.  The net result of this failure is the complete loss of proton, "
+	27 (CDF_CHAR/73): 	"helium, carbon, nitrogen, oxygen and other high Z Key Parameter data from"
+	28 (CDF_CHAR/68): 	"the instrument.  Since all three thick, back D2 detectors are still "
+	29 (CDF_CHAR/74): 	"operating normally, the electron measurements remain only insignificantly "
+	30 (CDF_CHAR/9): 	"affected."
+	31 (CDF_CHAR/3): 	"   "
+	32 (CDF_CHAR/3): 	"   "
+	33 (CDF_CHAR/52): 	"Data is flagged with a data quality flag as follows:"
+	34 (CDF_CHAR/18): 	"   +1 Data is Good"
+	35 (CDF_CHAR/21): 	"    0 Data is Suspect"
+	36 (CDF_CHAR/22): 	"   -1 Data is Unusable"
+	37 (CDF_CHAR/78): 	"References:   Belian, R. D., Gisler, G. R., Cayton, T. E., Christensen, R. A.,"
+	38 (CDF_CHAR/74): 	"High-Z Energetic Particles at Geosynchronous Orbit During The Great Solar "
+	39 (CDF_CHAR/70): 	"Proton Event Series of October 1989, J. Geophys. Res., 97, 16897, 1992"
+MODS (2 entries):
+	0 (CDF_CHAR/20): 	"created 30-Nov-1992 "
+	1 (CDF_CHAR/45): 	"added text to describe instrument 04-Feb-1993"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0100"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"l0_k0_spa_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"l0_k0_spa"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/60): 	"LANL 1990 Synchronous Orbit Particle Analyzer Key Parameters"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Reiner Friedel"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/4): 	"LANL"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"spms-00232"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/39): 	"LANL1990_SPA_Key-Parameters-K0_1min_cdf"
+Mission_group (2 entries):
+	0 (CDF_CHAR/4): 	"LANL"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Link_text (1 entry):
+	0 (CDF_CHAR/84): 	"More LANL Synchronous Orbit Energetic Particle (SOPA) data, information and plots at"
+Link_title (1 entry):
+	0 (CDF_CHAR/39): 	"http://leadbelly.lanl.gov/lanl_ep_data/"
+HTTP_link (1 entry):
+	0 (CDF_CHAR/39): 	"http://leadbelly.lanl.gov/lanl_ep_data/"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/47): 	"spase://NASA/NumericalData/LANL/1990/SOPA/PT60S"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+UNIT_PTR
+LABLAXIS
+LABL_PTR_1
+DEPEND_0
+DEPEND_1
+MONOTON
+FORMAT
+FORM_PTR
+FILLVAL
+VAR_TYPE
+DICT_KEY
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+CATDESC
+DISPLAY_TYPE
+AVG_TYPE
+VAR_NOTES
+
+Variable Information (47 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	2:[2,3]	T/FF
+Time_PB5              CDF_INT4/1	2:[2,3]	T/FT
+sc_loc                CDF_REAL4/1	2:[2,3]	T/FT
+spa_e_temp            CDF_REAL4/1	2:[2,3]	T/TF
+spa_p_temp            CDF_REAL4/1	2:[2,3]	T/TF
+spa_e_dens            CDF_REAL4/1	2:[2,3]	T/TF
+spa_p_dens            CDF_REAL4/1	2:[2,3]	T/TF
+spa_a_flux            CDF_REAL4/1	2:[2,3]	T/FF
+spa_hvy_flx           CDF_REAL4/1	2:[2,3]	T/FF
+spa_e_flx             CDF_REAL4/1	2:[2,3]	T/TF
+spa_p_flx             CDF_REAL4/1	2:[2,3]	T/TF
+label_time            CDF_CHAR/27	2:[2,3]	F/FT
+unit_time             CDF_CHAR/4	2:[2,3]	F/FT
+format_time           CDF_CHAR/2	2:[2,3]	F/FT
+Polar                 CDF_CHAR/17	2:[2,3]	F/FT
+unit_pos              CDF_CHAR/11	2:[2,3]	F/FT
+ENERGY_E              CDF_REAL4/1	2:[2,3]	F/TF
+ENERGY_P              CDF_REAL4/1	2:[2,3]	F/TF
+E_MINUS               CDF_REAL4/1	2:[2,3]	F/TF
+E_PLUS                CDF_REAL4/1	2:[2,3]	F/TF
+P_MINUS               CDF_REAL4/1	2:[2,3]	F/TF
+P_PLUS                CDF_REAL4/1	2:[2,3]	F/TF
+E_DQF                 CDF_INT4/1	2:[2,3]	F/TF
+P_DQF                 CDF_INT4/1	2:[2,3]	F/TF
+ET_DQF                CDF_INT4/1	2:[2,3]	F/TF
+ED_DQF                CDF_INT4/1	2:[2,3]	F/TF
+PT_DQF                CDF_INT4/1	2:[2,3]	F/TF
+PD_DQF                CDF_INT4/1	2:[2,3]	F/TF
+A_DQF                 CDF_INT4/1	2:[2,3]	F/FF
+CNO_DQF               CDF_INT4/1	2:[2,3]	F/FF
+E_FLUX_LABL           CDF_CHAR/17	2:[2,3]	F/TF
+P_FLUX_LABL           CDF_CHAR/16	2:[2,3]	F/TF
+format_pos            CDF_CHAR/4	2:[2,3]	F/FT
+FLUX_FORM             CDF_CHAR/5	2:[2,3]	F/TF
+E_DENS_LABL           CDF_CHAR/17	2:[2,3]	F/TF
+P_DENS_LABL           CDF_CHAR/16	2:[2,3]	F/TF
+DENS_FORM             CDF_CHAR/5	2:[2,3]	F/TF
+E_TEMP_LABL           CDF_CHAR/16	2:[2,3]	F/TF
+P_TEMP_LABL           CDF_CHAR/16	2:[2,3]	F/TF
+TEMP_FORM             CDF_CHAR/5	2:[2,3]	F/TF
+E_DQF_LABL            CDF_CHAR/7	2:[2,3]	F/TF
+P_DQF_LABL            CDF_CHAR/7	2:[2,3]	F/TF
+ET_DQ_LB              CDF_CHAR/8	2:[2,3]	F/TF
+PT_DQF_LABL           CDF_CHAR/8	2:[2,3]	F/TF
+ED_DQF_LABL           CDF_CHAR/9	2:[2,3]	F/TF
+PD_DQF_LABL           CDF_CHAR/9	2:[2,3]	F/TF
+POST_GAP_FLAG         CDF_INT4/1	2:[2,3]	T/FF
+
+
+Variable (47 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     UNITS           (CDF_CHAR/2): "ms"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_INT4/3): 1992, 214, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 86399000
+     SCALEMIN        (CDF_INT4/3): 1992, 214, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 366, 86399000
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/8): "time>PB5"
+     CATDESC         (CDF_CHAR/58): "Time (year, day of year, ms of day) at center of interval "
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+sc_loc (No: 2) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "S/C position"
+     VALIDMIN        (CDF_REAL4/3): -90.0, -180.0, 6.0
+     VALIDMAX        (CDF_REAL4/3): 90.0, 180.0, 7.0
+     SCALEMIN        (CDF_REAL4/3): -90.0, -180.0, 6.0
+     SCALEMAX        (CDF_REAL4/3): 90.0, 180.0, 7.0
+     UNIT_PTR        (CDF_CHAR/8): "unit_pos"
+     LABL_PTR_1      (CDF_CHAR/5): "Polar"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "Polar"
+     FORM_PTR        (CDF_CHAR/10): "format_pos"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/9): "position>"
+     CATDESC         (CDF_CHAR/64): "Spacecraft position, geographic (lat., long. (deg), radius (RE))"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+spa_e_temp (No: 3) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "SPA Electron Temp"
+     VALIDMIN        (CDF_REAL4/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/2): 50.0, 50.0
+     SCALEMIN        (CDF_REAL4/2): 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/2): 50.0, 50.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABL_PTR_1      (CDF_CHAR/11): "E_TEMP_LABL"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "ENERGY_E"
+     FORM_PTR        (CDF_CHAR/9): "TEMP_FORM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/20): "temperature>electron"
+     CATDESC         (CDF_CHAR/65): "Electron temperature in 2 energy bands (50-225 keV, 315-1500 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/158): "Electron temperature determined from relativistic Maxwellian distributions and averaged over 3 11deg telescopes (separated by  30deg) rotating with spacecraft"
+
+spa_p_temp (No: 4) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "SPA Proton Temp"
+     VALIDMIN        (CDF_REAL4/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/2): 50.0, 50.0
+     SCALEMIN        (CDF_REAL4/2): 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/2): 50.0, 50.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABL_PTR_1      (CDF_CHAR/11): "P_TEMP_LABL"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "ENERGY_P"
+     FORM_PTR        (CDF_CHAR/9): "TEMP_FORM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/62): "Proton temperature in 2 energy bands (50-400 keV, 1.2-5.0 MeV)"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/156): "Proton temperature determined from relativistic Maxwellian distributions and averaged over 3 11deg telescopes (separated by  30deg) rotating with spacecraft"
+
+spa_e_dens (No: 5) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "SPA Elect. Density 1"
+     VALIDMIN        (CDF_REAL4/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/2): 5000.0, 5000.0
+     SCALEMIN        (CDF_REAL4/2): 0.01, 0.01
+     SCALEMAX        (CDF_REAL4/2): 5000.0, 5000.0
+     UNITS           (CDF_CHAR/5): "e/cm3"
+     LABL_PTR_1      (CDF_CHAR/11): "E_DENS_LABL"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "ENERGY_E"
+     FORM_PTR        (CDF_CHAR/9): "DENS_FORM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/71): "Partial electron densities in 2 energy bands (50-225 keV, 315-1500 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/164): "Partial electron densities determined from relativistic Maxwellian distributions and averaged over 3 11deg telescopes (separated by  30deg) rotating with spacecraft"
+
+spa_p_dens (No: 6) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "SPA Prot. Density"
+     VALIDMIN        (CDF_REAL4/2): 0.0, 0.0
+     VALIDMAX        (CDF_REAL4/2): 5000.0, 5000.0
+     SCALEMIN        (CDF_REAL4/2): 0.0, 0.0
+     SCALEMAX        (CDF_REAL4/2): 5000.0, 5000.0
+     UNITS           (CDF_CHAR/5): "p/cm3"
+     LABL_PTR_1      (CDF_CHAR/11): "P_DENS_LABL"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "ENERGY_P"
+     FORM_PTR        (CDF_CHAR/9): "DENS_FORM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/68): "Partial proton densities in 2 energy bands (50-400 keV, 1.2-5.0 MeV)"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/162): "Partial proton densities determined from relativistic Maxwellian distributions and averaged over 3 11deg telescopes (separated by  30deg) rotating with spacecraft"
+
+spa_a_flux (No: 7) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "SPA alpha flux"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 50000.0
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 50000.0
+     UNITS           (CDF_CHAR/20): "a/(keV-cm2-ster-sec)"
+     LABLAXIS        (CDF_CHAR/10): "Alpha Flux"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "f10.5"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/19): "particle_flux>alpha"
+     CATDESC         (CDF_CHAR/45): "Alpha flux (Helium) from ~0.9 MeV to ~1.3 Mev"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/99): "alpha flux (Helium) averaged over 3 11deg telescopes (separated by  30deg) rotating with spacecraft"
+
+spa_hvy_flx (No: 8) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "SPA heavy part. flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 0.001
+     SCALEMAX        (CDF_REAL4/1): 500.0
+     UNITS           (CDF_CHAR/20): "P/(keV-cm2-ster-sec)"
+     LABLAXIS        (CDF_CHAR/10): "Heavy Flux"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "f10.5"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/74): "Heavy Ion flux at ~5 MeV to ~15 MeV (includes carbon, nitrogen, and oxygen"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/94): "Heavy Ion flux averaged over 3 11deg telescopes (separated by  30deg) rotating with spacecraft"
+
+spa_e_flx (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "SPA Electron Flux"
+     VALIDMIN        (CDF_REAL4/1): 0.1
+     VALIDMAX        (CDF_REAL4/1): 50000.0
+     SCALEMIN        (CDF_REAL4/1): 0.1
+     SCALEMAX        (CDF_REAL4/1): 5000.0
+     UNITS           (CDF_CHAR/20): "e/(keV-cm2-ster-sec)"
+     LABL_PTR_1      (CDF_CHAR/11): "E_FLUX_LABL"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "ENERGY_E"
+     FORM_PTR        (CDF_CHAR/9): "FLUX_FORM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/58): "Electron flux in 2 energy bands (50-225 keV, 315-1500 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/96): "Electron flux is averaged over 3 11deg telescopes (separated by  30deg) rotating with spacecraft"
+
+spa_p_flx (No: 10) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "SPA proton flux"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 50000.0
+     SCALEMIN        (CDF_REAL4/1): 0.01
+     SCALEMAX        (CDF_REAL4/1): 5000.0
+     UNITS           (CDF_CHAR/20): "p/(keV-cm2-ster-sec)"
+     LABL_PTR_1      (CDF_CHAR/11): "P_FLUX_LABL"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "ENERGY_P"
+     FORM_PTR        (CDF_CHAR/9): "FLUX_FORM"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/55): "Proton flux in 2 energy bands (50-400 keV, 1.2-5.0 MeV)"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/91): "proton flux averaged over 3 11deg telescopes (separated by  30deg) rotating with spacecraft"
+
+label_time (No: 11) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Labels for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/40): "Labels for Time_PB5                     "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 12) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 13) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/40): "Format for Time_PB5                     "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Polar (No: 14) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Label for s/c position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/14): "label>position"
+     CATDESC         (CDF_CHAR/40): "Label for s/c position                  "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_pos (No: 15) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Units for s/c position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Units for s/c position                  "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+ENERGY_E (No: 16) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Electron Energy"
+     VALIDMIN        (CDF_REAL4/2): 50.0, 315.0
+     VALIDMAX        (CDF_REAL4/2): 225.0, 1500.0
+     SCALEMIN        (CDF_REAL4/2): 50.0, 315.0
+     SCALEMAX        (CDF_REAL4/2): 225.0, 1500.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/8): "E Energy"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/15): "energy>electron"
+     DELTA_PLUS_VAR  (CDF_CHAR/6): "E_PLUS"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "E_MINUS"
+     CATDESC         (CDF_CHAR/74): "Electron energies, midpoints of 2 energy bands (50-225 keV, 315-15000 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+ENERGY_P (No: 17) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Proton Energy"
+     VALIDMIN        (CDF_REAL4/2): 50.0, 1200.0
+     VALIDMAX        (CDF_REAL4/2): 400.0, 5000.0
+     SCALEMIN        (CDF_REAL4/2): 50.0, 1200.0
+     SCALEMAX        (CDF_REAL4/2): 400.0, 5000.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/8): "P Energy"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "energy>proton"
+     DELTA_PLUS_VAR  (CDF_CHAR/6): "P_PLUS"
+     DELTA_MINUS_VAR (CDF_CHAR/7): "P_MINUS"
+     CATDESC         (CDF_CHAR/70): "Proton energies, midpoints of 2 energy bands (50-400 keV, 1.2-5.0 MeV)"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_MINUS (No: 18) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Electron Energy Range low"
+     VALIDMIN        (CDF_REAL4/2): 50.0, 315.0
+     VALIDMAX        (CDF_REAL4/2): 225.0, 1500.0
+     SCALEMIN        (CDF_REAL4/2): 50.0, 315.0
+     SCALEMAX        (CDF_REAL4/2): 225.0, 1500.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/9): "-dE elect"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/19): "ISTP>range>absolute"
+     CATDESC         (CDF_CHAR/86): "Electron energies, delta to lower limits of 2 energy bands (50-225 keV, 315-15000 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_PLUS (No: 19) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Electron Energy Range HIGH"
+     VALIDMIN        (CDF_REAL4/2): 50.0, 315.0
+     VALIDMAX        (CDF_REAL4/2): 225.0, 1500.0
+     SCALEMIN        (CDF_REAL4/2): 50.0, 315.0
+     SCALEMAX        (CDF_REAL4/2): 225.0, 1500.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/9): "+dE elect"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/19): "ISTP>range>absolute"
+     CATDESC         (CDF_CHAR/86): "Electron energies, delta to upper limits of 2 energy bands (50-225 keV, 315-15000 keV)"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+P_MINUS (No: 20) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Proton Energy Range low"
+     VALIDMIN        (CDF_REAL4/2): 50.0, 1200.0
+     VALIDMAX        (CDF_REAL4/2): 400.0, 5000.0
+     SCALEMIN        (CDF_REAL4/2): 50.0, 1200.0
+     SCALEMAX        (CDF_REAL4/2): 400.0, 5000.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/8): "-dE prot"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/19): "ISTP>range>absolute"
+     CATDESC         (CDF_CHAR/82): "Proton energies, delta to lower limits of 2 energy bands (50-400 keV, 1.2-5.0 MeV)"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+P_PLUS (No: 21) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Proton Energy Range HIGH"
+     VALIDMIN        (CDF_REAL4/2): 50.0, 1200.0
+     VALIDMAX        (CDF_REAL4/2): 400.0, 5000.0
+     SCALEMIN        (CDF_REAL4/2): 50.0, 1200.0
+     SCALEMAX        (CDF_REAL4/2): 400.0, 5000.0
+     UNITS           (CDF_CHAR/3): "keV"
+     LABLAXIS        (CDF_CHAR/8): "+dE prot"
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/19): "ISTP>range>absolute"
+     CATDESC         (CDF_CHAR/82): "Proton energies, delta to upper limits of 2 energy bands (50-400 keV, 1.2-5.0 MeV)"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_DQF (No: 22) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Electron Data Quality Flag"
+     VALIDMIN        (CDF_INT4/2): -1, -1
+     VALIDMAX        (CDF_INT4/2): 1, 1
+     SCALEMIN        (CDF_INT4/2): -1, -1
+     SCALEMAX        (CDF_INT4/2): 1, 1
+     UNITS           (CDF_CHAR/2): "  "
+     LABL_PTR_1      (CDF_CHAR/10): "E_DQF_LABL"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/21): "flag>electron_quality"
+     CATDESC         (CDF_CHAR/64): "Electron data quality flag: Unusable = -1, Suspect = 0, Good = 1"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+P_DQF (No: 23) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Proton Data Quality Flag"
+     VALIDMIN        (CDF_INT4/2): -1, -1
+     VALIDMAX        (CDF_INT4/2): 1, 1
+     SCALEMIN        (CDF_INT4/2): -1, -1
+     SCALEMAX        (CDF_INT4/2): 1, 1
+     UNITS           (CDF_CHAR/2): "  "
+     LABL_PTR_1      (CDF_CHAR/10): "P_DQF_LABL"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/62): "Proton data quality flag: Unusable = -1, Suspect = 0, Good = 1"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+ET_DQF (No: 24) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "e Temperature Data Qual Flag"
+     VALIDMIN        (CDF_INT4/2): -1, -1
+     VALIDMAX        (CDF_INT4/2): 1, 1
+     SCALEMIN        (CDF_INT4/2): -1, -1
+     SCALEMAX        (CDF_INT4/2): 1, 1
+     UNITS           (CDF_CHAR/2): "  "
+     LABL_PTR_1      (CDF_CHAR/8): "ET_DQ_LB"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/66): "e Temperature data qual flag: Unusable = -1, Suspect = 0, Good = 1"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+ED_DQF (No: 25) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "e Density Data Qual Flag"
+     VALIDMIN        (CDF_INT4/2): -1, -1
+     VALIDMAX        (CDF_INT4/2): 1, 1
+     SCALEMIN        (CDF_INT4/2): -1, -1
+     SCALEMAX        (CDF_INT4/2): 1, 1
+     UNITS           (CDF_CHAR/2): "  "
+     LABL_PTR_1      (CDF_CHAR/11): "ED_DQF_LABL"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/62): "e Density data qual flag: Unusable = -1, Suspect = 0, Good = 1"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+PT_DQF (No: 26) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "p Temperature Data Qual Flag"
+     VALIDMIN        (CDF_INT4/2): -1, -1
+     VALIDMAX        (CDF_INT4/2): 1, 1
+     SCALEMIN        (CDF_INT4/2): -1, -1
+     SCALEMAX        (CDF_INT4/2): 1, 1
+     UNITS           (CDF_CHAR/2): "  "
+     LABL_PTR_1      (CDF_CHAR/11): "PT_DQF_LABL"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/66): "p Temperature data qual flag: Unusable = -1, Suspect = 0, Good = 1"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+PD_DQF (No: 27) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "e Temperature Data Qual Flag"
+     VALIDMIN        (CDF_INT4/2): -1, -1
+     VALIDMAX        (CDF_INT4/2): 1, 1
+     SCALEMIN        (CDF_INT4/2): -1, -1
+     SCALEMAX        (CDF_INT4/2): 1, 1
+     UNITS           (CDF_CHAR/2): "  "
+     LABL_PTR_1      (CDF_CHAR/11): "PD_DQF_LABL"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/2): "  "
+     CATDESC         (CDF_CHAR/66): "e Temperature data qual flag: Unusable = -1, Suspect = 0, Good = 1"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+A_DQF (No: 28) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Alpha Data Qual Flag"
+     VALIDMIN        (CDF_INT4/2): -1, -1
+     VALIDMAX        (CDF_INT4/2): 1, 1
+     SCALEMIN        (CDF_INT4/2): -1, -1
+     SCALEMAX        (CDF_INT4/2): 1, 1
+     UNITS           (CDF_CHAR/2): "  "
+     LABLAXIS        (CDF_CHAR/8): "Alpha DQ"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/25): "flag>quality_particl_flux"
+     CATDESC         (CDF_CHAR/58): "Alpha data qual flag: Unusable = -1, Suspect = 0, Good = 1"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+CNO_DQF (No: 29) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "CNO Flux Data Qual Flag"
+     VALIDMIN        (CDF_INT4/2): -1, -1
+     VALIDMAX        (CDF_INT4/2): 1, 1
+     SCALEMIN        (CDF_INT4/2): -1, -1
+     SCALEMAX        (CDF_INT4/2): 1, 1
+     UNITS           (CDF_CHAR/2): "  "
+     LABLAXIS        (CDF_CHAR/6): "CNO DQ"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/26): "flag>quality_particle_flux"
+     CATDESC         (CDF_CHAR/61): "CNO Flux data qual flag: Unusable = -1, Suspect = 0, Good = 1"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_FLUX_LABL (No: 30) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Labels for e flux axes"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/19): "label>particle_flux"
+     CATDESC         (CDF_CHAR/40): "Labels for e flux axes                  "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+P_FLUX_LABL (No: 31) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Labels for p flux axes"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/19): "label>particle_flux"
+     CATDESC         (CDF_CHAR/40): "Labels for p flux axes                  "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_pos (No: 32) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Format for S/C Location"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+     CATDESC         (CDF_CHAR/40): "Format for S/C Location                 "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FLUX_FORM (No: 33) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Format for flux values"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+     CATDESC         (CDF_CHAR/40): "Format for flux values                  "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_DENS_LABL (No: 34) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Labels for e Temperature axes"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/17): "label>temperature"
+     CATDESC         (CDF_CHAR/40): "Labels for e Temperature axes           "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+P_DENS_LABL (No: 35) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Labels for p Density axes"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/13): "label>density"
+     CATDESC         (CDF_CHAR/40): "Labels for p Density axes               "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DENS_FORM (No: 36) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Format for flux values"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+     CATDESC         (CDF_CHAR/40): "Format for flux values                  "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_TEMP_LABL (No: 37) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "Labels for e Temperature axes"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/17): "label>temperature"
+     CATDESC         (CDF_CHAR/40): "Labels for e Temperature axes           "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+P_TEMP_LABL (No: 38) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Labels for p temp axes"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/17): "label>temperature"
+     CATDESC         (CDF_CHAR/40): "Labels for p temp axes                  "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+TEMP_FORM (No: 39) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Format for flux values"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/12): "label>format"
+     CATDESC         (CDF_CHAR/40): "Format for flux values                  "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+E_DQF_LABL (No: 40) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Labels for e Flux Data Quality"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/13): "label>quality"
+     CATDESC         (CDF_CHAR/40): "Labels for e Flux Data Quality          "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+P_DQF_LABL (No: 41) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Labels for p Flux Data Quality"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/13): "label>quality"
+     CATDESC         (CDF_CHAR/40): "Labels for p Flux Data Quality          "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+ET_DQ_LB (No: 42) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/37): "Labels for e Temperature Data Quality"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/13): "label>quality"
+     CATDESC         (CDF_CHAR/40): "Labels for e Temperature Data Quality   "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+PT_DQF_LABL (No: 43) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Labels for p Temp Data Quality"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/13): "label>quality"
+     CATDESC         (CDF_CHAR/40): "Labels for p Temp Data Quality          "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+ED_DQF_LABL (No: 44) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Labels for e Flux Dens Quality"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/13): "label>quality"
+     CATDESC         (CDF_CHAR/40): "Labels for e Flux Dens Quality          "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+PD_DQF_LABL (No: 45) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Labels for p Flux Dens Quality"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/13): "label>quality"
+     CATDESC         (CDF_CHAR/40): "Labels for p Flux Dens Quality          "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+POST_GAP_FLAG (No: 46) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post gap flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 20
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 20
+     UNITS           (CDF_CHAR/2): "  "
+     LABLAXIS        (CDF_CHAR/8): "Gap Flag"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/59): "0 = no gap in data; 1 = data for previous gap not available"
+     DISPLAY_TYPE    (CDF_CHAR/2): "  "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

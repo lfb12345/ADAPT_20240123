@@ -1,0 +1,232 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/stereo_level2_swaves_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     stereo_level2_swaves_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     52 (26 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/28): 	"STP>Solar Terrestrial Probes"
+Source_name (1 entry):
+	0 (CDF_CHAR/47): 	"STEREO>Solar TErrestrial RElations Observatory "
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/19): 	"level2>level 2 data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"SWAVES>STEREO Radio WAVES"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"2"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"M. Kaiser"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+TEXT (1 entry):
+	0 (CDF_CHAR/57): 	"The file contains 1 minute averaged radio intensity data."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"STEREO"
+Logical_source (1 entry):
+	0 (CDF_CHAR/20): 	"stereo_level2_swaves"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/33): 	"stereo_level2_swaves_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/72): 	"STEREO WAVES (SWAVES) Radio Intensity Spectra, both Ahead and Behind s/c"
+Time_resolution (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/35): 	"Experiment and Data descriptions at"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/32): 	"STEREO/SWAVES Investigation Site"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/38): 	"http://swaves.gsfc.nasa.gov/index.html"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/57): 	"spase://NASA/NumericalData/STEREO/SWAVES/DS/Combined/PT1M"
+
+Variable Attributes (26 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+avg_intens_ahead      CDF_FLOAT/1	1:[367]	T/T
+avg_intens_ahead_noninvert CDF_FLOAT/1	1:[367]	T/T
+background_ahead      CDF_FLOAT/1	1:[367]	T/T
+avg_intens_behind     CDF_FLOAT/1	1:[367]	T/T
+background_behind     CDF_FLOAT/1	1:[367]	T/T
+frequency             CDF_FLOAT/1	1:[367]	F/T
+
+
+Variable (7 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Time since 0 AD"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/26): "Interval-centered time tag"
+
+avg_intens_ahead (No: 1) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/110): "Ahead:  Electric field avg intensity (dB above bgnd, 367 freqs 2.6 kHz - 16.025 MHz, inverted frequency order)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "frequency"
+     DISPLAY_TYPE    (CDF_CHAR/25): "spectrogram>reverse_yaxis"
+     FIELDNAM        (CDF_CHAR/24): "E-Avg Inten>Bgnd (Ahead)"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f11.5"
+     LABLAXIS        (CDF_CHAR/15): "E-Inten_(Ahead)"
+     UNITS           (CDF_CHAR/7): "dB>bgnd"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-05
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+avg_intens_ahead_noninvert (No: 2) (Recs: 0)
+--------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "---> Ahead:  Electric field avg intensity (normal frequency order)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "frequency"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/24): "E-Avg Inten>Bgnd (Ahead)"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f11.5"
+     LABLAXIS        (CDF_CHAR/15): "E-Inten_(Ahead)"
+     UNITS           (CDF_CHAR/7): "dB>bgnd"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-05
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/16): "avg_intens_ahead"
+
+background_ahead (No: 3) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "---> Ahead:  Background Intensity (normal frequency order)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "frequency"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/22): "Bgnd Avg Inten (Ahead)"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     LABLAXIS        (CDF_CHAR/18): "Background_(Ahead)"
+     UNITS           (CDF_CHAR/2): "dB"
+     VALIDMIN        (CDF_FLOAT/1): 50.0
+     VALIDMAX        (CDF_FLOAT/1): 150.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+avg_intens_behind (No: 4) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/120): "Behind:  Electric field avg intensity (dB above bgnd, 367 log-spaced freqs 2.6 kHz - 16.025 MHz, normal frequency order)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "frequency"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/25): "E-Avg Inten>Bgnd (Behind)"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f11.5"
+     LABLAXIS        (CDF_CHAR/16): "E-Inten_(Behind)"
+     UNITS           (CDF_CHAR/7): "dB>bgnd"
+     VALIDMIN        (CDF_FLOAT/1): 1.0e-05
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+background_behind (No: 5) (Recs: 0)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "---> Behind:  Background Intensity (normal frequency order)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "frequency"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/23): "Bgnd Avg Inten (Behind)"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.1"
+     LABLAXIS        (CDF_CHAR/19): "Background_(Behind)"
+     UNITS           (CDF_CHAR/2): "dB"
+     VALIDMIN        (CDF_FLOAT/1): 50.0
+     VALIDMAX        (CDF_FLOAT/1): 150.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+frequency (No: 6) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "Frequency"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/9): "Frequency"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.3"
+     LABLAXIS        (CDF_CHAR/9): "Frequency"
+     UNITS           (CDF_CHAR/3): "kHz"
+     VALIDMIN        (CDF_FLOAT/1): 2.6
+     VALIDMAX        (CDF_FLOAT/1): 16025.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/3): "log"
+

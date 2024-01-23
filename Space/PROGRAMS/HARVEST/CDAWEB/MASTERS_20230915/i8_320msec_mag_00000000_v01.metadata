@@ -1,0 +1,184 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/i8_320msec_mag_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     i8_320msec_mag_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     5
+NumAttrs:     46 (20 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (20 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"IMP-8>Interplanetary Monitoring Platform 8"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/31): 	"320msec>320msec Time Resolution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"MAG>Fluxgate Magnetometer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (2 entries):
+	0 (CDF_CHAR/64): 	"For detailed documentation on the creation of this data set see "
+	1 (CDF_CHAR/88): 	"https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/mag/320ms_ascii/doc/imp8_mag_320ms_proc.txt"
+PI_name (1 entry):
+	0 (CDF_CHAR/45): 	"Adam Szabo, Joe King and Natalia Papitashvili"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA GSFC"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/9): 	"IMP (All)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/14): 	"i8_320msec_mag"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/27): 	"i8_320msec_mag_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/53): 	"IMP-8 Fluxgate Magnetometer, 320 msec Resolution Data"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/11): 	"320 msecond"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0363"
+Link_text (1 entry):
+	0 (CDF_CHAR/56): 	"Detailed documentation on the creation of this data set "
+Link_title (1 entry):
+	0 (CDF_CHAR/24): 	"Data process documention"
+HTTP_link (1 entry):
+	0 (CDF_CHAR/88): 	"https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/mag/320ms_ascii/doc/imp8_mag_320ms_proc.txt"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/43): 	"spase://NASA/NumericalData/IMP8/MAG/PT0.32S"
+
+Variable Attributes (26 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+LABL_PTR_1
+UNITS
+UNIT_PTR
+FORMAT
+FORM_PTR
+DEPEND_0
+DEPEND_1
+MONOTON
+VAR_TYPE
+DICT_KEY
+CATDESC
+FILLVAL
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+TIME_RES
+FUNCTION
+VIRTUAL
+COMPONENT_0
+
+Variable Information (0 rVariable, 5 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+BX                    CDF_REAL4/1	0:[]	T/  
+BY                    CDF_REAL4/1	0:[]	T/  
+BZ                    CDF_REAL4/1	0:[]	T/  
+B                     CDF_REAL4/1	0:[]	T/  
+
+
+Variable (5 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_EPOCH/1): 12-Nov-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 04-Dec-1995 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 05-Dec-1995 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     FORMAT          (CDF_CHAR/5): "E14.8"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     CATDESC         (CDF_CHAR/38): "Number of milliseconds since the epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+
+BX (No: 1) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Bx (GSE)"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/8): "Bx (GSE)"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/8): "Bx (GSE)"
+     FILLVAL         (CDF_REAL4/1): 9999.99
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+BY (No: 2) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "By (GSE)"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/8): "By (GSE)"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/8): "By (GSE)"
+     FILLVAL         (CDF_REAL4/1): 9999.99
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+BZ (No: 3) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Bz (GSE)"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/8): "Bz (GSE)"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/8): "Bz (GSE)"
+     FILLVAL         (CDF_REAL4/1): 9999.99
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+B (No: 4) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/1): "B"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/1): "B"
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/19): "B (Field magnitude)"
+     FILLVAL         (CDF_REAL4/1): 9999.99
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+

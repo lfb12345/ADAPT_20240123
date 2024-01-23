@@ -1,0 +1,557 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/de1_pwi_or-at_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     de1_pwi_or-at_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     25
+NumAttrs:     44 (25 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/23): 	"DE1>Dynamics Explorer 1"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/20): 	"OR-AT>Orbit-Attitude"
+Descriptor (1 entry):
+	0 (CDF_CHAR/4): 	"PWI>"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"8 Seconds"
+Data_version (1 entry):
+	0 (CDF_BYTE/1): 	1
+Skeleton_version (1 entry):
+	0 (CDF_BYTE/1): 	1
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"Donald Gurnett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/15): 	"University Iowa"
+TEXT (1 entry):
+	0 (CDF_CHAR/201): 	"S. D. Shawhan, D. A. Gurnett, D. L. Odem, R. A. Helliwell, and C. G. Park, The plasma wave and quasi-static electric field instrument (PWI) for Dynamics Explorer-A, Space Sci. Instrumen., 5, 535, 1981."
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/44): 	"http://www-pw.physics.uiowa.edu/de/home.html"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/106): 	"More information on the DE-1 Plama Wave Investigation is available at the University of Iowa DE-1 PWI Page"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/32): 	"University of Iowa DE-1 PWI Page"
+TEXT_supplement (4 entries):
+	0 (CDF_CHAR/300): 	"Two Dynamics Explorer (DE) spacecraft were launched August 3, 1981, and placed into coplanar polar orbits with DE-1 in a highly elliptical orbit and DE-2 in a lower more circular orbit. The primary objective of the DE program was to investigate magnetosphere-ionosphere-atmosphere coupling processes."
+	1 (CDF_CHAR/485): 	"The DE mission provided a wealth of new information on a wide variety of magnetospheric plasma wave phenomena including auroral kilometric radiation, auroral hiss, Z mode radiation, narrow-band electromagnetic emissions associated with equatorial upper hybrid waves, whistler mode emissions, wave-particle interactions stimulated by ground VLF transmitters, equatorial ion cyclotron emissions, ion Bernstein mode emissions, and electric field turbulence along the auroral field lines. "
+	2 (CDF_CHAR/569): 	"This file contains 8 second resolution emphemeris and spacecraft attitude parameters that coincide with DE-1 telemetry frames containing PWI lowrate data.  These parameters are not to be taken as an authoritative set, but are convenient when working with PWI science data products.  Most of these data are provided in the Geocentric Equatorial Inertial (GEI) TOD reference frame.  The Z axis of the GEI frame is parallel to Earth's spin axis; the X axis points towards the First Point of Aries with the Y axis aligned so as to generate a right-handed coordinate system."
+	3 (CDF_CHAR/135): 	"For a detailed description of the Plasma Wave Instrument, the reader is referred to the Space Science Instrumentation referenece above."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/17): 	"Dynamics Explorer"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/43): 	"DE-1 PWI: Ephemeris and Attitude Parameters"
+Logical_source (1 entry):
+	0 (CDF_CHAR/12): 	"DE_PWI_OR-AT"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (3 entries):
+	0 (CDF_CHAR/21): 	"chris-piker@uiowa.edu"
+	1 (CDF_CHAR/24): 	"larry-granroth@uiowa.edu"
+	2 (CDF_CHAR/17): 	"pickett@uiowa.edu"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/140): 	"Users of the DE-1 PWI data are encouraged to acknowledge NASA CDAWeb and The University of Iow as the source of the data in any publication."
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/180): 	"DE-1 PWI ephemeris and attitude data are open to everyone.  However, users of these data are encouraged to contact the PI institute and the DE-1 PWI website should questions arise."
+cdawlib_idl_row_notranspose (1 entry):
+	0 (CDF_CHAR/4): 	"TRUE"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/45): 	"spase://NASA/NumericalData/DE1/Ephemeris/PT8S"
+
+Variable Attributes (19 attributes)
+=========================================
+FIELDNAM
+CATDESC
+UNITS
+VAR_TYPE
+DEPEND_0
+DEPEND_1
+VALIDMIN
+VALIDMAX
+FILLVAL
+MONOTON
+LABLAXIS
+LABL_PTR_1
+SCALEMIN
+SCALEMAX
+SCALETYP
+FORMAT
+DISPLAY_TYPE
+VAR_NOTES
+DICT_KEY
+
+Variable Information (0 rVariable, 25 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+GEI_velocity_lbl      CDF_CHAR/6	1:[3]	F/T
+GEI_velocity          CDF_REAL4/1	1:[3]	T/T sRecords.PAD
+Altitude              CDF_REAL4/1	0:[]	T/   sRecords.PAD
+GLAT                  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+GLON                  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+MLT                   CDF_REAL4/1	0:[]	T/   sRecords.PAD
+L_Shell               CDF_REAL4/1	0:[]	T/   sRecords.PAD
+ILAT                  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+B_Magnitude           CDF_REAL4/1	0:[]	T/   sRecords.PAD
+GEI_B_vec_lbl         CDF_CHAR/6	1:[3]	F/T
+GEI_B_vec             CDF_REAL4/1	1:[3]	T/T sRecords.PAD
+Orbit_Number          CDF_INT4/1	0:[]	T/   sRecords.PAD
+GEI_rotation_lbl      CDF_CHAR/12	2:[3,3]	F/TT
+GEI_rotation          CDF_REAL4/1	2:[3,3]	T/TT sRecords.PAD
+GEI_pos_lbl           CDF_CHAR/5	1:[3]	F/T
+GEI_position          CDF_REAL4/1	1:[3]	T/T sRecords.PAD
+GEI_rel_vel_lbl       CDF_CHAR/9	1:[3]	F/T
+GEI_rel_vel           CDF_REAL4/1	1:[3]	T/T sRecords.PAD
+GEI_sun_pos_lbl       CDF_CHAR/8	1:[3]	F/T
+GEI_sun_pos           CDF_REAL4/1	1:[3]	T/T sRecords.PAD
+Spin_Angle            CDF_REAL4/1	0:[]	T/   sRecords.PAD
+Sunlight              CDF_BYTE/1	0:[]	T/   sRecords.PAD
+Re                    CDF_REAL4/1	0:[]	T/   sRecords.PAD
+MLAT                  CDF_REAL4/1	0:[]	T/   sRecords.PAD
+
+
+Variable (25 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/29): "NSSDC standard reference time"
+     UNITS           (CDF_CHAR/7): "ms (UT)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_TT2000/1): 1981-09-16T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 1984-06-30T00:00:00.000000000
+     FILLVAL         (CDF_TT2000/1): 0000-01-01T00:00:00.000000000
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     LABLAXIS        (CDF_CHAR/4): "SCET"
+     VAR_NOTES       (CDF_CHAR/75): "NSSDC standard reference time associated with the start of a PWI SFR sweep."
+     DICT_KEY        (CDF_CHAR/14): "time>reference"
+
+GEI_velocity_lbl (No: 1) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "GEI_velocity_lbl"
+     CATDESC         (CDF_CHAR/16): "GEI_velocity_lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A6"
+
+GEI_velocity (No: 2) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "GEI Velocity"
+     CATDESC         (CDF_CHAR/29): "GEI Satallite Velocity Vector"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -20.0
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/16): "GEI_velocity_lbl"
+     SCALEMIN        (CDF_REAL4/1): -10.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/129): "GEI (Geocentric Equatorial Inertial) Satallite Velocity Vector (km/sec).  The order of the vector components is v(x), v(y), v(z)."
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+
+Altitude (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Altitude"
+     CATDESC         (CDF_CHAR/33): "Altitude above the spheroid Earth"
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 50000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "ALT"
+     SCALEMIN        (CDF_REAL4/1): 300.0
+     SCALEMAX        (CDF_REAL4/1): 25000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/52): "Altitude above a spheroid Earth, not above the geoid"
+     DICT_KEY        (CDF_CHAR/17): "position>altitude"
+
+GLAT (No: 4) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Geographic Latitude"
+     CATDESC         (CDF_CHAR/41): "Geographic latitude of subsatellite point"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "GLAT"
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F6.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/52): "Geographic latitude of subsatellite point in dgreees"
+     DICT_KEY        (CDF_CHAR/17): "position>latitude"
+
+GLON (No: 5) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geographic Longitude"
+     CATDESC         (CDF_CHAR/37): "Geographic longitude of the satellite"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "GLON"
+     SCALEMIN        (CDF_REAL4/1): -180.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F7.2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/48): "Geographic longitude of the satellite in dgreees"
+     DICT_KEY        (CDF_CHAR/18): "position>longitude"
+
+MLT (No: 6) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "MLT"
+     CATDESC         (CDF_CHAR/19): "Magnetic Local Time"
+     UNITS           (CDF_CHAR/5): "hours"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "MLT"
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 24.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/58): "MLT was defined via the conventional Solar Magnetic frame."
+     DICT_KEY        (CDF_CHAR/20): "position>time_sector"
+
+L_Shell (No: 7) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "L Shell"
+     CATDESC         (CDF_CHAR/30): "McIlwain's shell parameter (L)"
+     UNITS           (CDF_CHAR/2): "Re"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 20000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/1): "L"
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 5000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/128): "Distance from the center of the Earth at which the spacecraft's current field line crosses the equatorial plane (model derived)."
+     DICT_KEY        (CDF_CHAR/15): "position>radial"
+
+ILAT (No: 8) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Invariant Latitude"
+     CATDESC         (CDF_CHAR/62): "Current Spacecraft Field Line Footprint's Geomagnetic Latitude"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "Inv Lat"
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/450): "From https://sscweb.gsfc.nasa.gov:  For any point in space one can trace a B-field line to the Earth's surface, assuming it is a centered dipole field. The Geomagnetic latitude of this foot point is labelled as the Invariant Latitude along the entire field line. The dipole L-value is closely related to this invariant latitude; L=1/(Cos(Lat))^2, and physically connotes the distance (in Earth radii) of the 'top of the field line' from Earth center."
+     DICT_KEY        (CDF_CHAR/17): "position>latitude"
+
+B_Magnitude (No: 9) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "B Magnitude"
+     CATDESC         (CDF_CHAR/23): "Magnetic field strength"
+     UNITS           (CDF_CHAR/2): "nT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "B_MAG"
+     SCALEMIN        (CDF_REAL4/1): 400.0
+     SCALEMAX        (CDF_REAL4/1): 50000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/313): "The measured magnetic field strength.  Any descrepency between these data and those provided by the magnetometer instrument's own files should be resolved in favor of the latter.  See 'Magnetic Field Observations on DE-A and -B', W. H. Farthing, et al., Space Science Instrumentation 5 (1981) for more information"
+     DICT_KEY        (CDF_CHAR/24): "magnetic_field>amplitude"
+
+GEI_B_vec_lbl (No: 10) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "GEI_B_vec_lbl"
+     CATDESC         (CDF_CHAR/13): "GEI_B_vec_lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A5"
+
+GEI_B_vec (No: 11) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "B Vector (GEI)"
+     CATDESC         (CDF_CHAR/43): "GEI magnetic field vector, B(x), B(y), B(z)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0e+06
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/13): "GEI_B_vec_lbl"
+     SCALEMIN        (CDF_REAL4/1): -700000.0
+     SCALEMAX        (CDF_REAL4/1): 700000.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/5): "E10.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/399): "GEI (Geocentric Equatorial Inertial) Magnetic Vector in nanoTesla.  The order of the vector components is B(x), B(y), B(z).  Any descrepency between these data and those provided by the magnetometer instrument's own files should be resolved in favor of the latter.  See 'Magnetic Field Observations on DE-A and -B', W. H. Farthing, et al., Space Science Instrumentation 5 (1981) for more information"
+     DICT_KEY        (CDF_CHAR/21): "magnetic_field>vector"
+
+Orbit_Number (No: 12) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Orbit Number"
+     CATDESC         (CDF_CHAR/13): "Orbit Number "
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 3750
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/9): "Orbit No."
+     SCALEMIN        (CDF_REAL4/1): 150.0
+     SCALEMAX        (CDF_REAL4/1): 3750.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "I4"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/41): "The orbit number from PWI archive files. "
+     DICT_KEY        (CDF_CHAR/15): "number>sequence"
+
+GEI_rotation_lbl (No: 13) (Recs: 1)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "GEI_rotation_lbl"
+     CATDESC         (CDF_CHAR/16): "GEI_rotation_lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A12"
+
+GEI_rotation (No: 14) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "GEI Rotation"
+     CATDESC         (CDF_CHAR/51): "3-by-3 rotation from spacecraft to GEI coordinates."
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/16): "GEI_rotation_lbl"
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): -1.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F8.5"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/251): "3-by-3 rotation matrix for the transformation from spacecraft coordinates to the GEI frame. The order of the elements is [1,1] = X(x), [1,2] = X(y), [1,3] = X(z),  [2,1] = Y(x),  [2,2] = Y(y), [2,3] = Y(z), [3,1] = Z(x), [3,2] = Z(y), and [3,3] = Z(z)"
+     DICT_KEY        (CDF_CHAR/24): "position>rotation_matrix"
+
+GEI_pos_lbl (No: 15) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "GEI Position Label"
+     CATDESC         (CDF_CHAR/11): "GEI_pos_lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A5"
+
+GEI_position (No: 16) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "GEI Position"
+     CATDESC         (CDF_CHAR/38): "Spacecraft Position in GEI coordinates"
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -31500.0
+     VALIDMAX        (CDF_REAL4/1): 31500.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/11): "GEI_pos_lbl"
+     SCALEMIN        (CDF_REAL4/1): -31500.0
+     SCALEMAX        (CDF_REAL4/1): 31500.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F8.1"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/79): "Spacecraft Position in GEI coordinates, the order of the coordinates is X, Y, Z"
+     DICT_KEY        (CDF_CHAR/17): "position>distance"
+
+GEI_rel_vel_lbl (No: 17) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "GEI Relative Velocity Label"
+     CATDESC         (CDF_CHAR/15): "GEI_rel_vel_lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A9"
+
+GEI_rel_vel (No: 18) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "GEI Relative Velocity"
+     CATDESC         (CDF_CHAR/57): "GEI satellite velocity relative to a rotating atmosphere."
+     UNITS           (CDF_CHAR/6): "km/sec"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -20.0
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/15): "GEI_rel_vel_lbl"
+     SCALEMIN        (CDF_REAL4/1): -10.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/106): "GEI (Geocentric Equatorial Inertial) Satellite Velocity Vector (km/sec) relative to the rotatingatmosphere"
+     DICT_KEY        (CDF_CHAR/17): "velocity>relative"
+
+GEI_sun_pos_lbl (No: 19) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "GEI Relative Velocity Label"
+     CATDESC         (CDF_CHAR/15): "GEI_rel_vel_lbl"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A8"
+
+GEI_sun_pos (No: 20) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "GEI Sun Position"
+     CATDESC         (CDF_CHAR/50): "GEI unit vector from the spacecraft toward the Sun"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABL_PTR_1      (CDF_CHAR/15): "GEI_sun_pos_lbl"
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 1.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F8.5"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/104): "GEI (Geocentric Equatorial Inertial) unit vector toward the Sun.  The order of the components is X, Y, Z"
+     DICT_KEY        (CDF_CHAR/17): "position>attitude"
+
+Spin_Angle (No: 21) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Spin Phase Angle"
+     CATDESC         (CDF_CHAR/59): "Angle between the Velocity Vector and the Spacecraft x-axis"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/5): "Phase"
+     SCALEMIN        (CDF_REAL4/1): -180.0
+     SCALEMAX        (CDF_REAL4/1): 180.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/97): "Phase angle of spin measured from the velocity vector to the +x-axis of the spacecraft in degrees"
+     DICT_KEY        (CDF_CHAR/14): "position>angle"
+
+Sunlight (No: 22) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "SunFlag"
+     CATDESC         (CDF_CHAR/50): "Sunlight/Darkness flag, 0 = Darkness, 1 = Sunlight"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 1
+     FILLVAL         (CDF_BYTE/1): -128
+     LABLAXIS        (CDF_CHAR/14): "Sunlight stat."
+     SCALEMIN        (CDF_REAL4/1): -1.0
+     SCALEMAX        (CDF_REAL4/1): 2.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/2): "I1"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/45): "Sunlight/Darkness: 0 = Darkness, 1 = Sunlight"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+
+Re (No: 23) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "Re"
+     CATDESC         (CDF_CHAR/41): "Geocentric radial distance in Earth Radii"
+     UNITS           (CDF_CHAR/2): "Re"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/2): "Re"
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 5.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F7.4"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/64): "Geocentric radial distance in Earth Radii. Here 1 Re = 6378.2 km"
+     DICT_KEY        (CDF_CHAR/15): "position>radial"
+
+MLAT (No: 24) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Magnetic Latitude"
+     CATDESC         (CDF_CHAR/28): "Magnetic Latitude in degrees"
+     UNITS           (CDF_CHAR/7): "degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/17): "Magnetic Latitude"
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/38): "Magnetic Latitude in dgreees (Derived)"
+     DICT_KEY        (CDF_CHAR/17): "position>latitude"
+

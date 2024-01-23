@@ -1,0 +1,274 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/it_k0_cor_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     it_k0_cor_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     10
+NumAttrs:     39 (19 global, 20 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     -1
+
+Global Attributes (19 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"INTERBALL-TAIL>Interball tail probe"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/42): 	"COR>Ion moments in the range 25 eV -25 keV"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/28): 	"Tail Probe CORALL Instrument"
+MODS (1 entry):
+	0 (CDF_CHAR/17): 	"created July 1996"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0263"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"IT_K0_COR_19951218_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"IT_K0_COR"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/55): 	"Interball Tail Probe CORALL ion moments, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"Yu.Yermolaev"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/56): 	"Space Research Inst., Russian Acad. Sci., Moscow, Russia"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/9): 	"Interball"
+	2 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+TEXT_supplement_1 (2 entries):
+	0 (CDF_CHAR/102): 	"Ion moments measured measured in the 25 eV - 25 keV range. Solar and antisolar directions not covered."
+	1 (CDF_CHAR/55): 	"Full description: http://www.iki.rssi.ru/interball.html"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/40): 	"Interball-Tail_COR_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/52): 	"spase://NASA/NumericalData/Interball-1/CORALL/PT120S"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DICT_KEY
+CATDESC
+DEPEND_1
+LABL_PTR_1
+SCALETYP
+DISPLAY_TYPE
+VAR_NOTES
+AVG_TYPE
+
+Variable Information (0 rVariable, 10 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Ni                    CDF_REAL4/1	0:[]	T/  
+Ti                    CDF_REAL4/1	0:[]	T/  
+Vi_GSE                CDF_REAL4/1	1:[3]	T/T
+Vi_GSM                CDF_REAL4/1	1:[3]	T/T
+Flag_I                CDF_UINT1/1	0:[]	T/  
+label_Vi_GSE          CDF_CHAR/8	1:[3]	F/T
+label_Vi_GSM          CDF_CHAR/8	1:[3]	F/T
+cartesian             CDF_CHAR/1	1:[3]	F/T
+Gap_Flag              CDF_INT4/1	0:[]	T/  
+
+
+Variable (10 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 18-Dec-1995 00:01:00.000
+     SCALEMAX        (CDF_EPOCH/1): 18-Dec-1995 23:59:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Ni (No: 1) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Ion Number Density"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.5433
+     SCALEMAX        (CDF_REAL4/1): 27.14
+     LABLAXIS        (CDF_CHAR/2): "Ni"
+     UNITS           (CDF_CHAR/5): "no/cc"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/18): "density>ion_number"
+     CATDESC         (CDF_CHAR/26): "Ion Number Density, CORALL"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/17): "2 min. resolution"
+
+Ti (No: 2) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Ion temperature"
+     VALIDMIN        (CDF_REAL4/1): 25.0
+     VALIDMAX        (CDF_REAL4/1): 25000.0
+     SCALEMIN        (CDF_REAL4/1): 23.9
+     SCALEMAX        (CDF_REAL4/1): 3993.0
+     LABLAXIS        (CDF_CHAR/2): "Ti"
+     UNITS           (CDF_CHAR/2): "eV"
+     FORMAT          (CDF_CHAR/4): "F8.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/10): "energy>ion"
+     CATDESC         (CDF_CHAR/23): "Ion temperature, CORALL"
+     SCALETYP        (CDF_CHAR/3): "log"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/17): "2 min. resolution"
+
+Vi_GSE (No: 3) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "GSE Ion velocity"
+     VALIDMIN        (CDF_REAL4/3): -1600.0, -1600.0, -1600.0
+     VALIDMAX        (CDF_REAL4/3): 1600.0, 1600.0, 1600.0
+     SCALEMIN        (CDF_REAL4/3): 1.0, 1.0, 1.0
+     SCALEMAX        (CDF_REAL4/3): 1.0, 1.0, 1.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/4): "E7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/12): "velocity>ion"
+     CATDESC         (CDF_CHAR/42): "Ion velocity, GSE cartesian vector, CORALL"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     LABL_PTR_1      (CDF_CHAR/12): "label_Vi_GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/16): "2 min resolution"
+
+Vi_GSM (No: 4) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "GSM Ion velocity"
+     VALIDMIN        (CDF_REAL4/3): -1600.0, -1600.0, -1600.0
+     VALIDMAX        (CDF_REAL4/3): 1600.0, 1600.0, 1600.0
+     SCALEMIN        (CDF_REAL4/3): 1.0, 1.0, 1.0
+     SCALEMAX        (CDF_REAL4/3): 1.0, 1.0, 1.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/4): "E7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/12): "velocity>ion"
+     CATDESC         (CDF_CHAR/42): "Ion velocity, GSM cartesian vector, CORALL"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     LABL_PTR_1      (CDF_CHAR/12): "label_Vi_GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/16): "2 min resolution"
+
+Flag_I (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Status Flag, CORALL"
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 20
+     SCALEMIN        (CDF_UINT1/1): 0
+     SCALEMAX        (CDF_UINT1/1): 20
+     LABLAXIS        (CDF_CHAR/4): "Flag"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_UINT1/1): 128
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/11): "flag>status"
+     CATDESC         (CDF_CHAR/43): "Status flag, quality coded, see description"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/169): "Standard flags are used in case of data absence. For the valid data SF is in the range 10-12. 10 - good quality data. 11 - data in the spacecraft frame preliminary data."
+     AVG_TYPE        (CDF_CHAR/4): "none"
+
+label_Vi_GSE (No: 6) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Label for the Vi GSE"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/20): "Label for the Vi GSE"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_Vi_GSM (No: 7) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Label for the Vi GSM"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     CATDESC         (CDF_CHAR/20): "Label for the Vi GSM"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+cartesian (No: 8) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Dimension cartesian Label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/14): "label>position"
+     CATDESC         (CDF_CHAR/25): "Dimension cartesian Label"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Gap_Flag (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "GAP_FLAG"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     CATDESC         (CDF_CHAR/58): "Post Gap Flag : 0 no gap before this point, 1-5 gap reason"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/4): "none"
+

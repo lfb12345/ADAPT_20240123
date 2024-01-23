@@ -1,0 +1,183 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/vi_c9_vi2s_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     vi_c9_vi2s_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     4
+NumAttrs:     47 (26 global, 21 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"CDAW-9A; Viking; V4H; E, B field spect.; 19.2 s   "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"Viking    "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"V4H       "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"19.2 sec  "
+MODS (1 entry):
+	0 (CDF_CHAR/86): 	"Converted to CDAWeb Feb 2000                                                          "
+TEXT (3 entries):
+	0 (CDF_CHAR/30): 	"Derived from vi2s in CDAW9 DB."
+	1 (CDF_CHAR/29): 	"Data for all CDAW9 events A-E"
+	2 (CDF_CHAR/4): 	"  . "
+Descriptor (1 entry):
+	0 (CDF_CHAR/46): 	"VI2S>Viking; V4H; E, B field spect.; 19.2 s   "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>cdaw9"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"VI>Viking"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/7): 	"Bahnsen"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/23): 	"Bahnsen and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"vi_c9_vi2s"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"vi_c9_vi2s_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/50): 	"Vi Viking; V4H; E, B field spect.; 19.2 s    cdaw9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+DISPLAY_TYPE
+DEPEND_0
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DEPEND_1
+
+Variable Information (0 rVariable, 4 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+VI2S_ESP              CDF_REAL4/1	1:[128]	T/T
+VI2S_BSP              CDF_REAL4/1	1:[128]	T/T
+VI2S_FRQ              CDF_REAL4/1	1:[128]	F/T
+
+
+Variable (4 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+VI2S_ESP (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Elec. field (spct)  "
+     VALIDMIN        (CDF_REAL4/1): -32.6566
+     VALIDMAX        (CDF_REAL4/1): 32.6566
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 150.0
+     UNITS           (CDF_CHAR/20): "dB >1E-8 V/m*sqrt_Hz"
+     FORMAT          (CDF_CHAR/8): "F6.2    "
+     CATDESC         (CDF_CHAR/40): "Spectrum, elec. field  TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "E-Field"
+     DEPEND_1        (CDF_CHAR/8): "VI2S_FRQ"
+
+VI2S_BSP (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Mag. field (spct)   "
+     VALIDMIN        (CDF_REAL4/1): -32.6566
+     VALIDMAX        (CDF_REAL4/1): 32.6566
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 150.0
+     UNITS           (CDF_CHAR/20): "dB >1E-15 T/sqrt_Hz "
+     FORMAT          (CDF_CHAR/8): "F6.2    "
+     CATDESC         (CDF_CHAR/40): "Spectrum, mag. field   TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "B-field"
+     DEPEND_1        (CDF_CHAR/8): "VI2S_FRQ"
+
+VI2S_FRQ (No: 3) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Frequency band      "
+     VALIDMIN        (CDF_REAL4/1): -32.6566
+     VALIDMAX        (CDF_REAL4/1): 32.6566
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 600.0
+     UNITS           (CDF_CHAR/20): "KHz                 "
+     FORMAT          (CDF_CHAR/8): "F5.1    "
+     CATDESC         (CDF_CHAR/40): "Spectrum frequencies   -T               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Freq band"
+

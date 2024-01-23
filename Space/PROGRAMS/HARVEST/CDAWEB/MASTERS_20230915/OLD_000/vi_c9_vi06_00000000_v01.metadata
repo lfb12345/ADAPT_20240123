@@ -1,0 +1,220 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/vi_c9_vi06_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     vi_c9_vi06_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     6
+NumAttrs:     46 (26 global, 20 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"VIKING MAGNETOMETER  (2.4s resolution)  EVENTA    "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"VIKING    "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"Magnetomet"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"2.4s      "
+MODS (1 entry):
+	0 (CDF_CHAR/103): 	"Converted to CDAWeb Feb 2000                                                                           "
+TEXT (3 entries):
+	0 (CDF_CHAR/30): 	"Derived from CC01 in CDAW9 DB."
+	1 (CDF_CHAR/29): 	"Data for all CDAW9 events A-E"
+	2 (CDF_CHAR/80): 	"Geomagnetic field measurements with the IGRF80 field model subtracted           "
+Descriptor (1 entry):
+	0 (CDF_CHAR/56): 	"VI06> VIKING MAGNETOMETER  (2.4s resolution)  EVENTA    "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>CDAW9"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"VI>Viking"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"L. Zanetti"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"JHU/APL"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/26): 	"L. Zanetti and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"vi_c9_vi06"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"vi_c9_vi06_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/60): 	"Vi  VIKING MAGNETOMETER  (2.4s resolution)  EVENTA     CDAW9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+
+Variable Information (0 rVariable, 6 zVariables)
+===========================================================
+VI06BN                CDF_REAL4/1	0:[]	T/  
+VI06BE                CDF_REAL4/1	0:[]	T/  
+VI06BS                CDF_REAL4/1	0:[]	T/  
+VI06BD                CDF_REAL4/1	0:[]	T/  
+VI06BPAR              CDF_REAL4/1	0:[]	T/  
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+
+
+Variable (6 variables)
+=========================================
+
+VI06BN   (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Northward Comp, BN  "
+     VALIDMIN        (CDF_REAL4/1): -4.47656
+     VALIDMAX        (CDF_REAL4/1): 3.98828
+     SCALEMIN        (CDF_REAL8/1): -800.0
+     SCALEMAX        (CDF_REAL8/1): 500.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "E12.5   "
+     CATDESC         (CDF_CHAR/40): "Northward Component, BN                 "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "B-North"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI06BE   (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Eastward Comp, BE   "
+     VALIDMIN        (CDF_REAL4/1): -4.47656
+     VALIDMAX        (CDF_REAL4/1): 3.98828
+     SCALEMIN        (CDF_REAL8/1): -800.0
+     SCALEMAX        (CDF_REAL8/1): 500.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "E12.5   "
+     CATDESC         (CDF_CHAR/40): "Eastward Component, BE                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "B-East"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI06BS   (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Sunward Comp, BS    "
+     VALIDMIN        (CDF_REAL4/1): -4.47656
+     VALIDMAX        (CDF_REAL4/1): 3.98828
+     SCALEMIN        (CDF_REAL8/1): -700.0
+     SCALEMAX        (CDF_REAL8/1): 200.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "E12.5   "
+     CATDESC         (CDF_CHAR/40): "Sunward Component, BS                   "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "B-Sunward"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI06BD   (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Dawnward Comp, BD   "
+     VALIDMIN        (CDF_REAL4/1): -4.47656
+     VALIDMAX        (CDF_REAL4/1): 3.98828
+     SCALEMIN        (CDF_REAL8/1): -700.0
+     SCALEMAX        (CDF_REAL8/1): 200.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "E12.5   "
+     CATDESC         (CDF_CHAR/40): "Dawnward Component, BD                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "B-Dawnward"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+VI06BPAR (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Parallel Comp, BPAR "
+     VALIDMIN        (CDF_REAL4/1): -3.98828
+     VALIDMAX        (CDF_REAL4/1): 3.98828
+     SCALEMIN        (CDF_REAL8/1): -200.0
+     SCALEMAX        (CDF_REAL8/1): 200.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "E12.5   "
+     CATDESC         (CDF_CHAR/40): "Parallel Component, BPAR                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "B-parallel"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+
+EPOCH    (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.8   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+

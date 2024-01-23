@@ -1,0 +1,121 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_hyd_energy_flux_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_hyd_energy_flux_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     3
+NumAttrs:     27 (16 global, 11 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (16 attributes)
+=========================================
+Logical_source (1 entry):
+	0 (CDF_CHAR/20): 	"po_hydra_energy_flux"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/57): 	"Polar Fast Plasma Analyzer 13.8 second Resolution Moments"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+TEXT (1 entry):
+	0 (CDF_CHAR/411): 	"Reference: HYDRA is a 3-Dimensional Electron and Ion Hot Plasma Instrument for the Polar Spacecraft of the GGS Mission, J. Scudder et al., Space Sci. Rev., 71,459-495, Feb. 1995. http://www-st.physics.uiowa.edu This data set contains survey electron and proton moments for the energy flux (parallel), at 13.8-second resolution as determined (0-20keV). Higher quality data products may be available from the P.I."
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"Polar"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/12): 	"13.8 seconds"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/31): 	"po_hyd_energy_flux_yyyymmdd_v01"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"J. Scudder"
+Data_type (1 entry):
+	0 (CDF_CHAR/9): 	"hyd>Hydra"
+Descriptor (1 entry):
+	0 (CDF_CHAR/23): 	"ENERGY_FLUX>Energy Flux"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"U of Iowa"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"Polar>Polar Plasma Laboratory"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (11 attributes)
+=========================================
+LABLAXIS
+UNITS
+FIELDNAM
+CATDESC
+VAR_TYPE
+FORMAT
+VALIDMIN
+DEPEND_0
+FILLVAL
+DISPLAY_TYPE
+VALIDMAX
+
+Variable Information (0 rVariable, 3 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+po_ion_energy_flux    CDF_REAL4/1	0:[]	T/  
+po_ele_energy_flux    CDF_REAL4/1	0:[]	T/  
+
+
+Variable (3 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     FIELDNAM        (CDF_CHAR/15): "Time since 0 AD"
+     CATDESC         (CDF_CHAR/22): "Interval centered time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+po_ion_energy_flux (No: 1) (Recs: 0)
+------------------
+Attribute Entries:
+     LABLAXIS        (CDF_CHAR/9): "Eflux ion"
+     UNITS           (CDF_CHAR/9): "mW/m!U2!N"
+     FIELDNAM        (CDF_CHAR/15): "Ion energy flux"
+     CATDESC         (CDF_CHAR/15): "Ion energy flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+
+po_ele_energy_flux (No: 2) (Recs: 0)
+------------------
+Attribute Entries:
+     LABLAXIS        (CDF_CHAR/9): "Eflux ele"
+     UNITS           (CDF_CHAR/9): "mW/m!U2!N"
+     FIELDNAM        (CDF_CHAR/15): "Ele energy flux"
+     CATDESC         (CDF_CHAR/15): "Ele energy flux"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VALIDMIN        (CDF_FLOAT/1): -10000.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VALIDMAX        (CDF_FLOAT/1): 10000.0
+

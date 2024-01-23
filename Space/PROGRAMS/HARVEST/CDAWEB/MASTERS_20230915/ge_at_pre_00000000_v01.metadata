@@ -1,0 +1,356 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ge_at_pre_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ge_at_pre_00000000_v01.cdf
+Version:      3.6.4
+
+Common Data Format (CDF)
+(C) Copyright 1990-2017 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     12
+NumzVars:     0
+NumAttrs:     50 (29 global, 21 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (29 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/33): 	"ISTP attitude spin-stabilized CDF"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/13): 	"Space Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"GEOTAIL>GEOMAGNETIC TAIL"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+MESSAGE_ID (1 entry):
+	0 (CDF_CHAR/7): 	"ISASATT"
+SUPPORT_ID (1 entry):
+	0 (CDF_CHAR/4): 	"6194"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0093"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"GE_AT_PRE_19951010_V01"
+Data_type (1 entry):
+	0 (CDF_CHAR/11): 	"AT>Attitude"
+Descriptor (1 entry):
+	0 (CDF_CHAR/18): 	"PRE>PREDICTED DATA"
+STABILIZATION_TYPE (1 entry):
+	0 (CDF_CHAR/1): 	"S"
+START_DATE (1 entry):
+	0 (CDF_CHAR/24): 	"1995-10-10T00:00:00.000Z"
+END_DATE (1 entry):
+	0 (CDF_CHAR/24): 	"1995-10-10T23:50:00.000Z"
+STEP_SIZE (1 entry):
+	0 (CDF_CHAR/7): 	"0600000"
+GCI_RA_ERR (1 entry):
+	0 (CDF_CHAR/1): 	" "
+GCI_DECL_ERR (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	0 (CDF_CHAR/3): 	"TBS"
+MODS (15 entries):
+	0 (CDF_CHAR/33): 	"6/13/91 - Original Implementation"
+	1 (CDF_CHAR/66): 	"9/18/91 - Modified for new attitude file format changes.  ICCR 881"
+	2 (CDF_CHAR/78): 	"2/11/92 - Used the variable name TIME and type CDF_INT4 and size 3 instead of "
+	3 (CDF_CHAR/50): 	"EPOCH, CDF_EPOCH and 1 for the time tags.  CCR 490"
+	4 (CDF_CHAR/74): 	"6/1/92 - Added global attributes TITLE, PROJECT, DISCIPLINE, SOURCE_NAME, "
+	5 (CDF_CHAR/70): 	"DATA_VERSION, and MODS; added variable attributes VALIDMIN, VALIDMAX, "
+	6 (CDF_CHAR/63): 	"LABL_PTR_1, and MONOTON; added variables EPOCH and LABEL_TIME; "
+	7 (CDF_CHAR/49): 	"changed variable name TIME to TIME_PB5.  CCR 1066"
+	8 (CDF_CHAR/46): 	"11/07/92 - use cdf variable Epoch and Time_PB5"
+	9 (CDF_CHAR/72): 	"6/8/93 - Added global attributes ADID_ref and Logical_file_id.  CCR 1092"
+	10 (CDF_CHAR/67): 	"7/5/94 - CCR ISTP 1852, updated CDHF skeleton to CDF standards - JT"
+	11 (CDF_CHAR/72): 	"9/20/94 - Added global attributes GCI_RA_ERR and GCI_DECL_ERR.  CCR 1932"
+	12 (CDF_CHAR/55): 	"11/7/94 - Merged CCR 1852 changes and corrected errors "
+	13 (CDF_CHAR/28): 	"made in CCR 1852.  ICCR 1884"
+	14 (CDF_CHAR/73): 	"12/7/94 - Modified MODS and LABLAXIS to follow ISTP standards.  ICCR 1885"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"GE_AT_PRE"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/26): 	"Geotail Predicted Attitude"
+PI_name (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Mission_group (3 entries):
+	0 (CDF_UCHAR/7): 	"Geotail"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"xxno-00315"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/46): 	"Geotail_Ephemeris_Attitude-Predictive_1day_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/57): 	"spase://JAXA/NumericalData/Geotail/Ephemeris/Pre_AT/PT10M"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+MONOTON
+DEPEND_0
+DEPEND_1
+FILLVAL
+VAR_TYPE
+DICT_KEY
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (12 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	1:[3]	T/F
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+BODY_SPIN_RATE        CDF_REAL4/1	1:[3]	T/F
+GCI_R_ASCENSION       CDF_REAL4/1	1:[3]	T/F
+GCI_DECLINATION       CDF_REAL4/1	1:[3]	T/F
+GSE_R_ASCENSION       CDF_REAL4/1	1:[3]	T/F
+GSE_DECLINATION       CDF_REAL4/1	1:[3]	T/F
+GSM_R_ASCENSION       CDF_REAL4/1	1:[3]	T/F
+GSM_DECLINATION       CDF_REAL4/1	1:[3]	T/F
+
+
+Variable (12 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Attitude EPOCH time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jul-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jul-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/19): "Attitude EPOCH time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Attitude PB5 time"
+     VALIDMIN        (CDF_INT4/3): 1992, 183, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 86399000
+     SCALEMIN        (CDF_INT4/3): 1992, 183, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 366, 86399000
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/17): "Attitude PB5 time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 2) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 4) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Formats for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Formats for Time_PB5                    "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+BODY_SPIN_RATE (No: 5) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Body spin rate"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/9): "Spin Rate"
+     UNITS           (CDF_CHAR/3): "rpm"
+     FORMAT          (CDF_CHAR/4): "F9.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "Body spin rate                          "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GCI_R_ASCENSION (No: 6) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "GCI right ascension"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 6.28319
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 6.28319
+     LABLAXIS        (CDF_CHAR/10): "GCI R Ascn"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GCI right ascension                     "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GCI_DECLINATION (No: 7) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "GCI declination"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "GCI Decli"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GCI declination                         "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSE_R_ASCENSION (No: 8) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "GSE right ascension"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 6.28319
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 6.28319
+     LABLAXIS        (CDF_CHAR/10): "GSE R Ascn"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSE right ascension                     "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSE_DECLINATION (No: 9) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "GSE declination"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "GSE Decli"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSE declination                         "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSM_R_ASCENSION (No: 10) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "GSM right ascension"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 6.28319
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 6.28319
+     LABLAXIS        (CDF_CHAR/10): "GSM R Ascn"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSM right ascension                     "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+GSM_DECLINATION (No: 11) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "GSM declination"
+     VALIDMIN        (CDF_REAL4/1): -1.5708
+     VALIDMAX        (CDF_REAL4/1): 1.5708
+     SCALEMIN        (CDF_REAL4/1): -1.5708
+     SCALEMAX        (CDF_REAL4/1): 1.5708
+     LABLAXIS        (CDF_CHAR/9): "GSM Decli"
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/4): "F7.3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/40): "GSM declination                         "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

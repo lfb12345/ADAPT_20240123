@@ -1,0 +1,325 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/dscovr_at_pre_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     dscovr_at_pre_00000000_v01.cdf
+Version:      3.6.3
+
+Common Data Format (CDF)
+(C) Copyright 1990-2016 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     14
+NumAttrs:     38 (19 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (19 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/45): 	"Preliminary DSCOVR 3-axis stabilized Attitude"
+Project (1 entry):
+	0 (CDF_CHAR/37): 	"DSCOVR>Deep Space Climate Observatory"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Space Physics>Heliospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/37): 	"DSCOVR>Deep Space Climate Observatory"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"dscovr_at_pre_20170803_v01"
+Data_type (1 entry):
+	0 (CDF_CHAR/11): 	"AT>Attitude"
+Descriptor (1 entry):
+	0 (CDF_CHAR/20): 	"PRE>Preliminary Data"
+Stabilization_Type (1 entry):
+	0 (CDF_CHAR/6): 	"3-axis"
+TEXT (4 entries):
+	0 (CDF_CHAR/56): 	"DSCOVR 3-axis stabilized preliminary Attitude data file."
+	1 (CDF_CHAR/23): 	"Time resolution varies."
+	2 (CDF_CHAR/65): 	"Convention: intrinsic rotations applied in Yaw, Pitch, Roll order"
+	3 (CDF_CHAR/44): 	" 5 point Median Filter applied to DCM matrix"
+MODS (1 entry):
+	0 (CDF_CHAR/35): 	"8/29/2016 - Original Implementation"
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"dscovr_at_pre"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/27): 	"DSCOVR Preliminary Attitude"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"DSCOVR"
+PI_name (1 entry):
+	0 (CDF_CHAR/8): 	"A. Szabo"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/32): 	"NASA Goddard Space Flight Center"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/70): 	"spase://NOAA/NumericalData/DSCOVR/Ephemeris/Attitude/Preliminary/PT10S"
+
+Variable Attributes (19 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+UNIT_PTR
+FORMAT
+FORM_PTR
+CATDESC
+FILLVAL
+LABLAXIS
+LABL_PTR_1
+DISPLAY_TYPE
+DEPEND_0
+VAR_TYPE
+VAR_NOTES
+MONOTON
+TIME_BASE
+
+Variable Information (0 rVariable, 14 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+J2000_Yaw             CDF_REAL8/1	0:[]	T/  
+J2000_Pitch           CDF_REAL8/1	0:[]	T/  
+J2000_Roll            CDF_REAL8/1	0:[]	T/  
+GCI_Yaw               CDF_REAL8/1	0:[]	T/  
+GCI_Pitch             CDF_REAL8/1	0:[]	T/  
+GCI_Roll              CDF_REAL8/1	0:[]	T/  
+GSE_Yaw               CDF_REAL8/1	0:[]	T/  
+GSE_Pitch             CDF_REAL8/1	0:[]	T/  
+GSE_Roll              CDF_REAL8/1	0:[]	T/  
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+
+
+Variable (14 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Time since 0 AD"
+     VALIDMIN        (CDF_EPOCH/1): 11-Feb-2015 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 11-Feb-2065 00:00:00.000
+     UNITS           (CDF_CHAR/2): "ms"
+     FORMAT          (CDF_CHAR/5): "E14.8"
+     CATDESC         (CDF_CHAR/44): "Time, Number of milliseconds since the epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "PB5 Time"
+     VALIDMIN        (CDF_INT4/3): 2015, 0, 0
+     VALIDMAX        (CDF_INT4/3): 2065, 366, 86400000
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     CATDESC         (CDF_CHAR/48): "Time of observation in Year, Day, & milliseconds"
+     FILLVAL         (CDF_INT4/1): -2147483647
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+J2000_Yaw (No: 2) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "J2000 yaw angle"
+     VALIDMIN        (CDF_DOUBLE/1): -3.14159
+     VALIDMAX        (CDF_DOUBLE/1): 3.14159
+     SCALEMIN        (CDF_DOUBLE/1): -3.14159
+     SCALEMAX        (CDF_DOUBLE/1): 3.14159
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     CATDESC         (CDF_CHAR/18): "S/C yaw from J2000"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Yaw J2000"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/165): "The spacecraft yaw from J2000 coordinate system. Applied as the first intrinsic rotation and describes a counter-clockwise rotation about the spacecraft Z-axis (rad)"
+
+J2000_Pitch (No: 3) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "J2000 pitch angle"
+     VALIDMIN        (CDF_DOUBLE/1): -3.14159
+     VALIDMAX        (CDF_DOUBLE/1): 3.14159
+     SCALEMIN        (CDF_DOUBLE/1): -3.14159
+     SCALEMAX        (CDF_DOUBLE/1): 3.14159
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     CATDESC         (CDF_CHAR/20): "S/C pitch from J2000"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Pitch J2000"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/168): "The spacecraft pitch from J2000 coordinate system. Applied as the second intrinsic rotation and describes a counter-clockwise rotation about the spacecraft Y-axis (rad)"
+
+J2000_Roll (No: 4) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "J2000 roll angle"
+     VALIDMIN        (CDF_DOUBLE/1): -3.14159
+     VALIDMAX        (CDF_DOUBLE/1): 3.14159
+     SCALEMIN        (CDF_DOUBLE/1): -3.14159
+     SCALEMAX        (CDF_DOUBLE/1): 3.14159
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     CATDESC         (CDF_CHAR/19): "S/C roll from J2000"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "Roll J2000"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/166): "The spacecraft roll from J2000 coordinate system. Applied as the third intrinsic rotation and describes a counter-clockwise rotation about the spacecraft X-axis (rad)"
+
+GCI_Yaw (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "GCI yaw angle"
+     VALIDMIN        (CDF_DOUBLE/1): -3.14159
+     VALIDMAX        (CDF_DOUBLE/1): 3.14159
+     SCALEMIN        (CDF_DOUBLE/1): -3.14159
+     SCALEMAX        (CDF_DOUBLE/1): 3.14159
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     CATDESC         (CDF_CHAR/30): "S/C yaw from epoch-of-date GCI"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "Yaw GCI"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/177): "The spacecraft yaw from epoch-of-date GCI coordinate system. Applied as the first intrinsic rotation and describes a counter-clockwise rotation about the spacecraft Z-axis (rad)"
+
+GCI_Pitch (No: 6) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "GCI pitch angle"
+     VALIDMIN        (CDF_DOUBLE/1): -3.14159
+     VALIDMAX        (CDF_DOUBLE/1): 3.14159
+     SCALEMIN        (CDF_DOUBLE/1): -3.14159
+     SCALEMAX        (CDF_DOUBLE/1): 3.14159
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     CATDESC         (CDF_CHAR/32): "S/C pitch from epoch-of-date GCI"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Pitch GCI"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/180): "The spacecraft pitch from epoch-of-date GCI coordinate system. Applied as the second intrinsic rotation and describes a counter-clockwise rotation about the spacecraft Y-axis (rad)"
+
+GCI_Roll (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "GCI roll angle"
+     VALIDMIN        (CDF_DOUBLE/1): -3.14159
+     VALIDMAX        (CDF_DOUBLE/1): 3.14159
+     SCALEMIN        (CDF_DOUBLE/1): -3.14159
+     SCALEMAX        (CDF_DOUBLE/1): 3.14159
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     CATDESC         (CDF_CHAR/31): "S/C roll from epoch-of-date GCI"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "Roll GCI"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/178): "The spacecraft roll from epoch-of-date GCI coordinate system. Applied as the third intrinsic rotation and describes a counter-clockwise rotation about the spacecraft X-axis (rad)"
+
+GSE_Yaw (No: 8) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "GSE yaw angle"
+     VALIDMIN        (CDF_DOUBLE/1): -3.14159
+     VALIDMAX        (CDF_DOUBLE/1): 3.14159
+     SCALEMIN        (CDF_DOUBLE/1): -3.14159
+     SCALEMAX        (CDF_DOUBLE/1): 3.14159
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     CATDESC         (CDF_CHAR/16): "S/C yaw from GSE"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "Yaw GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/163): "The spacecraft yaw from GSE coordinate system. Applied as the first intrinsic rotation and describes a counter-clockwise rotation about the spacecraft Z-axis (rad)"
+
+GSE_Pitch (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "GSE pitch angle"
+     VALIDMIN        (CDF_DOUBLE/1): -3.14159
+     VALIDMAX        (CDF_DOUBLE/1): 3.14159
+     SCALEMIN        (CDF_DOUBLE/1): -3.14159
+     SCALEMAX        (CDF_DOUBLE/1): 3.14159
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     CATDESC         (CDF_CHAR/18): "S/C pitch from GSE"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Pitch GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/166): "The spacecraft pitch from coordinate system GSE. Applied as the second intrinsic rotation and describes a counter-clockwise rotation about the spacecraft Y-axis (rad)"
+
+GSE_Roll (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "GSE roll angle"
+     VALIDMIN        (CDF_DOUBLE/1): -3.14159
+     VALIDMAX        (CDF_DOUBLE/1): 3.14159
+     SCALEMIN        (CDF_DOUBLE/1): -3.14159
+     SCALEMAX        (CDF_DOUBLE/1): 3.14159
+     UNITS           (CDF_CHAR/3): "rad"
+     FORMAT          (CDF_CHAR/5): "F10.6"
+     CATDESC         (CDF_CHAR/17): "S/C roll from GSE"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/8): "Roll GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/164): "The spacecraft roll from coordinate system GSE. Applied as the third intrinsic rotation and describes a counter-clockwise rotation about the spacecraft X-axis (rad)"
+
+label_time (No: 11) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     FORMAT          (CDF_CHAR/3): "A28"
+     CATDESC         (CDF_CHAR/18): "Label for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+unit_time (No: 12) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     FORMAT          (CDF_CHAR/2): "A6"
+     CATDESC         (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+format_time (No: 13) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     FORMAT          (CDF_CHAR/2): "A3"
+     CATDESC         (CDF_CHAR/19): "Format for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

@@ -1,0 +1,402 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_fld_l2_dfb_ac_xspec_scmelfhg_scmflfhg_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_fld_l2_dfb_ac_xspec_scmelfhg_scmflfhg_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     17
+NumAttrs:     44 (25 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/65): 	"PSP FIELDS Digital Fields Board (DFB), SCMelfhg x SCMflfhg data. "
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"PSP"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Solar Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/22): 	"PSP>Parker Solar Probe"
+Descriptor (1 entry):
+	0 (CDF_CHAR/77): 	"DFB_AC_XSPEC_SCMELFHG_SCMFLFHG>Digital Fields Board AC Cross Spectra SCMflfhg"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"L2>Level 2 Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (16 entries):
+	0 (CDF_CHAR/65): 	"PSP FIELDS Digital Fields Board (DFB), SCMelfhg x SCMflfhg data. "
+	1 (CDF_CHAR/213): 	"The DFB is the low frequency (< 75 kHz) component of the FIELDS experiment on the Parker Solar Probe spacecraft [1]. For a full description of the FIELDS experiment, see [2]. For a description of the DFB, see [3]."
+	2 (CDF_CHAR/855): 	"DFB AC cross spectra data consist of, for a pair of input channels, (i) power spectral densities (auto spectra, e.g. FT1 x FT1*), (ii) real and imaginary parts of the spectral cross term (FT1 x FT2*), (iii) coherence, and (iv) phase, all as a function of frequency and time.  Coherence and phase are defined in [3].  These cross spectra are averaged in both frequency and time as described in [3]. The cross spectra have either 56 or 96 bins (selectable) with the bin central frequencies reported in the metadata. The AC cross spectra are duty-cycled such that spectral averaging takes place over the first 1/8 of any given NYs (assuming a 1 NYs data cadence).  Less data are averaged by 2^N for cadences faster than 1 NYs by 2^N.  For cadences slower than 1 NYs, the first 1/8 of each NYs of data included are averaged together to form the reported data."
+	3 (CDF_CHAR/1118): 	"The Level 2 data products contained in this data file have been calibrated for (i) the Hanning window used in the spectral calculation, (ii) DFB in-band gain, (iii) DFB analog filter gain response, (iv) DFB digital filter gain response, (v) the search coil preamplifier response (when applicable), (vi) the bandwidth of each spectral bin.  Note that compensation for the DFB digital filters will introduce a non-physical positively sloped power trend at high frequencies when the non-corrected signal is dominated by noise.  This effect should be examined carefully when determining spectral slopes and features.  Calibrations for the FIELDS preamplifiers have not been implemented, as the preamplifier response is flat and equal to 1 through the DFB frequency range.  Corrections for plasma sheath impedance gain and antenna effective length have not been applied to voltage sensor data (these corrections will be applied in Level 3 DFB data), therefore units for all voltage sensor quantities are Volts^2/Hz.  Units for all magnetic field quantities are nT^2/Hz. Coherence is unitless.  Units for phase are degrees. "
+	4 (CDF_CHAR/389): 	"The Level 2 voltage data products contained in this data file are in sensor coordinates (e.g. dV12, dV34 for voltage measurements). For solar orbits 1 and 2, the search coil magnetometer cross spectral data is rotated into a non-intuitive coordinate system (d,e,f). For solar orbits 3 and beyond, magnetic field data products are in the u,v,w search coil magnetometer sensor coordinates.  "
+	5 (CDF_CHAR/154): 	"To rotate from d,e,f into u,v,w search coil sensor coordinates, use the following matrix as (IDL notation) spectra_uvw_vector = R ## spectra_def_vector.  "
+	6 (CDF_CHAR/52): 	"R =  [ [ 0.46834856  , -0.81336422    ,  0.34509170]"
+	7 (CDF_CHAR/52): 	"       [-0.66921924  , -0.071546954   ,  0.73961249]"
+	8 (CDF_CHAR/55): 	"       [-0.57688408  , -0.57733845    , -0.57782790]  ]"
+	9 (CDF_CHAR/209): 	"For some orbits, sufficient spectral information exists in the auto- and cross-spectra to determine wave ellipticity, planarity, and wave normal angles.  One method for accomplishing this is presented in [4]. "
+	10 (CDF_CHAR/263): 	"Time resolution of the DFB AC cross spectral data can vary by multiples of 2^N.  During encounter (when PSP is within 0.25 AU of the Sun), cadence for the DFB AC cross spectra is typically 1 NYsecond [2].  Timestamps correspond to the center time of each window. "
+	11 (CDF_CHAR/12): 	"References: "
+	12 (CDF_CHAR/113): 	"1. Fox, N.J., Velli, M.C., Bale, S.D. et al. Space Sci Rev (2016) 204: 7. https://doi.org/10.1007/s1121401502116 "
+	13 (CDF_CHAR/115): 	"2. Bale, S.D., Goetz, K., Harvey, P.R. et al. Space Sci Rev (2016) 204: 49. https://doi.org/10.1007/s1121401602445 "
+	14 (CDF_CHAR/129): 	"3. Malaspina, D.M., Ergun, R.E., Bolton, M. et al. (2016) JGR Space Physics, 121, 5088-5096. https://doi.org/10.1002/2016JA022344"
+	15 (CDF_CHAR/111): 	"4. Santolik, O., Parrot, M., Lefeuvre, F. (2003) Radio Science, 38, 1010. https://doi.org/10.1029/2000RS002523 "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/41): 	"psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg"
+Logical_source (1 entry):
+	0 (CDF_CHAR/32): 	"PSP_FLD_L2_DFB_AC_XSPEC_SCMELFHG"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/138): 	"PSP FIELDS Level 2 DFB AC Cross Spectra (XSPEC) between Search Coil Magnetometer (SCM) E and F Low Frequency (LF) High Gain (HG) Channels "
+PI_name (1 entry):
+	0 (CDF_CHAR/38): 	"Stuart D. Bale (bale@ssl.berkeley.edu)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/37): 	"UC Berkeley Space Sciences Laboratory"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Dependencies (1 entry):
+	0 (CDF_CHAR/4): 	"None"
+Instrument_type (2 entries):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+	1 (CDF_CHAR/23): 	"Electric Fields (space)"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (1 entry):
+	0 (CDF_CHAR/14): 	"PSP FIELDS SOC"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/36): 	"http://fields.ssl.berkeley.edu/data/"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/14): 	"PSP/FIELDS SOC"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/10): 	" Data Link"
+svn_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/119): 	"spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/AC/CrossSpectra/SCM/E-F/LowFrequency/HighGain/PT0.873813S"
+
+Variable Attributes (19 attributes)
+=========================================
+CATDESC
+COORDINATE_SYSTEM
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+SCALETYP
+FIELDNAM
+FILLVAL
+FORMAT
+LABL_PTR_1
+LABLAXIS
+UNITS
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+MONOTON
+SCALEMIN
+SCALEMAX
+VAR_NOTES
+
+Variable Information (0 rVariable, 17 zVariables)
+===========================================================
+epoch                 CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg_frequency_bins CDF_FLOAT/1	1:[43]	T/T
+psp_fld_l2_dfb_ac_xspec_power_ch1_SCMelfhg CDF_FLOAT/1	1:[43]	T/T
+psp_fld_l2_dfb_ac_xspec_power_ch1_SCMelfhg_saturation_flags CDF_INT2/1	0:[]	T/  
+psp_fld_l2_dfb_ac_xspec_power_ch2_SCMflfhg CDF_FLOAT/1	1:[43]	T/T
+psp_fld_l2_dfb_ac_xspec_power_ch2_SCMflfhg_saturation_flags CDF_INT2/1	0:[]	T/  
+psp_fld_l2_dfb_ac_xspec_coh_SCMelfhg_SCMflfhg CDF_FLOAT/1	1:[43]	T/T
+psp_fld_l2_dfb_ac_xspec_coh_SCMelfhg_SCMflfhg_saturation_flags CDF_INT2/1	0:[]	T/  
+psp_fld_l2_dfb_ac_xspec_phase_SCMelfhg_SCMflfhg CDF_FLOAT/1	1:[43]	T/T
+psp_fld_l2_dfb_ac_xspec_phase_SCMelfhg_SCMflfhg_saturation_flags CDF_INT2/1	0:[]	T/  
+psp_fld_l2_dfb_ac_xspec_crossterm_Real_SCMelfhg_SCMflfhg CDF_FLOAT/1	1:[43]	T/T
+psp_fld_l2_dfb_ac_xspec_crossterm_Real_SCMelfhg_SCMflfhg_saturation_flags CDF_INT2/1	0:[]	T/  
+psp_fld_l2_dfb_ac_xspec_crossterm_Imag_SCMelfhg_SCMflfhg CDF_FLOAT/1	1:[43]	T/T
+psp_fld_l2_dfb_ac_xspec_crossterm_Imag_SCMelfhg_SCMflfhg_saturation_flags CDF_INT2/1	0:[]	T/  
+epoch_quality_flags   CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_quality_flags CDF_UINT4/1	0:[]	T/  
+scm_rotation_matrix_def_uvw CDF_FLOAT/1	2:[3,3]	F/TT
+
+
+Variable (17 variables)
+=========================================
+
+epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Time for the SCMelfhg-SCMflfhg cross spectra data"
+     FIELDNAM        (CDF_CHAR/5): "epoch"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     SCALEMIN        (CDF_TT2000/1): 2018-10-31T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2018-11-01T00:00:00.000000000
+
+psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg_frequency_bins (No: 1) (Recs: 0) (Compression: GZIP.6)
+--------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "Frequency bins for the SCMelfhg-SCMflfhg cross spectra data"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FIELDNAM        (CDF_CHAR/56): "psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg_frequency_bins"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F8.1"
+     LABLAXIS        (CDF_CHAR/9): "frequency"
+     UNITS           (CDF_CHAR/2): "Hz"
+     VALIDMIN        (CDF_FLOAT/1): 366.211
+     VALIDMAX        (CDF_FLOAT/1): 29296.9
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_ac_xspec_power_ch1_SCMelfhg (No: 2) (Recs: 0) (Compression: GZIP.6)
+------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "L2 XSpectra Power for channel SCMELFHG"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/56): "psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg_frequency_bins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FIELDNAM        (CDF_CHAR/42): "psp_fld_l2_dfb_ac_xspec_power_ch1_SCMelfhg"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/3): "PSD"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+20
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+20
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_ac_xspec_power_ch1_SCMelfhg_saturation_flags (No: 3) (Recs: 0) (Compression: GZIP.6)
+-----------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "L2 Saturation flags (1 = spectra saturated, 0 = spectra unsaturated)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/59): "psp_fld_l2_dfb_ac_xspec_power_ch1_SCMelfhg_saturation_flags"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/3): "I08"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 3
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_ac_xspec_power_ch2_SCMflfhg (No: 4) (Recs: 0) (Compression: GZIP.6)
+------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "L2 XSpectra Power for channel SCMFLFHG"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/56): "psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg_frequency_bins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/3): "log"
+     FIELDNAM        (CDF_CHAR/42): "psp_fld_l2_dfb_ac_xspec_power_ch2_SCMflfhg"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/3): "PSD"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+20
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+20
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_ac_xspec_power_ch2_SCMflfhg_saturation_flags (No: 5) (Recs: 0) (Compression: GZIP.6)
+-----------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "L2 Saturation flags (1 = spectra saturated, 0 = spectra unsaturated)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/59): "psp_fld_l2_dfb_ac_xspec_power_ch2_SCMflfhg_saturation_flags"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/3): "I08"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 3
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_ac_xspec_coh_SCMelfhg_SCMflfhg (No: 6) (Recs: 0) (Compression: GZIP.6)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/67): "L2 XSpectra Coherence between channel SCMELFHG and channel SCMFLFHG"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/56): "psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg_frequency_bins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/45): "psp_fld_l2_dfb_ac_xspec_coh_SCMelfhg_SCMflfhg"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/3): "Coh"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1.2
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_ac_xspec_coh_SCMelfhg_SCMflfhg_saturation_flags (No: 7) (Recs: 0) (Compression: GZIP.6)
+--------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "L2 Saturation flags (1 = spectra saturated, 0 = spectra unsaturated)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/62): "psp_fld_l2_dfb_ac_xspec_coh_SCMelfhg_SCMflfhg_saturation_flags"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/3): "I08"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 3
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_ac_xspec_phase_SCMelfhg_SCMflfhg (No: 8) (Recs: 0) (Compression: GZIP.6)
+-----------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/66): "L2 XSpectra Phase of channel SCMFLFHG relative to channel SCMELFHG"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/56): "psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg_frequency_bins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/47): "psp_fld_l2_dfb_ac_xspec_phase_SCMelfhg_SCMflfhg"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/5): "Phase"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_FLOAT/1): -95.0
+     VALIDMAX        (CDF_FLOAT/1): 95.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_ac_xspec_phase_SCMelfhg_SCMflfhg_saturation_flags (No: 9) (Recs: 0) (Compression: GZIP.6)
+----------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "L2 Saturation flags (1 = spectra saturated, 0 = spectra unsaturated)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/64): "psp_fld_l2_dfb_ac_xspec_phase_SCMelfhg_SCMflfhg_saturation_flags"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/3): "I08"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 3
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_ac_xspec_crossterm_Real_SCMelfhg_SCMflfhg (No: 10) (Recs: 0) (Compression: GZIP.6)
+--------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "L2 XSpectra Real Part of Crossterm (FT_1 x FT_2^*) for channel SCMELFHG and SCMFLFHG"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/56): "psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg_frequency_bins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/56): "psp_fld_l2_dfb_ac_xspec_crossterm_Real_SCMelfhg_SCMflfhg"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/12): "CrossTerm_Re"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+20
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+20
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_ac_xspec_crossterm_Real_SCMelfhg_SCMflfhg_saturation_flags (No: 11) (Recs: 0) (Compression: GZIP.6)
+-------------------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "L2 Saturation flags (1 = spectra saturated, 0 = spectra unsaturated)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/73): "psp_fld_l2_dfb_ac_xspec_crossterm_Real_SCMelfhg_SCMflfhg_saturation_flags"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/3): "I08"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 3
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_ac_xspec_crossterm_Imag_SCMelfhg_SCMflfhg (No: 12) (Recs: 0) (Compression: GZIP.6)
+--------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "L2 XSpectra Imag Part of Crossterm (FT_1 x FT_2^*) for channel SCMELFHG and SCMFLFHG"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DEPEND_1        (CDF_CHAR/56): "psp_fld_l2_dfb_ac_xspec_SCMelfhg_SCMflfhg_frequency_bins"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/56): "psp_fld_l2_dfb_ac_xspec_crossterm_Imag_SCMelfhg_SCMflfhg"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "E12.3"
+     LABLAXIS        (CDF_CHAR/12): "CrossTerm_Im"
+     UNITS           (CDF_CHAR/7): "nT^2/Hz"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+20
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+20
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_ac_xspec_crossterm_Imag_SCMelfhg_SCMflfhg_saturation_flags (No: 13) (Recs: 0) (Compression: GZIP.6)
+-------------------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "L2 Saturation flags (1 = spectra saturated, 0 = spectra unsaturated)"
+     DEPEND_0        (CDF_CHAR/5): "epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FIELDNAM        (CDF_CHAR/73): "psp_fld_l2_dfb_ac_xspec_crossterm_Imag_SCMelfhg_SCMflfhg_saturation_flags"
+     FILLVAL         (CDF_INT2/1): -32768
+     FORMAT          (CDF_CHAR/3): "I08"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 3
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+epoch_quality_flags (No: 14) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "Time for the FIELDS quality flag"
+     FIELDNAM        (CDF_CHAR/19): "epoch_quality_flags"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     SCALEMIN        (CDF_TT2000/1): 2018-10-31T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2018-11-01T00:00:00.000000000
+
+psp_fld_l2_quality_flags (No: 15) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "FIELDS quality flag"
+     DEPEND_0        (CDF_CHAR/19): "epoch_quality_flags"
+     FIELDNAM        (CDF_CHAR/13): "quality_flags"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/4): "flag"
+     UNITS           (CDF_CHAR/4): "None"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 255
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/990): "FIELDS quality flags. This is a bitwise variable, meaning that multiple flags can be set for a single time, by adding flag values. Current flagged values are: 1: FIELDS antenna bias sweep, 2: PSP thruster firing, 4: SCM Calibration, 8: PSP rotations for MAG calibration (MAG rolls), 16: FIELDS MAG calibration sequence, 32: SWEAP SPC in electron mode, 64: PSP Solar limb sensor (SLS) test. 128: PSP spacecraft is off umbra pointing. 256: High frequency noise affecting RFS and TDS receivers. 512: Antennas driven towards the FIELDS power supply rails. A value of zero corresponds to no set flags. Not all flags are relevant to all FIELDS data products, refer to notes in the CDF metadata and on the FIELDS SOC website for information on how the various flags impact FIELDS data. For more information on the quality flags describing high frequency noise and antennas driven to the rails, see release notes for PSP/FIELDS releases 8 and 9. Additional flagged items may be added in the future."
+
+scm_rotation_matrix_def_uvw (No: 16) (Recs: 1)
+---------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/71): "Rotation Matrix from (d,e,f) to (u,v,w) coordinates (see TEXT metadata)"
+     FIELDNAM        (CDF_CHAR/27): "scm_rotation_matrix_def_uvw"
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

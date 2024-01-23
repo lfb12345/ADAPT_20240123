@@ -1,0 +1,410 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/po_h3_pwi_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     po_h3_pwi_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     5
+NumzVars:     12
+NumAttrs:     47 (28 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (28 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/17): 	"POLAR PWI HFWR16K"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/29): 	"POLAR>Polar Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/29): 	"H3>HFWR16K Time Domain Fields"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"PWI>Plasma Wave Instrument"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (1 entry):
+	5 (CDF_CHAR/1): 	" "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0171"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"po_h3_pwi_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"po_h3_pwi"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/120): 	"Polar Plasma Wave Instrument, Low-rate High Frequency Waveform Receiver, 16K (6-channel, ~0.00003 sec resolution) fields"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"D. Gurnett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"U. Iowa"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"Polar"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/30): 	"Radio and Plasma Waves (space)"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+Link_text (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Time_resolution (0 entry):
+Link_title (0 entry):
+HTTP_link (1 entry):
+	0 (CDF_CHAR/50): 	"https://space.physics.uiowa.edu/plasma-wave/polar/"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/40): 	"Polar_PWI_lowrate_highfreq_10msec_h3_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/59): 	"spase://NASA/NumericalData/POLAR/PWI/LHFWR/16kHz/PT0000028S"
+
+Variable Attributes (19 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+VALIDMIN
+VALIDMAX
+MONOTON
+UNITS
+LABLAXIS
+DEPEND_0
+FORMAT
+FILLVAL
+AVG_TYPE
+DICT_KEY
+DISPLAY_TYPE
+VAR_NOTES
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+
+Variable Information (5 rVariables, 12 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+FilterMode            CDF_INT4/1	0:[]	F/  
+Delta_T               CDF_REAL8/1	0:[]	F/  
+FFT_SIZE              CDF_INT4/1	0:[]	F/  
+Num_Spec              CDF_INT4/1	0:[]	F/  
+DATA_QUALITY          CDF_INT4/1	0:[]	T/  
+HFWR_Ex16K            CDF_REAL4/1	0:[]	T/  
+HFWR_Ey16K            CDF_REAL4/1	0:[]	T/  
+HFWR_Ez16K            CDF_REAL4/1	0:[]	T/  
+HFWR_Bx16K            CDF_REAL4/1	0:[]	T/  
+HFWR_By16K            CDF_REAL4/1	0:[]	T/  
+HFWR_Bz16K            CDF_REAL4/1	0:[]	T/  
+Epoch0                CDF_TT2000/1	1:[1]	T/F
+Gain1                 CDF_INT4/1	0:[]	T/  
+Gain2                 CDF_INT4/1	0:[]	T/  
+Gain3                 CDF_INT4/1	0:[]	T/  
+MGain                 CDF_INT4/1	0:[]	T/  
+
+
+Variable (17 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/32): "Time, time of HFWR 16 kHz sample"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_TT2000/1): 1996-02-27T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2008-04-29T00:00:00.000000000
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/2): "ns"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT8/1): 31-DEC-9999 23:59:59.999999999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+FilterMode (No: 1) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "Filter Mode"
+     CATDESC         (CDF_CHAR/59): "Filter Mode (1 = 25 kHz, 2 = 16 kHz, 4 = 2 kHz, 8 = 250 Hz)"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 8
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/10): "FilterMode"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Delta_T (No: 2) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "Delta_T"
+     CATDESC         (CDF_CHAR/25): "Time, time between points"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_REAL8/1): 1.0
+     VALIDMAX        (CDF_REAL8/1): 1.0
+     UNITS           (CDF_CHAR/7): "Seconds"
+     LABLAXIS        (CDF_CHAR/10): "FilterMode"
+     FORMAT          (CDF_CHAR/4): "E9.2"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     VAR_NOTES       (CDF_CHAR/25): "Determined by Filter Mode"
+
+FFT_SIZE (No: 3) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "FFT_SIZE"
+     CATDESC         (CDF_CHAR/31): "Size of FFT used in calibration"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 1024
+     VALIDMAX        (CDF_INT4/1): 2048
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "FFT_SIZE"
+     FORMAT          (CDF_CHAR/2): "I5"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Num_Spec (No: 4) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Num_Spec"
+     CATDESC         (CDF_CHAR/43): "Numper of Spectra of FFT_size in this file "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 671
+     UNITS           (CDF_CHAR/1): " "
+     LABLAXIS        (CDF_CHAR/8): "Num_Spec"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/41): "This is the number of Gain/Epoch0 Records"
+
+DATA_QUALITY (No: 0) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "DATA_QUALITY"
+     CATDESC         (CDF_CHAR/31): "DATA_QUALITY (0 = OK, 1 = poor)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     UNITS           (CDF_CHAR/13): "(0=OK,1=poor)"
+     LABLAXIS        (CDF_CHAR/12): "Data_Quality"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I1"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR_Ex16K (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "HFWR 16 kHz Elec. Field Antenna Ex"
+     CATDESC         (CDF_CHAR/87): "HFWR 16 kHz Elec Field, Antenna Ex (perp and outward in Local-Field-Aligned/LFA coords)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -30.0
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     UNITS           (CDF_CHAR/4): "mV/m"
+     LABLAXIS        (CDF_CHAR/14): "HFWR16K Ex-LFA"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR_Ey16K (No: 2) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "HFWR 16 kHz Elec. Field Antenna Ey"
+     CATDESC         (CDF_CHAR/88): "HFWR 16 kHz Elec Field, Antenna Ey (perp and eastward in Local-Field-Aligned/LFA coords)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -30.0
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     UNITS           (CDF_CHAR/4): "mV/m"
+     LABLAXIS        (CDF_CHAR/14): "HFWR16K Ey-LFA"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR_Ez16K (No: 3) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/34): "HFWR 16 kHz Elec. Field Antenna Ez"
+     CATDESC         (CDF_CHAR/79): "HFWR 16 kHz Elec Field, Antenna Ez (parallel in Local-Field-Aligned/LFA coords)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -30.0
+     VALIDMAX        (CDF_REAL4/1): 30.0
+     UNITS           (CDF_CHAR/4): "mV/m"
+     LABLAXIS        (CDF_CHAR/14): "HFWR16K Ez-LFA"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR_Bx16K (No: 4) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "HFWR 16 kHz Mag. Field Antenna Bx"
+     CATDESC         (CDF_CHAR/87): "HFWR 16 kHz Mag. Field, Antenna Bx (perp and outward in Local-Field-Aligned/LFA coords)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -50.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/14): "HFWR16K Bx-LFA"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR_By16K (No: 5) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "HFWR 16 kHz Mag. Field Antenna By"
+     CATDESC         (CDF_CHAR/88): "HFWR 16 kHz Mag. Field, Antenna By (perp and eastward in Local-Field-Aligned/LFA coords)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -50.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/14): "HFWR16K By-LFA"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+HFWR_Bz16K (No: 6) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/33): "HFWR 16 kHz Mag. Field Antenna Bz"
+     CATDESC         (CDF_CHAR/79): "HFWR 16 kHz Mag. Field, Antenna Bz (parallel in Local-Field-Aligned/LFA coords)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_REAL4/1): -50.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     UNITS           (CDF_CHAR/2): "nT"
+     LABLAXIS        (CDF_CHAR/14): "HFWR16K Bz-LFA"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/14): "magnetic_field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Epoch0 (No: 7) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/40): "Time, begin time of HFWR 16 kHz waveform"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_TT2000/1): 1996-02-27T00:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2008-04-29T00:00:00.000000000
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     UNITS           (CDF_CHAR/2): "ns"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT8/1): 31-DEC-9999 23:59:59.999999999
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gain1 (No: 8) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Gain for HFWR Channel 1 (Ex)"
+     CATDESC         (CDF_CHAR/38): "HFWR Channel 1 (Ex) Gain (~2 sec res) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 30
+     UNITS           (CDF_CHAR/7): "(Gain1)"
+     LABLAXIS        (CDF_CHAR/12): "HFWR Ex_Gain"
+     DEPEND_0        (CDF_CHAR/6): "Epoch0"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gain2 (No: 9) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Gain for HFWR Channel 2 (Ey)"
+     CATDESC         (CDF_CHAR/38): "HFWR Channel 2 (Ey) Gain (~2 sec res) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 30
+     UNITS           (CDF_CHAR/7): "(Gain2)"
+     LABLAXIS        (CDF_CHAR/12): "HFWR Ey_Gain"
+     DEPEND_0        (CDF_CHAR/6): "Epoch0"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gain3 (No: 10) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/28): "Gain for HFWR Channel 3 (Ez)"
+     CATDESC         (CDF_CHAR/38): "HFWR Channel 3 (Ez) Gain (~2 sec res) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 30
+     UNITS           (CDF_CHAR/7): "(Gain3)"
+     LABLAXIS        (CDF_CHAR/12): "HFWR Ez_Gain"
+     DEPEND_0        (CDF_CHAR/6): "Epoch0"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+MGain (No: 11) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/41): "Gain for HFWR 16 kHz M-Field (Bx, By, Bz)"
+     CATDESC         (CDF_CHAR/41): "HFWR B Gain (all components, ~2 sec res) "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 30
+     UNITS           (CDF_CHAR/7): "(X/Y/Z)"
+     LABLAXIS        (CDF_CHAR/11): "HFWR B_Gain"
+     DEPEND_0        (CDF_CHAR/6): "Epoch0"
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/34): "Applies to all 3 Magnetic Channels"
+

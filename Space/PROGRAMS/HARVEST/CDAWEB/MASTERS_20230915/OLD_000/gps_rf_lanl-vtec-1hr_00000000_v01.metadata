@@ -1,0 +1,388 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/gps_rf_lanl-vtec-1hr_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     gps_rf_lanl-vtec-1hr_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     13
+NumAttrs:     65 (33 global, 32 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (33 attributes)
+=========================================
+ncei_template_version (1 entry):
+	0 (CDF_CHAR/30): 	"NCEI_NetCDF_Grid_Template_v2.0"
+title (1 entry):
+	0 (CDF_CHAR/51): 	"LANL Gridded Vertical Total Electron Content (VTEC)"
+summary (1 entry):
+	0 (CDF_CHAR/1189): 	"These files contain data products derived from Los Alamos National Laboratory (LANL) broadband radio-frequency (RF) sensors on Global Positioning System (GPS) satellites that measure transient events in the very-high frequency (VHF, 30-300 MHz) range. As a RF signal from transient broadband lightning events travels through the ionosphere, it is dispersed, so lower frequencies arrive later in time than higher frequencies. This dispersion can be used to determine the slant total electron content (STEC, or the integrated electron density along the line of sight between the lightning location and the GPS satellite in medium Earth orbit (MEO)). A mapping factor is used to project the slant TEC (along the line of sight) to a vertical TEC (VTEC), which is the integrated electron density vertically above a given location. The VTEC measurements from lightning events are combined in latitude, longitude, and time bins, and the median VTEC in a given bin is provided in these data files. This binning creates a time and spatial averaged sparse global TEC product from lightning events that can be used to compare to other TEC measurement products such as from GPS ground-based receivers."
+keywords (1 entry):
+	0 (CDF_CHAR/15): 	"ionosphere, TEC"
+Conventions (1 entry):
+	0 (CDF_CHAR/16): 	"CF-1.6, ACDD-1.3"
+id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+history (1 entry):
+	0 (CDF_CHAR/1): 	" "
+naming_authority (1 entry):
+	0 (CDF_CHAR/8): 	"gov.lanl"
+distribution (1 entry):
+	0 (CDF_CHAR/33): 	"UNCLASSIFIED / For public release"
+copyright (1 entry):
+	0 (CDF_CHAR/1143): 	"Copyright (2021). Triad National Security, LLC. All rights reserved. This program was produced under U.S. Government contract 89233218CNA000001 for Los Alamos National Laboratory (LANL), which is operated by Triad National Security, LLC for the U.S. Department of Energy/National Nuclear Security Administration. All rights in the program are reserved by Triad National Security, LLC, and the U.S. Department of Energy/National Nuclear Security Administration. The Government is granted for itself and others acting on its behalf a nonexclusive, paid-up, irrevocable worldwide license in this material to reproduce, prepare derivative works, distribute copies to the public, perform publicly and display publicly, and to permit others to do so. NEITHER THE UNITED STATES NOR THE UNITED STATES DEPARTMENT OF ENERGY, NOR TRIAD NATIONAL SECURITY, LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY, EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT INFRINGE PRIVATELY OWNED RIGHTS."
+standard_name_vocabulary (1 entry):
+	0 (CDF_CHAR/20): 	"CF Standard Name v77"
+creator_name (1 entry):
+	0 (CDF_CHAR/23): 	"Erin Lay, Jeff Tippmann"
+creator_email (1 entry):
+	0 (CDF_CHAR/33): 	"elay@lanl.gov, jtippmann@lanl.gov"
+institution (1 entry):
+	0 (CDF_CHAR/30): 	"Los Alamos National Laboratory"
+time_coverage_start (1 entry):
+	0 (CDF_CHAR/1): 	" "
+time_coverage_end (1 entry):
+	0 (CDF_CHAR/1): 	" "
+time_coverage_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"01:00:00"
+geospatial_lat_units (1 entry):
+	0 (CDF_CHAR/13): 	"degrees_north"
+geospatial_lat_resolution (1 entry):
+	0 (CDF_CHAR/1): 	" "
+geospatial_lon_units (1 entry):
+	0 (CDF_CHAR/12): 	"degrees_east"
+geospatial_lon_resolution (1 entry):
+	0 (CDF_CHAR/1): 	" "
+cdm_data_type (1 entry):
+	0 (CDF_CHAR/4): 	"Grid"
+Descriptor (1 entry):
+	0 (CDF_CHAR/37): 	"vtec> Vertical Total Electron Content"
+Data_type (1 entry):
+	0 (CDF_CHAR/17): 	"VTEC> GPS Service"
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"GPS"
+Mission_group (1 entry):
+	0 (CDF_CHAR/3): 	"GPS"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Logical_source (1 entry):
+	0 (CDF_CHAR/20): 	"gps_rf_lanl-vtec-1hr"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/51): 	"LANL Gridded Vertical Total Electron Content (VTEC)"
+Source_name (1 entry):
+	0 (CDF_CHAR/3): 	"GPS"
+NCO (1 entry):
+	0 (CDF_CHAR/95): 	"netCDF Operators version 4.7.5 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)"
+NC_KIND (1 entry):
+	0 (CDF_CHAR/8): 	"netCDF-4"
+NC_DIMENSIONS_G (4 entries):
+	0 (CDF_CHAR/6): 	"lat=24"
+	1 (CDF_CHAR/4): 	"nv=2"
+	2 (CDF_CHAR/6): 	"lon=72"
+	3 (CDF_CHAR/14): 	"time=UNLIMITED"
+
+Variable Attributes (32 attributes)
+=========================================
+NC_DIMENSIONS_V
+NC_DEFLATE
+NC_SHUFFLE
+NC_STORAGE
+NC_CHUNKSIZES
+FIELDNAM
+standard_name
+units
+axis
+bounds
+FILLVAL
+comment
+coordinates
+NC_ADDED
+CATDESC
+FORMAT
+LABLAXIS
+VAR_TYPE
+VALIDMIN
+VALIDMAX
+DISPLAY_TYPE
+VIRTUAL
+FUNCT
+COMPONENT_0
+COMPONENT_1
+TIME_BASE
+VAR_NOTES
+SCALETYP
+DEPEND_0
+DEPEND_1
+DEPEND_2
+ALLOW_BIN
+
+Variable Information (0 rVariable, 13 zVariables)
+===========================================================
+lat                   CDF_FLOAT/1	1:[24]	F/T
+lat_bounds            CDF_FLOAT/1	2:[24,2]	F/TT
+lon                   CDF_FLOAT/1	1:[72]	F/T
+lon_bounds            CDF_FLOAT/1	2:[72,2]	F/TT
+tec                   CDF_DOUBLE/1	2:[24,72]	T/TT
+tec_movie             CDF_DOUBLE/1	2:[24,72]	T/TT
+tec_moll              CDF_DOUBLE/1	2:[24,72]	T/TT
+tec_moll_movie        CDF_DOUBLE/1	2:[24,72]	T/TT
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+time_base             CDF_EPOCH/1	0:[]	F/  
+time                  CDF_DOUBLE/1	0:[]	T/  
+time_bounds           CDF_DOUBLE/1	1:[2]	T/T
+nv                    CDF_INT1/1	1:[2]	F/T
+
+
+Variable (13 variables)
+=========================================
+
+lat (No: 0) (Recs: 1)
+---
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/3): "lat"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/10): "contiguous"
+     FIELDNAM        (CDF_CHAR/8): "latitude"
+     standard_name   (CDF_CHAR/8): "latitude"
+     units           (CDF_CHAR/13): "degrees_north"
+     axis            (CDF_CHAR/1): "Y"
+     bounds          (CDF_CHAR/10): "lat_bounds"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): -90.0
+     VALIDMAX        (CDF_FLOAT/1): 90.0
+
+lat_bounds (No: 1) (Recs: 1)
+----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/6): "lat,nv"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/10): "contiguous"
+     units           (CDF_CHAR/13): "degrees_north"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_0        (CDF_CHAR/3): "lat"
+     DEPEND_1        (CDF_CHAR/2): "nv"
+
+lon (No: 2) (Recs: 1)
+---
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/3): "lon"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/10): "contiguous"
+     FIELDNAM        (CDF_CHAR/9): "longitude"
+     standard_name   (CDF_CHAR/9): "longitude"
+     units           (CDF_CHAR/12): "degrees_east"
+     axis            (CDF_CHAR/1): "X"
+     bounds          (CDF_CHAR/10): "lon_bounds"
+     NC_ADDED        (CDF_CHAR/8): "DEPEND_0"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_FLOAT/1): -180.0
+     VALIDMAX        (CDF_FLOAT/1): 180.0
+
+lon_bounds (No: 3) (Recs: 1)
+----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/6): "lon,nv"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/10): "contiguous"
+     units           (CDF_CHAR/12): "degrees_east"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     DEPEND_0        (CDF_CHAR/3): "lon"
+     DEPEND_1        (CDF_CHAR/2): "nv"
+
+tec (No: 4) (Recs: 0) (Compression: GZIP.6)
+---
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/12): "time,lat,lon"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 24, 24, 72
+     FIELDNAM        (CDF_CHAR/4): "VTEC"
+     units           (CDF_CHAR/19): "10^16 electrons/m^2"
+     FILLVAL         (CDF_DOUBLE/1): -999.0
+     comment         (CDF_CHAR/34): "TECU = Total Electron Content Unit"
+     coordinates     (CDF_CHAR/12): "time lat lon"
+     NC_ADDED        (CDF_CHAR/26): "DEPEND_0 DEPEND_1 DEPEND_2"
+     CATDESC         (CDF_CHAR/63): "Vertical Total Electron Content (VTEC) (cylindrical projection)"
+     LABLAXIS        (CDF_CHAR/4): "TECU"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/46): "map_image>THUMBSIZE>250>MAP_PROJ>8>x=lon,y=lat"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/3): "lon"
+     DEPEND_2        (CDF_CHAR/3): "lat"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+tec_movie (No: 5) (Recs: 0) (Compression: GZIP.6)
+---------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/12): "time,lat,lon"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 24, 24, 72
+     FIELDNAM        (CDF_CHAR/4): "VTEC"
+     units           (CDF_CHAR/19): "10^16 electrons/m^2"
+     FILLVAL         (CDF_DOUBLE/1): -999.0
+     comment         (CDF_CHAR/34): "TECU = Total Electron Content Unit"
+     coordinates     (CDF_CHAR/12): "time lat lon"
+     NC_ADDED        (CDF_CHAR/26): "DEPEND_0 DEPEND_1 DEPEND_2"
+     CATDESC         (CDF_CHAR/17): "---> Mapped Movie"
+     LABLAXIS        (CDF_CHAR/4): "TECU"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/32): "map_movie>MAP_PROJ>8>x=lon,y=lat"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/3): "tec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/3): "lon"
+     DEPEND_2        (CDF_CHAR/3): "lat"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+tec_moll (No: 6) (Recs: 0) (Compression: GZIP.6)
+--------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/12): "time,lat,lon"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 24, 24, 72
+     FIELDNAM        (CDF_CHAR/4): "VTEC"
+     units           (CDF_CHAR/19): "10^16 electrons/m^2"
+     FILLVAL         (CDF_DOUBLE/1): -999.0
+     comment         (CDF_CHAR/34): "TECU = Total Electron Content Unit"
+     coordinates     (CDF_CHAR/12): "time lat lon"
+     NC_ADDED        (CDF_CHAR/26): "DEPEND_0 DEPEND_1 DEPEND_2"
+     CATDESC         (CDF_CHAR/26): "---> Molleweide projection"
+     LABLAXIS        (CDF_CHAR/4): "TECU"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/47): "map_image>THUMBSIZE>250>MAP_PROJ>10>x=lon,y=lat"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/3): "tec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/3): "lon"
+     DEPEND_2        (CDF_CHAR/3): "lat"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+tec_moll_movie (No: 7) (Recs: 0) (Compression: GZIP.6)
+--------------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/12): "time,lat,lon"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/3): 24, 24, 72
+     FIELDNAM        (CDF_CHAR/4): "VTEC"
+     units           (CDF_CHAR/19): "10^16 electrons/m^2"
+     FILLVAL         (CDF_DOUBLE/1): -999.0
+     comment         (CDF_CHAR/34): "TECU = Total Electron Content Unit"
+     coordinates     (CDF_CHAR/12): "time lat lon"
+     NC_ADDED        (CDF_CHAR/26): "DEPEND_0 DEPEND_1 DEPEND_2"
+     CATDESC         (CDF_CHAR/41): "---> Mapped Movie (Molleweide projection)"
+     LABLAXIS        (CDF_CHAR/4): "TECU"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/33): "map_movie>MAP_PROJ>10>x=lon,y=lat"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/3): "tec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/3): "lon"
+     DEPEND_2        (CDF_CHAR/3): "lat"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+Epoch (No: 8) (Recs: 0) (Compression: GZIP.9)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "time_epoch"
+     units           (CDF_CHAR/33): "seconds since 2000-01-01 12:00:00"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/12): "time_inboard"
+     LABLAXIS        (CDF_CHAR/2): "UT"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VIRTUAL         (CDF_CHAR/4): "TRUE"
+     FUNCT           (CDF_CHAR/17): "comp_themis_epoch"
+     COMPONENT_0     (CDF_CHAR/9): "time_base"
+     COMPONENT_1     (CDF_CHAR/4): "time"
+     TIME_BASE       (CDF_CHAR/20): "1980-1-6 00:00:00 AD"
+     VAR_NOTES       (CDF_CHAR/43): "Seconds since the J2K epoch - added by SPDF"
+
+time_base (No: 9) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time_base"
+     units           (CDF_CHAR/4): "msec"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/9): "time base"
+     FORMAT          (CDF_CHAR/5): "E13.6"
+     LABLAXIS        (CDF_CHAR/8): "timebase"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     VAR_NOTES       (CDF_CHAR/45): "EPOCH of 06-Jan-1980 00:00:00 - added by SPDF"
+
+time (No: 10) (Recs: 0)
+----
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/4): "time"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/1): 512
+     FIELDNAM        (CDF_CHAR/14): "GPS Epoch Time"
+     standard_name   (CDF_CHAR/4): "time"
+     units           (CDF_CHAR/35): "seconds since 1980-1-6 00:00:00 UTC"
+     axis            (CDF_CHAR/1): "T"
+     bounds          (CDF_CHAR/11): "time_bounds"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+time_bounds (No: 11) (Recs: 0)
+-----------
+Attribute Entries:
+     NC_DIMENSIONS_V (CDF_CHAR/7): "time,nv"
+     NC_DEFLATE      (CDF_INT4/1): 0
+     NC_SHUFFLE      (CDF_CHAR/5): "false"
+     NC_STORAGE      (CDF_CHAR/7): "chunked"
+     NC_CHUNKSIZES   (CDF_INT4/2): 24, 2
+     units           (CDF_CHAR/35): "seconds since 1980-1-6 00:00:00 UTC"
+     NC_ADDED        (CDF_CHAR/17): "DEPEND_0 DEPEND_1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DEPEND_0        (CDF_CHAR/4): "time"
+     DEPEND_1        (CDF_CHAR/2): "nv"
+
+nv (No: 12) (Recs: 1)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "nv"
+     FILLVAL         (CDF_INT1/1): -128
+     NC_ADDED        (CDF_CHAR/85): "variable FILLVAL CATDESC FORMAT FIELDNAM LABLAXIS VAR_TYPE VALIDMIN VALIDMAX SCALETYP"
+     CATDESC         (CDF_CHAR/2): "nv"
+     FORMAT          (CDF_CHAR/2): "I3"
+     LABLAXIS        (CDF_CHAR/2): "nv"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VALIDMIN        (CDF_INT1/1): -127
+     VALIDMAX        (CDF_INT1/1): 127
+     SCALETYP        (CDF_CHAR/6): "linear"
+

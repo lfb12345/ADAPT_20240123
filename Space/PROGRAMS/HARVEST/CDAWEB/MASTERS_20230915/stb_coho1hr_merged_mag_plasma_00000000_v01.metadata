@@ -1,0 +1,680 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/stb_coho1hr_merged_mag_plasma_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     stb_coho1hr_merged_mag_plasma_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     35
+NumAttrs:     50 (24 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (24 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/28): 	"STP>Solar Terrestrial Probes"
+Source_name (1 entry):
+	0 (CDF_CHAR/69): 	"stb>Solar Terrestrial Relations Observatory Behind the Sun-Earth Line"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/43): 	"COHO1HR>1 Hour Time Resolution from cohoweb"
+Descriptor (1 entry):
+	0 (CDF_CHAR/71): 	"MAG_PLASMA>Merged Trajectory, Magnetic Field, Plasma, and Proton Fluxes"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generated_by (0 entry):
+Generation_date (0 entry):
+TEXT (2 entries):
+	0 (CDF_CHAR/1761): 	"The Solar-Terrestrial Relations Observatory (STEREO) mission includes two spacecraft respectively lagging (STEREO A) and leading (STEREO B) the Earth in heliocentric orbit around the Sun for remote 3-D imaging and radio observations of coronal mass ejections (CMEs).  These events are responsible for large solar energetic particle events in interplanetary space and are the primary cause of major geomagnetic storms at Earth. The two spacecraft are launched to drift slowly away from the Earth in opposite directions at about 10 degrees per year for the lagging spacecraft and 20 degrees per year for the leading one. Optimal longitudinal separation of about sixty degrees is achieved after two years. Afterwards the separation gradually increases beyond the design lifetime of two years with the possibility of extended mission observations at larger angles. Science instruments selected for STEREO include the Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI) for extreme ultraviolet (EUV), white-light coronographic, and heliospheric imaging, the STEREO/WAVES (SWAVES) interplanetary radio burst tracker, the In situ Measurements of Particles and CME Transients (IMPACT) investigation for in-situ sampling the 3-D distribution and plasma characteristics of solar energetic particles and the interplanetary magnetic field, and the PLAsma and SupraThermal Ion and Composition (PLASTIC) experiment to measure elemental and charge composition of ambient and CME plasma ions. STEREO data recorded and stored onboard each spacecraft will be downlinked through the NASA Deep Space Network on a daily schedule. Real-time space weather data will be continuously transmitted through a separate beacon system to NASA and non-NASA receiving stations."
+	1 (CDF_CHAR/803): 	" About STEREO data in COHOWEB STEREO-A and -B data are from the magnetometer of the IMPACT package and from the PLASTIC plasma detector.  Principal Investigators for these packages are Janet Luhmann (UCB) and Antoinette Galvin (UNH), respectively.  Magnetic field  data were obtained as 10-min averages from the UCLA web site at http://aten.igpp.ucla.edu/forms/stereo/ascii_PLASTIC_10m_new.html, courtesy of C.T. Russell. Proton Fluxes from http://www.srl.caltech.edu/STEREO/.  COHOWeb's magnetic field hourly averages were created at GSFC/SPDF by averaging over the six 10-min averages falling within each hour.  Hourly plasma parameter data, including plasma flow direction angles for STEREO-A but not yet for STEREO B (as of 7/11/2010), were obtained from UNH via http://fiji.sr.unh.edu/1dmax_ascii/."
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+NSSDC_ID (1 entry):
+	0 (CDF_CHAR/9): 	"2006-047A"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/42): 	"stb_coho1hr_merged_mag_plasma_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/29): 	"stb_coho1hr_merged_mag_plasma"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/70): 	"Merged hourly magnetic field, plasma, proton fluxes, and ephermis data"
+PI_name (1 entry):
+	0 (CDF_CHAR/20): 	"Natasha Papitashvili"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+Mission_group (1 entry):
+	0 (CDF_UCHAR/6): 	"STEREO"
+Instrument_type (3 entries):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+	1 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	2 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/6): 	"1 hour"
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/12): 	"COHO dataset"
+	1 (CDF_CHAR/49): 	"Additional analysis tools for these data from the"
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/13): 	"Documentation"
+	1 (CDF_CHAR/15): 	"COHOWeb service"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/52): 	"https://omniweb.gsfc.nasa.gov/coho/html/cw_data.html"
+	1 (CDF_CHAR/28): 	"http://cohoweb.gsfc.nasa.gov"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/63): 	"spase://NASA/NumericalData/STEREO-B/IMPACT_PLASTIC/COHOWEB/PT1H"
+
+Variable Attributes (26 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+LABL_PTR_1
+LABL_PTR_2
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+LABLAXIS
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+SCAL_PTR
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+
+Variable Information (0 rVariable, 35 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+radialDistance        CDF_REAL4/1	0:[]	T/  
+heliographicLatitude  CDF_REAL4/1	0:[]	T/  
+heliographicLongitude CDF_REAL4/1	0:[]	T/  
+BR                    CDF_REAL4/1	0:[]	T/  
+BT                    CDF_REAL4/1	0:[]	T/  
+BN                    CDF_REAL4/1	0:[]	T/  
+B                     CDF_REAL4/1	0:[]	T/  
+plasmaSpeed           CDF_REAL4/1	0:[]	T/  
+lat                   CDF_REAL4/1	0:[]	T/  
+lon                   CDF_REAL4/1	0:[]	T/  
+plasmaDensity         CDF_REAL4/1	0:[]	T/  
+plasmaTemp            CDF_REAL4/1	0:[]	T/  
+protonFlux1_LET       CDF_REAL4/1	0:[]	T/  
+protonFlux2_LET       CDF_REAL4/1	0:[]	T/  
+protonFlux3_LET       CDF_REAL4/1	0:[]	T/  
+protonFlux4_LET       CDF_REAL4/1	0:[]	T/  
+protonFlux1_HET       CDF_REAL4/1	0:[]	T/  
+protonFlux2_HET       CDF_REAL4/1	0:[]	T/  
+protonFlux3_HET       CDF_REAL4/1	0:[]	T/  
+protonFlux4_HET       CDF_REAL4/1	0:[]	T/  
+protonFlux5_HET       CDF_REAL4/1	0:[]	T/  
+protonFlux6_HET       CDF_REAL4/1	0:[]	T/  
+protonFlux7_HET       CDF_REAL4/1	0:[]	T/  
+protonFlux8_HET       CDF_REAL4/1	0:[]	T/  
+protonFlux9_HET       CDF_REAL4/1	0:[]	T/  
+protonFlux10_HET      CDF_REAL4/1	0:[]	T/  
+protonFlux11_HET      CDF_REAL4/1	0:[]	T/  
+protonFlux1_SIT       CDF_REAL4/1	0:[]	T/  
+protonFlux2_SIT       CDF_REAL4/1	0:[]	T/  
+protonFlux3_SIT       CDF_REAL4/1	0:[]	T/  
+protonFlux4_SIT       CDF_REAL4/1	0:[]	T/  
+protonFlux5_SIT       CDF_REAL4/1	0:[]	T/  
+protonFlux6_SIT       CDF_REAL4/1	0:[]	T/  
+protonFlux7_SIT       CDF_REAL4/1	0:[]	T/  
+
+
+Variable (35 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/27): "Time, beginning of interval"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1996 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1996 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     UNITS           (CDF_CHAR/2): "ms"
+     FORMAT          (CDF_CHAR/5): "E14.8"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/6): "LINEAR"
+
+radialDistance (No: 1) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Radial Distance"
+     CATDESC         (CDF_CHAR/15): "Radial Distance"
+     VALIDMIN        (CDF_REAL4/1): 0.5
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/2): "AU"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/15): "Radial Distance"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+heliographicLatitude (No: 2) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "HGI Latitude"
+     CATDESC         (CDF_CHAR/93): "HelioGraphic Inertial (HGI) latitude of the spacecraft position at the start of data interval"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/7): "HGI_Lat"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+heliographicLongitude (No: 3) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "HGI Longitude"
+     CATDESC         (CDF_CHAR/95): "HelioGraphic Inertial (HGI) longitude of the spacecraft position at the start of data interval "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/8): "HGI_Long"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+BR (No: 4) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "BR (RTN)"
+     CATDESC         (CDF_CHAR/58): "IMF BR in RTN (Radial-Tangential-Normal) coordinate system"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/8): "BR_(RTN)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+BT (No: 5) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "BT (RTN)"
+     CATDESC         (CDF_CHAR/31): "IMF BT in RTN coordinate system"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/8): "BT_(RTN)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+BN (No: 6) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "BN (RTN)"
+     CATDESC         (CDF_CHAR/31): "IMF BN in RTN coordinate system"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/8): "BN_(RTN)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+B (No: 7) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "B scalar"
+     CATDESC         (CDF_CHAR/52): "B Field Magnitude (average of fine scale magnitudes)"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "nT"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/1): "B"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+plasmaSpeed (No: 8) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "SW plasma speed"
+     CATDESC         (CDF_CHAR/15): "SW plasma speed"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 1200.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/12): "plasma speed"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+lat (No: 9) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "SW lat"
+     CATDESC         (CDF_CHAR/38): "SW lat angle in RTN coordinate system "
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/12): "SW_Lat_(RTN)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+lon (No: 10) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "SW lon"
+     CATDESC         (CDF_CHAR/38): "SW lon angle in RTN coordinate system "
+     VALIDMIN        (CDF_REAL4/1): -15.0
+     VALIDMAX        (CDF_REAL4/1): 15.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/12): "SW_Lon_(RTN)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+plasmaDensity (No: 11) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "SW plasma density"
+     CATDESC         (CDF_CHAR/17): "SW plasma density"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99.0
+     UNITS           (CDF_CHAR/5): "N/cm3"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/14): "SW_plasma_dens"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+plasmaTemp (No: 12) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "SW plasma temperature"
+     CATDESC         (CDF_CHAR/21): "SW plasma Temperature"
+     VALIDMIN        (CDF_REAL4/1): 1000.0
+     VALIDMAX        (CDF_REAL4/1): 9.0e+06
+     UNITS           (CDF_CHAR/5): "deg K"
+     FORMAT          (CDF_CHAR/4): "f9.0"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/14): "SW_plasma_temp"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux1_LET (No: 13) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "H 1.8-3.6 MeV, LET"
+     CATDESC         (CDF_CHAR/31): "Proton Flux 1.8 - 3.6, MeV, LET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/18): "H 1.8-3.6 MeV, LET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux2_LET (No: 14) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "H 4.0-6.0 MeV, LET"
+     CATDESC         (CDF_CHAR/31): "Proton Flux 4.0 - 6.0, MeV, LET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/18): "H 4.0-6.0 MeV, LET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux3_LET (No: 15) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "H 6.0-10.0 MeV, LET"
+     CATDESC         (CDF_CHAR/32): "Proton Flux 6.0 - 10.0, MeV, LET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/19): "H 6.0-10.0 MeV, LET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux4_LET (No: 16) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 10.0-12.0 MeV, LET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 10.0 - 12.0, MeV, LET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 10.0-12.0 MeV, LET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux1_HET (No: 17) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 13.6-15.1 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 13.6 - 15.1, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 13.6-15.1 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux2_HET (No: 18) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 14.9-17.1 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 14.9 - 17.1, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 14.9-17.1 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux3_HET (No: 19) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 17.0-19.3 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 17.0 - 19.3, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 17.0-19.3 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux4_HET (No: 20) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 20.8-23.8 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 20.8 - 23.8, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 20.8-23.8 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux5_HET (No: 21) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 23.8-26.4 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 23.8 - 26.4, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 23.8-26.4 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux6_HET (No: 22) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 26.3-29.7 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 26.3 - 29.7, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 26.3-29.7 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux7_HET (No: 23) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 29.5-33.4 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 29.5 - 33.4, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 29.5-33.4 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux8_HET (No: 24) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 33.4-35.8 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 33.4 - 35.8, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 33.4-35.8 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux9_HET (No: 25) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 35.5-40.5 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 35.5 - 40.5, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 35.5-40.5 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux10_HET (No: 26) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H 40.0-60.0 MeV, HET"
+     CATDESC         (CDF_CHAR/33): "Proton Flux 40.0 - 60.0, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/20): "H 40.0-60.0 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux11_HET (No: 27) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H 60.0-100.0 MeV, HET"
+     CATDESC         (CDF_CHAR/34): "Proton Flux 60.0 - 100.0, MeV, HET"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 998999.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/4): "e9.2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/21): "H 60.0-100.0 MeV, HET"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux1_SIT (No: 28) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "H 0.320-0.452 MeV, SIT"
+     CATDESC         (CDF_CHAR/35): "Proton Flux 0.320 - 0.452, MeV, SIT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/22): "H 0.320-0.452 MeV, SIT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux2_SIT (No: 29) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H 0.452-0.64 MeV, SIT"
+     CATDESC         (CDF_CHAR/34): "Proton Flux 0.452 - 0.64, MeV, SIT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/21): "H 0.452-0.64 MeV, SIT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux3_SIT (No: 30) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "H 0.640-0.905 MeV, SIT"
+     CATDESC         (CDF_CHAR/35): "Proton Flux 0.640 - 0.905, MeV, SIT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/22): "H 0.640-0.905 MeV, SIT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux4_SIT (No: 31) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "H 0.905-1.280 MeV, SIT"
+     CATDESC         (CDF_CHAR/35): "Proton Flux 0.905 - 1.280, MeV, SIT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/22): "H 0.905-1.280 MeV, SIT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux5_SIT (No: 32) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H 1.280-1.81 MeV, SIT"
+     CATDESC         (CDF_CHAR/34): "Proton Flux 1.280 - 1.81, MeV, SIT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/21): "H 1.280-1.81 MeV, SIT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux6_SIT (No: 33) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H 1.810-2.56 MeV, SIT"
+     CATDESC         (CDF_CHAR/34): "Proton Flux 1.810 - 2.56, MeV, SIT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/21): "H 1.810-2.56 MeV, SIT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+protonFlux7_SIT (No: 34) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "H 2.560-3.62 MeV, SIT"
+     CATDESC         (CDF_CHAR/34): "Proton Flux 2.560 - 3.62, MeV, SIT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 99998.0
+     UNITS           (CDF_CHAR/21): "1/(cm^2 sec ster MeV)"
+     FORMAT          (CDF_CHAR/5): "e11.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/21): "H 2.560-3.62 MeV, SIT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+

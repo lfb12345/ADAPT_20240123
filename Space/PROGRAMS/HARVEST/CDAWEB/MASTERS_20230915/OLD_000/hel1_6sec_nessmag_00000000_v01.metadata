@@ -1,0 +1,253 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/hel1_6sec_nessmag_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     hel1_6sec_nessmag_00000000_v01.cdf
+Version:      2.7.2
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     10
+NumAttrs:     48 (25 global, 23 variable)
+Compression:  None
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/6): 	"Helios"
+Source_name (1 entry):
+	0 (CDF_CHAR/13): 	"HELIOS>Helios"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/30): 	"6SEC>High Time Resolution 6sec"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"NESSMAG>Magnetometer ness"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"Mariani/Ness"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/70): 	"University of Rome, CNR/Istituto Fisica Interplanetario, and NASA/GSFC"
+TEXT (1 entry):
+	0 (CDF_CHAR/410): 	"This dataset contains high resolution interplanetary magnetic field data in six-second averages as measured by the Helios 1 tri-axial fluxgate magnetometer experiment. Magnetic field vector components in nanotelsa [nT] are given in solar-ecliptic (SE) spacecraft-centered coordinates with one file for each day.  The magnetic field magnitude and standard deviations of the vector components are also included. "
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/6): 	"Helios"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Logical_source (1 entry):
+	0 (CDF_CHAR/17): 	"hel1_6sec_nessmag"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/30): 	"hel1_6sec_nessmag_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/17): 	"HEL1_6SEC_NESSMAG"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/8): 	"6 second"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (0 entry):
+ADID_ref (0 entry):
+Link_text (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/42): 	"spase://NASA/NumericalData/Helios1/E3/PT6S"
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 10 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+spacecraft            CDF_INT2/1	0:[]	T/  
+NumPointsInAverage    CDF_INT2/1	0:[]	T/  
+BXSSE                 CDF_REAL4/1	0:[]	T/  
+BYSSE                 CDF_REAL4/1	0:[]	T/  
+BZSSE                 CDF_REAL4/1	0:[]	T/  
+B                     CDF_REAL4/1	0:[]	T/  
+stdevBXSSE            CDF_REAL4/1	0:[]	T/  
+stdevBYSSE            CDF_REAL4/1	0:[]	T/  
+stdevBZSSE            CDF_REAL4/1	0:[]	T/  
+
+
+Variable (10 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+spacecraft (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Helios number ( 1 or 2)"
+     CATDESC         (CDF_CHAR/23): "Helios number ( 1 or 2)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/2): "i1"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 2.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+NumPointsInAverage (No: 2) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/27): "Number of points in average"
+     CATDESC         (CDF_CHAR/32): "Number of data points in average"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FORMAT          (CDF_CHAR/2): "i2"
+     LABLAXIS        (CDF_CHAR/27): "Number of points in average"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 99.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+BXSSE (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Bx (SSE)"
+     CATDESC         (CDF_CHAR/8): "Bx (SSE)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/8): "Bx (SSE)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+BYSSE (No: 4) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "By (SSE)"
+     CATDESC         (CDF_CHAR/8): "By (SSE)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/8): "By (SSE)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+BZSSE (No: 5) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Bz (SSE)"
+     CATDESC         (CDF_CHAR/8): "Bz (SSE)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     LABLAXIS        (CDF_CHAR/8): "Bz (SSE)"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+B (No: 6) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/1): "B"
+     CATDESC         (CDF_CHAR/27): "B (Field magnitude average)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     LABLAXIS        (CDF_CHAR/1): "B"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+stdevBXSSE (No: 7) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "std dev Bx"
+     CATDESC         (CDF_CHAR/30): "standard deviation of Bx (SSE)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     LABLAXIS        (CDF_CHAR/10): "std dev Bx"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+stdevBYSSE (No: 8) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "std dev By"
+     CATDESC         (CDF_CHAR/30): "standard deviation of By (SSE)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     LABLAXIS        (CDF_CHAR/10): "std dev By"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+stdevBZSSE (No: 9) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "std dev Bz"
+     CATDESC         (CDF_CHAR/30): "standard deviation of Bz (SSE)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     LABLAXIS        (CDF_CHAR/10): "std dev Bz"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+

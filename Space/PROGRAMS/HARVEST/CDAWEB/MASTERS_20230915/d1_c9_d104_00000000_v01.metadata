@@ -1,0 +1,279 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/d1_c9_d104_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     d1_c9_d104_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     9
+NumAttrs:     48 (27 global, 21 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"DE-1; RIMS H+ and He+; 1 min; CDAW-9              "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"DE-1      "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"RIMS      "
+TIMERES  (1 entry):
+	0 (CDF_CHAR/10): 	"1 min     "
+TEXT (3 entries):
+	0 (CDF_CHAR/30): 	"Derived from D104 in CDAW9 DB."
+	1 (CDF_CHAR/37): 	"Data only for CDAW9 events A,B and D."
+	2 (CDF_CHAR/268): 	"One-minute averages of H+ and He+ ion counts are presented in 5 degree wide bins covering a full spin.  The pitch angle variable gives the center spin angle of the bin, with 0 deg in the direction of the spacecraft velocity.  Times are at the start of the interval.   "
+MODS (1 entry):
+	0 (CDF_CHAR/102): 	"Converted to CDAWeb Feb 2000                                                                          "
+Data_type (1 entry):
+	0 (CDF_CHAR/11): 	"C9>CDAW9 DB"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/22): 	"D1>Dynamics Explorer 1"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"P. Craven"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/44): 	"D104>RIMS H+,He+ Counts in 5deg bins @ 1 min"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/25): 	"P. Craven and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (3 entries):
+	0 (CDF_CHAR/17): 	"Dynamics Explorer"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Time_resolution (1 entry):
+	0 (CDF_CHAR/5): 	"1 min"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"d1_c9_d104"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"d1_c9_d104_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/53): 	"DE-1 RIMS H+,He+ Counts in 5deg bins @ 1 min CDAW9 DB"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/2): 	"DE"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+DISPLAY_TYPE
+DEPEND_0
+VAR_NOTES
+DICT_KEY
+FILLVAL
+DEPEND_1
+LABLAXIS
+
+Variable Information (0 rVariable, 9 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+D104HCNT              CDF_REAL4/1	1:[72]	T/T
+D104HECT              CDF_REAL4/1	1:[72]	T/T
+D104PANG              CDF_REAL4/1	1:[72]	F/T
+D104L                 CDF_REAL4/1	0:[]	T/  
+D104MLAT              CDF_REAL4/1	0:[]	T/  
+D104LT                CDF_REAL4/1	0:[]	T/  
+D104RADI              CDF_REAL4/1	0:[]	T/  
+D104VEL               CDF_REAL4/1	0:[]	T/  
+
+
+Variable (9 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+
+D104HCNT (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "H+ Counts           "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.9073
+     SCALEMIN        (CDF_REAL8/1): 0.01
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "counts              "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/71): "H+ Particle Counts as function of 72 pitch angles     TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_1        (CDF_CHAR/8): "D104PANG"
+     LABLAXIS        (CDF_CHAR/6): "H+ Cts"
+
+D104HECT (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "He+ Counts          "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.9073
+     SCALEMIN        (CDF_REAL8/1): 0.01
+     SCALEMAX        (CDF_REAL8/1): 100.0
+     UNITS           (CDF_CHAR/20): "counts              "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/67): "He+ Particle Counts as function of pitch angle    TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_1        (CDF_CHAR/8): "D104PANG"
+     LABLAXIS        (CDF_CHAR/8): "He+ Cnts"
+
+D104PANG (No: 3) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Pitch Angle Value   "
+     VALIDMIN        (CDF_REAL4/1): -3.60156
+     VALIDMAX        (CDF_REAL4/1): 3.85156
+     SCALEMIN        (CDF_REAL8/1): -180.0
+     SCALEMAX        (CDF_REAL8/1): 180.0
+     UNITS           (CDF_CHAR/20): "deg                 "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "Pitch angle value      fT               "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Pitch Angle"
+
+D104L    (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "L-value             "
+     VALIDMIN        (CDF_REAL4/1): 1.875
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 30.0
+     UNITS           (CDF_CHAR/20): "                    "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "McIlwain L-parameter   Tf               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "DE1 L-value"
+
+D104MLAT (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Invariant Mag. Lat. "
+     VALIDMIN        (CDF_REAL4/1): -3.35156
+     VALIDMAX        (CDF_REAL4/1): 3.35156
+     SCALEMIN        (CDF_REAL8/1): -90.0
+     SCALEMAX        (CDF_REAL8/1): 90.0
+     UNITS           (CDF_CHAR/20): "deg                 "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "Invariant Magnetic Lat.Tf               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "DE1 Inv MagLat"
+
+D104LT   (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Local Time          "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.875
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 24.0
+     UNITS           (CDF_CHAR/20): "hrs                 "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "Local Time             Tf               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "DE1 LT"
+
+D104RADI (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Radial Distance     "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 4.47656
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 10.0
+     UNITS           (CDF_CHAR/20): "Re                  "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "Geocen. Radial DistanceTf               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/15): "DE1 Radial Dist"
+
+D104VEL  (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "S/C velocity        "
+     VALIDMIN        (CDF_REAL4/1): 1.45
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 10.0
+     UNITS           (CDF_CHAR/20): "km/sec              "
+     FORMAT          (CDF_CHAR/8): "F8.3    "
+     CATDESC         (CDF_CHAR/40): "Spacecraft Velocity    Tf               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/16): "DE1 s/c velocity"
+

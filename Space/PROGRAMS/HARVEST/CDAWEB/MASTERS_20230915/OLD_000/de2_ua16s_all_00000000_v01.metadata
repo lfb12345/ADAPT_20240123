@@ -1,0 +1,588 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/de2_ua16s_all_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     de2_ua16s_all_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     30
+NumAttrs:     44 (18 global, 26 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (18 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/64): 	"DE-2 UA 16-sec combined neutral and plasma unified abstract data"
+Project (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/20): 	"DE>Dynamics Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/54): 	"Space Physics>Magnetospheric  Ionospheric Interactions"
+Descriptor (1 entry):
+	0 (CDF_CHAR/33): 	"UA16S> Unified abstract 16 second"
+Data_type (1 entry):
+	0 (CDF_CHAR/30): 	"ALL> all instruments combined "
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Text (2 entries):
+	0 (CDF_CHAR/1666): 	"This data set was generated at NSSDC from the DE-2 Unified Abstract (UA) data and the DE-2 orbit/attitude data base and software. The daily UA files contain 16 second averages from the NACS, WATS, LANG, FPI and RPA/IDM instruments for the whole DE-2 mission period.  The PI-provided data in VAX/VMS binary format were converted to ASCII format and the most important orbit parameters were added using the a/o data base and software provided by the DE project team. Subsetting, plotting, and downloading (in ASCII format) capabilities for these data are provided through the ATMOWeb interface at https://nssdc.gsfc.nasa.gov/atmoweb/The ASCII are are also available from here: https://spdf.gsfc.nasa.gov/pub/data/de/de2/ Each UA record contains the following data: N2, O, He, Ar, and N densities [cm-3] from the Neutral Atmosphere Composition Spectrometer (NACS), neutral temperature [K], eastward and upward neutral wind [m/s] from the Wind and Temperature Spectrometer (WATS), plasma density [cm-3] and electron temperature [K] from the Langmuir Probe experiment (LANG), wavelength [A], tangent altitude [km], northward neutral wind [m/s], neutral temperature [K], and intensity [Raleighs], from the Fabry Interferometer (FPI), ion temperature [K], total ion density [cm-3], eastward, northward, and upward ion drift [m/s] from the Retarding Potential Analyzer/Ion Drift Meter (RPA/IDM). The IDM data entry is the revised version of June 1994. Also included are the latitude, longitude, altitude, local time and other orbit parameters. Higher time resolution data are available from NSSDC for the individual experiments at https://spdf.gsfc.nasa.gov/pub/data/de/de2/"
+	1 (CDF_CHAR/925): 	"This investigation used data from several spacecraft instruments to study the large-scale neutral-plasma interactions in the thermosphere caused by magnetospheric-ionospheric and thermospheric coupling processes. Planned use of the models is to provide a theoretical framework in which certain important ionospheric and atmospheric properties needed for coupling processes (such as the Pedersen and Hall conductivities) were consistently calculated using satellite data measured at a given height. Planned examples are (1) to calculate vertical profiles of ionospheric properties that were useful for comparison with incoherent scatter radar measurements and other ground-based supporting data, (2) to identify and evaluate the neutral thermospheric heat and momentum sources, and (3) to determine the effectiveness of high-latitude dynamic processes in controlling the global thermospheric circulation and thermal structure."
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0241"
+Logical_source (1 entry):
+	0 (CDF_CHAR/13): 	"de2_ua16s_all"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/26): 	"de2_ua16s_all_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/62): 	"16-sec combined neutral  and plasma unified abstract (UA) data"
+PI_name (1 entry):
+	0 (CDF_CHAR/18): 	"Mr. Larry H. Brace"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA/GSFC"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"SPIO-00137"
+Mission_group (3 entries):
+	0 (CDF_CHAR/17): 	"Dynamics Explorer"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/36): 	"spase://NASA/NumericalData/DE2/PT16S"
+
+Variable Attributes (26 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+MONOTON
+FILLVAL
+CATDESC
+VAR_TYPE
+DICT_KEY
+UNIT_PTR
+LABL_PTR_1
+LABL_PTR_2
+FORM_PTR
+LABLAXIS
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCALETYP
+
+Variable Information (0 rVariable, 30 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+OrbitNumber           CDF_INT4/1	0:[]	T/  
+NACS_N2density        CDF_REAL4/1	0:[]	T/  
+NACS_Odensity         CDF_REAL4/1	0:[]	T/  
+NACS_HEdensity        CDF_REAL4/1	0:[]	T/  
+NACS_ARdensity        CDF_REAL4/1	0:[]	T/  
+NACS_Ndensity         CDF_REAL4/1	0:[]	T/  
+WATS_TNneutralTemperature CDF_REAL4/1	0:[]	T/  
+WATS_NVEneutralWind   CDF_REAL4/1	0:[]	T/  
+WATS_NVUneutralWind   CDF_REAL4/1	0:[]	T/  
+LANG_NPplasmaDensity  CDF_REAL4/1	0:[]	T/  
+LANG_TEelectronTemp   CDF_REAL4/1	0:[]	T/  
+FPI_FWAVwavelength    CDF_REAL4/1	0:[]	T/  
+FPI_FALTtangentAlt    CDF_REAL4/1	0:[]	T/  
+FPI_FVNneutralwind    CDF_REAL4/1	0:[]	T/  
+FPI_FTEMneutralTemp   CDF_REAL4/1	0:[]	T/  
+FPI_RAYintensity      CDF_REAL4/1	0:[]	T/  
+RPA_TIionTemp         CDF_REAL4/1	0:[]	T/  
+RPA_NIionDensity      CDF_REAL4/1	0:[]	T/  
+RPA_IVEionDrift       CDF_REAL4/1	0:[]	T/  
+RPA_IVNionDrift       CDF_REAL4/1	0:[]	T/  
+RPA_IVUionDrift       CDF_REAL4/1	0:[]	T/  
+alt                   CDF_REAL4/1	0:[]	T/  
+glat                  CDF_REAL4/1	0:[]	T/  
+glon                  CDF_REAL4/1	0:[]	T/  
+lst                   CDF_REAL4/1	0:[]	T/  
+lmt                   CDF_REAL4/1	0:[]	T/  
+L                     CDF_REAL4/1	0:[]	T/  
+ilat                  CDF_REAL4/1	0:[]	T/  
+sza                   CDF_REAL4/1	0:[]	T/  
+
+
+Variable (30 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Time since 0 A.D."
+     VALIDMIN        (CDF_EPOCH/1): 15-Sep-1981 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 18-Feb-1991 23:59:59.999
+     SCALEMIN        (CDF_EPOCH/1): 16-Sep-1981 05:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 18-Feb-1991 10:00:00.000
+     UNITS           (CDF_CHAR/8): "ms (UT) "
+     FORMAT          (CDF_CHAR/8): "F14.0   "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 01-Jan-0000 00:00:00.000
+     CATDESC         (CDF_CHAR/37): "NSSDC standard-reference time value. "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     AVG_TYPE        (CDF_CHAR/8): "standard"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+OrbitNumber (No: 1) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Orbit Number"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 999999
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i6"
+     FILLVAL         (CDF_INT4/1): -9
+     CATDESC         (CDF_CHAR/12): "Orbit Number"
+     VAR_TYPE        (CDF_UCHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/7): "Orbit #"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+NACS_N2density (No: 2) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "NACS N2 den"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/23): "NACS N2 density in cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/14): "NACS N2 dens. "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+NACS_Odensity (No: 3) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "NACS O den"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/22): "NACS O density in cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/12): "NACS O dens."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+NACS_HEdensity (No: 4) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "NACS He den"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/23): "NACS He density in cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "NACS He dens."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+NACS_ARdensity (No: 5) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "NACS Ar den"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/15): "NACS Ar density"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "NACS Ar dens."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+NACS_Ndensity (No: 6) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "NACS N den"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/22): "NACS N density in cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/12): "NACS N dens."
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+WATS_TNneutralTemperature (No: 7) (Recs: 0)
+-------------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "WATS TN temp"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/1): "K"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/34): "WATS Neutral temperature in Kelvin"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/7): "WATS Tn"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+WATS_NVEneutralWind (No: 8) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "WATS NVE wind"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/3): "m/s"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/33): "WATS Eastward neutral wind in m/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/15): "WATS w_eastward"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+WATS_NVUneutralWind (No: 9) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "WATS NVU wind"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/3): "m/s"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/31): "WATS Upward neutral wind in m/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "WATS w_upward"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+LANG_NPplasmaDensity (No: 10) (Recs: 0)
+--------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "LANG NP den"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/5): "e12.5"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/28): "LANG Plasma density in cm-3 "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/7): "LANG Np"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+LANG_TEelectronTemp (No: 11) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "LANG TE temp"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     UNITS           (CDF_CHAR/1): "K"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/35): "LANG Electron temperature in Kelvin"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/7): "LANG Te"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+FPI_FWAVwavelength (No: 12) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "FPI FWAV"
+     VALIDMIN        (CDF_REAL4/1): 1000.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/8): "Angstrom"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/26): "FPI Wavelength in Angstrom"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/14): "FPI wavelength"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+FPI_FALTtangentAlt (No: 13) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "FPI tangent alt"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/26): "FPI tangent altitude in km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "FPI h_tangent"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+FPI_FVNneutralwind (No: 14) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "FPI northw wind"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/3): "m/s"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/33): "FPI Northward neutral wind in m/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/11): "FPI w_north"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+FPI_FTEMneutralTemp (No: 15) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "FPI neutral temp"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 5000.0
+     UNITS           (CDF_CHAR/1): "K"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/33): "FPI Neutral temperature in Kelvin"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/6): "FPI Tn"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+FPI_RAYintensity (No: 16) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "FPI RAY"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     UNITS           (CDF_CHAR/8): "Raleighs"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/25): "FPI Intensity in Raleighs"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/13): "FPI Intensity"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+RPA_TIionTemp (No: 17) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "RPA Ion temp"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 5000.0
+     UNITS           (CDF_CHAR/1): "K"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/29): "RPA Ion temperature in Kelvin"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/6): "RPA Ti"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+RPA_NIionDensity (No: 18) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "RPA ion density"
+     VALIDMIN        (CDF_REAL4/1): 0.01
+     VALIDMAX        (CDF_REAL4/1): 1.0e+08
+     UNITS           (CDF_CHAR/4): "cm-3"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/29): "RPA total ion density in cm-3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/6): "RPA Ni"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+     SCALETYP        (CDF_CHAR/3): "log"
+
+RPA_IVEionDrift (No: 19) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "RPA eastw ion drift"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/3): "m/s"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/29): "RPA Eastward ion drift in m/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/14): "RPA v_ion_east"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+RPA_IVNionDrift (No: 20) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "RPA northw ion drift"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/3): "m/s"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/30): "RPA Northward ion drift in m/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/15): "RPA v_ion_north"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+RPA_IVUionDrift (No: 21) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "RPA upward ion drift"
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/3): "m/s"
+     FORMAT          (CDF_CHAR/5): "e13.6"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/20): "RPA Upward ion drift"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/12): "RPA v_ion_up"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+alt (No: 22) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Altitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 80000.0
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     CATDESC         (CDF_CHAR/14): "Altitude in km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/8): "Altitude"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+glat (No: 23) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Geographic Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     CATDESC         (CDF_CHAR/30): "Geographic Latitude in degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/8): "Geog Lat"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+glon (No: 24) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geographic Longitude"
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     CATDESC         (CDF_CHAR/31): "Geographic Longitude in degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/9): "Geog Long"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+lst (No: 25) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "LST"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     UNITS           (CDF_CHAR/2): "hr"
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     CATDESC         (CDF_CHAR/31): "Local Solar Time (LST) in hours"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/3): "LST"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+lmt (No: 26) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "LMT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     UNITS           (CDF_CHAR/2): "hr"
+     FORMAT          (CDF_CHAR/4): "f5.2"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     CATDESC         (CDF_CHAR/34): "Local Magnetic Time (LMT) in hours"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/3): "LMT"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+L (No: 27) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "McIllwain L value"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     CATDESC         (CDF_CHAR/17): "McIllwain L value"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/7): "L value"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+ilat (No: 28) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Invariant Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     CATDESC         (CDF_CHAR/29): "Invariant latitude in degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/7): "Inv Lat"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+
+sza (No: 29) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "SZA"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "deg"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     FILLVAL         (CDF_REAL4/1): -999.0
+     CATDESC         (CDF_CHAR/35): "Solar Zenith Angle (SZA) in degrees"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABLAXIS        (CDF_CHAR/3): "SZA"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/12): "time_series "
+

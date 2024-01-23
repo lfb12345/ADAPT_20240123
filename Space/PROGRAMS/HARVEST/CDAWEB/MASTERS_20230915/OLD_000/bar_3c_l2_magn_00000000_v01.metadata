@@ -1,0 +1,222 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/bar_3c_l2_magn_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     bar_3c_l2_magn_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     ROW
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     39 (22 global, 17 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     0
+
+Global Attributes (22 attributes)
+=========================================
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/26): 	"source_datatype_descriptor"
+Data_type (1 entry):
+	0 (CDF_CHAR/10): 	"l2>Level-2"
+PI_name (1 entry):
+	0 (CDF_CHAR/12): 	"Robyn Millan"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/17): 	"Dartmouth College"
+Mission_group (1 entry):
+	0 (CDF_CHAR/8): 	"Balloons"
+Project (1 entry):
+	0 (CDF_CHAR/29): 	"LWS>Living With a Star>BARREL"
+Source_name (1 entry):
+	0 (CDF_CHAR/6): 	"bar_3C"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/41): 	"http://barreldata.ucsc.edu/data_products/"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/22): 	"BARREL Data Repository"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/86): 	"Access to all releases of BARREL data and links to the Science Operation Center tools."
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (1 entry):
+	0 (CDF_CHAR/20): 	"BARREL CDF Generator"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/253): 	"BARREL will make all its scientific data products quickly and publicly available but all users are expected to read and follow the "BARREL Mission Data Usage Policy" which can be found here: http://www.dartmouth.edu/~barrel/documents/data.use.policy.pdf"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/15): 	"MAG X, Y, and Z"
+TEXT (1 entry):
+	0 (CDF_CHAR/100): 	"Three axis magnetometer reading with nominal conversion. Data are neither gain corrected nor despun."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/25): 	"Magnetic Fields (Balloon)"
+Descriptor (1 entry):
+	0 (CDF_CHAR/17): 	"MAGN>Magnetometer"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/3): 	"4Hz"
+Logical_source (1 entry):
+	0 (CDF_CHAR/14): 	"bar_3C_l2_magn"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (17 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_TYPE
+UNITS
+SCALETYP
+VALIDMIN
+VALIDMAX
+FILLVAL
+LABLAXIS
+MONOTON
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+DEPEND_0
+FORMAT
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+Epoch                 CDF_TT2000/1	0:[]	T/  
+FrameGroup            CDF_UINT4/1	0:[]	T/  
+Quality               CDF_UINT4/1	0:[]	T/  
+MAG_X_uncalibrated    CDF_FLOAT/1	0:[]	T/  
+MAG_Y_uncalibrated    CDF_FLOAT/1	0:[]	T/  
+MAG_Z_uncalibrated    CDF_FLOAT/1	0:[]	T/  
+Total                 CDF_FLOAT/1	0:[]	T/  
+
+
+Variable (7 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/2): "ns"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_TT2000/1): 2009-09-19T00:00:05.978849280
+     VALIDMAX        (CDF_TT2000/1): 2019-10-15T09:04:54.724999936
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/5): "J2000"
+     TIME_SCALE      (CDF_CHAR/16): "Terrestrial Time"
+     REFERENCE_POSITION (CDF_CHAR/20): "Rotation Earth Geoid"
+
+FrameGroup (No: 1) (Recs: 0) (Compression: GZIP.6)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "FrameGroup"
+     CATDESC         (CDF_CHAR/17): "DPU Frame Counter"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     UNITS           (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967294
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/5): "Frame"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I10"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Quality (No: 2) (Recs: 0) (Compression: GZIP.6)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "Quality"
+     CATDESC         (CDF_CHAR/17): "Data Quality Flag"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/17): "0 means no issues"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 4294967294
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     LABLAXIS        (CDF_CHAR/1): "Q"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "I10"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/145): "32bit flag used to indicate data quality. Bit 0 = Low altitude (below 20km); Bit 1 = No GPS; Bit 2 = External ephemeris used; Bit 3 = Gain shift."
+
+MAG_X_uncalibrated (No: 3) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "MAG_X_uncalibrated"
+     CATDESC         (CDF_CHAR/40): "X axis of magnetic field. *Uncalibrated*"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/2): "uT"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "B_X"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/96): "Calculated as (raw_value - 8388608) / 83886.070. Contains fluctuations due to payload rotations."
+
+MAG_Y_uncalibrated (No: 4) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "MAG_Y_uncalibrated"
+     CATDESC         (CDF_CHAR/40): "Y axis of magnetic field. *Uncalibrated*"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/2): "uT"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "B_Y"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/96): "Calculated as (raw_value - 8388608) / 83886.070. Contains fluctuations due to payload rotations."
+
+MAG_Z_uncalibrated (No: 5) (Recs: 0) (Compression: GZIP.6)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "MAG_Z_uncalibrated"
+     CATDESC         (CDF_CHAR/40): "Z axis of magnetic field. *Uncalibrated*"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/2): "uT"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "B_Z"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/96): "Calculated as (raw_value - 8388608) / 83886.070. Contains fluctuations due to payload rotations."
+
+Total (No: 6) (Recs: 0) (Compression: GZIP.6)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Total"
+     CATDESC         (CDF_CHAR/43): "Magnitude of magnetic field. *Uncalibrated*"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     UNITS           (CDF_CHAR/2): "uT"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "B_total"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "F8.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/121): "Bt = sqrt(Bx^2 + By^2 + Bz^2). Value has variations due to payload rotations and Bx, By, and Bz not being gain corrected."
+

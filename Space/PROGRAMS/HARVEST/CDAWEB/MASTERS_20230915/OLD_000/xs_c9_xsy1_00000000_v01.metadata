@@ -1,0 +1,201 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/xs_c9_xsy1_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     xs_c9_xsy1_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     5
+NumAttrs:     47 (26 global, 21 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"Syowa Scanning Riometer, N-S and E-W, Event 9A    "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"Syowa     "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"Riometer  "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"20 S      "
+TEXT (3 entries):
+	0 (CDF_CHAR/30): 	"Derived from CC01 in CDAW9 DB."
+	1 (CDF_CHAR/30): 	"Data for all CDAW9 events A-E."
+	2 (CDF_CHAR/77): 	"Narrow beam steps through 11 points in N-S plane and 11 points in E-W plane. "
+Descriptor (1 entry):
+	0 (CDF_CHAR/56): 	"XSY1> Syowa Scanning Riometer, N-S and E-W, Event 9A    "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>cdaw9"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/8): 	"XS>Syowa"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"Yamagishi"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/25): 	"Yamagishi and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/47): 	"Ground-Based Magnetometers, Riometers, Sounders"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/28): 	"Converted to CDAWeb Feb 2000"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"xs_c9_xsy1"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"xs_c9_xsy1_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/60): 	"Xs  Syowa Scanning Riometer, N-S and E-W, Event 9A     cdaw9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_1
+
+Variable Information (0 rVariable, 5 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+XSY1VNS               CDF_INT2/1	1:[11]	T/T
+XSY1VEW               CDF_INT2/1	1:[11]	T/T
+XSY1ZENA              CDF_REAL4/1	1:[11]	F/T
+XSY1CNTR              CDF_INT4/1	0:[]	T/  
+
+
+Variable (5 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1986 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "time"
+
+XSY1VNS  (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Syowa Riom, N-S Scan"
+     VALIDMIN        (CDF_INT2/1): -16161
+     VALIDMAX        (CDF_INT2/1): 16607
+     SCALEMIN        (CDF_REAL8/1): -1000.0
+     SCALEMAX        (CDF_REAL8/1): 2000.0
+     UNITS           (CDF_CHAR/20): "Signal Units        "
+     FORMAT          (CDF_CHAR/8): "I6      "
+     CATDESC         (CDF_CHAR/40): "Syowa Riom, N-S scan  T-                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/14): "Syowa N/S Scan"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XSY1ZENA"
+
+XSY1VEW  (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Syowa Riom, E-W Scan"
+     VALIDMIN        (CDF_INT2/1): -16161
+     VALIDMAX        (CDF_INT2/1): 16607
+     SCALEMIN        (CDF_REAL8/1): -1000.0
+     SCALEMAX        (CDF_REAL8/1): 2000.0
+     UNITS           (CDF_CHAR/20): "Signal Units        "
+     FORMAT          (CDF_CHAR/8): "I6      "
+     CATDESC         (CDF_CHAR/40): "Syowa Riom, E-W scan  T-                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/13): "Syowa EW Scan"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XSY1ZENA"
+
+XSY1ZENA (No: 3) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Zenith Angle        "
+     VALIDMIN        (CDF_REAL4/1): -2.96875
+     VALIDMAX        (CDF_REAL4/1): 2.96875
+     SCALEMIN        (CDF_REAL8/1): -30.0
+     SCALEMAX        (CDF_REAL8/1): 30.0
+     UNITS           (CDF_CHAR/20): "Degrees             "
+     FORMAT          (CDF_CHAR/8): "F4.0    "
+     CATDESC         (CDF_CHAR/40): "Positive is N or E    T-                "
+     MONOTON         (CDF_CHAR/8): "Increase"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Zenith Angle"
+
+XSY1CNTR (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Scan Counter        "
+     VALIDMIN        (CDF_INT4/1): 1072693248
+     VALIDMAX        (CDF_INT4/1): 1084654080
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 2881.0
+     UNITS           (CDF_CHAR/20): "                    "
+     FORMAT          (CDF_CHAR/8): "I4      "
+     CATDESC         (CDF_CHAR/40): "Scan counter, (for use with animation)  "
+     MONOTON         (CDF_CHAR/8): "Increase"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/12): "Scan Counter"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+

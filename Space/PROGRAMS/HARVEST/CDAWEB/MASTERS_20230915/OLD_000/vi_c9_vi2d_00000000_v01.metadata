@@ -1,0 +1,145 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/vi_c9_vi2d_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     vi_c9_vi2d_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     2
+NumAttrs:     46 (26 global, 20 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"CDAW-9A; Viking; V4H-RS; Electron density; 2min;  "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"Viking    "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"V4H-RS    "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"2 min     "
+MODS (1 entry):
+	0 (CDF_CHAR/80): 	"Converted to CDAWeb Feb 2000                                                    "
+TEXT (4 entries):
+	0 (CDF_CHAR/30): 	"Derived from CC01 in CDAW9 DB."
+	1 (CDF_CHAR/27): 	"Data for CDAW9 events A,C,E"
+	2 (CDF_CHAR/78): 	"Electron density obtained with relaxation sounder of HF instrument cluster    "
+	3 (CDF_CHAR/138): 	"Depending on the orbit, the time resolutio is 72 seconds or 2 minutes.For Event A, it is 2 minutes; for Events C and E, it is 72 seconds. "
+Descriptor (1 entry):
+	0 (CDF_CHAR/48): 	"VI2D>  Viking; V4H-RS; Electron density; 2min;  "
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>CDAW9"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"VI>Viking"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/7): 	"Perrauz"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/23): 	"Perrauz and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"vi_c9_vi2d"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"vi_c9_vi2d_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/52): 	"Vi   Viking; V4H-RS; Electron density; 2min;   CDAW9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/15): 	"Viking (Sweden)"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+
+Variable Information (0 rVariable, 2 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+VI2D_NE               CDF_REAL4/1	0:[]	T/  
+
+
+Variable (2 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+VI2D_NE  (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Electron density    "
+     VALIDMIN        (CDF_REAL4/1): -1.875
+     VALIDMAX        (CDF_REAL4/1): 32.6566
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "cm-3                "
+     FORMAT          (CDF_CHAR/8): "F5.1    "
+     CATDESC         (CDF_CHAR/40): "Electron density in cm-3                "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/12): "Elec Density"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+

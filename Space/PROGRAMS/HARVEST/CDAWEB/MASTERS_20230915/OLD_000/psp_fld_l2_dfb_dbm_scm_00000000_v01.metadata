@@ -1,0 +1,768 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/psp_fld_l2_dfb_dbm_scm_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     psp_fld_l2_dfb_dbm_scm_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     40
+NumAttrs:     43 (25 global, 18 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/41): 	"PSP FIELDS DFB Search Coil Burst Waveform"
+Project (1 entry):
+	0 (CDF_CHAR/3): 	"PSP"
+Discipline (2 entries):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+	1 (CDF_CHAR/36): 	"Solar Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/33): 	"PSP_FLD>Parker Solar Probe FIELDS"
+Descriptor (1 entry):
+	0 (CDF_CHAR/59): 	"DFB_DBM_SCM>Digital Fields Board Search Coil Burst Waveform"
+Data_type (1 entry):
+	0 (CDF_CHAR/15): 	"L2>Level 2 Data"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TEXT (11 entries):
+	0 (CDF_CHAR/57): 	"PSP FIELDS Digital Fields Board (DFB), Search Coil data. "
+	1 (CDF_CHAR/213): 	"The DFB is the low frequency (< 75 kHz) component of the FIELDS experiment on the Parker Solar Probe spacecraft [1]. For a full description of the FIELDS experiment, see [2]. For a description of the DFB, see [3]."
+	2 (CDF_CHAR/386): 	"DFB burst waveform data consist of short bursts of time-series data from various FIELDS sensors. These data have been filtered by both analog and digital filters [3]. These data are pre-sorted by on-board competitive selection algorithms described in [3] before storage by FIELDS. A sub-set of this stored burst data is telemetered to Earth for scientist-selected regions of interest.  "
+	3 (CDF_CHAR/263): 	"The Level 2 data products contained in this data file have been calibrated for (i) DFB in-band gain, (ii) DFB analog filter gain/phase response, (iii) DFB digital filter phase response, and (iv) the search coil preamplifier gain/phase response (when applicable). "
+	4 (CDF_CHAR/459): 	"Calibrations for the FIELDS voltage sensor preamplifiers have not been implemented, as the preamplifier response is flat and equal to 1 through the DFB frequency range.  Corrections for plasma sheath impedance gain and antenna effective length have not been applied to the voltage sensor data (these corrections will be applied in Level 3 DFB data), therefore units for all voltage sensor quantities are Volts.  Units for all magnetic field quantities are nT."
+	5 (CDF_CHAR/168): 	"The Level 2 data products contained in this data file are in sensor coordinates (e.g. dV12, dV34 for voltage measurements, and u,v,w for the search coil magnetometer). "
+	6 (CDF_CHAR/321): 	"Time resolution for the DFB burst waveform data can vary by multiples of 2^N.  During encounter (when PSP is within 0.25 AU of the Sun), cadence for the DFB burst waveform data is typically 150,000 samples/second.  This rate is the sample rate of the ADC, and data taken at this rate do not pass through a digital filter."
+	7 (CDF_CHAR/12): 	"References: "
+	8 (CDF_CHAR/113): 	"1. Fox, N.J., Velli, M.C., Bale, S.D. et al. Space Sci Rev (2016) 204: 7. https://doi.org/10.1007/s1121401502116 "
+	9 (CDF_CHAR/115): 	"2. Bale, S.D., Goetz, K., Harvey, P.R. et al. Space Sci Rev (2016) 204: 49. https://doi.org/10.1007/s1121401602445 "
+	10 (CDF_CHAR/129): 	"3. Malaspina, D.M., Ergun, R.E., Bolton, M. et al. (2016) JGR Space Physics, 121, 5088-5096. https://doi.org/10.1002/2016JA022344"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"psp_fld_l2_dfb_dbm_scm"
+Logical_source (1 entry):
+	0 (CDF_CHAR/22): 	"psp_fld_l2_dfb_dbm_scm"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/54): 	"PSP FIELDS Level 2 DFB Search Coil Burst Waveform Data"
+PI_name (1 entry):
+	0 (CDF_CHAR/38): 	"Stuart D. Bale (bale@ssl.berkeley.edu)"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/37): 	"UC Berkeley Space Sciences Laboratory"
+Mission_group (1 entry):
+	0 (CDF_CHAR/24): 	"Parker Solar Probe (PSP)"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Dependencies (1 entry):
+	0 (CDF_CHAR/4): 	"None"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/36): 	"http://fields.ssl.berkeley.edu/data/"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/14): 	"PSP/FIELDS SOC"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/10): 	" Data Link"
+svn_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/93): 	"spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/AC/BurstMemory/SCM/PT0.0068267S"
+
+Variable Attributes (18 attributes)
+=========================================
+CATDESC
+COORDINATE_SYSTEM
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABL_PTR_1
+LABLAXIS
+UNITS
+VALIDMIN
+SCALEMAX
+SCALEMIN
+VALIDMAX
+VAR_TYPE
+VAR_NOTES
+MONOTON
+
+Variable Information (0 rVariable, 40 zVariables)
+===========================================================
+epoch_psp_fld_l2_dfb_dbm_scmlg CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlg_sample_rate CDF_DOUBLE/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlg_time_series_TT2000 CDF_TT2000/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmlg_time_series_seconds CDF_DOUBLE/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmlgu CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmlgu_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgu_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgu_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgu_median CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgv CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmlgv_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgv_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgv_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgv_median CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgw CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmlgw_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgw_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgw_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmlgw_median CDF_FLOAT/1	0:[]	T/  
+epoch_psp_fld_l2_dfb_dbm_scmhg CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhg_sample_rate CDF_DOUBLE/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhg_time_series_TT2000 CDF_TT2000/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmhg_time_series_seconds CDF_DOUBLE/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmhgu CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmhgu_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgu_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgu_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgu_median CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgv CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmhgv_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgv_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgv_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgv_median CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgw CDF_FLOAT/1	1:[524288]	T/T
+psp_fld_l2_dfb_dbm_scmhgw_rms CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgw_max CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgw_min CDF_FLOAT/1	0:[]	T/  
+psp_fld_l2_dfb_dbm_scmhgw_median CDF_FLOAT/1	0:[]	T/  
+epoch_quality_flags   CDF_TT2000/1	0:[]	T/  
+psp_fld_l2_quality_flags CDF_UINT4/1	0:[]	T/  
+
+
+Variable (40 variables)
+=========================================
+
+epoch_psp_fld_l2_dfb_dbm_scmlg (No: 0) (Recs: 0)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "Time of first data point for L2 AC Burst Search Coil"
+     FIELDNAM        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2018-08-13T18:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2018-08-13T12:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_dbm_scmlg_sample_rate (No: 1) (Recs: 0) (Compression: GZIP.6)
+------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "Sample rate for L2 AC Burst Search Coil"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/36): "psp_fld_l2_dfb_dbm_scmlg_sample_rate"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     UNITS           (CDF_CHAR/9): "Samples/s"
+     VALIDMIN        (CDF_DOUBLE/1): 292.969
+     VALIDMAX        (CDF_DOUBLE/1): 150000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_dbm_scmlg_time_series_TT2000 (No: 2) (Recs: 0) (Compression: GZIP.6)
+-------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "[List/Create only in CDAWeb] L2 AC Burst Search Coil Waveform Time in TT2000"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/43): "psp_fld_l2_dfb_dbm_scmlg_time_series_TT2000"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2018-08-13T18:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2018-08-13T12:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmlg_time_series_seconds (No: 3) (Recs: 0) (Compression: GZIP.6)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/106): "[List/Create only in CDAWeb] L2 AC Burst Search Coil Waveform Time in Seconds (relative to start of burst)"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DEPEND_1        (CDF_CHAR/43): "psp_fld_l2_dfb_dbm_scmlg_time_series_TT2000"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/44): "psp_fld_l2_dfb_dbm_scmlg_time_series_seconds"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F16.8"
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/1): "s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1789.57
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmlgu (No: 4) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "[List/Create only in CDAWeb] L2 AC Burst Search Coil from Bu axis"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DEPEND_1        (CDF_CHAR/44): "psp_fld_l2_dfb_dbm_scmlg_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_scmu"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/26): "Burst Waveform fromBu axis"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmlgu_rms (No: 5) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 AC Low Gain Burst Search Coil from Bu axis rms value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmlgu_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "lgu_rms"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgu_max (No: 6) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 AC Low Gain Burst Search Coil from Bu axis max value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmlgu_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "lgu_max"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgu_min (No: 7) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 AC Low Gain Burst Search Coil from Bu axis min value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmlgu_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "lgu_min"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgu_median (No: 8) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "L2 AC Low Gain Burst Search Coil from Bu axis median value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "psp_fld_l2_dfb_dbm_scmlgu_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/10): "lgu_median"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgv (No: 9) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "[List/Create only in CDAWeb] L2 AC Burst Search Coil from Bv axis"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DEPEND_1        (CDF_CHAR/44): "psp_fld_l2_dfb_dbm_scmlg_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_scmv"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/26): "Burst Waveform fromBv axis"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmlgv_rms (No: 10) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 AC Low Gain Burst Search Coil from Bv axis rms value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmlgv_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "lgv_rms"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgv_max (No: 11) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 AC Low Gain Burst Search Coil from Bv axis max value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmlgv_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "lgv_max"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgv_min (No: 12) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 AC Low Gain Burst Search Coil from Bv axis min value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmlgv_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "lgv_min"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgv_median (No: 13) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "L2 AC Low Gain Burst Search Coil from Bv axis median value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "psp_fld_l2_dfb_dbm_scmlgv_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/10): "lgv_median"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgw (No: 14) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "[List/Create only in CDAWeb] L2 AC Burst Search Coil from Bw axis"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DEPEND_1        (CDF_CHAR/44): "psp_fld_l2_dfb_dbm_scmlg_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_scmw"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/26): "Burst Waveform fromBw axis"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmlgw_rms (No: 15) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 AC Low Gain Burst Search Coil from Bw axis rms value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmlgw_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "lgw_rms"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgw_max (No: 16) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 AC Low Gain Burst Search Coil from Bw axis max value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmlgw_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "lgw_max"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgw_min (No: 17) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "L2 AC Low Gain Burst Search Coil from Bw axis min value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmlgw_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "lgw_min"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmlgw_median (No: 18) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "L2 AC Low Gain Burst Search Coil from Bw axis median value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmlg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "psp_fld_l2_dfb_dbm_scmlgw_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/10): "lgw_median"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -3000.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+epoch_psp_fld_l2_dfb_dbm_scmhg (No: 19) (Recs: 0)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "Time of first data point for L2 AC Burst Search Coil"
+     FIELDNAM        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2018-08-13T18:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2018-08-13T12:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_dfb_dbm_scmhg_sample_rate (No: 20) (Recs: 0) (Compression: GZIP.6)
+------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "Sample rate for L2 AC Burst Search Coil"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/36): "psp_fld_l2_dfb_dbm_scmhg_sample_rate"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     UNITS           (CDF_CHAR/9): "Samples/s"
+     VALIDMIN        (CDF_DOUBLE/1): 292.969
+     VALIDMAX        (CDF_DOUBLE/1): 150000.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+psp_fld_l2_dfb_dbm_scmhg_time_series_TT2000 (No: 21) (Recs: 0) (Compression: GZIP.6)
+-------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "[List/Create only in CDAWeb] L2 AC Burst Search Coil Waveform Time in TT2000"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/43): "psp_fld_l2_dfb_dbm_scmhg_time_series_TT2000"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2018-08-13T18:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2018-08-13T12:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmhg_time_series_seconds (No: 22) (Recs: 0) (Compression: GZIP.6)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/106): "[List/Create only in CDAWeb] L2 AC Burst Search Coil Waveform Time in Seconds (relative to start of burst)"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DEPEND_1        (CDF_CHAR/43): "psp_fld_l2_dfb_dbm_scmhg_time_series_TT2000"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/44): "psp_fld_l2_dfb_dbm_scmhg_time_series_seconds"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F16.8"
+     LABLAXIS        (CDF_CHAR/4): "Time"
+     UNITS           (CDF_CHAR/1): "s"
+     VALIDMIN        (CDF_DOUBLE/1): 0.0
+     VALIDMAX        (CDF_DOUBLE/1): 1789.57
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmhgu (No: 23) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "[List/Create only in CDAWeb] L2 AC Burst Search Coil from Bu axis"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DEPEND_1        (CDF_CHAR/44): "psp_fld_l2_dfb_dbm_scmhg_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_scmu"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/26): "Burst Waveform fromBu axis"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmhgu_rms (No: 24) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 AC High Gain Burst Search Coil from Bu axis rms value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmhgu_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "hgu_rms"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgu_max (No: 25) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 AC High Gain Burst Search Coil from Bu axis max value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmhgu_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "hgu_max"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgu_min (No: 26) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 AC High Gain Burst Search Coil from Bu axis min value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmhgu_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "hgu_min"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgu_median (No: 27) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "L2 AC High Gain Burst Search Coil from Bu axis median value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "psp_fld_l2_dfb_dbm_scmhgu_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/10): "hgu_median"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgv (No: 28) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "[List/Create only in CDAWeb] L2 AC Burst Search Coil from Bv axis"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DEPEND_1        (CDF_CHAR/44): "psp_fld_l2_dfb_dbm_scmhg_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_scmv"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/26): "Burst Waveform fromBv axis"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmhgv_rms (No: 29) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 AC High Gain Burst Search Coil from Bv axis rms value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmhgv_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "hgv_rms"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgv_max (No: 30) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 AC High Gain Burst Search Coil from Bv axis max value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmhgv_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "hgv_max"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgv_min (No: 31) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 AC High Gain Burst Search Coil from Bv axis min value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmhgv_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "hgv_min"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgv_median (No: 32) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "L2 AC High Gain Burst Search Coil from Bv axis median value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "psp_fld_l2_dfb_dbm_scmhgv_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/10): "hgv_median"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgw (No: 33) (Recs: 0) (Compression: GZIP.6)
+-------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "[List/Create only in CDAWeb] L2 AC Burst Search Coil from Bw axis"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DEPEND_1        (CDF_CHAR/44): "psp_fld_l2_dfb_dbm_scmhg_time_series_seconds"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     FIELDNAM        (CDF_CHAR/23): "psp_fld_l2_dfb_dbm_scmw"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/26): "Burst Waveform fromBw axis"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+
+psp_fld_l2_dfb_dbm_scmhgw_rms (No: 34) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 AC High Gain Burst Search Coil from Bw axis rms value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmhgw_rms"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "hgw_rms"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgw_max (No: 35) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 AC High Gain Burst Search Coil from Bw axis max value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmhgw_max"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "hgw_max"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgw_min (No: 36) (Recs: 0) (Compression: GZIP.6)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "L2 AC High Gain Burst Search Coil from Bw axis min value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/29): "psp_fld_l2_dfb_dbm_scmhgw_min"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/7): "hgw_min"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+psp_fld_l2_dfb_dbm_scmhgw_median (No: 37) (Recs: 0) (Compression: GZIP.6)
+--------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "L2 AC High Gain Burst Search Coil from Bw axis median value"
+     DEPEND_0        (CDF_CHAR/30): "epoch_psp_fld_l2_dfb_dbm_scmhg"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/32): "psp_fld_l2_dfb_dbm_scmhgw_median"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.3"
+     LABLAXIS        (CDF_CHAR/10): "hgw_median"
+     UNITS           (CDF_CHAR/2): "nT"
+     VALIDMIN        (CDF_FLOAT/1): -200.0
+     VALIDMAX        (CDF_FLOAT/1): 200.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+epoch_quality_flags (No: 38) (Recs: 0)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "Time for the FIELDS quality flag"
+     FIELDNAM        (CDF_CHAR/19): "epoch_quality_flags"
+     FILLVAL         (CDF_TT2000/1): 9999-12-31T23:59:59.999999999
+     FORMAT          (CDF_CHAR/3): "I22"
+     LABLAXIS        (CDF_CHAR/5): "epoch"
+     UNITS           (CDF_CHAR/2): "ns"
+     VALIDMIN        (CDF_TT2000/1): 2010-01-01T00:00:00.000000000
+     SCALEMAX        (CDF_TT2000/1): 2018-08-13T18:00:00.000000000
+     SCALEMIN        (CDF_TT2000/1): 2018-08-13T12:00:00.000000000
+     VALIDMAX        (CDF_TT2000/1): 2050-01-01T00:00:00.000000000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+
+psp_fld_l2_quality_flags (No: 39) (Recs: 0) (Compression: GZIP.6)
+------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "FIELDS quality flag"
+     DEPEND_0        (CDF_CHAR/19): "epoch_quality_flags"
+     FIELDNAM        (CDF_CHAR/13): "quality_flags"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     FORMAT          (CDF_CHAR/3): "I10"
+     LABLAXIS        (CDF_CHAR/4): "flag"
+     UNITS           (CDF_CHAR/4): "None"
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 255
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/990): "FIELDS quality flags. This is a bitwise variable, meaning that multiple flags can be set for a single time, by adding flag values. Current flagged values are: 1: FIELDS antenna bias sweep, 2: PSP thruster firing, 4: SCM Calibration, 8: PSP rotations for MAG calibration (MAG rolls), 16: FIELDS MAG calibration sequence, 32: SWEAP SPC in electron mode, 64: PSP Solar limb sensor (SLS) test. 128: PSP spacecraft is off umbra pointing. 256: High frequency noise affecting RFS and TDS receivers. 512: Antennas driven towards the FIELDS power supply rails. A value of zero corresponds to no set flags. Not all flags are relevant to all FIELDS data products, refer to notes in the CDF metadata and on the FIELDS SOC website for information on how the various flags impact FIELDS data. For more information on the quality flags describing high frequency noise and antennas driven to the rails, see release notes for PSP/FIELDS releases 8 and 9. Additional flagged items may be added in the future."
+

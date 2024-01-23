@@ -1,0 +1,377 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/exp35_6sec_mag_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     exp35_6sec_mag_00000000_v01.cdf
+Version:      3.7.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     18
+NumAttrs:     52 (25 global, 27 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"exp35>Explorer 35/Imp-e "
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/23): 	"6sec>6.1 sec Resolution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/16): 	"MAG>Magnetometer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"3"
+PI_name (1 entry):
+	0 (CDF_CHAR/21): 	"Dr. Charles P. Sonett"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/9): 	"NASA Ames"
+TEXT (2 entries):
+	0 (CDF_CHAR/1097): 	"The Ames magnetometer experiment consisted of a boom-mounted triaxial fluxgate magnetometer and an electronics package. The sensors were orthogonally mounted, with one sensor oriented along the spin axis of the spacecraft. A motor interchanged a sensor in the spin plane with the sensor along the spin axis every 24 h, allowing inflight calibration. The instrument package included a circuit for demodulating the outputs from the sensors in the spin plane. The noise threshold was about 0.2 nT. The instrument had three ranges covering plus or minus 20, 60, and 200 nT full scale for each vector component. The digitization accuracy for each range was 1% of the entire range covered.  The magnetic field vector was measured instantaneously, and the instrument range was changed after each measurement. A period of 2.05 s elapsed between adjacent measurements and a period of 6.14 s elapsed between measurements using the same range. The instrument performance was normal. For further details, see Mihalov et al., J. Geophys. Res., v. 73, p. 943, 1968. NSSDC has all the useful data that now exist."
+	1 (CDF_CHAR/1232): 	"This data set consists of experimenter-supplied, 5.12-s-averaged vector magnetic field data on binary magnetic tapes created on an IBM 7094 computer. Each physical record contains 2760 characters, of which the first 12 constitute a DCS control word. Each logical record contains 132 characters (for the first vector of an 82 s sequence) or 138 characters, of which the first six constitute a DCS control word. Data given within each logical record relate to a single magnetic vector measurement and include field magnitude, Cartesian components, and latitude and longitude angles in solar equatorial, GSM, and GSE coordinates.  There are data for several weeks on each tape, with no ephemeris data on any of the tapes. Two intervals of several hours each (13 October and 27 November 1967) have been found when, because of apparent keypunch errors in the experimenter's data processing cycle, the sign of Bz (and, hence, of the field latitude angle) is opposite what it should be. These errors appeared when comparing these data to the experimenter's IMP-D data and to data from the other IMP-D magnetometer. It is not known what percentage of the data is affected by similar errors, although this percentage is expected to be small."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/9): 	"IMP (All)"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Logical_source (1 entry):
+	0 (CDF_CHAR/14): 	"exp35_6sec_mag"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/27): 	"exp35_6sec_mag_00000000_v03"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/67): 	"Explorer 35/IMP-E vector Magnetic field, 6.1 Second Resolution Data"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"6.1 second"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0363"
+Link_text (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Link_title (1 entry):
+	0 (CDF_CHAR/1): 	" "
+HTTP_link (1 entry):
+	0 (CDF_CHAR/1): 	" "
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (27 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+ALLOW_BIN
+
+Variable Information (0 rVariable, 18 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+seqNum                CDF_INT4/1	0:[]	T/   sRecords.PREV
+vectorNum             CDF_INT2/1	0:[]	T/  
+bmag                  CDF_REAL4/1	0:[]	T/  
+theta_Solar_Eq        CDF_REAL4/1	0:[]	T/  
+phi_Solar_Eq          CDF_REAL4/1	0:[]	T/  
+xyz_Solar_Eq          CDF_REAL4/1	1:[3]	T/T
+theta_Solar_Mag       CDF_REAL4/1	0:[]	T/  
+phi_Solar_Mag         CDF_REAL4/1	0:[]	T/  
+xyz_Solar_Mag         CDF_REAL4/1	1:[3]	T/T
+theta_Solar_Ecl       CDF_REAL4/1	0:[]	T/  
+phi_Solar_Ecl         CDF_REAL4/1	0:[]	T/  
+xyz_Solar_Ecl         CDF_REAL4/1	1:[3]	T/T
+numVectors            CDF_INT2/1	0:[]	T/   sRecords.PREV
+pos_axis_labl_Solar_EQ CDF_CHAR/10	1:[3]	F/T
+pos_axis_labl_Solar_MAG CDF_CHAR/11	1:[3]	F/T
+pos_axis_labl_Solar_ECL CDF_CHAR/11	1:[3]	F/T
+cartesian             CDF_CHAR/10	1:[3]	F/T
+
+
+Variable (18 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "CDF time standard. Time of last data sequence in the 15.36-second average."
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     FIELDNAM        (CDF_CHAR/30): "Epoch (Last data in 15-s avg.)"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     VALIDMIN        (CDF_EPOCH/1): 30-Oct-1973 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 10-Jun-2000 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+seqNum (No: 1) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "sequence number"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "seq#"
+     FILLVAL         (CDF_INT4/1): 9
+     FORMAT          (CDF_CHAR/2): "I6"
+     LABLAXIS        (CDF_CHAR/6): "seqnum"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 999999
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+vectorNum (No: 2) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/13): "Vector Number"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/7): "vector#"
+     FILLVAL         (CDF_INT2/1): 99
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/7): "vector#"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 14
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+bmag (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/4): "bmag"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/4): "bmag"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABLAXIS        (CDF_CHAR/4): "bmag"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+theta_Solar_Eq (No: 4) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "theta Solar Equatorial"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "theta Solar_EQ"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABLAXIS        (CDF_CHAR/14): "theta Solar_EQ"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+phi_Solar_Eq (No: 5) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "phi Solar Equatorial"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "phi Solar_EQ"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABLAXIS        (CDF_CHAR/12): "phi Solar_EQ"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+xyz_Solar_Eq (No: 6) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/21): "xyz Solar Equatorial "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     FIELDNAM        (CDF_CHAR/12): "xyz Solar_EQ"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABL_PTR_1      (CDF_CHAR/22): "pos_axis_labl_Solar_EQ"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/3): -1.0e+10, -1.0e+10, -1.0e+10
+     VALIDMAX        (CDF_REAL4/3): 1.0e+10, 1.0e+10, 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+theta_Solar_Mag (No: 7) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/26): "theta Solar Magnetospheric"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "theta Solar_MAG"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABLAXIS        (CDF_CHAR/15): "theta Solar_MAG"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+phi_Solar_Mag (No: 8) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/24): "phi Solar Magnetospheric"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "phi Solar_MAG"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABLAXIS        (CDF_CHAR/13): "phi Solar_MAG"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+xyz_Solar_Mag (No: 9) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "xyz Solar Magnetospheric "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     FIELDNAM        (CDF_CHAR/13): "xyz Solar_MAG"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABL_PTR_1      (CDF_CHAR/23): "pos_axis_labl_Solar_MAG"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/3): -1.0e+10, -1.0e+10, -1.0e+10
+     VALIDMAX        (CDF_REAL4/3): 1.0e+10, 1.0e+10, 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+theta_Solar_Ecl (No: 10) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "theta Solar Ecliptic"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/15): "theta Solar_ECL"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABLAXIS        (CDF_CHAR/15): "theta Solar_ECL"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+phi_Solar_Ecl (No: 11) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "phi Solar Ecliptic"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/13): "phi Solar_ECL"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABLAXIS        (CDF_CHAR/13): "phi Solar_ECL"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/1): -1.0e+10
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+xyz_Solar_Ecl (No: 12) (Recs: 0)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "xyz Solar Ecliptic "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     FIELDNAM        (CDF_CHAR/13): "xyz Solar_ECL"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     LABL_PTR_1      (CDF_CHAR/23): "pos_axis_labl_Solar_ECL"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL4/3): -1.0e+10, -1.0e+10, -1.0e+10
+     VALIDMAX        (CDF_REAL4/3): 1.0e+10, 1.0e+10, 1.0e+10
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     ALLOW_BIN       (CDF_CHAR/5): "FALSE"
+
+numVectors (No: 13) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/36): "number of Vectors in sequence number"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/11): "num vectors"
+     FILLVAL         (CDF_INT2/1): 99
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/11): "num vectors"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 14
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+pos_axis_labl_Solar_EQ (No: 14) (Recs: 1)
+----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "pos_axis_labl_Solar_EQ"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/22): "pos_axis_labl_Solar_EQ"
+     FORMAT          (CDF_CHAR/3): "a10"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+pos_axis_labl_Solar_MAG (No: 15) (Recs: 1)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "pos_axis_labl_Solar_MAG"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/23): "pos_axis_labl_Solar_MAG"
+     FORMAT          (CDF_CHAR/3): "a11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+pos_axis_labl_Solar_ECL (No: 16) (Recs: 1)
+-----------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "pos_axis_labl_Solar_ECL"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/23): "pos_axis_labl_Solar_ECL"
+     FORMAT          (CDF_CHAR/3): "a11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+cartesian (No: 17) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/9): "cartesian"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     FIELDNAM        (CDF_CHAR/9): "cartesian"
+     FORMAT          (CDF_CHAR/2): "a2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

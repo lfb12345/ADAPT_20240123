@@ -1,0 +1,309 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ibex_h3_ena_lo_r06_schwadron-he_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ibex_h3_ena_lo_r06_schwadron-he_00000000_v01.cdf
+Version:      3.5.0
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     10
+NumAttrs:     61 (26 global, 35 variable)
+Compression:  None
+Checksum:     MD5
+LeapSecondLastUpdated:     -1
+
+Global Attributes (26 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/25): 	"HEX>Heliophysics Explorer"
+Source_name (1 entry):
+	0 (CDF_CHAR/35): 	"IBEX>Interstellar Boundary Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/34): 	"Solar Physics>Heliospheric Physics"
+Data_type (1 entry):
+	0 (CDF_CHAR/30): 	"H3>ENA Count Rate Distribution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/26): 	"ENA>Energetic Neutral Atom"
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_datatype_descriptor_yyyyMMdd"
+Data_version (1 entry):
+	0 (CDF_CHAR/2): 	"01"
+PI_name (1 entry):
+	0 (CDF_CHAR/20): 	"Dr. David J. McComas"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/20): 	"Princeton University"
+TEXT (11 entries):
+	0 (CDF_CHAR/289): 	"1: The Interstellar Boundary Explorer (IBEX) has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 14 releases of IBEX-HI and/or IBEX-LO data covering 2009-2018. "
+	1 (CDF_CHAR/836): 	"2: This data set is from the IBEX-Lo Release 6 He Data (Sputtered H) Counts.. Data files are listed by orbit number: IBEX_Lo_o00XX_Y_HB_and_DE_report.csv where XX corresponds to the orbit number and Y to the sequence number of separately listed time periods in the respective orbit. The format in the file is listed below. The data are given accumulated over 512 spins each (. 2 hours) in time blocks separated by dashed lines. Provided are the data for Good Times of Angular Distributions. given in Table 1 of Moebius et al. (2012, ApJ Suppl, 198, 11, doi:10.1088/0067-0049/198/2/11). The description of the data selection is found in the file Moebius_etal_2012-ApJ-Suppl_Data-Description.pdf. These data were released as aggregate data for the entire time periods listed along with the publication of the 2012 ApJ Suppl publications. "
+	2 (CDF_CHAR/1317): 	"See IBEX Data Release 3: http://ibex.swri.edu/researchers/publicdata.shtml#dr3 In the current compilation, the time periods have been sub-divided into 512-spin time periods and thus synchronized with the internal accumulation periods of the onboard Histograms reported here and with the prescribed 512-spin accumulation. Therefore, some of the periods have slightly different start times and truncated to match the last complete 512-spin period at the end. Orbit 13 was omitted from the current compilation because several data gaps due to still ongoing commanding during that orbit cut into the prescribed 512 spin cadence. Also, in Data Release 3, the start and end times were slightly different from Table 1 to match the cadence chosen for the data. As used in the 2012 ApJ Suppl publications, Golden Triple Hydrogen counts detected in IBEX-Lo energy step 2 in 6o resolution are reported, which reflect H sputtered off the IBEX-Lo conversion surface by incoming interstellar He, as described in Moebius et al. (2012). The data rate files are organized as follows: The first line in the header contains column labels for 6 data columns, as listed below The next header line includes the start time (in GPS), end time (in GPS), and accumulated time (in seconds). This line is repeated for each 512-spin time period. "
+	3 (CDF_CHAR/554): 	"Column 1 : The center of each 6 degree angular bin in NEP as calculated using the phase in the HB file. 0 . 354 Degrees corresponds to the spin-angle counted from the North Ecliptic Pole (NEP). The spinning spacecraft moves both sensors from 0 to 360 in a great-circle where the spin-axis is directed with RA and DEC coordinates given in the inertial pointing file. Spin angle 0 corresponds to the spin sector whose center in spin angle points exactly to the North Ecliptic Pole(NEP). RA and DEC refer here to solar Ecliptic east longitude and latitude. "
+	4 (CDF_CHAR/49): 	"Column 2 : Start time of the 512 spin bin in GPS "
+	5 (CDF_CHAR/72): 	"Column 3 : Start time of the 512 spin bin in YYYY/MM:DD:HH:MM:SS format "
+	6 (CDF_CHAR/61): 	"Column 4 : Counts in the Hydrogen histogram bins (HB-Counts) "
+	7 (CDF_CHAR/144): 	"Column 5 : Same as column 1 except this was determined from the DE file, here as a check to make sure there were no missing bins in the HB file "
+	8 (CDF_CHAR/77): 	"Column 6 : Counts listed as GOLDEN HYDROGEN in the direct events (DE_Counts) "
+	9 (CDF_CHAR/829): 	"Note: The HB_Counts are used in the analysis to normalized DE_Counts for digital buffer and telemetry limitations during high count rate time periods, as they occur during the interstellar flow observations. Usually, HB_Counts = DE_Counts. However, during times when the count rates do not exceed the telemetry capability or not by much, occasionally DE_Counts > HB_Counts due to the finite digital angular binning by time increments of 4.1 ms, equivalent to . 0.075o in spin angle, which can lead to different binning in DE and HB at the boundaries of the 6o angular bins. Still, the HB_Count normalization should be used. The related angular uncertainty of the accumulated counts is =0.075o and thus smaller than the overall pointing accuracy as reported by Hlond et al. (2012, ApJ Suppl, 198, 9, doi:10.1088/0067-0049/198/2/9)"
+	10 (CDF_CHAR/817): 	"For the first two and a half years of science operations (through Orbit 127), IBEX's orbital period was ~7.5 days and the spin axis was repointed once each orbit (around perigee), leading to bands of sky viewing centered 7.5 apart. In June 2011, over Orbits 128 and 129, IBEX was maneuvered into a previously unknown, long-term stable lunar synchronous orbit with apogee still ~50 RE (McComas et al. 2011a). Since then, IBEX's orbital period has been ~9.1 days (one-third of the lunar sidereal period of 27.3 days). Orbit numbers from 130 onward are split into two segments, 'a' and 'b'. Furthermore, starting in orbit segment 184a, the IBEX team modified the IBEX-Hi energy step sequence and eliminated the lowest energy step (ESA1) in exchange for doubling the statistical sampling of ESA3 (center energy ~1.1 keV)."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"IBEX"
+Logical_source (1 entry):
+	0 (CDF_CHAR/31): 	"ibex_h3_ena_lo_r06_schwadron-he"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/44): 	"ibex_h3_ena_lo_r06_schwadron-he_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/56): 	"IBEX-Lo Release 6; Count Data for Heliospheric Imaging. "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/16): 	"two hour cadence"
+Rules_of_use (1 entry):
+	0 (CDF_CHAR/184): 	"The IBEX Release 6 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data. "
+Generated_by (1 entry):
+	0 (CDF_CHAR/13): 	"Sonya Lyatsky"
+Generation_date (1 entry):
+	0 (CDF_CHAR/24): 	"Sun Sep  8 17:08:02 2019"
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/105): 	"Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University. "
+MODS (1 entry):
+	0 (CDF_CHAR/24): 	"The IBEX Release 6 data "
+ADID_ref (0 entry):
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/55): 	"IBEX Mission, Instrument, and Data Release Descriptions"
+	1 (CDF_CHAR/64): 	"IBEX Data Release 6 IBEX-Lo Count Data for Heliospheric Imaging "
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/47): 	"IBEX The Interstellar Boundary Explorer mission"
+	1 (CDF_CHAR/20): 	"IBEX Data Release 6 "
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/27): 	"https://ibex.princeton.edu/"
+	1 (CDF_CHAR/38): 	"https://ibex.princeton.edu/DataRelease"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/53): 	"spase://VSPO/NumericalData/IBEX/H3/ENA/Lo/R06-He/P2hr"
+
+Variable Attributes (35 attributes)
+=========================================
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FIELDNAM
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+MONOTON
+LEAP_SECONDS_INCLUDED
+RESOLUTION
+Bin_location
+TIME_BASE
+TIME_SCALE
+REFERENCE_POSITION
+ABSOLUTE_ERROR
+RELATIVE_ERROR
+FORM_PTR
+VIRTUAL
+FUNCT
+COMPONENT_0
+
+Variable Information (0 rVariable, 10 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Start_Time_GPS        CDF_REAL4/1	0:[]	T/  
+End_Time_GPS          CDF_REAL4/1	0:[]	T/  
+Total_Time            CDF_REAL4/1	0:[]	T/  
+Orbit_Number          CDF_UINT2/1	0:[]	T/  
+Sequence_Number       CDF_UINT2/1	0:[]	T/  
+Spin_Angle_Bin        CDF_UINT2/1	1:[60]	F/T
+Spin_Angle            CDF_REAL4/1	1:[60]	F/T
+HB_Counts             CDF_REAL4/1	1:[60]	T/T
+DE_Counts             CDF_REAL4/1	1:[60]	T/T
+
+
+Variable (10 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/65): "CDF epoch time for the start of the  six-month measurement period"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FORMAT          (CDF_CHAR/14): "CDF Epoch Time"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/33): "day-month-year hour:minute:second"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2029 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+Start_Time_GPS (No: 1) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "Start time of the 512 spin bin in GPS"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/14): "GPS Start Time"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F14.3"
+     LABLAXIS        (CDF_CHAR/14): "GPS Start Time"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+12
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/63): "GPS time counts amount of seconds since 01/06/1980 00:00,000.00"
+
+End_Time_GPS (No: 2) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "End time of the 512 spin bin in GPS"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/12): "GPS End Time"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F14.3"
+     LABLAXIS        (CDF_CHAR/12): "GPS End Time"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+12
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/63): "GPS time counts amount of seconds since 01/06/1980 00:00,000.00"
+
+Total_Time (No: 3) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/16): "Total time (sec)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FIELDNAM        (CDF_CHAR/10): "Total Time"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F14.3"
+     LABLAXIS        (CDF_CHAR/10): "Total Time"
+     UNITS           (CDF_CHAR/3): "sec"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0e+12
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/34): "GPS time counts amount of seconds "
+
+Orbit_Number (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "Orbit Number of the measurement period"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/12): "Orbit Number"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/5): "Orbit"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65534
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/100): "IBEX orbital period around Earth is 9.1 days. Orbits 1-207 during the five years of data 2009-2013. "
+
+Sequence_Number (No: 5) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/15): "Sequence Number"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FIELDNAM        (CDF_CHAR/15): "Sequence Number"
+     FILLVAL         (CDF_UINT2/1): 65535
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/15): "Sequence Number"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_UINT2/1): 0
+     VALIDMAX        (CDF_UINT2/1): 65534
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/39): "Data sequence number within each orbit."
+
+Spin_Angle_Bin (No: 6) (Recs: 1)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/156): "Spin Angle Bin Number corresponding to six-degree longitudinal increments of the current IBEX-Lo viewing sector between the north and south Ecliptic poles. "
+     FIELDNAM        (CDF_CHAR/21): "Spin Angle Bin Number"
+     FILLVAL         (CDF_UINT2/1): 65534
+     FORMAT          (CDF_CHAR/2): "I5"
+     LABLAXIS        (CDF_CHAR/10): "Spin Angle"
+     LABL_PTR_1      (CDF_CHAR/10): "Spin Angle"
+     UNITS           (CDF_CHAR/10): "Bin Number"
+     VALIDMIN        (CDF_UINT2/1): 1
+     VALIDMAX        (CDF_UINT2/1): 60
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/306): "Spin angle value corresponds to the mid-point of six-degree latitudinal IBEX-Lo viewing sector. The spin angle measured from the North ecliptic Pole (NEP angle). Spin angle 0 points in the direction of NEP and each successive spin bin is rotated six degrees further around s/c-spin-axis from spin angle 0. "
+
+Spin_Angle (No: 7) (Recs: 1)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/10): "Spin Angle"
+     FIELDNAM        (CDF_CHAR/10): "Spin Angle"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f6.0"
+     LABLAXIS        (CDF_CHAR/10): "Spin Angle"
+     UNITS           (CDF_CHAR/7): "Degrees"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VAR_NOTES       (CDF_CHAR/494): "Spin angle value corresponds to the mid-point of six-degree latitudinal IBEX-Lo viewing sector. The spin angle measured from the North ecliptic Pole (NEP angle). Spin angle 0 points in the direction of NEP and each successive spin bin is rotated six degrees further around s/c-spin-axis from spin angle 0 Spin angle bin 1 covers 0-6 degrees, so [1] = 3.0 is the midpoint Spin angle bin 2 covers 6-12 degrees, so [2] = 9.0 is midpoint, and so on. Spin angle range is 0-360 divided into 60 bins. "
+
+HB_Counts (No: 8) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "Counts in the Hydrogen histogram bins "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Spin_Angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/9): "HB Counts"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.2"
+     LABLAXIS        (CDF_CHAR/18): "Hydrogen Counts HB"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+DE_Counts (No: 9) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Counts listed as GOLDEN HYDROGEN in the direct events"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "Spin_Angle"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     FIELDNAM        (CDF_CHAR/9): "DE Counts"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "F10.2"
+     LABLAXIS        (CDF_CHAR/18): "Hydrogen Counts DE"
+     UNITS           (CDF_CHAR/1): "#"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     SCALETYP        (CDF_CHAR/6): "linear"
+

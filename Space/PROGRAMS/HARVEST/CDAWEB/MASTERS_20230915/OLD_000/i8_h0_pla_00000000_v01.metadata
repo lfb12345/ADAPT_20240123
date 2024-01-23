@@ -1,0 +1,463 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/i8_h0_pla_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     i8_h0_pla_00000000_v01.cdf
+Version:      2.6.7
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-1997 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     20
+NumAttrs:     39 (18 global, 21 variable)
+Compression:  None
+
+Global Attributes (18 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/30): 	"MIT Interplanetary Plasma Data"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"IMP-8>Interplanetary Monitoring Platform 8"
+Descriptor (1 entry):
+	0 (CDF_CHAR/24): 	"PLA>Plasma Investigation"
+Data_type (1 entry):
+	0 (CDF_CHAR/18): 	"H0>High Resolution"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (1 entry):
+	0 (CDF_CHAR/29): 	"Time resolution: approx 1 min"
+MODS (4 entries):
+	0 (CDF_CHAR/112): 	"(from i8_k0_pla) Data for 9/8/92 to 7/31/96 created at the NSSDC from ASCII files provided by the PI, July, 1996"
+	1 (CDF_CHAR/69): 	"MIT software Version 3; non-linear, least squares analysis, May, 1994"
+	4 (CDF_CHAR/63): 	"MIT software Version 5; minor fixes, position in Re, July, 1994"
+	5 (CDF_CHAR/60): 	"MIT software Version 6; minor fixes to previously sent files"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0095"
+Logical_file_id (1 entry):
+	0 (CDF_UCHAR/22): 	"i8_h0_pla_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"i8_h0_pla"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/33): 	"IMP-8 Plasma Investigation, High "
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"A. Lazarus"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"MIT"
+Mission_group (1 entry):
+	0 (CDF_CHAR/4): 	"IMP8"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+MONOTON
+VAR_TYPE
+FORMAT
+FORM_PTR
+LABL_PTR_1
+UNIT_PTR
+FILLVAL
+DEPEND_0
+DEPEND_1
+DICT_KEY
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (0 rVariable, 20 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Spacecraft            CDF_BYTE/1	0:[]	T/  
+decimal_year          CDF_REAL8/1	0:[]	T/  
+Region                CDF_BYTE/1	0:[]	T/  
+mode                  CDF_BYTE/1	0:[]	T/  
+xgse                  CDF_REAL4/1	0:[]	T/  
+ygse                  CDF_REAL4/1	0:[]	T/  
+zgse                  CDF_REAL4/1	0:[]	T/  
+ygsm                  CDF_REAL4/1	0:[]	T/  
+zgsm                  CDF_REAL4/1	0:[]	T/  
+V_mom                 CDF_REAL4/1	0:[]	T/  
+V_fit                 CDF_REAL4/1	0:[]	T/  
+protonV_thermal_mom   CDF_REAL4/1	0:[]	T/  
+protonV_thermal_fit   CDF_REAL4/1	0:[]	T/  
+proton_density_mom    CDF_REAL4/1	0:[]	T/  
+proton_density_fit    CDF_REAL4/1	0:[]	T/  
+EW_flowangle_mom      CDF_REAL4/1	0:[]	T/  
+EW_flowangle_best     CDF_REAL4/1	0:[]	T/  
+Flow_elevation_thresh CDF_REAL4/1	0:[]	T/  
+Flow_elevation_threshsp CDF_REAL4/1	0:[]	T/  
+
+
+Variable (20 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Aug-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/10): "time>Epoch"
+     CATDESC         (CDF_CHAR/4): "Time"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Spacecraft (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Spacecraft"
+     VALIDMIN        (CDF_BYTE/1): 0
+     VALIDMAX        (CDF_BYTE/1): 8
+     SCALEMIN        (CDF_BYTE/1): 0
+     SCALEMAX        (CDF_BYTE/1): 8
+     LABLAXIS        (CDF_CHAR/10): "Spacecraft"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "I1"
+     FILLVAL         (CDF_BYTE/1): 9
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/15): "Spacecraft flag"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+decimal_year (No: 2) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Decimal Year"
+     VALIDMIN        (CDF_REAL8/1): 1972.0
+     VALIDMAX        (CDF_REAL8/1): 2020.0
+     SCALEMIN        (CDF_REAL8/1): 1972.0
+     SCALEMAX        (CDF_REAL8/1): 2020.0
+     LABLAXIS        (CDF_CHAR/12): "Decimal Year"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "f14.7"
+     FILLVAL         (CDF_REAL8/1): 100000.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Decimal Year"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Region (No: 3) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Region"
+     VALIDMIN        (CDF_BYTE/1): 1
+     VALIDMAX        (CDF_BYTE/1): 8
+     SCALEMIN        (CDF_BYTE/1): 1
+     SCALEMAX        (CDF_BYTE/1): 8
+     LABLAXIS        (CDF_CHAR/6): "Region"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "I1"
+     FILLVAL         (CDF_BYTE/1): 9
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/11): "Region flag"
+     VAR_NOTES       (CDF_CHAR/93): "1:time solar wind, 2:time solar wind or magnetosheath, 3:time magnetosheath or magnetospheric"
+
+mode (No: 4) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "Operating mode"
+     VALIDMIN        (CDF_BYTE/1): 1
+     VALIDMAX        (CDF_BYTE/1): 8
+     SCALEMIN        (CDF_BYTE/1): 1
+     SCALEMAX        (CDF_BYTE/1): 8
+     LABLAXIS        (CDF_CHAR/14): "Operating mode"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "I3"
+     FILLVAL         (CDF_BYTE/1): 9
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/19): "Operating mode flag"
+     VAR_NOTES       (CDF_CHAR/60): "1:Non-tracking (NTMS), 2:Tracking (TMS), 3:Acquisition (AQM)"
+
+xgse (No: 5) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "X-component, GSE"
+     VALIDMIN        (CDF_REAL4/1): -50.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     SCALEMIN        (CDF_REAL4/1): -50.0
+     SCALEMAX        (CDF_REAL4/1): 50.0
+     LABLAXIS        (CDF_CHAR/16): "X-component, GSE"
+     UNITS           (CDF_CHAR/2): "Re"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "X-component, GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+ygse (No: 6) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Y-component, GSE"
+     VALIDMIN        (CDF_REAL4/1): -50.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     SCALEMIN        (CDF_REAL4/1): -5.0
+     SCALEMAX        (CDF_REAL4/1): 50.0
+     LABLAXIS        (CDF_CHAR/16): "Y-component, GSE"
+     UNITS           (CDF_CHAR/2): "Re"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "Y-component, GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+zgse (No: 7) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Z-component, GSE"
+     VALIDMIN        (CDF_REAL4/1): -50.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     SCALEMIN        (CDF_REAL4/1): -50.0
+     SCALEMAX        (CDF_REAL4/1): 50.0
+     LABLAXIS        (CDF_CHAR/16): "Z-component, GSE"
+     UNITS           (CDF_CHAR/2): "Re"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "Z-component, GSE"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+ygsm (No: 8) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Y-component, GSM"
+     VALIDMIN        (CDF_REAL4/1): -50.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     SCALEMIN        (CDF_REAL4/1): -50.0
+     SCALEMAX        (CDF_REAL4/1): 50.0
+     LABLAXIS        (CDF_CHAR/16): "Y-component, GSM"
+     UNITS           (CDF_CHAR/2): "Re"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "Y-component, GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+zgsm (No: 9) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Z-component, GSM"
+     VALIDMIN        (CDF_REAL4/1): -50.0
+     VALIDMAX        (CDF_REAL4/1): 50.0
+     SCALEMIN        (CDF_REAL4/1): -50.0
+     SCALEMAX        (CDF_REAL4/1): 50.0
+     LABLAXIS        (CDF_CHAR/16): "Z-component, GSM"
+     UNITS           (CDF_CHAR/2): "Re"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "F8.2"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/16): "Z-component, GSM"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+V_mom (No: 10) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "V moments"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 3000.0
+     SCALEMIN        (CDF_REAL4/1): 100.0
+     SCALEMAX        (CDF_REAL4/1): 3000.0
+     LABLAXIS        (CDF_CHAR/9): "V moments"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/9): "V moments"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+V_fit (No: 11) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "V fit"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 3000.0
+     SCALEMIN        (CDF_REAL4/1): 100.0
+     SCALEMAX        (CDF_REAL4/1): 3000.0
+     LABLAXIS        (CDF_CHAR/5): "V fit"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/5): "V fit"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+protonV_thermal_mom (No: 12) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Proton V thermal moments"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 500.0
+     LABLAXIS        (CDF_CHAR/24): "Proton V thermal moments"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/24): "Proton V thermal moments"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+protonV_thermal_fit (No: 13) (Recs: 0)
+-------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Proton V thermal fit"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 500.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 500.0
+     LABLAXIS        (CDF_CHAR/20): "Proton V thermal fit"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/20): "Proton V thermal fit"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+proton_density_mom (No: 14) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Proton density moments"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/22): "Proton density moments"
+     UNITS           (CDF_CHAR/4): "n/cc"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/22): "Proton density moments"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+proton_density_fit (No: 15) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton density fit"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/18): "Proton density fit"
+     UNITS           (CDF_CHAR/4): "n/cc"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DICT_KEY        (CDF_CHAR/1): " "
+     CATDESC         (CDF_CHAR/18): "Proton density fit"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+EW_flowangle_mom (No: 16) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "E/W flow angle moments"
+     VALIDMIN        (CDF_REAL4/1): -45.0
+     VALIDMAX        (CDF_REAL4/1): 45.0
+     SCALEMIN        (CDF_REAL4/1): -45.0
+     SCALEMAX        (CDF_REAL4/1): 45.0
+     LABLAXIS        (CDF_CHAR/22): "E/W flow angle moments"
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/22): "E/W flow angle moments"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+EW_flowangle_best (No: 17) (Recs: 0)
+-----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "E/W flow angle best"
+     VALIDMIN        (CDF_REAL4/1): -45.0
+     VALIDMAX        (CDF_REAL4/1): 45.0
+     SCALEMIN        (CDF_REAL4/1): -45.0
+     SCALEMAX        (CDF_REAL4/1): 45.0
+     LABLAXIS        (CDF_CHAR/19): "E/W flow angle best"
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/19): "E/W flow angle best"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Flow_elevation_thresh (No: 18) (Recs: 0)
+---------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Flow elevation thresh"
+     VALIDMIN        (CDF_REAL4/1): -45.0
+     VALIDMAX        (CDF_REAL4/1): 45.0
+     SCALEMIN        (CDF_REAL4/1): -45.0
+     SCALEMAX        (CDF_REAL4/1): 45.0
+     LABLAXIS        (CDF_CHAR/21): "Flow elevation thresh"
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/21): "Flow elevation thresh"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Flow_elevation_threshsp (No: 19) (Recs: 0)
+-----------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Flow elevation threshsp"
+     VALIDMIN        (CDF_REAL4/1): -45.0
+     VALIDMAX        (CDF_REAL4/1): 45.0
+     SCALEMIN        (CDF_REAL4/1): -45.0
+     SCALEMAX        (CDF_REAL4/1): 45.0
+     LABLAXIS        (CDF_CHAR/23): "Flow elevation threshsp"
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.1"
+     FILLVAL         (CDF_REAL4/1): 9999.0
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/23): "Flow elevation threshsp"
+     VAR_NOTES       (CDF_CHAR/1): " "
+

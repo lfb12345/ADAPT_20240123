@@ -1,0 +1,593 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_l2-30min_sms-stics-afm-solarwind_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_l2-30min_sms-stics-afm-solarwind_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     27
+NumAttrs:     56 (23 global, 33 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (23 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Data_type (1 entry):
+	0 (CDF_CHAR/24): 	"L2-30MIN>Level2 30minute"
+Descriptor (1 entry):
+	0 (CDF_CHAR/107): 	"SMS-STICS-AFM-SOLARWIND>SMS Solar Wind & Suprathermal Ion Composition Investigation solarwind AFM solarwind"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+TITLE (1 entry):
+	0 (CDF_CHAR/36): 	"WIND SMS Level2 stics afm solarwind "
+TEXT (1 entry):
+	0 (CDF_CHAR/1700): 	"The Suprathermal Ion Composition Spectrometer (STICS) is a time of flight (TOF) plasma mass spectrometer, capable of identifying mass and mass per charge for incident ions up to 200 keV/e. It uses an electrostatic analyzer to admit ions of a particular energy per charge (E/Q) into the TOF chamber. The E/Q voltage is stepped through 32 values, sitting at each value for approximately 24 sec., to measure ions over the full E/Q range of 6 - 200 keV/e. Ions then pass through a carbon foil and TOF chamber, before finally impacting on a solid-state detector (SSD) for energy measurement. STICS combines these three measurements of E/Q, TOF and residual energy, producing PHA words. This triple-coincidence technique greatly improves the signal to noise ratio in the data. Measurements of E/Q and TOF without residual energy also produce PHA words. These double-coincidence measurements are characterized by better statistics since ions whose energy does not allow them to be registered by the SSD can still be counted in double-coincidence measurements. However, ion identification in double-coincidence measurements are limited to a select number of ions that are well separated in E/Q - TOF space.  The STICS instrument provides full 3D velocity distribution functions, through a combination of multiple telescopes and spacecraft spin. The instrument includes 3 separate TOF telescopes that view 3 separate latitude sectors, as shown in Figure 1. In addition, the WIND spacecraft spins, allowing the 3 telescopes to trace out a nearly 4ïÂ° steradian viewing area. The longitudinal sectors are shown in Figure 2. The solar direction is in sectors 8-10 while the earthward direction is in sectors 0-2."
+MODS (1 entry):
+	0 (CDF_CHAR/15): 	"Initial release"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0142"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/57): 	"WI_L2-HPLUS-30MIN_SMS-STICS-AFM-TC-SOLARWIND_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/44): 	"WI_L2-HPLUS-30MIN_SMS-STICS-AFM-TC-SOLARWIND"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/71): 	"Solar Wind and Suprathermal Ion Composition  Instrument, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"S. T. Lepri"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/13): 	"U of Michigan"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+LINK_TEXT (2 entries):
+	0 (CDF_CHAR/18): 	"Historic Wind SMS "
+	1 (CDF_CHAR/11): 	"Wind STICS "
+LINK_TITLE (2 entries):
+	0 (CDF_CHAR/9): 	"Home Page"
+	1 (CDF_CHAR/13): 	"Release Notes"
+HTTP_LINK (2 entries):
+	0 (CDF_CHAR/26): 	"http://space.umd.edu/wind/"
+	1 (CDF_CHAR/88): 	"https://spdf.gsfc.nasa.gov/pub/data/wind/documents/wind_stics_lv2_release_notes_revD.pdf"
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"sphe-00653"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/35): 	"Wind_SMS_Key-Parameters-K0_1min_cdf"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+
+Variable Attributes (33 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+FILLVAL
+SCALETYP
+UNIT_PTR
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+FUNCT
+VIRTUAL
+COMPONENT_0
+ARR_INDEX
+ARR_DIM
+ALLOW_BIN
+
+Variable Information (0 rVariable, 27 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+AFM_tc_hplus          CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_heplus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_he2plus        CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_oplus          CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_o6plus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_c5plus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_fe10plus       CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_cplus          CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_nplus          CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_o2plus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_c6plus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_c4plus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_o7plus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_o8plus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_fe8plus        CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_fe9plus        CDF_REAL4/1	2:[16,3]	T/TT
+AFM_tc_fe16plus       CDF_REAL4/1	2:[16,3]	T/TT
+AFM_dc_hplus          CDF_REAL4/1	2:[16,3]	T/TT
+AFM_dc_heplus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_dc_he2plus        CDF_REAL4/1	2:[16,3]	T/TT
+AFM_dc_oplus          CDF_REAL4/1	2:[16,3]	T/TT
+AFM_dc_o6plus         CDF_REAL4/1	2:[16,3]	T/TT
+AFM_dc_cplus          CDF_REAL4/1	2:[16,3]	T/TT
+SECTOR_index          CDF_INT2/1	1:[16]	F/T
+TELESCOPE_index       CDF_INT2/1	1:[3]	F/T
+Telescope_Labl        CDF_CHAR/18	1:[3]	F/T
+
+
+Variable (27 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1994 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/23): "time>Epoch_center_range"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/26): "Time start of avg interval"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+AFM_tc_hplus (No: 1) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "AFM TC H+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "AFM TC H+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/93): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence H+"
+
+AFM_tc_heplus (No: 2) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM TC He+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM TC He+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence He+"
+
+AFM_tc_he2plus (No: 3) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "AFM TC He2+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "AFM TC He2+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/95): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence He2+"
+
+AFM_tc_oplus (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "AFM TC O+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "AFM TC O+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/93): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence O+"
+
+AFM_tc_o6plus (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM TC O6+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM TC O6+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence O6+"
+
+AFM_tc_c5plus (No: 6) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM TC C5+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM TC C5+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence C5+"
+
+AFM_tc_fe10plus (No: 7) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "AFM TC Fe10+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "AFM TC Fe10+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/96): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence Fe10+"
+
+AFM_tc_cplus (No: 8) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "AFM TC C+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "AFM TC C+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/93): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence C+"
+
+AFM_tc_nplus (No: 9) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "AFM TC N+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "AFM TC N+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/93): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence N+"
+
+AFM_tc_o2plus (No: 10) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM TC O2+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM TC O2+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence O2+"
+
+AFM_tc_c6plus (No: 11) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM TC C6+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM TC C6+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence C6+"
+
+AFM_tc_c4plus (No: 12) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM TC C4+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM TC C4+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence C4+"
+
+AFM_tc_o7plus (No: 13) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM TC O7+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM TC O7+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence O7+"
+
+AFM_tc_o8plus (No: 14) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM TC O8+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM TC O8+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence O8+"
+
+AFM_tc_fe8plus (No: 15) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "AFM TC Fe8+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "AFM TC Fe8+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/95): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence Fe8+"
+
+AFM_tc_fe9plus (No: 16) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "AFM TC Fe9+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "AFM TC Fe9+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/95): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence Fe9+"
+
+AFM_tc_fe16plus (No: 17) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "AFM TC Fe16+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/12): "AFM TC Fe16+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/96): "Angular flux map gives the flux of ions flowing in a given direction in triple coincidence Fe16+"
+
+AFM_dc_hplus (No: 18) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "AFM DC H+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "AFM DC H+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/93): "Angular flux map gives the flux of ions flowing in a given direction in double coincidence H+"
+
+AFM_dc_heplus (No: 19) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM DC He+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM DC He+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in double coincidence He+"
+
+AFM_dc_he2plus (No: 20) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "AFM DC He2+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/11): "AFM DC He2+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/95): "Angular flux map gives the flux of ions flowing in a given direction in double coincidence He2+"
+
+AFM_dc_oplus (No: 21) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "AFM DC O+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "AFM DC O+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/93): "Angular flux map gives the flux of ions flowing in a given direction in double coincidence O+"
+
+AFM_dc_o6plus (No: 22) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "AFM DC O6+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/10): "AFM DC O6+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/94): "Angular flux map gives the flux of ions flowing in a given direction in double coincidence O6+"
+
+AFM_dc_cplus (No: 23) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "AFM DC C+"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/9): "AFM DC C+"
+     LABL_PTR_2      (CDF_CHAR/14): "Telescope_Labl"
+     UNITS           (CDF_CHAR/14): "(cm^2 sr s)^-1"
+     FORMAT          (CDF_CHAR/5): "E12.4"
+     VAR_TYPE        (CDF_CHAR/11): "ignore_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/12): "SECTOR_index"
+     DEPEND_2        (CDF_CHAR/15): "TELESCOPE_index"
+     CATDESC         (CDF_CHAR/93): "Angular flux map gives the flux of ions flowing in a given direction in double coincidence C+"
+
+SECTOR_index (No: 24) (Recs: 1)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Sector index"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 16
+     LABLAXIS        (CDF_CHAR/12): "Sector index"
+     UNITS           (CDF_CHAR/12): "sector index"
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -9
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Sector index"
+
+TELESCOPE_index (No: 25) (Recs: 1)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "TELESCOPE index"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 3
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -9
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/15): "TELESCOPE index"
+
+Telescope_Labl (No: 26) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Telescope"
+     LABLAXIS        (CDF_CHAR/9): "Telescope"
+     FORMAT          (CDF_CHAR/3): "A18"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     CATDESC         (CDF_CHAR/9): "Telescope"
+

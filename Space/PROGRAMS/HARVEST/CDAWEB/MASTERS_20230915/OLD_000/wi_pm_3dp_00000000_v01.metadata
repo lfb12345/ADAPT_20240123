@@ -1,0 +1,425 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/wi_pm_3dp_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     wi_pm_3dp_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     1
+NumzVars:     19
+NumAttrs:     45 (26 global, 19 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20150701
+
+Global Attributes (26 attributes)
+=========================================
+Data_type (1 entry):
+	0 (CDF_CHAR/70): 	"PM>PESA (On-Board) Ion Moments @ Spin Resolution (version 3), Wind 3DP"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Source_name (1 entry):
+	0 (CDF_CHAR/42): 	"WIND>Wind Interplanetary Plasma Laboratory"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/81): 	" Ion moments (computed on-board) @ 3 second (spin) resolution, PESA LOW, Wind 3DP"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+TEXT (1 entry):
+	0 (CDF_CHAR/92): 	"Wind 3dp, PESA LOW 1 spin resolution ion (proton and alpha) moments (computed on spacecraft)"
+PI_name (1 entry):
+	0 (CDF_CHAR/14): 	"R. Lin/S. Bale"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/11): 	"UC Berkeley"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/4): 	"Wind"
+	1 (CDF_CHAR/33): 	"!___Interplanetary Data near 1 AU"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/23): 	"3DP>3-D PLASMA ANALYZER"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0143"
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+MODS (1 entry):
+	0 (CDF_CHAR/30): 	"Version 3 Product, August 2005"
+Time_resolution (0 entry):
+Link_text (2 entries):
+	0 (CDF_CHAR/1): 	" "
+	1 (CDF_CHAR/9): 	"Wind 3DP "
+Link_title (2 entries):
+	0 (CDF_CHAR/48): 	"Caveats for the correct use of Wind 3DP datasets"
+	1 (CDF_CHAR/49): 	"home page at UCB (with plotting and digital data)"
+HTTP_link (2 entries):
+	0 (CDF_CHAR/64): 	"https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/wind3dp_caveats.pdf"
+	1 (CDF_CHAR/37): 	"http://sprg.ssl.berkeley.edu/wind3dp/"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"wi_pm_3dp"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"wi_pm_3dp_00000000_v01"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/40): 	"Wind_3DP_Ion-Moments-Onboard-PM_3sec_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/44): 	"spase://NASA/NumericalData/Wind/3DP/PM/PT03S"
+
+Variable Attributes (19 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VAR_NOTES
+DICT_KEY
+VAR_TYPE
+FORM_PTR
+FORMAT
+UNIT_PTR
+UNITS
+SCAL_PTR
+SCALETYP
+FILLVAL
+LABLAXIS
+VALIDMIN
+VALIDMAX
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_1
+LABL_PTR_1
+
+Variable Information (1 rVariable, 19 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+SPIN                  CDF_INT2/1	0:[]	T/  
+P_DENS                CDF_FLOAT/1	0:[]	T/  
+P_VELS                CDF_FLOAT/1	1:[3]	T/T
+P_TENS                CDF_FLOAT/1	1:[6]	T/T
+P_TEMP                CDF_FLOAT/1	0:[]	T/  
+A_DENS                CDF_FLOAT/1	0:[]	T/  
+A_VELS                CDF_FLOAT/1	1:[3]	T/T
+A_TENS                CDF_FLOAT/1	1:[6]	T/T
+A_TEMP                CDF_FLOAT/1	0:[]	T/  
+E_RANGE               CDF_FLOAT/1	1:[2]	T/T
+VC                    CDF_INT2/1	0:[]	T/  
+GAP                   CDF_INT2/1	0:[]	T/  
+VALID                 CDF_INT2/1	0:[]	T/  
+TIME                  CDF_DOUBLE/1	0:[]	T/  
+P_VELS_LABL_1         CDF_CHAR/24	1:[3]	F/T
+P_TENS_LABL_1         CDF_CHAR/20	1:[6]	F/T
+A_VELS_LABL_1         CDF_CHAR/24	1:[3]	F/T
+A_TENS_LABL_1         CDF_CHAR/20	1:[6]	F/T
+E_RANGE_LABL_1        CDF_CHAR/20	1:[2]	F/T
+
+
+Variable (20 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/14): "Time, Centered"
+     VAR_NOTES       (CDF_CHAR/62): "Time is centered, confirmed for 3DP by P.Schroeder 2005 Nov 07"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/5): "e12.0"
+     UNITS           (CDF_CHAR/2): "ms"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.999
+
+SPIN (No: 0) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Spin Count"
+     CATDESC         (CDF_CHAR/19): "On-board spin count"
+     DICT_KEY        (CDF_CHAR/6): "Number"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i6"
+     UNITS           (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/10): "Spin_Count"
+     VALIDMIN        (CDF_INT2/1): -32768
+     VALIDMAX        (CDF_INT2/1): 32767
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+P_DENS (No: 1) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Proton number density"
+     CATDESC         (CDF_CHAR/77): "Proton number density [values fill-noisy 5/19/2009-5/11/2010; 3/8-5/15/2012] "
+     VAR_NOTES       (CDF_CHAR/115): "Proton number density values are fill for time period 5/20/2009-5/11/2010; noisy 3/8/2012 04:37 to 5/15/2012 22:45]"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     UNITS           (CDF_CHAR/5): "#/cm3"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Dens_Protn_s/c"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+P_VELS (No: 2) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "Proton velocity vector"
+     CATDESC         (CDF_CHAR/33): "---> Proton velocity vector (GSE)"
+     VAR_NOTES       (CDF_CHAR/113): "Proton velocity vector values are noisy for time period 5/15/2009-5/11/2010 and 3/8/2012 04:37 to 5/15/2012 22:45"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): -4000.0, -4000.0, -4000.0
+     VALIDMAX        (CDF_FLOAT/3): 4000.0, 4000.0, 4000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/13): "P_VELS_LABL_1"
+
+P_TENS (No: 3) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "P_TENS"
+     CATDESC         (CDF_CHAR/77): "---> Residual Variance in Proton Velocity (6 components in instrument coords)"
+     VAR_NOTES       (CDF_CHAR/127): "Residual Variance in Proton Velocity values are noisy for time period 5/15/2009-5/11/2010 and 3/8/2012 04:37 to 5/15/2012 22:45"
+     DICT_KEY        (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/16): "(Instrmt Coords)"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/6): -20000.0, -20000.0, -20000.0, -20000.0, -20000.0, -20000.0
+     VALIDMAX        (CDF_FLOAT/6): 20000.0, 20000.0, 20000.0, 20000.0, 20000.0, 20000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/13): "P_TENS_LABL_1"
+
+P_TEMP (No: 4) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Proton temperature"
+     CATDESC         (CDF_CHAR/23): "---> Proton temperature"
+     VAR_NOTES       (CDF_CHAR/109): "Proton temperature values are noisy for time period 5/15/2009-5/11/2010 and 3/8/2012 04:37 to 5/15/2012 22:45"
+     DICT_KEY        (CDF_CHAR/11): "temperature"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Temp_Protn_s/c"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+A_DENS (No: 5) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Alpha number density"
+     CATDESC         (CDF_CHAR/75): "Alpha number density [values fill-noisy 5/19/2009-5/11/2010; 3/8-5/15/2012]"
+     VAR_NOTES       (CDF_CHAR/113): "Alpha number density values are fill for time period 5/15/2009-5/11/2010; noisy 3/8/2012 04:37 to 5/15/2012 22:45"
+     DICT_KEY        (CDF_CHAR/7): "density"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f7.2"
+     UNITS           (CDF_CHAR/5): "#/cm3"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Dens_Alpha_s/c"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 1000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+A_VELS (No: 6) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Alpha velocity vector"
+     CATDESC         (CDF_CHAR/32): "---> Alpha velocity vector (GSE)"
+     VAR_NOTES       (CDF_CHAR/112): "Alpha velocity vector values are noisy for time period 5/15/2009-5/11/2010 and 3/8/2012 04:37 to 5/15/2012 22:45"
+     DICT_KEY        (CDF_CHAR/8): "velocity"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/6): "km/sec"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/3): -4000.0, -4000.0, -4000.0
+     VALIDMAX        (CDF_FLOAT/3): 4000.0, 4000.0, 4000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/13): "A_VELS_LABL_1"
+
+A_TENS (No: 7) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "A_TENS"
+     CATDESC         (CDF_CHAR/76): "---> Residual Variance in Alpha Velocity (6 components in instrument coords)"
+     VAR_NOTES       (CDF_CHAR/126): "Residual Variance in Alpha Velocity values are noisy for time period 5/15/2009-5/11/2010 and 3/8/2012 04:37 to 5/15/2012 22:45"
+     DICT_KEY        (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/16): "(Instrmt Coords)"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_FLOAT/6): -20000.0, -20000.0, -20000.0, -20000.0, -20000.0, -20000.0
+     VALIDMAX        (CDF_FLOAT/6): 20000.0, 20000.0, 20000.0, 20000.0, 20000.0, 20000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/13): "A_TENS_LABL_1"
+
+A_TEMP (No: 8) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Alpha temperature"
+     CATDESC         (CDF_CHAR/22): "---> Alpha temperature"
+     VAR_NOTES       (CDF_CHAR/108): "Alpha temperature values are noisy for time period 5/15/2009-5/11/2010 and 3/8/2012 04:37 to 5/15/2012 22:45"
+     DICT_KEY        (CDF_CHAR/11): "temperature"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f8.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "Temp_Alpha_s/c"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 500.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+E_RANGE (No: 9) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "E_RANGE"
+     CATDESC         (CDF_CHAR/35): "Energy range of moments computation"
+     DICT_KEY        (CDF_CHAR/6): "Energy"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/4): "f9.2"
+     UNITS           (CDF_CHAR/2): "eV"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     VALIDMIN        (CDF_FLOAT/3): 0.0, 0.0, 0.0
+     VALIDMAX        (CDF_FLOAT/3): 20000.0, 20000.0, 20000.0
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABL_PTR_1      (CDF_CHAR/14): "E_RANGE_LABL_1"
+
+VC (No: 10) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/2): "VC"
+     CATDESC         (CDF_CHAR/27): "VC (compression diagnostic)"
+     DICT_KEY        (CDF_CHAR/2): "VC"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "i6"
+     UNITS           (CDF_CHAR/1): " "
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/2): "VC"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 20000
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+GAP (No: 11) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "GAP"
+     CATDESC         (CDF_CHAR/26): "Gap flag (0=no gap, 1=gap)"
+     DICT_KEY        (CDF_CHAR/3): "GAP"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i1"
+     UNITS           (CDF_CHAR/10): "(0=No Gap)"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/8): "Gap_Flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+VALID (No: 12) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "VALID"
+     CATDESC         (CDF_CHAR/33): "Data quality flag (1=good, 0=bad)"
+     DICT_KEY        (CDF_CHAR/5): "VALID"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/2): "i1"
+     UNITS           (CDF_CHAR/8): "(1=good)"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     LABLAXIS        (CDF_CHAR/7): "DQ_Flag"
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+TIME (No: 13) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/28): "Unix Time (since 1970/01/01)"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FORMAT          (CDF_CHAR/5): "e12.0"
+     UNITS           (CDF_CHAR/2): "ms"
+     FILLVAL         (CDF_DOUBLE/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Unix Time"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 1.0e+13
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+P_VELS_LABL_1 (No: 14) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "P_VELS_LABL_1"
+     CATDESC         (CDF_CHAR/13): "P_VELS_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a24"
+
+P_TENS_LABL_1 (No: 15) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "P_TENS_LABL_1"
+     CATDESC         (CDF_CHAR/13): "P_TENS_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a20"
+
+A_VELS_LABL_1 (No: 16) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "A_VELS_LABL_1"
+     CATDESC         (CDF_CHAR/13): "A_VELS_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a24"
+
+A_TENS_LABL_1 (No: 17) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "A_TENS_LABL_1"
+     CATDESC         (CDF_CHAR/13): "A_TENS_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a20"
+
+E_RANGE_LABL_1 (No: 18) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "E_RANGE_LABL_1"
+     CATDESC         (CDF_CHAR/14): "E_RANGE_LABL_1"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a20"
+

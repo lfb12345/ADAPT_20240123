@@ -1,0 +1,298 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ge_regime_id_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ge_regime_id_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     13
+NumAttrs:     39 (18 global, 21 variable)
+Compression:  None
+
+Global Attributes (18 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"GEOTAIL>Geomagnetic Tail"
+Data_type (1 entry):
+	0 (CDF_CHAR/28): 	"regime>regime identification"
+Descriptor (1 entry):
+	0 (CDF_CHAR/24): 	"ID>regime identification"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TITLE (1 entry):
+	0 (CDF_CHAR/60): 	"Regime Identification Database for Geotail (Deep Tail phase)"
+TEXT (1 entry):
+	0 (CDF_CHAR/1): 	" "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+ADID_ref (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/25): 	"ge_regime_id_00000000_v01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/12): 	"ge_regime_id"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/60): 	"Regime Identification Database for Geotail (Deep Tail phase)"
+PI_name (1 entry):
+	0 (CDF_CHAR/13): 	"Dick McIntire"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Mission_group (3 entries):
+	0 (CDF_UCHAR/7): 	"Geotail"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/48): 	"Imaging and Remote Sensing (Magnetosphere/Earth)"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/7): 	"Geotail"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+CATDESC
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+FILLVAL
+LABLAXIS
+UNITS
+FORMAT
+MONOTON
+VAR_TYPE
+DICT_KEY
+UNIT_PTR
+LABL_PTR_1
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DISPLAY_TYPE
+VAR_NOTES
+AVG_TYPE
+
+Variable Information (0 rVariable, 13 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Interval              CDF_INT4/1	0:[]	T/  
+KPmin                 CDF_REAL4/1	0:[]	T/  
+KPavg                 CDF_REAL4/1	0:[]	T/  
+KPmax                 CDF_REAL4/1	0:[]	T/  
+Start_Pos_GSE         CDF_REAL4/1	1:[3]	T/T
+Stop_Pos_GSE          CDF_REAL4/1	1:[3]	T/T
+Region                CDF_CHAR/8	0:[]	T/  
+RegionID              CDF_INT2/1	0:[]	T/  
+RegionNotes           CDF_CHAR/80	0:[]	T/  
+label_startpos        CDF_CHAR/15	1:[3]	F/T
+label_stoppos         CDF_CHAR/14	1:[3]	F/T
+cartesian             CDF_CHAR/1	1:[3]	F/T
+
+
+Variable (13 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     CATDESC         (CDF_CHAR/30): "Time, centered, in NSSDC Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 08-Sep-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 20:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 08-Sep-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 20:00:00.000
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/9): "CDF Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/16): "time>NSSDC_Epoch"
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Interval (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Interval"
+     CATDESC         (CDF_CHAR/8): "Interval"
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 99999
+     SCALEMIN        (CDF_INT4/1): 1
+     SCALEMAX        (CDF_INT4/1): 99999
+     LABLAXIS        (CDF_CHAR/8): "Interval"
+     UNITS           (CDF_CHAR/7): "minutes"
+     FORMAT          (CDF_CHAR/2): "i5"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+KPmin (No: 2) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Kp minimum"
+     CATDESC         (CDF_CHAR/10): "Kp minimum"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     LABLAXIS        (CDF_CHAR/10): "KP minimum"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f4.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+KPavg (No: 3) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Kp average"
+     CATDESC         (CDF_CHAR/10): "Kp average"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     LABLAXIS        (CDF_CHAR/10): "KP average"
+     UNITS           (CDF_CHAR/6): "Kelvin"
+     FORMAT          (CDF_CHAR/4): "f4.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+KPmax (No: 4) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Kp maximum"
+     CATDESC         (CDF_CHAR/10): "Kp maximum"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 10.0
+     LABLAXIS        (CDF_CHAR/10): "KP maximum"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/4): "f4.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Start_Pos_GSE (No: 5) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Start Position (GSE)"
+     CATDESC         (CDF_CHAR/32): "Start Position, 3 GSE components"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     SCALEMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     SCALEMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     UNITS           (CDF_CHAR/2): "Re"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABL_PTR_1      (CDF_CHAR/14): "label_startpos"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Stop_Pos_GSE (No: 6) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Stop Position (GSE)"
+     CATDESC         (CDF_CHAR/31): "Stop Position, 3 GSE components"
+     VALIDMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     VALIDMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     SCALEMIN        (CDF_REAL4/3): -1000.0, -1000.0, -1000.0
+     SCALEMAX        (CDF_REAL4/3): 1000.0, 1000.0, 1000.0
+     UNITS           (CDF_CHAR/2): "Re"
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     LABL_PTR_1      (CDF_CHAR/13): "label_stoppos"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+Region (No: 7) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Region"
+     CATDESC         (CDF_CHAR/17): "[NO PLOTS] Region"
+     LABLAXIS        (CDF_CHAR/6): "Region"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "a8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     VAR_NOTES       (CDF_CHAR/827): "BL    Boundary Layer: mantle here; high B(>5g), +Bx(>4g), low dB, no EM waves BS    Bow Shock [similar to SW] Cal   Calibration period  d(cs) distance to current sheet FF    Fast Flow event [similar to PS] FL    Flare, used when there is some flare background FR    Flow ReversalLB    Lobe: mostly < 1 keV ionsMG    Magnetosphere: ions > 1-5 keV, 1-10 keV electrons (e-) [similar to PS] MS    Magnetosheath: low B (<5g), -Bx, high dB, EM waves, 1+ keV ions PS    Plasma Sheet: 100 eV+ ions, < ~1 keV electrons (e-)RF    Reduced Flow (sec p. 3) Rot   B rotation without boundary in plasma RTO   Repeated Transient Observations Sat   'saturated' plasma instrument readout(s); data was difficult to interpret SW    Solar Wind Gap   No ID available due to a Gap in the data record ?     Unknown No_ID No ID characterizes the period"
+
+RegionID (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "RegionID"
+     CATDESC         (CDF_CHAR/8): "RegionID"
+     VALIDMIN        (CDF_INT2/1): 1
+     VALIDMAX        (CDF_INT2/1): 99
+     SCALEMIN        (CDF_INT2/1): 1
+     SCALEMAX        (CDF_INT2/1): 99
+     LABLAXIS        (CDF_CHAR/8): "RegionID"
+     UNITS           (CDF_CHAR/7): "minutes"
+     FORMAT          (CDF_CHAR/2): "i2"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+RegionNotes (No: 9) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "Region notes"
+     CATDESC         (CDF_CHAR/17): "[NO PLOTS] Region"
+     LABLAXIS        (CDF_CHAR/12): "Region notes"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/3): "a20"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+
+label_startpos (No: 10) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Label for start position"
+     CATDESC         (CDF_CHAR/26): "Label for 3 start position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+label_stoppos (No: 11) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Label for stop position"
+     CATDESC         (CDF_CHAR/25): "Label for 3 stop position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+
+cartesian (No: 12) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Dimension Label"
+     CATDESC         (CDF_CHAR/25): "Label for 3 comp position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/18): "position>direction"
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+

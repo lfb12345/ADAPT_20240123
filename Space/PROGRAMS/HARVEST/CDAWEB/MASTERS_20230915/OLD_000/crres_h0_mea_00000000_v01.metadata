@@ -1,0 +1,552 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/crres_h0_mea_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     crres_h0_mea_00000000_v01.cdf
+Version:      3.8.0
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     26
+NumAttrs:     54 (27 global, 27 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/24): 	"CRRES>Medium Electrons A"
+Project (1 entry):
+	0 (CDF_CHAR/9): 	"CRRES>MEA"
+Discipline (1 entry):
+	0 (CDF_CHAR/40): 	"Space Physics>Trapped Radiation Modeling"
+Source_name (1 entry):
+	0 (CDF_CHAR/57): 	"CRRES Satellite> Magnetic ElectronSpectrometer (MEA) data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/27): 	"MEA> Medium Electron A data"
+TEXT (7 entries):
+	0 (CDF_CHAR/22): 	"CRRES MEA Data Archive"
+	1 (CDF_CHAR/84): 	"This is the re-processed version of the MEA data archive from the CRRES spacecraft. "
+	2 (CDF_CHAR/109): 	"The raw data provided by Principal Investigator A. Vampola have been processed to derive 1 min average data. "
+	3 (CDF_CHAR/138): 	"The data consists of counting rates from 17 energy channels in the range of 0.1-2 MeV and 19 pitch angle bins at 1 minute time intervals. "
+	4 (CDF_CHAR/59): 	"The average flux, 90 degree flux and N value are included. "
+	5 (CDF_CHAR/201): 	"Also included are the spacecraft geographic coordinates and altitude, L shell, and the local and equatorial magnetic field magnitudes from the 1977 Olson-Pfitzer model of the earth's geomagnetic field."
+	6 (CDF_CHAR/143): 	"The raw high resolution (0.512 sec) data and documentation of raw data can be found at: https://spdf.gsfc.nasa.gov/pub/data/crres/particle_mea/"
+MODS (1 entry):
+	0 (CDF_CHAR/16): 	"Created May 2003"
+Data_type (1 entry):
+	0 (CDF_CHAR/24): 	"H0> High Resolution Data"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/22): 	"CRRES-MEA Data Archive"
+PI_name (1 entry):
+	0 (CDF_CHAR/13): 	"A. L. Vampola"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/36): 	"Space Environment Effects, Vista, CA"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"CRRES"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+ADID_ref (0 entry):
+Link_text (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Time_resolution (1 entry):
+	0 (CDF_CHAR/5): 	"1-min"
+Link_title (0 entry):
+HTTP_link (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/12): 	"CRRES_H0_MEA"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/25): 	"CRRES_H0_MEA_19910112_V01"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/36): 	"CRRES_MEA_Processed-Data-H0_1min_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/41): 	"spase://NASA/NumericalData/CRRES/MEA/PT1M"
+
+Variable Attributes (27 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+MONOTON
+VAR_TYPE
+FILLVAL
+DEPEND_0
+DEPEND_1
+DEPEND_2
+FORMAT
+CATDESC
+VAR_NOTES
+DICT_KEY
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+DISPLAY_TYPE
+VIRTUAL
+FUNCTION
+COMPONENT_0
+LABL_PTR_1
+LABL_PTR_2
+
+Variable Information (0 rVariable, 26 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+label_time            CDF_CHAR/27	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+Doy                   CDF_REAL4/1	0:[]	T/  
+Longitude             CDF_REAL4/1	0:[]	T/  
+Latitude              CDF_REAL4/1	0:[]	T/  
+Altitude              CDF_REAL4/1	0:[]	T/  
+L                     CDF_REAL4/1	0:[]	T/  
+Local_Time            CDF_REAL4/1	0:[]	T/  
+B                     CDF_REAL4/1	0:[]	T/  
+MLT                   CDF_REAL4/1	0:[]	T/  
+Inv_Lat               CDF_REAL4/1	0:[]	T/  
+Bmin                  CDF_REAL4/1	0:[]	T/  
+FLUX                  CDF_REAL4/1	2:[19,17]	T/TT
+FLUX_SEL_ENER_SPEC    CDF_REAL4/1	2:[19,17]	T/TT
+energy                CDF_REAL4/1	1:[17]	F/T
+angle                 CDF_REAL4/1	1:[19]	F/T
+energy_of_flux        CDF_CHAR/30	1:[17]	F/T
+angle_of_flux         CDF_CHAR/30	1:[19]	F/T
+J_ave                 CDF_REAL4/1	1:[17]	T/T
+N                     CDF_REAL4/1	1:[17]	T/T
+delta_N               CDF_REAL4/1	1:[17]	T/T
+Jper                  CDF_REAL4/1	1:[17]	T/T
+delta_Jper            CDF_REAL4/1	1:[17]	T/T
+
+
+Variable (26 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-May-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-May-1990 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Jan-2020 00:00:00.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/20): "Time, in NSSDC Epoch"
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Time PB5"
+     VALIDMIN        (CDF_INT4/3): 1990, 0, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 365, 86399000
+     SCALEMIN        (CDF_INT4/3): 1990, 0, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 365, 86399000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/8): "Time PB5"
+     DICT_KEY        (CDF_CHAR/8): "time>PB5"
+     FORM_PTR        (CDF_CHAR/11): "format_data"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+
+unit_time (No: 2) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a5"
+     CATDESC         (CDF_CHAR/18): "Units for Time_PB5"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+label_time (No: 3) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a28"
+     CATDESC         (CDF_CHAR/18): "Label for Time_PB5"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+format_time (No: 4) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "a3"
+     CATDESC         (CDF_CHAR/19): "Format for Time_PB5"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+Doy (No: 5) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "DOY"
+     VALIDMIN        (CDF_REAL4/1): 200.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     SCALEMIN        (CDF_REAL4/1): 200.0
+     SCALEMAX        (CDF_REAL4/1): 1000.0
+     LABLAXIS        (CDF_CHAR/3): "DOY"
+     UNITS           (CDF_CHAR/16): "Day (since 1990)"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "f7.3"
+     CATDESC         (CDF_CHAR/14): "Day since 1990"
+     DICT_KEY        (CDF_CHAR/4): "timw"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Longitude (No: 6) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Longitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 360.0
+     LABLAXIS        (CDF_CHAR/4): "Long"
+     UNITS           (CDF_CHAR/5): "Deg E"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     CATDESC         (CDF_CHAR/9): "Longitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Latitude (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/3): "Lat"
+     UNITS           (CDF_CHAR/5): "Deg N"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     CATDESC         (CDF_CHAR/8): "Latitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Altitude (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "Altitude"
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): 100.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/3): "Alt"
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "f10.2"
+     CATDESC         (CDF_CHAR/8): "Altitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+L (No: 9) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "L value"
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 20.0
+     SCALEMIN        (CDF_REAL4/1): 1.0
+     SCALEMAX        (CDF_REAL4/1): 20.0
+     LABLAXIS        (CDF_CHAR/1): "L"
+     UNITS           (CDF_CHAR/2): "RE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "f8.4"
+     CATDESC         (CDF_CHAR/7): "L value"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Local_Time (No: 10) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "Local Time"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 24.0
+     LABLAXIS        (CDF_CHAR/10): "Local Time"
+     UNITS           (CDF_CHAR/4): "Hour"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "f8.4"
+     CATDESC         (CDF_CHAR/10): "Local Time"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+B (No: 11) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "magnetic field"
+     VALIDMIN        (CDF_REAL4/1): -100000.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): -100000.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/1): "B"
+     UNITS           (CDF_CHAR/2): "nT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "f10.4"
+     CATDESC         (CDF_CHAR/7): "B field"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+MLT (No: 12) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "MLT"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     SCALEMIN        (CDF_REAL4/1): 0.0
+     SCALEMAX        (CDF_REAL4/1): 24.0
+     LABLAXIS        (CDF_CHAR/3): "MLT"
+     UNITS           (CDF_CHAR/4): "Hour"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "f8.4"
+     CATDESC         (CDF_CHAR/3): "MLT"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Inv_Lat (No: 13) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Invariant Latitude"
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): -90.0
+     SCALEMAX        (CDF_REAL4/1): 90.0
+     LABLAXIS        (CDF_CHAR/8): "Inv. Lat"
+     UNITS           (CDF_CHAR/5): "Deg N"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "f6.2"
+     CATDESC         (CDF_CHAR/18): "Invariant Latitude"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Bmin (No: 14) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Mimimum B on field line"
+     VALIDMIN        (CDF_REAL4/1): -100000.0
+     VALIDMAX        (CDF_REAL4/1): 100000.0
+     SCALEMIN        (CDF_REAL4/1): -100000.0
+     SCALEMAX        (CDF_REAL4/1): 100000.0
+     LABLAXIS        (CDF_CHAR/4): "Bmin"
+     UNITS           (CDF_CHAR/2): "nT"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/4): "f8.0"
+     CATDESC         (CDF_CHAR/23): "Mimimum B on field line"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+FLUX (No: 15) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "MEA Flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     UNITS           (CDF_CHAR/18): "1/[cm**2-s-sr-keV]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "angle"
+     DEPEND_2        (CDF_CHAR/6): "energy"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     CATDESC         (CDF_CHAR/26): "MEA FLux (all 17 channels)"
+     SCALETYP        (CDF_CHAR/3): "LOG"
+     DISPLAY_TYPE    (CDF_CHAR/231): "spectrogram>y=angle,z=FLUX(*,1),z=FLUX(*,2),z=FLUX(*,3),z=FLUX(*,4),z=FLUX(*,5),z=FLUX(*,6),z=FLUX(*,7),z=FLUX(*,8),z=FLUX(*,9),z=FLUX(*,10),z=FLUX(*,11),z=FLUX(*,12),z=FLUX(*,13),z=FLUX(*,14),z=FLUX(*,14),z=FLUX(*,16),z=FLUX(*,17)"
+     LABL_PTR_1      (CDF_CHAR/13): "angle_of_flux"
+     LABL_PTR_2      (CDF_CHAR/14): "energy_of_flux"
+
+FLUX_SEL_ENER_SPEC (No: 16) (Recs: 0)
+------------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "MEA Flux"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     UNITS           (CDF_CHAR/18): "1/[cm**2-s-sr-keV]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/5): "angle"
+     DEPEND_2        (CDF_CHAR/6): "energy"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     CATDESC         (CDF_CHAR/28): "MEA FLux (only odd channels)"
+     SCALETYP        (CDF_CHAR/3): "LOG"
+     DISPLAY_TYPE    (CDF_CHAR/257): "spectrogram>y=angle,z=FLUX_SEL_ENER_SPEC(*,1),z=FLUX_SEL_ENER_SPEC(*,3),z=FLUX_SEL_ENER_SPEC(*,5),z=FLUX_SEL_ENER_SPEC(*,7),z=FLUX_SEL_ENER_SPEC(*,9),z=FLUX_SEL_ENER_SPEC(*,11),z=FLUX_SEL_ENER_SPEC(*,13),z=FLUX_SEL_ENER_SPEC(*,15),z=FLUX_SEL_ENER_SPEC(*,17)"
+     VIRTUAL         (CDF_UCHAR/4): "TRUE"
+     FUNCTION        (CDF_CHAR/14): "alternate_view"
+     COMPONENT_0     (CDF_CHAR/4): "FLUX"
+     LABL_PTR_1      (CDF_CHAR/13): "angle_of_flux"
+     LABL_PTR_2      (CDF_CHAR/14): "energy_of_flux"
+
+energy (No: 17) (Recs: 1)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/6): "Energy"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 3000.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 1600.0
+     LABLAXIS        (CDF_CHAR/6): "Energy"
+     UNITS           (CDF_CHAR/3): "keV"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+09
+     FORMAT          (CDF_CHAR/5): "F10.2"
+     CATDESC         (CDF_CHAR/6): "Energy"
+     SCALETYP        (CDF_CHAR/3): "LOG"
+
+angle (No: 18) (Recs: 1)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Angle"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 100.0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 90.0
+     LABLAXIS        (CDF_CHAR/11): "Pitch Angle"
+     UNITS           (CDF_CHAR/6): "degree"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+09
+     FORMAT          (CDF_CHAR/5): "F10.2"
+     CATDESC         (CDF_CHAR/5): "Angle"
+     SCALETYP        (CDF_CHAR/6): "linear"
+
+energy_of_flux (No: 19) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "Energy Channels for MEA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a31"
+     CATDESC         (CDF_CHAR/23): "Energy Channels for MEA"
+
+angle_of_flux (No: 20) (Recs: 1)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Pitch angle ranges for MEA"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "a31"
+     CATDESC         (CDF_CHAR/26): "Pitch angle ranges for MEA"
+
+J_ave (No: 21) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Average MEA flux"
+     VALIDMIN        (CDF_REAL4/1): 0.001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+06
+     SCALEMIN        (CDF_FLOAT/1): 0.01
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+06
+     LABLAXIS        (CDF_CHAR/16): "Average MEA flux"
+     UNITS           (CDF_CHAR/18): "1/[cm**2-s-sr-keV]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "energy"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     CATDESC         (CDF_CHAR/16): "Average MEA flux"
+     SCALETYP        (CDF_CHAR/3): "LOG"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+
+N (No: 22) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "Anisotropicity Indicator"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     SCALEMIN        (CDF_FLOAT/1): -10.0
+     SCALEMAX        (CDF_FLOAT/1): 10.0
+     LABLAXIS        (CDF_CHAR/1): "N"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "energy"
+     FORMAT          (CDF_CHAR/5): "f10.4"
+     CATDESC         (CDF_CHAR/1): "N"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+
+delta_N (No: 23) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Variance of N"
+     VALIDMIN        (CDF_REAL4/1): -100.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     LABLAXIS        (CDF_CHAR/7): "delta_N"
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "energy"
+     FORMAT          (CDF_CHAR/5): "f10.4"
+     CATDESC         (CDF_CHAR/7): "delta_N"
+     SCALETYP        (CDF_CHAR/6): "linear"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+
+Jper (No: 24) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "90 deg MEA flux "
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     SCALEMIN        (CDF_FLOAT/1): 0.01
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+06
+     LABLAXIS        (CDF_CHAR/15): "90 deg MEA flux"
+     UNITS           (CDF_CHAR/18): "1/[cm**2-s-sr-keV]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "energy"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     CATDESC         (CDF_CHAR/15): "90 deg MEA flux"
+     SCALETYP        (CDF_CHAR/3): "LOG"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+
+delta_Jper (No: 25) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/41): "Variance of 90 degree MEA flux at 148 keV"
+     VALIDMIN        (CDF_REAL4/1): 0.0001
+     VALIDMAX        (CDF_REAL4/1): 1.0e+10
+     LABLAXIS        (CDF_CHAR/16): "Variance of Jper"
+     UNITS           (CDF_CHAR/18): "1/[cm**2-s-sr-keV]"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+09
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/6): "energy"
+     FORMAT          (CDF_CHAR/5): "e12.4"
+     CATDESC         (CDF_CHAR/16): "Variance of Jper"
+     SCALETYP        (CDF_CHAR/3): "LOG"
+     DISPLAY_TYPE    (CDF_CHAR/10): "stack_plot"
+

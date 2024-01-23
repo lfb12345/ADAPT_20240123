@@ -1,0 +1,1832 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/c3_cp_pea_moments_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     c3_cp_pea_moments_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     86
+NumAttrs:     88 (55 global, 33 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (55 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/58): 	"STSP Cluster>Solar Terrestrial Science Programmes, Cluster"
+Source_name (1 entry):
+	0 (CDF_CHAR/25): 	"C3>Cluster Satellite No 3"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"CP>CAA Parameter"
+Descriptor (1 entry):
+	0 (CDF_CHAR/33): 	"PEA_MOMENTS>Electron spectrometer"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/1): 	" "
+PI_name (1 entry):
+	0 (CDF_CHAR/17): 	"Andrew Fazakerley"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/4): 	"MSSL"
+TEXT (20 entries):
+	0 (CDF_CHAR/84): 	"The Plasma Electron And Current Experiment (PEACE) instrument is designed to measure"
+	1 (CDF_CHAR/83): 	"the electron velocity distribution in the vicinity of its host spacecraft, covering"
+	2 (CDF_CHAR/86): 	"an energy range of ~1 eV to ~26 keV and detecting electrons arriving from all possible"
+	3 (CDF_CHAR/80): 	"directions. Each PEACE instrument has two sensor heads, LEEA and HEEA, which are"
+	4 (CDF_CHAR/85): 	"mounted on opposite sides of the spacecraft such that the instantaneous field of view"
+	5 (CDF_CHAR/85): 	"of one is the same as that seen by the other half a spacecraft rotation period later."
+	6 (CDF_CHAR/83): 	"LEEA and HEEA differ only in geometric factor (HEEA admits more electrons than LEEA"
+	7 (CDF_CHAR/84): 	"when measuring the same energy range). Both sensors sample 4*pi steradians per spin."
+	8 (CDF_CHAR/81): 	"The full energy range is divided into 88 levels, however only a subset (60 or 30)"
+	9 (CDF_CHAR/76): 	"of those can be sampled by each sensor in a given spin. Full coverage of the"
+	10 (CDF_CHAR/79): 	"energy range may be achieved by using both HEEA and LEEA sensors together, each"
+	11 (CDF_CHAR/71): 	"sampling a different (possibly overlapping) subset of the energy range."
+	12 (CDF_CHAR/77): 	"HEEA will normally cover the upper part of the energy range, since its larger"
+	13 (CDF_CHAR/75): 	"geometric factor enables it to make better measurements of the more diffuse"
+	14 (CDF_CHAR/48): 	"electron population expected at higher energies."
+	15 (CDF_CHAR/78): 	"LEEA is designed to specialise in the coverage of the lowest electron energies"
+	16 (CDF_CHAR/80): 	"(including below 10 eV) but is also capable of covering the full energy range to"
+	17 (CDF_CHAR/75): 	"26 keV.  The LEEA sensor has a smaller geometric factor appropriate for the"
+	18 (CDF_CHAR/80): 	"higher fluxes of electrons usually found at lower energies, though LEEA does not"
+	19 (CDF_CHAR/34): 	"always sample the lowest energies."
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+Mission_group (1 entry):
+	0 (CDF_CHAR/7): 	"Cluster"
+Logical_source (1 entry):
+	0 (CDF_CHAR/17): 	"C3_CP_PEA_MOMENTS"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/52): 	"PEACE MOMENTS data from the HEEA and/or LEEA sensors"
+MISSION (1 entry):
+	0 (CDF_CHAR/7): 	"Cluster"
+MISSION_TIME_SPAN (1 entry):
+	0 (CDF_CHAR/41): 	"2000-07-16T00:00:00Z/2026-08-22T00:00:00Z"
+MISSION_AGENCY (1 entry):
+	0 (CDF_CHAR/3): 	"ESA"
+MISSION_DESCRIPTION (5 entries):
+	0 (CDF_CHAR/87): 	"The aim of the Cluster mission is to study small-scale structures of the magnetosphere "
+	1 (CDF_CHAR/89): 	"and its environment in three dimensions. To achieve this, Cluster is constituted of four "
+	2 (CDF_CHAR/95): 	"identical spacecraft that will flight in a tetrahedral configuration. The separation distances "
+	3 (CDF_CHAR/84): 	"between the spacecraft will be varied between ~3 km and 67 000 km, according to the "
+	4 (CDF_CHAR/23): 	"key scientific regions."
+MISSION_KEY_PERSONNEL (1 entry):
+	0 (CDF_CHAR/70): 	"Philippe Escoubet>Philippe.Escoubet@esa.int >Cluster Project Scientist"
+MISSION_REFERENCES (1 entry):
+	0 (CDF_CHAR/104): 	"The Cluster and Phoenix Missions>Cluster project and instrument teams>Space Sci. Rev. 79, Nos. 1-2, 1997"
+MISSION_REGION (11 entries):
+	0 (CDF_CHAR/10): 	"Solar_Wind"
+	1 (CDF_CHAR/9): 	"Bow_Shock"
+	2 (CDF_CHAR/13): 	"Magnetosheath"
+	3 (CDF_CHAR/12): 	"Magnetopause"
+	4 (CDF_CHAR/13): 	"Magnetosphere"
+	5 (CDF_CHAR/11): 	"Magnetotail"
+	6 (CDF_CHAR/9): 	"Polar_Cap"
+	7 (CDF_CHAR/14): 	"Auroral_Region"
+	8 (CDF_CHAR/4): 	"Cusp"
+	9 (CDF_CHAR/14): 	"Radiation_Belt"
+	10 (CDF_CHAR/12): 	"Plasmasphere"
+MISSION_CAVEATS (1 entry):
+	0 (CDF_CHAR/3): 	"*CL"
+OBSERVATORY (1 entry):
+	0 (CDF_CHAR/9): 	"Cluster-3"
+OBSERVATORY_CAVEATS (16 entries):
+	0 (CDF_CHAR/6): 	"*C3_CQ"
+	1 (CDF_CHAR/36): 	"Main planned commissioning events : "
+	2 (CDF_CHAR/50): 	" - 2000-07-16T12:39Z/2000-07-16T12:39Z :  Launch 1"
+	3 (CDF_CHAR/58): 	" - 2000-07-16T12:39Z/2000-10-18T19:15Z :  SC not at 15 rpm"
+	4 (CDF_CHAR/65): 	" - 2000-07-24T00:00Z/2000-07-24T04:00Z :  ASPOC+CIS cover opening"
+	5 (CDF_CHAR/63): 	" - 2000-08-22T12:09Z/2000-08-22T17:39Z :  FGM Switch-on + tests"
+	6 (CDF_CHAR/96): 	" - 2000-09-05T19:39Z/2000-09-05T20:19Z :  WEC Spin up satellite to 22 rpm + sphere release (B.5)"
+	7 (CDF_CHAR/69): 	" - 2000-10-09T10:35Z/2000-10-09T11:35Z :  WEC First full WEC on (A.4)"
+	8 (CDF_CHAR/83): 	" - 2000-10-11T17:15Z/2000-10-11T18:15Z :  WEC Deploy booms 3 & 4 and  to 15 m (B.3)"
+	9 (CDF_CHAR/89): 	" - 2000-10-11T18:15Z/2000-10-11T19:15Z :  WEC Deploy booms 1 & 2 from 1.3 m to 15 m (B.4)"
+	10 (CDF_CHAR/96): 	" - 2000-10-11T19:15Z/2000-10-11T19:55Z :  WEC Spin up satellite to 22 rpm + sphere release (B.5)"
+	11 (CDF_CHAR/89): 	" - 2000-10-16T16:18Z/2000-10-16T17:18Z :  WEC Deploy booms 3 & 4  from 15 m to 35 m (C.2)"
+	12 (CDF_CHAR/89): 	" - 2000-10-16T17:18Z/2000-10-16T17:48Z :  WEC Deploy booms 1 & 2  from 15 m to 20 m (C.3)"
+	13 (CDF_CHAR/88): 	" - 2000-10-18T15:20Z/2000-10-18T15:55Z :  WEC Deploy booms 3 & 4 from 35 m to 43 m (D.2)"
+	14 (CDF_CHAR/88): 	" - 2000-11-08T14:51Z/2000-11-08T16:01Z :  WEC Deploy booms 1 & 2 from 20 m to 43 m (E.2)"
+	15 (CDF_CHAR/96): 	" - 2000-12-06T11:00Z/2000-12-20T18:30Z :  Interferences + Intercalibration (6 orbits)/ JSOC OBRQ"
+OBSERVATORY_DESCRIPTION (8 entries):
+	0 (CDF_CHAR/17): 	"Cluster-3 (Samba)"
+	1 (CDF_CHAR/21): 	"Launched: 16 Jul 2000"
+	2 (CDF_CHAR/13): 	"ESA Number: 3"
+	3 (CDF_CHAR/20): 	"COSPAR ID: 2000-041A"
+	4 (CDF_CHAR/34): 	"USSPACECOM catalogue number: 26410"
+	5 (CDF_CHAR/13): 	"CSDS Code: C3"
+	6 (CDF_CHAR/16): 	"ESOC FD code: S3"
+	7 (CDF_CHAR/28): 	"ESA Flight Model Number: FM7"
+OBSERVATORY_TIME_SPAN (1 entry):
+	0 (CDF_CHAR/41): 	"2000-07-16T00:00:00Z/2026-08-22T00:00:00Z"
+OBSERVATORY_REGION (11 entries):
+	0 (CDF_CHAR/10): 	"Solar_Wind"
+	1 (CDF_CHAR/9): 	"Bow_Shock"
+	2 (CDF_CHAR/13): 	"Magnetosheath"
+	3 (CDF_CHAR/12): 	"Magnetopause"
+	4 (CDF_CHAR/13): 	"Magnetosphere"
+	5 (CDF_CHAR/11): 	"Magnetotail"
+	6 (CDF_CHAR/9): 	"Polar_Cap"
+	7 (CDF_CHAR/14): 	"Auroral_Region"
+	8 (CDF_CHAR/4): 	"Cusp"
+	9 (CDF_CHAR/14): 	"Radiation_Belt"
+	10 (CDF_CHAR/12): 	"Plasmasphere"
+EXPERIMENT (1 entry):
+	0 (CDF_CHAR/5): 	"PEACE"
+EXPERIMENT_DESCRIPTION (20 entries):
+	0 (CDF_CHAR/84): 	"The Plasma Electron And Current Experiment (PEACE) instrument is designed to measure"
+	1 (CDF_CHAR/83): 	"the electron velocity distribution in the vicinity of its host spacecraft, covering"
+	2 (CDF_CHAR/86): 	"an energy range of ~1 eV to ~26 keV and detecting electrons arriving from all possible"
+	3 (CDF_CHAR/80): 	"directions. Each PEACE instrument has two sensor heads, LEEA and HEEA, which are"
+	4 (CDF_CHAR/85): 	"mounted on opposite sides of the spacecraft such that the instantaneous field of view"
+	5 (CDF_CHAR/85): 	"of one is the same as that seen by the other half a spacecraft rotation period later."
+	6 (CDF_CHAR/83): 	"LEEA and HEEA differ only in geometric factor (HEEA admits more electrons than LEEA"
+	7 (CDF_CHAR/84): 	"when measuring the same energy range). Both sensors sample 4*pi steradians per spin."
+	8 (CDF_CHAR/81): 	"The full energy range is divided into 88 levels, however only a subset (60 or 30)"
+	9 (CDF_CHAR/76): 	"of those can be sampled by each sensor in a given spin. Full coverage of the"
+	10 (CDF_CHAR/79): 	"energy range may be achieved by using both HEEA and LEEA sensors together, each"
+	11 (CDF_CHAR/71): 	"sampling a different (possibly overlapping) subset of the energy range."
+	12 (CDF_CHAR/77): 	"HEEA will normally cover the upper part of the energy range, since its larger"
+	13 (CDF_CHAR/75): 	"geometric factor enables it to make better measurements of the more diffuse"
+	14 (CDF_CHAR/48): 	"electron population expected at higher energies."
+	15 (CDF_CHAR/78): 	"LEEA is designed to specialise in the coverage of the lowest electron energies"
+	16 (CDF_CHAR/80): 	"(including below 10 eV) but is also capable of covering the full energy range to"
+	17 (CDF_CHAR/75): 	"26 keV.  The LEEA sensor has a smaller geometric factor appropriate for the"
+	18 (CDF_CHAR/80): 	"higher fluxes of electrons usually found at lower energies, though LEEA does not"
+	19 (CDF_CHAR/34): 	"always sample the lowest energies."
+INVESTIGATOR_COORDINATES (1 entry):
+	0 (CDF_CHAR/63): 	"Andrew Fazakerley>a.fazakerley@ucl.ac.uk>Principal Investigator"
+EXPERIMENT_REFERENCES (1 entry):
+	0 (CDF_CHAR/63): 	"http://www.mssl.ucl.ac.uk/www_plasma/missions/cluster/index.php"
+EXPERIMENT_KEY_PERSONNEL (2 entries):
+	0 (CDF_CHAR/63): 	"Andrew Fazakerley>a.fazakerley@ucl.ac.uk>Principal Investigator"
+	1 (CDF_CHAR/47): 	"Natasha Doss>n.doss@ucl.ac.uk>Technical Contact"
+INSTRUMENT_NAME (1 entry):
+	0 (CDF_CHAR/6): 	"PEACE3"
+INSTRUMENT_DESCRIPTION (13 entries):
+	0 (CDF_CHAR/77): 	"From 22nd Aug 2005 the C3 HEEA instrument has an individual broken anode     "
+	1 (CDF_CHAR/77): 	"(anode 3 of 12), while the C3 LEEA instrument is fully operational. C3 was   "
+	2 (CDF_CHAR/77): 	"switched from dual-processor to single-processor mode PEACE DPU operations   "
+	3 (CDF_CHAR/77): 	"in May 2013 and has since operated successfully. In single processor mode,   "
+	4 (CDF_CHAR/77): 	"some data products are not available, including on-board moments and 3DX     "
+	5 (CDF_CHAR/77): 	"from HEEA. On-board pitch angles are not working correctly. Also, for certain"
+	6 (CDF_CHAR/77): 	"products, the first spin of data after a mode change has bad values. There is"
+	7 (CDF_CHAR/77): 	"a sensor ID error in the raw C3 3DX data produced with single processor code."
+	8 (CDF_CHAR/77): 	"3DX data is available from LEEA but is labelled as HEEA. We handle these     "
+	9 (CDF_CHAR/77): 	"issues by manipulating the raw data stream. Specifically, we rename the 3DX  "
+	10 (CDF_CHAR/77): 	"Sensor ID to LEEA and we remove the first spin of data after a mode change   "
+	11 (CDF_CHAR/77): 	"for the affected data products. As errors are corrected at the raw data level"
+	12 (CDF_CHAR/77): 	"hence, no changes are required to CAA production codes.                      "
+MEASUREMENT_TYPE (1 entry):
+	0 (CDF_CHAR/14): 	"Thermal_Plasma"
+DATASET_ID (1 entry):
+	0 (CDF_CHAR/17): 	"C3_CP_PEA_MOMENTS"
+DATASET_TITLE (1 entry):
+	0 (CDF_CHAR/52): 	"PEACE MOMENTS data from the HEEA and/or LEEA sensors"
+DATASET_TYPE (1 entry):
+	0 (CDF_CHAR/14): 	"Plasma_Moments"
+DATASET_DESCRIPTION (2 entries):
+	0 (CDF_CHAR/78): 	"This data product contains the electron moments for the PEACE HEEA and/or LEEA"
+	1 (CDF_CHAR/37): 	"sensors on the Cluster C3 spacecraft."
+Time_resolution (1 entry):
+	0 (CDF_CHAR/1): 	"4"
+MIN_TIME_RESOLUTION (1 entry):
+	0 (CDF_CHAR/4): 	"3600"
+MAX_TIME_RESOLUTION (1 entry):
+	0 (CDF_CHAR/1): 	"4"
+PROCESSING_LEVEL (1 entry):
+	0 (CDF_CHAR/10): 	"Calibrated"
+Acknowledgement (3 entries):
+	0 (CDF_CHAR/44): 	"Please acknowledge the PEACE instrument team"
+	1 (CDF_CHAR/30): 	"and ESA Cluster Active Archive"
+	2 (CDF_CHAR/47): 	"in any publication based upon use of this data."
+FILE_TYPE (1 entry):
+	0 (CDF_CHAR/3): 	"cef"
+METADATA_TYPE (1 entry):
+	0 (CDF_CHAR/3): 	"CAA"
+METADATA_VERSION (1 entry):
+	0 (CDF_CHAR/3): 	"2.0"
+VERSION_NUMBER (1 entry):
+	0 (CDF_CHAR/6): 	"140315"
+FILE_TIME_SPAN (1 entry):
+	0 (CDF_CHAR/1): 	" "
+DATASET_VERSION (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generation_date (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Software_version (1 entry):
+	0 (CDF_CHAR/10): 	"SPARTA 1.5"
+Generated_by (1 entry):
+	0 (CDF_CHAR/1): 	" "
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/42): 	"source_datatype_descriptor_yyyyMMdd_HHmmss"
+
+Variable Attributes (33 attributes)
+=========================================
+CATDESC
+UNITS
+SI_conversion
+FILLVAL
+FIELDNAM
+LABLAXIS
+VALIDMIN
+VALIDMAX
+TIME_BASE
+TIME_SCALE
+FORMAT
+VAR_TYPE
+DELTA_MINUS_VAR
+DELTA_PLUS_VAR
+sig_digits
+DEPEND_0
+FRAME
+QUALITY
+SCALEMIN
+SCALEMAX
+SCALETYP
+DISPLAYTYPE
+LABL_PTR_1
+ENTITY
+PROPERTY
+DISPLAY_TYPE
+TENSOR_ORDER
+COORDINATE_SYSTEM
+REPRESENTATION_1
+REPRESENTATION_2
+LABL_PTR_2
+DEPEND_1
+DEPEND_2
+
+Variable Information (0 rVariable, 86 zVariables)
+===========================================================
+time_tags__C3_CP_PEA_MOMENTS CDF_EPOCH/1	0:[]	T/  
+time_tags_DeltaLower__C3_CP_PEA_MOMENTS CDF_FLOAT/1	0:[]	T/  
+time_tags_DeltaUpper__C3_CP_PEA_MOMENTS CDF_FLOAT/1	0:[]	T/  
+Mode_Sensor__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_SweepMode_HEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_Preset_HEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_EnergyLevelRange_HEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[2]	T/T
+Mode_EnergyMaxMin_HEEA__C3_CP_PEA_MOMENTS CDF_FLOAT/1	1:[2]	T/T
+Mode_MCPlevel_HEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_DataOrigin_HEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_SweepMode_LEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_Preset_LEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_EnergyLevelRange_LEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[2]	T/T
+Mode_EnergyMaxMin_LEEA__C3_CP_PEA_MOMENTS CDF_FLOAT/1	1:[2]	T/T
+Mode_MCPlevel_LEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_DataOrigin_LEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_TopRegionSensor__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_OverlapRegionSensor__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Mode_BottomRegionSensor__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Data_Density__C3_CP_PEA_MOMENTS CDF_FLOAT/1	0:[]	T/  
+Data_Velocity_GSE__C3_CP_PEA_MOMENTS CDF_FLOAT/1	1:[3]	T/T
+Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS CDF_FLOAT/1	1:[3]	T/T
+Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS CDF_FLOAT/1	1:[3]	T/T
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS CDF_FLOAT/1	2:[3,3]	T/TT
+Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS CDF_FLOAT/1	1:[3]	T/T
+Data_Temperature_ComponentParallelToMagField__C3_CP_PEA_MOMENTS CDF_FLOAT/1	0:[]	T/  
+Data_Temperature_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS CDF_FLOAT/1	0:[]	T/  
+Status_Quality__C3_CP_PEA_MOMENTS CDF_INT4/1	0:[]	T/  
+Status_Validation__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_CountStats_HEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_CountStats_LEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_ASPOC__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_FGM__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_InterferenceFromEFW__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_InterferenceFromWHI__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_Eclipse__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_DatastreamErrors__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_CalibrationVersionHEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_PEACErawDataHEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_CalibrationVersionLEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_PEACErawDataLEEA__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_PenetratingRadiationRemoved__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_SpacecraftPotential__C3_CP_PEA_MOMENTS CDF_FLOAT/1	1:[3]	T/T
+Status_CalculationMethod__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_IntegrationLowerLimit__C3_CP_PEA_MOMENTS CDF_FLOAT/1	1:[3]	T/T
+Status_IntegrationUpperLimit__C3_CP_PEA_MOMENTS CDF_FLOAT/1	1:[3]	T/T
+Status_WarningPartialCoverage__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_WarningMultiplePopulations__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Status_WarningTimeAliasing__C3_CP_PEA_MOMENTS CDF_INT4/1	1:[3]	T/T
+Mode_EnergyLevelRange_HEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/12	1:[2]	F/T
+Mode_EnergyMaxMin_HEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/11	1:[2]	F/T
+Mode_EnergyLevelRange_LEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/12	1:[2]	F/T
+Mode_EnergyMaxMin_LEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/11	1:[2]	F/T
+Data_Velocity_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1 CDF_CHAR/1	1:[3]	F/T
+Data_Velocity_GSE__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/2	1:[3]	F/T
+Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1 CDF_CHAR/1	1:[3]	F/T
+Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/2	1:[3]	F/T
+Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1 CDF_CHAR/1	1:[3]	F/T
+Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/2	1:[3]	F/T
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1 CDF_CHAR/1	1:[3]	F/T
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_2 CDF_CHAR/1	1:[3]	F/T
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/1	1:[3]	F/T
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_2 CDF_CHAR/1	1:[3]	F/T
+Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1 CDF_CHAR/1	1:[3]	F/T
+Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/2	1:[3]	F/T
+Status_Validation__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_CountStats_HEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_CountStats_LEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_ASPOC__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_FGM__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_InterferenceFromEFW__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_InterferenceFromWHI__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_Eclipse__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_DatastreamErrors__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_CalibrationVersionHEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_PEACErawDataHEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_CalibrationVersionLEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_PEACErawDataLEEA__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_PenetratingRadiationRemoved__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_SpacecraftPotential__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_CalculationMethod__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_IntegrationLowerLimit__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_IntegrationUpperLimit__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_WarningPartialCoverage__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_WarningMultiplePopulations__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+Status_WarningTimeAliasing__C3_CP_PEA_MOMENTS_LABEL_1 CDF_CHAR/40	1:[3]	F/T
+
+
+Variable (86 variables)
+=========================================
+
+time_tags__C3_CP_PEA_MOMENTS (No: 0) (Recs: 0)
+----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "Epoch Time of PEACE data record (for one PEACE spin)"
+     UNITS           (CDF_CHAR/2): "ms"
+     SI_conversion   (CDF_CHAR/8): "1.0e-3>s"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     FIELDNAM        (CDF_CHAR/18): "C3 PEA: Data Epoch"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VALIDMIN        (CDF_EPOCH/1): 16-Jul-2000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 22-Aug-2026 00:00:00.000
+     TIME_BASE       (CDF_CHAR/3): "0AD"
+     TIME_SCALE      (CDF_CHAR/3): "UTC"
+     FORMAT          (CDF_CHAR/3): "A24"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DELTA_MINUS_VAR (CDF_CHAR/39): "time_tags_DeltaLower__C3_CP_PEA_MOMENTS"
+     DELTA_PLUS_VAR  (CDF_CHAR/39): "time_tags_DeltaUpper__C3_CP_PEA_MOMENTS"
+     sig_digits      (CDF_INT4/1): 24
+
+time_tags_DeltaLower__C3_CP_PEA_MOMENTS (No: 1) (Recs: 0)
+---------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Actual Lower Epoch Edge = time_tags - time_tags_DeltaLower"
+     UNITS           (CDF_CHAR/1): "s"
+     SI_conversion   (CDF_CHAR/5): "1.0>s"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/30): "C3 PEA: Data Epoch Lower Delta"
+     LABLAXIS        (CDF_CHAR/17): "Epoch Lower Delta"
+     VALIDMIN        (CDF_FLOAT/1): 2.0
+     VALIDMAX        (CDF_FLOAT/1): 2.1435
+     FORMAT          (CDF_CHAR/2): "F4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 4
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+
+time_tags_DeltaUpper__C3_CP_PEA_MOMENTS (No: 2) (Recs: 0)
+---------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/58): "Actual Upper Epoch Edge = time_tags + time_tags_DeltaUpper"
+     UNITS           (CDF_CHAR/1): "s"
+     SI_conversion   (CDF_CHAR/5): "1.0>s"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/30): "C3 PEA: Data Epoch Upper Delta"
+     LABLAXIS        (CDF_CHAR/17): "Epoch Upper Delta"
+     VALIDMIN        (CDF_FLOAT/1): 2.0
+     VALIDMAX        (CDF_FLOAT/1): 2.1435
+     FORMAT          (CDF_CHAR/2): "F4"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 4
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+
+Mode_Sensor__C3_CP_PEA_MOMENTS (No: 3) (Recs: 0)
+------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/72): "PEACE Sensor from which Data is collected (0 = HEEA, 1 = LEEA, 2 = Both)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/37): "C3 PEA: Sensor (0=HEEA,1=LEEA,2=Both)"
+     LABLAXIS        (CDF_CHAR/6): "Sensor"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 1
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_SweepMode_HEEA__C3_CP_PEA_MOMENTS (No: 4) (Recs: 0)
+--------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "PEACE Sweep Mode (0 = Off/Fixed, 1 = LAR, 2 = HAR, 3 = MAR)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/23): "C3 PEA HEEA: Sweep Mode"
+     LABLAXIS        (CDF_CHAR/16): "HEEA: Sweep Mode"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 3
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 1
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 3
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_Preset_HEEA__C3_CP_PEA_MOMENTS (No: 5) (Recs: 0)
+-----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "The Energy level aimed for during flyback (always larger than Mode_EnergyLevelRange)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/25): "C3 PEA HEEA: Preset level"
+     LABLAXIS        (CDF_CHAR/18): "HEEA: Preset level"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 91
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 91
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_EnergyLevelRange_HEEA__C3_CP_PEA_MOMENTS (No: 6) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/91): "Sweep Energy Level range: the subset of the 88 energy bins measured (not including flyback)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/32): "C3 PEA HEEA: Sweep Energy Levels"
+     LABLAXIS        (CDF_CHAR/25): "HEEA: Sweep Energy Levels"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 88
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 88
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/53): "Mode_EnergyLevelRange_HEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Mode_EnergyMaxMin_HEEA__C3_CP_PEA_MOMENTS (No: 7) (Recs: 0)
+-----------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/85): "The energy range (in eV) of electrons measured in a spin, expressed as Max. then Min."
+     UNITS           (CDF_CHAR/2): "eV"
+     SI_conversion   (CDF_CHAR/16): "1.60217646E-19>J"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/30): "C3 PEA HEEA: Energy Range (eV)"
+     LABLAXIS        (CDF_CHAR/23): "HEEA: Energy Range (eV)"
+     VALIDMIN        (CDF_FLOAT/1): 0.1
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.1
+     SCALEMAX        (CDF_FLOAT/1): 30000.0
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/49): "Mode_EnergyMaxMin_HEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Mode_MCPlevel_HEEA__C3_CP_PEA_MOMENTS (No: 8) (Recs: 0)
+-------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "MCP Level: Related to sensor gain (i.e. increase level and gain increases)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/22): "C3 PEA HEEA: MCP Level"
+     LABLAXIS        (CDF_CHAR/15): "HEEA: MCP Level"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 31
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 31
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_DataOrigin_HEEA__C3_CP_PEA_MOMENTS (No: 9) (Recs: 0)
+---------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Data Origin"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/24): "C3 PEA HEEA: Data Origin"
+     LABLAXIS        (CDF_CHAR/17): "HEEA: Data Origin"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 22
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 22
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_SweepMode_LEEA__C3_CP_PEA_MOMENTS (No: 10) (Recs: 0)
+--------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "PEACE Sweep Mode ( 0 = Off/Fixed, 1 = LAR, 2 = HAR, 3 = MAR )"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/23): "C3 PEA LEEA: Sweep Mode"
+     LABLAXIS        (CDF_CHAR/16): "LEEA: Sweep Mode"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 3
+     FORMAT          (CDF_CHAR/2): "I1"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 1
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 3
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_Preset_LEEA__C3_CP_PEA_MOMENTS (No: 11) (Recs: 0)
+-----------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/84): "The Energy level aimed for during flyback (always larger than Mode_EnergyLevelRange)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/25): "C3 PEA LEEA: Preset level"
+     LABLAXIS        (CDF_CHAR/18): "LEEA: Preset level"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 91
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 91
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_EnergyLevelRange_LEEA__C3_CP_PEA_MOMENTS (No: 12) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/91): "Sweep Energy Level range: the subset of the 88 energy bins measured (not including flyback)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/32): "C3 PEA LEEA: Sweep Energy Levels"
+     LABLAXIS        (CDF_CHAR/32): "C3 PEA LEEA: Sweep Energy Levels"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 88
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 88
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/53): "Mode_EnergyLevelRange_LEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Mode_EnergyMaxMin_LEEA__C3_CP_PEA_MOMENTS (No: 13) (Recs: 0)
+-----------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/85): "The energy range (in eV) of electrons measured in a spin, expressed as Max. then Min."
+     UNITS           (CDF_CHAR/2): "eV"
+     SI_conversion   (CDF_CHAR/16): "1.60217646E-19>J"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/30): "C3 PEA LEEA: Energy Range (eV)"
+     LABLAXIS        (CDF_CHAR/30): "C3 PEA LEEA: Energy Range (eV)"
+     VALIDMIN        (CDF_FLOAT/1): 0.1
+     VALIDMAX        (CDF_FLOAT/1): 30000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.1
+     SCALEMAX        (CDF_FLOAT/1): 30000.0
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/49): "Mode_EnergyMaxMin_LEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Mode_MCPlevel_LEEA__C3_CP_PEA_MOMENTS (No: 14) (Recs: 0)
+-------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/74): "MCP Level: Related to sensor gain (i.e. increase level and gain increases)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/22): "C3 PEA LEEA: MCP Level"
+     LABLAXIS        (CDF_CHAR/22): "C3 PEA LEEA: MCP Level"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 31
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 31
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_DataOrigin_LEEA__C3_CP_PEA_MOMENTS (No: 15) (Recs: 0)
+---------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Data Origin"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/24): "C3 PEA LEEA: Data Origin"
+     LABLAXIS        (CDF_CHAR/24): "C3 PEA LEEA: Data Origin"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 22
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 22
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_TopRegionSensor__C3_CP_PEA_MOMENTS (No: 16) (Recs: 0)
+---------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Sensor used for Top Region (0 = HEEA, 1 = LEEA , 2 = average)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/25): "C3 PEA: Top Region Sensor"
+     LABLAXIS        (CDF_CHAR/25): "C3 PEA: Top Region Sensor"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_OverlapRegionSensor__C3_CP_PEA_MOMENTS (No: 17) (Recs: 0)
+-------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/64): "Sensor used for Overlap Region (0 = HEEA, 1 = LEEA, 2 = average)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/29): "C3 PEA: Overlap Region Sensor"
+     LABLAXIS        (CDF_CHAR/29): "C3 PEA: Overlap Region Sensor"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Mode_BottomRegionSensor__C3_CP_PEA_MOMENTS (No: 18) (Recs: 0)
+------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/63): "Sensor used for Bottom Region (0 = HEEA, 1 = LEEA, 2 = average)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/28): "C3 PEA: Bottom Region Sensor"
+     LABLAXIS        (CDF_CHAR/28): "C3 PEA: Bottom Region Sensor"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Data_Density__C3_CP_PEA_MOMENTS (No: 19) (Recs: 0)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/22): "C3 MOMENTS density (n)"
+     UNITS           (CDF_CHAR/5): "cm^-3"
+     SI_conversion   (CDF_CHAR/21): "1.0E6>(particles)m^-3"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FIELDNAM        (CDF_CHAR/23): "C3 PEA: MOMENTS Density"
+     LABLAXIS        (CDF_CHAR/23): "C3 PEA: MOMENTS Density"
+     VALIDMIN        (CDF_FLOAT/1): 0.001
+     VALIDMAX        (CDF_FLOAT/1): 2000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_CHAR/33): "Status_Quality__C3_CP_PEA_MOMENTS"
+     SCALEMIN        (CDF_FLOAT/1): 0.001
+     SCALEMAX        (CDF_FLOAT/1): 2000.0
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/14): "Number_Density"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Data_Velocity_GSE__C3_CP_PEA_MOMENTS (No: 20) (Recs: 0)
+------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "C3 MOMENTS GSE Velocity (v)"
+     UNITS           (CDF_CHAR/7): "km s^-1"
+     SI_conversion   (CDF_CHAR/12): "1.0E3>m s^-1"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FIELDNAM        (CDF_CHAR/28): "C3 PEA: MOMENTS GSE Velocity"
+     LABLAXIS        (CDF_CHAR/28): "C3 PEA: MOMENTS GSE Velocity"
+     VALIDMIN        (CDF_FLOAT/1): -500000.0
+     VALIDMAX        (CDF_FLOAT/1): 500000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/14): "vector>gse_xyz"
+     QUALITY         (CDF_CHAR/33): "Status_Quality__C3_CP_PEA_MOMENTS"
+     SCALEMIN        (CDF_FLOAT/1): -500000.0
+     SCALEMAX        (CDF_FLOAT/1): 500000.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/44): "Data_Velocity_GSE__C3_CP_PEA_MOMENTS_LABEL_1"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/8): "Velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     TENSOR_ORDER    (CDF_INT4/1): 1
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     REPRESENTATION_1 (CDF_CHAR/53): "Data_Velocity_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+
+Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS (No: 21) (Recs: 0)
+------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "C3 MOMENTS parallel velocity (v_para)"
+     UNITS           (CDF_CHAR/7): "km s^-1"
+     SI_conversion   (CDF_CHAR/12): "1.0E3>m s^-1"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FIELDNAM        (CDF_CHAR/29): "C3 PEA: MOMENTS Para Velocity"
+     LABLAXIS        (CDF_CHAR/29): "C3 PEA: MOMENTS Para Velocity"
+     VALIDMIN        (CDF_FLOAT/1): -500000.0
+     VALIDMAX        (CDF_FLOAT/1): 500000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/14): "vector>gse_xyz"
+     QUALITY         (CDF_CHAR/33): "Status_Quality__C3_CP_PEA_MOMENTS"
+     SCALEMIN        (CDF_FLOAT/1): -500000.0
+     SCALEMAX        (CDF_FLOAT/1): 500000.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/68): "Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_LABEL_1"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/8): "Velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     TENSOR_ORDER    (CDF_INT4/1): 1
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     REPRESENTATION_1 (CDF_CHAR/77): "Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+
+Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS (No: 22) (Recs: 0)
+-----------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "C3 MOMENTS perpendicular velocity (v_perp)"
+     UNITS           (CDF_CHAR/7): "km s^-1"
+     SI_conversion   (CDF_CHAR/12): "1.0E3>m s^-1"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FIELDNAM        (CDF_CHAR/29): "C3 PEA: MOMENTS Perp Velocity"
+     LABLAXIS        (CDF_CHAR/29): "C3 PEA: MOMENTS Perp Velocity"
+     VALIDMIN        (CDF_FLOAT/1): -500000.0
+     VALIDMAX        (CDF_FLOAT/1): 500000.0
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/14): "vector>gse_xyz"
+     QUALITY         (CDF_CHAR/33): "Status_Quality__C3_CP_PEA_MOMENTS"
+     SCALEMIN        (CDF_FLOAT/1): -500000.0
+     SCALEMAX        (CDF_FLOAT/1): 500000.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/73): "Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_LABEL_1"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/8): "Velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     TENSOR_ORDER    (CDF_INT4/1): 1
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     REPRESENTATION_1 (CDF_CHAR/82): "Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS (No: 23) (Recs: 0)
+------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "C3 MOMENTS GSE Pressure tensor (P)"
+     UNITS           (CDF_CHAR/3): "nPa"
+     SI_conversion   (CDF_CHAR/9): "1.0E-9>Pa"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FIELDNAM        (CDF_CHAR/28): "C3 PEA: MOMENTS GSE Pressure"
+     LABLAXIS        (CDF_CHAR/28): "C3 PEA: MOMENTS GSE Pressure"
+     VALIDMIN        (CDF_FLOAT/1): -5.0e+20
+     VALIDMAX        (CDF_FLOAT/1): 5.0e+20
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/14): "vector>gse_xyz"
+     QUALITY         (CDF_CHAR/33): "Status_Quality__C3_CP_PEA_MOMENTS"
+     SCALEMIN        (CDF_FLOAT/1): -5.0e+20
+     SCALEMAX        (CDF_FLOAT/1): 5.0e+20
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/44): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_1"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/15): "Pressure_Tensor"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     TENSOR_ORDER    (CDF_INT4/1): 2
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     REPRESENTATION_1 (CDF_CHAR/53): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     REPRESENTATION_2 (CDF_CHAR/53): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_2"
+     LABL_PTR_2      (CDF_CHAR/44): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_2"
+     DEPEND_1        (CDF_CHAR/53): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     DEPEND_2        (CDF_CHAR/53): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_2"
+
+Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS (No: 24) (Recs: 0)
+------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "C3 MOMENTS GSE heat flux vector (H)"
+     UNITS           (CDF_CHAR/11): "microW m^-2"
+     SI_conversion   (CDF_CHAR/13): "1.0E-6>W m^-2"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FIELDNAM        (CDF_CHAR/29): "C3 PEA: MOMENTS GSE Heat Flux"
+     LABLAXIS        (CDF_CHAR/29): "C3 PEA: MOMENTS GSE Heat Flux"
+     VALIDMIN        (CDF_FLOAT/1): -1.0e+28
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+28
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/14): "vector>gse_xyz"
+     QUALITY         (CDF_CHAR/33): "Status_Quality__C3_CP_PEA_MOMENTS"
+     SCALEMIN        (CDF_FLOAT/1): -1.0e+28
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+28
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/44): "Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_LABEL_1"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/9): "Heat_Flux"
+     DISPLAY_TYPE    (CDF_CHAR/7): "no_plot"
+     TENSOR_ORDER    (CDF_INT4/1): 1
+     COORDINATE_SYSTEM (CDF_CHAR/29): "GSE>Geocentric Solar Ecliptic"
+     REPRESENTATION_1 (CDF_CHAR/53): "Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+
+Data_Temperature_ComponentParallelToMagField__C3_CP_PEA_MOMENTS (No: 25) (Recs: 0)
+---------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "C3 MOMENTS parallel temperature (T_para)"
+     UNITS           (CDF_CHAR/2): "MK"
+     SI_conversion   (CDF_CHAR/7): "1.0E6>K"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FIELDNAM        (CDF_CHAR/32): "C3 PEA: MOMENTS Para Temperature"
+     LABLAXIS        (CDF_CHAR/32): "C3 PEA: MOMENTS Para Temperature"
+     VALIDMIN        (CDF_FLOAT/1): 10.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_CHAR/33): "Status_Quality__C3_CP_PEA_MOMENTS"
+     SCALEMIN        (CDF_FLOAT/1): 10.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/11): "Temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Data_Temperature_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS (No: 26) (Recs: 0)
+--------------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "C3 MOMENTS perpendicular temperature (T_perp)"
+     UNITS           (CDF_CHAR/2): "MK"
+     SI_conversion   (CDF_CHAR/7): "1.0E6>K"
+     FILLVAL         (CDF_FLOAT/1): -1.0e+31
+     FIELDNAM        (CDF_CHAR/32): "C3 PEA: MOMENTS Perp Temperature"
+     LABLAXIS        (CDF_CHAR/32): "C3 PEA: MOMENTS Perp Temperature"
+     VALIDMIN        (CDF_FLOAT/1): 10.0
+     VALIDMAX        (CDF_FLOAT/1): 1.0e+10
+     FORMAT          (CDF_CHAR/2): "F8"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     sig_digits      (CDF_INT4/1): 8
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/9): "scalar>na"
+     QUALITY         (CDF_CHAR/33): "Status_Quality__C3_CP_PEA_MOMENTS"
+     SCALEMIN        (CDF_FLOAT/1): 10.0
+     SCALEMAX        (CDF_FLOAT/1): 1.0e+10
+     SCALETYP        (CDF_CHAR/3): "Log"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     ENTITY          (CDF_CHAR/8): "Electron"
+     PROPERTY        (CDF_CHAR/11): "Temperature"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Status_Quality__C3_CP_PEA_MOMENTS (No: 27) (Recs: 0)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "C3 PEA Status Values for Quality"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/17): "Data quality flag"
+     LABLAXIS        (CDF_CHAR/7): "Quality"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 1
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 255
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+
+Status_Validation__C3_CP_PEA_MOMENTS (No: 28) (Recs: 0)
+------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/43): "C3 PEA Status Values for Type of Validation"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/44): "C3 PEA: Status Values for Type of Validation"
+     LABLAXIS        (CDF_CHAR/43): "C3 PEA: Status Value for Type of Validation"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 255
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 255
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/44): "Status_Validation__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_CountStats_HEEA__C3_CP_PEA_MOMENTS (No: 29) (Recs: 0)
+-----------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "C3 PEA HEEA Status Values for Count Statistics"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/47): "C3 PEA HEEA: Status Values for Count Statistics"
+     LABLAXIS        (CDF_CHAR/40): "C3 PEA HEEA: Status Value for CountStats"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/49): "Status_CountStats_HEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_CountStats_LEEA__C3_CP_PEA_MOMENTS (No: 30) (Recs: 0)
+-----------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/46): "C3 PEA LEEA Status Values for Count Statistics"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/47): "C3 PEA LEEA: Status Values for Count Statistics"
+     LABLAXIS        (CDF_CHAR/40): "C3 PEA LEEA: Status Value for CountStats"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/49): "Status_CountStats_LEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_ASPOC__C3_CP_PEA_MOMENTS (No: 31) (Recs: 0)
+-------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/30): "C3 PEA Status Values for ASPOC"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/31): "C3 PEA: Status Values for ASPOC"
+     LABLAXIS        (CDF_CHAR/30): "C3 PEA: Status Value for ASPOC"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 1
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/39): "Status_ASPOC__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_FGM__C3_CP_PEA_MOMENTS (No: 32) (Recs: 0)
+-----------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "C3 PEA Status Values for FGM"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/29): "C3 PEA: Status Values for FGM"
+     LABLAXIS        (CDF_CHAR/28): "C3 PEA: Status Value for FGM"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 1
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/37): "Status_FGM__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_InterferenceFromEFW__C3_CP_PEA_MOMENTS (No: 33) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "C3 PEA Status Values for Interference caused by EFW"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/52): "C3 PEA: Status Values for Interference caused by EFW"
+     LABLAXIS        (CDF_CHAR/44): "C3 PEA: Status Value for InterferenceFromEFW"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 1
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/53): "Status_InterferenceFromEFW__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_InterferenceFromWHI__C3_CP_PEA_MOMENTS (No: 34) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/52): "C3 LEEA Status Values for Interference caused by EFW"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/52): "C3 PEA: Status Values for Interference caused by WHI"
+     LABLAXIS        (CDF_CHAR/44): "C3 PEA: Status Value for InterferenceFromWHI"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 1
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/53): "Status_InterferenceFromWHI__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_Eclipse__C3_CP_PEA_MOMENTS (No: 35) (Recs: 0)
+---------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/32): "C3 PEA Status Values for Eclipse"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/25): "Status Values for Eclipse"
+     LABLAXIS        (CDF_CHAR/24): "Status Value for Eclipse"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 2
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 1
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/41): "Status_Eclipse__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_DatastreamErrors__C3_CP_PEA_MOMENTS (No: 36) (Recs: 0)
+------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "C3 PEA Status Values for DatastreamErrors"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/43): "C3 PEA: Status Values for Datastream Errors"
+     LABLAXIS        (CDF_CHAR/41): "C3 PEA: Status Value for DatastreamErrors"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/50): "Status_DatastreamErrors__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_CalibrationVersionHEEA__C3_CP_PEA_MOMENTS (No: 37) (Recs: 0)
+------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "C3 PEA Status Values for HEEA Calibration Version"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/50): "C3 PEA: Status Values for HEEA Calibration Version"
+     LABLAXIS        (CDF_CHAR/47): "C3 PEA: Status Value for CalibrationVersionHEEA"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/56): "Status_CalibrationVersionHEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_PEACErawDataHEEA__C3_CP_PEA_MOMENTS (No: 38) (Recs: 0)
+------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "C3 PEA Status Values for HEEA raw data"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/39): "C3 PEA: Status Values for HEEA raw data"
+     LABLAXIS        (CDF_CHAR/36): "C3 PEA: Status Value for rawDataHEEA"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/50): "Status_PEACErawDataHEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_CalibrationVersionLEEA__C3_CP_PEA_MOMENTS (No: 39) (Recs: 0)
+------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "C3 PEA Status Values for LEEA Calibration Version"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/50): "C3 PEA: Status Values for LEEA Calibration Version"
+     LABLAXIS        (CDF_CHAR/47): "C3 PEA: Status Value for CalibrationVersionLEEA"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/56): "Status_CalibrationVersionLEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_PEACErawDataLEEA__C3_CP_PEA_MOMENTS (No: 40) (Recs: 0)
+------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "C3 PEA Status Values for LEEA raw data"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/39): "C3 PEA: Status Values for LEEA raw data"
+     LABLAXIS        (CDF_CHAR/36): "C3 PEA: Status Value for rawDataLEEA"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/50): "Status_PEACErawDataLEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_PenetratingRadiationRemoved__C3_CP_PEA_MOMENTS (No: 41) (Recs: 0)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/70): "C3 PEA Status Value indicating penetrating radiation removed from data"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/51): "C3 PEA: Status Values Penetrating Radiation Removed"
+     LABLAXIS        (CDF_CHAR/48): "C3 PEA: Status Value PenetratingRadiationRemoved"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/61): "Status_PenetratingRadiationRemoved__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_SpacecraftPotential__C3_CP_PEA_MOMENTS (No: 42) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "C3 PEA Status value for Spacecraft Potential"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/28): "C3 PEA: Spacecraft Potential"
+     LABLAXIS        (CDF_CHAR/27): "C3 PEA: SpacecraftPotential"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 2.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/53): "Status_SpacecraftPotential__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_CalculationMethod__C3_CP_PEA_MOMENTS (No: 43) (Recs: 0)
+-------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "C3 PEA Status Values indicating Calculation Method used"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/40): "C3 PEA: Status Values Calculation Method"
+     LABLAXIS        (CDF_CHAR/38): "C3 PEA: Status Value CalculationMethod"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/51): "Status_CalculationMethod__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_IntegrationLowerLimit__C3_CP_PEA_MOMENTS (No: 44) (Recs: 0)
+-----------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "C3 PEA Integration Lower Limit (in eV)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/31): "C3 PEA: Integration Lower Limit"
+     LABLAXIS        (CDF_CHAR/29): "C3 PEA: IntegrationLowerLimit"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 2.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/55): "Status_IntegrationLowerLimit__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_IntegrationUpperLimit__C3_CP_PEA_MOMENTS (No: 45) (Recs: 0)
+-----------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/38): "C3 PEA Integration Upper Limit (in eV)"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_FLOAT/1): -1.0
+     FIELDNAM        (CDF_CHAR/31): "C3 PEA: Integration Upper Limit"
+     LABLAXIS        (CDF_CHAR/29): "C3 PEA: IntegrationUpperLimit"
+     VALIDMIN        (CDF_FLOAT/1): 0.0
+     VALIDMAX        (CDF_FLOAT/1): 2.0
+     FORMAT          (CDF_CHAR/2): "F3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_FLOAT/1): 0.0
+     SCALEMAX        (CDF_FLOAT/1): 2.0
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/55): "Status_IntegrationUpperLimit__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_WarningPartialCoverage__C3_CP_PEA_MOMENTS (No: 46) (Recs: 0)
+------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/45): "C3 PEA Status Values Warning Partial Coverage"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/46): "C3 PEA: Status Values Warning Partial Coverage"
+     LABLAXIS        (CDF_CHAR/43): "C3 PEA: Status Value WarningPartialCoverage"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/56): "Status_WarningPartialCoverage__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_WarningMultiplePopulations__C3_CP_PEA_MOMENTS (No: 47) (Recs: 0)
+----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "C3 PEA Status Values Warning Multiple Populations"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/50): "C3 PEA: Status Values Warning Multiple Populations"
+     LABLAXIS        (CDF_CHAR/47): "C3 PEA: Status Value WarningMultiplePopulations"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/60): "Status_WarningMultiplePopulations__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Status_WarningTimeAliasing__C3_CP_PEA_MOMENTS (No: 48) (Recs: 0)
+---------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/42): "C3 PEA Status Values Warning Time Aliasing"
+     UNITS           (CDF_CHAR/1): " "
+     SI_conversion   (CDF_CHAR/10): "1>unitless"
+     FILLVAL         (CDF_INT4/1): -1
+     FIELDNAM        (CDF_CHAR/43): "C3 PEA: Status Values Warning Time Aliasing"
+     LABLAXIS        (CDF_CHAR/40): "C3 PEA: Status Value WarningTimeAliasing"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 2
+     FORMAT          (CDF_CHAR/2): "I3"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     sig_digits      (CDF_INT4/1): 3
+     DEPEND_0        (CDF_CHAR/28): "time_tags__C3_CP_PEA_MOMENTS"
+     FRAME           (CDF_CHAR/8): "array>na"
+     QUALITY         (CDF_INT4/1): 0
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 2
+     SCALETYP        (CDF_CHAR/6): "Linear"
+     DISPLAYTYPE     (CDF_CHAR/11): "Time_Series"
+     LABL_PTR_1      (CDF_CHAR/53): "Status_WarningTimeAliasing__C3_CP_PEA_MOMENTS_LABEL_1"
+
+Mode_EnergyLevelRange_HEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 49) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Mode_EnergyLevelRange_HEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Mode_EnergyLevelRange_HEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A12"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Mode_EnergyMaxMin_HEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 50) (Recs: 1)
+-------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Mode_EnergyMaxMin_HEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/49): "Mode_EnergyMaxMin_HEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Mode_EnergyLevelRange_LEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 51) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Mode_EnergyLevelRange_LEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Mode_EnergyLevelRange_LEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A12"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Mode_EnergyMaxMin_LEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 52) (Recs: 1)
+-------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Mode_EnergyMaxMin_LEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/49): "Mode_EnergyMaxMin_LEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Velocity_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1 (No: 53) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Data_Velocity_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Data_Velocity_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Velocity_GSE__C3_CP_PEA_MOMENTS_LABEL_1 (No: 54) (Recs: 1)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Data_Velocity_GSE__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/44): "Data_Velocity_GSE__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1 (No: 55) (Recs: 1)
+-----------------------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/77): "Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/77): "Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_LABEL_1 (No: 56) (Recs: 1)
+--------------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/68): "Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/68): "Data_Velocity_ComponentParallelToMagField__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1 (No: 57) (Recs: 1)
+----------------------------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/82): "Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_LABEL_1 (No: 58) (Recs: 1)
+-------------------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/73): "Data_Velocity_ComponentPerpendicularToMagField__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1 (No: 59) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_2 (No: 60) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_2"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_2"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_1 (No: 61) (Recs: 1)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/44): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_2 (No: 62) (Recs: 1)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_2"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/44): "Data_Pressure_GSE__C3_CP_PEA_MOMENTS_LABEL_2"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1 (No: 63) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_REPRESENTATION_1"
+     FORMAT          (CDF_CHAR/2): "A1"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_LABEL_1 (No: 64) (Recs: 1)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/44): "Data_HeatFlux_GSE__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/2): "A2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_Validation__C3_CP_PEA_MOMENTS_LABEL_1 (No: 65) (Recs: 1)
+--------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Status_Validation__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/44): "Status_Validation__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_CountStats_HEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 66) (Recs: 1)
+-------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Status_CountStats_HEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/49): "Status_CountStats_HEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_CountStats_LEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 67) (Recs: 1)
+-------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Status_CountStats_LEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/49): "Status_CountStats_LEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_ASPOC__C3_CP_PEA_MOMENTS_LABEL_1 (No: 68) (Recs: 1)
+---------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/39): "Status_ASPOC__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/39): "Status_ASPOC__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_FGM__C3_CP_PEA_MOMENTS_LABEL_1 (No: 69) (Recs: 1)
+-------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "Status_FGM__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/37): "Status_FGM__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_InterferenceFromEFW__C3_CP_PEA_MOMENTS_LABEL_1 (No: 70) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Status_InterferenceFromEFW__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Status_InterferenceFromEFW__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_InterferenceFromWHI__C3_CP_PEA_MOMENTS_LABEL_1 (No: 71) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Status_InterferenceFromWHI__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Status_InterferenceFromWHI__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_Eclipse__C3_CP_PEA_MOMENTS_LABEL_1 (No: 72) (Recs: 1)
+-----------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/41): "Status_Eclipse__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/41): "Status_Eclipse__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_DatastreamErrors__C3_CP_PEA_MOMENTS_LABEL_1 (No: 73) (Recs: 1)
+--------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "Status_DatastreamErrors__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/50): "Status_DatastreamErrors__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_CalibrationVersionHEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 74) (Recs: 1)
+--------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Status_CalibrationVersionHEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/56): "Status_CalibrationVersionHEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_PEACErawDataHEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 75) (Recs: 1)
+--------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "Status_PEACErawDataHEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/50): "Status_PEACErawDataHEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_CalibrationVersionLEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 76) (Recs: 1)
+--------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Status_CalibrationVersionLEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/56): "Status_CalibrationVersionLEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_PEACErawDataLEEA__C3_CP_PEA_MOMENTS_LABEL_1 (No: 77) (Recs: 1)
+--------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/50): "Status_PEACErawDataLEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/50): "Status_PEACErawDataLEEA__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_PenetratingRadiationRemoved__C3_CP_PEA_MOMENTS_LABEL_1 (No: 78) (Recs: 1)
+-------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Status_PenetratingRadiationRemoved__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/61): "Status_PenetratingRadiationRemoved__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_SpacecraftPotential__C3_CP_PEA_MOMENTS_LABEL_1 (No: 79) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Status_SpacecraftPotential__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Status_SpacecraftPotential__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_CalculationMethod__C3_CP_PEA_MOMENTS_LABEL_1 (No: 80) (Recs: 1)
+---------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "Status_CalculationMethod__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/51): "Status_CalculationMethod__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_IntegrationLowerLimit__C3_CP_PEA_MOMENTS_LABEL_1 (No: 81) (Recs: 1)
+-------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Status_IntegrationLowerLimit__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/55): "Status_IntegrationLowerLimit__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_IntegrationUpperLimit__C3_CP_PEA_MOMENTS_LABEL_1 (No: 82) (Recs: 1)
+-------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "Status_IntegrationUpperLimit__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/55): "Status_IntegrationUpperLimit__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_WarningPartialCoverage__C3_CP_PEA_MOMENTS_LABEL_1 (No: 83) (Recs: 1)
+--------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/56): "Status_WarningPartialCoverage__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/56): "Status_WarningPartialCoverage__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_WarningMultiplePopulations__C3_CP_PEA_MOMENTS_LABEL_1 (No: 84) (Recs: 1)
+------------------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/60): "Status_WarningMultiplePopulations__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/60): "Status_WarningMultiplePopulations__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+Status_WarningTimeAliasing__C3_CP_PEA_MOMENTS_LABEL_1 (No: 85) (Recs: 1)
+-----------------------------------------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Status_WarningTimeAliasing__C3_CP_PEA_MOMENTS_LABEL_1"
+     UNITS           (CDF_CHAR/1): " "
+     FIELDNAM        (CDF_CHAR/53): "Status_WarningTimeAliasing__C3_CP_PEA_MOMENTS_LABEL_1"
+     FORMAT          (CDF_CHAR/3): "A40"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+

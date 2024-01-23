@@ -1,0 +1,356 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/im_ql_por_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     im_ql_por_00000000_v01.cdf
+Version:      2.6.7
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-1997 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     19
+NumAttrs:     48 (25 global, 23 variable)
+Compression:  None
+
+Global Attributes (25 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/59): 	"IMAGE>Imager for Magnetopause to Auroral Global Exploration"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/59): 	"IMAGE>Imager for Magnetopause to Auroral Global Exploration"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/3): 	"tbs"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"im_ql_por_00000000_v01"
+Data_type (1 entry):
+	0 (CDF_CHAR/12): 	"QL>Quicklook"
+Descriptor (1 entry):
+	0 (CDF_CHAR/19): 	"POR>Predicted Orbit"
+TEXT (1 entry):
+	0 (CDF_CHAR/3): 	"tbs"
+MODS (1 entry):
+	0 (CDF_CHAR/3): 	"tbs"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"im_ql_por"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/31): 	"Image Predicted Orbit Quicklook"
+PI_name (1 entry):
+	0 (CDF_CHAR/13): 	"Dr. Jim Burch"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/28): 	"Southwest Research Institute"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/9): 	"Ephemeris"
+Source_description (0 entry):
+Mission_group (1 entry):
+	0 (CDF_CHAR/5): 	"IMAGE"
+Generation_date (0 entry):
+Acknowledgement (0 entry):
+Link_text (0 entry):
+Rules_of_use (0 entry):
+Generated_by (0 entry):
+Time_resolution (0 entry):
+Link_title (0 entry):
+HTTP_link (0 entry):
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+UNITS
+FORMAT
+LABL_PTR_1
+UNIT_PTR
+FORM_PTR
+MONOTON
+DEPEND_0
+DEPEND_1
+FILLVAL
+VAR_TYPE
+DICT_KEY
+CATDESC
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+SCAL_PTR
+SCALETYP
+
+Variable Information (0 rVariable, 19 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+MOON_POS              CDF_REAL8/1	1:[3]	T/T
+SUN_POS               CDF_REAL8/1	1:[3]	T/T
+GCI_VEL               CDF_REAL8/1	1:[3]	T/T
+GSM_VEL               CDF_REAL8/1	1:[3]	T/T
+GCI_POS               CDF_REAL8/1	1:[3]	T/T
+GSM_POS               CDF_REAL8/1	1:[3]	T/T
+GSE_VEL               CDF_REAL8/1	1:[3]	T/T
+GSE_POS               CDF_REAL8/1	1:[3]	T/T
+L_shell               CDF_REAL8/1	0:[]	T/  
+cartesian             CDF_CHAR/1	1:[3]	F/T
+metavar0              CDF_CHAR/10	1:[3]	F/T
+metavar1              CDF_CHAR/9	1:[3]	F/T
+metavar2              CDF_CHAR/9	1:[3]	F/T
+metavar3              CDF_CHAR/9	1:[3]	F/T
+metavar4              CDF_CHAR/9	1:[3]	F/T
+metavar5              CDF_CHAR/9	1:[3]	F/T
+metavar6              CDF_CHAR/9	1:[3]	F/T
+metavar7              CDF_CHAR/9	1:[3]	F/T
+
+
+Variable (19 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Orbit Epoch Time"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     SCALEMIN        (CDF_DOUBLE/1): 6.28772e+13
+     SCALEMAX        (CDF_DOUBLE/1): 6.37767e+13
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_UCHAR/8): "INCREASE"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/10): "time>epoch"
+     CATDESC         (CDF_CHAR/16): "Orbit Epoch Time"
+
+MOON_POS (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/23): "GCI Moon Postion Vector"
+     VALIDMIN        (CDF_REAL8/3): -1.6e+08, -1.6e+08, -1.6e+08
+     VALIDMAX        (CDF_REAL8/3): 1.6e+08, 1.6e+08, 1.6e+08
+     SCALEMIN        (CDF_DOUBLE/1): -1.6e+08
+     SCALEMAX        (CDF_DOUBLE/1): 1.6e+08
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar0"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/23): "GCI Moon Postion Vector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+SUN_POS (No: 2) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GCI Sun Postion Vector"
+     VALIDMIN        (CDF_REAL8/3): -1.6e+08, -1.6e+08, -1.6e+08
+     VALIDMAX        (CDF_REAL8/3): 1.6e+08, 1.6e+08, 1.6e+08
+     SCALEMIN        (CDF_DOUBLE/1): -1.6e+08
+     SCALEMAX        (CDF_DOUBLE/1): 1.6e+08
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/22): "GCI Sun Postion Vector"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+GCI_VEL (No: 3) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GCI Cartesian Velocity"
+     VALIDMIN        (CDF_REAL8/3): -12.0, -12.0, -12.0
+     VALIDMAX        (CDF_REAL8/3): 12.0, 12.0, 12.0
+     SCALEMIN        (CDF_DOUBLE/1): -12.0
+     SCALEMAX        (CDF_DOUBLE/1): 12.0
+     UNITS           (CDF_CHAR/6): "km/sec"
+     FORMAT          (CDF_CHAR/5): "F12.7"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/22): "GCI Cartesian Velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+GSM_VEL (No: 4) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GSM Cartesian Velocity"
+     VALIDMIN        (CDF_REAL8/3): -12.0, -12.0, -12.0
+     VALIDMAX        (CDF_REAL8/3): 12.0, 12.0, 12.0
+     SCALEMIN        (CDF_DOUBLE/1): -12.0
+     SCALEMAX        (CDF_DOUBLE/1): 12.0
+     UNITS           (CDF_CHAR/6): "km/sec"
+     FORMAT          (CDF_CHAR/5): "F12.7"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar3"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/22): "GSM Cartesian Velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+GCI_POS (No: 5) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GCI Cartesian Position"
+     VALIDMIN        (CDF_REAL8/3): -1.8e+06, -1.8e+06, -1.8e+06
+     VALIDMAX        (CDF_REAL8/3): 1.8e+06, 1.8e+06, 1.8e+06
+     SCALEMIN        (CDF_DOUBLE/1): -1.8e+06
+     SCALEMAX        (CDF_DOUBLE/1): 1.8e+06
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/22): "GCI Cartesian Position"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+GSM_POS (No: 6) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GSM Cartesian Position"
+     VALIDMIN        (CDF_REAL8/3): -1.8e+06, -1.8e+06, -1.8e+06
+     VALIDMAX        (CDF_REAL8/3): 1.8e+06, 1.8e+06, 1.8e+06
+     SCALEMIN        (CDF_DOUBLE/1): -1.8e+06
+     SCALEMAX        (CDF_DOUBLE/1): 1.8e+06
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar5"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/22): "GSM Cartesian Position"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+GSE_VEL (No: 7) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GSE Cartesian Velocity"
+     VALIDMIN        (CDF_REAL8/3): -12.0, -12.0, -12.0
+     VALIDMAX        (CDF_REAL8/3): 12.0, 12.0, 12.0
+     SCALEMIN        (CDF_DOUBLE/1): -12.0
+     SCALEMAX        (CDF_DOUBLE/1): 12.0
+     UNITS           (CDF_CHAR/6): "km/sec"
+     FORMAT          (CDF_CHAR/5): "F12.7"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/22): "GSE Cartesian Velocity"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+GSE_POS (No: 8) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/22): "GSE Cartesian Position"
+     VALIDMIN        (CDF_REAL8/3): -1.8e+06, -1.8e+06, -1.8e+06
+     VALIDMAX        (CDF_REAL8/3): 1.8e+06, 1.8e+06, 1.8e+06
+     SCALEMIN        (CDF_DOUBLE/1): -1.8e+06
+     SCALEMAX        (CDF_DOUBLE/1): 1.8e+06
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "F17.5"
+     LABL_PTR_1      (CDF_CHAR/8): "metavar7"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_UCHAR/9): "cartesian"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/22): "GSE Cartesian Position"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+L_shell (No: 9) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Predicted Lshell"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 100.0
+     SCALEMIN        (CDF_DOUBLE/1): 0.0
+     SCALEMAX        (CDF_DOUBLE/1): 100.0
+     LABLAXIS        (CDF_CHAR/7): "L_shell"
+     UNITS           (CDF_CHAR/3): "n/a"
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     CATDESC         (CDF_CHAR/16): "Predicted Lshell"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+cartesian (No: 10) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/30): "Components in cartesian coord."
+     FORMAT          (CDF_CHAR/2): "a2"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/22): "label>vector>cartesian"
+     CATDESC         (CDF_CHAR/30): "Components in cartesian coord."
+
+metavar0 (No: 11) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "metavar0"
+     FORMAT          (CDF_CHAR/3): "a11"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+metavar1 (No: 12) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "metavar1"
+     FORMAT          (CDF_CHAR/3): "a10"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/5): "label"
+
+metavar2 (No: 13) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "metavar2"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+metavar3 (No: 14) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "metavar3"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+metavar4 (No: 15) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "metavar4"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+metavar5 (No: 16) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "metavar5"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+metavar6 (No: 17) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "metavar6"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+
+metavar7 (No: 18) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_UCHAR/8): "metavar7"
+     VAR_TYPE        (CDF_UCHAR/8): "metadata"
+

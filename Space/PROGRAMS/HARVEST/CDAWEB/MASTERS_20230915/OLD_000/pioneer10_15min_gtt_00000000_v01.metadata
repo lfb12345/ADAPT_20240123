@@ -1,0 +1,592 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/pioneer10_15min_gtt_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     pioneer10_15min_gtt_00000000_v01.cdf
+Version:      3.6.4
+
+Common Data Format (CDF)
+(C) Copyright 1990-2017 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     ROW
+NumrVars:     0
+NumzVars:     30
+NumAttrs:     44 (21 global, 23 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (21 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/9): 	"Pioneer10"
+Source_name (1 entry):
+	0 (CDF_CHAR/9): 	"Pioneer10"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Interplanetary Studies"
+Data_type (1 entry):
+	0 (CDF_CHAR/31): 	"15MIN>15 Minute Time Resolution"
+Descriptor (1 entry):
+	0 (CDF_CHAR/25): 	"GTT>GEIGER TUBE TELESCOPE"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+PI_name (1 entry):
+	0 (CDF_CHAR/19): 	"DR. J. A. VAN ALLEN"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/18): 	"University of Iowa"
+TEXT (10 entries):
+	0 (CDF_CHAR/951): 	"Pioneer 10 carries a payload of 11 scientific instruments having a mass of 33 kg and using 24 watts of power. The total spacecraft mass is 258 kg and the diameter of the high gain antenna reflector is 2.74 meters. It is powered by four radioisotope thermoelectric generators (RTG) located at the ends of two trusses extending from the body of the spacecraft. A long boom extending from the scientific instrument compartment supports the magnetometer sensor. The spacecraft spin axis is parallel to the axis of the reflector. Several small thrusters using hydrazine are located at the edge of the reflector to make in-flight velocity adjustments,alter the spin rate and to keep the reflector pointed at the earth. The data are transmitted to the earth by an 8 watt S-band transmitter at one of eight data rates (from 16 to 2048 bits per second).  Pioneer 10 made the first flyby of Jupiter. This was on December 4th,1973. 'Pioneer10 COHOweb connection'"
+	1 (CDF_CHAR/64): 	"The investigation objectives for the Pioneer 10 cruise data are:"
+	2 (CDF_CHAR/315): 	"   1) The study of the intensity of galactic cosmic rays as a function of solar activity and as a function of helio-centric position. Long-range objectives are to determine the position of the modulation boundary of the heliosphere and the intensity of the galactic cosmic rays in the interstellar medium beyond it."
+	3 (CDF_CHAR/136): 	"    2) The study of solar energetic particles as a function of heliocentric distance and their propagation in the interplanetary medium."
+	4 (CDF_CHAR/177): 	"    3) The study of low energy electron and proton events to understand the interplanetary propagation and acceleration of such particles as a function of heliocentric distance."
+	5 (CDF_CHAR/1126): 	"The GTT electronics system consists of two basic sections.  The first is the power converter which regulates and filters the 28 volt, 20kHz spacecraft power supply. The on-off command functions through a solid state switch by removing power from the driving circuitry. Output voltages of +7.75,+5.00,-12.00 and+900 are supplied to the experiment. The 7.75 and 5.00 volt lines are regulated to 1% and the 900 volt lines are regulated with VR tubes. The second section is the signal processor. This is used to condition the data from the seven detectors and consists of a MOS/TTL/transistor hybrid system containing MOS/TTL logic and transistorized discrete component interface circuits. The processor is completely redundant with the exception of the interface circuits. Upon command from the spacecraft, the signal processor can be switched from the main logic system to a standby redundant logic system. The function of the processor is to sequentially accumulate data on a frame basis from the seven detectors. Data are accumulated in a 24 bit register and then  compressed quasi-logarithmically to 12 bits for transmission."
+	6 (CDF_CHAR/2652): 	"Seven miniature Geiger-Mueller (GM) tubes are used as basic detectors. Four of these (A,B,C,and G) are EON Corporation end-window type 6213 tubes. The three other tubes (D,E,and F) are EON Corporation type 5107 tubes. The seven tubes were placed in a variety of physical arrangements. Tubes A,C,and B are mounted in a single block. The central tube C is shielded omnidirectionally. Tubes A and B are similarly shielded except for thinner window unidirectional collimators in the +X direction. The individual counting rates of the three tubes are telemetered separately; also, double coincidences AB and triple coincidences ABC with a resolving time of 1 microsecond are formed and telemetered. The second assembly comprises an omnidirectionally shielded triangular array of three 5107 tubes. The rate of D and the triple coincidence rate of the DEF are telemetered The third assembly uses a thin window 6213 (tube G) in a scatter geometry with a 90 degree gold-plated elbow as the entrance aperture. Detector G looks in the +X direction.  The Z-axis of the instrument is parallel to the axis of rotation of the spacecraft.  The +X axis points outward into free space from the rim of the instrument compartment of the spacecraft. The magnetometer and a portion of the magnetometer boom subtend a trivial fraction of the fields of view of the collimators of A,B, and G; otherwise, there is no physical obstruction within the fields of view.  The rotational axis (+Z) of the spacecraft is pointed continuously at the earth within an error of less than one degree and therefore lies approximately in the ecliptic plane. The  spin period and sampling period are asynchronous; thus angular distributions of particle intensities as a function of roll angle in the equatorial plane of the spacecraft are assembled as a software operation by using attitude data supplied by the Ames Research Center. In our analysis the roll angle is measured from the ascending node of the spacecraft's equator on the ecliptic to the +X axis of the instrument at the midtime of the sample. The instrument uses 12 bits in each 192-bit main science frame of the spacecraft's telemetry format. Quasilogarithmic data compression is used to maintain 1% accuracy at all possible counting rates. All outputs are digital. A complete cycle of the GTT data comprises eleven main science frames as follows: sync word,G,A,B,G,AB,ABC,C,D,ABC, and DEF. Counts from each detector channel are accumulated for a period of time in seconds equal to 192/b, where b is the telemetry rate in bits per second for the entire spacecraft (b=16,32,64,128,512,1024,or 2048, as selected by ground command)."
+	7 (CDF_CHAR/171): 	"The GTT experiment utilizes two commands. A power ON/OFF command and a function command for Main/Standby processor selection. (Van Allen, Baker, Randall and Sentman, 1974)"
+	8 (CDF_CHAR/611): 	"All known errors have been eliminated from the data.  During the cruise phase, it has been determined that a raw count of 129 is in error.  This is the result of the highest order bit being 1 and all of the rest being zero.  In addition all raw counts greater than 200 have been omitted from the data set.  These values are much higher than any valid rates.from the instrument during cruise. There is no significant dead time correction for any rate observed during cruise.  On DOY 86, 1989 the triple coincidence channel DEF on Pioneer 10 started showing no count rate. Detector D seems to be working normally."
+	9 (CDF_CHAR/1280): 	"To process the data for this file the data were uncompressed and divided into 15 minute periods starting at 00:00:00.  This 15 minute unit was then summed by detector and the counting rates computed and written into the record.  When the data rate is high enough to get spin distribution, Fourier coefficients were computed and written into the record.  Selected trajectory information was also written into each record.  See the section on formats for record details. To simplify the summing of data at various bit rates and formats, they were normalized to a rate of 2048 bits per second. Because of this the number of samples per interval will vary somewhat even for 100% coverage.  This normalization creates some apparent inconsistency in the number of data samples contained in a predescribed interval.  To help clarify this problem the following tables are given for reference.  There are two tables, the first is for telemetry formats A, B, and C where the accumulation period is 192 bits long, and the second is for telemetry formats A/D and B/D where the accumulation period is 384 bits long. The various telemetry formats used by the spacecraft have no effect on these data, other than the determination of the number of samples accumulated during the 15 minute period."
+Instrument_type (3 entries):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+	1 (CDF_CHAR/21): 	"Plasma and Solar Wind"
+	2 (CDF_CHAR/28): 	"Ephemeris/Attitude/Ancillary"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/7): 	"Pioneer"
+	1 (CDF_UCHAR/35): 	"!___Interplanetary Data not at 1 AU"
+Logical_source (1 entry):
+	0 (CDF_CHAR/19): 	"pioneer10_15min_gtt"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/32): 	"pioneer10_15min_gtt_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/28): 	"Pioneer-10 15minute gtt data"
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"15 minute"
+Rules_of_use (0 entry):
+Generated_by (1 entry):
+	0 (CDF_CHAR/18): 	"King/Papatashvilli"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/1): 	" "
+MODS (0 entry):
+ADID_ref (0 entry):
+
+Variable Attributes (23 attributes)
+=========================================
+FIELDNAM
+CATDESC
+DEPEND_0
+DEPEND_1
+DEPEND_2
+DEPEND_3
+DICT_KEY
+DISPLAY_TYPE
+FILLVAL
+FORMAT
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+LABL_PTR_3
+UNITS
+UNIT_PTR
+VALIDMIN
+VALIDMAX
+VAR_TYPE
+SCALETYP
+SCAL_PTR
+VAR_NOTES
+FORM_PTR
+
+Variable Information (0 rVariable, 30 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+timecode              CDF_CHAR/24	0:[]	T/  
+spacecraftID          CDF_INT4/1	0:[]	T/  
+year                  CDF_INT4/1	0:[]	T/  
+doy                   CDF_INT4/1	0:[]	T/  
+beginDayFrac          CDF_REAL8/1	0:[]	T/  
+endDayFrac            CDF_REAL8/1	0:[]	T/  
+periodLen             CDF_INT4/1	0:[]	T/  
+periodType            CDF_INT4/1	0:[]	T/  
+numSamples            CDF_INT4/1	0:[]	T/  
+EffectiveCounts       CDF_REAL8/1	1:[12]	T/T
+sumRawCountdiv        CDF_REAL8/1	1:[12]	T/T
+countingRate          CDF_REAL8/1	1:[12]	T/T
+stdDev                CDF_REAL8/1	1:[12]	T/T
+M                     CDF_REAL8/1	1:[12]	T/T
+K                     CDF_REAL8/1	1:[12]	T/T
+D                     CDF_REAL8/1	1:[12]	T/T
+sumRawCount           CDF_REAL8/1	1:[12]	T/T
+numErrors             CDF_INT4/1	0:[]	T/  
+DayFrac               CDF_REAL8/1	0:[]	T/  
+radiusSCearth         CDF_REAL8/1	0:[]	T/  
+EarthSunDistance      CDF_REAL8/1	0:[]	T/  
+radiusSCsun           CDF_REAL8/1	0:[]	T/  
+earthLon              CDF_REAL8/1	0:[]	T/  
+scLon                 CDF_REAL8/1	0:[]	T/  
+solareqLon            CDF_REAL8/1	0:[]	T/  
+earthLat              CDF_REAL8/1	0:[]	T/  
+scLat                 CDF_REAL8/1	0:[]	T/  
+hlatSC                CDF_REAL8/1	0:[]	T/  
+hlatEarth             CDF_REAL8/1	0:[]	T/  
+
+
+Variable (30 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/12): "Default time"
+     DICT_KEY        (CDF_CHAR/4): "time"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1990 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2010 00:00:00.000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+timecode (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "timecode"
+     CATDESC         (CDF_CHAR/8): "timecode"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/3): "a24"
+     LABLAXIS        (CDF_CHAR/8): "timecode"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+spacecraftID (No: 2) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "spacecraft ID"
+     CATDESC         (CDF_CHAR/13): "spacecraft ID"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): 9
+     FORMAT          (CDF_CHAR/2): "I2"
+     LABLAXIS        (CDF_CHAR/6): "s/c_ID"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 20
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+year (No: 3) (Recs: 0)
+----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/4): "year"
+     CATDESC         (CDF_CHAR/31): "year Earth Received Time (ERT) "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): 9
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/4): "year"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 20
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+doy (No: 4) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/3): "doy"
+     CATDESC         (CDF_CHAR/9): "doy (ERT)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): 9
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/3): "doy"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 20
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+beginDayFrac (No: 5) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "begin fracDay"
+     CATDESC         (CDF_CHAR/28): "Beginning Day Fraction (ERT)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "f12.10"
+     LABLAXIS        (CDF_CHAR/13): "begin fracDay"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/141): "Beginning time is the time of the first data point found in the interval. The Ending time is the time of the last data point in the interval."
+
+endDayFrac (No: 6) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "end fracDay"
+     CATDESC         (CDF_CHAR/25): "Ending Day Fraction (ERT)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/6): "f12.10"
+     LABLAXIS        (CDF_CHAR/11): "end fracDay"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/141): "Beginning time is the time of the first data point found in the interval. The Ending time is the time of the last data point in the interval."
+
+periodLen (No: 7) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/10): "period len"
+     CATDESC         (CDF_CHAR/27): "Length of Period in Minutes"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -1
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/10): "period len"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/118): "This number will be the number of minutes in the interval since these are quarter hour averages the number will be 15."
+
+periodType (No: 8) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "period type"
+     CATDESC         (CDF_CHAR/11): "Period Type"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -1
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/11): "period type"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     VAR_NOTES       (CDF_CHAR/101): "This is a number assigned to describe the accumulation period for quarter hour averages it will be 1."
+
+numSamples (No: 9) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/8): "#samples"
+     CATDESC         (CDF_CHAR/31): "Number of samples this interval"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -1
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/8): "#samples"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+EffectiveCounts (No: 10) (Recs: 0)
+---------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/16): "Effective Counts"
+     CATDESC         (CDF_CHAR/16): "Effective Counts"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 0.0
+     FORMAT          (CDF_CHAR/4): "f8.1"
+     LABLAXIS        (CDF_CHAR/16): "Effective Counts"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/186): "For the spectrogram variables, dimensioned at 12 the order of the detectors are as follows: Position/Detector 1/G, 2/A, 3/B, 4/G, 5/AB, 6/ABC, 7/C, 8/D, 9/ABC, 10/DEF, 11/G+G, 12/ABC+ABC"
+
+sumRawCountdiv (No: 11) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "(Sum of Raw Counts)/.09375"
+     CATDESC         (CDF_CHAR/26): "(Sum of Raw Counts)/.09375"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 0.0
+     FORMAT          (CDF_CHAR/5): "f10.4"
+     LABLAXIS        (CDF_CHAR/26): "(Sum of Raw Counts)/.09375"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.001
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/186): "For the spectrogram variables, dimensioned at 12 the order of the detectors are as follows: Position/Detector 1/G, 2/A, 3/B, 4/G, 5/AB, 6/ABC, 7/C, 8/D, 9/ABC, 10/DEF, 11/G+G, 12/ABC+ABC"
+
+countingRate (No: 12) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Counting Rate Avg"
+     CATDESC         (CDF_CHAR/31): "Counting Rate Avg in Counts/sec"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 0.0
+     FORMAT          (CDF_CHAR/5): "f10.7"
+     LABLAXIS        (CDF_CHAR/17): "Counting Rate Avg"
+     UNITS           (CDF_CHAR/10): "Counts/sec"
+     VALIDMIN        (CDF_REAL8/1): 0.001
+     VALIDMAX        (CDF_REAL8/1): 100.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/186): "For the spectrogram variables, dimensioned at 12 the order of the detectors are as follows: Position/Detector 1/G, 2/A, 3/B, 4/G, 5/AB, 6/ABC, 7/C, 8/D, 9/ABC, 10/DEF, 11/G+G, 12/ABC+ABC"
+
+stdDev (No: 13) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/5): "sigma"
+     CATDESC         (CDF_CHAR/18): "Standard Deviation"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 0.0
+     FORMAT          (CDF_CHAR/5): "f10.7"
+     LABLAXIS        (CDF_CHAR/5): "sigma"
+     UNITS           (CDF_CHAR/10): "Counts/sec"
+     VALIDMIN        (CDF_REAL8/1): 0.0001
+     VALIDMAX        (CDF_REAL8/1): 1.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/186): "For the spectrogram variables, dimensioned at 12 the order of the detectors are as follows: Position/Detector 1/G, 2/A, 3/B, 4/G, 5/AB, 6/ABC, 7/C, 8/D, 9/ABC, 10/DEF, 11/G+G, 12/ABC+ABC"
+
+M (No: 14) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/1): "M"
+     CATDESC         (CDF_CHAR/22): "M Fourier Coefficients"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 0.0
+     FORMAT          (CDF_CHAR/5): "f12.7"
+     LABLAXIS        (CDF_CHAR/1): "M"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.0001
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/287): "For the spectrogram variables, dimensioned at 12 the order of the detectors are as follows: Position/Detector 1/G, 2/A, 3/B, 4/G, 5/AB, 6/ABC, 7/C, 8/D, 9/ABC, 10/DEF, 11/G+G, 12/ABC+ABC.  The Fourier Coefficients are used in the following formula. F(phi) = M ( 1 + K Cos ( phi - D ) )  "
+
+K (No: 15) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/1): "K"
+     CATDESC         (CDF_CHAR/22): "K Fourier Coefficients"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 0.0
+     FORMAT          (CDF_CHAR/5): "f12.7"
+     LABLAXIS        (CDF_CHAR/1): "K"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.0001
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/287): "For the spectrogram variables, dimensioned at 12 the order of the detectors are as follows: Position/Detector 1/G, 2/A, 3/B, 4/G, 5/AB, 6/ABC, 7/C, 8/D, 9/ABC, 10/DEF, 11/G+G, 12/ABC+ABC.  The Fourier Coefficients are used in the following formula. F(phi) = M ( 1 + K Cos ( phi - D ) )  "
+
+D (No: 16) (Recs: 0)
+-
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/1): "D"
+     CATDESC         (CDF_CHAR/22): "D Fourier Coefficients"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 0.0
+     FORMAT          (CDF_CHAR/5): "f12.7"
+     LABLAXIS        (CDF_CHAR/1): "D"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.0001
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/287): "For the spectrogram variables, dimensioned at 12 the order of the detectors are as follows: Position/Detector 1/G, 2/A, 3/B, 4/G, 5/AB, 6/ABC, 7/C, 8/D, 9/ABC, 10/DEF, 11/G+G, 12/ABC+ABC.  The Fourier Coefficients are used in the following formula. F(phi) = M ( 1 + K Cos ( phi - D ) )  "
+
+sumRawCount (No: 17) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Sum of Raw Counts"
+     CATDESC         (CDF_CHAR/17): "Sum of Raw Counts"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): 0.0
+     FORMAT          (CDF_CHAR/5): "f10.4"
+     LABLAXIS        (CDF_CHAR/17): "Sum of Raw Counts"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.001
+     VALIDMAX        (CDF_REAL8/1): 10000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/186): "For the spectrogram variables, dimensioned at 12 the order of the detectors are as follows: Position/Detector 1/G, 2/A, 3/B, 4/G, 5/AB, 6/ABC, 7/C, 8/D, 9/ABC, 10/DEF, 11/G+G, 12/ABC+ABC"
+
+numErrors (No: 18) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/7): "#errors"
+     CATDESC         (CDF_CHAR/30): "Number of errors this interval"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_INT4/1): -1
+     FORMAT          (CDF_CHAR/2): "I4"
+     LABLAXIS        (CDF_CHAR/7): "#errors"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_INT4/1): 1
+     VALIDMAX        (CDF_INT4/1): 1000
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+
+DayFrac (No: 19) (Recs: 0)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Day + dayFrac"
+     CATDESC         (CDF_CHAR/33): "Day and Day Fraction since 1950.0"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f10.3"
+     LABLAXIS        (CDF_CHAR/13): "Day + dayFrac"
+     UNITS           (CDF_CHAR/1): " "
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+radiusSCearth (No: 20) (Recs: 0)
+-------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "Radius/SC/earth"
+     CATDESC         (CDF_CHAR/23): "Radius to SC from earth"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f10.6"
+     LABLAXIS        (CDF_CHAR/15): "Radius/SC/earth"
+     UNITS           (CDF_CHAR/2): "au"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+EarthSunDistance (No: 21) (Recs: 0)
+----------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Earth-Sun distance"
+     CATDESC         (CDF_CHAR/18): "Earth-Sun distance"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f10.6"
+     LABLAXIS        (CDF_CHAR/18): "Earth-Sun distance"
+     UNITS           (CDF_CHAR/2): "au"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+radiusSCsun (No: 22) (Recs: 0)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Radius/SC/sun"
+     CATDESC         (CDF_CHAR/21): "Radius to SC from sun"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/5): "f10.6"
+     LABLAXIS        (CDF_CHAR/13): "Radius/SC/sun"
+     UNITS           (CDF_CHAR/2): "au"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 100000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+
+earthLon (No: 23) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "earth longitude"
+     CATDESC         (CDF_CHAR/28): "Celestial Longitude of Earth"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     LABLAXIS        (CDF_CHAR/15): "earth longitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/365): "The celestial latitude and longitude are measured in a reference system using the Sun as the reference body and the true ecliptic of date as the reference plane.  This plane contains the vernal equinox and the longitudes are measured eastward from the line between the vernal equinox and the Sun. The latitudes are measured from the plane. Northward being positive."
+
+scLon (No: 24) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "sc longitude"
+     CATDESC         (CDF_CHAR/25): "Celestial Longitude of SC"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     LABLAXIS        (CDF_CHAR/12): "sc longitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 360.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/365): "The celestial latitude and longitude are measured in a reference system using the Sun as the reference body and the true ecliptic of date as the reference plane.  This plane contains the vernal equinox and the longitudes are measured eastward from the line between the vernal equinox and the Sun. The latitudes are measured from the plane. Northward being positive."
+
+solareqLon (No: 25) (Recs: 0)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "solar eq lon"
+     CATDESC         (CDF_CHAR/32): "Longitude of Solar Equator + 270"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     LABLAXIS        (CDF_CHAR/12): "solar eq lon"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 1000.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/377): "Calculated quantities.  Inclination of solar equator to ecliptic, I=7.25 degrees.  Longitude of the ascending node of the solar equator on the ecliptic Omega=73 degrees+40 minutes +50.25*t seconds where t is the time in years reckoned from 1850.0 . Reference: Explanatory Supplement to the Astronomical Ephemeris and the American Ephemeris and Nautical Almanac, 1961, page 307."
+
+earthLat (No: 26) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "earth latitude"
+     CATDESC         (CDF_CHAR/27): "Celestial Latitude of Earth"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.5"
+     LABLAXIS        (CDF_CHAR/15): "earth latgitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): -90.0
+     VALIDMAX        (CDF_REAL8/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/365): "The celestial latitude and latgitude are measured in a reference system using the Sun as the reference body and the true ecliptic of date as the reference plane.  This plane contains the vernal equinox and the longitudes are measured eastward from the line between the vernal equinox and the Sun. The latitudes are measured from the plane. Northward being positive."
+
+scLat (No: 27) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/11): "sc latitude"
+     CATDESC         (CDF_CHAR/24): "Celestial Latitude of SC"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f9.5"
+     LABLAXIS        (CDF_CHAR/11): "sc latitude"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): -90.0
+     VALIDMAX        (CDF_REAL8/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/365): "The celestial latitude and longitude are measured in a reference system using the Sun as the reference body and the true ecliptic of date as the reference plane.  This plane contains the vernal equinox and the longitudes are measured eastward from the line between the vernal equinox and the Sun. The latitudes are measured from the plane. Northward being positive."
+
+hlatSC (No: 28) (Recs: 0)
+------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/12): "helio lat SC"
+     CATDESC         (CDF_CHAR/27): "Heliographic Latitude of SC"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     LABLAXIS        (CDF_CHAR/12): "helio lat SC"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): -90.0
+     VALIDMAX        (CDF_REAL8/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/365): "The celestial latitude and longitude are measured in a reference system using the Sun as the reference body and the true ecliptic of date as the reference plane.  This plane contains the vernal equinox and the longitudes are measured eastward from the line between the vernal equinox and the Sun. The latitudes are measured from the plane. Northward being positive."
+
+hlatEarth (No: 29) (Recs: 0)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/15): "helio lat earth"
+     CATDESC         (CDF_CHAR/30): "Heliographic Latitude of Earth"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     FORMAT          (CDF_CHAR/4): "f8.3"
+     LABLAXIS        (CDF_CHAR/15): "helio lat earth"
+     UNITS           (CDF_CHAR/3): "deg"
+     VALIDMIN        (CDF_REAL8/1): -90.0
+     VALIDMAX        (CDF_REAL8/1): 90.0
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     VAR_NOTES       (CDF_CHAR/365): "The celestial latitude and longitude are measured in a reference system using the Sun as the reference body and the true ecliptic of date as the reference plane.  This plane contains the vernal equinox and the longitudes are measured eastward from the line between the vernal equinox and the Sun. The latitudes are measured from the plane. Northward being positive."
+

@@ -1,0 +1,516 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/ge_k0_efd_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     ge_k0_efd_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+(C) Copyright 1990-2013 NASA/GSFC
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(Internet -- GSFC-CDF-SUPPORT@LISTS.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     23
+NumzVars:     0
+NumAttrs:     45 (21 global, 24 variable)
+Compression:  None
+
+Global Attributes (21 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/23): 	"ISTP Test of CDF format"
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/24): 	"GEOTAIL>Geomagnetic tail"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"K0>Key parameter"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/27): 	"EFD>Electric Field Detector"
+TEXT (1 entry):
+	0 (CDF_CHAR/36): 	"Geotail Prelaunch Report, April 1992"
+MODS (3 entries):
+	0 (CDF_CHAR/25): 	"Version 1.0 Jan. 12, 1993"
+	1 (CDF_CHAR/37): 	"Modified on 7/18/94 and 7/29/94 by JT"
+	2 (CDF_CHAR/40): 	"Modified on 9/9/94 by JT - KPGS CCR 0039"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0089"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"GE_K0_EFD_00000000_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"GE_K0_EFD"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/47): 	"Geotail Electric Field Detector, Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"K. Tsuruda"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/4): 	"ISAS"
+Mission_group (3 entries):
+	0 (CDF_UCHAR/7): 	"Geotail"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+	2 (CDF_UCHAR/33): 	"!___Interplanetary Data near 1 AU"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Electric Fields (space)"
+TEXT_supplement_1 (5 entries):
+	0 (CDF_CHAR/163): 	"The sensor providing data here (called EFD-P in report above) measures the difference of electric potential between two electrodes (probes) immersed in the plasma."
+	1 (CDF_CHAR/134): 	"There are two sperical probes and two wire antennas each of which is extended by 50 meters from the satellite in its rotational plane."
+	2 (CDF_CHAR/148): 	" The two sperical probes are opposite each other (100 meters tip-to-tip) as are the two wire antennas. The probe pairs are orthogonal to each other."
+	3 (CDF_CHAR/190): 	"Diving the potential difference by the distance between the probes or the centers of the conducting portion of the wire antennas gives the electric field component along the probe extension."
+	4 (CDF_CHAR/202): 	"The measurement of the electric field in the satellite rotational plane gives the vector electric field when the electric field along the magnetic field is much smaller than the perpendicular component."
+NSSDC_id (1 entry):
+	0 (CDF_CHAR/10): 	"sphe-00654"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/54): 	"Geotail_EFD_Electric-Fields-Key-Parameters-K0_1min_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/44): 	"spase://JAXA/NumericalData/Geotail/EFD/PT64S"
+
+Variable Attributes (24 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+LABLAXIS
+LABL_PTR_1
+UNITS
+UNIT_PTR
+FORMAT
+FORM_PTR
+DEPEND_0
+DEPEND_1
+DELTA_PLUS_VAR
+DELTA_MINUS_VAR
+MONOTON
+SCALETYP
+CATDESC
+FILLVAL
+DICT_KEY
+VAR_TYPE
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (23 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	2:[2,3]	T/FF
+Time_PB5              CDF_INT4/1	2:[2,3]	T/FT
+Es                    CDF_INT2/1	2:[2,3]	T/TF
+Ss                    CDF_INT2/1	2:[2,3]	T/FF
+Bs                    CDF_INT1/1	2:[2,3]	T/FF
+Vs                    CDF_INT2/1	2:[2,3]	T/TF
+Ew                    CDF_INT2/1	2:[2,3]	T/TF
+Sw                    CDF_INT2/1	2:[2,3]	T/FF
+Bw                    CDF_INT1/1	2:[2,3]	T/FF
+Vw                    CDF_INT2/1	2:[2,3]	T/TF
+POSITION              CDF_REAL8/1	2:[2,3]	T/FT
+Time_Res              CDF_REAL8/1	2:[2,3]	F/FF
+DQF                   CDF_INT4/1	2:[2,3]	T/FF
+Gap_Flag              CDF_INT4/1	2:[2,3]	T/FF
+label_time            CDF_CHAR/27	2:[2,3]	F/FT
+unit_time             CDF_CHAR/4	2:[2,3]	F/FT
+format_time           CDF_CHAR/2	2:[2,3]	F/FT
+label_E               CDF_CHAR/13	2:[2,3]	F/TF
+label_E_ant           CDF_CHAR/14	2:[2,3]	F/TF
+label_Vs              CDF_CHAR/14	2:[2,3]	F/TF
+label_V               CDF_CHAR/15	2:[2,3]	F/TF
+label_position        CDF_CHAR/8	2:[2,3]	F/FT
+cartesian             CDF_CHAR/1	2:[2,3]	F/FT
+
+
+Variable (23 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 31-Dec-2020 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 31-Dec-2020 23:59:59.000
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     UNITS           (CDF_CHAR/2): "ms"
+     DELTA_PLUS_VAR  (CDF_CHAR/8): "Time_Res"
+     DELTA_MINUS_VAR (CDF_CHAR/8): "Time_Res"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     DICT_KEY        (CDF_CHAR/11): "time>epoch "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/9): "Time Line"
+     VALIDMIN        (CDF_INT4/3): 1992, 1, 0
+     VALIDMAX        (CDF_INT4/3): 2020, 366, 86399000
+     SCALEMIN        (CDF_INT4/3): 1992, 1, 0
+     SCALEMAX        (CDF_INT4/3): 2020, 366, 86399000
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "unit_time"
+     CATDESC         (CDF_CHAR/14): "Time, centered"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DICT_KEY        (CDF_CHAR/9): "time>PB5 "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Es (No: 2) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E field sphere probe"
+     VALIDMIN        (CDF_INT2/1): -32768
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): -32768
+     SCALEMAX        (CDF_INT2/1): 32767
+     LABL_PTR_1      (CDF_CHAR/7): "label_E"
+     UNITS           (CDF_CHAR/9): "0.01 mV/m"
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "label_E"
+     CATDESC         (CDF_CHAR/57): "Electric Field from spherical  probe, sunwd & duskwd comp"
+     FILLVAL         (CDF_INT2/1): -32768
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Ss (No: 3) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Dev E field (sphere probe)"
+     VALIDMIN        (CDF_INT2/1): -32768
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): -32768
+     SCALEMAX        (CDF_INT2/1): 32767
+     LABLAXIS        (CDF_CHAR/10): "Dev E (sp)"
+     UNITS           (CDF_CHAR/9): "0.01 mV/m"
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/58): "Deviation of Electric Field from sin wave (sperical probe)"
+     FILLVAL         (CDF_INT2/1): -32768
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Bs (No: 4) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/21): "Bias I (sphere probe)"
+     VALIDMIN        (CDF_INT1/1): -128
+     VALIDMAX        (CDF_INT1/1): 127
+     SCALEMIN        (CDF_INT1/1): -128
+     SCALEMAX        (CDF_INT1/1): 127
+     LABLAXIS        (CDF_CHAR/11): "Bias I (sp)"
+     UNITS           (CDF_CHAR/10): "7.03125 nA"
+     FORMAT          (CDF_CHAR/2): "I4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/33): "Bias Current from spherical probe"
+     FILLVAL         (CDF_INT1/1): -128
+     DICT_KEY        (CDF_CHAR/7): "current"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Vs (No: 5) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/29): "GE S/C potential sphere probe"
+     VALIDMIN        (CDF_INT2/1): -32768
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): -32768
+     SCALEMAX        (CDF_INT2/1): 32767
+     LABL_PTR_1      (CDF_CHAR/8): "label_Vs"
+     UNITS           (CDF_CHAR/6): "0.01 V"
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/8): "label_Vs"
+     CATDESC         (CDF_CHAR/42): "GE S/C potential from two spherical probes"
+     FILLVAL         (CDF_INT2/1): -32768
+     DICT_KEY        (CDF_CHAR/9): "potential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Ew (No: 6) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "E field wire antenna"
+     VALIDMIN        (CDF_INT2/1): -32768
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): -32768
+     SCALEMAX        (CDF_INT2/1): 32767
+     LABL_PTR_1      (CDF_CHAR/11): "label_E_ant"
+     UNITS           (CDF_CHAR/9): "0.01 mV/m"
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/11): "label_E_ant"
+     CATDESC         (CDF_CHAR/53): "Electric Field from wire antenna, sunwd & duskwd comp"
+     FILLVAL         (CDF_INT2/1): -32768
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Sw (No: 7) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "Dev E field (wire antenna)"
+     VALIDMIN        (CDF_INT2/1): -32768
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): -32768
+     SCALEMAX        (CDF_INT2/1): 32767
+     LABLAXIS        (CDF_CHAR/11): "Dev E (ant)"
+     UNITS           (CDF_CHAR/9): "0.01 mV/m"
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/49): "Deviation of E field from sin wave (wire antenna)"
+     FILLVAL         (CDF_INT2/1): -32768
+     DICT_KEY        (CDF_CHAR/14): "electric_field"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Bw (No: 8) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/25): "Bias Current wire antenna"
+     VALIDMIN        (CDF_INT1/1): -128
+     VALIDMAX        (CDF_INT1/1): 127
+     SCALEMIN        (CDF_INT1/1): -128
+     SCALEMAX        (CDF_INT1/1): 127
+     LABLAXIS        (CDF_CHAR/12): "Bias I (ant)"
+     UNITS           (CDF_CHAR/10): "7.03125 nA"
+     FORMAT          (CDF_CHAR/2): "I4"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/30): "Bias current from wire antenna"
+     FILLVAL         (CDF_INT1/1): -128
+     DICT_KEY        (CDF_CHAR/7): "current"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Vw (No: 9) (Recs: 0)
+--
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/26): "S/C potential wire antenna"
+     VALIDMIN        (CDF_INT2/1): -32768
+     VALIDMAX        (CDF_INT2/1): 32767
+     SCALEMIN        (CDF_INT2/1): -32768
+     SCALEMAX        (CDF_INT2/1): 32767
+     LABL_PTR_1      (CDF_CHAR/7): "label_V"
+     UNITS           (CDF_CHAR/6): "0.01 V"
+     FORMAT          (CDF_CHAR/2): "I6"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/7): "label_V"
+     CATDESC         (CDF_CHAR/32): "GE S/C potential 2 wire antennas"
+     FILLVAL         (CDF_INT2/1): -32768
+     DICT_KEY        (CDF_CHAR/9): "potential"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+POSITION (No: 10) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "GE position in GSE"
+     VALIDMIN        (CDF_REAL8/1): -1.0e+07
+     VALIDMAX        (CDF_REAL8/1): 1.0e+07
+     SCALEMIN        (CDF_REAL8/1): -1.0e+07
+     SCALEMAX        (CDF_REAL8/1): 1.0e+07
+     LABL_PTR_1      (CDF_CHAR/14): "label_position"
+     UNITS           (CDF_CHAR/2): "km"
+     FORMAT          (CDF_CHAR/5): "E10.2"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/9): "cartesian"
+     CATDESC         (CDF_CHAR/32): "GE position in GSE coord, 3 comp"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/12): "position>GSE"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_Res (No: 11) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Half Time Resolution"
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 64000.0
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 64000.0
+     LABLAXIS        (CDF_CHAR/2): "dt"
+     UNITS           (CDF_CHAR/3): "ms "
+     FORMAT          (CDF_CHAR/4): "F7.1"
+     CATDESC         (CDF_CHAR/20): "Half Time Resolution"
+     FILLVAL         (CDF_REAL8/1): -1.0e+31
+     DICT_KEY        (CDF_CHAR/4): "time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+DQF (No: 12) (Recs: 0)
+---
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Data Quality Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/3): "DQF"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/48): "Data Quality Flag Good/Bad/Fill (0=good; 2=poor)"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DICT_KEY        (CDF_CHAR/12): "flag>quality"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Gap_Flag (No: 13) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "Post Gap Flag"
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 5
+     SCALEMIN        (CDF_INT4/1): 0
+     SCALEMAX        (CDF_INT4/1): 5
+     LABLAXIS        (CDF_CHAR/8): "Gap Flag"
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I1"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     CATDESC         (CDF_CHAR/206): "Post Gap Flag 0 = no gap occurred;1 = gap occurred because the instrument was in an invalid mode;2 = gap occurred because the SIRIUS data were missing;3 = gap occurred because the SIRIUS data were too noisy"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     DICT_KEY        (CDF_CHAR/13): "flag>post_gap"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 14) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 15) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 16) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Format for Time_PB5                     "
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_E (No: 17) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "LABEL for Electric Field"
+     CATDESC         (CDF_CHAR/40): "LABEL for Electric Field                "
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_E_ant (No: 18) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/24): "LABEL for Electric Field"
+     CATDESC         (CDF_CHAR/24): "LABEL for Electric Field"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_Vs (No: 19) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "LABEL for Potential"
+     CATDESC         (CDF_CHAR/37): "LABEL for Potential, spherical probes"
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_V (No: 20) (Recs: 1)
+-------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "LABEL for Potential"
+     CATDESC         (CDF_CHAR/40): "LABEL for Potential                     "
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_position (No: 21) (Recs: 1)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "LABEL for Position"
+     CATDESC         (CDF_CHAR/40): "LABEL for Position                      "
+     DICT_KEY        (CDF_CHAR/5): "label"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+cartesian (No: 22) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "LABEL for Position"
+     CATDESC         (CDF_CHAR/40): "LABEL for Position                      "
+     DICT_KEY        (CDF_CHAR/8): "position"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

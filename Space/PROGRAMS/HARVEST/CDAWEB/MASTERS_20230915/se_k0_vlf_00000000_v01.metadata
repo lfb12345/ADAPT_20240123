@@ -1,0 +1,268 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/se_k0_vlf_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     se_k0_vlf_00000000_v01.cdf
+Version:      2.7.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(User support: gsfc-cdf-support@lists.nasa.gov)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     9
+NumzVars:     0
+NumAttrs:     41 (20 global, 21 variable)
+Compression:  None
+
+Global Attributes (20 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"VLF Key Parameters, Halley Bay 1 & 3kHz amplitudes"
+PROJECT (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+DISCIPLINE (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+SOURCE_NAME (1 entry):
+	0 (CDF_CHAR/69): 	"SESAME>Satellite Experiments Simultaneous with Antarctic Measurements"
+DATA_TYPE (1 entry):
+	0 (CDF_CHAR/17): 	"K0>Key Parameters"
+DESCRIPTOR (1 entry):
+	0 (CDF_CHAR/36): 	"VLF>VLF/ELF LoggerExperiment (VELOX)"
+DATA_VERSION (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+TEXT (6 entries):
+	0 (CDF_CHAR/80): 	"Omni-directional intensities in 2 narrow passband filters centred on 1kHz & 3kHz"
+	1 (CDF_CHAR/78): 	"Ref1: Satellite Experiments Simultaneous with Antarctic Measurements (SESAME),"
+	2 (CDF_CHAR/60): 	"in GGS Instrument Papers submitted to Space Science Reviews."
+	3 (CDF_CHAR/38): 	"Ref2: VERSIM Newsletter No.4, p7 1992."
+	4 (CDF_CHAR/79): 	"Info:Keith Morrison,GGS Scientist,British Antarctic Survey,Cambridge,CB3 0ET,UK"
+	5 (CDF_CHAR/23): 	"E-mail: 19989::MORRISON"
+MODS (4 entries):
+	0 (CDF_CHAR/58): 	"05-Aug-92 Changed fill values to +10.0E+30 and -2147483648"
+	1 (CDF_CHAR/76): 	"08-Oct-92 Changed DATA ENCODING to NETWORK. Added Quality and Post Gap Flags"
+	2 (CDF_CHAR/32): 	"Plotting range changed to  10-80"
+	3 (CDF_CHAR/62): 	"27-Oct-92 Put in Logical_file_id, ADID_ref, DEPEND_i, VAR_TYPE"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0101"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/22): 	"SE_K0_VLF_19940706_V01"
+Logical_source (1 entry):
+	0 (CDF_CHAR/9): 	"SE_K0_VLF"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/54): 	"SESAME VLF/ELF Logger Experiment (VELOX)Key Parameters"
+PI_name (1 entry):
+	0 (CDF_CHAR/10): 	"J. Dudeney"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/24): 	"British Antarctic Survey"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/37): 	"Ground-Based VLF/ELF/ULF, Photometers"
+TEXT_supplement_1 (1 entry):
+	0 (CDF_CHAR/1): 	" "
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/32): 	"SESAME_vlf_Key-Parameters-K0_cdf"
+spase_DatasetResourceID (1 entry):
+	0 (CDF_CHAR/61): 	"spase://NASA/NumericalData/SESAME/KeyParameters/VLF-ELF/PT60S"
+
+Variable Attributes (21 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+LABL_PTR_1
+FORMAT
+MONOTON
+FILLVAL
+CATDESC
+DEPEND_0
+DEPEND_1
+FORM_PTR
+UNIT_PTR
+LABLAXIS
+VAR_TYPE
+DICT_KEY
+AVG_TYPE
+DISPLAY_TYPE
+VAR_NOTES
+
+Variable Information (9 rVariables, 0 zVariable)
+===========================================================
+Epoch                 CDF_EPOCH/1	1:[3]	T/F
+Time_PB5              CDF_INT4/1	1:[3]	T/T
+label_time            CDF_CHAR/27	1:[3]	F/T
+unit_time             CDF_CHAR/4	1:[3]	F/T
+format_time           CDF_CHAR/2	1:[3]	F/T
+vlf1_Amplitude        CDF_REAL4/1	1:[3]	T/F
+vlf3_Amplitude        CDF_REAL4/1	1:[3]	T/F
+quality_flag          CDF_INT1/1	1:[3]	T/F
+post_gap              CDF_INT1/1	1:[3]	T/F
+
+
+Variable (9 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Time of observation"
+     VALIDMIN        (CDF_EPOCH/1): 06-Jul-1994 00:00:35.000
+     VALIDMAX        (CDF_EPOCH/1): 06-Jul-1994 23:59:35.000
+     SCALEMIN        (CDF_EPOCH/1): 06-Jul-1994 00:00:35.000
+     SCALEMAX        (CDF_EPOCH/1): 06-Jul-1994 23:59:35.000
+     UNITS           (CDF_CHAR/2): "ms"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     FILLVAL         (CDF_REAL8/1): 31-Dec-9999 23:59:59.999
+     CATDESC         (CDF_CHAR/19): "Time of observation"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+Time_PB5 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Time of observation"
+     VALIDMIN        (CDF_UINT4/3): 1994, 187, 35000
+     VALIDMAX        (CDF_UINT4/3): 1994, 187, 86375000
+     SCALEMIN        (CDF_UINT4/3): 1994, 187, 35000
+     SCALEMAX        (CDF_UINT4/3): 1994, 187, 86375000
+     LABL_PTR_1      (CDF_CHAR/10): "label_time"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     CATDESC         (CDF_CHAR/40): "Time of observation                     "
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/10): "label_time"
+     FORM_PTR        (CDF_CHAR/11): "format_time"
+     UNIT_PTR        (CDF_CHAR/9): "unit_time"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+label_time (No: 2) (Recs: 1)
+----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Label for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Label for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+unit_time (No: 3) (Recs: 1)
+---------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/18): "Units for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Units for Time_PB5                      "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+format_time (No: 4) (Recs: 1)
+-----------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/19): "Format for Time_PB5"
+     CATDESC         (CDF_CHAR/40): "Format for Time_PB5                     "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+vlf1_Amplitude (No: 5) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "1kHz Amplitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): 10.0
+     SCALEMAX        (CDF_REAL4/1): 80.0
+     UNITS           (CDF_CHAR/2): "dB"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/75): "Omni-directional intensity (narrow passband filter centred on 1kHz), scalar"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/17): "Omni-dir Int 1kHz"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/32): "0dB is 10-33(Teslas)^2 / (Hertz)"
+
+vlf3_Amplitude (No: 6) (Recs: 0)
+--------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/14): "3kHz Amplitude"
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     SCALEMIN        (CDF_REAL4/1): 10.0
+     SCALEMAX        (CDF_REAL4/1): 80.0
+     UNITS           (CDF_CHAR/2): "dB"
+     FORMAT          (CDF_CHAR/4): "F6.1"
+     MONOTON         (CDF_CHAR/5): "FALSE"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     CATDESC         (CDF_CHAR/75): "Omni-directional intensity (narrow passband filter centred on 3kHz), scalar"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/17): "Omni-dir Int 3kHz"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/32): "0dB is 10-33(Teslas)^2 / (Hertz)"
+
+quality_flag (No: 7) (Recs: 0)
+------------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/17): "Data quality flag"
+     VALIDMIN        (CDF_INT1/1): 0
+     VALIDMAX        (CDF_INT1/1): 1
+     SCALEMIN        (CDF_INT1/1): 0
+     SCALEMAX        (CDF_INT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT1/1): -128
+     CATDESC         (CDF_CHAR/73): "0-error <= +/-0.1dB: 1-error > +/-0.1dB (in both cases absolute to 0.2dB)"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/7): "Quality"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+
+post_gap (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/13): "post gap flag"
+     VALIDMIN        (CDF_INT1/1): 0
+     VALIDMAX        (CDF_INT1/1): 1
+     SCALEMIN        (CDF_INT1/1): 0
+     SCALEMAX        (CDF_INT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     FORMAT          (CDF_CHAR/2): "I2"
+     FILLVAL         (CDF_INT1/1): -128
+     CATDESC         (CDF_CHAR/40): "Indicates gap: 0-no gap  1-not recording"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/8): "Gap Flag"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DICT_KEY        (CDF_CHAR/1): " "
+     AVG_TYPE        (CDF_CHAR/1): " "
+     DISPLAY_TYPE    (CDF_CHAR/1): " "
+     VAR_NOTES       (CDF_CHAR/1): " "
+

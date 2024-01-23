@@ -1,0 +1,828 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/sampex_orbit-attitude_6s_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     sampex_orbit-attitude_6s_00000000_v01.cdf
+Version:      3.8.1
+
+Common Data Format (CDF)
+https://cdf.gsfc.nasa.gov
+Space Physics Data Facility
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+
+Format:       SINGLE
+Encoding:     IBMPC
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     51
+NumAttrs:     40 (22 global, 18 variable)
+Compression:  None
+Checksum:     None
+LeapSecondLastUpdated:     20170101
+
+Global Attributes (22 attributes)
+=========================================
+Project (1 entry):
+	0 (CDF_CHAR/44): 	"ISTP>International Solar-Terrestrial Physics"
+Source_name (1 entry):
+	0 (CDF_CHAR/59): 	"SAMPEX>Solar Anomalous and Magnetospheric Particle Explorer"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Data_type (1 entry):
+	0 (CDF_CHAR/16): 	"6S>6-second data"
+Descriptor (1 entry):
+	0 (CDF_CHAR/33): 	"ORBIT-ATTITUDE>Orbit and Attitude"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/9): 	"6 seconds"
+TEXT (6 entries):
+	0 (CDF_CHAR/65): 	"Description of the SAMPEX spacecraft and scientific scope can be "
+	1 (CDF_CHAR/65): 	"found on SAMPEX homepage https://lasp.colorado.edu/home/sampex/ ."
+	2 (CDF_CHAR/67): 	"The 6-second orbit and attitude data documentation is available at "
+	3 (CDF_CHAR/67): 	"https://izw1.caltech.edu/sampex/DataCenter/docs/sampex_psset.html ."
+	4 (CDF_CHAR/55): 	"Documentation of SAMPEX pointing modes may be found at "
+	5 (CDF_CHAR/60): 	"http://www.srl.caltech.edu/sampex/DataCenter/docs/index.html"
+MODS (1 entry):
+	0 (CDF_CHAR/1): 	" "
+File_naming_convention (1 entry):
+	0 (CDF_CHAR/35): 	"source_descriptor_datatype_yyyyMMdd"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/24): 	"sampex_orbit-attitude_6s"
+Logical_source (1 entry):
+	0 (CDF_CHAR/24): 	"sampex_orbit-attitude_6s"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/39): 	"SAMPEX Orbit and Attitude 6-second data"
+PI_name (1 entry):
+	0 (CDF_CHAR/11): 	"Glenn Mason"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"JHU/APL"
+Mission_group (1 entry):
+	0 (CDF_CHAR/6): 	"SAMPEX"
+Instrument_type (1 entry):
+	0 (CDF_CHAR/17): 	"Particles (space)"
+LINK_TEXT (1 entry):
+	0 (CDF_CHAR/52): 	"SAMPEX Orbit and Attitude 6-second data available at"
+LINK_TITLE (1 entry):
+	0 (CDF_CHAR/18): 	"SAMPEX Data Center"
+HTTP_LINK (1 entry):
+	0 (CDF_CHAR/53): 	"https://izw1.caltech.edu/sampex/DataCenter/index.html"
+Parents (1 entry):
+	0 (CDF_CHAR/1): 	" "
+Generated_by (2 entries):
+	0 (CDF_CHAR/49): 	"Andriy Koval at SPDF from original ASCII files at"
+	1 (CDF_CHAR/59): 	"https://izw1.caltech.edu/sampex/DataCenter/DATA/PSSet/Text/"
+
+Variable Attributes (18 attributes)
+=========================================
+CATDESC
+FIELDNAM
+LABLAXIS
+LABL_PTR_1
+LABL_PTR_2
+FILLVAL
+VALIDMIN
+VALIDMAX
+UNITS
+UNIT_PTR
+VAR_TYPE
+MONOTON
+DEPEND_0
+DEPEND_1
+FORMAT
+DISPLAY_TYPE
+TIME_BASE
+VAR_NOTES
+
+Variable Information (0 rVariable, 51 zVariables)
+===========================================================
+Epoch                 CDF_EPOCH/1	0:[]	T/  
+Sec_of_day            CDF_UINT4/1	0:[]	T/  
+Sec_of_day_psset      CDF_UINT4/1	0:[]	T/  
+Flag_rstime           CDF_UINT1/1	0:[]	T/  
+Orbit_Number          CDF_UINT4/1	0:[]	T/  
+GEO_Sphr_Pos          CDF_REAL4/1	1:[3]	T/T
+label_geo_sphr_pos    CDF_CHAR/9	1:[3]	F/T
+unit_kdd              CDF_CHAR/4	1:[3]	F/T
+GEO_Alt               CDF_REAL4/1	0:[]	T/  
+GEI_Pos               CDF_REAL4/1	1:[3]	T/T
+label_GEI_cart_pos    CDF_CHAR/5	1:[3]	F/T
+GEI_Vel               CDF_REAL4/1	1:[3]	T/T
+label_GEI_cart_vel    CDF_CHAR/6	1:[3]	F/T
+ECD_Sphr_Pos          CDF_REAL4/1	1:[3]	T/T
+label_ecd_pos         CDF_CHAR/9	1:[3]	F/T
+ECD_lt                CDF_REAL4/1	0:[]	T/  
+L_shell               CDF_REAL4/1	0:[]	T/  
+B_mag                 CDF_REAL4/1	0:[]	T/  
+Equat_lt              CDF_REAL4/1	0:[]	T/  
+Invar_lat             CDF_REAL4/1	0:[]	T/  
+B_vect_GEI            CDF_REAL4/1	1:[3]	T/T
+label_B_GEI_cart      CDF_CHAR/6	1:[3]	F/T
+B_vect_GEO            CDF_REAL4/1	1:[3]	T/T
+label_b_geo           CDF_CHAR/12	1:[3]	F/T
+Declination           CDF_REAL4/1	0:[]	T/  
+Dip                   CDF_REAL4/1	0:[]	T/  
+Mag_rad               CDF_REAL4/1	0:[]	T/  
+Mag_lat               CDF_REAL4/1	0:[]	T/  
+Loss_cone_1           CDF_REAL4/1	0:[]	T/  
+Loss_cone_2           CDF_REAL4/1	0:[]	T/  
+Dipole_mom_GEO        CDF_REAL4/1	1:[3]	T/T
+label_dipole_GEO      CDF_CHAR/6	1:[3]	F/T
+Dipole_displ_GEO      CDF_REAL4/1	1:[3]	T/T
+label_displ_GEO       CDF_CHAR/17	1:[3]	F/T
+Mirror_point_GEO      CDF_REAL4/1	1:[3]	T/T
+label_mirror_geo      CDF_CHAR/15	1:[3]	F/T
+Mag_equator           CDF_REAL4/1	1:[4]	T/T
+label_mag_equator     CDF_CHAR/16	1:[4]	F/T
+unit_Gkdd             CDF_CHAR/5	1:[4]	F/T
+four_element_vector   CDF_UINT1/1	1:[4]	F/T
+North_100km           CDF_REAL4/1	1:[4]	T/T
+label_north_100km     CDF_CHAR/16	1:[4]	F/T
+South_100km           CDF_REAL4/1	1:[4]	T/T
+label_south_100km     CDF_CHAR/16	1:[4]	F/T
+Vertical_Cutoff       CDF_REAL4/1	0:[]	T/  
+SAA_Flag              CDF_INT2/1	0:[]	T/  
+GEI_to_body_matrix    CDF_REAL4/1	2:[3,3]	T/TT
+Pitch                 CDF_REAL4/1	0:[]	T/  
+Zenith                CDF_REAL4/1	0:[]	T/  
+Azimuth               CDF_REAL4/1	0:[]	T/  
+Att_Flag              CDF_INT2/1	0:[]	T/  
+
+
+Variable (51 variables)
+=========================================
+
+Epoch (No: 0) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "Instantaneous time, number of milliseconds since 01-Jan-0000 00:00:00.000"
+     FIELDNAM        (CDF_CHAR/5): "Epoch"
+     LABLAXIS        (CDF_CHAR/5): "Epoch"
+     FILLVAL         (CDF_EPOCH/1): 31-Dec-9999 23:59:59.999
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-1992 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2013 00:00:00.000
+     UNITS           (CDF_CHAR/2): "ms"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     TIME_BASE       (CDF_CHAR/4): "0 AD"
+
+Sec_of_day (No: 1) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Second of day, synced RS Set time-stamp when Flag_rstime is 1"
+     FIELDNAM        (CDF_CHAR/13): "Second of day"
+     LABLAXIS        (CDF_CHAR/13): "Second of day"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 86400
+     UNITS           (CDF_CHAR/1): "s"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I6"
+
+Sec_of_day_psset (No: 2) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/51): "Second of day contained in the original data record"
+     FIELDNAM        (CDF_CHAR/24): "Second of day (original)"
+     LABLAXIS        (CDF_CHAR/24): "Second of day (original)"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 86400
+     UNITS           (CDF_CHAR/1): "s"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I6"
+
+Flag_rstime (No: 3) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/11): "Flag_rstime"
+     FIELDNAM        (CDF_CHAR/11): "Flag_rstime"
+     LABLAXIS        (CDF_CHAR/11): "Flag_rstime"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I2"
+     VAR_NOTES       (CDF_CHAR/113): "Flag indicating whether the time-stamp for the data record has been synced to its corresponding RS Set time-stamp"
+
+Orbit_Number (No: 4) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "SAMPEX Orbit Number"
+     FIELDNAM        (CDF_CHAR/12): "Orbit Number"
+     LABLAXIS        (CDF_CHAR/12): "Orbit Number"
+     FILLVAL         (CDF_UINT4/1): 4294967295
+     VALIDMIN        (CDF_UINT4/1): 0
+     VALIDMAX        (CDF_UINT4/1): 999999
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I6"
+     VAR_NOTES       (CDF_CHAR/116): "SAMPEX Orbit Number. Launch into orbit 1. Orbit 2 starts at first ascending node through geographic equatorial plane"
+
+GEO_Sphr_Pos (No: 5) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/76): "Position in GEO spherical coordinates (radial distance, longitude, latitude)"
+     FIELDNAM        (CDF_CHAR/28): "Pos. in GEO spherical coords"
+     LABL_PTR_1      (CDF_CHAR/18): "label_geo_sphr_pos"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/3): 6500.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/3): 8000.0, 360.0, 90.0
+     UNIT_PTR        (CDF_CHAR/8): "unit_kdd"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/293): "In the GEO system, the X-axis is in the Earth's equatorial plane but is fixed with the rotation of the Earth so that it passes through the Greenwich meridian (0 degrees longitude). The Z-axis is parallel to the rotation axis of the Earth, and the Y-axis completes a right-handed orthogonal set"
+
+label_geo_sphr_pos (No: 6) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "Label for spherical GEO coordinates"
+     FIELDNAM        (CDF_CHAR/26): "Label for sphr. GEO coords"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A9"
+
+unit_kdd (No: 7) (Recs: 1)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "Units km, deg, deg"
+     FIELDNAM        (CDF_CHAR/18): "Units km, deg, deg"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A4"
+
+GEO_Alt (No: 8) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Geographic altitude (altitude above surface of Earth)"
+     FIELDNAM        (CDF_CHAR/19): "Geographic altitude"
+     LABLAXIS        (CDF_CHAR/7): "GEO Alt"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 100.0
+     VALIDMAX        (CDF_REAL4/1): 2000.0
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+GEI_Pos (No: 9) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/37): "Position in GEI cartesian coordinates"
+     FIELDNAM        (CDF_CHAR/28): "Pos. in GEI cartesian coords"
+     LABL_PTR_1      (CDF_CHAR/18): "label_GEI_cart_pos"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -8000.0
+     VALIDMAX        (CDF_REAL4/1): 8000.0
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/343): "In the GEI system, the X axis points toward the first point of Aries (i.e. the vernal equinox), and the Z axis is parallel with the Earth's rotation axis. The Y-axis completes a right-handed orthogonal set. When expressed in terms of longitude and latitude, this is the well known celestial coordinate system of right ascension and declination"
+
+label_GEI_cart_pos (No: 10) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "Label for GEI cartesian coordinates"
+     FIELDNAM        (CDF_CHAR/26): "Label for GEI cart. coords"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A5"
+
+GEI_Vel (No: 11) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "SC velocity in GEI cartesian coordinates"
+     FIELDNAM        (CDF_CHAR/31): "SC vel. in GEI cartesian coords"
+     LABL_PTR_1      (CDF_CHAR/18): "label_GEI_cart_vel"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -10.0
+     VALIDMAX        (CDF_REAL4/1): 10.0
+     UNITS           (CDF_CHAR/4): "km/s"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_GEI_cart_vel (No: 12) (Recs: 1)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/35): "Label for GEI cartesian coordinates"
+     FIELDNAM        (CDF_CHAR/26): "Label for GEI cart. coords"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A6"
+
+ECD_Sphr_Pos (No: 13) (Recs: 0)
+------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/70): "Eccentric (offset tilted) dipole position (range, longitude, latitude)"
+     FIELDNAM        (CDF_CHAR/25): "Eccentric dipole position"
+     LABL_PTR_1      (CDF_CHAR/13): "label_ecd_pos"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/3): 8000.0, 360.0, 90.0
+     UNIT_PTR        (CDF_CHAR/8): "unit_kdd"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/123): "ECD is a coordinate system centered on and aligned with a ficticious dipole that approximates Earth's actual magnetic field"
+
+label_ecd_pos (No: 14) (Recs: 1)
+-------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Label for Ecc Dipole Location"
+     FIELDNAM        (CDF_CHAR/29): "Label for Ecc Dipole Location"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A9"
+
+ECD_lt (No: 15) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/28): "Eccentric Dipole local time "
+     FIELDNAM        (CDF_CHAR/28): "Eccentric Dipole local time "
+     LABLAXIS        (CDF_CHAR/6): "ECD LT"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     UNITS           (CDF_CHAR/2): "hr"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+L_shell (No: 16) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/17): "L-shell parameter"
+     FIELDNAM        (CDF_CHAR/17): "L-shell parameter"
+     LABLAXIS        (CDF_CHAR/7): "L-shell"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 1.0
+     VALIDMAX        (CDF_REAL4/1): 9000.0
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+B_mag (No: 17) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/23): "Model B-field magnitude"
+     FIELDNAM        (CDF_CHAR/23): "Model B-field magnitude"
+     LABLAXIS        (CDF_CHAR/7): "Model B"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/5): "gauss"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Equat_lt (No: 18) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "Local time at magnetic equator along current field line ECD"
+     FIELDNAM        (CDF_CHAR/25): "Local time at mag equator"
+     LABLAXIS        (CDF_CHAR/14): "Mag Equator LT"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 24.0
+     UNITS           (CDF_CHAR/2): "hr"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Invar_lat (No: 19) (Recs: 0)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "Invariant latitude"
+     FIELDNAM        (CDF_CHAR/18): "Invariant latitude"
+     LABLAXIS        (CDF_CHAR/7): "Inv Lat"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+B_vect_GEI (No: 20) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Magnetic vector in GEI cartesian coordinates"
+     FIELDNAM        (CDF_CHAR/25): "B in GEI cartesian coords"
+     LABL_PTR_1      (CDF_CHAR/16): "label_B_GEI_cart"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/5): "gauss"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_B_GEI_cart (No: 21) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Label for B in cartesian GEI "
+     FIELDNAM        (CDF_CHAR/24): "Label for B in cart. GEI"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A6"
+
+B_vect_GEO (No: 22) (Recs: 0)
+----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/44): "Magnetic vector in GEO cartesian coordinates"
+     FIELDNAM        (CDF_CHAR/25): "B in GEO cartesian coords"
+     LABL_PTR_1      (CDF_CHAR/11): "label_b_geo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/5): "gauss"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_b_geo (No: 23) (Recs: 1)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/18): "Label for B in GEO"
+     FIELDNAM        (CDF_CHAR/18): "Label for B in GEO"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A12"
+
+Declination (No: 24) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "Magnetic declination, measured eastward of geographic north"
+     FIELDNAM        (CDF_CHAR/20): "Magnetic declination"
+     LABLAXIS        (CDF_CHAR/8): "Mag Decl"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -180.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Dip (No: 25) (Recs: 0)
+---
+Attribute Entries:
+     CATDESC         (CDF_CHAR/60): "Magnetic dip angle: vector's deviation from horizontal plane"
+     FIELDNAM        (CDF_CHAR/18): "Magnetic dip angle"
+     LABLAXIS        (CDF_CHAR/7): "Mag Dip"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Mag_rad (No: 26) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/34): "Algebraic magnetic radial distance"
+     FIELDNAM        (CDF_CHAR/19): "Mag radial distance"
+     LABLAXIS        (CDF_CHAR/12): "Mag Rad Dist"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 10000.0
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Mag_lat (No: 27) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/27): "Algebraic magnetic latitude"
+     FIELDNAM        (CDF_CHAR/17): "Magnetic latitude"
+     LABLAXIS        (CDF_CHAR/7): "Mag Lat"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -90.0
+     VALIDMAX        (CDF_REAL4/1): 90.0
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/166): "Algebraic magnetic radius and latitude are computed using the dipole relationship between B, L, and latitude but with values for B and L generated from the IGRF model"
+
+Loss_cone_1 (No: 28) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/81): "Loss cone 1/2 angle for particles mirroring below 100 km in same hemisphere as SC"
+     FIELDNAM        (CDF_CHAR/11): "Loss cone 1"
+     LABLAXIS        (CDF_CHAR/11): "Loss Cone 1"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Loss_cone_2 (No: 29) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/77): "Loss cone 1/2 angle for particles mirroring below 100 km in either hemisphere"
+     FIELDNAM        (CDF_CHAR/11): "Loss cone 2"
+     LABLAXIS        (CDF_CHAR/11): "Loss Cone 2"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Dipole_mom_GEO (No: 30) (Recs: 0)
+--------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/49): "Dipole moment vector in GEO cartesian coordinates"
+     FIELDNAM        (CDF_CHAR/20): "Dipole moment in GEO"
+     LABL_PTR_1      (CDF_CHAR/16): "label_dipole_GEO"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -99.0
+     VALIDMAX        (CDF_REAL4/1): 99.0
+     UNITS           (CDF_CHAR/10): "gauss Re^3"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_dipole_GEO (No: 31) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/40): "Label for dipole moment in cartesian GEO"
+     FIELDNAM        (CDF_CHAR/30): "Label for dipole moment in GEO"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A6"
+
+Dipole_displ_GEO (No: 32) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Dipole moment displacement vector in GEO cartesian coordinates"
+     FIELDNAM        (CDF_CHAR/33): "Dipole moment displacement in GEO"
+     LABL_PTR_1      (CDF_CHAR/15): "label_displ_GEO"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -1000.0
+     VALIDMAX        (CDF_REAL4/1): 1000.0
+     UNITS           (CDF_CHAR/2): "km"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_displ_GEO (No: 33) (Recs: 1)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/53): "Label for dipole moment displacement in cartesian GEO"
+     FIELDNAM        (CDF_CHAR/36): "Label for dipole displacement in GEO"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A17"
+
+Mirror_point_GEO (No: 34) (Recs: 0)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Conjugate mirror point in GEO (altitude, longitude, latitude)"
+     FIELDNAM        (CDF_CHAR/36): "Mirror point in GEO (alt, long, lat)"
+     LABL_PTR_1      (CDF_CHAR/16): "label_mirror_geo"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/3): 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/3): 2000.0, 360.0, 90.0
+     UNIT_PTR        (CDF_CHAR/8): "unit_kdd"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_mirror_geo (No: 35) (Recs: 1)
+----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/29): "Label for mirror point in GEO"
+     FIELDNAM        (CDF_CHAR/29): "Label for mirror point in GEO"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A15"
+
+Mag_equator (No: 36) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/81): "B-field magnitude, GEO alt, long, and lat at mag equator along current field line"
+     FIELDNAM        (CDF_CHAR/40): "B mag, GEO alt, long, lat at mag equator"
+     LABL_PTR_1      (CDF_CHAR/17): "label_mag_equator"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/4): 0.0, 100.0, 0.0, -30.0
+     VALIDMAX        (CDF_REAL4/4): 1.0, 2000.0, 360.0, 30.0
+     UNIT_PTR        (CDF_CHAR/9): "unit_Gkdd"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/19): "four_element_vector"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_mag_equator (No: 37) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Label for Mag equator B-field, Altitude , Longitude, Latitude"
+     FIELDNAM        (CDF_CHAR/21): "Label for Mag equator"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A16"
+
+unit_Gkdd (No: 38) (Recs: 1)
+---------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/25): "Units gauss, km, deg, deg"
+     FIELDNAM        (CDF_CHAR/25): "Units gauss, km, deg, deg"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/2): "A5"
+
+four_element_vector (No: 39) (Recs: 1)
+-------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/19): "Four element vector"
+     FIELDNAM        (CDF_CHAR/19): "Four element vector"
+     LABLAXIS        (CDF_CHAR/8): "4-vector"
+     FILLVAL         (CDF_UINT1/1): 255
+     VALIDMIN        (CDF_UINT1/1): 0
+     VALIDMAX        (CDF_UINT1/1): 9
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FORMAT          (CDF_CHAR/2): "I1"
+
+North_100km (No: 40) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/87): "B-field magnitude, GEO alt, long, and lat at north 100km point along current field line"
+     FIELDNAM        (CDF_CHAR/46): "B mag, GEO alt, long, lat at north 100km point"
+     LABL_PTR_1      (CDF_CHAR/17): "label_north_100km"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/4): 1.0, 300.0, 360.0, 90.0
+     UNIT_PTR        (CDF_CHAR/9): "unit_Gkdd"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/19): "four_element_vector"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_north_100km (No: 41) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Label for North 100km B-field, Altitude , Longitude, Latitude"
+     FIELDNAM        (CDF_CHAR/21): "Label for North 100km"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A16"
+
+South_100km (No: 42) (Recs: 0)
+-----------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/87): "B-field magnitude, GEO alt, long, and lat at south 100km point along current field line"
+     FIELDNAM        (CDF_CHAR/46): "B mag, GEO alt, long, lat at south 100km point"
+     LABL_PTR_1      (CDF_CHAR/17): "label_south_100km"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/4): 0.0, 0.0, 0.0, -90.0
+     VALIDMAX        (CDF_REAL4/4): 1.0, 300.0, 360.0, 90.0
+     UNIT_PTR        (CDF_CHAR/9): "unit_Gkdd"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     DEPEND_1        (CDF_CHAR/19): "four_element_vector"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+label_south_100km (No: 43) (Recs: 1)
+-----------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/61): "Label for South 100km B-field, Altitude , Longitude, Latitude"
+     FIELDNAM        (CDF_CHAR/21): "Label for South 100km"
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+     FORMAT          (CDF_CHAR/3): "A16"
+
+Vertical_Cutoff (No: 44) (Recs: 0)
+---------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/73): "Nominal vertical cutoff (1980) at 20 km altitude at subsatellite location"
+     FIELDNAM        (CDF_CHAR/23): "Nominal vertical cutoff"
+     LABLAXIS        (CDF_CHAR/6): "Cutoff"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 100.0
+     UNITS           (CDF_CHAR/2): "GV"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/50): "Shea and Smart, 1983, Bangalore ICRC, Paper MG10-3"
+
+SAA_Flag (No: 45) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/55): "South Atlantic Anomaly Flag. 0=not in SAA, 1=within SAA"
+     FIELDNAM        (CDF_CHAR/27): "South Atlantic Anomaly Flag"
+     LABLAXIS        (CDF_CHAR/8): "SAA Flag"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I6"
+
+GEI_to_body_matrix (No: 46) (Recs: 0)
+------------------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Rotation matrix from GEI coordinates to body fixed coordinates"
+     FIELDNAM        (CDF_CHAR/27): "GEI to body rotation matrix"
+     LABLAXIS        (CDF_CHAR/10): "Dir Cosine"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): -1.0
+     VALIDMAX        (CDF_REAL4/1): 1.0
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     VAR_NOTES       (CDF_CHAR/374): "This matrix is used to map a vector from GEI coordinates into spacecraft coordinates. Let V, with elements V(1), V(2), V(3), be a GEI vector; to obtain the vector in the spacecraft coordinate frame, say v with elements v(1), v(2), v(3), use v(1) = A11 * V(1) + A12 * V(2) + A13 * V(3), v(2) = A21 * V(1) + A22 * V(2) + A23 * V(3), v(3) = A31 * V(1) + A32 * V(2) + A33 * V(3)"
+
+Pitch (No: 47) (Recs: 0)
+-----
+Attribute Entries:
+     CATDESC         (CDF_CHAR/20): "Particle pitch angle"
+     FIELDNAM        (CDF_CHAR/20): "Particle pitch angle"
+     LABLAXIS        (CDF_CHAR/5): "Pitch"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/142): "Pitch angle of a particle heading down the instrument boresight (i.e., angle between SC z-axis and (-1) times the local magnetic field vector)"
+
+Zenith (No: 48) (Recs: 0)
+------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/82): "Zenith-bore angle: angle between instrument boresight (SC z-axis) and local zenith"
+     FIELDNAM        (CDF_CHAR/17): "Zenith-bore angle"
+     LABLAXIS        (CDF_CHAR/6): "Zenith"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 180.0
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+
+Azimuth (No: 49) (Recs: 0)
+-------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/62): "Azimuth of projection of boresight into plane normal to zenith"
+     FIELDNAM        (CDF_CHAR/13): "Azimuth angle"
+     LABLAXIS        (CDF_CHAR/7): "Azimuth"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 360.0
+     UNITS           (CDF_CHAR/3): "deg"
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/5): "E11.3"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/45): "0 = east, 90 = north, 180 = west, 270 = south"
+
+Att_Flag (No: 50) (Recs: 0)
+--------
+Attribute Entries:
+     CATDESC         (CDF_CHAR/59): "Data quality flag indicating source of attitude information"
+     FIELDNAM        (CDF_CHAR/27): "South Atlantic Anomaly Flag"
+     LABLAXIS        (CDF_CHAR/8): "Att Flag"
+     FILLVAL         (CDF_INT2/1): -32768
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 1000
+     UNITS           (CDF_CHAR/1): " "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DEPEND_0        (CDF_CHAR/5): "Epoch"
+     FORMAT          (CDF_CHAR/2): "I6"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     VAR_NOTES       (CDF_CHAR/300): "Data quality flag indicating source of attitude information (attitude direction cosines, pitch, zenith, azimuth). Executive summary: flag =0, 1, 100, 101 means attitude is OK. Other values indicate attitude is not OK. More details: https://izw1.caltech.edu/sampex/DataCenter/docs/att_flag_details.txt"
+

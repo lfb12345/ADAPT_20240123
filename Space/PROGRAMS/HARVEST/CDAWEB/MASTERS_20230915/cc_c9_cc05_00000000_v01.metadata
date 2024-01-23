@@ -1,0 +1,240 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/cc_c9_cc05_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     cc_c9_cc05_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     7
+NumAttrs:     47 (27 global, 20 variable)
+Compression:  None
+
+Global Attributes (27 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"CCE Magnetic Field Vectors 68 s avg EVENTA        "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"CCE       "
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"Magnetomet"
+TIMERES  (1 entry):
+	0 (CDF_CHAR/10): 	"68 s      "
+TEXT (3 entries):
+	0 (CDF_CHAR/30): 	"Derived from CC05 in CDAW9 DB."
+	1 (CDF_CHAR/31): 	"Data from all CDAW9 events A-E."
+	2 (CDF_CHAR/79): 	"Magnetic field vectors near perigee should be ignored, because of s/c eclipse. "
+MODS (1 entry):
+	0 (CDF_CHAR/101): 	"Converted to CDAWeb Feb 2000                                                                         "
+Data_type (1 entry):
+	0 (CDF_CHAR/11): 	"C9>CDAW9 DB"
+Discipline (1 entry):
+	0 (CDF_CHAR/36): 	"Space Physics>Magnetospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/37): 	"CCE>AMPTE/Charge Composition Explorer"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"AMPTE"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"S. Nylund"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/7): 	"JHU/APL"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Descriptor (1 entry):
+	0 (CDF_CHAR/45): 	"CC05>Vector Magnetic Field (GSE/GSM) @ 68 sec"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/25): 	"S. Nylund and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/23): 	"Magnetic Fields (space)"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/5): 	"AMPTE"
+	1 (CDF_UCHAR/23): 	"!___Magnetospheric Data"
+Generated_by (0 entry):
+Time_resolution (1 entry):
+	0 (CDF_CHAR/6): 	"68 sec"
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"cc_c9_cc05"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"cc_c9_cc05_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/53): 	"Cce Vector Magnetic Field (GSE/GSM) @ 68 sec CDAW9 DB"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/5): 	"AMPTE"
+
+Variable Attributes (20 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+DISPLAY_TYPE
+DEPEND_0
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+
+Variable Information (0 rVariable, 7 zVariables)
+===========================================================
+CC05GSEX              CDF_REAL4/1	0:[]	T/  
+CC05GSEY              CDF_REAL4/1	0:[]	T/  
+CC05GSEZ              CDF_REAL4/1	0:[]	T/  
+CC05GSMX              CDF_REAL4/1	0:[]	T/  
+CC05GSMY              CDF_REAL4/1	0:[]	T/  
+CC05GSMZ              CDF_REAL4/1	0:[]	T/  
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+
+
+Variable (7 variables)
+=========================================
+
+CC05GSEX (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "B-field, GSE X comp "
+     VALIDMIN        (CDF_REAL4/1): -6.5188
+     VALIDMAX        (CDF_REAL4/1): 6.73242
+     SCALEMIN        (CDF_REAL8/1): -1000.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "X comp of B-field, GSE                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "BX GSE"
+
+CC05GSEY (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "B-field, GSE Y comp "
+     VALIDMIN        (CDF_REAL4/1): -6.5188
+     VALIDMAX        (CDF_REAL4/1): 6.73242
+     SCALEMIN        (CDF_REAL8/1): -1000.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "Y comp of B-field, GSE                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "BY GSE"
+
+CC05GSEZ (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "B-field, GSE Z comp "
+     VALIDMIN        (CDF_REAL4/1): -6.5188
+     VALIDMAX        (CDF_REAL4/1): 6.73242
+     SCALEMIN        (CDF_REAL8/1): -1000.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "Z comp of B-field, GSE                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "BZ GSE"
+
+CC05GSMX (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "B-field, GSM X comp "
+     VALIDMIN        (CDF_REAL4/1): -6.5188
+     VALIDMAX        (CDF_REAL4/1): 6.73242
+     SCALEMIN        (CDF_REAL8/1): -1000.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "X comp of B-field, GSM                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "BX GSM"
+
+CC05GSMY (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "B-field, GSM Y comp "
+     VALIDMIN        (CDF_REAL4/1): -6.5188
+     VALIDMAX        (CDF_REAL4/1): 6.73242
+     SCALEMIN        (CDF_REAL8/1): -1000.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "Y comp of B-field, GSM                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "BY GSM"
+
+CC05GSMZ (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "B-field, GSM Z comp "
+     VALIDMIN        (CDF_REAL4/1): -6.5188
+     VALIDMAX        (CDF_REAL4/1): 6.73242
+     SCALEMIN        (CDF_REAL8/1): -1000.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "nT                  "
+     FORMAT          (CDF_CHAR/8): "F10.3   "
+     CATDESC         (CDF_CHAR/40): "Z comp of B-field, GSM                  "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     DISPLAY_TYPE    (CDF_CHAR/11): "time_series"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/6): "BZ GSM"
+
+EPOCH    (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.8   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+

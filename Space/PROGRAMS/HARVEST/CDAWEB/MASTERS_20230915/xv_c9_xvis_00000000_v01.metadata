@@ -1,0 +1,387 @@
+Dumping cdf from "/Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20230915/xv_c9_xvis_00000000_v01.cdf"...
+File Info
+=========================================
+CDF File:     xv_c9_xvis_00000000_v01.cdf
+Version:      2.7.1
+
+NSSDC Common Data Format (CDF)
+(C) Copyright 1990-2001 NASA/GSFC
+National Space Science Data Center
+NASA/Goddard Space Flight Center
+Greenbelt, Maryland 20771 USA
+(DECnet   -- NCF::CDFSUPPORT)
+(Internet -- CDFSUPPORT@NSSDCA.GSFC.NASA.GOV)
+
+Format:       SINGLE
+Encoding:     NETWORK
+Majority:     COLUMN
+NumrVars:     0
+NumzVars:     15
+NumAttrs:     48 (26 global, 22 variable)
+Compression:  None
+
+Global Attributes (26 attributes)
+=========================================
+TITLE (1 entry):
+	0 (CDF_CHAR/50): 	"Vertical Ionosonde Data, 28 sta, 1 hr., CDAW9     "
+TPERIOD  (1 entry):
+	0 (CDF_CHAR/20): 	"CDAW-9A             "
+PLATFORM (1 entry):
+	0 (CDF_CHAR/10): 	"USSR Sta's"
+INSTRUM  (1 entry):
+	0 (CDF_CHAR/10): 	"Ionosonde "
+Time_resolution (1 entry):
+	0 (CDF_CHAR/10): 	"1 hr      "
+MODS (1 entry):
+	0 (CDF_CHAR/30): 	"Converted to CDAWeb Feb 2000. "
+TEXT (1 entry):
+	0 (CDF_CHAR/30): 	"Derived from XVIS in CDAW9 DB."
+Descriptor (1 entry):
+	0 (CDF_CHAR/44): 	"XVIS> Vertical Ionosonde Data, 28 sta, 1 hr."
+Data_type (1 entry):
+	0 (CDF_CHAR/8): 	"c9>cdaw9"
+Discipline (1 entry):
+	0 (CDF_CHAR/33): 	"Space Physics>Ionospheric Science"
+Source_name (1 entry):
+	0 (CDF_CHAR/21): 	"XV>Vertical Ionosonde"
+Project (1 entry):
+	0 (CDF_CHAR/5): 	"CDAW9"
+PI_name (1 entry):
+	0 (CDF_CHAR/9): 	"Feldstein"
+PI_affiliation (1 entry):
+	0 (CDF_CHAR/3): 	"TBD"
+Data_version (1 entry):
+	0 (CDF_CHAR/1): 	"1"
+Generation_date (0 entry):
+Acknowledgement (1 entry):
+	0 (CDF_CHAR/25): 	"Feldstein and CDAW/CDAWeb"
+ADID_ref (1 entry):
+	0 (CDF_CHAR/8): 	"NSSD0110"
+Rules_of_use (0 entry):
+Instrument_type (1 entry):
+	0 (CDF_CHAR/47): 	"Ground-Based Magnetometers, Riometers, Sounders"
+Mission_group (2 entries):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+	1 (CDF_UCHAR/53): 	"!___ITM Data including Earth Imaging and Ground-Based"
+Generated_by (0 entry):
+Logical_source (1 entry):
+	0 (CDF_CHAR/10): 	"xv_c9_xvis"
+Logical_file_id (1 entry):
+	0 (CDF_CHAR/23): 	"xv_c9_xvis_00000000_v01"
+Logical_source_description (1 entry):
+	0 (CDF_CHAR/48): 	"Xv  Vertical Ionosonde Data, 28 sta, 1 hr. cdaw9"
+alt_logical_source (1 entry):
+	0 (CDF_UCHAR/27): 	"Ground-Based Investigations"
+
+Variable Attributes (22 attributes)
+=========================================
+FIELDNAM
+VALIDMIN
+VALIDMAX
+SCALEMIN
+SCALEMAX
+UNITS
+FORMAT
+CATDESC
+MONOTON 
+VAR_TYPE
+FORM_PTR
+UNIT_PTR
+SCAL_PTR
+SCALETYP
+VAR_NOTES
+DICT_KEY
+FILLVAL
+LABLAXIS
+DISPLAY_TYPE
+DEPEND_0
+DEPEND_1
+LABL_PTR_1
+
+Variable Information (0 rVariable, 15 zVariables)
+===========================================================
+EPOCH                 CDF_EPOCH/1	0:[]	T/  
+XVISF0F2              CDF_REAL4/1	1:[28]	T/T
+XVISM3F2              CDF_REAL4/1	1:[28]	T/T
+XVISHF2               CDF_REAL4/1	1:[28]	T/T
+XVISF0F1              CDF_REAL4/1	1:[28]	T/T
+XVISHF                CDF_REAL4/1	1:[28]	T/T
+XVISF0E               CDF_REAL4/1	1:[28]	T/T
+XVISF0ES              CDF_REAL4/1	1:[28]	T/T
+XVISFMIN              CDF_REAL4/1	1:[28]	T/T
+XVISFXI               CDF_REAL4/1	1:[28]	T/T
+XVISCLAT              CDF_REAL4/1	1:[28]	F/T
+XVISLONG              CDF_REAL4/1	1:[28]	F/T
+XVISSTNM              CDF_CHAR/20	1:[28]	F/T
+XVISTMER              CDF_INT4/1	1:[28]	F/T
+XVISINDX              CDF_INT2/1	1:[28]	F/T
+
+
+Variable (15 variables)
+=========================================
+
+EPOCH    (No: 0) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time since 0 A.D.   "
+     VALIDMIN        (CDF_EPOCH/1): 01-Jan-0000 00:00:00.000
+     VALIDMAX        (CDF_EPOCH/1): 01-Jan-2089 00:00:00.000
+     SCALEMIN        (CDF_EPOCH/1): 01-Apr-1986 07:00:00.000
+     SCALEMAX        (CDF_EPOCH/1): 01-Apr-1986 23:00:00.000
+     UNITS           (CDF_CHAR/20): "milliseconds (UT)   "
+     FORMAT          (CDF_CHAR/8): "E14.0   "
+     CATDESC         (CDF_CHAR/40): "NSSDC standard-reference time value.    "
+     MONOTON         (CDF_CHAR/8): "INCREASE"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_DOUBLE/1): 31-Dec-9999 23:59:59.999
+     LABLAXIS        (CDF_CHAR/4): "Time"
+
+XVISF0F2 (No: 1) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "f0F2                "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 10.0
+     UNITS           (CDF_CHAR/15): "MHz            "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "F2 critical frequency  TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/18): "F2 Critical (f0F2)"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XVISINDX"
+
+XVISM3F2 (No: 2) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "M(3000)F2           "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.5625
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 5.0
+     UNITS           (CDF_CHAR/20): "--                  "
+     FORMAT          (CDF_CHAR/8): "F6.2    "
+     CATDESC         (CDF_CHAR/40): "M(3000)F2              TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "M(3000) F2"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XVISINDX"
+
+XVISHF2  (No: 3) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "h'F2                "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 4.47656
+     SCALEMIN        (CDF_REAL8/1): 100.0
+     SCALEMAX        (CDF_REAL8/1): 600.0
+     UNITS           (CDF_CHAR/20): "km                  "
+     FORMAT          (CDF_CHAR/8): "F6.0    "
+     CATDESC         (CDF_CHAR/40): "h'F2--virtual height   TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "Virt Height"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XVISINDX"
+
+XVISF0F1 (No: 4) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "f0F1                "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.5625
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 10.0
+     UNITS           (CDF_CHAR/20): "MHz                 "
+     FORMAT          (CDF_CHAR/8): "F6.2    "
+     CATDESC         (CDF_CHAR/40): "F1 critical frequency  TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "F1 Crit"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XVISINDX"
+
+XVISHF   (No: 5) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "h'F                 "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 4.47656
+     SCALEMIN        (CDF_REAL8/1): 100.0
+     SCALEMAX        (CDF_REAL8/1): 600.0
+     UNITS           (CDF_CHAR/20): "km                  "
+     FORMAT          (CDF_CHAR/8): "F6.0    "
+     CATDESC         (CDF_CHAR/40): "h'F--virtual ht. of F1 TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/14): "F1 Virt Height"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XVISINDX"
+
+XVISF0E  (No: 6) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "f0E                 "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 2.5625
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 10.0
+     UNITS           (CDF_CHAR/20): "MHz                 "
+     FORMAT          (CDF_CHAR/8): "F6.2    "
+     CATDESC         (CDF_CHAR/40): "E critical frequency   TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/11): "E Crit Freq"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XVISINDX"
+
+XVISF0ES (No: 7) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "f0Es                "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 10.0
+     UNITS           (CDF_CHAR/20): "MHz                 "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "Es critical frequency  TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/7): "Es Crit"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XVISINDX"
+
+XVISFMIN (No: 8) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "fmin                "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 10.0
+     UNITS           (CDF_CHAR/20): "MHz                 "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "min.freq. of O-mode    TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/4): "fmin"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XVISINDX"
+
+XVISFXI  (No: 9) (Recs: 0)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "fxI                 "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.39062
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 10.0
+     UNITS           (CDF_CHAR/20): "MHz                 "
+     FORMAT          (CDF_CHAR/8): "F6.1    "
+     CATDESC         (CDF_CHAR/40): "fxI--spread f index    TT               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/4): "data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/3): "fxl"
+     DISPLAY_TYPE    (CDF_CHAR/11): "spectrogram"
+     DEPEND_0        (CDF_CHAR/8): "EPOCH   "
+     DEPEND_1        (CDF_CHAR/8): "XVISINDX"
+
+XVISCLAT (No: 10) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geogr. CoLatitude   "
+     VALIDMIN        (CDF_REAL4/1): 0.0
+     VALIDMAX        (CDF_REAL4/1): 3.60156
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 180.0
+     UNITS           (CDF_CHAR/20): "degrees             "
+     FORMAT          (CDF_CHAR/8): "F7.1    "
+     CATDESC         (CDF_CHAR/40): "Geographic Colatitude  -T               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/10): "Geog CoLat"
+
+XVISLONG (No: 11) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Geographic Longitude"
+     VALIDMIN        (CDF_REAL4/1): -3.60156
+     VALIDMAX        (CDF_REAL4/1): 3.85156
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 360.0
+     UNITS           (CDF_CHAR/20): "degrees East        "
+     FORMAT          (CDF_CHAR/8): "F7.3    "
+     CATDESC         (CDF_CHAR/40): "East longitude in deg. -T               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_REAL4/1): -1.0e+31
+     LABLAXIS        (CDF_CHAR/9): "Geog Long"
+
+XVISSTNM (No: 12) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Station Name, Code  "
+     VALIDMIN        (CDF_REAL8/1): 0.0
+     VALIDMAX        (CDF_REAL8/1): 1000.0
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 1000.0
+     UNITS           (CDF_CHAR/20): "none                "
+     FORMAT          (CDF_CHAR/8): "A20     "
+     CATDESC         (CDF_CHAR/40): "Station Name and Code  -T               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/8): "metadata"
+
+XVISTMER (No: 13) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Time Meridian E     "
+     VALIDMIN        (CDF_INT4/1): 0
+     VALIDMAX        (CDF_INT4/1): 1081507840
+     SCALEMIN        (CDF_REAL8/1): 0.0
+     SCALEMAX        (CDF_REAL8/1): 150.0
+     UNITS           (CDF_CHAR/20): "Degrees             "
+     FORMAT          (CDF_CHAR/8): "I5      "
+     CATDESC         (CDF_CHAR/40): "Time Meridian East     -T               "
+     MONOTON         (CDF_CHAR/8): "FALSE   "
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT4/1): -2147483648
+     LABLAXIS        (CDF_CHAR/15): "Station TimeMer"
+
+XVISINDX (No: 14) (Recs: 1)
+--------
+Attribute Entries:
+     FIELDNAM        (CDF_CHAR/20): "Station index       "
+     VALIDMIN        (CDF_INT2/1): 0
+     VALIDMAX        (CDF_INT2/1): 16527
+     SCALEMIN        (CDF_REAL8/1): 1.0
+     SCALEMAX        (CDF_REAL8/1): 28.0
+     UNITS           (CDF_CHAR/20): "none                "
+     FORMAT          (CDF_CHAR/8): "I3      "
+     CATDESC         (CDF_CHAR/40): "Station index          -T               "
+     MONOTON         (CDF_CHAR/8): "Increase"
+     VAR_TYPE        (CDF_CHAR/12): "support_data"
+     FILLVAL         (CDF_INT2/1): -32768
+     LABLAXIS        (CDF_CHAR/13): "Station Index"
+
