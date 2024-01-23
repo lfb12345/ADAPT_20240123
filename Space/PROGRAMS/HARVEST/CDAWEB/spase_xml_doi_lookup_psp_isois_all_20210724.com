@@ -1,0 +1,17 @@
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-het-rates10
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-het-rates300
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-het-rates3600
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-het-rates60
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-let1-rates10
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-let1-rates300
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-let1-rates3600
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-let1-rates60
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-let2-rates10
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-let2-rates300
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-let2-rates3600
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-let2-rates60
+spase_xml_doi_lookup.com 20210724 psp_isois-epihi_l2-second-rates
+spase_xml_doi_lookup.com 20210724 psp_isois-epilo_l2-ic
+spase_xml_doi_lookup.com 20210724 psp_isois-epilo_l2-pe
+spase_xml_doi_lookup.com 20210724 psp_isois_l2-ephem
+spase_xml_doi_lookup.com 20210724 psp_isois_l2-summary

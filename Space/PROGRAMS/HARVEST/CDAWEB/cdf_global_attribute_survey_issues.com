@@ -1,0 +1,5 @@
+grep ^'[A-z0-9].*\ ([0-9]*\ entr' MASTERS_20230915/*_00000000_v01.metadata | grep -i 'data_version\ 1'
+grep ^'[A-z0-9].*\ ([0-9]*\ entr' MASTERS_20230915/*_00000000_v01.metadata | grep -i 'level-0\ source'
+grep ^'[A-z0-9].*\ ([0-9]*\ entr' MASTERS_20230915/*_00000000_v01.metadata | grep -i 'nssdc\ id'
+grep ^'[A-z0-9].*\ ([0-9]*\ entr' MASTERS_20230915/*_00000000_v01.metadata | grep -i 'processing\ code\ revision'
+grep ^'[A-z0-9].*\ ([0-9]*\ entr' MASTERS_20230915/*_00000000_v01.metadata | grep -i 'time\ resolution'

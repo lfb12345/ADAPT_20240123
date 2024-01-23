@@ -1,0 +1,12 @@
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT10S.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT10S.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT1H.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT1H.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT1M.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT1M.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET1/Level2/Rates/PT10S.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET1/Level2/Rates/PT10S.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET1/Level2/Rates/PT1H.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET1/Level2/Rates/PT1H.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET1/Level2/Rates/PT1M.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET1/Level2/Rates/PT1M.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET2/Level2/Rates/PT10S.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET2/Level2/Rates/PT10S.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET2/Level2/Rates/PT1H.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET2/Level2/Rates/PT1H.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET2/Level2/Rates/PT1M.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET2/Level2/Rates/PT1M.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/Level2/MergedRates/PT1S.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/Level2/MergedRates/PT1S.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Lo/Level2/IonComposition/PT1M.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Lo/Level2/IonComposition/PT1M.xml | wc -l
+diff NASA/NumericalData/ParkerSolarProbe/ISOIS/Merged/Level2/Summary/PT1M.xml DELIVERY/PARKER_SOLAR_PROBE/XML_20210607/NASA/NumericalData/ParkerSolarProbe/ISOIS/Merged/Level2/Summary/PT1M.xml | wc -l

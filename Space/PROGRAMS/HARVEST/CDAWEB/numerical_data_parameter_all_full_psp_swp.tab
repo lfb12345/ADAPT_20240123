@@ -1,0 +1,188 @@
+ASTRO	cdf_metadata_type	character_num	dimension	cdf_variable_type	OOOOO	data_product_name	parameter_key	fieldnam	catdesc	var_notes	units	scalemin	scalemax	validmin	validmax	fillval	depend_0	format	lablaxis	var_type	display_type	coordinate_system	depend_1	labl_ptr_1	monoton	scaletyp	component_0	depend_2	dict_key	funct	labl_ptr_2	virtual
+ASTRO	CDF_TT2000	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	Epoch	Time in TT2000 format	Time at middle of sample		ns			1990-01-01T00:00:00.000000000	2029-12-31T23:59:58.999000000	9999-12-31T23:59:59.999999999	Epoch	F24.1	Epoch	support_data	time_series				INCREASE	linear			time&gt;Epoch			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	TIME	Time in UTC format	Time at middle of sample		s			1.2623e+09	4.10244e+09	nan	Epoch	F24.7	Unix Time	support_data	time_series				INCREASE	linear			time&gt;UTC			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	MET	MET	MET								Epoch	I20	MET	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	F0	F0	F0								Epoch	I20	F0	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	PEAK_BIN	PEAK_BIN	PEAK_BIN								Epoch	I20	PEAK_BIN	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	TOT_ACCUM_PERIOD	TOT_ACCUM_PERIOD	TOT_ACCUM_PERIOD								Epoch	I20	TOT_ACCUM_PERIOD	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	NUM_ACCUM	NUM_ACCUM	NUM_ACCUM								Epoch	I20	NUM_ACCUM	ignore_data	time_series					linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	SMP_BITS	SMP_BITS	SMP_BITS								Epoch	I20	SMP_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	ARCH_BITS	ARCH_BITS	ARCH_BITS								Epoch	I20	ARCH_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	LTCSNNNN_BITS	LTCSNNNN_BITS	LTCSNNNN_BITS								Epoch	I20	LTCSNNNN_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	STATUS_BITS	STATUS_BITS	STATUS_BITS								Epoch	I20	STATUS_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	PRODUCT_BITS	PRODUCT_BITS	PRODUCT_BITS								Epoch	I20	PRODUCT_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	MODE2	MODE2	MODE2								Epoch	I20	MODE2	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	QUALITY_FLAG	Quality Flag	Quality Flag					0	255	255	Epoch	I10	Quality Flag	data	time_series					linear						
+ASTRO	CDF_FLOAT	1	2:[12,32]	T/TT	OOOOO	psp_swp_spa_sf0_l3_pad	EFLUX_VS_PA_E	Eflux vs Pitch-angle and Energy	Differential Energy Flux vs Pitch-angle and Energy	SPDF - turned of 2-d display in lieu of 2 virtual 1-d spectrogram displays	eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.4	Eflux vs PA-E	ignore_data	image		PITCHANGLE			log		ENERGY_VALS				
+ASTRO	CDF_FLOAT	1	2:[12,32]	T/TT	OOOOO	psp_swp_spa_sf0_l3_pad	EFLUX_VS_PA_E_byE_atP	Eflux vs Pitch-angle and Energy	Differential Energy Flux vs Energy at Each Pitch Angle (spectrograms)		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs PA-E	data	spectrogram&gt;y=ENERGY_VALS,z=EFLUX_VS_PA_E_byE_atP(^12,*)		PITCHANGLE	PITCH_LABL		log	EFLUX_VS_PA_E	ENERGY_VALS		alternate_view	ENERGY_LABL	true
+ASTRO	CDF_FLOAT	1	2:[12,32]	T/TT	OOOOO	psp_swp_spa_sf0_l3_pad	EFLUX_VS_PA_E_atE_byP	Eflux vs Pitch-angle and Energy	Differential Energy Flux vs Pitch Angle at Each Energy Level (spectrograms)		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs PA-E	data	spectrogram&gt;y=PITCHANGLE,z=EFLUX_VS_PA_E_atE_byP(*,^32)		PITCHANGLE	PITCH_LABL		log	EFLUX_VS_PA_E	ENERGY_VALS		alternate_view	ENERGY_LABL	true
+ASTRO	CDF_FLOAT	1	1:[12]	T/T	OOOOO	psp_swp_spa_sf0_l3_pad	PITCHANGLE	Pitch Angle	Electron Pitch Angle		&#176;			0.0	180.0	nan	Epoch	E12.4	Pitch Angle	support_data	time_series					linear						
+ASTRO	CDF_CHAR	10	1:[12]	F/T	OOOOO	psp_swp_spa_sf0_l3_pad	PITCH_LABL	Flux labels by pitch angle	Flux labels by pitch angle	SPDF added for labeling								a10		metadata									label			
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spa_sf0_l3_pad	ENERGY_VALS	Energy	Energy		eV			0.01	100000.0	nan	Epoch	E12.4	Energy	support_data	time_series					log						
+ASTRO	CDF_CHAR	15	1:[32]	F/T	OOOOO	psp_swp_spa_sf0_l3_pad	ENERGY_LABL	Flux labels by energy	Flux labels by energy	SPDF added for labeling								a15		metadata									label			
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spa_sf0_l3_pad	EFLUX_VS_ENERGY	Eflux vs Energy	Differential Energy Flux vs Energy		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.4	Eflux vs Energy	data	spectrogram		ENERGY_VALS			log						
+ASTRO	CDF_FLOAT	1	2:[16,32]	T/TT	OOOOO	psp_swp_spa_sf0_l3_pad	EFLUX_VS_PH_E	EFLUX_VS_PH_E	EFLUX_VS_PH_E								Epoch	I20	EFLUX_VS_PH_E	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	2:[16,32]	T/TT	OOOOO	psp_swp_spa_sf0_l3_pad	PHI_ANG	PHI_ANG	PHI_ANG								Epoch	I20	PHI_ANG	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	2:[8,32]	T/TT	OOOOO	psp_swp_spa_sf0_l3_pad	EFLUX_VS_TH_E	EFLUX_VS_TH_E	EFLUX_VS_TH_E								Epoch	I20	EFLUX_VS_TH_E	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	2:[8,32]	T/TT	OOOOO	psp_swp_spa_sf0_l3_pad	THETA_ANG	THETA_ANG	THETA_ANG								Epoch	I20	THETA_ANG	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spa_sf0_l3_pad	MAGF_SC	Magnetic Field	Magnetic Field in Spacecraft Coordinates	In spacecraft frame	nT			-10000.0	10000.0	nan	Epoch	E12.4		data	time_series			label_bsc		linear						
+ASTRO	CDF_CHAR	7	1:[3]	F/T	OOOOO	psp_swp_spa_sf0_l3_pad	label_bsc	Label for B in SC coordinates										a7		metadata												
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spa_sf0_l3_pad	MAGF_INST	Magnetic Field	Magnetic Field in Instrument Coordinates	In instrument frame	nT			-10000.0	10000.0	nan	Epoch	E12.4		data	time_series			label_binst		linear						
+ASTRO	CDF_CHAR	15	1:[3]	F/T	OOOOO	psp_swp_spa_sf0_l3_pad	label_binst	Label for B in Instrument coordinates										a15		metadata												
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	VALID	VALID	VALID								Epoch	I20	VALID	ignore_data	time_series					linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	GAP	GAP	GAP								Epoch	I20	GAP	ignore_data	time_series					linear						
+ASTRO	CDF_INT4	1	0:[]	T/	OOOOO	psp_swp_spa_sf0_l3_pad	INDEX	INDEX	INDEX								Epoch	I20	INDEX	ignore_data	time_series					linear						
+ASTRO	cdf_metadata_type	character_num	dimension	cdf_variable_type	OOOOO	data_product_name	parameter_key	fieldnam	catdesc	var_notes	units	scalemin	scalemax	validmin	validmax	fillval	depend_0	format	lablaxis	var_type	display_type	coordinate_system	depend_1	labl_ptr_1	monoton	scaletyp	component_0	depend_2	dict_key	funct	labl_ptr_2	virtual
+ASTRO	CDF_TT2000	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	Epoch	Time in TT2000 format	Time at middle of sample		ns			1990-01-01T00:00:00.000000000	2029-12-31T23:59:58.999000000	9999-12-31T23:59:59.999999999	Epoch	F24.1	Epoch	support_data	time_series				INCREASE	linear			time&gt;Epoch			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	TIME	Time in UTC format	Time at middle of sample		s			1.2623e+09	4.10244e+09	nan	Epoch	F24.7	Unix Time	support_data	time_series				INCREASE	linear			time&gt;UTC			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	MET	MET	MET								Epoch	I20	MET	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	F0	F0	F0								Epoch	I20	F0	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	PEAK_BIN	PEAK_BIN	PEAK_BIN								Epoch	I20	PEAK_BIN	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	TOT_ACCUM_PERIOD	TOT_ACCUM_PERIOD	TOT_ACCUM_PERIOD								Epoch	I20	TOT_ACCUM_PERIOD	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	NUM_ACCUM	NUM_ACCUM	NUM_ACCUM								Epoch	I20	NUM_ACCUM	ignore_data	time_series					linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	SMP_BITS	SMP_BITS	SMP_BITS								Epoch	I20	SMP_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	ARCH_BITS	ARCH_BITS	ARCH_BITS								Epoch	I20	ARCH_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	LTCSNNNN_BITS	LTCSNNNN_BITS	LTCSNNNN_BITS								Epoch	I20	LTCSNNNN_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	STATUS_BITS	STATUS_BITS	STATUS_BITS								Epoch	I20	STATUS_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	PRODUCT_BITS	PRODUCT_BITS	PRODUCT_BITS								Epoch	I20	PRODUCT_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	MODE2	MODE2	MODE2								Epoch	I20	MODE2	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	QUALITY_FLAG	Quality Flag	Quality Flag					0	255	255	Epoch	I10	Quality Flag	data	time_series					linear						
+ASTRO	CDF_FLOAT	1	2:[12,32]	T/TT	OOOOO	psp_swp_spb_sf0_l3_pad	EFLUX_VS_PA_E	Eflux vs Pitch-angle and Energy	Differential Energy Flux vs Pitch-angle and Energy	SPDF - turned of 2-d display in lieu of 2 virtual 1-d spectrogram displays	eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.4	Eflux vs PA-E	ignore_data	image		PITCHANGLE			log		ENERGY_VALS				
+ASTRO	CDF_FLOAT	1	2:[12,32]	T/TT	OOOOO	psp_swp_spb_sf0_l3_pad	EFLUX_VS_PA_E_byE_atP	Eflux vs Pitch-angle and Energy	Differential Energy Flux vs Energy at Each Pitch Angle (spectrograms)		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs PA-E	data	spectrogram&gt;y=ENERGY_VALS,z=EFLUX_VS_PA_E_byE_atP(^12,*)		PITCHANGLE	PITCH_LABL		log	EFLUX_VS_PA_E	ENERGY_VALS		alternate_view	ENERGY_LABL	true
+ASTRO	CDF_FLOAT	1	2:[12,32]	T/TT	OOOOO	psp_swp_spb_sf0_l3_pad	EFLUX_VS_PA_E_atE_byP	Eflux vs Pitch-angle and Energy	Differential Energy Flux vs Pitch Angle at Each Energy Level (spectrograms)		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs PA-E	data	spectrogram&gt;y=PITCHANGLE,z=EFLUX_VS_PA_E_atE_byP(*,^32)		PITCHANGLE	PITCH_LABL		log	EFLUX_VS_PA_E	ENERGY_VALS		alternate_view	ENERGY_LABL	true
+ASTRO	CDF_FLOAT	1	1:[12]	T/T	OOOOO	psp_swp_spb_sf0_l3_pad	PITCHANGLE	Pitch Angle	Electron Pitch Angle		&#176;			0.0	180.0	nan	Epoch	E12.4	Pitch Angle	support_data	time_series					linear						
+ASTRO	CDF_CHAR	10	1:[12]	F/T	OOOOO	psp_swp_spb_sf0_l3_pad	PITCH_LABL	Flux labels by pitch angle	Flux labels by pitch angle	SPDF added for labeling								a10		metadata									label			
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spb_sf0_l3_pad	ENERGY_VALS	Energy	Energy		eV			0.01	100000.0	nan	Epoch	E12.4	Energy	support_data	time_series					log						
+ASTRO	CDF_CHAR	15	1:[32]	F/T	OOOOO	psp_swp_spb_sf0_l3_pad	ENERGY_LABL	Flux labels by energy	Flux labels by energy	SPDF added for labeling								a15		metadata									label			
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spb_sf0_l3_pad	EFLUX_VS_ENERGY	Eflux vs Energy	Differential Energy Flux vs Energy		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.4	Eflux vs Energy	data	spectrogram		ENERGY_VALS			log						
+ASTRO	CDF_FLOAT	1	2:[16,32]	T/TT	OOOOO	psp_swp_spb_sf0_l3_pad	EFLUX_VS_PH_E	EFLUX_VS_PH_E	EFLUX_VS_PH_E								Epoch	I20	EFLUX_VS_PH_E	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	2:[16,32]	T/TT	OOOOO	psp_swp_spb_sf0_l3_pad	PHI_ANG	PHI_ANG	PHI_ANG								Epoch	I20	PHI_ANG	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	2:[8,32]	T/TT	OOOOO	psp_swp_spb_sf0_l3_pad	EFLUX_VS_TH_E	EFLUX_VS_TH_E	EFLUX_VS_TH_E								Epoch	I20	EFLUX_VS_TH_E	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	2:[8,32]	T/TT	OOOOO	psp_swp_spb_sf0_l3_pad	THETA_ANG	THETA_ANG	THETA_ANG								Epoch	I20	THETA_ANG	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spb_sf0_l3_pad	MAGF_SC	Magnetic Field	Magnetic Field in Spacecraft Coordinates	In spacecraft frame	nT			-10000.0	10000.0	nan	Epoch	E12.4		data	time_series			label_bsc		linear						
+ASTRO	CDF_CHAR	7	1:[3]	F/T	OOOOO	psp_swp_spb_sf0_l3_pad	label_bsc	Label for B in SC coordinates										a7		metadata												
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spb_sf0_l3_pad	MAGF_INST	Magnetic Field	Magnetic Field in Instrument Coordinates	In instrument frame	nT			-10000.0	10000.0	nan	Epoch	E12.4		data	time_series			label_binst		linear						
+ASTRO	CDF_CHAR	15	1:[3]	F/T	OOOOO	psp_swp_spb_sf0_l3_pad	label_binst	Label for B in Instrument coordinates										a15		metadata												
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	VALID	VALID	VALID								Epoch	I20	VALID	ignore_data	time_series					linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	GAP	GAP	GAP								Epoch	I20	GAP	ignore_data	time_series					linear						
+ASTRO	CDF_INT4	1	0:[]	T/	OOOOO	psp_swp_spb_sf0_l3_pad	INDEX	INDEX	INDEX								Epoch	I20	INDEX	ignore_data	time_series					linear						
+ASTRO	cdf_metadata_type	character_num	dimension	cdf_variable_type	OOOOO	data_product_name	parameter_key	fieldnam	catdesc	var_notes	units	scalemin	scalemax	validmin	validmax	fillval	depend_0	format	lablaxis	var_type	display_type	coordinate_system	depend_1	labl_ptr_1	monoton	scaletyp	component_0	depend_2	dict_key	funct	labl_ptr_2	virtual
+ASTRO	CDF_TT2000	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	Epoch	Time in TT2000 format	Time at middle of sample		ns			01-Jan-1990 00:00:00.000000000	31-Dec-2029 23:59:58.999000000	31-DEC-9999 23:59:59.999999999	Epoch	F25.1	Epoch	support_data	time_series				INCREASE	linear			time&gt;Epoch			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	TIME	Time in UTC format	Time at middle of sample		s			1.2623e+09	4.10244e+09	nan	Epoch	F25.7	Unix Time	support_data	time_series				INCREASE	linear			time&gt;UTC			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	MET	MET	MET					-1.0e+30	1.0e+30	nan	Epoch	F10.2	MET	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	F0	F0	F0					-1.0e+30	1.0e+30	nan	Epoch	F10.2	F0	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	TOT_ACCUM_PERIOD	TOT_ACCUM_PERIOD	TOT_ACCUM_PERIOD					-1.0e+30	1.0e+30	nan	Epoch	F10.2	TOT_ACCUM_PERIOD	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	NUM_ACCUM	NUM_ACCUM	NUM_ACCUM					-1.0e+30	1.0e+30	nan	Epoch	F10.2	NUM_ACCUM	ignore_data	time_series					linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	SMP_BITS	SMP_BITS	SMP_BITS					-1.0e+30	1.0e+30	nan	Epoch	F10.2	SMP_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	ARCH_BITS	ARCH_BITS	ARCH_BITS					-1.0e+30	1.0e+30	nan	Epoch	F10.2	ARCH_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	LTCSNNNN_BITS	LTCSNNNN_BITS	LTCSNNNN_BITS					-1.0e+30	1.0e+30	nan	Epoch	F10.2	LTCSNNNN_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	STATUS_BITS	STATUS_BITS	STATUS_BITS					-1.0e+30	1.0e+30	nan	Epoch	F10.2	STATUS_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	PRODUCT_BITS	PRODUCT_BITS	PRODUCT_BITS					-1.0e+30	1.0e+30	nan	Epoch	F10.2	PRODUCT_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	MODE2	MODE2	MODE2					-1.0e+30	1.0e+30	nan	Epoch	F10.2	MODE2	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	QUALITY_FLAG	Quality Flag	Quality Flag		good = 0			0	255	-1	Epoch	I10	Quality Flag	data	time_series					linear						
+ASTRO	CDF_FLOAT	1	2:[12,32]	T/TT	OOOOO	psp_swp_spe_sf0_l3_pad	EFLUX_VS_PA_E	Eflux vs Pitch-angle and Energy	Differential Energy Flux vs Pitch-angle and Energy (images)	SPDF - turned of 2-d display in lieu of 2 virtual 1-d spectrogram displays	eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs PA-E	ignore_data	image		PITCHANGLE			log		ENERGY_VALS				
+ASTRO	CDF_FLOAT	1	2:[12,32]	T/TT	OOOOO	psp_swp_spe_sf0_l3_pad	EFLUX_VS_PA_E_byE_atP	Eflux vs Pitch-angle and Energy	Differential Energy Flux vs Energy at Each Pitch Angle (spectrograms)		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs PA-E	data	spectrogram&gt;y=ENERGY_VALS,z=EFLUX_VS_PA_E_byE_atP(^12,*)		PITCHANGLE	PITCH_LABL		log	EFLUX_VS_PA_E	ENERGY_VALS		alternate_view	ENERGY_LABL	true
+ASTRO	CDF_FLOAT	1	2:[12,32]	T/TT	OOOOO	psp_swp_spe_sf0_l3_pad	EFLUX_VS_PA_E_atE_byP	Eflux vs Pitch-angle and Energy	Differential Energy Flux vs Pitch Angle at Each Energy Level (spectrograms)		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs PA-E	data	spectrogram&gt;y=PITCHANGLE,z=EFLUX_VS_PA_E_atE_byP(*,^32)		PITCHANGLE	PITCH_LABL		log	EFLUX_VS_PA_E	ENERGY_VALS		alternate_view	ENERGY_LABL	true
+ASTRO	CDF_FLOAT	1	1:[12]	T/T	OOOOO	psp_swp_spe_sf0_l3_pad	PITCHANGLE	Pitch Angle	Electron Pitch Angle		&#176;			0.0	180.0	nan	Epoch	F10.2	Pitch Angle	support_data	time_series					linear						
+ASTRO	CDF_CHAR	10	1:[12]	F/T	OOOOO	psp_swp_spe_sf0_l3_pad	PITCH_LABL	Flux labels by pitch angle	Flux labels by pitch angle	SPDF added for labeling								a10		metadata									label			
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spe_sf0_l3_pad	ENERGY_VALS	Energy	Energy		eV			0.01	100000.0	nan	Epoch	F10.2	Energy	support_data	time_series					log						
+ASTRO	CDF_CHAR	15	1:[32]	F/T	OOOOO	psp_swp_spe_sf0_l3_pad	ENERGY_LABL	Flux labels by energy	Flux labels by energy	SPDF added for labeling								a15		metadata									label			
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spe_sf0_l3_pad	EFLUX_VS_ENERGY	Eflux vs Energy	Differential Energy Flux vs Energy		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs Energy	data	spectrogram		ENERGY_VALS	ENERGY_LABL		log						
+ASTRO	CDF_INT2	1	2:[12,32]	T/TT	OOOOO	psp_swp_spe_sf0_l3_pad	SPX_VS_PA_E	SPX_VS_PA_E	SPX_VS_PA_E					-1.0e+30	1.0e+30	nan	Epoch	F10.2	SPX_VS_PA_E	ignore_data	time_series					linear						
+ASTRO	CDF_INT2	1	2:[12,32]	T/TT	OOOOO	psp_swp_spe_sf0_l3_pad	NSAMPLE_VS_PA_E	NSAMPLE_VS_PA_E	NSAMPLE_VS_PA_E					-1.0e+30	1.0e+30	nan	Epoch	F10.2	NSAMPLE_VS_PA_E	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spe_sf0_l3_pad	MAGF_SC	Magnetic Field	Magnetic Field in Spacecraft Coordinates	In spacecraft frame	nT			-10000.0	10000.0	nan	Epoch	F10.2		data	time_series			label_bsc		linear						
+ASTRO	CDF_CHAR	7	1:[3]	F/T	OOOOO	psp_swp_spe_sf0_l3_pad	label_bsc	Label for B in SC coordinates										a7		metadata												
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	VALID	VALID	VALID					-1.0e+30	1.0e+30	nan	Epoch	F10.2	VALID	ignore_data	time_series					linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spe_sf0_l3_pad	GAP	GAP	GAP					-1.0e+30	1.0e+30	nan	Epoch	F10.2	GAP	ignore_data	time_series					linear						
+ASTRO	cdf_metadata_type	character_num	dimension	cdf_variable_type	OOOOO	data_product_name	parameter_key	fieldnam	catdesc	var_notes	units	scalemin	scalemax	validmin	validmax	fillval	depend_0	format	lablaxis	var_type	display_type	coordinate_system	depend_1	labl_ptr_1	monoton	scaletyp	component_0	depend_2	dict_key	funct	labl_ptr_2	virtual
+ASTRO	CDF_TT2000	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	Epoch	Time in TT2000 format	Time at middle of sample		ns			1990-01-01T00:00:00.000000000	2029-12-31T23:59:58.999000000	9999-12-31T23:59:59.999999999	Epoch	F24.1	Epoch	support_data	time_series				INCREASE	linear			time&gt;Epoch			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	TIME	Time in UTC format	Time at middle of sample		s			1.2623e+09	4.10244e+09	nan	Epoch	F24.7	Unix Time	support_data	time_series				INCREASE	linear			time&gt;UTC			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	MET	MET	MET								Epoch	I20	MET	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	APID	APID	APID								Epoch	I20	APID	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	SEQN	SEQN	SEQN								Epoch	I20	SEQN	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	SEQN_DELTA	SEQN_DELTA	SEQN_DELTA								Epoch	I20	SEQN_DELTA	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	SEQ_GROUP	SEQ_GROUP	SEQ_GROUP								Epoch	I20	SEQ_GROUP	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	PKT_SIZE	PKT_SIZE	PKT_SIZE								Epoch	I20	PKT_SIZE	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	SOURCE	SOURCE	SOURCE								Epoch	I20	SOURCE	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	SOURCE_HASH	SOURCE_HASH	SOURCE_HASH								Epoch	I20	SOURCE_HASH	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	COMPR_RATIO	COMPR_RATIO	COMPR_RATIO								Epoch	I20	COMPR_RATIO	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	NDAT	NDAT	NDAT								Epoch	I20	NDAT	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	DATASIZE	DATASIZE	DATASIZE								Epoch	I20	DATASIZE	ignore_data	time_series					linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	SMP_BITS	SMP_BITS	SMP_BITS								Epoch	I20	SMP_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	LTCSNNNN_BITS	LTCSNNNN_BITS	LTCSNNNN_BITS								Epoch	I20	LTCSNNNN_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	ARCH_BITS	ARCH_BITS	ARCH_BITS								Epoch	I20	ARCH_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	MODE1	MODE1	MODE1								Epoch	I20	MODE1	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	ARCH_SUM	ARCH_SUM	ARCH_SUM								Epoch	I20	ARCH_SUM	ignore_data	time_series					linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	ARCH_SMP_FLAG	ARCH_SMP_FLAG	ARCH_SMP_FLAG								Epoch	I20	ARCH_SMP_FLAG	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	TOT_ACCUM_PERIOD	TOT_ACCUM_PERIOD	TOT_ACCUM_PERIOD								Epoch	I20	TOT_ACCUM_PERIOD	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	NUM_ACCUM	NUM_ACCUM	NUM_ACCUM								Epoch	I20	NUM_ACCUM	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	MODE2_ORI	MODE2_ORI	MODE2_ORI								Epoch	I20	MODE2_ORI	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	MODE2	MODE2	MODE2								Epoch	I20	MODE2	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	F0	F0	F0								Epoch	I20	F0	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	STATUS_BITS	STATUS_BITS	STATUS_BITS								Epoch	I20	STATUS_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	PEAK_BIN	PEAK_BIN	PEAK_BIN								Epoch	I20	PEAK_BIN	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	PRODUCT_BITS	PRODUCT_BITS	PRODUCT_BITS								Epoch	I20	PRODUCT_BITS	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	CNTS	CNTS	CNTS								Epoch	I20	CNTS	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	GAP	GAP	GAP								Epoch	I20	GAP	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	QUALITY_FLAG	Quality Flag	Quality Flag					0	255	255	Epoch	I10	Quality Flag	data	time_series					linear						
+ASTRO	CDF_DOUBLE	1	2:[3,3]	F/TT	OOOOO	psp_swp_spi_sf00_l3_mom_inst	ROTMAT_SC_INST	Rotation Matrix	Rotation Matrix from Spacecraft to Instrument Coordinates					-1.0e+30	1.0e+30	nan		E10.2		metadata	time_series					linear						
+ASTRO	CDF_FLOAT	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	DENS	Density	Partial Moment Density		cm^-3			0.01	100000.0	nan	Epoch	F8.2	Density	data	time_series					log						
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	VEL	Velocity	Partial Moment Velocity in Instrument Coordinates	In instrument frame	km/s			-10000.0	10000.0	nan	Epoch	F8.2	Vx;Vy;Vz	data	time_series			Vxyz_label		linear						
+ASTRO	CDF_CHAR	2	1:[3]	F/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	Vxyz_label	Velocity label	Velocity label									A2		metadata												
+ASTRO	CDF_FLOAT	1	1:[6]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	T_TENSOR	Temperature Tensor	Partial Moment Temperature Tensor in instrument frame	In instrument frame	eV			-10000.0	10000.0	nan	Epoch	F8.2	Txx;Tyy;Tzz;Txy;Txz;Tyz	data	time_series			Txyz_label		linear						
+ASTRO	CDF_CHAR	3	1:[6]	F/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	Txyz_label	Moment Temp label	Moment Temp label									A3		metadata												
+ASTRO	CDF_FLOAT	1	0:[]	T/	OOOOO	psp_swp_spi_sf00_l3_mom_inst	TEMP	Temperature	Average of Trace of Partial Moment Temperature Tensor		eV			0.0	10000.0	nan	Epoch	F8.2	Temperature	data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	MAGF_SC	Magnetic Field	Magnetic Field in Spacecraft Coordinates	In spacecraft frame	nT			-10000.0	10000.0	nan	Epoch	E12.4	Bx;By;Bz	data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	MAGF_INST	Magnetic Field	Magnetic Field in Instrument Coordinates	In instrument frame	nT			-10000.0	10000.0	nan	Epoch	E12.4	Bx;By;Bz	data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	EFLUX_VS_ENERGY	Eflux vs Energy	Differential Energy Flux vs Energy		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.4	Eflux vs Energy	data	spectrogram		ENERGY_VALS			log						
+ASTRO	CDF_FLOAT	1	1:[8]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	EFLUX_VS_THETA	Eflux vs Theta	Differential Energy Flux vs Theta		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.4	Eflux vs Theta	data	spectrogram		THETA_VALS			log						
+ASTRO	CDF_FLOAT	1	1:[8]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	EFLUX_VS_PHI	Eflux vs Phi	Differential Energy Flux vs Phi		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.4	Eflux vs Phi	data	spectrogram		PHI_VALS			log						
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	ENERGY_VALS	Energy	Energy		eV			0.01	100000.0	nan	Epoch	E12.4	Energy	support_data	time_series					log						
+ASTRO	CDF_FLOAT	1	1:[8]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	THETA_VALS	Instrument Theta	Elevation Angle in instrument coordinates		&#176;			-90.0	90.0	nan	Epoch	F8.2	Elevation Angle	support_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[8]	T/T	OOOOO	psp_swp_spi_sf00_l3_mom_inst	PHI_VALS	Instrument Phi	Azimuth Angle in instrument coordinates		&#176;			-180.0	360.0	nan	Epoch	F8.2	Azimuth Angle	support_data	time_series					linear						
+ASTRO	cdf_metadata_type	character_num	dimension	cdf_variable_type	OOOOO	data_product_name	parameter_key	fieldnam	catdesc	var_notes	units	scalemin	scalemax	validmin	validmax	fillval	depend_0	format	lablaxis	var_type	display_type	coordinate_system	depend_1	labl_ptr_1	monoton	scaletyp	component_0	depend_2	dict_key	funct	labl_ptr_2	virtual
+ASTRO	CDF_TT2000	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	Epoch	Time in TT2000 format	Time at middle of sample		ns			01-Jan-1990 00:00:00.000000000	31-Dec-2029 23:59:58.999000000	25-Jan-2073 11:55:40.029759487	Epoch		Epoch	support_data					INCREASE	linear			time&gt;Epoch			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	TIME	Time in UTC format	Time at middle of sample		s			1.2623e+09	1.89346e+09	nan	Epoch		Unix Time	support_data					INCREASE	linear			time&gt;UTC			
+ASTRO	CDF_DOUBLE	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	MET	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		MET	ignore_data						linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	APID	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		APID	ignore_data						linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	SEQN	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		SEQN	ignore_data						linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	SEQN_DELTA	SEQN_DELTA	SEQN_DELTA								Epoch	I20	SEQN_DELTA	ignore_data	time_series					linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	SEQ_GROUP	SEQ_GROUP	SEQ_GROUP								Epoch	I20	SEQ_GROUP	ignore_data	time_series					linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	PKT_SIZE	PKT_SIZE	PKT_SIZE								Epoch	I20	PKT_SIZE	ignore_data	time_series					linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	SOURCE	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		SOURCE	ignore_data						linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	SOURCE_HASH	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		SOURCE_HASH	ignore_data						linear						
+ASTRO	CDF_FLOAT	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	COMPR_RATIO	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		COMPR_RATIO	ignore_data						linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	NDAT	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		NDAT	ignore_data						linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	DATASIZE	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		DATASIZE	ignore_data						linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	SMP_BITS	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		SMP_BITS	ignore_data						linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	LTCSNNNN_BITS	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		LTCSNNNN_BITS	ignore_data						linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	ARCH_BITS	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		ARCH_BITS	ignore_data						linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	MODE1	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		MODE1	ignore_data						linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	ARCH_SUM	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		ARCH_SUM	ignore_data						linear						
+ASTRO	CDF_INT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	ARCH_SMP_FLAG	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		ARCH_SMP_FLAG	ignore_data						linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	TOT_ACCUM_PERIOD	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		TOT_ACCUM_PERIOD	ignore_data						linear						
+ASTRO	CDF_UINT4	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	NUM_ACCUM	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		NUM_ACCUM	ignore_data						linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	MODE2_ORI	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		MODE2_ORI	ignore_data						linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	MODE2	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		MODE2	ignore_data						linear						
+ASTRO	CDF_UINT2	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	F0	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		F0	ignore_data						linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	STATUS_BITS	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		STATUS_BITS	ignore_data						linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	PEAK_BIN	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		PEAK_BIN	ignore_data						linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	PRODUCT_BITS	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		PRODUCT_BITS	ignore_data						linear						
+ASTRO	CDF_FLOAT	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	CNTS	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		CNTS	ignore_data						linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	GAP	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch		GAP	ignore_data						linear						
+ASTRO	CDF_UINT1	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	QUALITY_FLAG	Quality Flag	QUALITY FLAG						256	-1	Epoch	I10	QUALITY_FLAG	support_data	time_series					linear						
+ASTRO	CDF_DOUBLE	1	2:[3,3]	F/TT	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	ROTMAT_SC_INST	Unknown	Not known					-1.0e+30	1.0e+30	nan	Epoch	E10.2	ROTMAT_SC_INST	ignore_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	DENS	Partial Moment Density	Particle Density		cm^-3			0.1	10000.0	nan	Epoch	F8.2	Density	data	time_series					log						
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	VEL	Moment Velocity	Particle Velocity	In instrument frame	km/s			-10000.0	10000.0	nan	Epoch	F8.2	Vx;Vy;Vz	data	time_series			Vxyz_label		linear						
+ASTRO	CDF_CHAR	2	1:[3]	F/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	Vxyz_label	Velocity label	Velocity label									A2		metadata												
+ASTRO	CDF_FLOAT	1	1:[6]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	T_TENSOR	Partial Moment Temperature Tensor	Temperature Tensor in instrument frame	In instrument frame	eV			-10000.0	10000.0	nan	Epoch	F8.2	Txx;Tyy;Tzz;Txy;Txz;Tyz	data	time_series			Txyz_label		linear						
+ASTRO	CDF_CHAR	3	1:[6]	F/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	Txyz_label	Moment Temp label	Moment Temp label									A3		metadata												
+ASTRO	CDF_FLOAT	1	0:[]	T/	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	TEMP	Partial Moment Temperature	Average of Trace of Temperature Tensor		eV			-10000.0	10000.0	nan	Epoch	F8.2	Temperature	data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	MAGF_SC	Magnetic Field	Magnetic Field in Spacecraft Coordinates	In spacecraft frame	nT			-10000.0	10000.0	nan	Epoch	E12.4	Bx;By;Bz	data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[3]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	MAGF_INST	Magnetic Field	Magnetic Field in Instrument Coordinates	In instrument frame	nT			-10000.0	10000.0	nan	Epoch	E12.4	Bx;By;Bz	data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	EFLUX_VS_ENERGY	Eflux vs Energy	Differential Energy Flux vs Energy		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs Energy	data	spectrogram		ENERGY_VALS			log						
+ASTRO	CDF_FLOAT	1	1:[8]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	EFLUX_VS_THETA	Eflux vs Theta	Differential Energy Flux vs Theta		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs Theta	data	spectrogram		THETA_VALS			log						
+ASTRO	CDF_FLOAT	1	1:[8]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	EFLUX_VS_PHI	Eflux vs Phi	Differential Energy Flux vs Phi		eV/cm2-s-ster-eV			0.001	1.0e+12	nan	Epoch	E12.2	Eflux vs Phi	data	spectrogram		PHI_VALS			log						
+ASTRO	CDF_FLOAT	1	1:[32]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	ENERGY_VALS	Energy	Energy		eV			1.0	100000.0	nan	Epoch	F8.2	Energy	support_data	time_series					log						
+ASTRO	CDF_FLOAT	1	1:[8]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	THETA_VALS	Elevation Angle in instrument coordinates	THETA		&#176;			-90.0	90.0	nan	Epoch	F8.2	Elevation Angle	support_data	time_series					linear						
+ASTRO	CDF_FLOAT	1	1:[8]	T/T	OOOOO	psp_swp_spi_sf0a_l3_mom_inst	PHI_VALS	Azimuth Angle in instrument coordinates	PHI		&#176;			-180.0	360.0	nan	Epoch	F8.2	Azimuth Angle	support_data	time_series					linear						

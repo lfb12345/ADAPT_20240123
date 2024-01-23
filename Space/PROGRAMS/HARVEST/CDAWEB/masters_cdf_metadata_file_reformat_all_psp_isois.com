@@ -1,0 +1,37 @@
+
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-het-rates10
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-het-rates300
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-het-rates3600
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-het-rates60
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-let1-rates10
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-let1-rates300
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-let1-rates3600
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-let1-rates60
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-let2-rates10
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-let2-rates300
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-let2-rates3600
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-let2-rates60
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epihi_l2-second-rates
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epilo_l2-ic
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois-epilo_l2-pe
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois_l2-ephem
+#asters_cdf_metadata_file_reformat.com MASTERS_20210204 psp_isois_l2-summary
+
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-het-rates10
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-het-rates300
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-het-rates3600
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-het-rates60
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-let1-rates10
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-let1-rates300
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-let1-rates3600
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-let1-rates60
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-let2-rates10
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-let2-rates300
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-let2-rates3600
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-let2-rates60
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epihi_l2-second-rates
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epilo_l2-ic
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois-epilo_l2-pe
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois_l2-ephem
+#asters_cdf_metadata_file_reformat.com MASTERS_20210609 psp_isois_l2-summary
+

@@ -1,0 +1,5 @@
+psp_error.com psp_fld_l2_dfb_dbm_dvdc yyyymmddhh
+psp_error.com psp_fld_l2_dfb_dbm_vac yyyymmddhh
+psp_error.com psp_fld_l2_dfb_dbm_vdc yyyymmddhh
+psp_error.com psp_fld_l2_rfs_burst yyyymmdd
+psp_error.com psp_fld_l3_merged_scam_wf yyyymmddhh

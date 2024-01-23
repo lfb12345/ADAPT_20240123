@@ -1,0 +1,10 @@
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_ephm
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_fspc_000
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_fspc_111
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_hkpg
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_magn
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_mspc
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_rcnt
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_sspc
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_uspc
+masters_cdf_metadata_file_reformat.com /Users/astropooch/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20210813 bar_xx_l2_xspc
