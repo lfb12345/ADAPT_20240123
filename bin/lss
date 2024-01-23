@@ -1,0 +1,23 @@
+
+DIRECTORY_LIST=$@
+
+DASHES='+'$(printf "%0.s-" $(seq 1 273))'+'
+
+DIRECTORY_LIST_NUM=`echo $@ | wc -w | awk '{ print $1 }'`
+
+if [ $DIRECTORY_LIST_NUM -eq 0 ]; then DIRECTORY_LIST=$PWD; fi
+
+for DIRECTORY in $DIRECTORY_LIST
+
+do
+
+    printf "\n%s\n\nDirectory:  %s\n\n%s\n\n" $DASHES $DIRECTORY $DASHES
+
+    ls -laF $DIRECTORY | grep -v ^'total\ [1-9][0-9]*'$ | grep -v '\ \.\.*/'$
+
+    printf "\n%s\n" $DASHES
+
+done
+
+echo
+

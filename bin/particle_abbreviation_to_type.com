@@ -1,0 +1,19 @@
+
+PARTICLE_ABBREVIATION=$1
+
+case $PARTICLE_ABBREVIATION in
+
+     E) PARTICLE_TYPE=Electron;;
+
+     HE) PARTICLE_TYPE=Helium;;
+
+     I) PARTICLE_TYPE=Ion;;
+
+     O) PARTICLE_TYPE=Oxygen;;
+
+     P) PARTICLE_TYPE=Proton;;
+
+esac
+
+echo $PARTICLE_TYPE
+

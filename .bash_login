@@ -1,0 +1,48 @@
+alias H="history 9999"
+alias Ht="history 57"
+
+alias ls="ls -laF"
+
+alias cp="cp -ip"
+alias rm="rm -i"
+alias mv="mv -i"
+
+alias pss="ps -ef | sort -k8 | grep -v \/System\/Library | grep -v \/sbin\/ | grep -v Applications | grep -v bash | grep -v ps | grep -v libexec | grep -v autofsd | grep -v idl_lmgrd | grep -v login | grep -v 'grep lfb' | grep -v 'sshd:\ lfb' | grep -v sshd | grep -v k8"
+
+alias j=jobs
+
+export HOME_DIR=$HOME/efs/$JUPYTERHUB_USER
+
+export BIN_DIR=$HOME_DIR/bin
+
+export CDF_DIR=$HOME_DIR/CDF/cdf39_0-dist/src/tools
+
+#xport IDL_DIR=/usr/local/harris/idl/bin
+
+export BASE_DIR=$HOME_DIR/Space/PROGRAMS/HARVEST
+
+export CDAWEB_DIR=$BASE_DIR/CDAWEB
+
+declare -x PATH=$PATH:$BIN_DIR:$CDF_DIR:.
+
+alias home="cd $HOME_DIR"
+alias program="cd $HOME_DIR/bin"
+
+H=$HOME_DIR
+P=$HOME_DIR/bin
+C=$HOME_DIR/Space/PROGRAMS/HARVEST/CDAWEB
+G=$HOME_DIR/Space/PROGRAMS/HARVEST/GENERAL
+S=$HOME_DIR/Space/PROGRAMS/HARVEST/SPASE
+M=$HOME_DIR/Space/PROGRAMS/HARVEST/CDAWEB/MASTERS_20231104
+X=$HOME_DIR/Space/PROGRAMS/HARVEST/MASTER_CDF_PARAMETER
+
+echo
+echo "LFB Home Directory:	"$H
+echo "Program Directory:	"$P
+echo "CDAWeb Directory:	"$C
+echo "General Directory:	"$G
+echo "SPASE Directory:	"$S
+echo "Master Directory:	"$M
+echo "Custom Directory:	"$X
+echo
+

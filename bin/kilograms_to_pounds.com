@@ -1,0 +1,7 @@
+
+POUNDS=$1
+
+KILOGRAMS=$((220462*POUNDS))
+
+printf "\n%s\n\n" $KILOGRAMS
+
