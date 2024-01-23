@@ -1,0 +1,341 @@
+
+function spase_model_create,spase_ontology,request,verbose=verbose,keyword_required=keyword_required,keyword_relativestopdate=keyword_relativestopdate,keyword_stopdate=keyword_stopdate
+
+renderinghints=create_struct(name='RenderingHints','displaytype','','axislabel','','renderingaxis','','index','','valueformat','','scalemin','','scalemax','','scaletype','')
+
+if (request eq 'renderinghints') then requested_structure=renderinghints
+
+if not keyword_set(keyword_required) then bin=create_struct(name='Bin','bandname','','low','','high','')
+
+if keyword_set(keyword_required) then bin=create_struct(name='Bin','low','','high','')
+
+if (request eq 'bin') then requested_structure=bin
+
+revisionevent=create_struct(name='RevisionEvent','releasedate','','note','')
+
+if (request eq 'revisionevent') then requested_structure=revisionevent
+
+coordinatesystem=create_struct(name='CoordinateSystem','coordinaterepresentation','','coordinatesystemname','')
+
+if (request eq 'coordinatesystem') then requested_structure=coordinatesystem
+
+if not keyword_set(keyword_required) then element=create_struct(name='Element','name','','qualifier',make_array(spase_ontology(182).occur_num,/string,value=''),'index','','parameterkey','','units','','unitsconversion','','validmin','','validmax','','fillvalue','','renderinghints',renderinghints)
+
+if keyword_set(keyword_required) then element=create_struct(name='Element','name','','index','')
+
+if (request eq 'element') then requested_structure=element
+
+if not keyword_set(keyword_required) then frequencyrange=create_struct(name='FrequencyRange','spectralrange','','low','','high','','units','','bin',replicate(bin,spase_ontology(210).occur_num))
+
+if keyword_set(keyword_required) then frequencyrange=create_struct(name='FrequencyRange','low','','high','','units','')
+
+if (request eq 'frequencyrange') then requested_structure=frequencyrange
+
+if not keyword_set(keyword_required) then energyrange=create_struct(name='EnergyRange','low','','high','','units','','bin',replicate(bin,spase_ontology(223).occur_num))
+
+if keyword_set(keyword_required) then energyrange=create_struct(name='EnergyRange','low','','high','','units','')
+
+if (request eq 'energyrange') then requested_structure=energyrange
+
+if not keyword_set(keyword_required) then azimuthalanglerange=create_struct(name='AzimuthalAngleRange','low','','high','','units','','bin',replicate(bin,spase_ontology(231).occur_num))
+
+if keyword_set(keyword_required) then azimuthalanglerange=create_struct(name='AzimuthalAngleRange','low','','high','','units','')
+
+if (request eq 'azimuthalanglerange') then requested_structure=azimuthalanglerange
+
+if not keyword_set(keyword_required) then polaranglerange=create_struct(name='PolarAngleRange','low','','high','','units','','bin',replicate(bin,spase_ontology(239).occur_num))
+
+if keyword_set(keyword_required) then polaranglerange=create_struct(name='PolarAngleRange','low','','high','','units','')
+
+if (request eq 'polaranglerange') then requested_structure=polaranglerange
+
+if not keyword_set(keyword_required) then massrange=create_struct(name='MassRange','low','','high','','units','','bin',replicate(bin,spase_ontology(247).occur_num))
+
+if keyword_set(keyword_required) then massrange=create_struct(name='MassRange','low','','high','','units','')
+
+if (request eq 'massrange') then requested_structure=massrange
+
+if not keyword_set(keyword_required) then pitchanglerange=create_struct(name='PitchAngleRange','low','','high','','units','','bin',replicate(bin,spase_ontology(255).occur_num))
+
+if keyword_set(keyword_required) then pitchanglerange=create_struct(name='PitchAngleRange','low','','high','','units','')
+
+if (request eq 'pitchanglerange') then requested_structure=pitchanglerange
+
+if not keyword_set(keyword_required) then wavelengthrange=create_struct(name='WavelengthRange','spectralrange','','low','','high','','units','','bin',replicate(bin,spase_ontology(285).occur_num))
+
+if keyword_set(keyword_required) then wavelengthrange=create_struct(name='WavelengthRange','low','','high','','units','')
+
+if (request eq 'wavelengthrange') then requested_structure=wavelengthrange
+
+revisionhistory=create_struct(name='RevisionHistory','revisionevent',replicate(revisionevent,spase_ontology(10).occur_num))
+
+if (request eq 'revisionhistory') then requested_structure=revisionhistory
+
+if not keyword_set(keyword_required) then publicationinfo=create_struct(name='PublicationInfo','title','','authors','','publicationdate','','publishedby','','landingpageurl','')
+
+if keyword_set(keyword_required) then publicationinfo=create_struct(name='PublicationInfo','authors','','publicationdate','','publishedby','')
+
+if (request eq 'publicationinfo') then requested_structure=publicationinfo
+
+if not keyword_set(keyword_required) then funding=create_struct(name='Funding','agency','','project','','awardnumber','')
+
+if keyword_set(keyword_required) then funding=create_struct(name='Funding','agency','','project','')
+
+if (request eq 'funding') then requested_structure=funding
+
+if not keyword_set(keyword_required) then contact=create_struct(name='Contact','personid','','role',make_array(spase_ontology(28).occur_num,/string,value=''),'startdate','','stopdate','','note','')
+
+if keyword_set(keyword_required) then contact=create_struct(name='Contact','personid','','role',make_array(spase_ontology(28).occur_num,/string,value=''))
+
+if (request eq 'contact') then requested_structure=contact
+
+if not keyword_set(keyword_required) then informationurl=create_struct(name='InformationURL','name','','url','','description','','language','')
+
+if keyword_set(keyword_required) then informationurl=create_struct(name='InformationURL','url','')
+
+if (request eq 'informationurl') then requested_structure=informationurl
+
+if not keyword_set(keyword_required) then association=create_struct(name='Association','associationid','','associationtype','','note','')
+
+if keyword_set(keyword_required) then association=create_struct(name='Association','associationid','','associationtype','')
+
+if (request eq 'association') then requested_structure=association
+
+if not keyword_set(keyword_required) then accessurl=create_struct(name='AccessURL','name','','url','','style','','productkey',make_array(spase_ontology(50).occur_num,/string,value=''),'description','','language','')
+
+if keyword_set(keyword_required) then accessurl=create_struct(name='AccessURL','url','')
+
+if (request eq 'accessurl') then requested_structure=accessurl
+
+if not keyword_set(keyword_required) then dataextent=create_struct(name='DataExtent','quantity','','units','','per','')
+
+if keyword_set(keyword_required) then dataextent=create_struct(name='DataExtent','quantity','')
+
+if (request eq 'dataextent') then requested_structure=dataextent
+
+if not keyword_set(keyword_required) then spatialcoverage=create_struct(name='SpatialCoverage','coordinatesystem',coordinatesystem,'centerlatitude','','northernmostlatitude','','southernmostlatitude','','centerlongitude','','easternmostlongitude','','westernmostlongitude','','centerelevation','','minimumelevation','','maximumelevation','','acknowledgement','','description','')
+
+if keyword_set(keyword_required) then spatialcoverage=create_struct(name='SpatialCoverage','coordinatesystem',coordinatesystem)
+
+if (request eq 'spatialcoverage') then requested_structure=spatialcoverage
+
+if not keyword_set(keyword_required) then structure=create_struct(name='Structure','size','','description','','element',replicate(element,spase_ontology(180).occur_num))
+
+if keyword_set(keyword_required) then structure=create_struct(name='Structure','size','')
+
+if (request eq 'structure') then requested_structure=structure
+
+if not keyword_set(keyword_required) then field=create_struct(name='Field','qualifier',make_array(spase_ontology(203).occur_num,/string,value=''),'fieldquantity','','frequencyrange',frequencyrange)
+
+if keyword_set(keyword_required) then field=create_struct(name='Field','fieldquantity','')
+
+if (request eq 'field') then requested_structure=field
+
+if not keyword_set(keyword_required) then particle=create_struct(name='Particle','particletype',make_array(spase_ontology(215).occur_num,/string,value=''),'qualifier',make_array(spase_ontology(216).occur_num,/string,value=''),'particlequantity','','atomicnumber',make_array(spase_ontology(218).occur_num,/string,value=''),'energyrange',energyrange,'azimuthalanglerange',azimuthalanglerange,'polaranglerange',polaranglerange,'massrange',massrange,'pitchanglerange',pitchanglerange)
+
+if keyword_set(keyword_required) then particle=create_struct(name='Particle','particlequantity','')
+
+if (request eq 'particle') then requested_structure=particle
+
+if not keyword_set(keyword_required) then wave=create_struct(name='Wave','wavetype','','qualifier',make_array(spase_ontology(261).occur_num,/string,value=''),'wavequantity','','energyrange',energyrange,'frequencyrange',frequencyrange,'wavelengthrange',wavelengthrange)
+
+if keyword_set(keyword_required) then wave=create_struct(name='Wave','wavequantity','')
+
+if (request eq 'wave') then requested_structure=wave
+
+if not keyword_set(keyword_required) then mixed=create_struct(name='Mixed','mixedquantity','','particletype',make_array(spase_ontology(291).occur_num,/string,value=''),'qualifier',make_array(spase_ontology(292).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then mixed=create_struct(name='Mixed','mixedquantity','')
+
+if (request eq 'mixed') then requested_structure=mixed
+
+if not keyword_set(keyword_required) then support=create_struct(name='Support','qualifier',make_array(spase_ontology(294).occur_num,/string,value=''),'supportquantity','')
+
+if keyword_set(keyword_required) then support=create_struct(name='Support','supportquantity','')
+
+if (request eq 'support') then requested_structure=support
+
+if keyword_set(keyword_stopdate) and not keyword_set(keyword_required) then timespan=create_struct(name='TimeSpan','startdate','','stopdate','','note',make_array(spase_ontology(367).occur_num,/string,value=''))
+
+if keyword_set(keyword_stopdate) and keyword_set(keyword_required) then timespan=create_struct(name='TimeSpan','startdate','','stopdate','')
+
+if keyword_set(keyword_relativestopdate) and not keyword_set(keyword_required) then timespan=create_struct(name='TimeSpan','startdate','','relativestopdate','','note',make_array(spase_ontology(367).occur_num,/string,value=''))
+
+if keyword_set(keyword_relativestopdate) and keyword_set(keyword_required) then timespan=create_struct(name='TimeSpan','startdate','','relativestopdate','')
+
+if (request eq 'timespan') then requested_structure=timespan
+
+if not keyword_set(keyword_required) then installer=create_struct(name='Installer','availability','','accessrights','','acknowledgement','','url','')
+
+if keyword_set(keyword_required) then installer=create_struct(name='Installer','url','')
+
+if (request eq 'installer') then requested_structure=installer
+
+checksum=create_struct(name='Checksum','hashvalue','','hashfunction','')
+
+if (request eq 'checksum') then requested_structure=checksum
+
+if not keyword_set(keyword_required) then resourceheader=create_struct(name='ResourceHeader','resourcename','','alternatename',make_array(spase_ontology(6).occur_num,/string,value=''),'doi','','releasedate','','revisionhistory',revisionhistory,'expirationdate','','description','','acknowledgement','','publicationinfo',publicationinfo,'funding',replicate(funding,spase_ontology(22).occur_num),'contact',replicate(contact,spase_ontology(26).occur_num),'informationurl',replicate(informationurl,spase_ontology(32).occur_num),'association',replicate(association,spase_ontology(37).occur_num),'priorid',make_array(spase_ontology(41).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then resourceheader=create_struct(name='ResourceHeader','resourcename','','releasedate','','description','','contact',replicate(contact,spase_ontology(26).occur_num))
+
+if (request eq 'resourceheader') then requested_structure=resourceheader
+
+if not keyword_set(keyword_required) then accessinformation=create_struct(name='AccessInformation','repositoryid','','availability','','accessrights','','accessurl',replicate(accessurl,spase_ontology(46).occur_num),'format',make_array(spase_ontology(53).occur_num,/string,value=''),'encoding','','dataextent',dataextent,'acknowledgement','')
+
+if keyword_set(keyword_required) then accessinformation=create_struct(name='AccessInformation','repositoryid','','accessurl',replicate(accessurl,spase_ontology(46).occur_num),'format',make_array(spase_ontology(53).occur_num,/string,value=''))
+
+if (request eq 'accessinformation') then requested_structure=accessinformation
+
+if not keyword_set(keyword_required) then member=create_struct(name='Member','resourcename',make_array(spase_ontology(61).occur_num,/string,value=''),'description','','memberid','','startdate','','stopdate','','spatialcoverage',spatialcoverage)
+
+if keyword_set(keyword_required) then member=create_struct(name='Member','resourcename',make_array(spase_ontology(61).occur_num,/string,value=''))
+
+if (request eq 'member') then requested_structure=member
+
+if not keyword_set(keyword_required) then parameter=create_struct(name='Parameter','name','','set',make_array(spase_ontology(155).occur_num,/string,value=''),'parameterkey','','description','','ucd','','caveats','','cadence','','cadencemin','','cadencemax','','units','','unitsconversion','','coordinatesystem',coordinatesystem,'renderinghints',replicate(renderinghints,spase_ontology(168).occur_num),'structure',structure,'validmin','','validmax','','fillvalue','','field',field,'particle',particle,'wave',wave,'mixed',mixed,'support',support)
+
+if keyword_set(keyword_required) then parameter=create_struct(name='Parameter','name','','field',field,'particle',particle,'wave',wave,'mixed',mixed,'support',support)
+
+if (request eq 'parameter') then requested_structure=parameter
+
+if not keyword_set(keyword_required) then temporaldescription=create_struct(name='TemporalDescription','timespan',timespan,'cadence','','cadencemin','','cadencemax','','exposure','','exposuremin','','exposuremax','')
+
+if keyword_set(keyword_required) then temporaldescription=create_struct(name='TemporalDescription','timespan',timespan)
+
+if (request eq 'temporaldescription') then requested_structure=temporaldescription
+
+if not keyword_set(keyword_required) then executionenvironment=create_struct(name='ExecutionEnvironment','operatingsystem','','installer',installer,'cores','','storage','','memory','')
+
+if keyword_set(keyword_required) then executionenvironment=create_struct(name='ExecutionEnvironment','operatingsystem','','installer',installer)
+
+if (request eq 'executionenvironment') then requested_structure=executionenvironment
+
+if not keyword_set(keyword_required) then inputproperty=create_struct(name='InputProperty','name','','description','','caveats','','units','','validmin','','validmax','')
+
+if keyword_set(keyword_required) then inputproperty=create_struct(name='InputProperty','name','','description','')
+
+if (request eq 'inputproperty') then requested_structure=inputproperty
+
+if not keyword_set(keyword_required) then outputproperty=create_struct(name='OutputProperty','name','','description','','caveats','','units','','validmin','','validmax','')
+
+if keyword_set(keyword_required) then outputproperty=create_struct(name='OutputProperty','name','','description','')
+
+if (request eq 'outputproperty') then requested_structure=outputproperty
+
+if not keyword_set(keyword_required) then source=create_struct(name='Source','sourcetype','','url','','mirrorurl',make_array(spase_ontology(936).occur_num,/string,value=''),'checksum',checksum,'dataextent',dataextent)
+
+if keyword_set(keyword_required) then source=create_struct(name='Source','sourcetype','','url','')
+
+if (request eq 'source') then requested_structure=source
+
+if not keyword_set(keyword_required) then operatingspan=create_struct(name='OperatingSpan','startdate','','stopdate','','note',make_array(spase_ontology(990).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then operatingspan=create_struct(name='OperatingSpan','startdate','')
+
+if (request eq 'operatingspan') then requested_structure=operatingspan
+
+if not keyword_set(keyword_required) then location=create_struct(name='Location','observatoryregion',make_array(spase_ontology(1036).occur_num,/string,value=''),'coordinatesystemname','','latitude','','longitude','','elevation','')
+
+if keyword_set(keyword_required) then location=create_struct(name='Location','observatoryregion',make_array(spase_ontology(1036).occur_num,/string,value=''))
+
+if (request eq 'location') then requested_structure=location
+
+if not keyword_set(keyword_required) then observationextent=create_struct(name='ObservationExtent','observedregion','','startlocation','','stoplocation','','note',make_array(spase_ontology(1256).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then observationextent=create_struct(name='ObservationExtent','startlocation','','stoplocation','')
+
+if (request eq 'observationextent') then requested_structure=observationextent
+
+if not keyword_set(keyword_required) then collection=create_struct(name='Collection','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(42).occur_num),'member',replicate(member,spase_ontology(60).occur_num),'extension',make_array(spase_ontology(81).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then collection=create_struct(name='Collection','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(42).occur_num),'member',replicate(member,spase_ontology(60).occur_num))
+
+if (request eq 'collection') then requested_structure=collection
+
+if not keyword_set(keyword_required) then catalog=create_struct(name='Catalog','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(122).occur_num),'providername','','providerresourcename','','providerversion','','instrumentid',make_array(spase_ontology(143).occur_num,/string,value=''),'phenomenontype',make_array(spase_ontology(144).occur_num,/string,value=''),'timespan',timespan,'caveats','','keyword',make_array(spase_ontology(151).occur_num,/string,value=''),'inputresourceid',make_array(spase_ontology(152).occur_num,/string,value=''),'parameter',replicate(parameter,spase_ontology(153).occur_num),'extension',make_array(spase_ontology(296).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then catalog=create_struct(name='Catalog','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(122).occur_num),'phenomenontype',make_array(spase_ontology(144).occur_num,/string,value=''))
+
+if (request eq 'catalog') then requested_structure=catalog
+
+if not keyword_set(keyword_required) then displaydata=create_struct(name='DisplayData','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(337).occur_num),'processinglevel','','providername','','providerresourcename','','providerprocessinglevel','','providerversion','','instrumentid',make_array(spase_ontology(360).occur_num,/string,value=''),'measurementtype',make_array(spase_ontology(361).occur_num,/string,value=''),'temporaldescription',temporaldescription,'spectralrange',make_array(spase_ontology(374).occur_num,/string,value=''),'displaycadence','','observedregion',make_array(spase_ontology(376).occur_num,/string,value=''),'spatialcoverage',replicate(spatialcoverage,spase_ontology(377).occur_num),'caveats','','keyword',make_array(spase_ontology(393).occur_num,/string,value=''),'inputresourceid',make_array(spase_ontology(394).occur_num,/string,value=''),'parameter',replicate(parameter,spase_ontology(395).occur_num),'extension',make_array(spase_ontology(538).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then displaydata=create_struct(name='DisplayData','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(337).occur_num),'measurementtype',make_array(spase_ontology(361).occur_num,/string,value=''),'spatialcoverage',replicate(spatialcoverage,spase_ontology(377).occur_num))
+
+if (request eq 'displaydata') then requested_structure=displaydata
+
+if not keyword_set(keyword_required) then numericaldata=create_struct(name='NumericalData','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(579).occur_num),'processinglevel','','providername','','providerresourcename','','providerprocessinglevel','','providerversion','','instrumentid',make_array(spase_ontology(602).occur_num,/string,value=''),'measurementtype',make_array(spase_ontology(603).occur_num,/string,value=''),'temporaldescription',temporaldescription,'spectralrange',make_array(spase_ontology(616).occur_num,/string,value=''),'observedregion',make_array(spase_ontology(617).occur_num,/string,value=''),'spatialcoverage',replicate(spatialcoverage,spase_ontology(618).occur_num),'caveats','','keyword',make_array(spase_ontology(634).occur_num,/string,value=''),'inputresourceid',make_array(spase_ontology(635).occur_num,/string,value=''),'parameter',replicate(parameter,spase_ontology(636).occur_num),'extension',make_array(spase_ontology(779).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then numericaldata=create_struct(name='NumericalData','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(579).occur_num),'measurementtype',make_array(spase_ontology(603).occur_num,/string,value=''))
+
+if (request eq 'numericaldata') then requested_structure=numericaldata
+
+if not keyword_set(keyword_required) then document=create_struct(name='Document','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(820).occur_num),'keyword',make_array(spase_ontology(838).occur_num,/string,value=''),'documenttype','','mimetype','','inputresourceid',make_array(spase_ontology(841).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then document=create_struct(name='Document','resourceid','','resourceheader',resourceheader,'accessinformation',replicate(accessinformation,spase_ontology(820).occur_num),'documenttype','','mimetype','')
+
+if (request eq 'document') then requested_structure=document
+
+if not keyword_set(keyword_required) then software=create_struct(name='Software','resourceid','','resourceheader',resourceheader,'softwareversion','','applicationinterface',make_array(spase_ontology(883).occur_num,/string,value=''),'codelanguage','','prerequisites',make_array(spase_ontology(885).occur_num,/string,value=''),'executionenvironment',replicate(executionenvironment,spase_ontology(886).occur_num),'inputproperty',replicate(inputproperty,spase_ontology(896).occur_num),'outputproperty',replicate(outputproperty,spase_ontology(903).occur_num))
+
+if keyword_set(keyword_required) then software=create_struct(name='Software','resourceid','','resourceheader',resourceheader,'prerequisites',make_array(spase_ontology(885).occur_num,/string,value=''),'executionenvironment',replicate(executionenvironment,spase_ontology(886).occur_num))
+
+if (request eq 'software') then requested_structure=software
+
+if not keyword_set(keyword_required) then granule=create_struct(name='Granule','resourceid','','releasedate','','expirationdate','','parentid','','priorid',make_array(spase_ontology(915).occur_num,/string,value=''),'startdate','','stopdate','','spatialcoverage',replicate(spatialcoverage,spase_ontology(918).occur_num),'source',replicate(source,spase_ontology(933).occur_num))
+
+if keyword_set(keyword_required) then granule=create_struct(name='Granule','resourceid','','releasedate','','parentid','','startdate','','stopdate','','spatialcoverage',replicate(spatialcoverage,spase_ontology(918).occur_num),'source',replicate(source,spase_ontology(933).occur_num))
+
+if (request eq 'granule') then requested_structure=granule
+
+if not keyword_set(keyword_required) then instrument=create_struct(name='Instrument','resourceid','','resourceheader',resourceheader,'instrumenttype',make_array(spase_ontology(984).occur_num,/string,value=''),'instrumentgroupid','','investigationname',make_array(spase_ontology(986).occur_num,/string,value=''),'operatingspan',operatingspan,'observatoryid','','extension',make_array(spase_ontology(993).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then instrument=create_struct(name='Instrument','resourceid','','resourceheader',resourceheader,'instrumenttype',make_array(spase_ontology(984).occur_num,/string,value=''),'investigationname',make_array(spase_ontology(986).occur_num,/string,value=''),'observatoryid','')
+
+if (request eq 'instrument') then requested_structure=instrument
+
+if not keyword_set(keyword_required) then observatory=create_struct(name='Observatory','resourceid','','resourceheader',resourceheader,'observatorygroupid',make_array(spase_ontology(1034).occur_num,/string,value=''),'location',replicate(location,spase_ontology(1035).occur_num),'operatingspan',replicate(operatingspan,spase_ontology(1041).occur_num),'extension',make_array(spase_ontology(1045).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then observatory=create_struct(name='Observatory','resourceid','','resourceheader',resourceheader,'location',replicate(location,spase_ontology(1035).occur_num),'operatingspan',replicate(operatingspan,spase_ontology(1041).occur_num))
+
+if (request eq 'observatory') then requested_structure=observatory
+
+if not keyword_set(keyword_required) then person=create_struct(name='Person','resourceid','','releasedate','','personname','','organizationname','','address','','email',make_array(spase_ontology(1052).occur_num,/string,value=''),'phonenumber',make_array(spase_ontology(1053).occur_num,/string,value=''),'faxnumber','','orcidentifier','','note','','extension',make_array(spase_ontology(1057).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then person=create_struct(name='Person','resourceid','','organizationname','')
+
+if (request eq 'person') then requested_structure=person
+
+if not keyword_set(keyword_required) then registry=create_struct(name='Registry','resourceid','','resourceheader',resourceheader,'accessurl',accessurl,'extension',make_array(spase_ontology(1105).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then registry=create_struct(name='Registry','resourceid','','resourceheader',resourceheader,'accessurl',accessurl)
+
+if (request eq 'registry') then requested_structure=registry
+
+if not keyword_set(keyword_required) then repository=create_struct(name='Repository','resourceid','','resourceheader',resourceheader,'accessurl',accessurl,'extension',make_array(spase_ontology(1153).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then repository=create_struct(name='Repository','resourceid','','resourceheader',resourceheader,'accessurl',accessurl)
+
+if (request eq 'repository') then requested_structure=repository
+
+if not keyword_set(keyword_required) then service=create_struct(name='Service','resourceid','','resourceheader',resourceheader,'accessurl',accessurl,'extension',make_array(spase_ontology(1201).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then service=create_struct(name='Service','resourceid','','resourceheader',resourceheader,'accessurl',accessurl)
+
+if (request eq 'service') then requested_structure=service
+
+if not keyword_set(keyword_required) then annotation=create_struct(name='Annotation','resourceid','','resourceheader',resourceheader,'imageurl','','annotationtype','','phenomenontype',make_array(spase_ontology(1244).occur_num,/string,value=''),'classificationmethod','','confidencerating','','timespan',replicate(timespan,spase_ontology(1247).occur_num),'observationextent',replicate(observationextent,spase_ontology(1252).occur_num),'extension',make_array(spase_ontology(1257).occur_num,/string,value=''))
+
+if keyword_set(keyword_required) then annotation=create_struct(name='Annotation','resourceid','','resourceheader',resourceheader,'annotationtype','')
+
+if (request eq 'annotation') then requested_structure=annotation
+
+spase=create_struct(name='Spase','version','','collection',replicate(collection,spase_ontology(2).occur_num),'catalog',replicate(catalog,spase_ontology(82).occur_num),'displaydata',replicate(displaydata,spase_ontology(297).occur_num),'numericaldata',replicate(numericaldata,spase_ontology(539).occur_num),'document',replicate(document,spase_ontology(780).occur_num),'software',replicate(software,spase_ontology(842).occur_num),'granule',replicate(granule,spase_ontology(910).occur_num),'instrument',replicate(instrument,spase_ontology(944).occur_num),'observatory',replicate(observatory,spase_ontology(994).occur_num),'person',replicate(person,spase_ontology(1046).occur_num),'registry',replicate(registry,spase_ontology(1058).occur_num),'repository',replicate(repository,spase_ontology(1106).occur_num),'service',replicate(service,spase_ontology(1154).occur_num),'annotation',replicate(annotation,spase_ontology(1202).occur_num))
+
+if (request eq 'spase') then requested_structure=spase
+
+return,requested_structure
+
+end
+
